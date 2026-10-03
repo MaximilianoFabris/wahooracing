@@ -1,0 +1,18 @@
+{
+  "source": "C:\\Users\\maxfa\\Desktop\\Wahoo\\_Board Design\\_ChatGpt\\_Wahoo_Engineering\\01_Geometry_Analysis\\H0_R02_Transverse_Sections.csv",
+  "sha256": "38f8e0cbe4a6b46373e62fd4ee03984dbbcabf271849cdf10f794363772909bc",
+  "stations_percent": [
+    25,
+    50,
+    75,
+    90
+  ],
+  "axes": "Y port-positive and Z up in cm; same 6.4 px/cm scale on both axes; all valid branch samples preserved in parameter order; no geometry alteration",
+  "source_rows": {
+    "25": 646,
+    "50": 624,
+    "75": 508,
+    "90": 398
+  },
+  "evidence": "R02 geometric section samples; not an acceptance test or hydrodynamic result"
+}

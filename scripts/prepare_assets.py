@@ -12,6 +12,9 @@ assets=[
  ('archive-assembly.webp',BOARD/'Wahoo_02_transparent background.png',1600),
  ('archive-water.webp',BOARD/'Wahoo_01_transparent background.png',1000),
  ('archive-sketch.webp',BOARD/'blueprint01.jpg',1200),
+ ('archive-deck.webp',BOARD/'Wahoo_01_transparent background_02.png',1400),
+ ('archive-grab-handle.webp',BOARD/'grabhandle.png',1300),
+ ('archive-hand-control.webp',BOARD/'ViewCapture20220421_043009.png',1400),
 ]
 records=[]
 for name,src,size in assets:

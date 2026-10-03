@@ -40,5 +40,23 @@
     "source": "C:\\Users\\maxfa\\Desktop\\Wahoo\\_Board Design\\blueprint01.jpg",
     "sha256": "9370d7e2b6119fb2d0c3e90880c7135b0aed4b4f144d61fd0bee7e2eea64fa7f",
     "treatment": "Resized and encoded; alpha preserved. Original unchanged."
+  },
+  {
+    "asset": "archive-deck.webp",
+    "source": "C:\\Users\\maxfa\\Desktop\\Wahoo\\_Board Design\\Wahoo_01_transparent background_02.png",
+    "sha256": "66967ac8c1475b638d8ade388ba8cb8aed0d246180a4c631803939dc1c222e1a",
+    "treatment": "Resized and encoded; alpha preserved. Original unchanged."
+  },
+  {
+    "asset": "archive-grab-handle.webp",
+    "source": "C:\\Users\\maxfa\\Desktop\\Wahoo\\_Board Design\\grabhandle.png",
+    "sha256": "74e78e38d064a3eacee99d0235acb21d37395779d5baf484a37917e2aa31d42f",
+    "treatment": "Resized and encoded; alpha preserved. Original unchanged."
+  },
+  {
+    "asset": "archive-hand-control.webp",
+    "source": "C:\\Users\\maxfa\\Desktop\\Wahoo\\_Board Design\\ViewCapture20220421_043009.png",
+    "sha256": "1573b37c2630cd65dbd0859f6f782297df0bc8cdb222fd746c7efd1b3bdc01ea",
+    "treatment": "Resized and encoded; alpha preserved. Original unchanged."
   }
 ]

@@ -42,7 +42,7 @@ The optional `chart: true` field currently embeds the specific H0 R03 displaceme
 
 ## Scope of this version
 
-Includes home, image-based board exploration, 11 system pages, the Hull & Hydrodynamics study, four development articles, journal filters, history, roadmap and support information. System pages without reviewed evidence have explicit empty states. The support page does not collect money or imply a live offering. Contact details remain pending. No analytics or third-party tracking is included.
+Includes home, image-based board exploration, 11 system pages, the Hull & Hydrodynamics study, five development articles, journal filters, history, roadmap and support information. Component galleries show the earlier grab handle, hand control and deck layout. Four transparent hull-section graphics retain the actual R02 coordinate samples and equal axis scales. System pages without reviewed evidence have explicit empty states. The support page does not collect money or imply a live offering. Contact details remain pending. No analytics or third-party tracking is included.
 
 Interactive assembly 3D, detailed component disclosures, a private publishing interface and confirmed public contact channels remain future enhancements. More source documents and chat history can be curated incrementally; this version does not claim to have reviewed the full archive.
 
