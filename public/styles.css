@@ -7,4 +7,3 @@
 
 /* Decorative water layers may bleed within the page, never into horizontal scrolling. */
 main{overflow-x:clip}
-
