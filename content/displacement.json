@@ -1,0 +1,158 @@
+[
+  {
+    "density": 998,
+    "mass": 5.0,
+    "immersion": 0.01336150941535731,
+    "achievable": true
+  },
+  {
+    "density": 998,
+    "mass": 10.0,
+    "immersion": 0.025137316263370027,
+    "achievable": true
+  },
+  {
+    "density": 998,
+    "mass": 15.0,
+    "immersion": 0.03472797245534775,
+    "achievable": true
+  },
+  {
+    "density": 998,
+    "mass": 18.2,
+    "immersion": 0.04014297584703825,
+    "achievable": true
+  },
+  {
+    "density": 998,
+    "mass": 20.0,
+    "immersion": 0.043047991638548666,
+    "achievable": true
+  },
+  {
+    "density": 998,
+    "mass": 22.0,
+    "immersion": 0.046186051219780054,
+    "achievable": true
+  },
+  {
+    "density": 998,
+    "mass": 25.0,
+    "immersion": 0.05074481891652468,
+    "achievable": true
+  },
+  {
+    "density": 998,
+    "mass": 30.0,
+    "immersion": 0.058016137822920255,
+    "achievable": true
+  },
+  {
+    "density": 998,
+    "mass": 40.0,
+    "immersion": 0.07190274872564052,
+    "achievable": true
+  },
+  {
+    "density": 998,
+    "mass": 50.0,
+    "immersion": 0.08567312201543249,
+    "achievable": true
+  },
+  {
+    "density": 998,
+    "mass": 60.0,
+    "immersion": 0.0995217228924504,
+    "achievable": true
+  },
+  {
+    "density": 998,
+    "mass": 80.0,
+    "immersion": 0.13773983249782382,
+    "achievable": true
+  },
+  {
+    "density": 998,
+    "mass": 100.0,
+    "immersion": null,
+    "achievable": false
+  },
+  {
+    "density": 1025,
+    "mass": 5.0,
+    "immersion": 0.01300645707214608,
+    "achievable": true
+  },
+  {
+    "density": 1025,
+    "mass": 10.0,
+    "immersion": 0.02458200634984283,
+    "achievable": true
+  },
+  {
+    "density": 1025,
+    "mass": 15.0,
+    "immersion": 0.03402869587184959,
+    "achievable": true
+  },
+  {
+    "density": 1025,
+    "mass": 18.2,
+    "immersion": 0.03935439085746555,
+    "achievable": true
+  },
+  {
+    "density": 1025,
+    "mass": 20.0,
+    "immersion": 0.04220629385373471,
+    "achievable": true
+  },
+  {
+    "density": 1025,
+    "mass": 22.0,
+    "immersion": 0.045285614517499614,
+    "achievable": true
+  },
+  {
+    "density": 1025,
+    "mass": 25.0,
+    "immersion": 0.04975797980838476,
+    "achievable": true
+  },
+  {
+    "density": 1025,
+    "mass": 30.0,
+    "immersion": 0.056890115331757,
+    "achievable": true
+  },
+  {
+    "density": 1025,
+    "mass": 40.0,
+    "immersion": 0.07045248290776593,
+    "achievable": true
+  },
+  {
+    "density": 1025,
+    "mass": 50.0,
+    "immersion": 0.083859441722413,
+    "achievable": true
+  },
+  {
+    "density": 1025,
+    "mass": 60.0,
+    "immersion": 0.0973164911104771,
+    "achievable": true
+  },
+  {
+    "density": 1025,
+    "mass": 80.0,
+    "immersion": 0.13184983662138927,
+    "achievable": true
+  },
+  {
+    "density": 1025,
+    "mass": 100.0,
+    "immersion": null,
+    "achievable": false
+  }
+]

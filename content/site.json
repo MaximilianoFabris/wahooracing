@@ -1,0 +1,18 @@
+{
+  "title":"Wahoo Racing",
+  "description":"Follow the development of the Wahoo Racing jetboard: the geometry, the decisions and the evidence.",
+  "contactEmail":null,
+  "systems":[
+    {"slug":"hull-hydrodynamics","name":"Hull & hydrodynamics","summary":"Geometry, flotation and balance.","available":true},
+    {"slug":"engine","name":"Engine","summary":"Engine architecture, packaging and mass."},
+    {"slug":"fuel-injection","name":"Fuel & injection","summary":"Fuel storage, delivery and injection."},
+    {"slug":"air-intake","name":"Air intake","summary":"Air supply, routing and water separation."},
+    {"slug":"exhaust","name":"Exhaust","summary":"Routing, heat management and installation."},
+    {"slug":"jet-pump","name":"Jet pump & propulsion","summary":"Impeller, nozzle and propulsion integration."},
+    {"slug":"cooling","name":"Cooling","summary":"Cooling circuits and thermal management."},
+    {"slug":"electrical","name":"Electrical, battery & starting","summary":"Power, wiring and starting systems."},
+    {"slug":"controls","name":"ECU, sensors & controls","summary":"Engine management and rider controls."},
+    {"slug":"deck","name":"Deck & rider interface","summary":"Footpads, handles and the rider connection."},
+    {"slug":"manufacturing","name":"Assembly & manufacturing","summary":"Materials, construction and serviceability."}
+  ]
+}

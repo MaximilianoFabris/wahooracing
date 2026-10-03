@@ -1,0 +1,44 @@
+[
+  {
+    "asset": "logo.png",
+    "source": "C:\\Users\\maxfa\\Desktop\\Wahoo\\Wahoo_Gray.png",
+    "sha256": "d76c468fb0257fa48bce43f203bab89000a87fda296ac4d0fe9e2e213e8297a0",
+    "treatment": "Resized and encoded; alpha preserved. Original unchanged."
+  },
+  {
+    "asset": "hull-hero.webp",
+    "source": "C:\\Users\\maxfa\\Desktop\\Wahoo\\_Board Design\\_ChatGpt\\design-approval\\hull-hero.png",
+    "sha256": "1d8a8df03e019e0e1246405a9f2f4e89c03f30c76ee877b7f25d72beba3e09f1",
+    "treatment": "Resized and encoded; alpha preserved. Original unchanged."
+  },
+  {
+    "asset": "hull-bottom.webp",
+    "source": "C:\\Users\\maxfa\\Desktop\\Wahoo\\_Board Design\\_ChatGpt\\design-approval\\hull-bottom.png",
+    "sha256": "0455f26b3c84fb6604a789bca6479307753482b4905abfa40837bef0055f139a",
+    "treatment": "Resized and encoded; alpha preserved. Original unchanged."
+  },
+  {
+    "asset": "archive-exterior.webp",
+    "source": "C:\\Users\\maxfa\\Desktop\\Wahoo\\_Board Design\\perspective 01.png",
+    "sha256": "fd8afdd75beaff34565140123438bca7e89ca30023e714a8effdbe83e9057be2",
+    "treatment": "Resized and encoded; alpha preserved. Original unchanged."
+  },
+  {
+    "asset": "archive-assembly.webp",
+    "source": "C:\\Users\\maxfa\\Desktop\\Wahoo\\_Board Design\\Wahoo_02_transparent background.png",
+    "sha256": "cf4947d41e0f45546cc56cc7d6c68b9b88a739bc37800d97bbf9d9cd09c1912c",
+    "treatment": "Resized and encoded; alpha preserved. Original unchanged."
+  },
+  {
+    "asset": "archive-water.webp",
+    "source": "C:\\Users\\maxfa\\Desktop\\Wahoo\\_Board Design\\Wahoo_01_transparent background.png",
+    "sha256": "746d90380ed4a2ea8000e5ce2a39087daf1720b12087d3d0609f441eb792ec5a",
+    "treatment": "Resized and encoded; alpha preserved. Original unchanged."
+  },
+  {
+    "asset": "archive-sketch.webp",
+    "source": "C:\\Users\\maxfa\\Desktop\\Wahoo\\_Board Design\\blueprint01.jpg",
+    "sha256": "9370d7e2b6119fb2d0c3e90880c7135b0aed4b4f144d61fd0bee7e2eea64fa7f",
+    "treatment": "Resized and encoded; alpha preserved. Original unchanged."
+  }
+]
