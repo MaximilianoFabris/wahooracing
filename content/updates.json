@@ -1,5 +1,231 @@
 [
   {
+    "slug": "fuel-tank-balance",
+    "title": "Place the fuel. Control the change.",
+    "summary": "A low tank ahead of the engine, close to the intended centre of gravity: balance and independent service access guide the current direction.",
+    "systems": [
+      "fuel-injection",
+      "hull-hydrodynamics",
+      "deck",
+      "manufacturing"
+    ],
+    "sections": [
+      {
+        "title": "A mass that changes during the ride",
+        "text": "The current direction is a relatively flat, elongated tank, low in the hull and immediately ahead of the engine. Its fuel centroid is intended to remain close to the target longitudinal centre of gravity (LCG). The aim is to limit balance changes as fuel is consumed while retaining access for service. Final capacity, dimensions, material and installation coordinates are open.",
+        "visual": "fuel-layout"
+      },
+      {
+        "title": "A working window, not a frozen station",
+        "text": "The supplied fuel study proposes an LCG window of approximately 38–42% of hull length forward from the transom. It is a starting hypothesis for the complete mass model and prototype tests. The source layout graphic is schematic and its marker does not align with that numerical window. This redraw follows the stated transom datum; it does not derive a tank position from the original picture."
+      },
+      {
+        "title": "Distance matters as well as mass",
+        "text": "Fuel has a moment arm about the rest of the system’s centre of gravity. Keeping its centroid nearby reduces the contribution of fuel consumption to CG migration. Placing it farther forward or aft increases that contribution for the same fuel mass. The final answer depends on the engine, exhaust, pump, hull, battery, other equipment and rider—not on the tank alone.",
+        "visual": "fuel-levers"
+      },
+      {
+        "title": "Why proximity reduces migration",
+        "text": "For a fixed non-fuel assembly, combined CG = (non-fuel mass × its CG + fuel mass × fuel centroid) / total mass. The example below isolates that relationship using dimensionless inputs. Rider stance is held fixed and the fuel centroid is assumed constant; neither is necessarily constant during a real turn.",
+        "visual": "fuel-migration"
+      },
+      {
+        "title": "Handling remains a question for testing",
+        "text": "The intended benefits are controlled trim, predictable corner response and consistent intake presentation as fuel burns. The source discusses stern squat, planing and porpoising, but supplies no measured comparison or dynamic model. Those benefits are objectives to evaluate; the static mass equation cannot demonstrate them."
+      },
+      {
+        "title": "Remove the tank. Keep the engine installed.",
+        "text": "Independent tank removal is a packaging requirement. Reserve a usable access opening, disconnection points and a clear extraction path. Baffles and/or fuel-compatible foam are under consideration to control slosh. Pickup behaviour, venting, thermal expansion and fittings must be resolved with the selected fuel system.",
+        "visual": "fuel-access"
+      },
+      {
+        "title": "Capacity follows the duty cycle",
+        "text": "The newer engine report defines 15–20 minutes of racing and 40–45 minutes of leisure operation as requirements. Neither is demonstrated endurance. Its fuel-flow and tank-size examples are illustrative, so they are not adopted as Wahoo capacity. Final usable volume must come from consumption logs and pickup performance in the intended duty cycles."
+      },
+      {
+        "title": "The next evidence",
+        "text": "Build the complete mass model for full and low fuel, include rider stance and actual internal geometry, and inspect vertical as well as longitudinal CG. Then evaluate the installed prototype. The earlier H0 R03 level-immersion calculation remains a separate study and does not validate this layout."
+      }
+    ],
+    "sources": [
+      "Wahoo_Fuel_Tank_Positioning_Website_Content · supplied PDF (5 pages) and DOCX; source date not stated",
+      "WAHOO_125cc_Engine_Development_Rev01.docx · 04 October 2026"
+    ],
+    "date": "2026-10-04",
+    "dateLabel": "04 Oct 2026 · source review",
+    "revision": "V1 / ENGINE & FUEL",
+    "type": "Engineering study",
+    "evidence": "Design direction & calculated geometry",
+    "status": "published",
+    "changes": "Source-reviewed website edition. Diagrams redrawn for the website; source originals retained. Nominal calculations and schematic relationships are not manufacturing releases or measured performance."
+  },
+  {
+    "slug": "engine-component-baseline",
+    "title": "A defined baseline. Interfaces still open.",
+    "summary": "The latest engine report selects the 54 × 54.5 mm direction and a Wössner component route, while leaving manufacturing dimensions subject to verification.",
+    "systems": [
+      "engine",
+      "manufacturing",
+      "jet-pump"
+    ],
+    "sections": [
+      {
+        "title": "What has advanced",
+        "text": "The 4 October engine report retains Option A: 54.00 mm nominal bore and 54.50 mm stroke, giving a calculated 124.817 cc. It records the 8160DA single-ring piston and CS2018 complete crankshaft strategy as the project baseline, with P2018-family rod references. These are project selections, not supplier approval for Wahoo or evidence of tested marine durability."
+      },
+      {
+        "title": "The axes define the packaging problem",
+        "text": "With the crankshaft aligned to the pump, the horizontal cylinder lies approximately across the hull. Its cylinder-axis stack uses local interior width. Bearings, crank webs, shaft ends and the coupling use length along the pump axis. The maximum outer hull width cannot establish the engine bay’s usable space.",
+        "visual": "engine-arrangement"
+      },
+      {
+        "title": "The nominal dimension chain",
+        "text": "Use r = 27.25 mm, L = 102 mm and H = 28 mm as the report’s working geometry. At top dead centre, crown-datum reach is r + L + H = 157.25 mm; at bottom dead centre it is L − r + H = 102.75 mm. Rod centre distance and the supplier’s crown datum must be confirmed. Neither reach is the complete engine width.",
+        "visual": "engine-datums"
+      },
+      {
+        "title": "Piston and pin need their own datums",
+        "text": "The report identifies 8160DA as the single-ring baseline and WP032 as the pin reference, listed at 15 mm OD, 10 mm ID and 45 mm length. A 28 mm compression-height reference remains conditional on its crown datum. These are source-report references pending drawings or exact-part inspection; the diagram deliberately avoids inventing the crown or skirt.",
+        "visual": "engine-pin"
+      },
+      {
+        "title": "The rod reference is not an optimum",
+        "text": "A 102 mm rod gives L / stroke ≈ 1.872 and L / crank radius ≈ 3.743. Increasing rod length changes angularity and packaging together; it does not guarantee a power gain. The source’s Ø29 and Ø19 eye references include space for bearings and must not be mistaken for crankpin or gudgeon-pin diameters.",
+        "visual": "engine-rod"
+      },
+      {
+        "title": "Design around the purchased crank",
+        "text": "The CS2018 sourcing route replaces the earlier custom-crank assumptions. Do not carry the old assumed 100 mm web, 25 mm journals or bearing-centre spacing into the new crankcase. Obtain the actual journals, shoulders, shaft ends, pack width, rotation and sweep first. The report also flags inconsistent main-bearing designations to resolve before machining.",
+        "visual": "engine-crank"
+      },
+      {
+        "title": "What we buy and what we develop",
+        "text": "The proposed split retains matched purchased moving parts and traceable bearings, then develops the crankcase, cylinder, head, exhaust and installation interfaces around verified data. Pump thrust needs its own deliberate load path. Component prices and a piston-plus-crank subtotal are not a complete engine cost, so the website makes no production-cost claim."
+      },
+      {
+        "title": "A release requires evidence",
+        "text": "The immediate milestone is a verified piston–rod–crank interface package: supplier drawings or commissioned metrology of identified parts. Confirm crown volume, ring-pin paths, masses, runout, fits and bearing details. No machining tolerances, coating process, squish clearance or service interval is released by this baseline."
+      }
+    ],
+    "sources": [
+      "WAHOO_125cc_Engine_Development_Rev01.docx · 04 October 2026"
+    ],
+    "date": "2026-10-04",
+    "dateLabel": "04 Oct 2026 · source review",
+    "revision": "V1 / ENGINE & FUEL",
+    "type": "Engineering study",
+    "evidence": "Design direction & calculated geometry",
+    "status": "published",
+    "changes": "Source-reviewed website edition. Diagrams redrawn for the website; source originals retained. Nominal calculations and schematic relationships are not manufacturing releases or measured performance."
+  },
+  {
+    "slug": "engine-motion-and-ports",
+    "title": "From crank angle to piston travel.",
+    "summary": "Reproducible nominal geometry explains motion and packaging. It does not establish power, durability or a finished port map.",
+    "systems": [
+      "engine",
+      "exhaust",
+      "manufacturing"
+    ],
+    "sections": [
+      {
+        "title": "One revolution, calculated",
+        "text": "The source model is a rigid, zero-offset slider crank with a 27.25 mm crank radius and 102 mm rod centre distance. These plots are recalculated from those inputs at the 12,000 rpm design reference. One revolution lasts 5 ms. The reference speed is not a validated operating limit.",
+        "visual": "engine-motion"
+      },
+      {
+        "title": "Mean and peak speed answer different questions",
+        "text": "Mean piston speed is total travel per unit time: twice the stroke multiplied by revolutions per second. It is 21.80 m/s at 12,000 rpm. The instantaneous peak is approximately 35.45 m/s. The curves exclude bearing clearances, deflection and thermal growth; neither value is a strength or fatigue assessment."
+      },
+      {
+        "title": "Why a shorter stroke saves less than expected",
+        "text": "The report compares Option A with a hypothetical 56 × 50.6 mm configuration using the same 102 mm rod and 28 mm compression height. The crown-datum reach falls from 157.25 to 155.30 mm: a saving of 1.95 mm, not 40 mm. A hypothetical 25 mm compression height would bring that reach to 152.30 mm, but it is not an approved parts combination. Overall package width still includes the case, head and service space."
+      },
+      {
+        "title": "The crown determines the head relationship",
+        "text": "The selected piston’s actual crown contour is unresolved. Flat, domed and dished examples explain why a photograph is insufficient for head design. Clearance volume and squish depend on the real crown, deck datum and hot assembly. A head gasket alters the head relationship; a base gasket also moves the cylinder ports relative to the crank.",
+        "visual": "engine-crowns"
+      },
+      {
+        "title": "Port timing starts with motion and geometry",
+        "text": "A port roof is uncovered when the actual piston edge passes it. Under a matching flat-datum assumption, required travel is roof depth below deck minus the piston’s TDC deck clearance. The report’s worked opening angles are examples only. No port widths, heights or timing settings are selected for production.",
+        "visual": "engine-ports"
+      },
+      {
+        "title": "Beyond opening angle",
+        "text": "Effective area through the cycle, gas pressure, transfer direction, ring support and the exhaust all matter. A geometric opening event alone cannot specify a working cylinder. The next record needs the actual crown and ring-pin paths, a controlled port map and a tested engine/exhaust combination."
+      }
+    ],
+    "sources": [
+      "WAHOO_125cc_Engine_Development_Rev01.docx · 04 October 2026"
+    ],
+    "date": "2026-10-04",
+    "dateLabel": "04 Oct 2026 · source review",
+    "revision": "V1 / ENGINE & FUEL",
+    "type": "Engineering study",
+    "evidence": "Design direction & calculated geometry",
+    "status": "published",
+    "changes": "Source-reviewed website edition. Diagrams redrawn for the website; source originals retained. Nominal calculations and schematic relationships are not manufacturing releases or measured performance."
+  },
+  {
+    "slug": "engine-integrated-systems",
+    "title": "Air, fuel, cooling—and the installed engine.",
+    "summary": "The new engine report keeps injection and lubrication open, compares cooling architectures, and sets a staged route to measured results.",
+    "systems": [
+      "engine",
+      "fuel-injection",
+      "air-intake",
+      "exhaust",
+      "cooling",
+      "electrical",
+      "controls",
+      "manufacturing"
+    ],
+    "sections": [
+      {
+        "title": "Keep the prototype lessons traceable",
+        "text": "The report records Max’s observations from the earlier Rotron XT100 installation: changes to port timing, gasket thickness, exhaust and intake-air provision, including a second snorkel. The exhaust change was reported as particularly noticeable. Original measured geometry and dyno traces are not included, so these remain reported development observations."
+      },
+      {
+        "title": "Air has a route of its own",
+        "text": "The proposed reed-inducted architecture supplies air through the crankcase and transfer ports. Upstream, transfer-port and direct-cylinder fuel injection remain options. Selecting direct injection would not remove the need for scavenging air. If fuel and oil bypass the crankcase, the bearings need a separately engineered oil route.",
+        "visual": "engine-gas"
+      },
+      {
+        "title": "The exhaust belongs in the engine study",
+        "text": "Port events, pipe geometry, temperature and pump load must be developed together. Preserve and measure the earlier pipe before treating its reported success as a design input for the larger engine. The report releases no tuned length, cone angle or power curve."
+      },
+      {
+        "title": "Cooling is now an explicit comparison",
+        "text": "The September brief proposed pump-fed raw water. The newer report compares that with an isolated coolant loop and states that neither is selected. Raw water exposes engine passages to the service environment; an isolated loop adds a heat exchanger, circulation pump, hoses and coolant mass. Reserve the complete envelope before releasing housings.",
+        "visual": "engine-cooling"
+      },
+      {
+        "title": "Oil, water and starting need installation tests",
+        "text": "Both fresh- and salt-water operation are requirements. The horizontal arrangement needs verified oil delivery, drainage, hot restart and anti-ingestion measures. Brushless starting requires measured cold/hot cranking demand and coordinated motor, controller, reduction, freewheel and pack. The report’s example electrical loads do not size a battery."
+      },
+      {
+        "title": "Measure before committing to production",
+        "text": "The sequence begins with exact-part metrology, then dry assembly, leak and flow checks, controlled starting, instrumented dyno work, representative endurance and installed-hull tests. Record build identity, clearances, fuel/oil, ECU calibration, exhaust revision, conditions and instrumentation. Preserve raw data as well as presentation plots.",
+        "visual": "engine-sequence"
+      },
+      {
+        "title": "Close the loop with teardown",
+        "text": "Use wear, sealing, bearing, fastener and temperature evidence to guide the next build. Race and leisure endurance must reproduce their load histories, not only elapsed time. No universal temperature threshold, torque band or service interval is asserted before component guidance and testing establish it."
+      }
+    ],
+    "sources": [
+      "WAHOO_125cc_Engine_Development_Rev01.docx · 04 October 2026"
+    ],
+    "date": "2026-10-04",
+    "dateLabel": "04 Oct 2026 · source review",
+    "revision": "V1 / ENGINE & FUEL",
+    "type": "Engineering study",
+    "evidence": "Design direction & calculated geometry",
+    "status": "published",
+    "changes": "Source-reviewed website edition. Diagrams redrawn for the website; source originals retained. Nominal calculations and schematic relationships are not manufacturing releases or measured performance."
+  },
+  {
     "slug": "engine-as-a-system",
     "title": "An engine is only the beginning.",
     "summary": "A horizontal two-stroke, its waterjet and everything between them: the V1 brief starts with the complete installation.",
@@ -12,6 +238,10 @@
       "cooling"
     ],
     "sections": [
+      {
+        "title": "The newer component baseline",
+        "text": "The 4 October engine report now identifies a component sourcing baseline. <a href=\"/journal/engine-component-baseline/\">Read the updated engine record</a>; the September brief below remains part of the history. Cooling alternatives and open injection decisions are covered in the <a href=\"/journal/engine-integrated-systems/\">new integration article</a>."
+      },
       {
         "title": "The starting brief",
         "text": "The September V1 brief calls for a nominal 125 cc, single-cylinder, horizontal two-stroke with electronic fuel injection and brushless electric starting. These are design requirements. Power, torque, installed mass and the engine-to-pump drive ratio are not established specifications.",
@@ -107,6 +337,10 @@
       "deck"
     ],
     "sections": [
+      {
+        "title": "Newer integration record",
+        "text": "The October report adds starter-duty and installed-engine validation scope. <a href=\"/journal/engine-integrated-systems/\">Read the follow-up</a>. Its illustrative electrical loads are not selected battery ratings."
+      },
       {
         "title": "Access without opening the engine bay",
         "text": "The V1 requirement is an externally accessible battery cartridge: remove it, charge it separately and replace it with a spare without opening the main engine bay or handling loose cables. The service objective is defined; the physical dock is not a released design.",

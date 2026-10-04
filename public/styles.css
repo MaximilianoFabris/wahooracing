@@ -36,3 +36,11 @@ main{overflow-x:clip}
 .functional-flow strong{font-size:22px;margin:10px 0}
 .functional-flow span{font-size:14px;color:var(--muted,#9cabb5)}
 @media(max-width:500px){.nozzle-stations{grid-template-columns:1fr;gap:28px}.nozzle-stations svg{max-width:180px}.functional-flow{grid-template-columns:1fr}}
+
+/* Reviewed source diagrams: transparent SVGs, readable at narrow widths. */
+.diagram-scroll{max-width:100%;overflow-x:auto;overscroll-behavior-inline:contain;margin:26px 0;background:transparent}
+.source-diagram{display:block;width:100%;min-width:540px;height:auto;background:transparent}
+.diagram-scroll:focus-visible{outline:1px solid #24b8ff;outline-offset:4px}
+.engineering-visual details{margin:24px 0}
+.engineering-visual .table-scroll{overflow-x:auto}
+.engineering-highlight{max-width:880px}

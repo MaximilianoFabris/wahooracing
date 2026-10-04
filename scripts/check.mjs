@@ -1,4 +1,9 @@
 import {readFile,stat} from 'node:fs/promises';import path from 'node:path';import {fileURLToPath} from 'node:url';
+import {pistonSample} from './reviewed-visuals.mjs';
+// Reference landmarks from the engine report, independent of the plotting code.
+if(Math.abs(pistonSample(0).x)>1e-9||Math.abs(pistonSample(180).x-54.5)>1e-9||Math.abs(pistonSample(360).x)>1e-9)throw Error('Piston travel landmarks differ from source');
+const peak=Math.max(...Array.from({length:361},(_,i)=>pistonSample(i).v));
+if(Math.abs(peak-35.45)>.02||pistonSample(270).v>=0)throw Error('Piston velocity differs from source');
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../dist');
 const manifest=JSON.parse(await readFile(path.join(root,'build-manifest.json'),'utf8'));
 const notFound=await readFile(path.join(root,'404.html'),'utf8');
