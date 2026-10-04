@@ -1,5 +1,193 @@
 [
   {
+    "slug": "engine-as-a-system",
+    "title": "An engine is only the beginning.",
+    "summary": "A horizontal two-stroke, its waterjet and everything between them: the V1 brief starts with the complete installation.",
+    "systems": [
+      "engine",
+      "fuel-injection",
+      "air-intake",
+      "exhaust",
+      "jet-pump",
+      "cooling"
+    ],
+    "sections": [
+      {
+        "title": "The starting brief",
+        "text": "The September V1 brief calls for a nominal 125 cc, single-cylinder, horizontal two-stroke with electronic fuel injection and brushless electric starting. These are design requirements. Power, torque, installed mass and the engine-to-pump drive ratio are not established specifications.",
+        "visual": "engine"
+      },
+      {
+        "title": "Built around the corner exit",
+        "text": "The ambition is 70 km/h with an 85–90 kg rider, alongside predictable throttle pickup and strong acceleration out of tight turns. The speed is an unverified target. The rider range is a design input, not a certified payload. The brief does not ask for 70 km/h through every sharp turn; it asks for controllable drive and repeatable recovery as the board straightens."
+      },
+      {
+        "title": "Match the internals. Engineer the interfaces.",
+        "text": "The source strategy is to evaluate a compatible purchased piston, cylinder, head and crank family together. Custom work then concentrates on packaging and interfaces. A displacement label alone cannot establish fit: the exhaust envelope, shaft line, cooling connections and removal paths all belong in the same installation study. This record does not release a supplier or part number for purchase."
+      },
+      {
+        "title": "Fuel, air and heat share the space",
+        "text": "Injection location remains an integration decision. Air routing must account for water separation. The exhaust needs both its tuned volume and a workable thermal envelope. Jet-pump-fed cooling is proposed, but its circuit has not been defined in this brief. Bilge removal is a separate function and must not be confused with the cooling or propulsion circuits."
+      },
+      {
+        "title": "A correction worth keeping",
+        "text": "The historical output drop near 11,000–12,000 rpm came from an engine-only dynamometer test: no jet pump was moving water. The register records the quantity as probably torque, with the original graph still needed. It is not evidence of pump cavitation, a proven engine-speed limit or a diagnosis of the cause."
+      },
+      {
+        "title": "How this connects to the hull",
+        "text": "This brief predates the current H0 R03 website studies and references an earlier Rev27 packaging envelope. Those revision systems are independent. The next integration record needs actual component envelopes, masses, centres of gravity and service clearances against the chosen hull geometry."
+      }
+    ],
+    "sources": [
+      "WAHOO_V1_Whitepaper_Rev04.docx · 29 September 2026",
+      "Wahoo_V1_Project_Register_Rev04.md · 29 September 2026"
+    ],
+    "date": "2026-10-04",
+    "dateLabel": "04 Oct 2026 · editorial review of 29 Sep brief",
+    "revision": "V1 / DESIGN BRIEF",
+    "type": "Development brief",
+    "evidence": "Requirements & proposed concepts",
+    "status": "published",
+    "changes": "First website interpretation of the supplied V1 documents. No new test result or design release. Document revisions are separate from the H0 hull-study revisions."
+  },
+  {
+    "slug": "nozzle-area-study",
+    "title": "Test the opening. Then the mechanism.",
+    "summary": "Fixed nozzle comparisons come first. A moving conical pin is a conditional next step, with geometry that can be examined before performance is claimed.",
+    "systems": [
+      "jet-pump",
+      "controls"
+    ],
+    "sections": [
+      {
+        "title": "Start with fixed areas",
+        "text": "The whitepaper retains a fixed-nozzle test gate: compare a baseline and two alternative outlet areas before committing to an active mechanism. Engine and pump matching, launch response, corner exit and speed need repeatable measurements. A smaller outlet is not automatically a faster board."
+      },
+      {
+        "title": "Three positions, one outlet",
+        "text": "The WJ70-C01 concept summary describes a non-rotating conical pin translating inside a fixed circular outlet. As a wider part of the cone reaches the exit, the open annulus shrinks. The proposed Ø48 mm outlet and Ø10, Ø15 and Ø20 mm pin sections give the three positions below. All dimensions are provisional.",
+        "visual": "nozzle"
+      },
+      {
+        "title": "What the numbers mean",
+        "text": "Open area = π × (outlet diameter² − pin diameter²) / 4. The proposed end positions reduce the exit area by approximately 13.6%. This is a geometric calculation. It predicts neither flow rate nor thrust, efficiency, cavitation or top speed. Travel is measured from the concept’s P0 reference; the sketch is an exit view, not the full cone."
+      },
+      {
+        "title": "Clearance is not a tolerance",
+        "text": "The same study uses a 70 mm rotor and proposes a 70.6 mm liner bore. Their difference corresponds to 0.30 mm radial clearance on each side. That is not a ±0.30 mm manufacturing tolerance or an approved running clearance. Rotor integrity, deflection, thermal effects and manufacturing control still need review."
+      },
+      {
+        "title": "Keep the development gate",
+        "text": "After fixed-area testing, the proposed sequence is locked pin positions, followed by active movement only if evidence supports it. Guidance, sealing, actuator load, position feedback and mechanical stops remain integration questions. No launch-versus-top-speed control strategy has been validated."
+      },
+      {
+        "title": "Scope of this record",
+        "text": "The whitepaper summarises a separate six-sheet WJ70-C01 drawing package. Those drawings were not supplied for this website review. The circles here are calculated from the whitepaper’s exit dimensions; they are not a reproduction or verification of that CAD package. Impeller blade-count and helical variants also remain concepts, not demonstrated improvements."
+      }
+    ],
+    "sources": [
+      "WAHOO_V1_Whitepaper_Rev04.docx · 29 September 2026",
+      "Wahoo_V1_Project_Register_Rev04.md · 29 September 2026"
+    ],
+    "date": "2026-10-04",
+    "dateLabel": "04 Oct 2026 · editorial review of 29 Sep brief",
+    "revision": "V1 / DESIGN BRIEF",
+    "type": "Development brief",
+    "evidence": "Requirements & proposed concepts",
+    "status": "published",
+    "changes": "First website interpretation of the supplied V1 documents. No new test result or design release. Document revisions are separate from the H0 hull-study revisions."
+  },
+  {
+    "slug": "battery-and-starting",
+    "title": "Make starting part of the design.",
+    "summary": "A removable electrical pack and brushless starter belong in the board architecture from the beginning.",
+    "systems": [
+      "electrical",
+      "controls",
+      "deck"
+    ],
+    "sections": [
+      {
+        "title": "Access without opening the engine bay",
+        "text": "The V1 requirement is an externally accessible battery cartridge: remove it, charge it separately and replace it with a spare without opening the main engine bay or handling loose cables. The service objective is defined; the physical dock is not a released design.",
+        "visual": "battery"
+      },
+      {
+        "title": "One starting system",
+        "text": "The brushless motor, controller, gearing, freewheel, battery and protection must be specified together. Voltage, chemistry, capacity, cranking demand and charging time remain open. This is an electrically started petrol board; the battery is not the propulsion energy source."
+      },
+      {
+        "title": "The interface matters",
+        "text": "The dock study must resolve keyed contacts, retention, water protection and safe removal. Injection, ignition and accessories add continuous demand beyond starting. The electrical architecture needs a load budget and protection strategy before a pack can be selected. The brief does not establish hot swapping."
+      },
+      {
+        "title": "Visibility and rider control",
+        "text": "A red rear visibility light is required in the brief; a removable front light is optional. These do not establish a certified navigation-light system or approval for night operation. Rider-control concepts in the archive provide design context, while the final control logic and hardware remain to be validated."
+      }
+    ],
+    "sources": [
+      "WAHOO_V1_Whitepaper_Rev04.docx · 29 September 2026",
+      "Wahoo_V1_Project_Register_Rev04.md · 29 September 2026",
+      "WAHOO_V1_Features_and_Specifications_Booklet.pdf · Rev01, based on Whitepaper Rev03"
+    ],
+    "date": "2026-10-04",
+    "dateLabel": "04 Oct 2026 · editorial review of 29 Sep brief",
+    "revision": "V1 / DESIGN BRIEF",
+    "type": "Development brief",
+    "evidence": "Requirements & proposed concepts",
+    "status": "published",
+    "changes": "First website interpretation of the supplied V1 documents. No new test result or design release. Document revisions are separate from the H0 hull-study revisions."
+  },
+  {
+    "slug": "from-brief-to-test",
+    "title": "Turn the brief into evidence.",
+    "summary": "The next chapter connects sourcing, fit, bench work and water testing. Each answers a different question.",
+    "systems": [
+      "manufacturing",
+      "engine",
+      "jet-pump",
+      "hull-hydrodynamics"
+    ],
+    "sections": [
+      {
+        "title": "Begin with a traceable baseline",
+        "text": "The project register separates requirements, proposals and unresolved decisions. The immediate task is a matched component shortlist, supplier information and an installation envelope. A collection of individually plausible parts is not yet a compatible assembly."
+      },
+      {
+        "title": "Fit before fabrication",
+        "text": "A digital installation study should check clashes, heat, shaft alignment, structure and service access. A proposed half-scale, non-running mock-up can examine assembly and proportions. Neither CAD fit nor a printed mock-up establishes durability or performance; this record does not claim that mock-up has been built."
+      },
+      {
+        "title": "Bench work has its own questions",
+        "text": "The engine and pump need defined operating ranges and measured behaviour before combined conclusions are made. Record engine speed and pump speed separately. Preserve test setup, calibration and the measured quantity so that a torque curve cannot later be mistaken for a pump result."
+      },
+      {
+        "title": "Water testing closes a different loop",
+        "text": "The brief calls for repeatable launch, throttle pickup, corner exit and straight-line speed assessment. Rider mass, fuel state, water conditions, hardware and calibration must accompany comparisons. Numerical acceptance criteria for response still need definition. The 70 km/h ambition remains a target until measured under a documented procedure."
+      },
+      {
+        "title": "Keep optional studies in their place",
+        "text": "Alternative fin positions are deferred. A wing appears as an exploratory idea in the earlier booklet, with no demonstrated benefit. The V-tail is a required design direction, but its handling benefit is not established. None of these labels proves the current H0 hull has already satisfied the brief."
+      },
+      {
+        "title": "Read revisions by subject",
+        "text": "Whitepaper Rev04 extends the nozzle concept. Register Rev04 preserves the engine-only dyno clarification. The booklet is Rev01 and is based on Whitepaper Rev03. They are complementary records, not three equally current specification releases; none supersedes the later H0 R03 numerical study simply because it carries a higher revision number."
+      }
+    ],
+    "sources": [
+      "WAHOO_V1_Whitepaper_Rev04.docx · 29 September 2026",
+      "Wahoo_V1_Project_Register_Rev04.md · 29 September 2026",
+      "WAHOO_V1_Features_and_Specifications_Booklet.pdf · Rev01, based on Whitepaper Rev03"
+    ],
+    "date": "2026-10-04",
+    "dateLabel": "04 Oct 2026 · editorial review of 29 Sep brief",
+    "revision": "V1 / DESIGN BRIEF",
+    "type": "Development brief",
+    "evidence": "Requirements & proposed concepts",
+    "status": "published",
+    "changes": "First website interpretation of the supplied V1 documents. No new test result or design release. Document revisions are separate from the H0 hull-study revisions."
+  },
+  {
     "slug": "level-attitude-displacement",
     "title": "What keeps the hull afloat?",
     "date": "2026-10-03",
