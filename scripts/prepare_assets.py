@@ -1,11 +1,10 @@
 from pathlib import Path
 from PIL import Image
-import csv,json,hashlib
+import csv,json,hashlib,shutil
 ROOT=Path(__file__).resolve().parents[1]
 BOARD=ROOT.parent.parent
 OUT=ROOT/'public/assets';OUT.mkdir(parents=True,exist_ok=True)
 assets=[
- ('logo.png',BOARD.parent/'Wahoo_Gray.png',360),
  ('hull-hero.webp',ROOT.parent/'design-approval/hull-hero.png',1600),
  ('hull-bottom.webp',ROOT.parent/'design-approval/hull-bottom.png',1600),
  ('archive-exterior.webp',BOARD/'perspective 01.png',1400),
@@ -17,6 +16,12 @@ assets=[
  ('archive-hand-control.webp',BOARD/'ViewCapture20220421_043009.png',1400),
 ]
 records=[]
+brand=BOARD.parent/'_Wahoo Logo'
+(OUT/'brand').mkdir(exist_ok=True)
+for output,source in [('wahoo-white.png','Wahoo_Logo-White.png'),('wahoo-black.png','Wahoo_Logo-Black.png'),('wahoo-name-white.png','Wahoo_Logo-White Name.png'),('wahoo-name-black.png','Wahoo_Logo-Black Name.png')]:
+ src=brand/source
+ shutil.copyfile(src,OUT/'brand'/output)
+ records.append({'asset':'brand/'+output,'source':str(src),'sha256':hashlib.sha256(src.read_bytes()).hexdigest(),'treatment':'Exact approved PNG; no alteration. Shaded full logo or supplied name-only wordmark. Flat variants excluded.'})
 for name,src,size in assets:
  im=Image.open(src);im.thumbnail((size,size),Image.Resampling.LANCZOS)
  im.save(OUT/name,**({'optimize':True} if name.endswith('.png') else {'quality':88,'method':6}))

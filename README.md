@@ -24,7 +24,7 @@ Open http://127.0.0.1:4173. Set `PORT` to choose another local port. The server 
 - `scripts/build.mjs`: page templates, navigation and chart markup.
 - `public/styles.css` and `public/app.js`: appearance and progressively enhanced interactions.
 
-The original supplied `Wahoo_Gray.png` has alpha transparency. Its exact artwork is resized and shown in white using CSS; no substitute logo or brand font was invented. Replace `public/assets/logo.png` when the new approved logo is available, retaining transparency and checking its aspect ratio.
+The final approved branding is in `public/assets/brand/`: shaded white and black full logos, plus the supplied name-only wordmarks. Use the white full logo in the dark header and the white wordmark in the footer; black assets support light browser icons and printing. Preserve original proportions, alpha transparency and shaded tones; never flatten the artwork with CSS filters. Flat variants are not approved for website use. Historical imagery retains its original branding.
 
 Historical board images are clearly labelled as archives; they are not presented as the current assembly. Unconfirmed archive dates remain unconfirmed. Current hull renders come from the actual R03 tessellation, with illustrative materials and studio lighting. Decorative water lines are not CFD results.
 

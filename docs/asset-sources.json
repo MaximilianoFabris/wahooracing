@@ -1,11 +1,5 @@
 [
   {
-    "asset": "logo.png",
-    "source": "C:\\Users\\maxfa\\Desktop\\Wahoo\\Wahoo_Gray.png",
-    "sha256": "d76c468fb0257fa48bce43f203bab89000a87fda296ac4d0fe9e2e213e8297a0",
-    "treatment": "Resized and encoded; alpha preserved. Original unchanged."
-  },
-  {
     "asset": "hull-hero.webp",
     "source": "C:\\Users\\maxfa\\Desktop\\Wahoo\\_Board Design\\_ChatGpt\\design-approval\\hull-hero.png",
     "sha256": "1d8a8df03e019e0e1246405a9f2f4e89c03f30c76ee877b7f25d72beba3e09f1",
@@ -58,5 +52,29 @@
     "source": "C:\\Users\\maxfa\\Desktop\\Wahoo\\_Board Design\\ViewCapture20220421_043009.png",
     "sha256": "1573b37c2630cd65dbd0859f6f782297df0bc8cdb222fd746c7efd1b3bdc01ea",
     "treatment": "Resized and encoded; alpha preserved. Original unchanged."
+  },
+  {
+    "asset": "brand/wahoo-name-white.png",
+    "source": "C:\\Users\\maxfa\\Desktop\\Wahoo\\_Wahoo Logo\\Wahoo_Logo-White Name.png",
+    "sha256": "18c6bec8469544cd6061f9c64b6565ebc87fa7466aa71c81f066f4ecf6d663c0",
+    "treatment": "Exact approved PNG; no alteration. Flat variants excluded."
+  },
+  {
+    "asset": "brand/wahoo-name-black.png",
+    "source": "C:\\Users\\maxfa\\Desktop\\Wahoo\\_Wahoo Logo\\Wahoo_Logo-Black Name.png",
+    "sha256": "a83b46928161e17f99b6333762f2f9cd0dfd8f3687bedcf78e7894b303e559a3",
+    "treatment": "Exact approved PNG; no alteration. Flat variants excluded."
+  },
+  {
+    "asset": "brand/wahoo-black.png",
+    "source": "C:\\Users\\maxfa\\Desktop\\Wahoo\\_Wahoo Logo\\Wahoo_Logo-Black.png",
+    "sha256": "cc753b63c1041d70565cbebdb0e93a16ac30137e5f6975c89fdb19c91849a4f8",
+    "treatment": "Exact approved PNG; no alteration. Flat variants excluded."
+  },
+  {
+    "asset": "brand/wahoo-white.png",
+    "source": "C:\\Users\\maxfa\\Desktop\\Wahoo\\_Wahoo Logo\\Wahoo_Logo-White.png",
+    "sha256": "965238513b2a9782c155ff484c6ce5aeca23e2d702b8c45fb0524355a4dcc01e",
+    "treatment": "Exact approved PNG; no alteration. Flat variants excluded."
   }
 ]
