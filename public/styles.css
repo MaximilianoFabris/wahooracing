@@ -47,3 +47,10 @@ main{overflow-x:clip}
 
 /* Final shaded artwork retains its original tones, transparency and proportions. */
 .footer-brand{display:inline-block;line-height:0}.footer-brand img{width:180px;height:auto}@media print{.brand img{content:url('/assets/brand/wahoo-black.png')}.footer-brand img{content:url('/assets/brand/wahoo-name-black.png')}}
+/* Evidence graphics retain transparent plot backgrounds and source geometry. */
+.engineering-evidence>figure{margin:35px 0 45px}.engineering-evidence>figure img{width:100%;max-height:540px}.evidence-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:36px}.evidence-links>a{border-top:1px solid var(--line);padding-top:25px}.evidence-links small,.evidence-links span{font:12px/1.7 Consolas,monospace;color:var(--blue)}.evidence-links h3{margin:16px 0}.evidence-links p{font-size:16px}.study-plot img{width:100%;height:auto}.article:has(.study-plot) .article-body{max-width:1000px}.article:has(.study-plot) .article-body section>p{max-width:850px}.article-hero:has(img[src*="engineering/"]){max-width:1050px}.article-hero img[src*="engineering/"]{max-height:none;width:100%;height:auto}@media(max-width:800px){.evidence-links{grid-template-columns:1fr;gap:28px}.engineering-evidence>figure{margin-block:22px 35px}.article-hero img[src*="engineering/"]{max-height:none}.engineering-evidence h2{font-size:36px}}
+
+/* Geometry studies blend directly into the page; full source sheets open separately. */
+.article-hero:has(img[src*="/geometry/"]) {max-width:1050px}.article-hero img[src*="/geometry/"] {width:100%;height:auto;max-height:none;object-fit:contain}.source-drawings .text-link{display:block;margin:16px 0}.arc-library details{border-top:1px solid #293b45;padding:22px 0}.arc-library summary{cursor:pointer;color:#d8e7f0;line-height:1.6}.arc-library .study-plot{margin:28px 0}.geometry-feature>.study-plot{max-width:1050px;margin:30px auto}.geometry-feature .evidence-links{row-gap:32px}
+
+.image-viewport{overflow:auto;max-width:100%;margin:30px 0}.image-viewport img{display:block;max-width:100%;height:auto;margin:auto}.image-viewport img.original-size{max-width:none;margin:0}

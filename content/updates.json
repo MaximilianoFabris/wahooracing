@@ -650,6 +650,16 @@
         "image": "hull-section-90.svg",
         "caption": "R02 station 90% · Y port-positive and Z up, in cm. All valid sampled coordinates retained."
       }
+    ],
+    "downloads": [
+      {
+        "file": "geometry/source-fairness.png",
+        "label": "Original full-hull fairness drawing"
+      },
+      {
+        "file": "geometry/source-native-fairness.png",
+        "label": "Original native shaded and zebra views"
+      }
     ]
   },
   {
@@ -731,7 +741,7 @@
     "type": "Geometry",
     "evidence": "Reference verification",
     "status": "published",
-    "hero": null,
+    "hero": "geometry/reference-top.png",
     "sections": [
       {
         "title": "The question",
@@ -740,6 +750,20 @@
       {
         "title": "The convention",
         "text": "The Wahoo reference uses +X forward, +Y port and +Z up. Engineering stationing and physical geometry are distinct: a stationing datum must not be used to flatten or replace the shaped stern."
+      },
+      {
+        "title": "Check the side projection",
+        "text": "The recorded bow, stern and beam points are shown against native surface samples in the same R01 coordinate frame. Position and height can be inspected together, including the raised bow. The original annotated sheet provides the orthographic native rendering and full verification context.",
+        "visual": "reference-side"
+      },
+      {
+        "title": "Check the end projection",
+        "text": "The Y/Z view makes the port-positive convention explicit. Points from different longitudinal locations project onto this same view, so the bow marker is not an aft cross-section point. Selected points and bounding-box corners have different meanings.",
+        "visual": "reference-end"
+      },
+      {
+        "title": "The stern pick was not the aft-most point",
+        "text": "The R01 selected reference length was 174.82 cm, while the native longitudinal bounding span was 177.35 cm. An actual native surface sample lay about 25.07 mm aft of the selected stern. That observation established a reference question, not a need to repair the shape. Later R02 stationing is a separate record and should not be silently substituted into R01 drawings."
       },
       {
         "title": "What this establishes",
@@ -751,9 +775,24 @@
       }
     ],
     "sources": [
-      "H0_R01_Reference_Verification.png"
+      "H0_R01_Reference_Verification.png",
+      "H0_R01_Reference_Verification.txt",
+      "H0_R01_Verification_Assets/capture_data.json",
+      "H0_R02_SubD_vs_NURBS_Deviation_Samples.csv"
     ],
-    "changes": "Initial reference-record summary."
+    "changes": "Expanded with three sampled reference projections and original R01/R02 annotated verification drawings. Native surface samples are displayed in their recorded R01 frame.",
+    "heroAlt": "Recorded native hull surface samples and R01 reference points in top projection",
+    "heroCaption": "Native surface samples from the validation archive, plotted in the R01 reference frame. Markers use the recorded R01 point coordinates; this is a sampled drawing, not a replacement surface.",
+    "downloads": [
+      {
+        "file": "geometry/source-reference-r01.png",
+        "label": "Original R01 annotated reference-verification drawing"
+      },
+      {
+        "file": "geometry/source-reference-r02.png",
+        "label": "Original R02 reference-verification drawing"
+      }
+    ]
   },
   {
     "slug": "unpublished-engine-notes",

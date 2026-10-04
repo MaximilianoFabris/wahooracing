@@ -1,0 +1,202 @@
+[
+  {
+    "slug": "first-corrected-cfd-run",
+    "title": "From hull geometry to computed flow.",
+    "summary": "A corrected fixed-hull simulation reaches 0.95 seconds. Inspect the saved pressure, water-surface and velocity fields—and the force trends that define the next question.",
+    "date": "2026-10-04",
+    "dateLabel": "04 Oct 2026 · review of saved commissioning results",
+    "revision": "H0-CFD-001 / R02 VALID",
+    "type": "Simulation",
+    "evidence": "CFD commissioning · fixed hull",
+    "status": "published",
+    "systems": [
+      "hull-hydrodynamics"
+    ],
+    "hero": "engineering/cfd-hullPressure.png",
+    "heroAlt": "Computed total pressure on the actual hull, underside projection at 0.95 seconds",
+    "heroCaption": "Corrected R02 run · 20 km/h boundary-speed target · fixed hull · total pressure includes hydrostatic contribution. Commissioning evidence, not validated resistance.",
+    "sections": [
+      {
+        "title": "A reproducible first flow record",
+        "text": "The corrected run ended normally at 0.95 s and produced 15,030 force samples. Its inlet audit found zero wet/dry phase mismatches across 720 submerged faces, 324 air faces and 72 mixed faces. This establishes a traceable commissioning record: geometry, initialization, solver history and saved fields can be examined together. It does not establish final hydrodynamic performance."
+      },
+      {
+        "title": "Read the water surface",
+        "text": "The coloured surface is the saved alpha.water = 0.5 interface, projected from above. Colour indicates elevation, with the same −0.10 to +0.10 m range used in the source review. Projected surfaces may overlap, and values outside the display range saturate. This is calculated flow geometry, not decorative spray.",
+        "visual": "study-free-surface"
+      },
+      {
+        "title": "Follow the flow through the centre plane",
+        "text": "The longitudinal slice shows velocity magnitude at Y = 0, with X forward and Z up. The display range is 0–8 m/s. These solver slices include both air and water; they are not liquid-only speed measurements. The boundary speed ramps from zero to 20 km/h during the first 0.20 s.",
+        "visual": "study-velocity"
+      },
+      {
+        "title": "Inspect the wake separately",
+        "text": "The transverse sample at X = −0.25 m provides another view of the evolving flow behind the hull. Comparing multiple sections avoids judging the run from one attractive image. Each field shown here is from the same saved 0.95 s checkpoint.",
+        "visual": "study-wake"
+      },
+      {
+        "title": "The forces tell us where to keep working",
+        "text": "Each marker below is a source time-weighted mean over a 0.05 s window; horizontal bars show the averaging interval, not uncertainty. Drag and bow-up pitch moment have approximately stationary late aggregate means but remain oscillatory. Periodic stationarity has not been demonstrated. Vertical force is still drifting upward overall and is not converged.",
+        "visual": "study-forces"
+      },
+      {
+        "title": "What this milestone earns",
+        "text": "The work demonstrates an auditable simulation workflow and identifies the remaining convergence question. The hull was held fixed. Vertical force includes buoyancy and dynamic load; a force-to-weight ratio does not establish riding trim or payload. No mesh-independence study or final resistance validation is claimed. A longer run is proposed to examine whether the vertical force settles."
+      }
+    ],
+    "sources": [
+      "H0_CFD_001_Valid_Postprocess.txt · corrected-run method, audits and limitations",
+      "Statistics.json and Force_Window_Statistics.csv · time-weighted force summaries",
+      "VALID_Postprocess / surfaceViews / 0.95 · original saved VTP fields"
+    ],
+    "changes": "New presentation plots use the saved source polygons and force-window data. No generated flow, remeshing, source modification or solver extension. Earlier invalid and superseded runs are excluded."
+  },
+  {
+    "slug": "dry-board-flotation-and-trim",
+    "title": "A floating hull has an attitude.",
+    "summary": "Move beyond level displacement: three dry-board scenarios connect mass and centre of gravity to calculated static trim.",
+    "date": "2026-10-04",
+    "dateLabel": "04 Oct 2026 · engineering archive review",
+    "revision": "H0 / R03 / HYDROSTATICS",
+    "type": "Engineering study",
+    "evidence": "Numerical sealed-envelope hydrostatics",
+    "status": "published",
+    "systems": [
+      "hull-hydrodynamics"
+    ],
+    "hero": "engineering/dry-trim.svg",
+    "heroAlt": "Dry equilibrium pitch for cases A, B and C in fresh and seawater",
+    "heroCaption": "Calculated equilibrium pitch · positive is bow-up · roll constrained to zero · no rider or fuel.",
+    "sections": [
+      {
+        "title": "Let mass and CG determine the result",
+        "text": "A level-immersion curve answers how much water a horizontal envelope displaces. Equilibrium asks a different question: at the assigned mass and centre of gravity, what heave and pitch balance the static loads? The R03 study solves that question for three dry mass cases, in freshwater at 998 kg/m³ and seawater at 1,025 kg/m³."
+      },
+      {
+        "title": "Three scenarios, not three measured boards",
+        "text": "Cases A, B and C draw from the R03 mass model. They represent different construction and hardware assumptions, not weighing results. Their calculated dry masses are shown below. These scenario labels belong to the engineering archive and must not be confused with later commercial material estimates.",
+        "visual": "study-mass"
+      },
+      {
+        "title": "Know what the envelope represents",
+        "text": "The source encloses 0.085384252 m³, approximately 85.38 litres. The maximum theoretical displaced mass is 85.21 kg in freshwater and 87.52 kg in seawater at full envelope submergence. These are geometric limits, not safe payload ratings. Openings, intake and seals are not modelled; exterior-envelope freeboard is not hatch or snorkel clearance."
+      },
+      {
+        "title": "See how CG changes the attitude",
+        "text": "This sweep holds the case A dry mass fixed and varies longitudinal centre of gravity with roll constrained to zero. It demonstrates the model sensitivity to mass placement. These hypothetical CG positions are not a claim that the components can be packaged there.",
+        "visual": "study-cg-sweep"
+      },
+      {
+        "title": "Constrained and free motion are different studies",
+        "text": "The displayed comparison holds roll at zero and may require an external roll reaction. The source also investigates released roll, centre-of-gravity sweeps and component-position sensitivity. Local stability quantities do not establish global capsize safety. Hypothetical component movements do not demonstrate feasible packaging."
+      },
+      {
+        "title": "The next useful input is physical",
+        "text": "Measured component masses and centres of gravity can replace allowances. Defined rider mass, stance and fuel properties are needed before interpreting loaded operating cases. The value of the present study is a numerical baseline against which those better inputs can be compared."
+      }
+    ],
+    "sources": [
+      "H0_R03_Dry_Hydrostatics.txt, .json and .csv",
+      "H0_R03_Full_Dry_Mass_CG.json"
+    ],
+    "changes": "Equilibrium and dry-mass graphics are regenerated directly from source cases. No new equilibrium solve or operational rating."
+  },
+  {
+    "slug": "mass-and-centre-of-gravity",
+    "title": "Every kilogram has a position.",
+    "summary": "The dry-board mass model connects construction allowances, equipment estimates and CAD proxy locations to the board’s combined centre of gravity.",
+    "date": "2026-10-04",
+    "dateLabel": "04 Oct 2026 · engineering archive review",
+    "revision": "H0 / R03 / MASS & CG",
+    "type": "Engineering study",
+    "evidence": "Mass scenarios & geometric proxy positions",
+    "status": "published",
+    "systems": [
+      "hull-hydrodynamics",
+      "manufacturing",
+      "engine"
+    ],
+    "hero": "engineering/component-cg.svg",
+    "heroAlt": "Case A component longitudinal positions and combined centre of gravity",
+    "heroCaption": "Case A · marker area follows assigned mass · dashed line is combined longitudinal CG. Positions are derived from the source model, not a physical assembly measurement.",
+    "sections": [
+      {
+        "title": "A mass budget that carries location",
+        "text": "A component list alone cannot explain balance. The R03 model assigns each component a mass and a position, then computes the combined centre of gravity. Closed proxies use geometric volume centroids for position; open proxies may use area centroids. Those are documented approximations to physical component CG, not measurements of mass distribution."
+      },
+      {
+        "title": "Keep construction uncertainty visible",
+        "text": "The composite study starts with measured external surface area of approximately 1.96676 m². It partitions whole CAD faces provisionally into bottom, deck, sides/rails and tail, then applies assumed skins, resin, core, reinforcement and manufacturing allowances. A 5 kg hull target is not a calculated result or a verified laminate."
+      },
+      {
+        "title": "Compare complete dry scenarios",
+        "text": "Case A uses a lightweight hull assembly estimate of approximately 4.70 kg and yields approximately 18.20 kg dry for the complete scenario. The other cases preserve different assumptions. The chart shows the exact source case totals rounded for display, excluding rider and fuel.",
+        "visual": "study-mass"
+      },
+      {
+        "title": "Where the mass acts",
+        "text": "Case A’s combined longitudinal CG is about 63.91 cm forward of the hydrodynamic stern, or 36.51% of the reference length. This is a result of that specific mass model. It is not substituted for the later fuel report’s proposed CG window, which is a separate design hypothesis. The two records answer different questions."
+      },
+      {
+        "title": "Turn assumptions into measurements",
+        "text": "The next step is to weigh equipment, establish real CG locations and reconcile mounts, services and structural allowances. Changes must carry through the same mass model before flotation and handling implications are assessed. The current model makes those dependencies visible; it does not certify structural adequacy."
+      }
+    ],
+    "sources": [
+      "H0_R03_Full_Dry_Mass_CG.json, .csv and .txt",
+      "H0_R03_Composite_Hull_Mass.txt and .csv"
+    ],
+    "changes": "Source scenario masses and component positions replotted without moving any proxy or altering native geometry."
+  },
+  {
+    "slug": "reading-the-hull-surface",
+    "title": "Read the shape before changing it.",
+    "summary": "Sections, curvature checks and feature-intent reviews turn an attractive hull into geometry that can be questioned systematically.",
+    "date": "2026-10-04",
+    "dateLabel": "04 Oct 2026 · engineering archive review",
+    "revision": "H0 / R02 / SURFACE REVIEW",
+    "type": "Engineering study",
+    "evidence": "Sampled geometry & numerical checks",
+    "status": "published",
+    "systems": [
+      "hull-hydrodynamics"
+    ],
+    "hero": "engineering/hull-sections.svg",
+    "heroAlt": "Overlaid original transverse hull sections at 25, 50, 75 and 90 percent stations",
+    "heroCaption": "Actual source section samples · shared centimetre scale · 0% is stern and 100% is bow. Geometry only; not a wetted-area prediction.",
+    "sections": [
+      {
+        "title": "Compare like with like",
+        "text": "Overlaying sections on common axes exposes how width, depth and the lower surface evolve along the board. The curves retain separate source branches and the same coordinate system. This supports inspection of transitions without replacing the actual hull with a simplified illustration."
+      },
+      {
+        "title": "Check the numerical method too",
+        "text": "The refined curvature analysis samples nine principal lower buttocks at arc-length intervals of 1, 0.5, 0.25 and 0.125 mm. An initial arc-length inversion failed an independent audit and was rejected. The corrected method uses safeguarded numerical inversion on the original intersection curves. A converged feature in the sampled curve is not automatically a surface defect."
+      },
+      {
+        "title": "Distinguish a feature from a flaw",
+        "text": "The feature-intent review examined nine regions using 133 transverse-plane evaluations, 127 buttock-plane evaluations and 27 native captures. The review provisionally preserves obvious tail, rail and nose architecture. R5 and R9 require confirmation of their local progression. Geometric evidence can support an interpretation; it cannot prove the designer’s intent or hydrodynamic benefit."
+      },
+      {
+        "title": "What a clean-looking surface cannot prove",
+        "text": "Curvature flags, reflection views and symmetry checks guide further investigation. They do not establish wetted area, spray release, drag reduction or handling. The converged curvature-rate map covers sampled lower paths rather than an exhaustive two-dimensional survey."
+      },
+      {
+        "title": "Carry the reference into simulation",
+        "text": "The useful outcome is a traceable geometric baseline, with explicit regions to inspect and preserved source geometry. That baseline can be checked through meshing, simulation and physical work. The corrected CFD record is the next stage in that evidence chain—not a reason to erase the earlier questions."
+      },
+      {
+        "title": "Inspect curvature along the original path",
+        "text": "The centreline trace uses the corrected arc-length sampling at 0.125 mm spacing. Signed planar curvature comes from derivatives of the original CAD curve. Separate curve pieces remain separate; a peak alone is not proof of a defect or a hydrodynamic benefit. Arc length starts at this path’s own aft end.",
+        "visual": "study-curvature"
+      }
+    ],
+    "sources": [
+      "H0_R02_Transverse_Sections.csv",
+      "H0_R02_Arc_Length_Curvature.txt",
+      "H0_R02_Feature_Intent_Review.txt"
+    ],
+    "changes": "Section overlay redrawn from source samples. Original geometry and rejected diagnostics remain untouched in the engineering archive."
+  }
+]

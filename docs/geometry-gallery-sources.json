@@ -1,0 +1,402 @@
+[
+  {
+    "asset": "geometry/arc-S90.png",
+    "sources": [
+      {
+        "file": "H0_R02_Arc_Length_Curvature_Samples.csv",
+        "sha256": "9d52914e9aee03c2597c27036d8fab88f987718fe6781f3f0d1284dc70ebe88c"
+      }
+    ],
+    "treatment": "Replotted original numerical samples; no fitted geometry or solver execution."
+  },
+  {
+    "asset": "geometry/source-arc-S90.png",
+    "sources": [
+      {
+        "file": "H0_R02_Arc_Length_Analysis_S90.png",
+        "sha256": "523578aacd721834db562a9ecb57c4a184837a014041a7069f462f6ba74da8b2"
+      }
+    ],
+    "treatment": "Unchanged original rendered study sheet; available through a full-size source link."
+  },
+  {
+    "asset": "geometry/arc-S75.png",
+    "sources": [
+      {
+        "file": "H0_R02_Arc_Length_Curvature_Samples.csv",
+        "sha256": "9d52914e9aee03c2597c27036d8fab88f987718fe6781f3f0d1284dc70ebe88c"
+      }
+    ],
+    "treatment": "Replotted original numerical samples; no fitted geometry or solver execution."
+  },
+  {
+    "asset": "geometry/source-arc-S75.png",
+    "sources": [
+      {
+        "file": "H0_R02_Arc_Length_Analysis_S75.png",
+        "sha256": "0a5195d95dc3ce2ed370b8cdd20882c2757a44a00afa33b674a5a34963af07f6"
+      }
+    ],
+    "treatment": "Unchanged original rendered study sheet; available through a full-size source link."
+  },
+  {
+    "asset": "geometry/arc-S50.png",
+    "sources": [
+      {
+        "file": "H0_R02_Arc_Length_Curvature_Samples.csv",
+        "sha256": "9d52914e9aee03c2597c27036d8fab88f987718fe6781f3f0d1284dc70ebe88c"
+      }
+    ],
+    "treatment": "Replotted original numerical samples; no fitted geometry or solver execution."
+  },
+  {
+    "asset": "geometry/source-arc-S50.png",
+    "sources": [
+      {
+        "file": "H0_R02_Arc_Length_Analysis_S50.png",
+        "sha256": "7ba093b98507213e60db7fbaa1c97c59201e96efe4d6f2f960293e43494d93cf"
+      }
+    ],
+    "treatment": "Unchanged original rendered study sheet; available through a full-size source link."
+  },
+  {
+    "asset": "geometry/arc-S25.png",
+    "sources": [
+      {
+        "file": "H0_R02_Arc_Length_Curvature_Samples.csv",
+        "sha256": "9d52914e9aee03c2597c27036d8fab88f987718fe6781f3f0d1284dc70ebe88c"
+      }
+    ],
+    "treatment": "Replotted original numerical samples; no fitted geometry or solver execution."
+  },
+  {
+    "asset": "geometry/source-arc-S25.png",
+    "sources": [
+      {
+        "file": "H0_R02_Arc_Length_Analysis_S25.png",
+        "sha256": "6f7f70b6fcc365d7626ba35bab8da5d8263c5a2083191c589571060941c62f1d"
+      }
+    ],
+    "treatment": "Unchanged original rendered study sheet; available through a full-size source link."
+  },
+  {
+    "asset": "geometry/arc-C00.png",
+    "sources": [
+      {
+        "file": "H0_R02_Arc_Length_Curvature_Samples.csv",
+        "sha256": "9d52914e9aee03c2597c27036d8fab88f987718fe6781f3f0d1284dc70ebe88c"
+      }
+    ],
+    "treatment": "Replotted original numerical samples; no fitted geometry or solver execution."
+  },
+  {
+    "asset": "geometry/source-arc-C00.png",
+    "sources": [
+      {
+        "file": "H0_R02_Arc_Length_Analysis_C00.png",
+        "sha256": "1541b8422b91e65fc1336b34d05547bd97a7cd998017b784ac02d9e84be1e309"
+      }
+    ],
+    "treatment": "Unchanged original rendered study sheet; available through a full-size source link."
+  },
+  {
+    "asset": "geometry/arc-P25.png",
+    "sources": [
+      {
+        "file": "H0_R02_Arc_Length_Curvature_Samples.csv",
+        "sha256": "9d52914e9aee03c2597c27036d8fab88f987718fe6781f3f0d1284dc70ebe88c"
+      }
+    ],
+    "treatment": "Replotted original numerical samples; no fitted geometry or solver execution."
+  },
+  {
+    "asset": "geometry/source-arc-P25.png",
+    "sources": [
+      {
+        "file": "H0_R02_Arc_Length_Analysis_P25.png",
+        "sha256": "a1f502ed3e3d757af597f1cda6b9d49214f9f40f57712ceabec364e6c865dda1"
+      }
+    ],
+    "treatment": "Unchanged original rendered study sheet; available through a full-size source link."
+  },
+  {
+    "asset": "geometry/arc-P50.png",
+    "sources": [
+      {
+        "file": "H0_R02_Arc_Length_Curvature_Samples.csv",
+        "sha256": "9d52914e9aee03c2597c27036d8fab88f987718fe6781f3f0d1284dc70ebe88c"
+      }
+    ],
+    "treatment": "Replotted original numerical samples; no fitted geometry or solver execution."
+  },
+  {
+    "asset": "geometry/source-arc-P50.png",
+    "sources": [
+      {
+        "file": "H0_R02_Arc_Length_Analysis_P50.png",
+        "sha256": "4fd2c8d5d8a41dd0de2d8219ee50190cf714e6d1fc5fa7c27fb5d0c931490ad7"
+      }
+    ],
+    "treatment": "Unchanged original rendered study sheet; available through a full-size source link."
+  },
+  {
+    "asset": "geometry/arc-P75.png",
+    "sources": [
+      {
+        "file": "H0_R02_Arc_Length_Curvature_Samples.csv",
+        "sha256": "9d52914e9aee03c2597c27036d8fab88f987718fe6781f3f0d1284dc70ebe88c"
+      }
+    ],
+    "treatment": "Replotted original numerical samples; no fitted geometry or solver execution."
+  },
+  {
+    "asset": "geometry/source-arc-P75.png",
+    "sources": [
+      {
+        "file": "H0_R02_Arc_Length_Analysis_P75.png",
+        "sha256": "2276173364a0424efe80d98ac239074385e2d56425241ee7bea5b2b531276521"
+      }
+    ],
+    "treatment": "Unchanged original rendered study sheet; available through a full-size source link."
+  },
+  {
+    "asset": "geometry/arc-P90.png",
+    "sources": [
+      {
+        "file": "H0_R02_Arc_Length_Curvature_Samples.csv",
+        "sha256": "9d52914e9aee03c2597c27036d8fab88f987718fe6781f3f0d1284dc70ebe88c"
+      }
+    ],
+    "treatment": "Replotted original numerical samples; no fitted geometry or solver execution."
+  },
+  {
+    "asset": "geometry/source-arc-P90.png",
+    "sources": [
+      {
+        "file": "H0_R02_Arc_Length_Analysis_P90.png",
+        "sha256": "b9c751e067af800341278234c74e9533e77f7c5eed2f6a04405318ddb38c96c0"
+      }
+    ],
+    "treatment": "Unchanged original rendered study sheet; available through a full-size source link."
+  },
+  {
+    "asset": "geometry/arc-convergence.svg",
+    "sources": [
+      {
+        "file": "H0_R02_Arc_Length_Convergence.csv",
+        "sha256": "e488cb5e5ae3cc2ecd2beabd3a22324b04c77b9870acb50f0f714f59fe81b649"
+      }
+    ],
+    "treatment": "Replotted original numerical samples; no fitted geometry or solver execution."
+  },
+  {
+    "asset": "geometry/reference-top.png",
+    "sources": [
+      {
+        "file": "H0_R02_SubD_vs_NURBS_Deviation_Samples.csv",
+        "sha256": "babaa0186779d187cc264f14d5153a38e3606617d538a75a722c5c37ff5e1e76"
+      },
+      {
+        "file": "H0_R01_Verification_Assets/capture_data.json",
+        "sha256": "aec5f795eccb08e8da526073ca73fa27b3548f8154f08ac7b925447b0c08b059"
+      }
+    ],
+    "treatment": "Replotted original numerical samples; no fitted geometry or solver execution."
+  },
+  {
+    "asset": "geometry/reference-side.png",
+    "sources": [
+      {
+        "file": "H0_R02_SubD_vs_NURBS_Deviation_Samples.csv",
+        "sha256": "babaa0186779d187cc264f14d5153a38e3606617d538a75a722c5c37ff5e1e76"
+      },
+      {
+        "file": "H0_R01_Verification_Assets/capture_data.json",
+        "sha256": "aec5f795eccb08e8da526073ca73fa27b3548f8154f08ac7b925447b0c08b059"
+      }
+    ],
+    "treatment": "Replotted original numerical samples; no fitted geometry or solver execution."
+  },
+  {
+    "asset": "geometry/reference-end.png",
+    "sources": [
+      {
+        "file": "H0_R02_SubD_vs_NURBS_Deviation_Samples.csv",
+        "sha256": "babaa0186779d187cc264f14d5153a38e3606617d538a75a722c5c37ff5e1e76"
+      },
+      {
+        "file": "H0_R01_Verification_Assets/capture_data.json",
+        "sha256": "aec5f795eccb08e8da526073ca73fa27b3548f8154f08ac7b925447b0c08b059"
+      }
+    ],
+    "treatment": "Replotted original numerical samples; no fitted geometry or solver execution."
+  },
+  {
+    "asset": "geometry/conversion-deviation.png",
+    "sources": [
+      {
+        "file": "H0_R02_SubD_vs_NURBS_Deviation_Samples.csv",
+        "sha256": "babaa0186779d187cc264f14d5153a38e3606617d538a75a722c5c37ff5e1e76"
+      }
+    ],
+    "treatment": "Replotted original numerical samples; no fitted geometry or solver execution."
+  },
+  {
+    "asset": "geometry/feature-map.png",
+    "sources": [
+      {
+        "file": "H0_R02_Transverse_Sections.csv",
+        "sha256": "38f8e0cbe4a6b46373e62fd4ee03984dbbcabf271849cdf10f794363772909bc"
+      },
+      {
+        "file": "H0_R02_Feature_Intent_Matrix.csv",
+        "sha256": "977fb7889ed33314ca07ecb9fa416e1f17309d07f264a0cf373da4d195903c4c"
+      }
+    ],
+    "treatment": "Replotted original numerical samples; no fitted geometry or solver execution."
+  },
+  {
+    "asset": "geometry/converged-map.png",
+    "sources": [
+      {
+        "file": "H0_R02_Transverse_Sections.csv",
+        "sha256": "38f8e0cbe4a6b46373e62fd4ee03984dbbcabf271849cdf10f794363772909bc"
+      },
+      {
+        "file": "H0_R02_Arc_Length_Convergence.csv",
+        "sha256": "e488cb5e5ae3cc2ecd2beabd3a22324b04c77b9870acb50f0f714f59fe81b649"
+      }
+    ],
+    "treatment": "Replotted original numerical samples; no fitted geometry or solver execution."
+  },
+  {
+    "asset": "geometry/tail-sections.svg",
+    "sources": [
+      {
+        "file": "H0_R02_Tail_Transverse_Sections.csv",
+        "sha256": "1890e1c201bcf2a5891e99c17df8a0f436d6b63009abbf9dcc5517fbae45b58e"
+      }
+    ],
+    "treatment": "Replotted original numerical samples; no fitted geometry or solver execution."
+  },
+  {
+    "asset": "geometry/tail-rocker.svg",
+    "sources": [
+      {
+        "file": "H0_R02_Tail_Rocker.csv",
+        "sha256": "890eb2d23e7d96471e5681313e1d4f6ee13ac8e2cc1cdb27dc1a390d1486dcca"
+      }
+    ],
+    "treatment": "Replotted original numerical samples; no fitted geometry or solver execution."
+  },
+  {
+    "asset": "geometry/sampled-symmetry.svg",
+    "sources": [
+      {
+        "file": "H0_R02_Symmetry.csv",
+        "sha256": "1fdf5715d2f509b8a6bc4783d4235d6a045eb0080655dee95343f923d2cfc917"
+      }
+    ],
+    "treatment": "Replotted original numerical samples; no fitted geometry or solver execution."
+  },
+  {
+    "asset": "geometry/source-reference-r01.png",
+    "sources": [
+      {
+        "file": "H0_R01_Reference_Verification.png",
+        "sha256": "7dc310c12085d5c0f10abdb4f80ab021d7b783e907c2755bbabc7dc1f1eba86d"
+      }
+    ],
+    "treatment": "Unchanged original rendered study sheet; available through a full-size source link."
+  },
+  {
+    "asset": "geometry/source-reference-r02.png",
+    "sources": [
+      {
+        "file": "H0_R02_Reference_Verification.png",
+        "sha256": "a47d2ae79c3f3732c2787911bd11d3f24faa512d325308160c40a9453e8070ed"
+      }
+    ],
+    "treatment": "Unchanged original rendered study sheet; available through a full-size source link."
+  },
+  {
+    "asset": "geometry/source-convergence.png",
+    "sources": [
+      {
+        "file": "H0_R02_Arc_Length_Convergence_Detail.png",
+        "sha256": "6688c49b59418ae6f2b19b80a1c1269ce7cd31f76f31dce2c250d267de4da469"
+      }
+    ],
+    "treatment": "Unchanged original rendered study sheet; available through a full-size source link."
+  },
+  {
+    "asset": "geometry/source-converged-map.png",
+    "sources": [
+      {
+        "file": "H0_R02_Converged_Curvature_Rate_Map.png",
+        "sha256": "c30dfd55455aafe5ea3b3d0309c844a748a88f848d7f9e372ba7853890127db0"
+      }
+    ],
+    "treatment": "Unchanged original rendered study sheet; available through a full-size source link."
+  },
+  {
+    "asset": "geometry/source-feature-review.png",
+    "sources": [
+      {
+        "file": "H0_R02_Feature_Intent_Review.png",
+        "sha256": "6c7ce58272887da9caa98b5cc84b05a5a975f33bc39d7723ec6b6879e92744ae"
+      }
+    ],
+    "treatment": "Unchanged original rendered study sheet; available through a full-size source link."
+  },
+  {
+    "asset": "geometry/source-fairness.png",
+    "sources": [
+      {
+        "file": "H0_R02_Full_Hull_Fairness_Analysis.png",
+        "sha256": "abcbb64e022994f78d996413e920d16dbc7eff67555c4f616476811395d78343"
+      }
+    ],
+    "treatment": "Unchanged original rendered study sheet; available through a full-size source link."
+  },
+  {
+    "asset": "geometry/source-native-fairness.png",
+    "sources": [
+      {
+        "file": "H0_R02_Native_SubD_Visual_Fairness.png",
+        "sha256": "444c6da5d6fb94a562fc2f8dcb56dbdc0acaa52ec7bc599a6e74909919aa4489"
+      }
+    ],
+    "treatment": "Unchanged original rendered study sheet; available through a full-size source link."
+  },
+  {
+    "asset": "geometry/source-validation.png",
+    "sources": [
+      {
+        "file": "H0_R02_SubD_vs_NURBS_Validation.png",
+        "sha256": "349653e93976e16ce3e6c85a572cadf806fc17d9aac87a1746a419a4d411d21d"
+      }
+    ],
+    "treatment": "Unchanged original rendered study sheet; available through a full-size source link."
+  },
+  {
+    "asset": "geometry/source-tail-views.png",
+    "sources": [
+      {
+        "file": "H0_R02_Tail_Section_Views.png",
+        "sha256": "3d8c6277c8e7af6f59a73a59bec2eb6b729248b33d80ead347c6afde209333ee"
+      }
+    ],
+    "treatment": "Unchanged original rendered study sheet; available through a full-size source link."
+  },
+  {
+    "asset": "geometry/source-tail-analysis.png",
+    "sources": [
+      {
+        "file": "H0_R02_Tail_Section_Analysis.png",
+        "sha256": "9edf26d1882c3eb2d3add2b062b29c3d6852be7e776994caee6bd59d42a49959"
+      }
+    ],
+    "treatment": "Unchanged original rendered study sheet; available through a full-size source link."
+  }
+]

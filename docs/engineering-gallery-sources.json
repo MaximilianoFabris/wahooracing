@@ -1,0 +1,112 @@
+[
+  {
+    "asset": "engineering/cfd-hullPressure.png",
+    "sources": [
+      {
+        "file": "04_CFD_Results\\H0-CFD-001\\VALID_Postprocess\\postProcessing\\surfaceViews\\0.95\\hullPressure.vtp",
+        "sha256": "b52516980f828b6ffe25f30ead863c2e5472a3e54131b0f50244bfa11c0dabed"
+      }
+    ],
+    "treatment": "Replotted from source data; transparent background. No geometry change or solver execution."
+  },
+  {
+    "asset": "engineering/cfd-freeSurface.png",
+    "sources": [
+      {
+        "file": "04_CFD_Results\\H0-CFD-001\\VALID_Postprocess\\postProcessing\\surfaceViews\\0.95\\freeSurface.vtp",
+        "sha256": "45a7287c2c3f35ad12902da1638bff74053a4240767944f1c1e7294ca1478233"
+      }
+    ],
+    "treatment": "Replotted from source data; transparent background. No geometry change or solver execution."
+  },
+  {
+    "asset": "engineering/cfd-centerPlane.png",
+    "sources": [
+      {
+        "file": "04_CFD_Results\\H0-CFD-001\\VALID_Postprocess\\postProcessing\\surfaceViews\\0.95\\centerPlane.vtp",
+        "sha256": "21c9389a944c997b9cfe0b19958a891705798147daf8bee7377233b68adcfbf9"
+      }
+    ],
+    "treatment": "Replotted from source data; transparent background. No geometry change or solver execution."
+  },
+  {
+    "asset": "engineering/cfd-nearWake.png",
+    "sources": [
+      {
+        "file": "04_CFD_Results\\H0-CFD-001\\VALID_Postprocess\\postProcessing\\surfaceViews\\0.95\\nearWake.vtp",
+        "sha256": "529e2cf7e89cbbee703bf593d847c6e2f8b6ede0ab48da17a3e932ccb77689df"
+      }
+    ],
+    "treatment": "Replotted from source data; transparent background. No geometry change or solver execution."
+  },
+  {
+    "asset": "engineering/dry-mass.svg",
+    "sources": [
+      {
+        "file": "01_Geometry_Analysis\\H0_R03_Full_Dry_Mass_CG.json",
+        "sha256": "43574ed77563055ddac763f07832a3d914b282ab8d9924b17d2d49a0b7265bc0"
+      }
+    ],
+    "treatment": "Replotted from source data; transparent background. No geometry change or solver execution."
+  },
+  {
+    "asset": "engineering/component-cg.svg",
+    "sources": [
+      {
+        "file": "01_Geometry_Analysis\\H0_R03_Full_Dry_Mass_CG.json",
+        "sha256": "43574ed77563055ddac763f07832a3d914b282ab8d9924b17d2d49a0b7265bc0"
+      }
+    ],
+    "treatment": "Replotted from source data; transparent background. No geometry change or solver execution."
+  },
+  {
+    "asset": "engineering/dry-trim.svg",
+    "sources": [
+      {
+        "file": "01_Geometry_Analysis\\H0_R03_Dry_Hydrostatics.csv",
+        "sha256": "2fb102d4bdca3adb9e3421056c660b59b989812d2f7bffd3808eac1a83a241b5"
+      }
+    ],
+    "treatment": "Replotted from source data; transparent background. No geometry change or solver execution."
+  },
+  {
+    "asset": "engineering/hull-sections.svg",
+    "sources": [
+      {
+        "file": "01_Geometry_Analysis\\H0_R02_Transverse_Sections.csv",
+        "sha256": "38f8e0cbe4a6b46373e62fd4ee03984dbbcabf271849cdf10f794363772909bc"
+      }
+    ],
+    "treatment": "Replotted from source data; transparent background. No geometry change or solver execution."
+  },
+  {
+    "asset": "engineering/cfd-force-windows.svg",
+    "sources": [
+      {
+        "file": "04_CFD_Results\\H0-CFD-001\\VALID_Postprocess\\Force_Window_Statistics.csv",
+        "sha256": "19626c20c7af7656ea8509c5c09d6e7ce411086c1b08691f8e78065f91e6c7ac"
+      }
+    ],
+    "treatment": "Replotted from source data; transparent background. No geometry change or solver execution."
+  },
+  {
+    "asset": "engineering/cg-trim-sensitivity.svg",
+    "sources": [
+      {
+        "file": "01_Geometry_Analysis\\H0_R03_CG_Sensitivity.csv",
+        "sha256": "f4091b78ce801e03c89d39fc22166141730a6eb54901dfd583d3f6af1341a696"
+      }
+    ],
+    "treatment": "Replotted from source data; transparent background. No geometry change or solver execution."
+  },
+  {
+    "asset": "engineering/centreline-curvature.svg",
+    "sources": [
+      {
+        "file": "01_Geometry_Analysis\\H0_R02_Arc_Length_Curvature_Samples.csv",
+        "sha256": "9d52914e9aee03c2597c27036d8fab88f987718fe6781f3f0d1284dc70ebe88c"
+      }
+    ],
+    "treatment": "Replotted from source data; transparent background. No geometry change or solver execution."
+  }
+]
