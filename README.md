@@ -46,7 +46,11 @@ Includes home, image-based board exploration, 11 system pages, the Hull & Hydrod
 
 Interactive assembly 3D, detailed component disclosures, a private publishing interface and confirmed public contact channels remain future enhancements. More source documents and chat history can be curated incrementally; this version does not claim to have reviewed the full archive.
 
-## Future Hostinger deployment
+## Selected hosting: Cloudflare Pages
+
+The selected deployment now uses GitHub for source and Cloudflare Pages for static hosting. Hostinger retains the domain registration. No VPS is required. See [Cloudflare deployment settings](docs/cloudflare-deployment.md) for build configuration, domain setup, verification and rollback. Account connection and live deployment are still pending.
+
+## Earlier VPS alternative (not selected)
 
 No VPS, DNS, proxy, firewall or shared service has been touched. Deploy only after a read-only review of the existing VPS and approval of the concrete plan. Prefer a dedicated release directory such as `/srv/wahoo-racing/releases/<release>` with an atomic `current` symlink and a domain-specific virtual host serving `dist`.
 
