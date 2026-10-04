@@ -9,6 +9,18 @@ const flow=(steps)=>`<ol class="functional-flow">${steps.map((s,i)=>`<li><small>
 export function pistonSample(degrees,rpm=12000){const r=27.25,L=102,t=degrees*Math.PI/180,q=Math.sqrt(L*L-r*r*Math.sin(t)**2);return {angle:degrees,x:r*(1-Math.cos(t))+L-q,v:(r*Math.sin(t)+r*r*Math.sin(t)*Math.cos(t)/q)*2*Math.PI*rpm/60000};}
 function motionChart(velocity=false){const bottom=260,top=45,left=65,right=655;const ticks=velocity?[-40,-20,0,20,40]:[0,15,30,45,60];const y=v=>bottom-(v-(velocity?-40:0))/(velocity?80:60)*(bottom-top);return svg(velocity?'Calculated piston velocity at 12000 rpm':'Calculated piston travel from TDC',325,text(left,22,velocity?'PISTON VELOCITY / m/s':'TRAVEL FROM TDC / mm',blue,14)+ticks.map(v=>line(left,y(v),right,y(v),'#2b3940')+text(52,y(v)+5,v,gray,14,'end')).join('')+[0,90,180,270,360].map(a=>text(left+a/360*(right-left),287,a,gray,14,'middle')).join('')+path(Array.from({length:361},(_,a)=>{const p=pistonSample(a);return `${a?'L':'M'}${left+a/360*(right-left)},${y(velocity?p.v:p.x)}`;}).join(' '))+text(360,318,'Crank angle after TDC / degrees',gray,14,'middle'));}
 export function reviewedVisual(name){
+if(name==='hull-sandwich')return figure(svg('Conceptual composite sandwich section',250,
+line(30,50,310,50,blue)+line(30,65,310,65,blue)+line(30,170,310,170,blue)+line(30,185,310,185,blue)+
+Array.from({length:10},(_,i)=>circle(45+i*28,118,4,gray)).join('')+
+line(310,57,345,57,gray)+text(355,63,'Outer fibre + epoxy skin',white,18)+
+line(310,118,345,118,gray)+text(355,124,'Structural foam core',white,18)+
+line(310,177,345,177,gray)+text(355,183,'Inner fibre + epoxy skin',white,18)),
+'Conceptual section, not to scale. Skin separation and bonding are central to the sandwich concept. No core grade, thickness, fibre orientation or approved ply schedule is specified.');
+if(name==='hull-mass-ranges'||name==='hull-cost-ranges'){
+const cost=name==='hull-cost-ranges',max=cost?1500:10,rows=cost?[['Carbon',850,1400,1100],['Fiberglass',600,1050,800],['Glass + local carbon',700,1150,null]]:[['Carbon',5,6.5,5.5],['Fiberglass',7,9,8],['Glass + local carbon',6.5,8,null]];
+const X=n=>225+n/max*400;return figure(svg(cost?'Preliminary hull manufacturing allowances':'Preliminary finished hull mass allowances',315,
+text(225,25,cost?'MANUFACTURING ALLOWANCE / US$':'FINISHED HULL / kg',blue,14)+rows.map(([label,lo,hi,point],i)=>{const y=80+i*75;return text(25,y+5,label,white,16)+line(X(lo),y,X(hi),y,blue)+line(X(lo),y-7,X(lo),y+7,blue)+line(X(hi),y-7,X(hi),y+7,blue)+(point===null?'':circle(X(point),y,5,white))+text((X(lo)+X(hi))/2,y+27,`${lo.toLocaleString('en-US')}–${hi.toLocaleString('en-US')}`,gray,14,'middle');}).join('')+[0,max/2,max].map(n=>text(X(n),300,n.toLocaleString('en-US'),gray,14,'middle')).join('')),
+(cost?'Established mould; approximately 20–50 hulls. Excludes tooling, engineering, development testing, freight, tax and supplier profit.':'Includes skins, core, hatch allowance, bonds, local reinforcement, inserts and finish. Excludes propulsion and onboard equipment.')+' Ranges are preliminary planning estimates, not confidence intervals. White circles mark central allowances; no hybrid central value is supplied.');}
 if(name==='fuel-layout')return figure(svg('Fuel packaging direction and target CG datum',270,
  text(35,32,'TRANSOM / 0%',white)+text(645,32,'BOW / 100%',white,16,'end')+line(35,76,645,76)+path('M637 71L645 76L637 81',gray)+
  line(35+610*.38,58,35+610*.38,104,blue)+line(35+610*.42,58,35+610*.42,104,blue)+text(279,134,'38–42% working LCG window',blue,16,'middle')+

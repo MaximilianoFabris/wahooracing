@@ -1,5 +1,79 @@
 [
   {
+    "slug": "hull-materials-and-construction",
+    "title": "Two material directions. One engineered structure.",
+    "summary": "Carbon for the performance prototype; fiberglass for a possible recreational derivative. Both begin with a designed sandwich structure and a clear estimate boundary.",
+    "date": "2026-10-04",
+    "dateLabel": "04 Oct 2026 · source review; document date not stated",
+    "revision": "MATERIALS / REV01",
+    "type": "Engineering study",
+    "evidence": "Proposed construction & planning estimates",
+    "status": "published",
+    "systems": [
+      "hull-hydrodynamics",
+      "manufacturing",
+      "deck"
+    ],
+    "sections": [
+      {
+        "title": "The proposed direction",
+        "text": "The materials report proposes a carbon-composite performance prototype focused on low mass, with fiberglass as a possible route to a more accessible recreational board. Both use epoxy and structural foam sandwich construction as the estimating basis. No laminate design, structural equivalence or production quotation has been established."
+      },
+      {
+        "title": "How the sandwich works",
+        "text": "Two composite skins are separated by a lightweight structural core. The separation helps the panel resist bending, while the bond between skins and core must transfer load. Structural foam is a working part of the panel, not simply filler. Core grade, thickness, resin system and local load paths need to be selected together.",
+        "visual": "hull-sandwich"
+      },
+      {
+        "title": "Each material needs its own design",
+        "text": "Carbon is the proposed minimum-mass route; fiberglass is the lower-cost direction. Matching ply count does not establish equivalent structure. Fibre orientation, panel span, impact response, core behaviour and reinforcement all matter. A fiberglass shell with local carbon is a third candidate, but material transitions and additional processing may offset some of its benefits."
+      },
+      {
+        "title": "Compare finished hulls on the same basis",
+        "text": "The source ranges below include deck, bottom, rails, a hatch allowance, core, skins, bonded joints, local reinforcement, inserts and finish. They exclude engine, starter, exhaust, pump, battery, electronics, fuel system, fuel, fins, footpads and straps. Assign the engine cradle and pump support consistently to either hull or equipment before comparing totals.",
+        "visual": "hull-mass-ranges"
+      },
+      {
+        "title": "Where the central mass allowances come from",
+        "text": "The illustrative carbon budget totals 5.5 kg: 2.8 kg for fibre and resin, 0.8 kg for core and associated bonding, and 1.9 kg for local reinforcement, joints, inserts and finish. The fiberglass budget totals 8.0 kg: 5.1 + 0.8 + 2.1 kg. The 2.5 kg difference is a planning comparison, not a measured prototype result."
+      },
+      {
+        "title": "The geometry belongs to an earlier estimate",
+        "text": "The report carries forward an earlier assessment of 28_for chatgpt.3dm: approximately 1.77 m length, 0.572 m maximum width, 0.229 m overall vertical envelope and 1.97 m² external surface area. It does not independently recalculate them. They are not substituted for current H0 study geometry. Overall height is not engine-bay clearance, and exterior area is not total fabric purchasing area."
+      },
+      {
+        "title": "A reproducible estimating shortcut",
+        "text": "Skin mass = area × combined dry fibre mass per area × (1 + resin-to-fibre mass ratio). The source uses 1.97 m² once, with all plies across both skins included in the fibre allowance. Carbon: 1.97 × 0.80 × 1.78 ≈ 2.81 kg. Fiberglass: 1.97 × 1.40 × 1.85 ≈ 5.10 kg. These assumed fibre allowances and resin ratios are not a build-ready laminate or proof of equal strength. Inner and outer areas are approximated as equal."
+      },
+      {
+        "title": "Cost is more than fabric",
+        "text": "The source assumes an established mould and a small series of about 20–50 hulls. The total allowances cover materials, consumables, fabrication, bonding, trimming, finishing and routine inspection. They exclude tooling, engineering, development tests, freight, tax and supplier profit. Prototype fabrication and an actual outsourced purchase price may differ substantially.",
+        "visual": "hull-cost-ranges"
+      },
+      {
+        "title": "What the saving can—and cannot—mean",
+        "text": "The central comparison is US$1,100 for carbon and US$800 for fiberglass: US$300, or about 27%, less hull manufacturing allowance. This is not a guaranteed saving. In the report’s illustrative whole-board scenario, the hull is assumed to be 40% of a US$2,750 carbon manufacturing budget. Keeping US$1,650 of other costs unchanged gives US$2,450 for fiberglass, a total reduction of about 10.9%. The 40% share is a project assumption, not an industry benchmark."
+      },
+      {
+        "title": "A recreational price ambition",
+        "text": "The document sets a future US$4,000–5,000 retail ambition for the recreational board. It is not an announced selling price or an available offer. Freight, applicable tax, distribution, warranty, support, overhead and development recovery still need to fit. The difference between retail price and manufacturing allowance is not profit. Tooling also needs separate recovery: the report’s hypothetical US$10,000 tool would allocate US$500 across 20 saleable hulls, US$200 across 50 or US$100 across 100."
+      },
+      {
+        "title": "Design the concentrated loads",
+        "text": "Detailed work must cover rider and landing loads, hatch perimeter and seal, engine vibration, pump thrust and alignment, intake, rail joints and attachment points. Fasteners need engineered local load transfer rather than reliance on unreinforced foam. Penetrations and bonds need protection against water ingress. A common exterior does not guarantee identical internal tooling or assembly for both materials."
+      },
+      {
+        "title": "The evidence needed next",
+        "text": "Trial the material and process to measure cured mass, resin uptake and bond quality. Check mounts, inserts, joints, hatch fit and leakage on structural assemblies. Then measure complete-board mass and CG and assess handling, temperature, vibration and durability under defined conditions. Acceptance criteria must be agreed before testing. Neither construction has completed this validation in the supplied record."
+      }
+    ],
+    "sources": [
+      "Wahoo_Hull_Materials_and_Construction_Rev01.docx · supplied project report",
+      "Report references: Gurit Guide to Composites and Core Materials Brochure support general sandwich principles; they do not validate Wahoo estimates."
+    ],
+    "changes": "Initial materials website record. Source diagram redrawn without a background panel; comparison charts reproduce source ranges. Planning allowances and commercial scenarios are preserved as estimates, with exclusions. Original document unchanged."
+  },
+  {
     "slug": "fuel-tank-balance",
     "title": "Place the fuel. Control the change.",
     "summary": "A low tank ahead of the engine, close to the intended centre of gravity: balance and independent service access guide the current direction.",
