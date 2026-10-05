@@ -1,0 +1,694 @@
+[
+  {
+    "slug": "electronics-control-architecture",
+    "title": "Electronics and control: three responsibilities, one board.",
+    "summary": "Engine management, vehicle control and shared electrical integration form the proposed electronics architecture. Define their boundaries before selecting the hardware.",
+    "date": "2026-10-05",
+    "dateLabel": "05 Oct 2026 · electronics research R01",
+    "revision": "ELECTRONICS / R01",
+    "type": "Engineering study",
+    "evidence": "Research specification · proposed design",
+    "status": "published",
+    "systems": [
+      "controls",
+      "electrical"
+    ],
+    "hero": "engineering/electronics-01_system_architecture.svg",
+    "heroAlt": "Electronics and control: three responsibilities, one board. — conceptual functional diagram",
+    "heroCaption": "R01 proposed architecture. Not a wiring, manufacturing or validated control specification. Open the diagram for full-size inspection.",
+    "sections": [
+      {
+        "title": "Research stage, not a finished control system",
+        "text": "Electronic fuel injection is a Wahoo requirement. The proposed 125 cc single-cylinder two-stroke engine and approximately 12,000 rpm research target guide this investigation; the final operating envelope remains open. R01 records no integrated controller, completed calibration, marine qualification or adaptive riding test."
+      },
+      {
+        "title": "Engine management and vehicle control are siblings",
+        "text": "Engine management (EMS) brings the ECU, fuel injection, ignition and engine instrumentation together. Vehicle control (VCS) interprets board motion and records riding conditions. Shared electrical integration supplies protected power, communications, connectors and the harness. The ECU is a component of EMS; the VCS is a separate development package."
+      },
+      {
+        "title": "The working shortlist",
+        "text": "R01 identifies MaxxECU SPORT plus a Teensy 4.1 VCS prototype as the provisional development combination, with intake EFI as the working injection arrangement. This is a shortlist for investigation, not a production selection or a claim of demonstrated compatibility. MaxxECU documents two-stroke support, electronic throttle capability and CAN; those features still require application-specific confirmation. <a href=\"https://maxxecu.com/products/sport/\">S01 · Manufacturer specifications</a>."
+      },
+      {
+        "title": "What could change the choice",
+        "text": "Retaining mechanical throttle may reduce the first prototype’s ECU requirements. Selecting chamber direct injection reopens the injector driver, pressure, timing and lubrication decisions. Packaging, power consumption, available external commands and written high-speed trigger support can also change the shortlist.",
+        "table": {
+          "caption": "R01 candidate roles — application approval remains open",
+          "headers": [
+            "Candidate",
+            "Research role",
+            "What must be established"
+          ],
+          "rows": [
+            [
+              "MaxxECU SPORT",
+              "Leading development candidate",
+              "Exact trigger, injector, ignition, external requests and marine installation."
+            ],
+            [
+              "MaxxECU MINI / MicroSquirt",
+              "Alternatives for a simpler first engine milestone",
+              "Required throttle arrangement, I/O, firmware and protection behaviour."
+            ],
+            [
+              "Ecumaster EMU Black",
+              "Comparison candidate",
+              "Written confirmation of the proposed single-cylinder two-stroke application."
+            ],
+            [
+              "Ecotrons",
+              "Matched package supplier enquiry",
+              "Exact kit, timing capability, data access and integration support."
+            ],
+            [
+              "C2C / custom ECU",
+              "Later experimental options",
+              "Development, calibration, support and qualification effort; no reliability ranking."
+            ]
+          ]
+        }
+      },
+      {
+        "title": "Decisions remain connected to the physical board",
+        "text": "Engine geometry sets trigger and sensor interfaces. Fuel tank pickup and return routing affect pressure stability. Exhaust layout affects temperature and mixture instrumentation. Pump behaviour shapes any future unloading detection. Moving-nozzle coordination remains a future interface: actuator, position feedback, loads and control law are unselected."
+      },
+      {
+        "title": "Separate development cost from production cost",
+        "text": "A processor board price is not the cost of a working VCS. The scope includes a transceiver, protected supply, sensors, wiring, connectors, enclosure, firmware, calibration and testing. R01 contains dated retail observations, but no complete installed electronics cost or achieved production bill of materials. Procurement needs written, like-for-like quotations."
+      },
+      {
+        "title": "Read the packages in order",
+        "text": "Start with <a href=\"/journal/electronics-engine-management/\">engine management</a>, then <a href=\"/journal/electronics-vehicle-control/\">vehicle control</a>, <a href=\"/journal/electronics-electrical-integration/\">electrical integration</a> and the <a href=\"/journal/electronics-validation/\">validation plan</a>. These records explain requirements and proposed work; none reports a completed electronics test."
+      }
+    ],
+    "sources": [
+      "Wahoo Electronics and Control Systems R01 · 5 October 2026",
+      "Supplied website content export, source catalogue and seven conceptual diagrams."
+    ],
+    "references": [
+      {
+        "id": "S01",
+        "title": "MaxxECU SPORT specifications",
+        "url": "https://maxxecu.com/products/sport/",
+        "scope": "Two stroke support, I/O, mass and dimensions. Regional price displays vary.",
+        "reviewed": "2026-10-05"
+      },
+      {
+        "id": "S03",
+        "title": "MaxxECU MINI specifications",
+        "url": "https://maxxecu.com/products/mini/",
+        "scope": "High impedance outputs, absent DBW driver, 245 g, logging and displayed package price.",
+        "reviewed": "2026-10-05"
+      },
+      {
+        "id": "S10",
+        "title": "MicroSquirt V3 supplier listing",
+        "url": "https://diyautotune.com/products/microsquirt",
+        "scope": "USD 379.99 displayed base configuration and product features.",
+        "reviewed": "2026-10-05"
+      },
+      {
+        "id": "S12",
+        "title": "Ecumaster EMU Black manufacturer specifications",
+        "url": "https://www.ecumaster.com/products/emu-black/",
+        "scope": "IP60, 390 g, DBW, ignition and sensor interfaces.",
+        "reviewed": "2026-10-05"
+      },
+      {
+        "id": "S14",
+        "title": "Ecotrons small engine EFI kit",
+        "url": "https://ecotrons.com/small_engine_fuel_injection_kit/",
+        "scope": "Kit contents and published component options; not Wahoo application approval.",
+        "reviewed": "2026-10-05"
+      },
+      {
+        "id": "S17",
+        "title": "DIY EFI C2C",
+        "url": "https://diy-efi.co.uk/product/c2c",
+        "scope": "GBP 200 ex VAT, compact Speeduino ECU, out of stock at review.",
+        "reviewed": "2026-10-05"
+      },
+      {
+        "id": "S21",
+        "title": "PJRC Teensy 4.1 technical reference",
+        "url": "https://www.pjrc.com/store/teensy41.html",
+        "scope": "600 MHz, CAN controllers, transceiver requirement, 3.3 V I/O and SD socket.",
+        "reviewed": "2026-10-05"
+      }
+    ],
+    "changes": "First published electronics research record. The shortlist, interfaces and validation plan are provisional; no ECU purchase, completed calibration, marine qualification or adaptive riding test is recorded."
+  },
+  {
+    "slug": "electronics-engine-management",
+    "title": "Engine management: fuel, spark and five milliseconds.",
+    "summary": "Investigate EFI, ignition, event timing and sensor dependencies together. At the proposed 12,000 rpm reference speed, a two-stroke cycle lasts just 5 milliseconds.",
+    "date": "2026-10-05",
+    "dateLabel": "05 Oct 2026 · electronics research R01",
+    "revision": "ELECTRONICS / R01",
+    "type": "Engineering study",
+    "evidence": "Research specification · proposed design",
+    "status": "published",
+    "systems": [
+      "controls",
+      "engine",
+      "fuel-injection"
+    ],
+    "hero": "engineering/electronics-02_engine_management.svg",
+    "heroAlt": "Engine management: fuel, spark and five milliseconds. — conceptual functional diagram",
+    "heroCaption": "R01 proposed architecture. Not a wiring, manufacturing or validated control specification. Open the diagram for full-size inspection.",
+    "sections": [
+      {
+        "title": "The ECU works inside a larger system",
+        "text": "Crank position provides the timing reference. Rider demand and engine measurements inform a calibrated injection and ignition strategy. Output drivers must match the injector and ignition hardware; a logic-level output is not necessarily a power stage for a bare coil. Fuel pickup, pump, filter and regulator must maintain the required delivery independently of the software."
+      },
+      {
+        "title": "EFI does not automatically mean direct injection",
+        "text": "Intake EFI is the provisional baseline. Transfer-port injection and chamber direct injection remain alternatives. Only an injector spraying directly into the combustion chamber establishes chamber DI. Each route changes packaging, fuel preparation, injection timing and lubrication; a conventional intake injector driver is not approval for a high-pressure DI injector.",
+        "visual": "electronics-03"
+      },
+      {
+        "title": "The timing budget at high speed",
+        "text": "At 12,000 rpm, the crankshaft makes 200 revolutions per second. A two-stroke cycle therefore lasts 60,000 / 12,000 = 5.00 ms; each crank degree takes approximately 13.9 microseconds. These are calculated references, not a selected calibration.",
+        "table": {
+          "caption": "Calculated timing examples — no injection schedule selected",
+          "headers": [
+            "Reference",
+            "Available time or event rate"
+          ],
+          "rows": [
+            [
+              "Full cycle at 12,000 rpm",
+              "5.00 ms"
+            ],
+            [
+              "Illustrative 120° window at 12,000 rpm",
+              "1.67 ms"
+            ],
+            [
+              "Full cycle at 11,500 rpm",
+              "5.22 ms"
+            ],
+            [
+              "One spark per cycle at 12,000 rpm",
+              "200 events/s"
+            ]
+          ]
+        }
+      },
+      {
+        "title": "Select the injector and driver as a pair",
+        "text": "Required inputs include the fuel-demand envelope, pressure, permitted duty or angular window, opening behaviour versus voltage, short-pulse response and spray geometry. Displacement alone does not establish injector flow. Bosch EV14 is a family for investigation, not an approved part number. The injector, throttle body, coil and regulator remain unselected."
+      },
+      {
+        "title": "Lubrication follows the injection decision",
+        "text": "Changing where fuel enters can change whether oil carried with it reaches the crankshaft and bearings. Premix compatibility, separate metering and the implications of fuel-cut strategies require explicit review. Electronic injection does not provide lubrication by itself. Generic automotive tuning features are not automatically suitable for this engine."
+      },
+      {
+        "title": "Keep critical measurements at the ECU",
+        "text": "Crank timing, rider/throttle demand, intake conditions, engine temperature, fuel pressure and supply voltage form the proposed engine measurement set. EGT requires a matching thermocouple interface; SPORT does not include an EGT input. Lambda measurement needs compatible electronics and a valid installation. Two-stroke scavenging and wet exhaust conditions complicate interpretation.",
+        "table": {
+          "caption": "Proposed engine instrumentation — exact sensors and limits open",
+          "headers": [
+            "Measurement",
+            "Purpose"
+          ],
+          "rows": [
+            [
+              "Crank position / RPM",
+              "Synchronisation and loss-of-sync detection."
+            ],
+            [
+              "Rider demand / throttle position",
+              "Demand measurement and plausibility where electronic throttle is used."
+            ],
+            [
+              "Air temperature / ambient pressure / intake pressure",
+              "Compensation and investigation of intake pulsation."
+            ],
+            [
+              "Engine or coolant temperature / EGT",
+              "Different thermal measurements; not interchangeable."
+            ],
+            [
+              "Fuel pressure / battery voltage",
+              "Separate fuel-supply and electrical faults from calibration issues."
+            ],
+            [
+              "Development lambda",
+              "Mixture investigation only under a valid installation and operating method."
+            ]
+          ]
+        }
+      },
+      {
+        "title": "The first milestone is repeatability",
+        "text": "Starting, stable synchronisation, predictable injection, controlled ignition and a functioning stop path take priority over riding intelligence. No power gain, fuel-consumption reduction, temperature limit or injector sizing result is established in this research record."
+      }
+    ],
+    "sources": [
+      "Wahoo Electronics and Control Systems R01 · 5 October 2026",
+      "Supplied website content export, source catalogue and seven conceptual diagrams."
+    ],
+    "references": [
+      {
+        "id": "S01",
+        "title": "MaxxECU SPORT specifications",
+        "url": "https://maxxecu.com/products/sport/",
+        "scope": "Two stroke support, I/O, mass and dimensions. Regional price displays vary.",
+        "reviewed": "2026-10-05"
+      },
+      {
+        "id": "S04",
+        "title": "MaxxECU engine settings",
+        "url": "https://www.maxxecu.com/webhelp/settings-configuration-engine_settings.html",
+        "scope": "Piston two stroke mode; cylinder configuration.",
+        "reviewed": "2026-10-05"
+      },
+      {
+        "id": "S05",
+        "title": "MaxxECU injection settings",
+        "url": "https://www.maxxecu.com/webhelp/settings-fuel-fuel_inj_general.html",
+        "scope": "Sequential 360 degree two stroke injection mode.",
+        "reviewed": "2026-10-05"
+      },
+      {
+        "id": "S06",
+        "title": "MaxxECU ignition settings",
+        "url": "https://www.maxxecu.com/webhelp/settings-ignition-ignition_settings.html",
+        "scope": "Two stroke ignition mode.",
+        "reviewed": "2026-10-05"
+      },
+      {
+        "id": "S18",
+        "title": "Ecumaster GDI driver",
+        "url": "https://www.ecumaster.com/products/gdi-driver/",
+        "scope": "Up to 70 V injector drive and EMU PRO integration; not proof of Wahoo compatibility.",
+        "reviewed": "2026-10-05"
+      },
+      {
+        "id": "S19",
+        "title": "KTM transfer port injection example",
+        "url": "https://www.ktm.com/en-ph/models/enduro/2-stroke/ktm-300-exc-tpi-sixdays2022.html",
+        "scope": "Injectors feed transfer passages; TPI is not chamber direct injection.",
+        "reviewed": "2026-10-05"
+      },
+      {
+        "id": "S20",
+        "title": "KTM throttle body injection introduction",
+        "url": "https://www.ktm.com/en-us/2024-enduro-range-press-kit.html",
+        "scope": "Two stroke TBI precedent; no transfer of KTM tuning to Wahoo.",
+        "reviewed": "2026-10-05"
+      },
+      {
+        "id": "S26",
+        "title": "Bosch Motorsport EV14",
+        "url": "https://www.bosch-motorsport.com/products/fuel-and-spark/injection-valves/injection-valve-ev-14/",
+        "scope": "Injector family, available geometry and spray options; select exact part number.",
+        "reviewed": "2026-10-05"
+      },
+      {
+        "id": "S30",
+        "title": "Bosch LSU49 installation guidance",
+        "url": "https://www.bosch-motorsport.com/content/downloads/Raceparts/en-GB/51865867208058251.html",
+        "scope": "Requires suitable evaluation electronics and protection from condensation.",
+        "reviewed": "2026-10-05"
+      }
+    ],
+    "changes": "First published electronics research record. The shortlist, interfaces and validation plan are provisional; no ECU purchase, completed calibration, marine qualification or adaptive riding test is recorded."
+  },
+  {
+    "slug": "electronics-vehicle-control",
+    "title": "Vehicle control: observe first, request later.",
+    "summary": "A separate VCS would record motion and engine behaviour before any bounded riding intervention is evaluated. Engine protection remains with the ECU.",
+    "date": "2026-10-05",
+    "dateLabel": "05 Oct 2026 · electronics research R01",
+    "revision": "ELECTRONICS / R01",
+    "type": "Engineering study",
+    "evidence": "Research specification · proposed design",
+    "status": "published",
+    "systems": [
+      "controls",
+      "jet-pump"
+    ],
+    "hero": "engineering/electronics-04_control_authority.svg",
+    "heroAlt": "Vehicle control: observe first, request later. — conceptual functional diagram",
+    "heroCaption": "R01 proposed architecture. Not a wiring, manufacturing or validated control specification. Open the diagram for full-size inspection.",
+    "sections": [
+      {
+        "title": "A logger before a riding controller",
+        "text": "The proposed VCS combines engine data with board motion and navigation measurements. Teensy 4.1 is the provisional logging prototype platform; it still needs protected power, signal interfaces and a CAN transceiver. ESP32 or STM32 development platforms remain alternatives. None of these development boards is a qualified marine controller."
+      },
+      {
+        "title": "Requests are not engine authority",
+        "text": "The VCS may eventually request a permitted mode or bounded limit. The ECU must retain the defined engine-protection functions and critical inputs. Loss of the VCS must not produce an uncontrolled demand increase. A sudden reduction also has handling consequences, so the fallback must be specified and tested for the operating state."
+      },
+      {
+        "title": "CAN is a transport, not a shared language",
+        "text": "Both ends need matching message definitions. The proposed contract includes identifiers, units, scaling, byte order, ranges, update periods, timeouts and receiver actions. ECU-to-VCS measurements and VCS-to-ECU requests need separate definitions. A transceiver does not translate incompatible application protocols."
+      },
+      {
+        "title": "A zero value is not automatically a safe fallback",
+        "text": "MaxxECU documents timeout zeroing for a CAN input. What zero means depends on the receiving strategy. Missing, stale, corrupt, out-of-range and rapidly changing messages therefore need explicit tests. Request freshness and validity must be evaluated separately from the request value. <a href=\"https://www.maxxecu.com/webhelp/settings-can-inputs.html\">S07 · CAN input documentation</a>."
+      },
+      {
+        "title": "Measure before interpreting",
+        "text": "An IMU measures acceleration and angular rate; it does not directly identify a corner, jump or cavitation event. GNSS adds speed and route context, while optional cooling, ingress, fuel-level and future nozzle-position measurements answer different questions. Candidate sensors and their locations need vibration, interference and calibration checks.",
+        "table": {
+          "caption": "Proposed vehicle measurements",
+          "headers": [
+            "Input",
+            "Research question"
+          ],
+          "rows": [
+            [
+              "IMU / motion",
+              "Can repeatable ride events be identified despite vibration and mounting effects?"
+            ],
+            [
+              "GNSS",
+              "How do speed and route align with rider demand and engine events?"
+            ],
+            [
+              "Cooling flow or pressure / water temperature",
+              "Can useful cooling conditions and loss of cooling be distinguished?"
+            ],
+            [
+              "Water ingress / fuel level",
+              "Can leakage or low fuel be detected without misleading motion-induced readings?"
+            ],
+            [
+              "Nozzle position",
+              "If an actuator proceeds, does its measured position match the request?"
+            ]
+          ]
+        }
+      },
+      {
+        "title": "Riding strategies remain experiments",
+        "text": "Launch response, cornering, rough-water demand progression and pump-unloading limits are research topics. An RPM flare alone does not prove cavitation: ventilation, loss of immersion and airborne operation can also unload the pump. Any intervention needs labelled test data, confidence checks, bounded response and controlled recovery. Beginner, Sport and Race are possible names, not specifications."
+      },
+      {
+        "title": "Keep wireless outside essential control",
+        "text": "A phone interface or log-transfer module may support service, but engine operation and stopping must not depend on wireless connectivity. Autonomous navigation, computer vision and unrestricted automatic generation of fuel or ignition maps are outside R01’s established requirements."
+      }
+    ],
+    "sources": [
+      "Wahoo Electronics and Control Systems R01 · 5 October 2026",
+      "Supplied website content export, source catalogue and seven conceptual diagrams."
+    ],
+    "references": [
+      {
+        "id": "S07",
+        "title": "MaxxECU CAN inputs",
+        "url": "https://www.maxxecu.com/webhelp/settings-can-inputs.html",
+        "scope": "Configurable incoming messages and timeout zeroing.",
+        "reviewed": "2026-10-05"
+      },
+      {
+        "id": "S21",
+        "title": "PJRC Teensy 4.1 technical reference",
+        "url": "https://www.pjrc.com/store/teensy41.html",
+        "scope": "600 MHz, CAN controllers, transceiver requirement, 3.3 V I/O and SD socket.",
+        "reviewed": "2026-10-05"
+      },
+      {
+        "id": "S24",
+        "title": "Espressif ESP32 S3 TWAI documentation",
+        "url": "https://docs.espressif.com/projects/esp-idf/en/latest/esp32s3/api-reference/peripherals/twai.html",
+        "scope": "Classic CAN compatibility, external transceiver, no native CAN FD frames.",
+        "reviewed": "2026-10-05"
+      },
+      {
+        "id": "S25",
+        "title": "ST NUCLEO H753ZI",
+        "url": "https://www.st.com/en/evaluation-tools/nucleo-h753zi.html",
+        "scope": "Development platform; no usable current price in retrieved manufacturer listing.",
+        "reviewed": "2026-10-05"
+      },
+      {
+        "id": "S27",
+        "title": "Adafruit BNO085 breakout",
+        "url": "https://www.adafruit.com/product/4754",
+        "scope": "USD 29.50 and motion sensor interfaces; experimental sensor candidate.",
+        "reviewed": "2026-10-05"
+      },
+      {
+        "id": "S28",
+        "title": "SparkFun MAX M10S GNSS breakout",
+        "url": "https://www.sparkfun.com/sparkfun-gnss-receiver-breakout-max-m10s-qwiic.html",
+        "scope": "USD 45.95, external antenna, maximum 10 Hz update rate.",
+        "reviewed": "2026-10-05"
+      }
+    ],
+    "changes": "First published electronics research record. The shortlist, interfaces and validation plan are provisional; no ECU purchase, completed calibration, marine qualification or adaptive riding test is recorded."
+  },
+  {
+    "slug": "electronics-electrical-integration",
+    "title": "Electrical integration: power, harness and marine exposure.",
+    "summary": "The controller is only one part of the installation. Starting transients, sensor returns, connectors, sealing and service access must be designed and tested together.",
+    "date": "2026-10-05",
+    "dateLabel": "05 Oct 2026 · electronics research R01",
+    "revision": "ELECTRONICS / R01",
+    "type": "Engineering study",
+    "evidence": "Research specification · proposed design",
+    "status": "published",
+    "systems": [
+      "controls",
+      "electrical",
+      "manufacturing"
+    ],
+    "hero": "engineering/electronics-05_power_distribution.svg",
+    "heroAlt": "Electrical integration: power, harness and marine exposure. — conceptual functional diagram",
+    "heroCaption": "R01 proposed architecture. Not a wiring, manufacturing or validated control specification. Open the diagram for full-size inspection.",
+    "sections": [
+      {
+        "title": "Define the electrical operating envelope",
+        "text": "The proposed distribution separates starter, engine-control and protected low-voltage electronics branches. The battery’s cranking minimum, charging maximum and transient behaviour matter alongside nominal voltage. R01 deliberately selects no fuse ratings, wire sizes or battery capacity."
+      },
+      {
+        "title": "Protect measurement integrity",
+        "text": "Branch protection must be matched to wiring and loads. Sensitive sensor returns, starter currents and ignition paths need a documented grounding and routing strategy. The crank signal and measurement wiring must be assessed for interference. The harness drawing must define shielding and termination rather than leaving them to installation improvisation."
+      },
+      {
+        "title": "A development board is not a battery interface",
+        "text": "The VCS needs a suitable regulator and input protection. Automotive sensors may also require level conversion or protected interfaces: Teensy’s 3.3 V input limits cannot be treated as permission to connect an arbitrary 5 V signal. Power disturbance and reset behaviour belong in the bench test plan."
+      },
+      {
+        "title": "Stop and restart are system functions",
+        "text": "The lanyard/stop path must not depend on a phone, GNSS or the high-level VCS application. The exact stop chain depends on the chosen ECU and ignition arrangement. Starter permission, running lockout, pump shutdown and unintended-restart inhibition must be demonstrated; branch separation alone does not establish independence."
+      },
+      {
+        "title": "Qualify the assembled installation",
+        "text": "Water, salt, vibration, shock and heat act on the complete enclosure, connectors, harness, mounting and electronics. A connector-family rating or processor specification is not evidence that the assembled board is marine-qualified.",
+        "table": {
+          "caption": "Proposed environmental review — acceptance conditions still to be defined",
+          "headers": [
+            "Area",
+            "Evidence required"
+          ],
+          "rows": [
+            [
+              "Ingress and connectors",
+              "Exact parts, mating state, unused-cavity sealing and assembled exposure tests."
+            ],
+            [
+              "Salt and corrosion",
+              "Material compatibility, sealing-surface inspection and service procedure."
+            ],
+            [
+              "Vibration and shock",
+              "Representative mounting loads, strain relief and measured test profiles."
+            ],
+            [
+              "Heat",
+              "Controller and driver temperatures in the actual sealed enclosure."
+            ],
+            [
+              "Electrical interference",
+              "No timing corruption or unintended reset during starter and switched-load tests."
+            ],
+            [
+              "Service access",
+              "Repeatable diagnosis without damaging seals or changing calibration."
+            ]
+          ]
+        }
+      },
+      {
+        "title": "Make serviceability a design decision",
+        "text": "Coating, selective encapsulation and full potting have different repair and heat-transfer consequences. A vent needs its own exposure assessment. Exposed USB or magnetic connectors are not automatically suitable for wet mating or saltwater; a protected internal service connection may be simpler for the prototype."
+      },
+      {
+        "title": "Cost the complete package",
+        "text": "Include protection electronics, interfaces, cable and connector assemblies, housings, diagnostic access, firmware, calibration and environmental tests. Retail controller and processor-board prices do not establish the installed system cost. No production cost saving has been demonstrated in R01."
+      }
+    ],
+    "sources": [
+      "Wahoo Electronics and Control Systems R01 · 5 October 2026",
+      "Supplied website content export, source catalogue and seven conceptual diagrams."
+    ],
+    "references": [
+      {
+        "id": "S01",
+        "title": "MaxxECU SPORT specifications",
+        "url": "https://maxxecu.com/products/sport/",
+        "scope": "Two stroke support, I/O, mass and dimensions. Regional price displays vary.",
+        "reviewed": "2026-10-05"
+      },
+      {
+        "id": "S21",
+        "title": "PJRC Teensy 4.1 technical reference",
+        "url": "https://www.pjrc.com/store/teensy41.html",
+        "scope": "600 MHz, CAN controllers, transceiver requirement, 3.3 V I/O and SD socket.",
+        "reviewed": "2026-10-05"
+      },
+      {
+        "id": "S29",
+        "title": "TE Connectivity DTM connector FAQ",
+        "url": "https://www.te.com/en/faqs/deutsch-dtm-connectors.html",
+        "scope": "Environmental connector family; exact part and assembly conditions govern rating.",
+        "reviewed": "2026-10-05"
+      }
+    ],
+    "changes": "First published electronics research record. The shortlist, interfaces and validation plan are provisional; no ECU purchase, completed calibration, marine qualification or adaptive riding test is recorded."
+  },
+  {
+    "slug": "electronics-validation",
+    "title": "Electronics validation: from bench signals to bounded water tests.",
+    "summary": "Five proposed validation gates separate component research, bench checks, engine calibration, logging-only water trials and later control interventions.",
+    "date": "2026-10-05",
+    "dateLabel": "05 Oct 2026 · electronics research R01",
+    "revision": "ELECTRONICS / R01",
+    "type": "Engineering study",
+    "evidence": "Research specification · proposed design",
+    "status": "published",
+    "systems": [
+      "controls",
+      "electrical"
+    ],
+    "hero": "engineering/electronics-07_validation_path.svg",
+    "heroAlt": "Electronics validation: from bench signals to bounded water tests. — conceptual functional diagram",
+    "heroCaption": "R01 proposed architecture. Not a wiring, manufacturing or validated control specification. Open the diagram for full-size inspection.",
+    "sections": [
+      {
+        "title": "A plan, not a test-results dashboard",
+        "text": "This R01 record describes proposed gates and evidence requirements. No gate is presented as passed. Firmware, wiring, calibration and sensor-location changes require a review of which earlier results remain applicable."
+      },
+      {
+        "title": "Five gates before adaptive control",
+        "text": "First confirm the exact engine, trigger, injector, ignition, sensor and supply requirements with suppliers. Then simulate crank signals and faults on a bench. Controlled engine calibration precedes logging-only water trials. Bounded interventions follow only after ride interpretation and fault behaviour have been evaluated.",
+        "table": {
+          "caption": "Proposed validation gates",
+          "headers": [
+            "Gate",
+            "Required evidence"
+          ],
+          "rows": [
+            [
+              "1 · Requirements and interfaces",
+              "Exact components, supplier answers and acceptance criteria."
+            ],
+            [
+              "2 · Bench signals and faults",
+              "Timing, communication timeout, reset and disturbed-supply behaviour."
+            ],
+            [
+              "3 · Controlled engine calibration",
+              "Synchronisation, spark timing, fuel pressure and thermal measurements."
+            ],
+            [
+              "4 · Logging-only water trials",
+              "Synchronized rider demand, motion, speed, RPM and fault records."
+            ],
+            [
+              "5 · Bounded intervention trials",
+              "Defined requests, limits, recovery and rider consequences under a test plan."
+            ]
+          ]
+        }
+      },
+      {
+        "title": "Define states before programming transitions",
+        "text": "OFF, SELF CHECK, READY, CRANKING, RUNNING, DEGRADED and STOPPED / FAULT describe the proposed sequence. Each state needs permitted outputs, entry and exit conditions and event records. READY is not permission to energise ignition or injection. The simplified arrows below do not replace a complete transition specification.",
+        "visual": "electronics-06"
+      },
+      {
+        "title": "Specify fault responses physically",
+        "text": "A stop request, loss of crank synchronisation or implausible throttle input is different from losing optional navigation data. Define which outputs remain valid, the permitted demand, how the transition happens and how recovery is authorised. Do not call a fallback safe without evidence.",
+        "table": {
+          "caption": "Fault decisions to define and test — no thresholds approved",
+          "headers": [
+            "Condition",
+            "Proposed responsibility and test"
+          ],
+          "rows": [
+            [
+              "Stop / rider separation",
+              "Stop chain and ECU: stop thrust generation and inhibit unintended restart."
+            ],
+            [
+              "Crank synchronisation lost",
+              "ECU: suppress invalid timing outputs and define restart checks."
+            ],
+            [
+              "VCS heartbeat missing",
+              "ECU: reject stale requests and apply the tested baseline or limit policy."
+            ],
+            [
+              "Low pressure / excessive temperature",
+              "ECU where supported: response matched to severity, persistence and load."
+            ],
+            [
+              "Invalid IMU / GNSS",
+              "VCS: disable affected inferred strategies while preserving essential engine control."
+            ],
+            [
+              "Supply reset / ingress",
+              "Defined supervisor and power design: test output state, restart and isolation behaviour."
+            ]
+          ]
+        }
+      },
+      {
+        "title": "Recovery is a separate decision",
+        "text": "Define whether a fault clears automatically, latches until power cycling or needs service. Returning CAN messages must not automatically restore an aggressive previous mode. Restart and recovery should be deliberate, observable and consistent with rider input."
+      },
+      {
+        "title": "Keep a reproducible record",
+        "text": "Log test ID and time, engine/pump configuration, fuel and oil, controller and firmware revisions, calibration checksum, sensor calibration, rider/load, water conditions and objective. Align timestamps. Distinguish measured values from estimates and requested commands from actual actuator feedback."
+      },
+      {
+        "title": "Publish evidence when it exists",
+        "text": "Define limits, response times and abort conditions before each test, using selected-component specifications and calibrator input. Preserve failed as well as successful runs. A brief successful run is not durability evidence, and a ride logger is not a substitute for timing measurements on the bench."
+      }
+    ],
+    "sources": [
+      "Wahoo Electronics and Control Systems R01 · 5 October 2026",
+      "Supplied website content export, source catalogue and seven conceptual diagrams."
+    ],
+    "references": [
+      {
+        "id": "S07",
+        "title": "MaxxECU CAN inputs",
+        "url": "https://www.maxxecu.com/webhelp/settings-can-inputs.html",
+        "scope": "Configurable incoming messages and timeout zeroing.",
+        "reviewed": "2026-10-05"
+      },
+      {
+        "id": "S21",
+        "title": "PJRC Teensy 4.1 technical reference",
+        "url": "https://www.pjrc.com/store/teensy41.html",
+        "scope": "600 MHz, CAN controllers, transceiver requirement, 3.3 V I/O and SD socket.",
+        "reviewed": "2026-10-05"
+      },
+      {
+        "id": "S28",
+        "title": "SparkFun MAX M10S GNSS breakout",
+        "url": "https://www.sparkfun.com/sparkfun-gnss-receiver-breakout-max-m10s-qwiic.html",
+        "scope": "USD 45.95, external antenna, maximum 10 Hz update rate.",
+        "reviewed": "2026-10-05"
+      }
+    ],
+    "changes": "First published electronics research record. The shortlist, interfaces and validation plan are provisional; no ECU purchase, completed calibration, marine qualification or adaptive riding test is recorded."
+  }
+]

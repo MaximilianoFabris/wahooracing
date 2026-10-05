@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="575.28pt" height="349.92pt" viewBox="0 0 575.28 349.92" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ 
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 175.250034 86.256 
+Q 194.175362 86.256 211.311837 86.256 
+" clip-path="url(#p082d34e493)" style="fill: none; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 205.711837 83.456 
+L 211.311837 86.256 
+L 205.711837 89.056 
+z
+" clip-path="url(#p082d34e493)" style="fill: #25c4ff; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 362.180034 86.256 
+Q 381.105362 86.256 398.241837 86.256 
+" clip-path="url(#p082d34e493)" style="fill: none; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 392.641837 83.456 
+L 398.241837 86.256 
+L 392.641837 89.056 
+z
+" clip-path="url(#p082d34e493)" style="fill: #25c4ff; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 287.64 110.431819 
+Q 287.64 136.152189 287.64 160.083705 
+" clip-path="url(#p082d34e493)" style="fill: none; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 290.44 154.483705 
+L 287.64 160.083705 
+L 284.84 154.483705 
+z
+" clip-path="url(#p082d34e493)" style="fill: #25c4ff; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 175.250034 187.434 
+Q 194.175362 187.434 211.311837 187.434 
+" clip-path="url(#p082d34e493)" style="fill: none; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 205.711837 184.634 
+L 211.311837 187.434 
+L 205.711837 190.234 
+z
+" clip-path="url(#p082d34e493)" style="fill: #25c4ff; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 400.029966 187.434 
+Q 381.104638 187.434 363.968163 187.434 
+" clip-path="url(#p082d34e493)" style="fill: none; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 369.568163 190.234 
+L 363.968163 187.434 
+L 369.568163 184.634 
+z
+" clip-path="url(#p082d34e493)" style="fill: #25c4ff; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 287.64 212.998696 
+Q 287.64 237.330968 287.64 259.874386 
+" clip-path="url(#p082d34e493)" style="fill: none; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 290.44 254.274386 
+L 287.64 259.874386 
+L 284.84 254.274386 
+z
+" clip-path="url(#p082d34e493)" style="fill: #25c4ff; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 30.96 110.0952 
+L 170.46 110.0952 
+Q 174.924 110.0952 174.924 105.66 
+L 174.924 66.852 
+Q 174.924 62.4168 170.46 62.4168 
+L 30.96 62.4168 
+Q 26.496 62.4168 26.496 66.852 
+L 26.496 105.66 
+Q 26.496 110.0952 30.96 110.0952 
+z
+" clip-path="url(#p082d34e493)" style="fill: #25313b; stroke: #25c4ff; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 217.89 110.0952 
+L 357.39 110.0952 
+Q 361.854 110.0952 361.854 105.66 
+L 361.854 66.852 
+Q 361.854 62.4168 357.39 62.4168 
+L 217.89 62.4168 
+Q 213.426 62.4168 213.426 66.852 
+L 213.426 105.66 
+Q 213.426 110.0952 217.89 110.0952 
+z
+" clip-path="url(#p082d34e493)" style="fill: #25313b; stroke: #25c4ff; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 404.82 110.0952 
+L 544.32 110.0952 
+Q 548.784 110.0952 548.784 105.66 
+L 548.784 66.852 
+Q 548.784 62.4168 544.32 62.4168 
+L 404.82 62.4168 
+Q 400.356 62.4168 400.356 66.852 
+L 400.356 105.66 
+Q 400.356 110.0952 404.82 110.0952 
+z
+" clip-path="url(#p082d34e493)" style="fill: #25313b; stroke: #25c4ff; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 30.96 212.6592 
+L 170.46 212.6592 
+Q 174.924 212.6592 174.924 208.224 
+L 174.924 166.644 
+Q 174.924 162.2088 170.46 162.2088 
+L 30.96 162.2088 
+Q 26.496 162.2088 26.496 166.644 
+L 26.496 208.224 
+Q 26.496 212.6592 30.96 212.6592 
+z
+" clip-path="url(#p082d34e493)" style="fill: #25313b; stroke: #25c4ff; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 217.89 212.6592 
+L 357.39 212.6592 
+Q 361.854 212.6592 361.854 208.224 
+L 361.854 166.644 
+Q 361.854 162.2088 357.39 162.2088 
+L 217.89 162.2088 
+Q 213.426 162.2088 213.426 166.644 
+L 213.426 208.224 
+Q 213.426 212.6592 217.89 212.6592 
+z
+" clip-path="url(#p082d34e493)" style="fill: #25313b; stroke: #25c4ff; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 404.82 212.6592 
+L 544.32 212.6592 
+Q 548.784 212.6592 548.784 208.224 
+L 548.784 166.644 
+Q 548.784 162.2088 544.32 162.2088 
+L 404.82 162.2088 
+Q 400.356 162.2088 400.356 166.644 
+L 400.356 208.224 
+Q 400.356 212.6592 404.82 212.6592 
+z
+" clip-path="url(#p082d34e493)" style="fill: #25313b; stroke: #25c4ff; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 217.89 312.4512 
+L 357.39 312.4512 
+Q 361.854 312.4512 361.854 308.016 
+L 361.854 266.436 
+Q 361.854 262.0008 357.39 262.0008 
+L 217.89 262.0008 
+Q 213.426 262.0008 213.426 266.436 
+L 213.426 308.016 
+Q 213.426 312.4512 217.89 312.4512 
+z
+" clip-path="url(#p082d34e493)" style="fill: #25313b; stroke: #25c4ff; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'Segoe UI', Arial, sans-serif; text-anchor: start; fill: #ffffff" x="25.38" y="28.044" transform="rotate(-0 25.38 28.044)">Vehicle requests and engine control authority</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 8px; font-family: 'Segoe UI', Arial, sans-serif; text-anchor: start; fill: #b8c4cc" x="25.38" y="332.4096" transform="rotate(-0 25.38 332.4096)">Proposed e-throttle case   |   ECU status also returns to the VCS over CAN</text>
+   </g>
+   <g id="text_3">
+    <g id="patch_15">
+     <path d="M 251.56875 142.02325 
+L 323.71125 142.02325 
+L 323.71125 130.28075 
+L 251.56875 130.28075 
+z
+" style="fill: #141a20"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'Segoe UI', Arial, sans-serif; text-anchor: middle; fill: #ffffff" x="287.64" y="138.3595" transform="rotate(-0 287.64 138.3595)">bounded request</text>
+   </g>
+   <g id="text_4">
+    <g id="patch_16">
+     <path d="M 247.3025 243.20125 
+L 327.9775 243.20125 
+L 327.9775 231.45875 
+L 247.3025 231.45875 
+z
+" style="fill: #141a20"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'Segoe UI', Arial, sans-serif; text-anchor: middle; fill: #ffffff" x="287.64" y="239.5375" transform="rotate(-0 287.64 239.5375)">approved response</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; text-anchor: middle; fill: #ffffff" x="100.71" y="89.291312" transform="rotate(-0 100.71 89.291312)">IMU and GNSS</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(276.545469 82.505645)">VCS</text>
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(235.776719 96.07698)">Ride interpretation</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(452.211641 82.505645)">Ride log</text>
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(431.303047 96.07698)">and diagnostics</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(61.894609 183.683645)">Rider demand</text>
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(60.841016 197.25498)">and stop input</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(276.298828 183.683645)">ECU</text>
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(239.533906 197.25498)">Validate and limit</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(432.88 183.683645)">Engine sensors</text>
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(417.669922 197.25498)">and protection limits</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(242.748828 283.475645)">Injector, ignition</text>
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(237.864141 297.04698)">optional e-throttle</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p082d34e493">
+   <rect x="8.64" y="8.64" width="558" height="332.64"/>
+  </clipPath>
+ </defs>
+</svg>

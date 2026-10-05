@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="575.28pt" height="349.92pt" viewBox="0 0 575.28 349.92" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ 
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 164.089012 86.256 
+Q 191.384561 86.256 216.891257 86.256 
+" clip-path="url(#paf23aa12dc)" style="fill: none; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 211.291257 83.456 
+L 216.891257 86.256 
+L 211.291257 89.056 
+z
+" clip-path="url(#paf23aa12dc)" style="fill: #25c4ff; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 356.599182 86.256 
+Q 382.499692 86.256 406.611347 86.256 
+" clip-path="url(#paf23aa12dc)" style="fill: none; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 401.011347 83.456 
+L 406.611347 86.256 
+L 401.011347 89.056 
+z
+" clip-path="url(#paf23aa12dc)" style="fill: #25c4ff; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 477.36 107.658804 
+Q 477.36 136.152355 477.36 162.857051 
+" clip-path="url(#paf23aa12dc)" style="fill: none; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 480.16 157.257051 
+L 477.36 162.857051 
+L 474.56 157.257051 
+z
+" clip-path="url(#paf23aa12dc)" style="fill: #25c4ff; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 408.400818 186.048 
+Q 382.500308 186.048 358.388653 186.048 
+" clip-path="url(#paf23aa12dc)" style="fill: none; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 363.988653 188.848 
+L 358.388653 186.048 
+L 363.988653 183.248 
+z
+" clip-path="url(#paf23aa12dc)" style="fill: #25c4ff; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 218.680988 186.048 
+Q 191.385439 186.048 165.878743 186.048 
+" clip-path="url(#paf23aa12dc)" style="fill: none; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 171.478743 188.848 
+L 165.878743 186.048 
+L 171.478743 183.248 
+z
+" clip-path="url(#paf23aa12dc)" style="fill: #25c4ff; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 287.64 207.451819 
+Q 287.64 233.172189 287.64 257.103705 
+" clip-path="url(#paf23aa12dc)" style="fill: none; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 290.44 251.503705 
+L 287.64 257.103705 
+L 284.84 251.503705 
+z
+" clip-path="url(#paf23aa12dc)" style="fill: #25c4ff; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 285.733582 106.263922 
+Q 191.384286 136.152226 98.740322 165.500309 
+" clip-path="url(#paf23aa12dc)" style="fill: none; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 104.924439 166.478417 
+L 98.740322 165.500309 
+L 103.233278 161.13988 
+z
+" clip-path="url(#paf23aa12dc)" style="fill: #25c4ff; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 30.96 107.3232 
+L 159.3 107.3232 
+Q 163.764 107.3232 163.764 102.888 
+L 163.764 69.624 
+Q 163.764 65.1888 159.3 65.1888 
+L 30.96 65.1888 
+Q 26.496 65.1888 26.496 69.624 
+L 26.496 102.888 
+Q 26.496 107.3232 30.96 107.3232 
+z
+" clip-path="url(#paf23aa12dc)" style="fill: #25313b; stroke: #25c4ff; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 223.47 107.3232 
+L 351.81 107.3232 
+Q 356.274 107.3232 356.274 102.888 
+L 356.274 69.624 
+Q 356.274 65.1888 351.81 65.1888 
+L 223.47 65.1888 
+Q 219.006 65.1888 219.006 69.624 
+L 219.006 102.888 
+Q 219.006 107.3232 223.47 107.3232 
+z
+" clip-path="url(#paf23aa12dc)" style="fill: #25313b; stroke: #25c4ff; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 413.19 107.3232 
+L 541.53 107.3232 
+Q 545.994 107.3232 545.994 102.888 
+L 545.994 69.624 
+Q 545.994 65.1888 541.53 65.1888 
+L 413.19 65.1888 
+Q 408.726 65.1888 408.726 69.624 
+L 408.726 102.888 
+Q 408.726 107.3232 413.19 107.3232 
+z
+" clip-path="url(#paf23aa12dc)" style="fill: #25313b; stroke: #25c4ff; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 30.96 207.1152 
+L 159.3 207.1152 
+Q 163.764 207.1152 163.764 202.68 
+L 163.764 169.416 
+Q 163.764 164.9808 159.3 164.9808 
+L 30.96 164.9808 
+Q 26.496 164.9808 26.496 169.416 
+L 26.496 202.68 
+Q 26.496 207.1152 30.96 207.1152 
+z
+" clip-path="url(#paf23aa12dc)" style="fill: #25313b; stroke: #25c4ff; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 223.47 207.1152 
+L 351.81 207.1152 
+Q 356.274 207.1152 356.274 202.68 
+L 356.274 169.416 
+Q 356.274 164.9808 351.81 164.9808 
+L 223.47 164.9808 
+Q 219.006 164.9808 219.006 169.416 
+L 219.006 202.68 
+Q 219.006 207.1152 223.47 207.1152 
+z
+" clip-path="url(#paf23aa12dc)" style="fill: #25313b; stroke: #25c4ff; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 413.19 207.1152 
+L 541.53 207.1152 
+Q 545.994 207.1152 545.994 202.68 
+L 545.994 169.416 
+Q 545.994 164.9808 541.53 164.9808 
+L 413.19 164.9808 
+Q 408.726 164.9808 408.726 169.416 
+L 408.726 202.68 
+Q 408.726 207.1152 413.19 207.1152 
+z
+" clip-path="url(#paf23aa12dc)" style="fill: #25313b; stroke: #25c4ff; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 223.47 309.6792 
+L 351.81 309.6792 
+Q 356.274 309.6792 356.274 305.244 
+L 356.274 263.664 
+Q 356.274 259.2288 351.81 259.2288 
+L 223.47 259.2288 
+Q 219.006 259.2288 219.006 263.664 
+L 219.006 305.244 
+Q 219.006 309.6792 223.47 309.6792 
+z
+" clip-path="url(#paf23aa12dc)" style="fill: #25313b; stroke: #25c4ff; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'Segoe UI', Arial, sans-serif; text-anchor: start; fill: #ffffff" x="25.38" y="28.044" transform="rotate(-0 25.38 28.044)">Proposed controller state logic</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 8px; font-family: 'Segoe UI', Arial, sans-serif; text-anchor: start; fill: #b8c4cc" x="25.38" y="332.4096" transform="rotate(-0 25.38 332.4096)">State proposal   |   Fault classes and restart conditions require validation</text>
+   </g>
+   <g id="text_3">
+    <g id="patch_16">
+     <path d="M 177.02125 77.15845 
+L 205.74875 77.15845 
+L 205.74875 65.41595 
+L 177.02125 65.41595 
+z
+" style="fill: #141a20"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'Segoe UI', Arial, sans-serif; text-anchor: middle; fill: #ffffff" x="191.385" y="73.4947" transform="rotate(-0 191.385 73.4947)">power</text>
+   </g>
+   <g id="text_4">
+    <g id="patch_17">
+     <path d="M 356.275625 77.15845 
+L 408.724375 77.15845 
+L 408.724375 65.41595 
+L 356.275625 65.41595 
+z
+" style="fill: #141a20"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'Segoe UI', Arial, sans-serif; text-anchor: middle; fill: #ffffff" x="382.5" y="73.4947" transform="rotate(-0 382.5 73.4947)">checks pass</text>
+   </g>
+   <g id="text_5">
+    <g id="patch_18">
+     <path d="M 455.1925 142.02325 
+L 499.5275 142.02325 
+L 499.5275 130.28075 
+L 455.1925 130.28075 
+z
+" style="fill: #141a20"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'Segoe UI', Arial, sans-serif; text-anchor: middle; fill: #ffffff" x="477.36" y="138.3595" transform="rotate(-0 477.36 138.3595)">valid start</text>
+   </g>
+   <g id="text_6">
+    <g id="patch_19">
+     <path d="M 354.046875 176.95045 
+L 410.953125 176.95045 
+L 410.953125 165.20795 
+L 354.046875 165.20795 
+z
+" style="fill: #141a20"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'Segoe UI', Arial, sans-serif; text-anchor: middle; fill: #ffffff" x="382.5" y="173.2867" transform="rotate(-0 382.5 173.2867)">synchronised</text>
+   </g>
+   <g id="text_7">
+    <g id="patch_20">
+     <path d="M 153.115 176.95045 
+L 229.655 176.95045 
+L 229.655 165.20795 
+L 153.115 165.20795 
+z
+" style="fill: #141a20"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'Segoe UI', Arial, sans-serif; text-anchor: middle; fill: #ffffff" x="191.385" y="173.2867" transform="rotate(-0 191.385 173.2867)">stop / critical fault</text>
+   </g>
+   <g id="text_8">
+    <g id="patch_21">
+     <path d="M 260.84875 239.04325 
+L 314.43125 239.04325 
+L 314.43125 227.30075 
+L 260.84875 227.30075 
+z
+" style="fill: #141a20"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'Segoe UI', Arial, sans-serif; text-anchor: middle; fill: #ffffff" x="287.64" y="235.3795" transform="rotate(-0 287.64 235.3795)">eligible fault</text>
+   </g>
+   <g id="text_9">
+    <g id="patch_22">
+     <path d="M 168.236875 142.02325 
+L 214.533125 142.02325 
+L 214.533125 130.28075 
+L 168.236875 130.28075 
+z
+" style="fill: #141a20"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'Segoe UI', Arial, sans-serif; text-anchor: middle; fill: #ffffff" x="191.385" y="138.3595" transform="rotate(-0 191.385 138.3595)">checks fail</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; text-anchor: middle; fill: #ffffff" x="95.13" y="89.291313" transform="rotate(-0 95.13 89.291313)">OFF</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; text-anchor: middle; fill: #ffffff" x="287.64" y="89.291313" transform="rotate(-0 287.64 89.291313)">SELF CHECK</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; text-anchor: middle; fill: #ffffff" x="477.36" y="89.291313" transform="rotate(-0 477.36 89.291313)">READY</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; text-anchor: middle; fill: #ffffff" x="95.13" y="189.083313" transform="rotate(-0 95.13 189.083313)">STOPPED / FAULT</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; text-anchor: middle; fill: #ffffff" x="287.64" y="189.083313" transform="rotate(-0 287.64 189.083313)">RUNNING</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; text-anchor: middle; fill: #ffffff" x="477.36" y="189.083313" transform="rotate(-0 477.36 189.083313)">CRANKING</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(256.35875 280.703645)">DEGRADED</text>
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(217.318203 294.27498)">Defined limited operation</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="paf23aa12dc">
+   <rect x="8.64" y="8.64" width="558" height="332.64"/>
+  </clipPath>
+ </defs>
+</svg>

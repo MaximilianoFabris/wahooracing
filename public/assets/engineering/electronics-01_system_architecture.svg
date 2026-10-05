@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="575.28pt" height="349.92pt" viewBox="0 0 575.28 349.92" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ 
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 285.692841 97.812993 
+Q 195.568045 119.520471 107.182369 140.809064 
+" clip-path="url(#p5041b87e0b)" style="fill: none; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 113.282331 142.2199 
+L 107.182369 140.809064 
+L 111.971015 136.775595 
+z
+" clip-path="url(#p5041b87e0b)" style="fill: #25c4ff; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 287.64 99.344496 
+Q 287.64 119.521172 287.64 137.908994 
+" clip-path="url(#p5041b87e0b)" style="fill: none; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 290.44 132.308994 
+L 287.64 137.908994 
+L 284.84 132.308994 
+z
+" clip-path="url(#p5041b87e0b)" style="fill: #25c4ff; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 289.587159 97.812993 
+Q 379.711955 119.520471 468.097631 140.809064 
+" clip-path="url(#p5041b87e0b)" style="fill: none; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 463.308985 136.775595 
+L 468.097631 140.809064 
+L 461.997669 142.2199 
+z
+" clip-path="url(#p5041b87e0b)" style="fill: #25c4ff; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 103.5 193.592496 
+Q 103.5 213.769172 103.5 232.156994 
+" clip-path="url(#p5041b87e0b)" style="fill: none; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 106.3 226.556994 
+L 103.5 232.156994 
+L 100.7 226.556994 
+z
+" clip-path="url(#p5041b87e0b)" style="fill: #25c4ff; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 287.64 193.592496 
+Q 287.64 213.769172 287.64 232.156994 
+" clip-path="url(#p5041b87e0b)" style="fill: none; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 290.44 226.556994 
+L 287.64 232.156994 
+L 284.84 226.556994 
+z
+" clip-path="url(#p5041b87e0b)" style="fill: #25c4ff; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 471.78 193.592496 
+Q 471.78 213.769172 471.78 232.156994 
+" clip-path="url(#p5041b87e0b)" style="fill: none; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 474.58 226.556994 
+L 471.78 232.156994 
+L 468.98 226.556994 
+z
+" clip-path="url(#p5041b87e0b)" style="fill: #25c4ff; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 189.99 99.0072 
+L 385.29 99.0072 
+Q 389.754 99.0072 389.754 94.572 
+L 389.754 64.08 
+Q 389.754 59.6448 385.29 59.6448 
+L 189.99 59.6448 
+Q 185.526 59.6448 185.526 64.08 
+L 185.526 94.572 
+Q 185.526 99.0072 189.99 99.0072 
+z
+" clip-path="url(#p5041b87e0b)" style="fill: #25313b; stroke: #25c4ff; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 28.17 193.2552 
+L 178.83 193.2552 
+Q 183.294 193.2552 183.294 188.82 
+L 183.294 144.468 
+Q 183.294 140.0328 178.83 140.0328 
+L 28.17 140.0328 
+Q 23.706 140.0328 23.706 144.468 
+L 23.706 188.82 
+Q 23.706 193.2552 28.17 193.2552 
+z
+" clip-path="url(#p5041b87e0b)" style="fill: #25313b; stroke: #25c4ff; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 212.31 193.2552 
+L 362.97 193.2552 
+Q 367.434 193.2552 367.434 188.82 
+L 367.434 144.468 
+Q 367.434 140.0328 362.97 140.0328 
+L 212.31 140.0328 
+Q 207.846 140.0328 207.846 144.468 
+L 207.846 188.82 
+Q 207.846 193.2552 212.31 193.2552 
+z
+" clip-path="url(#p5041b87e0b)" style="fill: #25313b; stroke: #25c4ff; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 396.45 193.2552 
+L 547.11 193.2552 
+Q 551.574 193.2552 551.574 188.82 
+L 551.574 144.468 
+Q 551.574 140.0328 547.11 140.0328 
+L 396.45 140.0328 
+Q 391.986 140.0328 391.986 144.468 
+L 391.986 188.82 
+Q 391.986 193.2552 396.45 193.2552 
+z
+" clip-path="url(#p5041b87e0b)" style="fill: #25313b; stroke: #25c4ff; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 28.17 295.8192 
+L 178.83 295.8192 
+Q 183.294 295.8192 183.294 291.384 
+L 183.294 238.716 
+Q 183.294 234.2808 178.83 234.2808 
+L 28.17 234.2808 
+Q 23.706 234.2808 23.706 238.716 
+L 23.706 291.384 
+Q 23.706 295.8192 28.17 295.8192 
+z
+" clip-path="url(#p5041b87e0b)" style="fill: #25313b; stroke: #25c4ff; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 212.31 295.8192 
+L 362.97 295.8192 
+Q 367.434 295.8192 367.434 291.384 
+L 367.434 238.716 
+Q 367.434 234.2808 362.97 234.2808 
+L 212.31 234.2808 
+Q 207.846 234.2808 207.846 238.716 
+L 207.846 291.384 
+Q 207.846 295.8192 212.31 295.8192 
+z
+" clip-path="url(#p5041b87e0b)" style="fill: #25313b; stroke: #25c4ff; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 396.45 295.8192 
+L 547.11 295.8192 
+Q 551.574 295.8192 551.574 291.384 
+L 551.574 238.716 
+Q 551.574 234.2808 547.11 234.2808 
+L 396.45 234.2808 
+Q 391.986 234.2808 391.986 238.716 
+L 391.986 291.384 
+Q 391.986 295.8192 396.45 295.8192 
+z
+" clip-path="url(#p5041b87e0b)" style="fill: #25313b; stroke: #25c4ff; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'Segoe UI', Arial, sans-serif; text-anchor: start; fill: #ffffff" x="25.38" y="28.044" transform="rotate(-0 25.38 28.044)">System boundaries</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 8px; font-family: 'Segoe UI', Arial, sans-serif; text-anchor: start; fill: #b8c4cc" x="25.38" y="332.4096" transform="rotate(-0 25.38 332.4096)">Proposed functional architecture   |   Not a wiring or manufacturing drawing</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; text-anchor: middle; fill: #ffffff" x="287.64" y="82.361312" transform="rotate(-0 287.64 82.361312)">Electronics and control systems</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(91.787578 162.893645)">EMS</text>
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(46.058516 176.46498)">Engine management</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(276.545469 162.893645)">VCS</text>
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(247.16 176.46498)">Vehicle control</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(414.540469 162.893645)">Electrical integration</text>
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(419.689844 176.46498)">Power and harness</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(45.989766 261.299645)">ECU, EFI and ignition</text>
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(38.831172 274.87098)">Engine instrumentation</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(219.7975 261.299645)">Motion and ride strategy</text>
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(218.32625 274.87098)">Logging and connectivity</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(399.697344 261.299645)">Protection and connectors</text>
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(419.559219 274.87098)">CAN and enclosure</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p5041b87e0b">
+   <rect x="8.64" y="8.64" width="558" height="332.64"/>
+  </clipPath>
+ </defs>
+</svg>

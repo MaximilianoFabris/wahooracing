@@ -11,7 +11,7 @@
     {"slug":"jet-pump","name":"Jet pump & propulsion","summary":"Impeller, nozzle and propulsion integration."},
     {"slug":"cooling","name":"Cooling","summary":"Cooling circuits and thermal management."},
     {"slug":"electrical","name":"Electrical, battery & starting","summary":"Power, wiring and starting systems."},
-    {"slug":"controls","name":"ECU, sensors & controls","summary":"Engine management and rider controls."},
+    {"slug":"controls","name":"ECU, sensors & controls","summary":"Engine management, vehicle control and electrical interfaces."},
     {"slug":"deck","name":"Deck & rider interface","summary":"Footpads, handles and the rider connection."},
     {"slug":"manufacturing","name":"Assembly & manufacturing","summary":"Materials, construction and serviceability."}
   ]

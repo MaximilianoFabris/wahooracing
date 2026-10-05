@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="575.28pt" height="349.92pt" viewBox="0 0 575.28 349.92" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ 
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 97.92 107.66388 
+Q 97.92 125.066316 97.92 140.679898 
+" clip-path="url(#peb57253cc2)" style="fill: none; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 100.72 135.079898 
+L 97.92 140.679898 
+L 95.12 135.079898 
+z
+" clip-path="url(#peb57253cc2)" style="fill: #25c4ff; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 287.64 107.66388 
+Q 287.64 125.066316 287.64 140.679898 
+" clip-path="url(#peb57253cc2)" style="fill: none; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 290.44 135.079898 
+L 287.64 140.679898 
+L 284.84 135.079898 
+z
+" clip-path="url(#peb57253cc2)" style="fill: #25c4ff; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 477.36 107.66388 
+Q 477.36 125.066316 477.36 140.679898 
+" clip-path="url(#peb57253cc2)" style="fill: none; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 480.16 135.079898 
+L 477.36 140.679898 
+L 474.56 135.079898 
+z
+" clip-path="url(#peb57253cc2)" style="fill: #25c4ff; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 97.92 196.362973 
+Q 97.92 217.92433 97.92 237.696833 
+" clip-path="url(#peb57253cc2)" style="fill: none; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 100.72 232.096833 
+L 97.92 237.696833 
+L 95.12 232.096833 
+z
+" clip-path="url(#peb57253cc2)" style="fill: #25c4ff; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 287.64 196.362973 
+Q 287.64 217.92433 287.64 237.696833 
+" clip-path="url(#peb57253cc2)" style="fill: none; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 290.44 232.096833 
+L 287.64 237.696833 
+L 284.84 232.096833 
+z
+" clip-path="url(#peb57253cc2)" style="fill: #25c4ff; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 477.36 196.362973 
+Q 477.36 217.92433 477.36 237.696833 
+" clip-path="url(#peb57253cc2)" style="fill: none; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 480.16 232.096833 
+L 477.36 237.696833 
+L 474.56 232.096833 
+z
+" clip-path="url(#peb57253cc2)" style="fill: #25c4ff; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 28.17 107.3232 
+L 167.67 107.3232 
+Q 172.134 107.3232 172.134 102.888 
+L 172.134 69.624 
+Q 172.134 65.1888 167.67 65.1888 
+L 28.17 65.1888 
+Q 23.706 65.1888 23.706 69.624 
+L 23.706 102.888 
+Q 23.706 107.3232 28.17 107.3232 
+z
+" clip-path="url(#peb57253cc2)" style="fill: #25313b; stroke: #25c4ff; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 217.89 107.3232 
+L 357.39 107.3232 
+Q 361.854 107.3232 361.854 102.888 
+L 361.854 69.624 
+Q 361.854 65.1888 357.39 65.1888 
+L 217.89 65.1888 
+Q 213.426 65.1888 213.426 69.624 
+L 213.426 102.888 
+Q 213.426 107.3232 217.89 107.3232 
+z
+" clip-path="url(#peb57253cc2)" style="fill: #25313b; stroke: #25c4ff; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 407.61 107.3232 
+L 547.11 107.3232 
+Q 551.574 107.3232 551.574 102.888 
+L 551.574 69.624 
+Q 551.574 65.1888 547.11 65.1888 
+L 407.61 65.1888 
+Q 403.146 65.1888 403.146 69.624 
+L 403.146 102.888 
+Q 403.146 107.3232 407.61 107.3232 
+z
+" clip-path="url(#peb57253cc2)" style="fill: #25313b; stroke: #25c4ff; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 28.17 196.0272 
+L 167.67 196.0272 
+Q 172.134 196.0272 172.134 191.592 
+L 172.134 147.24 
+Q 172.134 142.8048 167.67 142.8048 
+L 28.17 142.8048 
+Q 23.706 142.8048 23.706 147.24 
+L 23.706 191.592 
+Q 23.706 196.0272 28.17 196.0272 
+z
+" clip-path="url(#peb57253cc2)" style="fill: #25313b; stroke: #25c4ff; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 217.89 196.0272 
+L 357.39 196.0272 
+Q 361.854 196.0272 361.854 191.592 
+L 361.854 147.24 
+Q 361.854 142.8048 357.39 142.8048 
+L 217.89 142.8048 
+Q 213.426 142.8048 213.426 147.24 
+L 213.426 191.592 
+Q 213.426 196.0272 217.89 196.0272 
+z
+" clip-path="url(#peb57253cc2)" style="fill: #25313b; stroke: #25c4ff; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 407.61 196.0272 
+L 547.11 196.0272 
+Q 551.574 196.0272 551.574 191.592 
+L 551.574 147.24 
+Q 551.574 142.8048 547.11 142.8048 
+L 407.61 142.8048 
+Q 403.146 142.8048 403.146 147.24 
+L 403.146 191.592 
+Q 403.146 196.0272 407.61 196.0272 
+z
+" clip-path="url(#peb57253cc2)" style="fill: #25313b; stroke: #25c4ff; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 28.17 301.3632 
+L 167.67 301.3632 
+Q 172.134 301.3632 172.134 296.928 
+L 172.134 244.26 
+Q 172.134 239.8248 167.67 239.8248 
+L 28.17 239.8248 
+Q 23.706 239.8248 23.706 244.26 
+L 23.706 296.928 
+Q 23.706 301.3632 28.17 301.3632 
+z
+" clip-path="url(#peb57253cc2)" style="fill: #25313b; stroke: #25c4ff; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 217.89 301.3632 
+L 357.39 301.3632 
+Q 361.854 301.3632 361.854 296.928 
+L 361.854 244.26 
+Q 361.854 239.8248 357.39 239.8248 
+L 217.89 239.8248 
+Q 213.426 239.8248 213.426 244.26 
+L 213.426 296.928 
+Q 213.426 301.3632 217.89 301.3632 
+z
+" clip-path="url(#peb57253cc2)" style="fill: #25313b; stroke: #25c4ff; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 407.61 301.3632 
+L 547.11 301.3632 
+Q 551.574 301.3632 551.574 296.928 
+L 551.574 244.26 
+Q 551.574 239.8248 547.11 239.8248 
+L 407.61 239.8248 
+Q 403.146 239.8248 403.146 244.26 
+L 403.146 296.928 
+Q 403.146 301.3632 407.61 301.3632 
+z
+" clip-path="url(#peb57253cc2)" style="fill: #25313b; stroke: #25c4ff; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'Segoe UI', Arial, sans-serif; text-anchor: start; fill: #ffffff" x="25.38" y="28.044" transform="rotate(-0 25.38 28.044)">Three injection arrangements under review</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 8px; font-family: 'Segoe UI', Arial, sans-serif; text-anchor: start; fill: #b8c4cc" x="25.38" y="332.4096" transform="rotate(-0 25.38 332.4096)">Conceptual comparison   |   Injector locations and fuel pressures remain unselected</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; text-anchor: middle; fill: #ffffff" x="97.92" y="89.291313" transform="rotate(-0 97.92 89.291313)">Intake injection</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; text-anchor: middle; fill: #ffffff" x="287.64" y="89.291313" transform="rotate(-0 287.64 89.291313)">Transfer port injection</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; text-anchor: middle; fill: #ffffff" x="477.36" y="89.291313" transform="rotate(-0 477.36 89.291313)">Chamber direct injection</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(51.673594 165.665645)">Injector in intake</text>
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(44.576016 179.23698)">Fuel joins intake air</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(235.832578 165.665645)">Injector at cylinder</text>
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(241.333438 179.23698)">transfer passage</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(424.393281 165.665645)">Injector sprays into</text>
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(419.113281 179.23698)">combustion chamber</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(44.734141 266.843645)">Broad ECU shortlist</text>
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(43.486328 280.41498)">Provisional baseline</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(221.798125 266.843645)">Cylinder and lubrication</text>
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(244.605937 280.41498)">design required</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(408.526641 266.843645)">Matched pressure, driver</text>
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(423.029453 280.41498)">and timing strategy</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="peb57253cc2">
+   <rect x="8.64" y="8.64" width="558" height="332.64"/>
+  </clipPath>
+ </defs>
+</svg>

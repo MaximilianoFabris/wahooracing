@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="575.28pt" height="349.92pt" viewBox="0 0 575.28 349.92" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ 
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 180.828501 87.642 
+Q 195.56816 87.642 208.518965 87.642 
+" clip-path="url(#pc46db6032c)" style="fill: none; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 202.918965 84.842 
+L 208.518965 87.642 
+L 202.918965 90.442 
+z
+" clip-path="url(#pc46db6032c)" style="fill: #25c4ff; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 364.966798 87.642 
+Q 381.101393 87.642 395.447134 87.642 
+" clip-path="url(#pc46db6032c)" style="fill: none; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 389.847134 84.842 
+L 395.447134 87.642 
+L 389.847134 90.442 
+z
+" clip-path="url(#pc46db6032c)" style="fill: #25c4ff; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 287.64 113.206696 
+Q 287.64 137.538968 287.64 160.082386 
+" clip-path="url(#pc46db6032c)" style="fill: none; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 290.44 154.482386 
+L 287.64 160.082386 
+L 284.84 154.482386 
+z
+" clip-path="url(#pc46db6032c)" style="fill: #25c4ff; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 180.828501 187.434 
+Q 195.56816 187.434 208.518965 187.434 
+" clip-path="url(#pc46db6032c)" style="fill: none; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 202.918965 184.634 
+L 208.518965 187.434 
+L 202.918965 190.234 
+z
+" clip-path="url(#pc46db6032c)" style="fill: #25c4ff; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 364.966798 187.434 
+Q 381.101393 187.434 395.447134 187.434 
+" clip-path="url(#pc46db6032c)" style="fill: none; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 389.847134 184.634 
+L 395.447134 187.434 
+L 389.847134 190.234 
+z
+" clip-path="url(#pc46db6032c)" style="fill: #25c4ff; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 473.175 113.206696 
+Q 473.175 137.538968 473.175 160.082386 
+" clip-path="url(#pc46db6032c)" style="fill: none; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 475.975 154.482386 
+L 473.175 160.082386 
+L 470.375 154.482386 
+z
+" clip-path="url(#pc46db6032c)" style="fill: #25c4ff; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 473.175 212.994973 
+Q 473.175 234.55633 473.175 254.328833 
+" clip-path="url(#pc46db6032c)" style="fill: none; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+    <path d="M 475.975 248.728833 
+L 473.175 254.328833 
+L 470.375 248.728833 
+z
+" clip-path="url(#pc46db6032c)" style="fill: #25c4ff; stroke: #25c4ff; stroke-width: 1.6; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 30.96 112.8672 
+L 176.04 112.8672 
+Q 180.504 112.8672 180.504 108.432 
+L 180.504 66.852 
+Q 180.504 62.4168 176.04 62.4168 
+L 30.96 62.4168 
+Q 26.496 62.4168 26.496 66.852 
+L 26.496 108.432 
+Q 26.496 112.8672 30.96 112.8672 
+z
+" clip-path="url(#pc46db6032c)" style="fill: #25313b; stroke: #25c4ff; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 215.1 112.8672 
+L 360.18 112.8672 
+Q 364.644 112.8672 364.644 108.432 
+L 364.644 66.852 
+Q 364.644 62.4168 360.18 62.4168 
+L 215.1 62.4168 
+Q 210.636 62.4168 210.636 66.852 
+L 210.636 108.432 
+Q 210.636 112.8672 215.1 112.8672 
+z
+" clip-path="url(#pc46db6032c)" style="fill: #25313b; stroke: #25c4ff; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 402.03 112.8672 
+L 544.32 112.8672 
+Q 548.784 112.8672 548.784 108.432 
+L 548.784 66.852 
+Q 548.784 62.4168 544.32 62.4168 
+L 402.03 62.4168 
+Q 397.566 62.4168 397.566 66.852 
+L 397.566 108.432 
+Q 397.566 112.8672 402.03 112.8672 
+z
+" clip-path="url(#pc46db6032c)" style="fill: #25313b; stroke: #25c4ff; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 30.96 212.6592 
+L 176.04 212.6592 
+Q 180.504 212.6592 180.504 208.224 
+L 180.504 166.644 
+Q 180.504 162.2088 176.04 162.2088 
+L 30.96 162.2088 
+Q 26.496 162.2088 26.496 166.644 
+L 26.496 208.224 
+Q 26.496 212.6592 30.96 212.6592 
+z
+" clip-path="url(#pc46db6032c)" style="fill: #25313b; stroke: #25c4ff; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 215.1 212.6592 
+L 360.18 212.6592 
+Q 364.644 212.6592 364.644 208.224 
+L 364.644 166.644 
+Q 364.644 162.2088 360.18 162.2088 
+L 215.1 162.2088 
+Q 210.636 162.2088 210.636 166.644 
+L 210.636 208.224 
+Q 210.636 212.6592 215.1 212.6592 
+z
+" clip-path="url(#pc46db6032c)" style="fill: #25313b; stroke: #25c4ff; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 402.03 212.6592 
+L 544.32 212.6592 
+Q 548.784 212.6592 548.784 208.224 
+L 548.784 166.644 
+Q 548.784 162.2088 544.32 162.2088 
+L 402.03 162.2088 
+Q 397.566 162.2088 397.566 166.644 
+L 397.566 208.224 
+Q 397.566 212.6592 402.03 212.6592 
+z
+" clip-path="url(#pc46db6032c)" style="fill: #25313b; stroke: #25c4ff; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 402.03 306.9072 
+L 544.32 306.9072 
+Q 548.784 306.9072 548.784 302.472 
+L 548.784 260.892 
+Q 548.784 256.4568 544.32 256.4568 
+L 402.03 256.4568 
+Q 397.566 256.4568 397.566 260.892 
+L 397.566 302.472 
+Q 397.566 306.9072 402.03 306.9072 
+z
+" clip-path="url(#pc46db6032c)" style="fill: #25313b; stroke: #25c4ff; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 16px; font-family: 'Segoe UI', Arial, sans-serif; text-anchor: start; fill: #ffffff" x="25.38" y="28.044" transform="rotate(-0 25.38 28.044)">Engine management signals and fuel flow</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 8px; font-family: 'Segoe UI', Arial, sans-serif; text-anchor: start; fill: #b8c4cc" x="25.38" y="332.4096" transform="rotate(-0 25.38 332.4096)">Proposed functional architecture   |   Not a wiring or manufacturing drawing</text>
+   </g>
+   <g id="text_3">
+    <g id="patch_16">
+     <path d="M 163.5825 78.54445 
+L 227.5575 78.54445 
+L 227.5575 66.80195 
+L 163.5825 66.80195 
+z
+" style="fill: #141a20"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'Segoe UI', Arial, sans-serif; text-anchor: middle; fill: #ffffff" x="195.57" y="74.8807" transform="rotate(-0 195.57 74.8807)">measurements</text>
+   </g>
+   <g id="text_4">
+    <g id="patch_17">
+     <path d="M 346.83375 78.54445 
+L 415.37625 78.54445 
+L 415.37625 66.80195 
+L 346.83375 66.80195 
+z
+" style="fill: #141a20"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'Segoe UI', Arial, sans-serif; text-anchor: middle; fill: #ffffff" x="381.105" y="74.8807" transform="rotate(-0 381.105 74.8807)">spark command</text>
+   </g>
+   <g id="text_5">
+    <g id="patch_18">
+     <path d="M 253.673125 143.40925 
+L 321.606875 143.40925 
+L 321.606875 131.66675 
+L 253.673125 131.66675 
+z
+" style="fill: #141a20"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'Segoe UI', Arial, sans-serif; text-anchor: middle; fill: #ffffff" x="287.64" y="139.7455" transform="rotate(-0 287.64 139.7455)">pulse command</text>
+   </g>
+   <g id="text_6">
+    <g id="patch_19">
+     <path d="M 186.054375 178.33645 
+L 205.085625 178.33645 
+L 205.085625 166.59395 
+L 186.054375 166.59395 
+z
+" style="fill: #141a20"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'Segoe UI', Arial, sans-serif; text-anchor: middle; fill: #ffffff" x="195.57" y="174.6727" transform="rotate(-0 195.57 174.6727)">fuel</text>
+   </g>
+   <g id="text_7">
+    <g id="patch_20">
+     <path d="M 353.37625 178.33645 
+L 408.83375 178.33645 
+L 408.83375 166.59395 
+L 353.37625 166.59395 
+z
+" style="fill: #141a20"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'Segoe UI', Arial, sans-serif; text-anchor: middle; fill: #ffffff" x="381.105" y="174.6727" transform="rotate(-0 381.105 174.6727)">metered fuel</text>
+   </g>
+   <g id="text_8">
+    <g id="patch_21">
+     <path d="M 460.14 143.40925 
+L 486.21 143.40925 
+L 486.21 131.66675 
+L 460.14 131.66675 
+z
+" style="fill: #141a20"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'Segoe UI', Arial, sans-serif; text-anchor: middle; fill: #ffffff" x="473.175" y="139.7455" transform="rotate(-0 473.175 139.7455)">spark</text>
+   </g>
+   <g id="text_9">
+    <g id="patch_22">
+     <path d="M 452.79875 240.42925 
+L 493.55125 240.42925 
+L 493.55125 228.68675 
+L 452.79875 228.68675 
+z
+" style="fill: #141a20"/>
+    </g>
+    <text style="font-size: 8px; font-family: 'Segoe UI', Arial, sans-serif; text-anchor: middle; fill: #ffffff" x="473.175" y="236.7655" transform="rotate(-0 473.175 236.7655)">feedback</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(75.261797 83.891645)">Crank and</text>
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(61.901094 97.46298)">engine sensors</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(276.298828 83.891645)">ECU</text>
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(227.124531 97.46298)">Timing and protection</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(430.152109 83.891645)">Ignition module</text>
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(451.633906 97.46298)">and coil</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(55.395625 183.683645)">Tank, pump, filter</text>
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(40.726094 197.25498)">and pressure regulator</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; text-anchor: middle; fill: #ffffff" x="287.64" y="190.469313" transform="rotate(-0 287.64 190.469313)">Injector</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; text-anchor: middle; fill: #ffffff" x="473.175" y="190.469313" transform="rotate(-0 473.175 190.469313)">Engine</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(420.093984 277.931645)">Temperatures, RPM</text>
+    <text style="font-size: 11px; font-family: 'Segoe UI', Arial, sans-serif; fill: #ffffff" transform="translate(418.865078 291.50298)">and operating state</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pc46db6032c">
+   <rect x="8.64" y="8.64" width="558" height="332.64"/>
+  </clipPath>
+ </defs>
+</svg>
