@@ -24,9 +24,6 @@ export function sectionFor(url) { return sections.find(([root]) => url.startsWit
 export function readingSequence(updates) {
   return readingGroups.flatMap(([, slugs]) => slugs.map(slug => updates.find(u => u.slug === slug)).filter(Boolean));
 }
-export function keepLocal(html, prefix) {
-  return html.replace(/href="\/journal\/([a-z0-9-]+)\//g, `href="${prefix}studies/$1/`);
-}
 export function withoutSectionLinks(html) {
   return html.replace(/<a\b[^>]*href="\/(?:journal|systems|history|explore|roadmap|back)\/[^\"]*"[^>]*>[\s\S]*?<\/a>/g, '');
 }

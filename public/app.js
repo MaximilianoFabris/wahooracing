@@ -12,9 +12,30 @@ function queueMotion(){if(!pending){pending=true;requestAnimationFrame(motion);}
 if(layers.length||reveals.length){window.addEventListener('scroll',queueMotion,{passive:true});window.addEventListener('resize',queueMotion);reduce.addEventListener('change',queueMotion);desktop.addEventListener('change',queueMotion);motion();}
 const viewData={hero:['hull-hero.webp','Current H0 R03 hull','H0 R03 · actual hull geometry, illustrative studio finish. This is the hull, not a complete assembly.'],bottom:['hull-bottom.webp','Current H0 R03 hull underside','H0 R03 · underside view of the actual hull. Geometry is preserved.'],archive:['archive-exterior.webp','Earlier complete-board design render','Archive · earlier complete-board concept; date unconfirmed. This is not the current H0 R03 assembly.']};
 document.querySelectorAll('[data-view]').forEach(button=>button.addEventListener('click',()=>{const [src,alt,caption]=viewData[button.dataset.view];const image=document.querySelector('#explore-image');image.src='/assets/'+src;image.alt=alt;document.querySelector('#view-caption').textContent=caption;document.querySelectorAll('[data-view]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));}));
-const system=document.querySelector('#filter-system'),type=document.querySelector('#filter-type');
-if(system&&type){const params=new URLSearchParams(location.search);for(const [el,key] of [[system,'system'],[type,'type']])if([...el.options].some(o=>o.value===params.get(key)))el.value=params.get(key);
-const filter=(save=true)=>{let count=0;document.querySelectorAll('#journal-records .journal-item').forEach(item=>{const show=(system.value==='all'||item.dataset.system.split(' ').includes(system.value))&&(type.value==='all'||item.dataset.kind===type.value);item.hidden=!show;if(show)count++;});document.querySelector('#filter-count').textContent=`${count} ${count===1?'record':'records'}`;document.querySelector('#journal-empty').hidden=count!==0;if(save){const query=new URLSearchParams();if(system.value!=='all')query.set('system',system.value);if(type.value!=='all')query.set('type',type.value);history.replaceState(null,'',location.pathname+(query.size?'?'+query:''));}};system.addEventListener('change',()=>filter());type.addEventListener('change',()=>filter());filter(false);}
+const system=document.querySelector('#filter-system'),type=document.querySelector('#filter-type'),subject=document.querySelector('#filter-path');
+if(system&&type&&subject){
+ const params=new URLSearchParams(location.search);
+ for(const [el,key] of [[system,'system'],[type,'type'],[subject,'subject']])if([...el.options].some(o=>o.value===params.get(key)))el.value=params.get(key);
+ if(system.value!=='all'||type.value!=='all')document.querySelector('.additional-filters').open=true;
+ if(/^#reading-[1-6]$/.test(location.hash))subject.value=location.hash.slice(1);
+ function filter(save=true){let count=0;document.querySelectorAll('#journal-records .journal-item').forEach(item=>{const show=(system.value==='all'||item.dataset.system.split(' ').includes(system.value))&&(type.value==='all'||item.dataset.kind===type.value)&&(subject.value==='all'||item.dataset.path===subject.value);item.hidden=!show;if(show)count++;});
+ document.querySelector('#filter-count').textContent=`${count} ${count===1?'record':'records'}`;document.querySelector('#journal-empty').hidden=count!==0;
+ const query=new URLSearchParams();for(const [el,key] of [[system,'system'],[type,'type'],[subject,'subject']])if(el.value!=='all')query.set(key,el.value);
+ const index='/journal/'+(query.size?'?'+query:'');if(save)history.replaceState(null,'',index);
+ document.querySelectorAll('#journal-records h3 a').forEach(a=>{const url=new URL(a.href,location.origin);url.search='';url.searchParams.set('index',index+'#record-'+url.pathname.split('/')[2]);a.href=url.pathname+url.search;});
+ }
+ for(const el of [system,type,subject])el.addEventListener('change',()=>filter());filter(false);
+}
+// One article body and reading sequence; only the contextual return destination changes.
+const study=document.querySelector('[data-study-systems]');
+if(study){
+ const params=new URLSearchParams(location.search);const systems=JSON.parse(study.dataset.studySystems);
+ const origin=systems.find(s=>s.slug===params.get('from'));const indexValue=params.get('index');let index=null;
+ if(indexValue?.startsWith('/journal/')){const u=new URL(indexValue,location.origin);if(u.origin===location.origin&&u.pathname==='/journal/'&&[...u.searchParams.keys()].every(k=>['subject','system','type'].includes(k)))index=u.pathname+u.search+(/^#record-[a-z0-9-]+$/.test(u.hash)?u.hash:'');}
+ if(origin){const destination='/systems/'+origin.slug+'/';document.querySelectorAll('[data-study-return]').forEach(a=>{a.href=destination+'#studies';a.textContent='Back to '+origin.name+' ↗';});document.querySelectorAll('#primary-nav a[href="/journal/"],.site-footer a[href="/journal/"]').forEach(a=>{a.href=destination;a.textContent=origin.name;});}
+ else if(index){document.querySelectorAll('[data-study-return]').forEach(a=>{a.href=index.includes('#')?index:index+'#record-'+location.pathname.split('/')[2];a.textContent='Back to your results ↗';});}
+ if(origin||index)for(const a of study.querySelectorAll('a[href^="/journal/"]')){if(a.hasAttribute('data-study-return'))continue;const u=new URL(a.href,location.origin);if(!/^\/journal\/[^/]+\/$/.test(u.pathname))continue;if(origin)u.searchParams.set('from',origin.slug);else u.searchParams.set('index',index);a.href=u.pathname+u.search+u.hash;}
+}
 const charts=document.querySelectorAll('[data-chart]');
 if(charts.length)fetch('/assets/displacement.json').then(r=>{if(!r.ok)throw Error('Data unavailable');return r.json();}).then(data=>charts.forEach(chart=>{const mass=chart.querySelector('[data-mass]'),density=chart.querySelector('[data-density]');function update(){const p=data.find(r=>r.mass===Number(mass.value)&&r.density===Number(density.value));if(!p?.achievable)return;const point=chart.querySelector('.chart-point');point.setAttribute('cx',String(62+p.mass/80*615));point.setAttribute('cy',String(290-p.immersion/.16*235));chart.querySelector('[data-chart-readout]').textContent=`${p.mass} kg → ${p.immersion.toFixed(4)} m level immersion in ${p.density===1025?'seawater':'freshwater'}. Calculated estimate.`;}mass.addEventListener('change',update);density.addEventListener('change',update);update();})).catch(()=>charts.forEach(chart=>{chart.querySelector('.chart-controls').hidden=true;chart.querySelector('[data-chart-readout]').textContent='Interactive values are unavailable. The source table and plotted data remain available below.';}));
 
