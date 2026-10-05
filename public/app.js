@@ -15,6 +15,20 @@ const charts=document.querySelectorAll('[data-chart]');
 if(charts.length)fetch('/assets/displacement.json').then(r=>{if(!r.ok)throw Error('Data unavailable');return r.json();}).then(data=>charts.forEach(chart=>{const mass=chart.querySelector('[data-mass]'),density=chart.querySelector('[data-density]');function update(){const p=data.find(r=>r.mass===Number(mass.value)&&r.density===Number(density.value));if(!p?.achievable)return;const point=chart.querySelector('.chart-point');point.setAttribute('cx',String(62+p.mass/80*615));point.setAttribute('cy',String(290-p.immersion/.16*235));chart.querySelector('[data-chart-readout]').textContent=`${p.mass} kg → ${p.immersion.toFixed(4)} m level immersion in ${p.density===1025?'seawater':'freshwater'}. Calculated estimate.`;}mass.addEventListener('change',update);density.addEventListener('change',update);update();})).catch(()=>charts.forEach(chart=>{chart.querySelector('.chart-controls').hidden=true;chart.querySelector('[data-chart-readout]').textContent='Interactive values are unavailable. The source table and plotted data remain available below.';}));
 
 // Keep transparent engineering drawings readable at original resolution.
-for(const a of document.querySelectorAll('a[href^="/assets/geometry/"],a[href^="/assets/engineering/"]'))a.href='/inspect/?image='+encodeURIComponent(a.getAttribute('href'));
+let drawingNumber=0;
+for(const a of document.querySelectorAll('a[href^="/assets/geometry/"],a[href^="/assets/engineering/"]')){
+  a.id=a.id||'drawing-'+(++drawingNumber);
+  const params=new URLSearchParams({image:a.getAttribute('href'),return:location.pathname+location.search+'#'+a.id});
+  a.href='/inspect/?'+params;
+}
+// Expand a reading path or drawing's disclosure after a direct return link.
+function revealHash(){const target=document.getElementById(location.hash.slice(1));if(!target)return;for(let el=target;el;el=el.parentElement)if(el.tagName==='DETAILS')el.open=true;requestAnimationFrame(()=>target.scrollIntoView({block:'center'}));}
+if(location.hash)revealHash();window.addEventListener('hashchange',revealHash);
+const returnLink=document.querySelector('[data-image-return]');
+if(returnLink){const value=new URLSearchParams(location.search).get('return');if(value&&/^\/(?:journal|systems|history|explore|roadmap)\/[a-zA-Z0-9_/?=&%#.-]*$/.test(value)){
+  const destination=new URL(value,location.origin);
+  if(destination.origin===location.origin){returnLink.href=destination.pathname+destination.search+destination.hash;returnLink.textContent='Return to where you were reading ↗';}
+}}
+
 const inspected=document.querySelector('[data-inspection-image]');
-if(inspected){const src=new URLSearchParams(location.search).get('image');const status=document.querySelector('[data-image-status]');const zoom=document.querySelector('[data-image-zoom]');if(/^\/assets\/(geometry|engineering)\/[a-zA-Z0-9_-]+\.(png|svg)$/.test(src||'')){inspected.src=src;inspected.hidden=false;status.textContent='Loading drawing…';inspected.onload=()=>{zoom.disabled=false;status.textContent='Drawing loaded. '+inspected.naturalWidth+' × '+inspected.naturalHeight+' pixels.';};inspected.onerror=()=>{status.textContent='This drawing could not be loaded. Return to the journal to choose another.';};zoom.addEventListener('click',()=>{const large=inspected.classList.toggle('original-size');inspected.style.width=large?inspected.naturalWidth+'px':'';zoom.textContent=large?'Fit to screen':'Original size';zoom.setAttribute('aria-pressed',String(large));});}}
+if(inspected){const src=new URLSearchParams(location.search).get('image');const status=document.querySelector('[data-image-status]');const zoom=document.querySelector('[data-image-zoom]');if(/^\/assets\/(geometry|engineering)\/[a-zA-Z0-9_-]+\.(png|svg)$/.test(src||'')){inspected.src=src;inspected.hidden=false;status.textContent='Loading drawing…';inspected.onload=()=>{zoom.disabled=false;status.textContent='Drawing loaded. '+inspected.naturalWidth+' × '+inspected.naturalHeight+' pixels.';};inspected.onerror=()=>{status.textContent='This drawing could not be loaded. Use the return link to choose another drawing.';};zoom.addEventListener('click',()=>{const large=inspected.classList.toggle('original-size');inspected.style.width=large?inspected.naturalWidth+'px':'';zoom.textContent=large?'Fit to screen':'Original size';zoom.setAttribute('aria-pressed',String(large));});}}

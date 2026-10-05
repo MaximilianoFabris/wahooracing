@@ -1,7 +1,7 @@
 {
   "title":"Wahoo Racing",
   "description":"Follow the development of the Wahoo Racing jetboard: the geometry, the decisions and the evidence.",
-  "contactEmail":null,
+  "contactEmail":"contact@wahooracing.com",
   "systems":[
     {"slug":"hull-hydrodynamics","name":"Hull & hydrodynamics","summary":"Geometry, flotation and balance.","available":true},
     {"slug":"engine","name":"Engine","summary":"Engine architecture, packaging and mass."},
