@@ -17,6 +17,10 @@
     "heroCaption": "Corrected R02 run · 20 km/h boundary-speed target · fixed hull · total pressure includes hydrostatic contribution. Commissioning evidence, not validated resistance.",
     "sections": [
       {
+        "title": "The completed extension is now available",
+        "text": "This article preserves the initial 0.95 s checkpoint. Read the <a href=\"/journal/20kmh-completed-analysis/\">completed 20 km/h analysis</a> for the extension to 1.579983709 s, updated statistics and four later saved flow checkpoints."
+      },
+      {
         "title": "A reproducible first flow record",
         "text": "The corrected run ended normally at 0.95 s and produced 15,030 force samples. Its inlet audit found zero wet/dry phase mismatches across 720 submerged faces, 324 air faces and 72 mixed faces. This establishes a traceable commissioning record: geometry, initialization, solver history and saved fields can be examined together. It does not establish final hydrodynamic performance."
       },

@@ -1,5 +1,13 @@
 # Engineering gallery — October 2026
 
+## Completed 20 km/h run — 5 October
+
+`content/cfd20-completion.json` publishes the completed extension at actual solver time 1.579983709 s, preserving the earlier 0.95 s article and linking forward from it. Homepage, roadmap and geometry navigation use the completed record. Dated records sort newest first.
+
+`scripts/prepare_cfd20_completion.py` reads only `VALID_Extended_Postprocess`: original VTP polygons, combined numerical histories and time-weighted statistics. Ten transparent plots and six unchanged original study sheets are included. `docs/cfd20-completion-sources.json` records their source hashes. Final pressure and velocity slices and the four-time water-surface sequence retain common display limits. Full force histories include the startup transient without smoothing. Nested means use the four specified start times and the actual common endpoint. Values were checked against Statistics.json; completion and interpretation were reviewed against Extended_Commissioning_Report.md and Completion_Manifest.json.
+
+Normal completion is distinguished from validation: drag/pitch aggregate means are provisional, vertical force remains window-dependent, and no settled wake, support, free-running trim, mesh independence or experimental validation is claimed. The source recommendation is to retain current geometry. No engineering originals or solver state were modified.
+
 ## Second geometry pass
 
 `content/geometry-studies.json` adds dedicated arc-length, representation-validation, tail and feature-intent articles. The existing reference-verification and surface-investigation articles are expanded. A geometry feature links these records from the homepage, hull system page and history.

@@ -1,0 +1,162 @@
+[
+  {
+    "asset": "engineering/cfd20-freeSurface-1-2.png",
+    "sources": [
+      {
+        "file": "04_CFD_Results\\H0-CFD-001\\VALID_Extended_Postprocess\\postProcessing\\surfaceViews\\1.2\\freeSurface.vtp",
+        "sha256": "a9da4429a937454b29ffd7e09c3bd7d6b648b5c9156dac0448d0991eed19c608"
+      }
+    ],
+    "treatment": "Replotted from source data; transparent background. No geometry change or solver execution."
+  },
+  {
+    "asset": "engineering/cfd20-freeSurface-1-35.png",
+    "sources": [
+      {
+        "file": "04_CFD_Results\\H0-CFD-001\\VALID_Extended_Postprocess\\postProcessing\\surfaceViews\\1.35\\freeSurface.vtp",
+        "sha256": "a9e22620c1bf760585612f20264d73b44f24cc90837a607cb3612899285094cb"
+      }
+    ],
+    "treatment": "Replotted from source data; transparent background. No geometry change or solver execution."
+  },
+  {
+    "asset": "engineering/cfd20-freeSurface-1-5.png",
+    "sources": [
+      {
+        "file": "04_CFD_Results\\H0-CFD-001\\VALID_Extended_Postprocess\\postProcessing\\surfaceViews\\1.5\\freeSurface.vtp",
+        "sha256": "a2b56baad760f896ddbf47b017140dc0135468526982e1e68203b63eeabae82d"
+      }
+    ],
+    "treatment": "Replotted from source data; transparent background. No geometry change or solver execution."
+  },
+  {
+    "asset": "engineering/cfd20-hullPressure-1-579983709.png",
+    "sources": [
+      {
+        "file": "04_CFD_Results\\H0-CFD-001\\VALID_Extended_Postprocess\\postProcessing\\surfaceViews\\1.579983709\\hullPressure.vtp",
+        "sha256": "37aa679a19d77b6b95a6b1e166b4e727257a5105422fa222d8592e27e76fb6c0"
+      }
+    ],
+    "treatment": "Replotted from source data; transparent background. No geometry change or solver execution."
+  },
+  {
+    "asset": "engineering/cfd20-freeSurface-1-579983709.png",
+    "sources": [
+      {
+        "file": "04_CFD_Results\\H0-CFD-001\\VALID_Extended_Postprocess\\postProcessing\\surfaceViews\\1.579983709\\freeSurface.vtp",
+        "sha256": "83b4e88c7bc819e31bc75f2ed782f6eb667a0dbd33f1fbb91e3283b4a104d5a6"
+      }
+    ],
+    "treatment": "Replotted from source data; transparent background. No geometry change or solver execution."
+  },
+  {
+    "asset": "engineering/cfd20-centerPlane-1-579983709.png",
+    "sources": [
+      {
+        "file": "04_CFD_Results\\H0-CFD-001\\VALID_Extended_Postprocess\\postProcessing\\surfaceViews\\1.579983709\\centerPlane.vtp",
+        "sha256": "8099ff48c19079a57e523b7fed5a9ae385970d97a1ce542af954c14214df84b2"
+      }
+    ],
+    "treatment": "Replotted from source data; transparent background. No geometry change or solver execution."
+  },
+  {
+    "asset": "engineering/cfd20-waterline-1-579983709.png",
+    "sources": [
+      {
+        "file": "04_CFD_Results\\H0-CFD-001\\VALID_Extended_Postprocess\\postProcessing\\surfaceViews\\1.579983709\\waterline.vtp",
+        "sha256": "7fcdef42d79367a4185e695e90c9aa2d70c7b39fefbeadb1ca1d6e1d6ddcbe76"
+      }
+    ],
+    "treatment": "Replotted from source data; transparent background. No geometry change or solver execution."
+  },
+  {
+    "asset": "engineering/cfd20-nearWake-1-579983709.png",
+    "sources": [
+      {
+        "file": "04_CFD_Results\\H0-CFD-001\\VALID_Extended_Postprocess\\postProcessing\\surfaceViews\\1.579983709\\nearWake.vtp",
+        "sha256": "894856df3dd84277ed8962ab86a1e8dd77d137f949d6e235dcf2b770844c17f3"
+      }
+    ],
+    "treatment": "Replotted from source data; transparent background. No geometry change or solver execution."
+  },
+  {
+    "asset": "engineering/cfd20-force-history.png",
+    "sources": [
+      {
+        "file": "04_CFD_Results\\H0-CFD-001\\VALID_Extended_Postprocess\\Combined_Histories.npz",
+        "sha256": "cb6e82db9dd62b555575ad5431376301a54951eb83d4ac1f980b208c3b9be167"
+      }
+    ],
+    "treatment": "Replotted from source data; transparent background. No geometry change or solver execution."
+  },
+  {
+    "asset": "engineering/cfd20-nested-means.svg",
+    "sources": [
+      {
+        "file": "04_CFD_Results\\H0-CFD-001\\VALID_Extended_Postprocess\\Statistics.json",
+        "sha256": "58ed8d203d6d6e824d1a9b1bdcbfdddc6884c5261e14c1835fac676605e96dc5"
+      }
+    ],
+    "treatment": "Replotted from source data; transparent background. No geometry change or solver execution."
+  },
+  {
+    "asset": "engineering/cfd20-source-forces.png",
+    "sources": [
+      {
+        "file": "04_CFD_Results\\H0-CFD-001\\VALID_Extended_Postprocess\\Valid_Force_Histories.png",
+        "sha256": "825146534d8a1f47fe7ff219ca139eecde45ef8231b95c8a7c2e5c95de8a4261"
+      }
+    ],
+    "treatment": "Original rendered study sheet copied unchanged."
+  },
+  {
+    "asset": "engineering/cfd20-source-sequence.png",
+    "sources": [
+      {
+        "file": "04_CFD_Results\\H0-CFD-001\\VALID_Extended_Postprocess\\Field_Views_Contact_Sheet.png",
+        "sha256": "57aa735bb7bb2dcaa8bbf3ac632ce0f2628aa3a547cec3c1aec0d44aa1a8949b"
+      }
+    ],
+    "treatment": "Original rendered study sheet copied unchanged."
+  },
+  {
+    "asset": "engineering/cfd20-source-fields-1-2.png",
+    "sources": [
+      {
+        "file": "04_CFD_Results\\H0-CFD-001\\VALID_Extended_Postprocess\\Valid_Fields_1.2.png",
+        "sha256": "bdf3272c96c6d96e1480ae12c5862b486bb3f2d83a54decb5e1e48a317ba6147"
+      }
+    ],
+    "treatment": "Original rendered study sheet copied unchanged."
+  },
+  {
+    "asset": "engineering/cfd20-source-fields-1-35.png",
+    "sources": [
+      {
+        "file": "04_CFD_Results\\H0-CFD-001\\VALID_Extended_Postprocess\\Valid_Fields_1.35.png",
+        "sha256": "4639bf913c3ce89485957e3a68aea5ca62c93b4f73ce6c7411b8058afecd8ca9"
+      }
+    ],
+    "treatment": "Original rendered study sheet copied unchanged."
+  },
+  {
+    "asset": "engineering/cfd20-source-fields-1-5.png",
+    "sources": [
+      {
+        "file": "04_CFD_Results\\H0-CFD-001\\VALID_Extended_Postprocess\\Valid_Fields_1.5.png",
+        "sha256": "c30f839f0a958e2cac66115ee6ef221612595aaa3c93fa948921eb924d190824"
+      }
+    ],
+    "treatment": "Original rendered study sheet copied unchanged."
+  },
+  {
+    "asset": "engineering/cfd20-source-fields-1-579983709.png",
+    "sources": [
+      {
+        "file": "04_CFD_Results\\H0-CFD-001\\VALID_Extended_Postprocess\\Valid_Fields_1.579983709.png",
+        "sha256": "d0fb328d24eb7897efbb359ca8fffd8dbe89011b671636884c3e25ce45b63ae5"
+      }
+    ],
+    "treatment": "Original rendered study sheet copied unchanged."
+  }
+]
