@@ -1,4 +1,8 @@
 const menu=document.querySelector('.menu-toggle'),nav=document.querySelector('#primary-nav');
+document.querySelectorAll('[data-station]').forEach(button=>button.addEventListener('click',()=>{
+  document.querySelectorAll('[data-station]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));
+  document.querySelectorAll('[data-station-figure]').forEach(f=>f.hidden=f.dataset.stationFigure!==button.dataset.station);
+}));
 menu?.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')!=='true';menu.setAttribute('aria-expanded',String(open));nav.classList.toggle('open',open);});
 document.addEventListener('keydown',e=>{if(e.key==='Escape'&&nav?.classList.contains('open')){nav.classList.remove('open');menu.setAttribute('aria-expanded','false');menu.focus();}});
 const reduce=matchMedia('(prefers-reduced-motion: reduce)'),desktop=matchMedia('(min-width: 901px)');
@@ -16,7 +20,7 @@ if(charts.length)fetch('/assets/displacement.json').then(r=>{if(!r.ok)throw Erro
 
 // Keep transparent engineering drawings readable at original resolution.
 let drawingNumber=0;
-for(const a of document.querySelectorAll('a[href^="/assets/geometry/"],a[href^="/assets/engineering/"]')){
+for(const a of document.querySelectorAll('a[href^="/assets/geometry/"],a[href^="/assets/engineering/"],a[href^="/assets/hull-section-"]')){
   a.id=a.id||'drawing-'+(++drawingNumber);
   const params=new URLSearchParams({image:a.getAttribute('href'),return:location.pathname+location.search+'#'+a.id});
   a.href='/inspect/?'+params;
@@ -31,4 +35,4 @@ if(returnLink){const value=new URLSearchParams(location.search).get('return');if
 }}
 
 const inspected=document.querySelector('[data-inspection-image]');
-if(inspected){const src=new URLSearchParams(location.search).get('image');const status=document.querySelector('[data-image-status]');const zoom=document.querySelector('[data-image-zoom]');if(/^\/assets\/(geometry|engineering)\/[a-zA-Z0-9_-]+\.(png|svg)$/.test(src||'')){inspected.src=src;inspected.hidden=false;status.textContent='Loading drawing…';inspected.onload=()=>{zoom.disabled=false;status.textContent='Drawing loaded. '+inspected.naturalWidth+' × '+inspected.naturalHeight+' pixels.';};inspected.onerror=()=>{status.textContent='This drawing could not be loaded. Use the return link to choose another drawing.';};zoom.addEventListener('click',()=>{const large=inspected.classList.toggle('original-size');inspected.style.width=large?inspected.naturalWidth+'px':'';zoom.textContent=large?'Fit to screen':'Original size';zoom.setAttribute('aria-pressed',String(large));});}}
+if(inspected){const src=new URLSearchParams(location.search).get('image');const status=document.querySelector('[data-image-status]');const zoom=document.querySelector('[data-image-zoom]');if(/^\/assets\/(?:(geometry|engineering)\/[a-zA-Z0-9_-]+\.(png|svg)|hull-section-(25|50|75|90)\.svg)$/.test(src||'')){inspected.src=src;inspected.hidden=false;status.textContent='Loading drawing…';inspected.onload=()=>{zoom.disabled=false;status.textContent='Drawing loaded. '+inspected.naturalWidth+' × '+inspected.naturalHeight+' pixels.';};inspected.onerror=()=>{status.textContent='This drawing could not be loaded. Use the return link to choose another drawing.';};zoom.addEventListener('click',()=>{const large=inspected.classList.toggle('original-size');inspected.style.width=large?inspected.naturalWidth+'px':'';zoom.textContent=large?'Fit to screen':'Original size';zoom.setAttribute('aria-pressed',String(large));});}}
