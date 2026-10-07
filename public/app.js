@@ -1,3 +1,18 @@
+const themeButton=document.querySelector('.theme-toggle');
+function applyTheme(theme){
+ document.documentElement.dataset.theme=theme;
+ const night=theme==='night';
+ document.querySelectorAll('img[src]').forEach(img=>{
+  const original=new URL(img.src,location.href).pathname.replace('/assets/day/','/assets/');
+  if(window.wahooDayDrawings?.includes(original))img.src=night?original:original.replace('/assets/','/assets/day/');
+ });
+ themeButton?.setAttribute('aria-label',night?'Switch to day mode':'Switch to night mode');
+ themeButton?.setAttribute('aria-pressed',String(night));
+ const label=themeButton?.querySelector('[data-theme-label]');if(label)label.textContent=night?'Day mode':'Night mode';
+ document.querySelectorAll('img[src*="/assets/brand/"]').forEach(img=>{img.src=img.src.replace(/(white|black)(?=\.png)/,night?'white':'black');});
+}
+applyTheme(document.documentElement.dataset.theme);
+themeButton?.addEventListener('click',()=>{const theme=document.documentElement.dataset.theme==='night'?'day':'night';applyTheme(theme);try{localStorage.setItem('wahoo-theme',theme);}catch{}});
 const menu=document.querySelector('.menu-toggle'),nav=document.querySelector('#primary-nav');
 document.querySelectorAll('[data-station]').forEach(button=>button.addEventListener('click',()=>{
   document.querySelectorAll('[data-station]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));
@@ -60,3 +75,6 @@ if(returnLink){const value=new URLSearchParams(location.search).get('return');if
 
 const inspected=document.querySelector('[data-inspection-image]');
 if(inspected){const src=new URLSearchParams(location.search).get('image');const status=document.querySelector('[data-image-status]');const zoom=document.querySelector('[data-image-zoom]');if(/^\/assets\/(?:(geometry|engineering)\/[a-zA-Z0-9_-]+\.(png|svg)|hull-section-(25|50|75|90)\.svg)$/.test(src||'')){inspected.src=src;inspected.hidden=false;status.textContent='Loading drawing…';inspected.onload=()=>{zoom.disabled=false;status.textContent='Drawing loaded. '+inspected.naturalWidth+' × '+inspected.naturalHeight+' pixels.';};inspected.onerror=()=>{status.textContent='This drawing could not be loaded. Use the return link to choose another drawing.';};zoom.addEventListener('click',()=>{const large=inspected.classList.toggle('original-size');inspected.style.width=large?inspected.naturalWidth+'px':'';zoom.textContent=large?'Fit to screen':'Original size';zoom.setAttribute('aria-pressed',String(large));});}}
+
+// Include drawings loaded by the inspection viewer after initial page setup.
+applyTheme(document.documentElement.dataset.theme);
