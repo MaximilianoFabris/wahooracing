@@ -6,9 +6,9 @@ const legacy=JSON.parse(await readFile('content/legacy-study-routes.json'));
 for(const route of legacy){for(const path of [route,route.slice(0,-1)]){const r=await fetch(base+path,{redirect:'manual'});const target=r.headers.get('location');if(r.status!==301||!target.startsWith('/journal/')||!target.includes('?from='))throw Error('Invalid legacy redirect '+path);}}
 const browser=await chromium.launch({channel:'msedge',headless:true});const page=await browser.newPage();const errors=[];page.on('pageerror',e=>errors.push(e.message));
 try{
- await page.goto(base+'/journal/');await page.locator('#filter-path').selectOption('reading-3');if(await page.locator('#journal-records article:visible').count()!==2)throw Error('Subject filter');
+ await page.goto(base+'/journal/');await page.locator('#filter-path').selectOption('reading-3');if(await page.locator('#journal-records article:visible').count()!==3)throw Error('Subject filter');
  await page.locator('#record-first-corrected-cfd-run h3 a').click();await page.locator('.reading-next a').filter({hasText:'Next:'}).click();if(new URL(page.url()).pathname!=='/journal/20kmh-completed-analysis/')throw Error('Next study');
- await page.locator('[data-study-return]').first().click();if(await page.locator('#filter-path').inputValue()!=='reading-3'||!page.url().endsWith('#record-first-corrected-cfd-run'))throw Error('Filtered return not preserved');
+ await page.locator('[data-study-return]').first().click();await page.waitForLoadState('load');if(await page.locator('#filter-path').inputValue()!=='reading-3'||!page.url().endsWith('#record-first-corrected-cfd-run'))throw Error('Filtered return not preserved');
  await page.goto(base+'/journal/#reading-1');if(await page.locator('#journal-records article:visible').count()!==7)throw Error('Old reading-path bookmark');
  await page.goto(base+'/journal/arc-length-analysis/?from=engine');const sequenceA=await page.locator('.reading-next a').filter({hasText:'Next:'}).getAttribute('href');
  await page.goto(base+'/journal/arc-length-analysis/');const sequenceB=await page.locator('.reading-next a').filter({hasText:'Next:'}).getAttribute('href');if(sequenceA.split('?')[0]!==sequenceB)throw Error('Reading order varies by entry');

@@ -202,5 +202,75 @@
       "H0_R02_Feature_Intent_Review.txt"
     ],
     "changes": "Section overlay redrawn from source samples. Original geometry and rejected diagnostics remain untouched in the engineering archive."
+  },
+  {
+    "slug": "cfd002-moving-hull-methodology",
+    "title": "From a fixed hull to a moving hull.",
+    "summary": "CFD-002 carries the completed flow baseline into a constrained heave-and-pitch study. The setup, provisional inertia and restart checks explain what this next simulation can—and cannot—establish.",
+    "date": "2026-10-07",
+    "dateLabel": "07 Oct 2026 · methodology and source review",
+    "revision": "H0-CFD-002 / METHOD",
+    "type": "Simulation",
+    "evidence": "Documented setup · results pending",
+    "status": "published",
+    "systems": [
+      "hull-hydrodynamics"
+    ],
+    "hero": "engineering/cfd002-motion-method.svg",
+    "heroAlt": "Two permitted motions: vertical translation along global Z and pitch rotation about global Y; the other four motions are locked",
+    "heroCaption": "Constraint diagram only. The cross marks the centre of gravity; no hull outline, displacement amplitude or simulated trajectory is depicted.",
+    "sections": [
+      {
+        "title": "A new question for the same baseline",
+        "text": "The completed CFD-001 run held the hull fixed at a 20 km/h boundary-speed target. It established a traceable flow record, but a fixed hull cannot determine its own running attitude. CFD-002 asks how the model responds when vertical motion and pitch are released. This article documents the method; it does not report a completed moving-hull result."
+      },
+      {
+        "title": "Two motions are free; four remain constrained",
+        "text": "The configured rigid-body model permits translation along global Z (heave) and rotation about global Y (pitch). The other translations and rotations remain locked. This is a constrained two-degree-of-freedom investigation using a six-degree-of-freedom solver framework—not a freely manoeuvring board or a rider-control simulation. No physical spring or damper is included."
+      },
+      {
+        "title": "Continue the flow instead of starting again",
+        "text": "The branch uses the saved CFD-001 fluid state at 1.579983709 seconds. The speed ramp has already finished. Motion begins relative to the existing, already positioned mesh, so its initial attitude is not applied twice. The configured investigation targets 0.95 seconds after release; reaching that duration is a run milestone, not proof of equilibrium."
+      },
+      {
+        "title": "Mass locates the load; inertia sets the response",
+        "text": "The provisional rigid-body input retains the accepted dry mass of approximately 18.198 kg and its centre of gravity. The pitch-axis moment of inertia is approximately 1.5873 kg·m². These are model inputs, not measurements of a completed board. Inertia governs rotational response and influences the transient period and approach to equilibrium; it does not select static equilibrium by itself."
+      },
+      {
+        "title": "Keep the inertia assumptions visible",
+        "text": "The hull contribution reuses the existing integration surfaces and regional mass model. Components and allowances are represented at their accepted mass locations, while their unknown intrinsic moments of inertia are omitted. Those omissions leave positive contributions unmodelled. Agreement between two numerical integrations is a consistency check on that calculation, not validation of the physical mass distribution. Inertia sensitivity and measured component properties remain future evidence."
+      },
+      {
+        "title": "Move the mesh and preserve the motion state",
+        "text": "The configured mesh deforms around the moving hull while keeping the outer boundary fixed. The hull boundary follows the wall motion, and mesh Courant numbers are monitored alongside the fluid and interface Courant numbers. Restart continuity requires more than the saved hull position: the full orientation, velocity and other motion-state quantities must be retained with the fluid fields. The setup record also specifies shifting reported moments from the original reference centre to the instantaneous centre of gravity."
+      },
+      {
+        "title": "What the recovery checks establish",
+        "text": "The retained recovery records document a controlled stop and a verified checkpoint at solver time 1.7086261725 seconds. Integrity checks covered 80 checkpoint files across four ranks; the subsequent Resume_03 provenance records checkpoint integrity as PASS and selection of that checkpoint as the restart time. The monitor also records a passed initial shakedown gate. These checks support traceability and continuity. They do not establish settled motion, mesh-independent loads or validated performance."
+      },
+      {
+        "title": "What must follow before a results claim",
+        "text": "The next review must examine the continuous heave, pitch, force and moment histories, numerical stability and mesh behaviour, and whether a useful stationary or periodic regime has actually developed. Averaging-window dependence, mesh sensitivity, provisional inertia and experimental comparison remain relevant. No final running trim, resistance improvement, stability rating or payload claim is made here."
+      }
+    ],
+    "galleryTitle": "The method at a glance",
+    "gallery": [
+      {
+        "image": "engineering/cfd002-inertia-method.svg",
+        "caption": "Provisional inertia model: known mass locations are retained, while unknown intrinsic component and allowance contributions remain an uncertainty. This is an accounting diagram, not a component layout."
+      },
+      {
+        "image": "engineering/cfd002-evidence-method.svg",
+        "caption": "Evidence sequence: a verified setup and restart support continuation. Completed motion histories and a reviewed result are separate milestones."
+      }
+    ],
+    "sources": [
+      "H0-CFD-002 / Setup_Record.txt",
+      "H0-CFD-002 / H0_CFD_002_Rigid_Body_Inertia_Report.txt",
+      "H0-CFD-002 / Branch_Provenance.json and Rigid_Body.json",
+      "Resume_02 / User_Graceful_Stop_Verification.json",
+      "Resume_03 / Resume_Provenance.json; monitor snapshot reviewed 7 October 2026"
+    ],
+    "changes": "New methodology milestone following the fixed-hull commissioning record. Diagrams explain documented constraints and assumptions; they are not simulation outputs. No solver, geometry, mass model or CFD settings changed for this publication."
   }
 ]
