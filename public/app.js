@@ -2,6 +2,9 @@ const themeButton=document.querySelector('.theme-toggle');
 function applyTheme(theme){
  document.documentElement.dataset.theme=theme;
  const night=theme==='night';
+ const icon=themeButton?.querySelector('[data-theme-icon]');
+ icon?.setAttribute('d',night?'M12 8a4 4 0 1 0 0 8 4 4 0 0 0 0-8Z M12 2v2 M12 20v2 M4.9 4.9l1.4 1.4 M17.7 17.7l1.4 1.4 M2 12h2 M20 12h2 M6.3 17.7l-1.4 1.4 M19.1 4.9l-1.4 1.4':'M12 3a6 6 0 0 0 9 9 9 9 0 1 1-9-9Z');
+
  document.querySelectorAll('img[src]').forEach(img=>{
   const original=new URL(img.src,location.href).pathname.replace('/assets/day/','/assets/');
   if(window.wahooDayDrawings?.includes(original))img.src=night?original:original.replace('/assets/','/assets/day/');
@@ -78,3 +81,12 @@ if(inspected){const src=new URLSearchParams(location.search).get('image');const 
 
 // Include drawings loaded by the inspection viewer after initial page setup.
 applyTheme(document.documentElement.dataset.theme);
+// Specification selection links both orthographic views to the same reviewed record.
+document.querySelectorAll('[data-board-spec]').forEach(button=>button.addEventListener('click',()=>{
+ document.querySelectorAll('[data-board-spec]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));
+ document.querySelectorAll('[data-board-detail]').forEach(a=>a.hidden=a.dataset.boardDetail!==button.dataset.boardSpec);
+ document.querySelectorAll('[data-board-region]').forEach(g=>g.toggleAttribute('hidden',g.dataset.boardRegion!==button.dataset.zone));
+ document.querySelector('[data-board-selection]').textContent=button.querySelector('.spec-name').textContent+' · '+button.querySelector('strong').textContent;
+ if(matchMedia('(max-width:800px)').matches)document.querySelector('.board-diagrams').scrollIntoView({behavior:'instant',block:'start'});
+ document.querySelector('[data-board-location]').textContent=button.dataset.zone==='hull'?'Geometry envelope highlighted':'Approximate functional region · installation position not released';
+}));
