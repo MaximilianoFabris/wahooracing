@@ -1,0 +1,12 @@
+{
+  "source": "_Wahoo_Engineering/01_Geometry_Analysis/H0_R03_Hydrostatic_Assets/coarse.json",
+  "sha256": "85fd379c87cb61223814de6cdaab63484e3957b625ca55b146d0368ba36ba2dd",
+  "date": "2026-10-08",
+  "renderer": "Blender 5.2.2 / Cycles, original studio materials and lighting",
+  "treatment": "Source vertices and triangles unchanged; centered by rigid translation only. Orthographic cameras: side (0,-3,0), front/bow (3,0,0), back/stern (-3,0,0). Transparent background. Perspective and underside assets unchanged.",
+  "assets": [
+    "hull-side.webp",
+    "hull-front.webp",
+    "hull-back.webp"
+  ]
+}

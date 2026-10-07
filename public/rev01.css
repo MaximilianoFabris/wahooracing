@@ -84,3 +84,8 @@ body{padding-top:var(--header-height)}
 
 
 .board-flows{border-top:1px solid var(--line)}.flow-intro{max-width:65ch}.flow-controls{display:flex;flex-wrap:wrap;gap:10px;margin:28px 0}.flow-controls button{display:flex;align-items:center;gap:9px;font-size:13px;min-height:44px}.flow-controls button span{width:16px;border-top:3px solid var(--route-color)}.flow-controls button[aria-pressed=true]{border-color:var(--blue);color:var(--blue)}.board-flows .board-lines{max-width:1050px;margin:24px auto}.board-component-static{fill:none;stroke:var(--muted);stroke-width:1.5;opacity:.55}.board-flows .board-highlight{display:none}.flow-route{fill:none;stroke:var(--route-color);stroke-width:3;stroke-dasharray:9 5;transition:opacity .15s}.flow-route.flow-muted{opacity:.12}.flow-description{min-height:3.2em;max-width:75ch}.board-flows>.caption{max-width:100ch}
+
+.hull-renderings{border-top:1px solid var(--line)}.hull-renderings .explorer-image{margin-top:28px}.hull-renderings .explorer-image img{display:block;width:100%;height:auto;max-height:620px;object-fit:contain}.board-flows .flow-description.board-selection-status{min-height:0}
+
+.systems-index>a>.system-symbol{grid-column:1/-1;margin:0;align-items:center}.systems-index .system-symbol .number{margin:0}.systems-index .system-icon{width:36px;height:36px}
+.side-contour{stroke:var(--blue);stroke-width:2;stroke-linejoin:round;stroke-linecap:round}
