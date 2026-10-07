@@ -105,3 +105,11 @@ if(fixedHeader){
  syncHeaderHeight();
 }
 
+
+document.querySelectorAll('[data-flow]').forEach(button=>button.addEventListener('click',()=>{
+ const section=button.closest('.board-flows');
+ section.querySelectorAll('[data-flow]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));
+ section.querySelectorAll('[data-flow-route]').forEach(route=>route.classList.toggle('flow-muted',button.dataset.flow!=='all'&&route.dataset.flowRoute!==button.dataset.flow));
+ const descriptions={air:'Air enters at the bow and follows the concept’s internal and peripheral routes toward the engine.',breather:'The fuel tank has a separate ventilation route; final routing remains to be defined.',cooling:'Conceptual supply near the jet pump, routing toward the engine and a separate water outlet. Cooling architecture remains open.',exhaust:'Exhaust travels from the engine through the tuned pipe toward the stern.',bilge:'The bilge pump has a separate discharge route for water inside the hull.',all:'Select a route to follow its path through the board.'};
+ section.querySelector('.flow-description').textContent=descriptions[button.dataset.flow];
+}));

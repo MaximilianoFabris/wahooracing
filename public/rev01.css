@@ -82,3 +82,5 @@ body{padding-top:var(--header-height)}
 .board-component:focus{outline:none}
 .board-component:focus-visible{outline:none;stroke:var(--blue);stroke-width:3;fill:color-mix(in srgb,var(--blue) 35%,transparent)}
 
+
+.board-flows{border-top:1px solid var(--line)}.flow-intro{max-width:65ch}.flow-controls{display:flex;flex-wrap:wrap;gap:10px;margin:28px 0}.flow-controls button{display:flex;align-items:center;gap:9px;font-size:13px;min-height:44px}.flow-controls button span{width:16px;border-top:3px solid var(--route-color)}.flow-controls button[aria-pressed=true]{border-color:var(--blue);color:var(--blue)}.board-flows .board-lines{max-width:1050px;margin:24px auto}.board-component-static{fill:none;stroke:var(--muted);stroke-width:1.5;opacity:.55}.board-flows .board-highlight{display:none}.flow-route{fill:none;stroke:var(--route-color);stroke-width:3;stroke-dasharray:9 5;transition:opacity .15s}.flow-route.flow-muted{opacity:.12}.flow-description{min-height:3.2em;max-width:75ch}.board-flows>.caption{max-width:100ch}
