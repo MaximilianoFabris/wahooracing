@@ -86,7 +86,13 @@ document.querySelectorAll('[data-board-spec]').forEach(button=>button.addEventLi
  document.querySelectorAll('[data-board-spec]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));
  document.querySelectorAll('[data-board-detail]').forEach(a=>a.hidden=a.dataset.boardDetail!==button.dataset.boardSpec);
  document.querySelectorAll('[data-board-region]').forEach(g=>g.toggleAttribute('hidden',g.dataset.boardRegion!==button.dataset.zone));
+ document.querySelectorAll('[data-component]').forEach(g=>g.setAttribute('aria-pressed',String(g.dataset.component===button.dataset.zone)));
  document.querySelector('[data-board-selection]').textContent=button.querySelector('.spec-name').textContent+' · '+button.querySelector('strong').textContent;
  if(matchMedia('(max-width:800px)').matches)document.querySelector('.board-diagrams').scrollIntoView({behavior:'instant',block:'start'});
- document.querySelector('[data-board-location]').textContent=button.dataset.zone==='hull'?'Geometry envelope highlighted':'Approximate functional region · installation position not released';
+ document.querySelector('[data-board-location]').textContent=button.dataset.zone==='hull'?'Geometry envelope highlighted':'Original component silhouette · illustrative placement';
 }));
+
+document.querySelectorAll('[data-component]').forEach(part=>{
+ const select=()=>document.querySelector('[data-board-spec][data-zone="'+part.dataset.component+'"]')?.click();
+ part.addEventListener('click',select);part.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();select();}});
+});
