@@ -88,7 +88,7 @@ document.querySelectorAll('[data-board-spec]').forEach(button=>button.addEventLi
  document.querySelectorAll('[data-board-region]').forEach(g=>g.toggleAttribute('hidden',g.dataset.boardRegion!==button.dataset.zone));
  document.querySelectorAll('[data-component]').forEach(g=>g.setAttribute('aria-pressed',String(g.dataset.component===button.dataset.zone)));
  document.querySelector('[data-board-selection]').textContent=button.querySelector('.spec-name').textContent+' · '+button.querySelector('strong').textContent;
- if(matchMedia('(max-width:800px)').matches)document.querySelector('.board-diagrams').scrollIntoView({behavior:'instant',block:'start'});
+ const diagrams=document.querySelector('.board-diagrams');const bounds=diagrams.getBoundingClientRect();if(bounds.top<80||bounds.bottom>innerHeight)diagrams.scrollIntoView({behavior:'instant',block:'start'});
  document.querySelector('[data-board-location]').textContent=button.dataset.zone==='hull'?'Geometry envelope highlighted':'Original component silhouette · illustrative placement';
 }));
 
