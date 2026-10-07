@@ -66,3 +66,19 @@ html[data-theme=day] .chart svg text,html[data-theme=day] .chart svg tspan{fill:
 .board-overview .spec-group dt{font-size:12px}.board-overview .spec-group .board-spec strong{font-size:14px}
 @media(max-width:800px){.board-heading{grid-template-columns:1fr;gap:28px;padding-top:36px}.board-heading h1{font-size:clamp(56px,11vw,80px)}.board-heading .board-diagrams{width:100%}.board-overview .spec-groups{gap:32px 28px}}
 @media(max-width:600px){.board-overview .spec-group .board-spec strong{font-size:13px}}
+/* Shared fixed glass header, in both colour themes and every section. */
+:root{--header-height:74px}
+html{scroll-padding-top:calc(var(--header-height) + 24px)}
+body{padding-top:var(--header-height)}
+.site-header,.site-header.claude-header{position:fixed;inset:0 0 auto;z-index:40;width:100%;max-width:none;margin:0;padding-inline:max(20px,calc((100% - 1168px)/2));background:var(--bg);border-bottom:1px solid var(--line);max-height:100dvh;overflow-y:auto}
+@supports ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))){.site-header,.site-header.claude-header{background:color-mix(in srgb,var(--bg) 72%,transparent);-webkit-backdrop-filter:blur(18px);backdrop-filter:blur(18px)}}
+@media(max-width:1000px){.site-header,.site-header.claude-header{padding-inline:24px}}
+@media(max-width:800px){.site-header,.site-header.claude-header{padding-inline:20px}}
+
+/* Align the board header consistently; component focus follows its actual shape. */
+.board-heading{align-items:start}
+.board-heading .board-diagrams{padding-top:0}
+.board-heading .board-lines+ .board-lines{margin-top:26px}
+.board-component:focus{outline:none}
+.board-component:focus-visible{outline:none;stroke:var(--blue);stroke-width:3;fill:color-mix(in srgb,var(--blue) 35%,transparent)}
+

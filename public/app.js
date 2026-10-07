@@ -68,7 +68,7 @@ for(const a of document.querySelectorAll('a[href^="/assets/geometry/"],a[href^="
   a.href='/inspect/?'+params;
 }
 // Expand a reading path or drawing's disclosure after a direct return link.
-function revealHash(){const target=document.getElementById(location.hash.slice(1));if(!target)return;for(let el=target;el;el=el.parentElement)if(el.tagName==='DETAILS')el.open=true;requestAnimationFrame(()=>target.scrollIntoView({block:'center'}));}
+function revealHash(){const target=document.getElementById(location.hash.slice(1));if(!target)return;for(let el=target;el;el=el.parentElement)if(el.tagName==='DETAILS')el.open=true;requestAnimationFrame(()=>target.scrollIntoView({block:'start'}));}
 if(location.hash)revealHash();window.addEventListener('hashchange',revealHash);
 const returnLink=document.querySelector('[data-image-return]');
 if(returnLink){const value=new URLSearchParams(location.search).get('return');if(value&&/^\/(?:journal|systems|history|explore|roadmap)\/[a-zA-Z0-9_/?=&%#.-]*$/.test(value)){
@@ -96,3 +96,12 @@ document.querySelectorAll('[data-component]').forEach(part=>{
  const select=()=>document.querySelector('[data-board-spec][data-zone="'+part.dataset.component+'"]')?.click();
  part.addEventListener('click',select);part.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();select();}});
 });
+
+// Reserve the closed header height without shifting content when the menu opens.
+const fixedHeader=document.querySelector('.site-header');
+if(fixedHeader){
+ const syncHeaderHeight=()=>{if(!document.querySelector('#primary-nav.open'))document.documentElement.style.setProperty('--header-height',`${fixedHeader.getBoundingClientRect().height}px`);};
+ new ResizeObserver(syncHeaderHeight).observe(fixedHeader);
+ syncHeaderHeight();
+}
+
