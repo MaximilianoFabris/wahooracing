@@ -1,0 +1,92 @@
+[
+  {
+    "asset": "water",
+    "source": "C:\\Users\\maxfa\\Desktop\\Wahoo\\Photos\\Photos\\40.jpg",
+    "sha256": "6ab3724a60123118ab88997ef2533032bf158da5e11ad27aa2e84e922570083c",
+    "original_dimensions": [
+      6016,
+      4000
+    ]
+  },
+  {
+    "asset": "carve",
+    "source": "C:\\Users\\maxfa\\Desktop\\Wahoo\\Photos\\Photos\\39.jpg",
+    "sha256": "45fb0e821f863bd6bfcf145309c481621a26b1e0815e64f41769f55a5197bdae",
+    "original_dimensions": [
+      6016,
+      4000
+    ]
+  },
+  {
+    "asset": "team",
+    "source": "C:\\Users\\maxfa\\Desktop\\Wahoo\\Photos\\Photos\\23.jpg",
+    "sha256": "532d39e948678d416b4e56aa2a15ac3b3c0219d6a499d9d5efe7a93b1924ab71",
+    "original_dimensions": [
+      6016,
+      4000
+    ]
+  },
+  {
+    "asset": "exhaust",
+    "source": "C:\\Users\\maxfa\\Desktop\\Wahoo\\Photos\\Photos\\24.jpg",
+    "sha256": "7aa5387123e538493c013b9c1c031c39cc4f8f9e30321e75b1bdde8dd530c591",
+    "original_dimensions": [
+      6016,
+      4000
+    ]
+  },
+  {
+    "asset": "pistons",
+    "source": "C:\\Users\\maxfa\\Desktop\\Wahoo\\Photos\\Photos\\09.jpg",
+    "sha256": "cab9accae8b7c969c2c7d3d74c32c4b92af038270fa2f875f31e6d31b468537d",
+    "original_dimensions": [
+      6016,
+      4000
+    ]
+  },
+  {
+    "asset": "concepts",
+    "source": "C:\\Users\\maxfa\\Desktop\\Wahoo\\Photos\\Photos\\12.jpg",
+    "sha256": "b49e7c18b19fe9c51eda0777fe97c16a42edc5d0d41f51f8d8e51338875079e2",
+    "original_dimensions": [
+      6240,
+      4160
+    ]
+  },
+  {
+    "asset": "launch",
+    "source": "C:\\Users\\maxfa\\Desktop\\Wahoo\\Photos\\Photos\\22.jpg",
+    "sha256": "79abd4e3769d2dd11ed90141c56e4c772acf90aece45719386ce55d6bb03e725",
+    "original_dimensions": [
+      6016,
+      4000
+    ]
+  },
+  {
+    "asset": "wake",
+    "source": "C:\\Users\\maxfa\\Desktop\\Wahoo\\Photos\\Photos\\18.jpg",
+    "sha256": "f3c2914bc794e588191b19da7d1e2bbbce16d982e996e09518b70a54284e1392",
+    "original_dimensions": [
+      6016,
+      4000
+    ]
+  },
+  {
+    "asset": "engine",
+    "source": "C:\\Users\\maxfa\\Desktop\\Wahoo\\Photos\\Photos\\03.jpg",
+    "sha256": "ddb9ee2b24d3c46ebb26f7797d20a5970677830e04c269c334537e8b094954e6",
+    "original_dimensions": [
+      6016,
+      4000
+    ]
+  },
+  {
+    "asset": "racing",
+    "source": "C:\\Users\\maxfa\\Desktop\\Wahoo\\Photos\\Photos\\32.jpg",
+    "sha256": "3012a0852bfd6ff87fcdf690cfb801f3e260d964e95a89c8c6519e65ed0d9296",
+    "original_dimensions": [
+      6016,
+      4000
+    ]
+  }
+]
