@@ -5,6 +5,7 @@ export const sections = [
   ['/journal/', 'Journal', 'What did we investigate?'],
   ['/history/', 'History', 'How did we get here?'],
   ['/roadmap/', 'Roadmap', 'What comes next?'],
+  ['/investors/', 'Invest in Wahoo', 'Help fund the next prototype.'],
   ['/back/', 'Back Wahoo', 'Start a conversation with the team.'],
 ];
 export const readingGroups = [
@@ -25,5 +26,5 @@ export function readingSequence(updates) {
   return readingGroups.flatMap(([, slugs]) => slugs.map(slug => updates.find(u => u.slug === slug)).filter(Boolean));
 }
 export function withoutSectionLinks(html) {
-  return html.replace(/<a\b[^>]*href="\/(?:journal|systems|history|explore|roadmap|back)\/[^\"]*"[^>]*>[\s\S]*?<\/a>/g, '');
+  return html.replace(/<a\b[^>]*href="\/(?:journal|systems|history|explore|roadmap|investors|back)\/[^\"]*"[^>]*>[\s\S]*?<\/a>/g, '');
 }
