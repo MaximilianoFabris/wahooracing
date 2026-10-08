@@ -14,7 +14,7 @@ import path from 'node:path';
 import {fileURLToPath} from 'node:url';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..');
 const site=JSON.parse(await readFile(path.join(root,'content/site.json'),'utf8'));
-const allUpdates=[...JSON.parse(await readFile(path.join(root,'content/electronics-studies.json'),'utf8')),JSON.parse(await readFile(path.join(root,'content/cfd20-completion.json'),'utf8')),...JSON.parse(await readFile(path.join(root,'content/geometry-studies.json'),'utf8')),...JSON.parse(await readFile(path.join(root,'content/engineering-studies.json'),'utf8')),...JSON.parse(await readFile(path.join(root,'content/updates.json'),'utf8'))];
+const allUpdates=[JSON.parse(await readFile(path.join(root,'content/cfd002-turning-points.json'),'utf8')),...JSON.parse(await readFile(path.join(root,'content/electronics-studies.json'),'utf8')),JSON.parse(await readFile(path.join(root,'content/cfd20-completion.json'),'utf8')),...JSON.parse(await readFile(path.join(root,'content/geometry-studies.json'),'utf8')),...JSON.parse(await readFile(path.join(root,'content/engineering-studies.json'),'utf8')),...JSON.parse(await readFile(path.join(root,'content/updates.json'),'utf8'))];
 allUpdates.sort((a,b)=>(b.date||'').localeCompare(a.date||''));
 const updates=allUpdates.filter(u=>u.status==='published');
 for(const u of updates)u.title=descriptiveTitles[u.slug]??u.title;

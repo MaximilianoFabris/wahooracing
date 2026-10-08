@@ -1,0 +1,54 @@
+{
+  "slug": "cfd002-first-motion-reversals",
+  "title": "CFD-002: the first motion reversals.",
+  "summary": "The moving-hull calculation records its first pitch maximum and the end of its initial rise. A preliminary milestone in understanding the transient response—not a final stability result.",
+  "date": "2026-10-08",
+  "dateLabel": "08 Oct 2026 · snapshot at 17:18:56 UTC",
+  "revision": "H0-CFD-002 / Resume_03 / INTERIM",
+  "type": "Simulation",
+  "evidence": "Preliminary simulated motion · run incomplete",
+  "status": "published",
+  "systems": [
+    "hull-hydrodynamics"
+  ],
+  "hero": "engineering/cfd002-first-reversals.svg",
+  "heroAlt": "Saved heave and pitch histories show an initial heave minimum, then a pitch maximum of 10.738 degrees and heave maximum of 87.747 millimetres, followed by the start of return motion.",
+  "heroCaption": "9,305 accepted saved motion samples through tau = 0.442544 s. No smoothing. Gold markers identify interpolated velocity-zero crossings; connecting lines join saved samples. Heave is relative to release; pitch is the absolute bow-up attitude.",
+  "sections": [
+    {
+      "title": "A measurable change of direction",
+      "text": "The first pitch maximum occurred at an estimated tau of 0.344910 s, at approximately 10.738° bow-up. The hull then began rotating bow-down while still rising. At an estimated tau of 0.438109 s, heave reached approximately +87.747 mm relative to the release position and vertical velocity changed from upward to downward. Pitch at that heave maximum was approximately 10.489° bow-up."
+    },
+    {
+      "title": "What the curves establish",
+      "text": "The response is no longer simply increasing in height and bow-up angle: both motions have reached a local maximum and begun to return. Before the rise, an initial heave minimum of approximately −3.239 mm occurred at tau ≈ 0.069617 s. The excursion from that initial minimum to the following maximum is approximately 90.986 mm. This is one observed excursion, not an established periodic amplitude or a damping measurement."
+    },
+    {
+      "title": "Read the time and reference correctly",
+      "text": "Tau measures simulated time since motion was released from the saved CFD-001 fluid state at solver time 1.579983709 s. It is not elapsed computing time. The graph ends at tau = 0.442544 s, approximately 46.6% of the configured 0.95 s post-release interval. The initial absolute pitch is approximately 0.411°; the graph does not treat that initial attitude as zero."
+    },
+    {
+      "title": "How the turning points were identified",
+      "text": "The monitoring record confirms five consecutive saved samples of each velocity sign around each crossing. Event times are linearly interpolated estimates within saved-step brackets. The pitch maximum is bracketed by tau = 0.344901964–0.344935324 s; the heave maximum by tau = 0.438074959–0.438134851 s. All plotted points come from accepted continuation segments, excluding the abandoned branch beyond its accepted interval."
+    },
+    {
+      "title": "Return motion is not yet equilibrium",
+      "text": "At the snapshot endpoint, heave was approximately +87.726 mm and pitch 10.465° bow-up. Vertical velocity was −0.00968 m/s and pitch rate approximately −5.465°/s: the hull was descending and rotating bow-down. The monitor classification remains “STILL TOO EARLY TO CLASSIFY.” The next heave minimum and pitch minimum, followed by further corresponding maxima, are needed to compare successive excursions. Damped motion, persistent oscillation and growing porpoising are not yet distinguished."
+    },
+    {
+      "title": "Keep the model assumptions visible",
+      "text": "This is the constrained heave-and-pitch study described in the <a href=\"/journal/cfd002-moving-hull-methodology/\">CFD-002 methodology record</a>, continuing the 20 km/h boundary-speed baseline. The other four rigid-body motions remain constrained. The dry-board mass and inertia are provisional model inputs, not a rider-loaded physical test. These results do not establish final running trim, stable planing, mesh independence, resistance improvement or validated product performance."
+    },
+    {
+      "title": "The next evidence",
+      "text": "The next review will compare confirmed minima and maxima, their time spacing, forces and moments, and numerical diagnostics over a longer record. A single turning point cannot establish a period or a settling trend. This article preserves the dated interim observation; later findings will be published as a follow-up rather than silently replacing this snapshot."
+    }
+  ],
+  "sources": [
+    "Resume_03 / Turning_Point_Status.json — sample UTC 2026-10-08T17:18:56.539947+00:00",
+    "Accepted motionHistory / sixDoFRigidBodyState.dat segments: 1.579983709, 1.629983709, 1.707215799, 1.7086261725",
+    "Website snapshot provenance: source byte counts, SHA-256 hashes, accepted time bounds and 9,305 retained samples",
+    "H0-CFD-002 moving-hull methodology and Resume_03 restart provenance"
+  ],
+  "changes": "Adds an explicitly preliminary motion result following the methodology article. Only saved text histories were read for this publication. No solver, monitoring configuration, mesh, physics, mass properties or CAD was changed. No new flow-field rendering was generated."
+}
