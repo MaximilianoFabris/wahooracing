@@ -8,8 +8,6 @@ export const headerNavigation = [
   ['/#ch-06', 'Community'],
   ['/history/', 'Our Story'],
   ['/investors/', 'Invest in Wahoo'],
-  ['/back/#partners', 'Technical Partnerships'],
-  ['/back/#community', 'Crowdfunding'],
 ];
 export const sections = [
   ['/explore/', 'The board', 'See the current hull and earlier concept.'],
