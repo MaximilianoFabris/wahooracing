@@ -103,3 +103,7 @@ body{padding-top:var(--header-height)}
 .ownership-opening .ownership-statement{margin:0;display:flex;flex-direction:column;font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:var(--ownership-size);line-height:.84;letter-spacing:.005em;text-transform:uppercase;color:var(--text);animation:brand-rise 1.2s .6s cubic-bezier(.2,.7,.2,1) both}
 .ownership-opening .ownership-period{color:#749dc4}
 @media(max-width:520px){.ownership-opening{--ownership-size:clamp(68px,20vw,104px)}.ownership-opening .brand-stage{flex-wrap:nowrap;align-items:center;gap:clamp(24px,7vw,36px)}}
+
+/* Supplied WAHOO name, rendered in the site blue without altering its shape. */
+.claude-header .brand .header-wordmark{display:block;width:140px;height:20px;background:#769fc2;mask:url('/assets/brand/wahoo-header-wordmark.png') center/contain no-repeat;-webkit-mask:url('/assets/brand/wahoo-header-wordmark.png') center/contain no-repeat;}
+
