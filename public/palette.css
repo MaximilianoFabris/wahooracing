@@ -1,0 +1,17 @@
+/* One shared palette for every page; light mode remains a saved user choice. */
+:root,html[data-theme=night]{--bg:#10171f;--text:#f2f2f3;--muted:#b6c0ca;--blue:#94bce3;--accent:var(--blue);--line:#33404c;--brand-blue:#769fc2;--surface-blue:#1d2d3d;--surface-text:#f2f2f3;--surface-muted:#c3cdd6;--surface-accent:#b5d9fd;--surface-line:#536675;color-scheme:dark}
+html[data-theme=day]{--bg:#f2f2f3;--text:#1d1f20;--muted:#535b63;--blue:#416180;--accent:var(--blue);--line:#cdd1d5;color-scheme:light}
+.landing-story,html[data-theme=day] .landing-story{--accent:var(--blue)}
+.landing-pillars,.board-panel,.home-support{background:var(--surface-blue);color:var(--surface-text);--text:var(--surface-text);--muted:var(--surface-muted);--blue:var(--surface-accent);--accent:var(--surface-accent);--line:var(--surface-line)}
+html[data-theme=day] .board-panel,html[data-theme=night] .board-panel{--text:var(--surface-text);--muted:var(--surface-muted);--blue:var(--surface-accent);--line:var(--surface-line)}
+.claude-header .brand .header-wordmark,.claude-header nav>.nav-support{background:var(--brand-blue)}
+.claude-header nav>.nav-support:hover{background:var(--blue)}
+.ownership-opening .ownership-period,.brand-axis{color:var(--brand-blue)}
+.brand-bracket,.brand-bracket.left,.brand-bracket.right{border-color:var(--brand-blue)}
+.claude-board-intro p{color:var(--muted)}
+.claude-board-intro>a,.claude-all-systems a,.claude-system-top .system-icon,.claude-system-list a:hover{color:var(--blue)}
+.claude-system-list>li{border-color:var(--line)}
+.claude-system-list a{color:var(--text)}
+.claude-system-list .claude-all-systems{border-color:var(--blue)}
+.claude-system-top>span{color:var(--muted)}
+.claude-system-list a:focus-visible,.claude-board-intro>a:focus-visible{outline-color:var(--blue)}
