@@ -11,4 +11,4 @@ ${landingStory}
 
 <section class="section wrap"><div class="heading-row"><div><p class="eyebrow">04 / THE JOURNAL</p><h2>The work,<br>in the open.</h2></div>${link('/journal/','All '+updates.length+' investigations')}</div></section>
 
-<section class="home-support"><div class="wrap section"><p class="eyebrow">05 / BACK WAHOO</p><h2>Build the next<br><em>chapter with us.</em></h2><div class="support-routes">${[['investors','Investment conversations'],['partners','Technical partnerships'],['community','Follow the work']].map(([id,title])=>`<a href="/back/#${id}">${title}<span>↗</span></a>`).join('')}</div><p>No investment offering, crowdfunding campaign or payment collection is open on this site.</p></div></section>`;}
+`;}
