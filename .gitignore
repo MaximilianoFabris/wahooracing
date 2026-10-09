@@ -6,3 +6,5 @@ node_modules/
 !.env.example
 provenance/cfd002-turning-points/
 .plot-deps/
+
+provenance/cfd002-return-motion/
