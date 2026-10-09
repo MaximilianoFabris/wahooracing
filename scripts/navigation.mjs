@@ -1,4 +1,14 @@
 // Shared records have one source, with a reading route inside their parent section.
+export const headerNavigation = [
+  ['/explore/', 'The Board'],
+  ['/systems/', 'Engineering'],
+  ['/roadmap/', 'Road Map'],
+  ['/journal/', 'Journal'],
+  ['/#ch-04', 'You Own It'],
+  ['/#ch-06', 'Community'],
+  ['/history/', 'Our Story'],
+  ['/investors/', 'Invest in Wahoo'],
+];
 export const sections = [
   ['/explore/', 'The board', 'See the current hull and earlier concept.'],
   ['/systems/', 'Systems', 'Which part of the board?'],

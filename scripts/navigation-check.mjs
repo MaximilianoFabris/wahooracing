@@ -1,5 +1,5 @@
 import {readFile} from 'node:fs/promises';
-import {sections,readingGroups} from './navigation.mjs';
+import {headerNavigation,sections,readingGroups} from './navigation.mjs';
 const root=new URL('../dist/',import.meta.url);
 const pages=JSON.parse(await readFile(new URL('build-manifest.json',root)));
 if(pages.some(p=>p.includes('/studies/')))throw Error('Duplicate study pages returned');
@@ -25,7 +25,7 @@ for(const file of pages){
     const target=sections.find(([prefix])=>href.startsWith(prefix));
     if(target&&target[0]!==section[0]&&!(section[0]==='/systems/'&&/^\/journal\/[^/]+\/\?from=/.test(href)))throw Error(`Cross-section link: ${route} → ${href}`);
   }
-  for(const [href] of sections.filter(([url])=>url!=='/back/'))if(!html.split('</header>')[0].includes(`href="${href}"`))throw Error('Missing global navigation: '+route);
+  for(const [href] of headerNavigation)if(!html.split('</header>')[0].includes(`href="${href}"`))throw Error('Missing global navigation: '+route);
   if(!html.includes('Home · choose a section'))throw Error('Missing Home exit: '+route);
   checked++;
 }
