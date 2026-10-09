@@ -3,7 +3,7 @@ import {landingStory} from './landing-story.mjs';
 import {systemIcon} from './system-icons.mjs';
 // Claude Design composition, rendered by the existing static content pipeline.
 export function brand(tone='white',word=false){return `<img src="/assets/brand/wahoo-${word?'name-':''}${tone}.png" alt="Wahoo" width="${word?2798:1732}" height="${word?400:2798}">`;}
-export function home({site,updates,sections,img,link,card,chart,flow,sectionFigures}){return `
+export function home({site,updates,sections,img,link,card,chart,flow,sectionFigures,journalThumbnail}){return `
 <section class="brand-opening ownership-opening" aria-label="Wahoo Racing"><div class="brand-stage"><div class="brand-frame"><span class="brand-glow" aria-hidden="true"></span><img src="/assets/brand/wahoo-symbol-white.png" alt="Wahoo" width="1303" height="1958"></div><p class="ownership-statement"><span>You</span><span>Own</span><span>It<span class="ownership-period">.</span></span></p></div><a class="brand-scroll" href="#intro" aria-label="Scroll to start">Scroll<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 5v14M6 13l6 6 6-6"/></svg></a></section>
 ${landingStory}
 
@@ -11,6 +11,6 @@ ${landingStory}
 
 
 ${landingTimeline(sectionFigures)}
-<section class="section wrap"><div class="heading-row"><div><p class="eyebrow">THE JOURNAL</p><h2>The work,<br>in the open.</h2></div>${link('/journal/','All '+updates.length+' investigations')}</div></section>
+<section class="section wrap landing-journal" id="journal"><div class="landing-journal-heading"><p class="eyebrow">THE JOURNAL</p><h2>The work,<br>in the open.</h2></div><div class="journal-carousel" role="region" aria-label="Published investigations"><div class="carousel-top"><a class="text-link" href="/journal/">${updates.length} published investigations <span aria-hidden="true">↗</span></a><div class="carousel-controls"><button type="button" data-carousel-prev aria-label="Previous investigations" aria-controls="journal-carousel-track">←</button><button type="button" data-carousel-next aria-label="Next investigations" aria-controls="journal-carousel-track">→</button></div></div><ol class="carousel-track" id="journal-carousel-track" tabindex="0" aria-label="Scroll through all published investigations">${updates.map(u=>`<li><a href="/journal/${u.slug}/"><div class="carousel-thumbnail">${journalThumbnail(u)}</div><h3>${u.title.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}</h3></a></li>`).join('')}</ol></div></section>
 
 `;}

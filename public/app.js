@@ -114,3 +114,13 @@ document.querySelectorAll('[data-flow]').forEach(button=>button.addEventListener
  section.querySelector('.flow-description').textContent=descriptions[button.dataset.flow];
 }));
 
+document.querySelectorAll('.journal-carousel').forEach(carousel=>{
+ const track=carousel.querySelector('.carousel-track');
+ const previous=carousel.querySelector('[data-carousel-prev]');
+ const next=carousel.querySelector('[data-carousel-next]');
+ const update=()=>{previous.disabled=track.scrollLeft<=5;next.disabled=track.scrollLeft+track.clientWidth>=track.scrollWidth-5;};
+ const move=direction=>{const step=track.children[1].offsetLeft-track.children[0].offsetLeft;track.scrollBy({left:direction*Math.max(1,Math.floor(track.clientWidth/step))*step,behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'instant':'smooth'});};
+ previous.addEventListener('click',()=>move(-1));next.addEventListener('click',()=>move(1));
+ track.addEventListener('scroll',update,{passive:true});
+ new ResizeObserver(update).observe(track);update();
+});
