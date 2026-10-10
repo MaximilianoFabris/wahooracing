@@ -1,0 +1,147 @@
+{
+  "slug": "engine-exhaust-layout-direction",
+  "title": "A clearer route through the hull.",
+  "summary": "The first engine assembly led to a selected cylinder-side exhaust route straight aft. The comparison records the component layout, compact-packaging goals and service-access checks still to complete.",
+  "date": "2026-10-10",
+  "dateLabel": "10 Oct 2026 · layout decision and packaging review",
+  "revision": "WHE-CAD-001 / Rev01 → Rev03 / EXH-001",
+  "type": "Engineering study",
+  "evidence": "Selected packaging direction · fit and tuning pending",
+  "status": "published",
+  "systems": [
+    "engine",
+    "exhaust",
+    "manufacturing"
+  ],
+  "hero": "engineering/engine-layout-rev01.png",
+  "heroAlt": "Initial Rev01 rough engine assembly showing the exhaust looping forward around the engine, with isometric, top and hull-side views.",
+  "heroCaption": "Earlier route — WHE-CAD-001 Rev01. Original packaging preview; coloured parts are provisional envelopes, not detailed supplier CAD. Top view has bow up; the side view shows parts through the hull.",
+  "sections": [
+    {
+      "title": "Start with the complete installed system",
+      "text": "The <a href=\"/journal/engine-first-moving-model/\">first motion model</a> established the mechanical relationships. The next question is how the engine, intake, starter, drive coupling and exhaust occupy the hull together. The rough Rhino assembly makes those space claims visible while exact purchased-part interfaces remain under verification. This is a packaging decision record, not a finished engine or a clearance approval."
+    },
+    {
+      "title": "The first route: a loop around the engine",
+      "text": "Rev01 routed the exhaust forward around the engine before continuing aft. It provided a first space claim for the expansion volume and silencer, but also placed more exhaust envelope around the central assembly. Its segments are coarse, overlapping placeholders rather than a continuous manufactured pipe. The earlier model is retained so the change of direction remains visible."
+    },
+    {
+      "title": "The selected route: cylinder side directly to the stern",
+      "text": "Following the founder’s 10 October routing sketch, Rev03 removes the forward loop and sends the exhaust aft from the cylinder side toward a stern outlet. This is the second routing option and the current selected direction. The pipe diameters, effective length, expansion profile, silencer and outlet height remain provisional; “selected” describes the route, not a final validated exhaust."
+    },
+    {
+      "title": "Why compact packaging favours this direction",
+      "text": "The direct aft corridor avoids reserving forward-loop space around the engine. Our intent is to keep the central installation easier to arrange around the tank, battery, intake, starter and coupling. This is a qualitative packaging rationale: the study has not demonstrated a smaller complete installed volume, lower mass or higher power. A two-stroke exhaust must still provide the required acoustic length and expansion geometry; simply shortening a route is not a tuning method."
+    },
+    {
+      "title": "Compact must also mean accessible",
+      "text": "The route is being developed to leave a practical approach to the engine through the hatch. We need room for plug and boot removal, starter servicing, head removal, fuel connections, coupling fasteners and extraction of the complete assembly. Fewer exhaust envelopes wrapped around the engine may help define those paths, but accessibility must be checked with the actual hatch and tools. A component fitting inside the outer hull does not establish that it can be installed, serviced or removed."
+    },
+    {
+      "title": "What is in the first assembly",
+      "text": "The register below separates component groups and their evidence status. The downloadable Rev03 CSV lists every generated component, its layer and its nominal or assumed dimensions in millimetres. Off-the-shelf part identities remain in the <a href=\"/journal/engine-first-moving-model/#section-4\">component-selection record</a>. CAD proxy dimensions must not be treated as supplier dimensions or procurement specifications.",
+      "table": {
+        "caption": "First engine and exhaust layout · component groups and status",
+        "headers": [
+          "Group",
+          "Components / space claims",
+          "Evidence and open interfaces"
+        ],
+        "rows": [
+          [
+            "Core engine",
+            "Crankcase, mounting neck, cylinder jacket, head and plug/boot space",
+            "Assumed packaging envelopes; actual housings and service clearances unresolved"
+          ],
+          [
+            "Moving parts",
+            "8160DA piston, WP032 pin, P2018-family rod and eye envelopes",
+            "Report dimensions and working centre distance mixed with explicit proxy geometry"
+          ],
+          [
+            "Crank and bearings",
+            "CS2018 web/shaft/crankpin proxies and main-bearing envelopes",
+            "Crank throw calculated; web, shaft and bearing outlines assumed; bearing reference conflict unresolved"
+          ],
+          [
+            "Intake",
+            "Reed cage, throttle body and air-inlet elbow",
+            "Assumed size and placement; intake pressure loss and water separation unverified"
+          ],
+          [
+            "EFI",
+            "Injector location option; pump, filter and regulator",
+            "Injection arrangement open; pump/filter/regulator explicitly UNPLACED"
+          ],
+          [
+            "Starting",
+            "Flywheel, brushless starter, reduction/freewheel enclosure",
+            "Space claims; selected hardware and interfaces not verified"
+          ],
+          [
+            "Drive and mounting",
+            "Pump coupling, two rails and four isolators",
+            "Assumed envelopes; centre-plane alignment selected, shaft height and mount fit unresolved"
+          ],
+          [
+            "Exhaust",
+            "Segmented expansion volume, aft outlet and silencer",
+            "Routing selected; dimensions, joints, internal flow path, tuning and water protection provisional"
+          ],
+          [
+            "Service allowances",
+            "Spark-plug and starter removal spaces",
+            "Assumed inspection aids; no approved removal clearance"
+          ],
+          [
+            "Other installed systems",
+            "Fuel tank, battery, pump and hull reference",
+            "Existing reference objects support packaging review; hoses, wiring, cooling circuits and final hatch geometry are not established by this model"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Alignment and clearance remain separate checks",
+      "text": "The pump and crankshaft alignment direction is the hull centre plane, with zero lateral shaft offset recorded in the routing study. Shaft height remains provisional. The preceding fit review reported mount isolators protruding below the outer hull, a silencer protrusion, an intake/exhaust overlap and a possible tank conflict. Rev03 changes the exhaust route but does not establish that all those issues are resolved. Inner-hull surfaces, laminate thickness, mount design and hatch geometry still need review."
+    },
+    {
+      "title": "Thermal space, tuning and water protection",
+      "text": "A workable corridor needs separation from fuel components, intake, wiring and hoses, plus allowance for heat, vibration and hull movement. Outlet height, drainage and water-ingress protection must be developed as part of the installed system. Port timing and exhaust pressure-wave behaviour must be assessed together with gas temperature, effective acoustic length and engine load. None of these checks can be replaced by the rough routing picture."
+    },
+    {
+      "title": "Preserve the decision and test the next revision",
+      "text": "Decision EXH-001 records the selected direct aft route, the compact-packaging and service-access intent, and unresolved checks. The next revision should verify inner-hull and hatch clearances, removal paths, mount positioning and thermal gaps, then replace envelopes with measured component geometry. Later gas-dynamics, bench and installed-hull tests will establish whether the design meets its functional requirements. Earlier layouts remain in the record."
+    }
+  ],
+  "galleryTitle": "The selected second route · Rev03",
+  "gallery": [
+    {
+      "image": "engineering/exhaust-route-rev03.png",
+      "caption": "Selected direction: cylinder-side exhaust directly aft to the stern. This original plan preview has bow to the right and shows parts through the hull; it is not a clearance or tuning result."
+    },
+    {
+      "image": "engineering/engine-layout-rev03.png",
+      "caption": "Rev03 assembly context. Original source preview of provisional component envelopes. Service space, exhaust function and remaining interferences still need validation."
+    }
+  ],
+  "downloadsTitle": "Keep the component and routing records",
+  "downloadsIntro": "These dated records preserve the selected route and all generated component envelopes with their evidence labels. They do not release machining or procurement dimensions.",
+  "downloads": [
+    {
+      "file": "engineering/engine-layout-components-rev03.csv",
+      "label": "Rev03 component and envelope register · millimetres · CSV"
+    },
+    {
+      "file": "engineering/exhaust-routing-decision-rev03.json",
+      "label": "EXH-001 routing decision, rationale and open checks · JSON"
+    }
+  ],
+  "sources": [
+    "WHE-CAD-001 Rev01 · START_HERE.txt, COMPONENT_REGISTER.csv and ASSEMBLY_PREVIEW.png · 10 October 2026",
+    "WHE-CAD-001 Rev03 · ROUTING_DECISION.json, COMPONENT_REGISTER.csv, ROUTING_PREVIEW.png and ASSEMBLY_PREVIEW.png · 10 October 2026",
+    "Founder routing sketch and centre-plane alignment instruction · Engine System Design · 10 October 2026",
+    "WHE-CAD-001 fit review Rev02 · reported rough-envelope protrusions and overlaps; no native CAD or raw fit data published"
+  ],
+  "changes": "Adds a dated comparison of the first and selected second exhaust routes. Compactness and service access are stated as design intent, not measured gains. Source previews and qualified component data are copied without changing original geometry. Earlier studies and source layouts are retained."
+}

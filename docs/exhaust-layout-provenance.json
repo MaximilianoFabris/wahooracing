@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-10",
+  "method": "Exact copies of source preview images and the explicitly qualified component CSV; original engineering files unchanged. No native CAD, build scripts, private paths or raw fit-check data are published.",
+  "files": [
+    {
+      "file": "engine-layout-rev01.png",
+      "source_revision": "WHE-CAD-001_Rev01_20261010",
+      "sha256": "01a0d3c58e684f5baa31bef69b81e3b28a404299b1bf3c7c0f96df56781b9e74",
+      "bytes": 106737
+    },
+    {
+      "file": "exhaust-route-rev03.png",
+      "source_revision": "WHE-CAD-001_Rev03_20261010",
+      "sha256": "76061a8ae8124ef8d4cfe9d33fa7bd09651e33e33f3c29da2c4976d0eaa583cc",
+      "bytes": 67468
+    },
+    {
+      "file": "engine-layout-rev03.png",
+      "source_revision": "WHE-CAD-001_Rev03_20261010",
+      "sha256": "15f7ff09fcc8426f5e9f98195cd8858d9f4c0ef366559d1d3591106ed105432f",
+      "bytes": 107875
+    },
+    {
+      "file": "engine-layout-components-rev03.csv",
+      "source_revision": "WHE-CAD-001_Rev03_20261010",
+      "sha256": "81c3be2ca8756cff4cfc0f357266f1033f59493ced1f491d1ed6e29b980b8e99",
+      "bytes": 7324
+    }
+  ]
+}

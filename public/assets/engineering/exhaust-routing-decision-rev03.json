@@ -1,0 +1,24 @@
+{
+  "id": "EXH-001",
+  "recorded_date": "2026-10-10",
+  "revision": "WHE-CAD-001 Rev03 / Journal edition 01",
+  "earlier_direction": "Rev01: forward loop around the engine before routing aft",
+  "selected_direction": "Rev03: direct aft route from cylinder side to stern; forward loop removed",
+  "authority": "User routing sketch and project instruction, 10 October 2026",
+  "selection_rationale": [
+    "Compact packaging is the project goal; eliminating the forward loop avoids allocating that part of the engine bay to the exhaust.",
+    "A cylinder-side-to-stern corridor is intended to reduce obstruction around the central assembly and help plan hatch access, tools and component removal.",
+    "Develop the installed system around a pump/crankshaft axis on the hull centre plane; shaft height and coupling details remain provisional."
+  ],
+  "evidence_status": "Selected routing direction, not a manufacturing release, tuned exhaust or verified installed clearance",
+  "open_checks": [
+    "Usable inner hull, laminate thickness and hatch underside",
+    "Mount protrusions and remaining interference",
+    "Plug, starter, head and full engine removal envelopes",
+    "Thermal shielding and separation from fuel, intake, wiring and hoses",
+    "Port timing, expansion geometry, gas temperature, effective acoustic length, silencer and pressure-wave model",
+    "Outlet height, drainage and water-ingress protection",
+    "Bench, dynamometer and installed-hull validation"
+  ],
+  "change_policy": "Retain Rev01 and Rev03; later changes receive dated revisions and reasons. No demonstrated power, mass, drag or endurance improvement is claimed."
+}
