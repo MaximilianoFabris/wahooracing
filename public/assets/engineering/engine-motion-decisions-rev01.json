@@ -1,0 +1,140 @@
+{
+  "revision": "WHE-KIN-001 Rev01",
+  "date": "2026-10-10",
+  "stage": "Nominal rigid-body kinematics; not a running combustion simulation or manufacturing release",
+  "source": "WAHOO_125cc_Engine_Development_Rev01.docx · 04 October 2026",
+  "source_date": "2026-10-04",
+  "architecture": "Horizontal single-cylinder two-stroke; crank axis aligned to jet pump; EFI required",
+  "parts": {
+    "piston": {
+      "reference": "Wossner 8160DA",
+      "status": "Selected project baseline; one ring"
+    },
+    "crankshaft": {
+      "reference": "Wossner CS2018",
+      "status": "Selected complete assembly including rod; dimensional interfaces unverified"
+    },
+    "rod": {
+      "reference": "P2018 family",
+      "status": "Included with complete crank; not an additional installed purchase"
+    },
+    "pin": {
+      "reference": "WP032",
+      "status": "Report catalogue reference; OD 15, ID 10, length 45 mm"
+    },
+    "ring": {
+      "reference": "RSB5400",
+      "status": "Report kit reference"
+    },
+    "clips": {
+      "reference": "CW15",
+      "status": "Two fitted; confirm supplied quantity"
+    },
+    "small_end_bearing": {
+      "reference": "N1047",
+      "status": "Report reference; 15 x 19 x 17.3 mm, confirm package inclusion"
+    }
+  },
+  "inputs": {
+    "bore_mm": {
+      "value": 54.0,
+      "status": "Selected nominal bore; not a machining dimension"
+    },
+    "stroke_mm": {
+      "value": 54.5,
+      "status": "Selected baseline; verify delivered assembly"
+    },
+    "rod_centres_mm": {
+      "value": 102.0,
+      "status": "Working reference; verify supplier drawing or sample"
+    },
+    "compression_height_mm": {
+      "value": 28.0,
+      "status": "Catalogue reference; actual crown datum unresolved"
+    },
+    "reference_rpm": {
+      "value": 12000,
+      "status": "Design reference, not an approved operating limit"
+    }
+  },
+  "conventions": {
+    "angle": "Degrees after TDC; 0 and 360 TDC, 180 BDC",
+    "displacement": "Positive from TDC toward crankshaft",
+    "velocity_acceleration": "Positive toward crankshaft; negative toward cylinder head",
+    "crown_reach": "Crank axis to assumed crown datum, not deck height or overall engine width"
+  },
+  "assumptions": [
+    "Rigid bodies",
+    "Zero cylinder-axis offset",
+    "Constant angular speed",
+    "No bearing clearance, deformation or thermal growth",
+    "Schematic shapes; no inferred crown, skirt or crank-web geometry"
+  ],
+  "open_inputs": [
+    "8160DA drawing 39004 revision, full profile, compression-height datum, crown volume, pin bosses and ring locating pins",
+    "CS2018 stroke, rod centre distance, crank-web envelope, journals, shoulders, shaft ends, runout and rotation",
+    "Resolve MB6322SH2-9TC4 versus MB6322C4 bearing references before crankcase design",
+    "Measured component masses and rod mass distribution",
+    "Cylinder deck, port map, crankcase volume, head geometry and hot running clearances",
+    "Fuel specification, injection location, lubrication and cooling architecture",
+    "Target torque band, jet-pump load map and pressure versus crank angle",
+    "Exhaust geometry, gas temperatures, boundary conditions and validation data"
+  ],
+  "journal_revision": "Website edition 01 · 10 October 2026",
+  "evidence_policy": "Selected is a project direction; catalogue references need exact-part verification. Calculated results use nominal inputs. No manufacturing release or tested performance.",
+  "verification": {
+    "status": "PASS",
+    "checks": [
+      "TDC/BDC endpoints",
+      "rod-length closure through cycle",
+      "360-degree periodicity",
+      "analytic derivatives against finite differences",
+      "RPM scaling",
+      "zero RPM",
+      "invalid-input rejection",
+      "full-cycle travel"
+    ],
+    "max_velocity_derivative_error_m_s": 1.2210546884716678e-07,
+    "max_acceleration_derivative_error_m_s2": 0.00022780246945330873,
+    "max_rod_closure_error_mm": 2.842170943040401e-14,
+    "displacement_cc": 124.81704692344927,
+    "mean_piston_speed_m_s": 21.8,
+    "peak_abs_velocity_m_s_sampled_0_1_deg": 35.44963604496496,
+    "acceleration_tdc_m_s2": 54527.62909946947,
+    "acceleration_bdc_m_s2": -31535.321278029736,
+    "scope": "Numerical implementation checks only; physical inputs and engine performance remain unvalidated",
+    "source_sha256": "ccd7017bcdd3c2709cea2e1cc357bed1be53da94e576ea1403744b598d101d70"
+  },
+  "decisions": [
+    {
+      "id": "ENG-001",
+      "date": "2026-10-04",
+      "decision": "Retain nominal 54.00 × 54.50 mm Option A",
+      "status": "Selected baseline; exact delivered stroke and machining dimensions unverified"
+    },
+    {
+      "id": "ENG-002",
+      "date": "2026-10-04",
+      "decision": "Use 8160DA single-ring piston and CS2018 complete crankshaft with included rod",
+      "status": "Selected sourcing route; no purchase or supplier integration approval established"
+    },
+    {
+      "id": "ENG-003",
+      "date": "2026-10-04",
+      "decision": "Use horizontal cylinder, crankshaft aligned with jet pump, and EFI requirement",
+      "status": "Project architecture; installed package and injection location unresolved"
+    },
+    {
+      "id": "ENG-004",
+      "date": "2026-10-10",
+      "decision": "Start virtual development with a rigid, zero-offset slider-crank model",
+      "status": "Numerical and interaction checks pass; physical input verification pending"
+    },
+    {
+      "id": "ENG-005",
+      "date": "2026-10-10",
+      "decision": "Verify purchased-part interfaces before designing ports, head and crankcase; develop port map and exhaust together",
+      "status": "Next engineering sequence; exhaust tuning and gas dynamics not yet modelled"
+    }
+  ]
+}

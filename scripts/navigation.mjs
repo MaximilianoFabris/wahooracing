@@ -22,7 +22,7 @@ export const readingGroups = [
   ['Geometry & reference', ['reference-system', 'surface-investigation', 'reading-the-hull-surface', 'arc-length-analysis', 'geometry-conversion-validation', 'tail-section-investigation', 'hull-feature-review']],
   ['Balance & construction', ['mass-and-centre-of-gravity', 'level-attitude-displacement', 'dry-board-flotation-and-trim', 'fuel-tank-balance', 'hull-materials-and-construction']],
   ['Flow simulation', ['first-corrected-cfd-run', '20kmh-completed-analysis', 'cfd002-moving-hull-methodology', 'cfd002-first-motion-reversals', 'cfd002-return-motion']],
-  ['Engine & integration', ['engine-as-a-system', 'engine-component-baseline', 'engine-motion-and-ports', 'engine-integrated-systems', 'nozzle-area-study', 'battery-and-starting']],
+  ['Engine & integration', ['engine-as-a-system', 'engine-component-baseline', 'engine-motion-and-ports', 'engine-first-moving-model', 'engine-integrated-systems', 'nozzle-area-study', 'battery-and-starting']],
   ['Electronics & control', ['electronics-control-architecture', 'electronics-engine-management', 'electronics-vehicle-control', 'electronics-electrical-integration', 'electronics-validation']],
   ['Origins & development brief', ['early-design-archive', 'rider-interface-archive', 'from-brief-to-test']],
 ];

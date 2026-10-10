@@ -1,0 +1,16 @@
+<div id="wahoo-motion-r1">
+  <h2>Wahoo · piston–rod–crank motion</h2>
+  <div class="text-small text-muted">WHE-KIN-001 Rev01 · nominal kinematics · 124.817 cc</div>
+  <div class="viz-controls">
+    <label class="form-label">Crank angle <span id="wm-angle-value" class="tabular-nums">60° after TDC</span><input id="wm-angle" class="form-range" type="range" min="0" max="360" step="0.1" value="60"></label>
+    <label class="form-label">Engine speed <span id="wm-rpm-value" class="tabular-nums">12,000 rpm</span><input id="wm-rpm" class="form-range" type="range" min="0" max="12000" step="100" value="12000"></label>
+  </div>
+  <div class="viz-row"><button id="wm-play" type="button" class="btn btn-primary">One revolution</button><button id="wm-tdc" type="button" class="btn">TDC</button><button id="wm-bdc" type="button" class="btn">BDC</button><span class="text-small text-muted">Slow-motion playback · 12,000 rpm is a design reference</span></div>
+  <svg id="wm-mechanism" role="img" aria-label="Horizontal slider crank showing crankpin orbit, connecting rod centres, piston pin and provisional crown datum"></svg>
+  <div class="viz-row text-small"><span>CS2018 crank + P2018-family rod</span><span>8160DA piston reference</span></div>
+  <div id="wm-values" class="tabular-nums" aria-live="polite"></div>
+  <div class="text-small text-muted">Positive motion: toward crankshaft · negative: toward cylinder head</div>
+  <div class="wm-plots"><div><h3>Piston travel</h3><svg id="wm-travel" class="wm-chart" role="img" aria-label="Piston displacement versus crank angle, from zero at top dead centre to 54.5 millimetres at bottom dead centre"></svg></div><div><h3>Piston velocity</h3><svg id="wm-velocity" class="wm-chart" role="img" aria-label="Signed piston velocity versus crank angle; positive toward crankshaft"></svg></div></div>
+  <details><summary>Dimensions and verification status</summary><table class="table table-sm"><thead><tr><th>Input</th><th>Value</th><th>Evidence</th></tr></thead><tbody><tr><td>Bore × stroke</td><td>54 × 54.5 mm</td><td>Selected nominal baseline</td></tr><tr><td>Rod centres</td><td>102 mm</td><td>Working reference; verify</td></tr><tr><td>Pin to crown datum</td><td>28 mm</td><td>Datum unresolved; verify</td></tr><tr><td>Crankpin orbit radius</td><td>27.25 mm</td><td>Calculated from stroke</td></tr><tr><td>Piston crown / skirt</td><td>Unresolved</td><td>Not represented</td></tr><tr><td>Ports / combustion / exhaust</td><td>Not modelled</td><td>Later development stages</td></tr></tbody></table></details>
+</div>
+<link rel="stylesheet" href="/engine-motion.css"><script src="/engine-motion.js" defer></script>

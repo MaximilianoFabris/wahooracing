@@ -1,0 +1,15 @@
+
+#wahoo-motion-r1 {color:var(--text)}
+#wahoo-motion-r1 .wm-plots {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:12px 0}
+#wahoo-motion-r1 #wm-mechanism {display:block;width:100%;height:245px;margin-top:12px}
+#wahoo-motion-r1 .wm-chart {display:block;width:100%;height:205px;overflow:visible}
+#wahoo-motion-r1 svg text {fill:var(--text);font-size:12px;font-weight:400}
+#wahoo-motion-r1 svg .wm-structure {stroke:var(--line);fill:none;stroke-width:1.5}
+#wahoo-motion-r1 svg .wm-joint {fill:var(--bg);stroke:var(--text);stroke-width:1.5}
+#wahoo-motion-r1 svg .wm-rod {stroke:var(--blue);stroke-width:4;fill:none}
+#wahoo-motion-r1 svg .wm-datum {stroke:var(--text);stroke-width:1.5;stroke-dasharray:5 4;fill:none}
+#wahoo-motion-r1 #wm-values {margin-top:12px}
+#wahoo-motion-r1 details {margin-top:12px}
+@media(max-width:580px){#wahoo-motion-r1 .wm-plots{grid-template-columns:1fr}}
+
+#wahoo-motion-r1 .viz-controls{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin:20px 0}#wahoo-motion-r1 label{display:block;font-size:14px}#wahoo-motion-r1 input{display:block;width:100%;margin-top:12px;accent-color:var(--blue)}#wahoo-motion-r1 .viz-row{display:flex;align-items:center;flex-wrap:wrap;gap:14px;margin:14px 0}#wahoo-motion-r1 button{font-size:13px}#wahoo-motion-r1 .text-small{font-size:13px}#wahoo-motion-r1 .text-muted{color:var(--muted)}#wahoo-motion-r1 table{width:100%;font-size:13px}#wahoo-motion-r1 th,#wahoo-motion-r1 td{padding:10px;text-align:left;border-bottom:1px solid var(--line)}#wahoo-motion-r1 #wm-values{font-size:14px;line-height:1.6}@media(max-width:580px){#wahoo-motion-r1 .viz-controls{grid-template-columns:1fr}#wahoo-motion-r1 table{font-size:12px}#wahoo-motion-r1 th,#wahoo-motion-r1 td{padding:7px 3px}}

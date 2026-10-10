@@ -1,0 +1,195 @@
+{
+  "slug": "engine-first-moving-model",
+  "title": "The first moving model of the Wahoo engine.",
+  "summary": "Selected components become an interactive piston–rod–crank model. A dated decision register preserves the nominal specifications, calculated motion and interfaces still needing verification.",
+  "date": "2026-10-10",
+  "dateLabel": "10 Oct 2026 · initial mechanical model",
+  "revision": "WHE-KIN-001 / Rev01 / WEBSITE EDITION 01",
+  "type": "Engineering study",
+  "evidence": "Nominal kinematics · physical validation pending",
+  "status": "published",
+  "systems": [
+    "engine",
+    "exhaust"
+  ],
+  "hero": "engineering/engine-motion-rev01.svg",
+  "heroAlt": "Schematic joint centres and piston travel calculated from the nominal slider-crank reference cycle.",
+  "heroCaption": "WHE-KIN-001 Rev01 — initial mechanical model. Joint centres and crankpin orbit are schematic; physical part outlines and exhaust behaviour are not represented.",
+  "sections": [
+    {
+      "title": "From selected parts to a moving mechanism",
+      "text": "The earlier <a href=\"/journal/engine-component-baseline/\">component baseline</a> and <a href=\"/journal/engine-motion-and-ports/\">piston-travel study</a> now have an interactive mechanical follow-up. The model uses a rigid, zero-offset slider crank to connect crank angle with piston displacement, velocity and acceleration. This is the first mechanical layer of a virtual prototype, not a calibrated digital twin or a running combustion simulation."
+    },
+    {
+      "title": "Inspect one revolution",
+      "text": "Move the crank-angle slider, inspect top and bottom dead centre, or play one revolution. Playback takes four seconds for readability; it does not represent actual engine speed. RPM changes the calculated velocity and acceleration. At zero RPM those quantities are zero and playback is disabled. Reduced-motion preferences skip animated playback.",
+      "visual": "engine-motion-interactive"
+    },
+    {
+      "title": "The specification baseline, with its evidence status",
+      "text": "Nominal dimensions remain visible rather than becoming implied manufacturing tolerances. The 102 mm rod reference and the assumed 28 mm crown datum still require exact-part verification. Calculated crown reach does not establish deck height, cylinder-head clearance or installed engine width.",
+      "table": {
+        "caption": "Recorded inputs and derived values · WHE-KIN-001 Rev01",
+        "headers": [
+          "Specification",
+          "Value",
+          "Evidence / qualification"
+        ],
+        "rows": [
+          [
+            "Nominal bore × stroke",
+            "54.00 × 54.50 mm",
+            "Project baseline; not machining dimensions"
+          ],
+          [
+            "Displacement",
+            "124.817 cc",
+            "Calculated from nominal bore and stroke"
+          ],
+          [
+            "Rod centre distance",
+            "102 mm",
+            "Working reference; supplier drawing or sample required"
+          ],
+          [
+            "Crank radius",
+            "27.25 mm",
+            "Calculated from selected stroke"
+          ],
+          [
+            "Compression height",
+            "28 mm",
+            "Catalogue reference; crown datum unresolved"
+          ],
+          [
+            "Engine speed",
+            "12,000 rpm",
+            "Design reference; not a rated or approved limit"
+          ],
+          [
+            "Mean piston speed",
+            "21.8 m/s",
+            "Calculated at the reference speed"
+          ],
+          [
+            "Peak absolute piston velocity",
+            "Approximately 35.45 m/s",
+            "Nominal model, sampled at 0.1°; not tested performance"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Off-the-shelf parts: selected, not yet qualified",
+      "text": "The sourcing direction retains purchased moving parts and develops the surrounding engine around verified interfaces. The P2018-family rod is included in the complete CS2018 assembly, not an additional installed purchase. References below are carried from the 4 October report; they do not establish stock availability, purchase completion, supplier approval for Wahoo or marine durability.",
+      "table": {
+        "caption": "Selected and report-referenced components · exact-part verification pending",
+        "headers": [
+          "Part reference",
+          "Recorded status / specification"
+        ],
+        "rows": [
+          [
+            "Wossner 8160DA",
+            "Selected project baseline; one ring"
+          ],
+          [
+            "Wossner CS2018",
+            "Selected complete assembly including rod; dimensional interfaces unverified"
+          ],
+          [
+            "P2018 family",
+            "Included with complete crank; not an additional installed purchase"
+          ],
+          [
+            "WP032",
+            "Report catalogue reference; OD 15, ID 10, length 45 mm"
+          ],
+          [
+            "RSB5400",
+            "Report kit reference"
+          ],
+          [
+            "CW15",
+            "Two fitted; confirm supplied quantity"
+          ],
+          [
+            "N1047",
+            "Report reference; 15 x 19 x 17.3 mm, confirm package inclusion"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "A dated record of the decisions",
+      "text": "The register preserves the chosen direction, the date it was recorded and its unresolved conditions. Future changes should create a dated revision with a reason and supporting evidence, while retaining this initial snapshot. No purchase, manufacturing release or performance approval is recorded here.",
+      "table": {
+        "caption": "Initial engine and exhaust decision register",
+        "headers": [
+          "Decision",
+          "Recorded as of",
+          "Direction",
+          "Status"
+        ],
+        "rows": [
+          [
+            "ENG-001",
+            "2026-10-04",
+            "Retain nominal 54.00 × 54.50 mm Option A",
+            "Selected baseline; exact delivered stroke and machining dimensions unverified"
+          ],
+          [
+            "ENG-002",
+            "2026-10-04",
+            "Use 8160DA single-ring piston and CS2018 complete crankshaft with included rod",
+            "Selected sourcing route; no purchase or supplier integration approval established"
+          ],
+          [
+            "ENG-003",
+            "2026-10-04",
+            "Use horizontal cylinder, crankshaft aligned with jet pump, and EFI requirement",
+            "Project architecture; installed package and injection location unresolved"
+          ],
+          [
+            "ENG-004",
+            "2026-10-10",
+            "Start virtual development with a rigid, zero-offset slider-crank model",
+            "Numerical and interaction checks pass; physical input verification pending"
+          ],
+          [
+            "ENG-005",
+            "2026-10-10",
+            "Verify purchased-part interfaces before designing ports, head and crankcase; develop port map and exhaust together",
+            "Next engineering sequence; exhaust tuning and gas dynamics not yet modelled"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "What the checks establish",
+      "text": "The source calculation checks top and bottom dead centre, constant rod-length closure, 360° periodicity, analytic derivatives against independent finite differences, speed scaling, zero speed and invalid inputs. The recorded maximum rod-closure error is approximately 2.84 × 10⁻¹⁴ mm. This confirms numerical consistency under the stated assumptions; it does not validate the physical dimensions, loads, strength, fatigue life or running engine. Website controls are checked separately after adapting the original animation."
+    },
+    {
+      "title": "Where the exhaust enters the next stage",
+      "text": "Cylinder ports and tuned exhaust must be developed together once actual piston geometry, ring-pin paths and crank interfaces are established. Exhaust geometry, gas temperatures, pressure-wave boundary conditions and the jet-pump load map remain open. This revision contains no exhaust-flow, combustion, cooling or lubrication simulation, and reports no validated torque, power, fuel use or endurance."
+    },
+    {
+      "title": "What needs evidence before the model grows",
+      "text": "The next work is an exact component-verification register: piston crown contour and volume, compression-height datum, ring locating pins, crank journals, shaft ends, pack width, actual stroke and rod length. Resolve the conflicting MB6322SH2-9TC4 and MB6322C4 main-bearing references before crankcase design. Then establish component masses, cylinder deck and port map, hot clearances, fuel, injection, lubrication and cooling choices. Unknown dimensions remain unresolved rather than being inferred from the animation."
+    }
+  ],
+  "downloads": [
+    {
+      "file": "engineering/engine-motion-decisions-rev01.json",
+      "label": "Download the dated specification and decision register · Rev01 JSON"
+    }
+  ],
+  "sources": [
+    "WHE-KIN-001 Rev01 · baseline.json, MODEL_NOTES.txt, cycle_12000rpm.csv, verification.json and ui_verification.json · 10 October 2026",
+    "WAHOO_125cc_Engine_Development_Rev01.docx · 04 October 2026 · recorded project baseline",
+    "Private website provenance retains the source model, reference cycle and SHA-256 manifest; the engineering source and archive remain unchanged."
+  ],
+  "changes": "Adds the dated interactive-model follow-up and initial decision register. Earlier studies remain available. The website edition adapts colours, controls and SVG plotting while retaining the nominal equations and inputs. No engineering source, purchased-part specification, solver case or physical performance result is changed.",
+  "downloadsTitle": "Keep the specification and decision record",
+  "downloadsIntro": "Download this dated snapshot of selected parts, nominal inputs, assumptions, open interfaces and calculation checks. Later revisions must preserve this record."
+}
