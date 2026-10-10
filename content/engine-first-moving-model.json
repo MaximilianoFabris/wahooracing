@@ -191,5 +191,6 @@
   ],
   "changes": "Adds the dated interactive-model follow-up and initial decision register. Earlier studies remain available. The website edition adapts colours, controls and SVG plotting while retaining the nominal equations and inputs. No engineering source, purchased-part specification, solver case or physical performance result is changed.",
   "downloadsTitle": "Keep the specification and decision record",
-  "downloadsIntro": "Download this dated snapshot of selected parts, nominal inputs, assumptions, open interfaces and calculation checks. Later revisions must preserve this record."
+  "downloadsIntro": "Download this dated snapshot of selected parts, nominal inputs, assumptions, open interfaces and calculation checks. Later revisions must preserve this record.",
+  "publicationSequence": 1
 }

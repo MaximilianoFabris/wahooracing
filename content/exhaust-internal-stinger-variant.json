@@ -58,5 +58,6 @@
     "WHE-EXH-001 Rev01 · retained external-stinger comparison",
     "Gordon Jennings, Two-Stroke Tuner’s Handbook (1973), pp. 69–71 · historical experiments; no Wahoo-specific performance validation"
   ],
-  "changes": "Adds the internal-stinger variant and decision EXH-002 without replacing the external-stinger reference. Website graphics preserve supplied coordinates; metadata and fixed light-theme styles are removed for display. No native CAD, raw simulation or private source package is published."
+  "changes": "Adds the internal-stinger variant and decision EXH-002 without replacing the external-stinger reference. Website graphics preserve supplied coordinates; metadata and fixed light-theme styles are removed for display. No native CAD, raw simulation or private source package is published.",
+  "publicationSequence": 4
 }
