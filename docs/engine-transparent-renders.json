@@ -1,0 +1,75 @@
+{
+  "method": "Native source geometry reconstructed from unchanged revision inputs; source facet shading and x-ray overlays retained. Canvas alpha is zero outside drawn content. No source CAD or original preview file modified.",
+  "files": [
+    {
+      "source_revision": "WHE-CAD-001_Rev01_20261010",
+      "file": "build_rhino.py",
+      "sha256": "580644f6d13939eb2f3e3f7ad0ca50826741f3e62c64e125f25ed84308bca271"
+    },
+    {
+      "source_revision": "WHE-CAD-001_Rev01_20261010",
+      "file": "packaging_parameters.json",
+      "sha256": "fe3688bb5b9dd2fd4e5f8c26a00dcb261eca47706829edeb67e2c9b792ea69a9"
+    },
+    {
+      "source_revision": "WHE-CAD-001_Rev01_20261010",
+      "file": "SOURCE_HULL_REFERENCE.3dm",
+      "sha256": "bfb3d260c6d2be39049efe7cbcbd643c514e57397299b86be25daacedce62158"
+    },
+    {
+      "output": "engine-layout-rev01-transparent.png",
+      "bytes": 101870,
+      "sha256": "d0d1aa4ab3e6d15ca23bc73b58904639f5983570d5623972a6baab82ba8276f3",
+      "transparent_background": true,
+      "size_px": [
+        1600,
+        1100
+      ]
+    },
+    {
+      "source_revision": "WHE-CAD-001_Rev03_20261010",
+      "file": "build_rhino.py",
+      "sha256": "3dca4050db540041dba1fa8a9d0752123e08a8ce5450d05e276bdd8083bfc288"
+    },
+    {
+      "source_revision": "WHE-CAD-001_Rev03_20261010",
+      "file": "packaging_parameters.json",
+      "sha256": "f9af4423e75375556a8bf7b8d5caa0ad849be04710b202b0eeb7d1edca32a3c1"
+    },
+    {
+      "source_revision": "WHE-CAD-001_Rev03_20261010",
+      "file": "SOURCE_HULL_REFERENCE.3dm",
+      "sha256": "bfb3d260c6d2be39049efe7cbcbd643c514e57397299b86be25daacedce62158"
+    },
+    {
+      "output": "engine-layout-rev03-transparent.png",
+      "bytes": 102906,
+      "sha256": "9c4abaa3337149e88c29670e05135f2b23a2e2e99317a24013943dbff5eee14f",
+      "transparent_background": true,
+      "size_px": [
+        1600,
+        1100
+      ]
+    },
+    {
+      "output": "exhaust-selected-rev03-thumbnail.png",
+      "bytes": 42310,
+      "sha256": "6895771f513d79463c7af2c142676bfcda95d99393d7151b7fd0b23041eeb3df",
+      "transparent_background": true,
+      "size_px": [
+        1600,
+        800
+      ]
+    },
+    {
+      "output": "exhaust-route-rev03-transparent.png",
+      "bytes": 64495,
+      "sha256": "4e9c5ad527f69cb042431017b62a0d8deb74ba2fd91c1a39d664d454222c95d3",
+      "transparent_background": true,
+      "size_px": [
+        1600,
+        650
+      ]
+    }
+  ]
+}

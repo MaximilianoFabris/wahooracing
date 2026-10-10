@@ -13,9 +13,9 @@
     "exhaust",
     "manufacturing"
   ],
-  "hero": "engineering/engine-layout-rev01.png",
+  "hero": "engineering/engine-layout-rev01-transparent.png",
   "heroAlt": "Initial Rev01 rough engine assembly showing the exhaust looping forward around the engine, with isometric, top and hull-side views.",
-  "heroCaption": "Earlier route — WHE-CAD-001 Rev01. Original packaging preview; coloured parts are provisional envelopes, not detailed supplier CAD. Top view has bow up; the side view shows parts through the hull.",
+  "heroCaption": "Earlier route — WHE-CAD-001 Rev01. Transparent render of the original packaging geometry; coloured parts are provisional envelopes, not detailed supplier CAD. Top view has bow up; the side view shows parts through the hull.",
   "sections": [
     {
       "title": "Start with the complete installed system",
@@ -117,12 +117,12 @@
   "galleryTitle": "The selected second route · Rev03",
   "gallery": [
     {
-      "image": "engineering/exhaust-route-rev03.png",
-      "caption": "Selected direction: cylinder-side exhaust directly aft to the stern. This original plan preview has bow to the right and shows parts through the hull; it is not a clearance or tuning result."
+      "image": "engineering/exhaust-route-rev03-transparent.png",
+      "caption": "Selected direction: cylinder-side exhaust directly aft to the stern. This transparent source-geometry plan render has bow to the right and shows parts through the hull; it is not a clearance or tuning result."
     },
     {
-      "image": "engineering/engine-layout-rev03.png",
-      "caption": "Rev03 assembly context. Original source preview of provisional component envelopes. Service space, exhaust function and remaining interferences still need validation."
+      "image": "engineering/engine-layout-rev03-transparent.png",
+      "caption": "Rev03 assembly context. Transparent render from the original source geometry of provisional component envelopes. Service space, exhaust function and remaining interferences still need validation."
     }
   ],
   "downloadsTitle": "Keep the component and routing records",
@@ -143,5 +143,7 @@
     "Founder routing sketch and centre-plane alignment instruction · Engine System Design · 10 October 2026",
     "WHE-CAD-001 fit review Rev02 · reported rough-envelope protrusions and overlaps; no native CAD or raw fit data published"
   ],
-  "changes": "Adds a dated comparison of the first and selected second exhaust routes. Compactness and service access are stated as design intent, not measured gains. Source previews and qualified component data are copied without changing original geometry. Earlier studies and source layouts are retained."
+  "changes": "Adds a dated comparison of the first and selected second exhaust routes. Compactness and service access are stated as design intent, not measured gains. Source previews and qualified component data are copied without changing original geometry. Earlier studies and source layouts are retained. Presentation update: the thumbnail now shows the selected Rev03 assembly. Layout illustrations use true transparent renders from unchanged source geometry; original previews are preserved.",
+  "thumbnail": "engineering/exhaust-selected-rev03-thumbnail.png",
+  "thumbnailAlt": "Selected Rev03 engine and cylinder-side exhaust assembly, rendered from the original packaging geometry on a transparent background."
 }

@@ -8,3 +8,5 @@
 - Publish only explicitly published content records into build output. Keep private source provenance and raw engineering files out of `public` and `dist`.
 - Run the build and appropriate checks after edits. Use the existing independent repository and remote.
 - Do not deploy or touch VPS/shared infrastructure without an approved deployment plan. Do not activate payments or invent working contact forms.
+
+- Engine/exhaust and other CAD journal illustrations should use real transparent backgrounds. Prefer native source-geometry renders, preserve original previews, and show the currently selected layout in thumbnails. Never alter geometry to remove an image background.
