@@ -1,10 +1,10 @@
 {
   "slug": "exhaust-internal-stinger-variant",
   "title": "An internal stinger. A more compact direction.",
-  "summary": "The outlet tube moves inside the chamber while the cylinder-side exit turns aft. This concept study records the selected direction, sketch dimensions and the engineering checks needed before it can become an installed exhaust.",
+  "summary": "The selected exhaust direction retains an internal stinger in a completely straight system, with no bends inside the hull. This updated record preserves the earlier sketch, provisional dimensions and the engine alignment and fit checks still required.",
   "date": "2026-10-10",
   "dateLabel": "10 Oct 2026 · internal-stinger concept and routing decision",
-  "revision": "EXH-002 / Concept review",
+  "revision": "EXH-002 / Straight-routing update",
   "type": "Engineering study",
   "evidence": "Selected concept direction · dimensions provisional",
   "status": "published",
@@ -13,9 +13,9 @@
     "exhaust",
     "cooling"
   ],
-  "hero": "engineering/internal-stinger-concept.svg",
-  "heroAlt": "Supplied internal-stinger plan and section showing a sideways R50 turn aft and the outlet tube extending into the belly.",
-  "heroCaption": "Claude concept drawing, adapted for transparent website presentation. Dimensions are inherited sketch values; the 617 mm label is an aft projection. Geometry has not been revised to resolve the tube/baffle junction.",
+  "hero": "engineering/internal-stinger-thumbnail.svg",
+  "heroAlt": "Section-only detail of the internal stinger extending upstream through the baffle into the belly; the superseded bend plan is excluded.",
+  "heroCaption": "Internal-stinger section detail from the earlier sketch. It illustrates the tube arrangement, not a validated straight-system CAD revision. Dimensions remain provisional; the baffle junction needs redesign.",
   "thumbnail": "engineering/internal-stinger-thumbnail.svg",
   "thumbnailAlt": "Section of the selected internal-stinger concept, extending upstream through the baffle into the belly.",
   "sections": [
@@ -28,8 +28,8 @@
       "text": "The supplied drawing shows an 18 mm internal-diameter stinger, 215 mm total tube length, 195 mm inside the chamber and 20 mm projecting outside. Its inlet lies approximately 33 mm upstream of the baffle, within the belly. These are the variant’s sketch dimensions; the earlier Rev01 reference uses a 216 mm external stinger. The 1 mm difference is retained explicitly rather than silently changing either record."
     },
     {
-      "title": "Sideways from the cylinder, then aft",
-      "text": "The selected concept leaves the cylinder sideways and turns aft through an illustrative 90° bend with a 50 mm centreline radius. It introduces no forward loop. The drawing labels 617 mm aft of the port axis: this is an aft projection, not an effective tuned length. A quarter-circle R50 bend contributes approximately 78.54 mm of centreline path while its aft projection is 50 mm. The 617 mm sketch label is not an installed-hull clearance result."
+      "title": "Current requirement: a completely straight system",
+      "text": "The founder’s latest instruction supersedes the sideways-exit and R50 turn: there is no space for bends or turns inside the hull. Keep the internal stinger, but develop a straight exhaust system. The engine exhaust-port and flange orientation must accommodate the straight installation; their alignment and actual hull clearances are not yet verified. No bend should be introduced to make the earlier layout fit."
     },
     {
       "title": "The baffle junction needs redesign",
@@ -49,15 +49,28 @@
     },
     {
       "title": "Decision and next steps",
-      "text": "Decision EXH-002: carry forward the internal-stinger concept with a sideways exit turning aft, without a forward loop. All dimensions remain provisional until the engine data is established. Retain <a href=\"/journal/exhaust-water-jacket-baseline/\">WHE-EXH-001 Rev01</a> as the external-stinger comparison. Next, resolve the tube/baffle interface and cooling detail, check the actual internal hull and removal paths, and compare the variants through engine-linked analysis and controlled measurements."
+      "text": "Decision EXH-002, updated: carry forward the internal stinger in a completely straight exhaust, with no bends or turns inside the hull. This supersedes the earlier sideways-exit/R50 routing concept. All dimensions remain provisional until the engine data is established. Retain <a href=\"/journal/exhaust-water-jacket-baseline/\">WHE-EXH-001 Rev01</a> as the external-stinger comparison. Next, align the engine outlet with the straight installation, resolve the tube/baffle interface and cooling detail, check the actual internal hull and removal paths, and compare the variants through engine-linked analysis and controlled measurements."
+    },
+    {
+      "title": "Reference CAD and the superseded routing sketch",
+      "text": "The supplied wahoo_exhaust_section.dxf and wahoo_exhaust_provisional.step have been retained in the engineering archive as provisional millimetre references. The STEP identifies exhaust pipe, internal stinger and water jacket components. Their geometry has not been validated, and they do not establish compliance with the latest straight-system requirement. The earlier drawing below is retained only as development history: its R50 bend and 617 mm aft-projection label are superseded, not current installation specifications."
     }
   ],
   "sources": [
+    "Latest founder instruction, Exhaust Pipe Design · 10 October 2026: completely straight exhaust, no bends or turns inside hull; internal stinger retained",
     "Founder acceptance in Exhaust Pipe Design · 10 October 2026: internal stinger, sideways exit turning aft, no forward loop",
     "Supplied folded_pipe_internal_stinger_plan_and_section.svg and pipe_inside_board_plan_gas_and_water_flow.html · concept artifacts, not validated flow or fit data",
     "WHE-EXH-001 Rev01 · retained external-stinger comparison",
-    "Gordon Jennings, Two-Stroke Tuner’s Handbook (1973), pp. 69–71 · historical experiments; no Wahoo-specific performance validation"
+    "Gordon Jennings, Two-Stroke Tuner’s Handbook (1973), pp. 69–71 · historical experiments; no Wahoo-specific performance validation",
+    "Provisional reference CAD: wahoo_exhaust_section.dxf and wahoo_exhaust_provisional.step · archived unchanged, not released as validated manufacture data"
   ],
-  "changes": "Adds the internal-stinger variant and decision EXH-002 without replacing the external-stinger reference. Website graphics preserve supplied coordinates; metadata and fixed light-theme styles are removed for display. No native CAD, raw simulation or private source package is published.",
-  "publicationSequence": 4
+  "changes": "Adds the internal-stinger variant and decision EXH-002 without replacing the external-stinger reference. Website graphics preserve supplied coordinates; metadata and fixed light-theme styles are removed for display. No native CAD, raw simulation or private source package is published. Straight-routing update: latest founder instruction supersedes the R50 bend. The hero and thumbnail now show only the internal-stinger section. Earlier plan retained as explicitly superseded history; no duplicate investigation created.",
+  "publicationSequence": 4,
+  "galleryTitle": "Earlier routing concept · superseded",
+  "gallery": [
+    {
+      "image": "engineering/internal-stinger-concept.svg",
+      "caption": "Historical sketch: sideways exit with R50 turn and a 617 mm aft-projection label. This routing is superseded by the straight-system requirement. The internal-stinger idea is retained; installed geometry and fit remain unverified."
+    }
+  ]
 }

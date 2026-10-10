@@ -3,5 +3,11 @@
   "date": "2026-10-10",
   "sourceDrawingSHA256": "f9ce1220ebab072da95c45d5eef2a446b73be2d53fc88d7b35cfade9349f67df",
   "geometry": "Supplied drawing coordinates retained; presentation-only changes",
-  "status": "Provisional concept, not performance or hull-fit approval"
+  "status": "Provisional concept, not performance or hull-fit approval",
+  "latestRoutingRequirement": "Straight system, no bends or turns inside hull; internal stinger retained",
+  "supersedes": "Earlier sideways exit and R50 bend",
+  "referenceCADHashes": {
+    "wahoo_exhaust_section.dxf": "952884ebaaac2a4646ede736f7e58eb52b7cd67b01c7ef83d74c10d6256b2705",
+    "wahoo_exhaust_provisional.step": "f6ed3509fa239ba55f3316b26013d57480eed7366ed00930c9d493bfd8924f97"
+  }
 }
