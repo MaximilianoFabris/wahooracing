@@ -25,19 +25,21 @@ http.createServer(async(req,res)=>{try{
     const data=await body(req);if(!Array.isArray(data.replacements)||!data.replacements.length||data.replacements.length>2)throw Error('Invalid replacement');
     const replacement=data.replacements.map(r=>{if(!allowed.has(r.path)||!r.path.endsWith('.webp')||typeof r.data!=='string')throw Error('Image is not editable');const bytes=Buffer.from(r.data,'base64');if(bytes.length<20||bytes.length>30*1024*1024||bytes.toString('ascii',0,4)!=='RIFF'||bytes.toString('ascii',8,12)!=='WEBP')throw Error('Invalid WebP image');return {path:r.path,bytes};});
     const backup=path.join(root,'.image-admin-backups',new Date().toISOString().replaceAll(':','-')+'-'+randomUUID());await mkdir(backup,{recursive:true});
-    for(const r of replacement){const source=path.join(root,'public',r.path),saved=path.join(backup,path.basename(r.path));await copyFile(source,saved);const staged=source+'.pending';await writeFile(staged,r.bytes);await rename(staged,source);await copyFile(source,path.join(dist,r.path));}
-    for(const entry of entries)entry.bytes=(await stat(path.join(root,'public',entry.path))).size;await writeFile(path.join(dist,'image-catalog.json'),JSON.stringify(entries));
-    json(res,200,{message:'Images saved locally with a backup. Ready to publish.',bytes:replacement[0].bytes.length});
+    for(const r of replacement){const source=path.join(root,'public',r.path),saved=path.join(backup,path.basename(r.path));await copyFile(await stat(source).catch(()=>null)?source:path.join(dist,r.path),saved);await mkdir(path.dirname(source),{recursive:true});const staged=source+'.pending';await writeFile(staged,r.bytes);await rename(staged,source);await copyFile(source,path.join(dist,r.path));}
+    for(const entry of entries)entry.bytes=(await stat(path.join(dist,entry.path))).size;await writeFile(path.join(dist,'image-catalog.json'),JSON.stringify(entries));
+    const entry=entries.find(e=>e.variants.includes(replacement[0].path));
+    json(res,200,{message:'Images saved locally with a backup. Ready to publish.',bytes:entry.bytes});
    }else{
     await body(req);
     const branch=(await git('branch','--show-current')).stdout.trim();if(branch!=='website/initial-prototype')throw Error('The production branch is not active.');
     const paths=[...allowed].map(p=>'public'+p);
     const changes=(await git('status','--porcelain','--untracked-files=no')).stdout.split(/\r?\n/).filter(Boolean);
+    changes.push(...(await git('status','--porcelain','--untracked-files=all','--','public/assets/managed')).stdout.split(/\r?\n/).filter(line=>line.startsWith('??')));
     if(changes.some(line=>!paths.includes(line.slice(3))))throw Error('Other website edits are present. Publish those separately before publishing images.');
     const staged=(await git('diff','--cached','--name-only')).stdout.trim();if(staged)throw Error('Other staged changes are present.');
     await run(process.execPath,['scripts/build.mjs'],{cwd:root,maxBuffer:2*1024*1024});
     for(const script of ['scripts/check.mjs','scripts/navigation-check.mjs'])await run(process.execPath,[script],{cwd:root,maxBuffer:2*1024*1024});
-    if(changes.length){await git('add','--',...paths);await git('commit','-m','Update website photography from local image manager');}
+    if(changes.length){await git('add','--',...new Set(changes.map(line=>line.slice(3))));await git('commit','-m','Update website photography from local image manager');}
     await git('push','origin','website/initial-prototype');
     json(res,200,{message:'Published to the deployment branch. The live website will update when the hosting build finishes, usually within a minute.'});
    }
