@@ -3,10 +3,10 @@
   "title": "A clearer route through the hull.",
   "summary": "The first engine assembly led to a selected cylinder-side exhaust route straight aft. The comparison records the component layout, compact-packaging goals and service-access checks still to complete.",
   "date": "2026-10-10",
-  "dateLabel": "10 Oct 2026 · layout decision and packaging review",
-  "revision": "WHE-CAD-001 / Rev01 → Rev03 / EXH-001",
+  "dateLabel": "10 Oct 2026 \u00b7 layout decision and packaging review",
+  "revision": "WHE-CAD-001 / Rev01 \u2192 Rev03 / EXH-001",
   "type": "Engineering study",
-  "evidence": "Selected packaging direction · fit and tuning pending",
+  "evidence": "Selected packaging direction \u00b7 fit and tuning pending",
   "status": "published",
   "systems": [
     "engine",
@@ -15,7 +15,7 @@
   ],
   "hero": "engineering/engine-layout-rev01-transparent.png",
   "heroAlt": "Initial Rev01 rough engine assembly showing the exhaust looping forward around the engine, with isometric, top and hull-side views.",
-  "heroCaption": "Earlier route — WHE-CAD-001 Rev01. Transparent render of the original packaging geometry; coloured parts are provisional envelopes, not detailed supplier CAD. Top view has bow up; the side view shows parts through the hull.",
+  "heroCaption": "Earlier route \u2014 WHE-CAD-001 Rev01. Transparent render of the original packaging geometry; coloured parts are provisional envelopes, not detailed supplier CAD. Top view has bow up; the side view shows parts through the hull.",
   "sections": [
     {
       "title": "Start with the complete installed system",
@@ -27,7 +27,7 @@
     },
     {
       "title": "The selected route: cylinder side directly to the stern",
-      "text": "Following the founder’s 10 October routing sketch, Rev03 removes the forward loop and sends the exhaust aft from the cylinder side toward a stern outlet. This is the second routing option and the current selected direction. The pipe diameters, effective length, expansion profile, silencer and outlet height remain provisional; “selected” describes the route, not a final validated exhaust."
+      "text": "Following the founder\u2019s 10 October routing sketch, Rev03 removes the forward loop and sends the exhaust aft from the cylinder side toward a stern outlet. This is the second routing option and the current selected direction. The pipe diameters, effective length, expansion profile, silencer and outlet height remain provisional; \u201cselected\u201d describes the route, not a final validated exhaust."
     },
     {
       "title": "Why compact packaging favours this direction",
@@ -41,7 +41,7 @@
       "title": "What is in the first assembly",
       "text": "The register below separates component groups and their evidence status. The downloadable Rev03 CSV lists every generated component, its layer and its nominal or assumed dimensions in millimetres. Off-the-shelf part identities remain in the <a href=\"/journal/engine-first-moving-model/#section-4\">component-selection record</a>. CAD proxy dimensions must not be treated as supplier dimensions or procurement specifications.",
       "table": {
-        "caption": "First engine and exhaust layout · component groups and status",
+        "caption": "First engine and exhaust layout \u00b7 component groups and status",
         "headers": [
           "Group",
           "Components / space claims",
@@ -111,10 +111,10 @@
     },
     {
       "title": "Preserve the decision and test the next revision",
-      "text": "Decision EXH-001 records the selected direct aft route, the compact-packaging and service-access intent, and unresolved checks. The next revision should verify inner-hull and hatch clearances, removal paths, mount positioning and thermal gaps, then replace envelopes with measured component geometry. Later gas-dynamics, bench and installed-hull tests will establish whether the design meets its functional requirements. Earlier layouts remain in the record."
+      "text": "Decision EXH-001 records the selected direct aft route, the compact-packaging and service-access intent, and unresolved checks. The next revision should verify inner-hull and hatch clearances, removal paths, mount positioning and thermal gaps, then replace envelopes with measured component geometry. Later gas-dynamics, bench and installed-hull tests will establish whether the design meets its functional requirements. Earlier layouts remain in the record. <a href=\"/journal/exhaust-water-jacket-baseline/\">Follow-up \u00b7 10 October 2026: the chamber and water-jacket Rev01 baseline</a> records the next dimensional study without establishing installed fit."
     }
   ],
-  "galleryTitle": "The selected second route · Rev03",
+  "galleryTitle": "The selected second route \u00b7 Rev03",
   "gallery": [
     {
       "image": "engineering/exhaust-route-rev03-transparent.png",
@@ -130,18 +130,18 @@
   "downloads": [
     {
       "file": "engineering/engine-layout-components-rev03.csv",
-      "label": "Rev03 component and envelope register · millimetres · CSV"
+      "label": "Rev03 component and envelope register \u00b7 millimetres \u00b7 CSV"
     },
     {
       "file": "engineering/exhaust-routing-decision-rev03.json",
-      "label": "EXH-001 routing decision, rationale and open checks · JSON"
+      "label": "EXH-001 routing decision, rationale and open checks \u00b7 JSON"
     }
   ],
   "sources": [
-    "WHE-CAD-001 Rev01 · START_HERE.txt, COMPONENT_REGISTER.csv and ASSEMBLY_PREVIEW.png · 10 October 2026",
-    "WHE-CAD-001 Rev03 · ROUTING_DECISION.json, COMPONENT_REGISTER.csv, ROUTING_PREVIEW.png and ASSEMBLY_PREVIEW.png · 10 October 2026",
-    "Founder routing sketch and centre-plane alignment instruction · Engine System Design · 10 October 2026",
-    "WHE-CAD-001 fit review Rev02 · reported rough-envelope protrusions and overlaps; no native CAD or raw fit data published"
+    "WHE-CAD-001 Rev01 \u00b7 START_HERE.txt, COMPONENT_REGISTER.csv and ASSEMBLY_PREVIEW.png \u00b7 10 October 2026",
+    "WHE-CAD-001 Rev03 \u00b7 ROUTING_DECISION.json, COMPONENT_REGISTER.csv, ROUTING_PREVIEW.png and ASSEMBLY_PREVIEW.png \u00b7 10 October 2026",
+    "Founder routing sketch and centre-plane alignment instruction \u00b7 Engine System Design \u00b7 10 October 2026",
+    "WHE-CAD-001 fit review Rev02 \u00b7 reported rough-envelope protrusions and overlaps; no native CAD or raw fit data published"
   ],
   "changes": "Adds a dated comparison of the first and selected second exhaust routes. Compactness and service access are stated as design intent, not measured gains. Source previews and qualified component data are copied without changing original geometry. Earlier studies and source layouts are retained. Presentation update: the thumbnail now shows the selected Rev03 assembly. Layout illustrations use true transparent renders from unchanged source geometry; original previews are preserved.",
   "thumbnail": "engineering/exhaust-selected-rev03-thumbnail.png",

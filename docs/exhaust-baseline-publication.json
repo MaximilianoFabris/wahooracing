@@ -1,0 +1,16 @@
+{
+  "id": "WHE-EXH-001",
+  "revision": "Rev01",
+  "date": "2026-10-10",
+  "source": "Verified engineering journal package",
+  "sourceFiles": {
+    "baseline.json": "1bf21b516823d560c29c30b66dfed34776ff92a4d0a7fbdd51ff494958e38a06",
+    "cooling-concept.svg": "8c8ab46ce654a5740402591171cdbbfcb143bb6f7621fe4ee73c737ceb444901",
+    "cutaway-transparent.png": "114576705c748be4d01cdf5d2fef8e4cc372a6a249e52d3ed0ffdb0b1aad93f7",
+    "dry-section.svg": "c12d0a99cb57bff079de976d7e76f3e99a27d948adc97668d49cead01f7a52b7",
+    "geometry.csv": "63b569007b68459228370dfd1ce9bfcf7866cf63bc8d367d80f43cf240ab25c8",
+    "jacketed-section.svg": "b6f4439eaaeed66bbfd3349dd5db5f37cc9b29c030c49f5f94bedad327632f72"
+  },
+  "presentation": "Shared website palette and article format; reduced-motion controls. Original geometry and baseline unchanged.",
+  "privateSourcesPublished": false
+}

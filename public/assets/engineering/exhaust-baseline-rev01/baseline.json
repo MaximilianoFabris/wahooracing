@@ -1,0 +1,89 @@
+{
+  "id": "WHE-EXH-001",
+  "revision": "Rev01",
+  "date": "2026-10-10",
+  "status": "Illustrative design baseline; not fabrication or performance approval",
+  "rpm": 12000,
+  "exhaust_duration_deg": 184,
+  "return_before_closure_deg": 0,
+  "wall_radial_mm": 1,
+  "jacket_gap_radial_mm": 5,
+  "jacket_wall_radial_mm": 1,
+  "jacket_start_mm": 20,
+  "jacket_end_mm": 655.8157659295523,
+  "wet": {
+    "wave_speed_m_s": 450,
+    "tuned_mm": 575.0,
+    "lengths_mm": [
+      180,
+      257.1761768121302,
+      57.00805725831742,
+      161.6315318591047,
+      216.0
+    ],
+    "stations_mm": [
+      0,
+      180,
+      437.1761768121302,
+      494.18423407044764,
+      655.8157659295523,
+      871.8157659295523
+    ],
+    "radii_mm": [
+      15,
+      15,
+      37.5,
+      37.5,
+      9,
+      9
+    ],
+    "angles_deg": [
+      10,
+      20
+    ],
+    "overall_mm": 871.8157659295523
+  },
+  "dry": {
+    "wave_speed_m_s": 510,
+    "tuned_mm": 651.6666666666666,
+    "lengths_mm": [
+      210,
+      321.76499077601835,
+      18.507657346673312,
+      202.78803708794993,
+      216.0
+    ],
+    "stations_mm": [
+      0,
+      210,
+      531.7649907760183,
+      550.2726481226916,
+      753.0606852106416,
+      969.0606852106416
+    ],
+    "radii_mm": [
+      15,
+      15,
+      37.5,
+      37.5,
+      9,
+      9
+    ],
+    "angles_deg": [
+      8,
+      16
+    ],
+    "overall_mm": 969.0606852106416
+  },
+  "datum": "x=0 at exhaust port window; x follows unwrapped gas-path centreline. Engine duct length is unresolved and included in the first 180 mm, not added to it.",
+  "routing": "Cylinder side directly aft to stern; no forward loop. Unwrapped geometry is not a hull-fit claim.",
+  "evidence": {
+    "rpm": "Illustrative reference; neither target peak power nor safe maximum selected",
+    "exhaust_duration": "Illustrative inherited value, not selected engine timing",
+    "wave_speed": "Assumed effective speed; not inferred from jacket presence",
+    "diameters": "Inherited placeholders; not sized to port area or mass flow",
+    "walls_gap": "Illustrative radial offsets; no structural or thermal sizing",
+    "material": "316L prototype candidate; titanium later option; neither qualified",
+    "engine": "54 mm nominal bore / 54.5 mm nominal stroke from WHE-KIN-001; component interfaces unverified"
+  }
+}

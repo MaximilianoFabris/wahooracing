@@ -1,0 +1,88 @@
+{
+  "slug": "exhaust-water-jacket-baseline",
+  "title": "Designing the exhaust around the engine.",
+  "summary": "A water-jacketed expansion chamber becomes a dimensioned starting point, with a transparent 3D cutaway, representative wave animation and tuning calculator. Engine inputs, hull fit and performance remain to be qualified.",
+  "date": "2026-10-10",
+  "dateLabel": "10 Oct 2026 \u00b7 provisional chamber and cooling baseline",
+  "revision": "WHE-EXH-001 / Rev01",
+  "type": "Engineering study",
+  "evidence": "Illustrative design baseline \u00b7 validation pending",
+  "status": "published",
+  "systems": [
+    "engine",
+    "exhaust",
+    "cooling"
+  ],
+  "hero": "engineering/exhaust-baseline-rev01/cutaway-transparent.png",
+  "heroAlt": "Transparent cutaway of the provisional expansion chamber and outer water jacket.",
+  "heroCaption": "WHE-EXH-001 Rev01 \u00b7 unwrapped reference geometry, not installed hull fit. Silver pipe wall, blue jacket wall and the intervening water space.",
+  "sections": [
+    {
+      "title": "What we are carrying forward",
+      "text": "The starting idea is a stainless-steel prototype with an expansion chamber surrounded by a water jacket. Titanium remains a possible later weight-saving revision. The engine establishes the port specification and working speed range; the exhaust is developed to suit it.",
+      "visual": "exhaust-baseline-1"
+    },
+    {
+      "title": "Inside the chamber",
+      "text": "The header carries the blowdown pulse away from the port. The expanding diffuser produces returning expansion waves, which can assist scavenging. The converging baffle produces compression reflections that can help retain escaped fresh charge near the end of the exhaust event. The stinger connects this unsteady system to its discharge and silencer.",
+      "visual": "exhaust-baseline-2"
+    },
+    {
+      "title": "A consistent geometric baseline",
+      "text": "We retain the 30 / 75 / 18 mm internal diameters, a 180 mm port-to-diffuser distance and 10\u00b0 / 20\u00b0 included cone angles. We now calculate the cone and belly lengths without intermediate rounding. The stinger becomes 216 mm, exactly 12 times its 18 mm diameter, as an inherited proportion\u2014not a flow-sizing result.",
+      "visual": "exhaust-baseline-3"
+    },
+    {
+      "title": "Where the length comes from",
+      "text": "Let N be engine speed in rpm and \u0394\u03b8 the crank-angle interval between the outgoing event and the desired return. For an effective propagation speed a, a simple there-and-back timing estimate gives:",
+      "visual": "exhaust-baseline-4"
+    },
+    {
+      "title": "Cooling is part of the design",
+      "text": "A full jacket is our starting architecture because the pipe sits close to a composite hull. The exhaust gas remains separate from the jacket water throughout the tuned chamber. The sketch uses a 5 mm radial water gap, a 1 mm radial pipe wall and a 1 mm radial jacket wall: 75 + 2(1 + 5 + 1) = <strong>89 mm outside diameter</strong> at the belly.",
+      "visual": "exhaust-baseline-5"
+    },
+    {
+      "title": "What changed from the original sketches",
+      "text": "This revision preserves the decisions and open inputs below.",
+      "visual": "exhaust-baseline-6"
+    },
+    {
+      "title": "The engine data that unlocks the next revision",
+      "text": "The next engineering step is an engine-linked gas-dynamic model, followed by controlled prototype measurements. Record torque, speed, exhaust pressure and temperature, jacket flow and temperatures, hull hot spots and the relevant pump conditions. Validate cooling-loss behaviour and water ingress protection before a board installation is accepted.",
+      "visual": "exhaust-baseline-7"
+    },
+    {
+      "title": "Sources and evidence",
+      "text": "Supporting literature and retained concept provenance have different roles in this study.",
+      "visual": "exhaust-baseline-sources"
+    }
+  ],
+  "downloadsTitle": "Inspect the controlled baseline",
+  "downloadsIntro": "Public illustrative dimensions and section drawings, not manufacturing or procurement specifications.",
+  "downloads": [
+    {
+      "file": "engineering/exhaust-baseline-rev01/baseline.json",
+      "label": "Rev01 assumptions and dimensions \u00b7 JSON"
+    },
+    {
+      "file": "engineering/exhaust-baseline-rev01/geometry.csv",
+      "label": "Calculated geometry \u00b7 millimetres \u00b7 CSV"
+    },
+    {
+      "file": "engineering/exhaust-baseline-rev01/jacketed-section.svg",
+      "label": "Jacketed section \u00b7 SVG"
+    },
+    {
+      "file": "engineering/exhaust-baseline-rev01/dry-section.svg",
+      "label": "Dry comparison \u00b7 SVG"
+    }
+  ],
+  "sources": [
+    "WHE-EXH-001 Rev01 journal package and verification record \u00b7 10 October 2026",
+    "WHE-KIN-001 Rev01 engine context; port map and operating speed remain unresolved",
+    "EXH-001 selected cylinder-side direct aft route \u00b7 10 October 2026",
+    "Original concept artifacts preserved in the engineering archive; not deployed as qualified design data"
+  ],
+  "changes": "New follow-up to the earlier routing study. The dimensioned baseline is accepted as a provisional starting point, not fabrication, thermal, hull-fit or performance approval. Earlier layouts and original engineering sources remain unchanged."
+}
