@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-11",
+  "samples": 18801,
+  "endTau": 0.9499850562165779,
+  "sourceHashes": {
+    "Accepted_Data.json": "3a6ff253872a8f2c6b8f5e6f3f3d7b94ce29b3797c1e72c7ca750798366f2c79",
+    "Dynamic_Analysis.json": "a3c20dc060cfb037fa8798649cc989c5eb809922ea9b8a789d7602494dcd700c",
+    "H0_CFD_002_Dynamic_Report.txt": "16216ae00316cfc98184a9608d03a8eec8e382c4146bfcf082c7d1c472a77df4",
+    "H0_CFD_002_Dashboard.png": "4aaa8672bcb684ce67544196edea47ad6d050b5c4d4faec34cd1de0e2c7d4bc7"
+  },
+  "classification": "D \u00e2\u20ac\u201d still migrating toward another equilibrium",
+  "sourceDataPublished": false
+}

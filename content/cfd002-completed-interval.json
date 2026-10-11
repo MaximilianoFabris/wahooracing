@@ -1,0 +1,169 @@
+{
+  "slug": "cfd002-completed-interval",
+  "title": "CFD-002: a completed interval, a moving mean.",
+  "summary": "The first planned dynamic interval completes normally. New heave and pitch peaks reveal oscillation about a shifting mean, while longitudinal stability and damping remain unresolved.",
+  "date": "2026-10-11",
+  "dateLabel": "11 Oct 2026 · review of the completed first interval",
+  "publicationSequence": 1,
+  "revision": "H0-CFD-002 / COMPLETED-INTERVAL REVIEW",
+  "type": "Simulation",
+  "evidence": "Completed simulation interval · stability assessment provisional",
+  "status": "published",
+  "systems": [
+    "hull-hydrodynamics"
+  ],
+  "hero": "engineering/cfd002-completed-interval/motion.svg",
+  "heroAlt": "Accepted heave and absolute pitch histories through tau 0.949985056 seconds with confirmed interpolated extrema.",
+  "heroCaption": "18,801 accepted saved samples; no smoothing. Gold markers are interpolated extrema. Completed first interval, not final validated performance. 20 km/h · free heave + pitch · surge-constrained · no rider / no jet thrust.",
+  "sections": [
+    {
+      "title": "The first planned interval is complete",
+      "text": "H0-CFD-002 completed its first planned dynamic interval normally, with exit code 0. The accepted record ends at τ = 0.949985056 s, just short of the nominal 0.95 s endpoint. Final velocity, pressure, water fraction, moving-mesh points and motion state were present on all four ranks. This completes an interval of the simulation, not the stability assessment."
+    },
+    {
+      "title": "The next peaks are now confirmed",
+      "text": "After the <a href=\"/journal/cfd002-return-motion/\">return-motion snapshot</a>, the trajectory confirms a second pitch maximum of approximately 12.595° bow-up at τ ≈ 0.815485 s and a second heave maximum of approximately +104.081 mm at τ ≈ 0.903241 s. Heave is displacement from the release position; pitch is absolute bow-up attitude. Times and peak quantities are interpolated estimates within saved-step brackets.",
+      "table": {
+        "caption": "Confirmed motion extrema · interpolated estimates, not settled operating values",
+        "headers": [
+          "Motion",
+          "Event",
+          "Estimated τ / s",
+          "Value"
+        ],
+        "rows": [
+          [
+            "Heave",
+            "Minimum",
+            "0.069617",
+            "-3.239 mm"
+          ],
+          [
+            "Heave",
+            "Maximum",
+            "0.438109",
+            "87.747 mm"
+          ],
+          [
+            "Heave",
+            "Minimum",
+            "0.620103",
+            "77.392 mm"
+          ],
+          [
+            "Heave",
+            "Maximum",
+            "0.903241",
+            "104.081 mm"
+          ],
+          [
+            "Pitch",
+            "Maximum",
+            "0.344910",
+            "10.738° bow-up"
+          ],
+          [
+            "Pitch",
+            "Minimum",
+            "0.555737",
+            "10.026° bow-up"
+          ],
+          [
+            "Pitch",
+            "Maximum",
+            "0.815485",
+            "12.595° bow-up"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Oscillation around a shifting mean",
+      "text": "The later reversal region spans approximately +77.39 to +104.08 mm heave and 10.03° to 12.60° bow-up pitch. Heave reversal-pair midpoints move from about 82.57 to 90.74 mm; pitch midpoints move from 10.38° to 11.31°. These shifting centers support classification D: still migrating toward another equilibrium, provisionally. That wording describes observed migration; it does not prove that another equilibrium exists."
+    },
+    {
+      "title": "Why this is not a damping or porpoising verdict",
+      "text": "Coupled heave/pitch oscillation is visible, but sustained self-excited porpoising is unproven. The initial upward heave excursion shrinks while the later pitch swing grows, and their means migrate. There are not enough independent successive complete cycles about a stationary mean to identify a reliable cycle-amplitude ratio or damping coefficient. Observed corresponding-peak intervals near 0.465–0.471 s are candidate cycle lengths, not validated natural periods."
+    },
+    {
+      "title": "The last attitude is still moving",
+      "text": "At the end of the accepted record, vertical velocity is approximately −0.06992 m/s and bow-up pitch rate −12.542°/s: the hull is descending and rotating bow-down. The final-window average force is below board weight and the average pitch moment is bow-down. The last position and the late-window averages therefore cannot be presented as equilibrium running trim.",
+      "table": {
+        "caption": "Time-weighted final-window means · τ = 0.80 to 0.949985056 s · phase-biased transient statistics",
+        "headers": [
+          "Quantity",
+          "Mean"
+        ],
+        "rows": [
+          [
+            "Heave from release",
+            "+102.057 mm"
+          ],
+          [
+            "Absolute bow-up pitch",
+            "12.428°"
+          ],
+          [
+            "Drag",
+            "55.334 N"
+          ],
+          [
+            "Vertical hydrodynamic force",
+            "152.474 N"
+          ],
+          [
+            "Board weight",
+            "178.518339 N"
+          ],
+          [
+            "Pitch moment at instantaneous CG",
+            "−2.715 N·m · bow-down"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "What the field views show",
+      "text": "The gallery uses actual final saved CFD fields: the α.water = 0.5 free surface, hull pressure with the case pressure reference, and a y = 0 velocity-magnitude wake slice. They are qualitative single-time views. They do not establish wake convergence, cavitation, ventilation or physical-test performance. The full engineering dashboard retains the force, moment and rate histories."
+    },
+    {
+      "title": "One accepted trajectory, with explicit limits",
+      "text": "The analysis retains 18,801 synchronized motion, force and moment samples and excludes 813 samples from the abandoned original branch. The first saved dynamic sample is at τ = 0.000085324 s; the known release position is not an invented force sample. Crossings use saved brackets and sign persistence, with local chatter assessed separately. No numerical invalidity was observed in the reviewed record, but normal completion is not mesh or time-step convergence validation. The model is at the 20 km/h boundary-speed condition with free heave and pitch, constrained surge and the other rigid-body motions, no rider and no jet thrust."
+    },
+    {
+      "title": "Keep H0 as the comparison baseline",
+      "text": "The present evidence supports retaining H0 provisionally for comparison, rather than declaring it stability-approved or selecting a Rhino geometry correction. More simulated time is needed to see whether the mean and amplitude settle. The post-processing report recommends τ = 2.50 s for a longer assessment; the subsequent authorized next endpoint is τ = 1.50 s. Those are distinct: a recommendation and the next approved interval. This article reports only the completed 0.949985056 s record and makes no claim about extension results."
+    }
+  ],
+  "galleryTitle": "Actual final saved fields",
+  "gallery": [
+    {
+      "image": "engineering/cfd002-completed-interval/Free_surface.png",
+      "caption": "Final saved α.water = 0.5 free surface · qualitative snapshot."
+    },
+    {
+      "image": "engineering/cfd002-completed-interval/Hull_pressure.png",
+      "caption": "Final saved hull pressure · case pressure reference retained."
+    },
+    {
+      "image": "engineering/cfd002-completed-interval/Wake.png",
+      "caption": "Final saved y = 0 velocity-magnitude wake slice · no convergence claim."
+    }
+  ],
+  "downloadsTitle": "Inspect the engineering dashboard",
+  "downloadsIntro": "Dashboard of the completed first interval, including saved-field views and transient histories.",
+  "downloads": [
+    {
+      "file": "engineering/cfd002-completed-interval/H0_CFD_002_Dashboard.png",
+      "label": "Full engineering dashboard · PNG"
+    }
+  ],
+  "sources": [
+    "H0_CFD_002_Dynamic_Report.txt and Dynamic_Analysis.json · completed accepted interval through τ = 0.949985056 s",
+    "Accepted_Data.json · 18,801 synchronized samples; 813 abandoned-branch samples excluded",
+    "Final four-rank fields and supervision completion record · normal End and exit code 0",
+    "Final saved-field dashboard and render outputs · archived and SHA-256 verified",
+    "Hull Design instructions · completed-interval post-processing and subsequent authorized τ = 1.50 s extension"
+  ],
+  "changes": "Adds a dated completed-interval follow-up while retaining earlier snapshots. Reports simulation progress without declaring final trim, damping, stability or performance. No solver, CAD, numerical settings or engineering inputs were changed by website publication."
+}
