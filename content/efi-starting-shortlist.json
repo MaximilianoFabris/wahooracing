@@ -1,0 +1,142 @@
+{
+  "slug": "efi-starting-shortlist",
+  "title": "EFI: a starting direction and a component shortlist.",
+  "summary": "Intake injection, MaxxECU SPORT and a Bosch EV14-family injector define the working direction. The throttle body, pump, regulator and calibration shortlist now records supplier references and the interfaces still to verify.",
+  "date": "2026-10-12",
+  "dateLabel": "12 Oct 2026 · EFI sourcing and decision review",
+  "publicationSequence": 2,
+  "revision": "WHE-FUEL-001 / WHE-HW-001 / REV01",
+  "type": "Engineering study",
+  "evidence": "Provisional shortlist · compatibility and calibration pending",
+  "status": "published",
+  "systems": [
+    "engine",
+    "fuel-injection",
+    "air-intake",
+    "controls"
+  ],
+  "hero": "engineering/efi-starting-shortlist.svg",
+  "heroAlt": "Functional EFI candidate schematic showing tank, pump and filter, pressure regulation, intake injector and MaxxECU commissioning.",
+  "heroCaption": "Functional relationships only. Filter, pressure reference, return arrangement, rail, wiring and installed component layout remain unresolved. No purchased or validated complete EFI system is claimed.",
+  "sections": [
+    {
+      "title": "The decisions we can carry forward",
+      "text": "The working EFI direction is intake injection, retaining MaxxECU SPORT as the provisional engine-management candidate and investigating the Bosch EV14 family. The founder has recorded a preference to avoid JETSURF components for EFI and starter sourcing. The throttle body, pump, regulator and commissioning/calibration service are now explicit sourcing items. None is recorded as purchased, and the board supply voltage is still unselected."
+    },
+    {
+      "title": "A shortlist, not a complete matched kit",
+      "text": "The table preserves the saved WHE-FUEL-001 shortlist and its open interfaces. Individually available parts do not establish compatibility when assembled together.",
+      "table": {
+        "caption": "EFI development candidates · shortlisted, compatibility to verify, not purchased",
+        "headers": [
+          "Function",
+          "Candidate",
+          "Published reference / open decision"
+        ],
+        "rows": [
+          [
+            "Engine management",
+            "MaxxECU SPORT + MTune",
+            "Existing provisional direction; custom two-stroke commissioning required"
+          ],
+          [
+            "Intake injector",
+            "Bosch EV14 Compact family",
+            "Exact flow, spray, mounting length and part number remain open"
+          ],
+          [
+            "Throttle body",
+            "Ecotrons/EcoEFI 34 mm UAV body; compare 28 mm",
+            "34 mm: 62 mm length, 265 g; 28 mm: 35 mm length, 110 g; optional TPS"
+          ],
+          [
+            "Fuel pump",
+            "EcoEFI EFP-25A; compare EFP-45R",
+            "EFP-25A listed 12 V, 25 L/h, 300 kPa, under 2.5 A"
+          ],
+          [
+            "Regulation",
+            "Ecotrons 3 bar regulator; Aeromotive 13105 alternative",
+            "Ecotrons standalone part/size unconfirmed; Aeromotive adjustable 30–70 psi"
+          ],
+          [
+            "Calibration service",
+            "Two-stroke specialist using MaxxECU/MTune",
+            "Engine-dyno access, relevant experience and scope to confirm"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Choose the injector variant, not just the family",
+      "text": "<a href=\"https://www.bosch-motorsport.com/products/fuel-and-spark/injection-valves/injection-valve-ev-14/\">Bosch’s EV14 specifications</a> list compact, standard and long housings, with installation lengths of 33.6, 48.65 and 60.65 mm and weight up to 30 g. Installation length is not overall length; connector, fuel connection and removal space must also be reserved. EV14 Compact is the preferred family to investigate, not a selected flow rating. Exact spray direction, flow at the intended pressure, impedance, voltage-dependent dead time and short-pulse behaviour must match the engine and driver. Family-level ratings and n-heptane flow figures are not Wahoo fuel-demand measurements."
+    },
+    {
+      "title": "Compare the throttle body and fuel supply together",
+      "text": "<a href=\"https://ecotrons.com/components/tb/ecotrons-uav-engine-efi-34mm-throttle-body/\">EcoEFI’s throttle-body table</a> provides the 28/34 mm dimensional references above; neither bore is yet sized for Wahoo airflow. Injector seat, fuel rail, TPS and throttle mechanism need checking against the selected intake. <a href=\"https://ecotrons.com/components/fuel-pump-assembly/\">The pump listing</a> identifies EFP-25A’s 25 L/h and 300 kPa references and the 45 L/h EFP-45R comparison. We still need delivery curves at minimum supply voltage and hot fuel, demand margin, fuel/oil compatibility, filter loss and service dimensions. <a href=\"https://ecotrons.com/small_engine_fuel_injection_kit/\">The small-engine kit listing</a> includes a 3 bar regulator, but its exact separately supplied part remains unresolved. <a href=\"https://aeromotiveinc.com/products/compact-efi-regulator\">Aeromotive 13105</a> offers 30–70 psi adjustment as a bench alternative; that range alone does not establish suitable hull packaging or a complete fuel-pressure design."
+    },
+    {
+      "title": "Calibration is an engineering service",
+      "text": "<a href=\"https://www.maxxecu.com/webhelp/settings-fuel-fuel_inj_general.html\">MaxxECU documents a Sequential 360 two-stroke injection mode</a>, which supports investigating this route. It does not supply a Wahoo map or prove suitability at the eventual operating speed. We need a tuner experienced with single-cylinder two-strokes, an appropriate engine-dyno fixture, validated trigger and ignition interfaces, exact injector data and a coordinated oil strategy. Starting, warm-up, acceleration and operation under pump load require calibration and measurement. Intake and exhaust changes may require another tune. The <a href=\"https://www.maxxecu.com/products/sport\">MaxxECU SPORT hardware reference</a> remains part of the separate electronics chapter; board power, stop controls and harness protection must be coordinated with it."
+    },
+    {
+      "title": "Break the dependency loop with explicit inputs",
+      "text": "We can request current supplier drawings, calibration data and quotations while defining the engine requirements. Target power and fuel demand are needed to size the injector and pump; pressure/reference choice affects both delivery and injector flow. Supply voltage affects the ECU, injector driver and pump. Airflow and intake interfaces inform throttle bore and mounting. Those choices can become controlled provisional assumptions for a bench prototype, then be checked through supplier confirmation and tests. Missing values should not be replaced by an arbitrary part specification.",
+      "table": {
+        "caption": "Inputs that unlock the next sourcing step",
+        "headers": [
+          "Needed input",
+          "Where it should come from",
+          "Selection it informs"
+        ],
+        "rows": [
+          [
+            "Power/RPM/load targets",
+            "Project requirements and a verified pump load map",
+            "Fuel demand and operating injection window"
+          ],
+          [
+            "Cylinder and intake interfaces",
+            "Supplier drawings, port map and measured reference parts",
+            "Injector placement and throttle-body connection"
+          ],
+          [
+            "Injector dynamic data",
+            "Exact Bosch variant documentation and characterization",
+            "Driver, pulse width and fuel map"
+          ],
+          [
+            "Pressure/flow and compatibility",
+            "Pump/regulator suppliers plus fuel-system bench tests",
+            "Pump, regulator, filter and return capacity"
+          ],
+          [
+            "Electrical supply and power budget",
+            "Electronics requirements and battery/charging design",
+            "ECU feed, pump supply and harness"
+          ],
+          [
+            "Calibration capability",
+            "Confirmed two-stroke tuner and engine-dyno provider",
+            "Commissioning plan and validation scope"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Package the complete installation",
+      "text": "The system also needs a suitable filter, pickup, hoses, return arrangement if used, injector mounting, seals, connectors and service access. Sensor, crank-trigger, ignition, lubrication and stop interfaces must be coordinated with the EMS/VCS records. The <a href=\"/journal/engine-service-access-layout/\">Rev06 tank-removal requirement</a> applies to the fuel layout: pump, filter and hose placement must not block extraction. No current CAD envelope establishes these installation details."
+    },
+    {
+      "title": "Preserve alternatives and the next decision",
+      "text": "Ecotrons remains an alternative small-engine kit route to investigate, but a generic kit’s engine-capacity category or self-tuning description does not establish support for this custom two-stroke. Confirm its current two-stroke BOM, software, high-speed capability and support directly. The next gate is an exact injector variant and documented compatibility between the throttle body, fuel supply, electronics and commissioning plan. No suppliers have been commissioned or purchases recorded in the reviewed shortlist."
+    }
+  ],
+  "sources": [
+    "Engine System Design · 12 October 2026 · founder requests and acceptance of EFI sourcing shortlist; preference to avoid JETSURF components",
+    "WHE-FUEL-001 Rev01 COMPONENTS_TO_FIND.csv · candidate list and unresolved interfaces",
+    "WHE-HW-001 Rev01 EFI_STARTER_SHORTLIST.txt · existing electronics direction, sizing inputs and alternative kit limitations",
+    "Manufacturer pages checked 12 October 2026: Bosch EV14, EcoEFI throttle bodies and pumps, Ecotrons kit, Aeromotive 13105, MaxxECU SPORT and injection-mode documentation"
+  ],
+  "changes": "Publishes the agreed EFI starting direction and candidates. Source specifications are distinguished from Wahoo design requirements. Exact part selection, board voltage, installation, calibration and validation remain open. No purchases, supplier messages, source CAD or active CFD changes were made by this publication."
+}
