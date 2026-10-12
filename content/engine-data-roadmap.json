@@ -1,0 +1,157 @@
+{
+  "id": "WHE-PLAN-001",
+  "revision": "Website Rev01",
+  "sourceRevision": "Rev01",
+  "updated": "2026-10-12",
+  "title": "Wahoo Engine Data and Procurement Roadmap",
+  "stages": [
+    {
+      "id": "engine-stage-1",
+      "title": "1. Requirements",
+      "dataNeeded": "Rider/board mass range, speed and acceleration goals, runtime, duty cycle, fuel, mass/budget limits and service access",
+      "source": "Max’s requirements; hull and propulsion chapters; weighed components; inner-hull and hatch measurements",
+      "unlocks": "A design brief and target operating envelope",
+      "status": "Open",
+      "currentEvidence": "Targets, duty cycle and usable inner hull still need a controlled brief.",
+      "nextAction": "Record the board and engine target envelope.",
+      "evidenceRequired": "Source document or measurement with units, part/revision, date, uncertainty and a recorded review.",
+      "updates": []
+    },
+    {
+      "id": "engine-stage-2",
+      "title": "2. Reference interfaces",
+      "dataNeeded": "Piston crown/height/ring pins/clearance; crank journals/webs/ends/bearings; pump shaft, coupling and torque-versus-rpm load",
+      "source": "Wössner drawings and clearance instructions; verified sample parts and metrology; pump supplier data or instrumented pump test",
+      "unlocks": "Physical datums, cylinder compatibility, crankcase interfaces and approximate power demand",
+      "status": "Provisional",
+      "currentEvidence": "Piston/crank references selected, not purchased; full interfaces and pump curve are missing.",
+      "nextAction": "Obtain pump torque/power-versus-RPM curve and piston/crank installation drawings.",
+      "evidenceRequired": "Source document or measurement with units, part/revision, date, uncertainty and a recorded review.",
+      "updates": []
+    },
+    {
+      "id": "engine-stage-3",
+      "title": "3. Engine baseline",
+      "dataNeeded": "Donor/adapted versus custom cylinder; port heights/widths/angles and timing, transfer passages, exhaust outlet direction, piston-to-port clearance; head squish/chamber volume; reed/intake layout; crankcase volume, lubrication and mechanical design",
+      "source": "Explicit design choices; matching-year Yamaha manual as an OEM reference; measured donor cylinder/head; engine designer; piston/crank drawings and samples",
+      "unlocks": "A dimensioned engine specification for prediction and CAD",
+      "status": "Provisional",
+      "currentEvidence": "Nominal kinematics exist; cylinder, ports and head are not defined.",
+      "nextAction": "Choose a measured donor cylinder/head benchmark or a deliberately designed custom baseline.",
+      "evidenceRequired": "Source document or measurement with units, part/revision, date, uncertainty and a recorded review.",
+      "updates": []
+    },
+    {
+      "id": "engine-stage-4",
+      "title": "4. Predict loads",
+      "dataNeeded": "Torque/power curve, airflow, fuel demand, injection window, pumping/scavenging losses, heat rejection and starting torque estimate",
+      "source": "Kinematic and gas-dynamic models; pump load curve; benchmark test data; bounded fuel-consumption and thermal assumptions",
+      "unlocks": "Provisional component sizes with margins and stated uncertainty",
+      "status": "Open",
+      "currentEvidence": "Power/RPM references remain provisional; verified pump load is missing.",
+      "nextAction": "Calculate bounded loads from the controlled engine and pump inputs.",
+      "evidenceRequired": "Source document or measurement with units, part/revision, date, uncertainty and a recorded review.",
+      "updates": []
+    },
+    {
+      "id": "engine-stage-5",
+      "title": "5A. Exhaust",
+      "dataNeeded": "Port area/duration, target power band, gas-temperature range, outlet flange and straight aft space",
+      "source": "Step 3 engine specification; Step 4 models; hull measurements; later thermocouple/dyno data",
+      "unlocks": "Engine-matched pipe design, fabrication drawings and water/heat protection layout",
+      "status": "Provisional",
+      "currentEvidence": "Straight internal-stinger direction recorded; dimensions and tuning unqualified.",
+      "nextAction": "Match the straight pipe to engine port, speed and thermal data.",
+      "evidenceRequired": "Source document or measurement with units, part/revision, date, uncertainty and a recorded review.",
+      "updates": []
+    },
+    {
+      "id": "engine-stage-6",
+      "title": "5B. EFI",
+      "dataNeeded": "Injector flow, spray and dead-time data; throttle bore/TPS/mount; pump delivery curve; regulator range/reference; filters, rail, hoses and return",
+      "source": "Bosch exact-part datasheet/bench test; EcoEFI or other supplier drawings/curves; Steps 3–4 fuel/air requirements",
+      "unlocks": "Exact injector, throttle body, pump and regulator candidates and fuel-system BOM",
+      "status": "Provisional",
+      "currentEvidence": "EFI shortlist recorded; exact variants and compatibility unresolved.",
+      "nextAction": "Confirm exact injector/TB/pump/regulator drawings, curves and driver interfaces.",
+      "evidenceRequired": "Source document or measurement with units, part/revision, date, uncertainty and a recorded review.",
+      "updates": []
+    },
+    {
+      "id": "engine-stage-7",
+      "title": "5C. Supporting systems",
+      "dataNeeded": "Cranking speed/peak torque, motor/reduction/freewheel; flywheel inertia/trigger; battery voltage and peak/continuous loads; cooling flow/pressure, jackets and oil strategy",
+      "source": "Initial compression/friction estimates; motor/controller curves; later unfired crank torque test; electrical and cooling chapters; coolant/pump measurements",
+      "unlocks": "Starter/drive, flywheel, power system, cooling and lubrication selections",
+      "status": "Provisional",
+      "currentEvidence": "Starter position retained; voltage, torque, drive and cooling data unresolved.",
+      "nextAction": "Resolve voltage/current budget, starter drive, cooling and lubrication inputs.",
+      "evidenceRequired": "Source document or measurement with units, part/revision, date, uncertainty and a recorded review.",
+      "updates": []
+    },
+    {
+      "id": "engine-stage-8",
+      "title": "6. Integration",
+      "dataNeeded": "Actual part envelopes, stack-ups/fits, ring/port clearance, mounts, coupling loads, inner hull/hatch clearance, tank removal, mass/CG, heat and water exposure",
+      "source": "Supplier CAD; measured parts; Rhino assembly; structural/thermal checks; physical mock-up",
+      "unlocks": "Prototype machining drawings and a reviewed purchase list",
+      "status": "Provisional",
+      "currentEvidence": "Rev06 layout accepted; extraction, interior clearances and mass/CG unverified.",
+      "nextAction": "Verify inner hull, assembly stack-ups and the tank extraction sweep.",
+      "evidenceRequired": "Source document or measurement with units, part/revision, date, uncertainty and a recorded review.",
+      "updates": []
+    },
+    {
+      "id": "engine-stage-9",
+      "title": "7. Test and calibrate",
+      "dataNeeded": "Actual compression/leakage, torque/power/fuel use, fuel pressure, injector behavior, temperatures, cooling, starting current and vibration",
+      "source": "Instrumented engine bench/dyno; ECU logs; metrology; pump-load and subsequent controlled installed-system tests",
+      "unlocks": "Corrected fuel/ignition/injection maps, validated hardware and model parameters",
+      "status": "Open",
+      "currentEvidence": "No accepted engine-dyno results or calibrated map recorded.",
+      "nextAction": "Arrange instrumentation and appropriate engine-dyno commissioning.",
+      "evidenceRequired": "Source document or measurement with units, part/revision, date, uncertainty and a recorded review.",
+      "updates": []
+    },
+    {
+      "id": "engine-stage-10",
+      "title": "8. Release",
+      "dataNeeded": "Final part numbers, materials/tolerances, suppliers, fabrication/assembly steps, service procedures and accepted operating limits",
+      "source": "Verified Step 6 drawings plus Step 7 test evidence",
+      "unlocks": "Build/buy package and a digital twin with a stated validated range",
+      "status": "Open",
+      "currentEvidence": "Final operating limits and production part list not released.",
+      "nextAction": "Release only against accepted drawings and test evidence.",
+      "evidenceRequired": "Source document or measurement with units, part/revision, date, uncertainty and a recorded review.",
+      "updates": []
+    }
+  ],
+  "purchaseGates": [
+    {
+      "title": "Reference hardware",
+      "scope": "One verified piston kit, selected crank assembly or measured donor top end",
+      "evidence": "Exact identity, compatibility review, dimensions plan and budget; parts purchased to unlock geometry, not a full-system approval"
+    },
+    {
+      "title": "Development hardware",
+      "scope": "Adjustable bench fuel system, candidate injector/TB, ECU and instrumentation",
+      "evidence": "Provisional load/pressure/voltage ranges, driver compatibility, sizing margins and current drawings; configure final part choices after tests"
+    },
+    {
+      "title": "Custom prototype",
+      "scope": "Cylinder, head, crankcase, pipe, mounts and coupling",
+      "evidence": "Reviewed geometry, materials/fits, port/ring checks, supplier instructions and assembly/tolerance review"
+    },
+    {
+      "title": "Production system",
+      "scope": "Final quantities and repeat-build hardware",
+      "evidence": "Accepted tests and frozen part numbers, drawings, calibration and operating limits"
+    }
+  ],
+  "updateHistory": [
+    {
+      "date": "2026-10-12",
+      "change": "Initial website task register from WHE-PLAN-001 Rev01. No acquisition or verification gates marked complete."
+    }
+  ]
+}
