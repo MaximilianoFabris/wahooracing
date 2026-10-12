@@ -1,0 +1,65 @@
+{
+  "slug": "engine-service-access-layout",
+  "title": "Service access reshapes the engine layout.",
+  "summary": "Rev06 retains the starter position and moves the tank, battery and ECU to pursue tank removal without engine dismantling. The raised-starter experiment is preserved, and extraction, hull clearance and balance remain to be verified.",
+  "date": "2026-10-12",
+  "dateLabel": "12 Oct 2026 · journal review of the 10 October layout decision",
+  "publicationSequence": 1,
+  "revision": "WHE-CAD-001 / REV04 → REV05 → REV06",
+  "type": "Engineering study",
+  "evidence": "Accepted layout direction · service and fit checks pending",
+  "status": "published",
+  "systems": [
+    "engine",
+    "fuel-injection",
+    "controls",
+    "manufacturing"
+  ],
+  "hero": "engineering/engine-service-layout-rev06.svg",
+  "heroAlt": "Decision schematic: starter remains at Rev04, tank moves to the opposite side, battery and ECU move to the previous tank area.",
+  "heroCaption": "Decision schematic only, not to scale. Component labels describe the accepted relocation; no hull geometry, clearances or tank-removal sweep are represented.",
+  "sections": [
+    {
+      "title": "Service access becomes a requirement",
+      "text": "The fuel tank must be removable without dismantling the complete engine. The latest layout study turns that goal into a recorded packaging requirement: a part fitting within the outer hull is not enough if it cannot be disconnected, lifted and extracted through the hatch."
+    },
+    {
+      "title": "The raised starter proposal was tested and set aside",
+      "text": "Rev05 explored moving the starter above the reed valve and intake to open a tank-removal path. With the provisional motor and gearbox envelopes, the height check reported the motor about 15–22 mm above the outer hull and the gearbox about 32–35 mm above it. These are concept-envelope conflicts, not manufactured-part tolerances. The founder set aside the raised arrangement; Rev05 remains part of the development history."
+    },
+    {
+      "title": "Rev06 keeps the starter and swaps the supporting systems",
+      "text": "The accepted Rev06 layout retains the starter exactly at its Rev04 position. The tank moves to the opposite side of the hull, while the battery and ECU move into the former tank area. This is the current layout baseline for further checks; it does not establish that tank removal is already possible."
+    },
+    {
+      "title": "What changed in the model",
+      "text": "Each relocated reference was translated to the reflected centre position about the longitudinal centre plane. Its shape, height and longitudinal station were retained provisionally. The verification record reports no mutual bounding-box overlaps among the relocated tank, battery and ECU, and verifies the other geometry remained unchanged. Bounding-box separation does not establish inner-hull clearance, mount fit, routing or an extraction path."
+    },
+    {
+      "title": "Next: prove the removal path",
+      "text": "The next review needs the usable inner hull, laminate thickness, hatch opening and a swept tank-removal path. Mounts, fuel connections, electrical cables and hoses must allow safe disconnection and access. Tank orientation during extraction, tool space and service sequence need checking before serviceability can be claimed."
+    },
+    {
+      "title": "Recheck balance and the straight exhaust interface",
+      "text": "Moving the tank, battery and ECU changes their lateral mass placement, so mass and centre of gravity must be recalculated with credible component masses and fuel states. Fuel/electrical routing and mounts remain open. The separately accepted <a href=\"/journal/exhaust-internal-stinger-variant/\">straight internal-stinger exhaust requirement</a> must be reconciled with the engine outlet and actual hull envelope; the earlier exhaust and mount-fit issues are not resolved by this component swap."
+    },
+    {
+      "title": "Keep the revision sequence visible",
+      "text": "Rev04 remains the starter-position reference. Rev05 is the superseded raised-starter experiment. Rev06 is the accepted tank/battery/ECU relocation baseline, with tank extraction, interior fit and balance still unverified. The <a href=\"/journal/engine-exhaust-layout-direction/\">earlier assembly and routing study</a> remains available for comparison. This journal record documents the decision rather than declaring a finished installed engine."
+    }
+  ],
+  "galleryTitle": "Archived Rev06 reference-bounds preview",
+  "gallery": [
+    {
+      "image": "engineering/engine-layout-rev06-transparent.png",
+      "caption": "Unchanged transparent preview from the archived Rev06 package. Plan view, bow right. Filled boxes show relocated references; outlines show previous positions and engine bounds. Schematic bounding boxes, not CAD surfaces or proven interior fit. Earlier exhaust envelopes remain unresolved."
+    }
+  ],
+  "sources": [
+    "Engine System Design · founder acceptance of Rev06, 10 October 2026",
+    "WHE-CAD-001 Rev06 · LAYOUT_VERIFICATION.json and START_HERE.txt · translated references, unchanged starter geometry and remaining checks",
+    "Rev05 starter-height review · provisional motor and gearbox envelope conflicts",
+    "Latest straight-exhaust requirement · Exhaust Pipe Design, 10 October 2026"
+  ],
+  "changes": "Publishes the previously unrecorded Rev05/Rev06 service-access decision sequence. Study date and journal review date are distinguished. Native CAD, source geometry and active CFD were not modified; engineering source files remain in the permanent archive."
+}
