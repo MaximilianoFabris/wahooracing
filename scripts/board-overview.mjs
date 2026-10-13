@@ -6,7 +6,7 @@ const groups=[
  ['Dimensions',[
  ['Length','1,650–1,750 mm (target)','hull'],['Width','550–600 mm (target)','hull'],['Height','250–300 mm (target)','hull'],['Dry weight','17 kg (target)','hull'],['Maximum load','120 kg (target)','hull'],['Fuel capacity','3 L','fuel'],['Hull material','Carbon Fiber','hull'],['Bindings','Footpads / Straps · Goofy and Regular','rider']]],
  ['Engine',[
- ['Type','Horizontal single-cylinder 2-stroke','engine'],['Displacement','124.817 cc · nominal 125 cc','engine'],['Bore × stroke','54.00 × 54.50 mm','engine'],['Fuel','Unleaded 95 + full synthetic 2 stroke racing oil','fuel'],['Fuel delivery','EFI · intake injection working direction','fuel'],['Exhaust','Tuned pipe · geometry TBD','exhaust'],['Top speed','75 km/h / 46.6 mph (target)','hull']]],
+ ['Type','Horizontal single-cylinder 2-stroke','engine'],['Displacement','124.8 cc · nominal 125 cc','engine'],['Bore × stroke','54.00 × 54.50 mm','engine'],['Fuel','Fuel / lubrication strategy under review','fuel'],['Fuel delivery','EFI · intake injection working direction','fuel'],['Exhaust','Tuned pipe · geometry TBD','exhaust'],['Top speed','75 km/h / 46.6 mph · unvalidated development ambition','hull']]],
  ['Drive unit',[
  ['Propulsion','Waterjet','pump'],['Drive ratio','To be confirmed','pump'],['Impeller diameter','70 mm · WJ70-C01 concept','pump'],['Rotor blades','3 · WJ70-C01 concept','pump'],['Impeller pitch','TBD · not released','pump'],['Stator vanes','5 · WJ70-C01 concept','pump'],['Liner bore','70.6 mm · proposed','pump'],['Nozzle outlet','48 mm · proposed','pump']]],
  ['Electrical',[

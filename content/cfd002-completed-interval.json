@@ -13,12 +13,12 @@
     "hull-hydrodynamics"
   ],
   "hero": "engineering/cfd002-completed-interval/motion.svg",
-  "heroAlt": "Accepted heave and absolute pitch histories through tau 0.949985056 seconds with confirmed interpolated extrema.",
+  "heroAlt": "Accepted heave and absolute pitch histories through tau approximately 0.95 seconds with confirmed interpolated extrema.",
   "heroCaption": "18,801 accepted saved samples; no smoothing. Gold markers are interpolated extrema. Completed first interval, not final validated performance. 20 km/h · free heave + pitch · surge-constrained · no rider / no jet thrust.",
   "sections": [
     {
       "title": "The first planned interval is complete",
-      "text": "H0-CFD-002 completed its first planned dynamic interval normally, with exit code 0. The accepted record ends at τ = 0.949985056 s, just short of the nominal 0.95 s endpoint. Final velocity, pressure, water fraction, moving-mesh points and motion state were present on all four ranks. This completes an interval of the simulation, not the stability assessment."
+      "text": "H0-CFD-002 completed its first planned dynamic interval normally, with exit code 0. The accepted record covers approximately 0.95 simulated seconds. The exact saved endpoint is retained in the source record. Final velocity, pressure, water fraction, moving-mesh points and motion state were present on all four ranks. This completes an interval of the simulation, not the stability assessment."
     },
     {
       "title": "The next peaks are now confirmed",
@@ -132,7 +132,7 @@
     },
     {
       "title": "Keep H0 as the comparison baseline",
-      "text": "The present evidence supports retaining H0 provisionally for comparison, rather than declaring it stability-approved or selecting a Rhino geometry correction. More simulated time is needed to see whether the mean and amplitude settle. The post-processing report recommends τ = 2.50 s for a longer assessment; the subsequent authorized next endpoint is τ = 1.50 s. Those are distinct: a recommendation and the next approved interval. This article reports only the completed 0.949985056 s record and makes no claim about extension results."
+      "text": "The present evidence supports retaining H0 provisionally for comparison, rather than declaring it stability-approved or selecting a Rhino geometry correction. More simulated time is needed to see whether the mean and amplitude settle. The post-processing report recommends τ = 2.50 s for a longer assessment; the subsequent authorized next endpoint is τ = 1.50 s. Those are distinct: a recommendation and the next approved interval. This article reports only the completed first interval of approximately 0.95 s and makes no claim about extension results."
     }
   ],
   "galleryTitle": "Actual final saved fields",

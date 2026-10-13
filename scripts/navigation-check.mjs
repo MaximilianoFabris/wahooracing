@@ -35,5 +35,5 @@ for(const [,slugs] of readingGroups)for(let i=0;i<slugs.length;i++){
   if(i<slugs.length-1&&!nav.includes('/journal/'+slugs[i+1]+'/'))throw Error('Missing next study: '+slugs[i]);
 }
 const back=await readFile(new URL('back/index.html',root),'utf8');
-if((back.match(/href="mailto:contact@wahooracing.com\?subject=/g)||[]).length!==3)throw Error('Missing enquiry actions');
-console.log(`Passed ${checked} section pages: section boundaries, shared studies, Home exits, consistent reading order and three contact actions.`);
+if((back.match(/href="mailto:contact@wahooracing.com\?subject=/g)||[]).length!==1)throw Error('Missing community enquiry action');
+console.log(`Passed ${checked} section pages: section boundaries, shared studies, Home exits, consistent reading order and the community contact action.`);

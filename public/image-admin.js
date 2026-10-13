@@ -8,6 +8,7 @@ async function request(url,options){const res=await fetch(url,options);const dat
 let queue=Promise.resolve(),pending=0;
 async function start(){
  publish.hidden=!local;
+ status.textContent=local?'Local editor · drop an image to save it':'Read-only catalogue · image changes require the local manager';
  const entries=await request('/image-catalog.json'),groups=new Map();
  entries.sort((a,b)=>(a.page===b.page?0:a.page==='/'?-1:b.page==='/'?1:a.page.localeCompare(b.page)));
  for(const entry of entries){
