@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-13",
+  "samples": 29908,
+  "endTau": 1.499980918532212,
+  "sourceHashes": {
+    "Accepted_Data.json": "7afdf41fdf80d004335cf2623063d7fbe00ddc32c672fccb116d988f077fade1",
+    "Dynamic_Analysis.json": "df550394ebcf33fc191da1c0772624c8b2b4a6e00e467b41c7ce7499f2fcb2fa",
+    "Completion_Verification.json": "ecc7e201bffc249399ea7d5dc0a0e5e0ec9b438482a85ad18917882f6ba6780b",
+    "H0_CFD_002_Extension_150_Report.txt": "84585142560b7868542cf3f910a6a42de43e606b8839f2b94f777055c3ac82d4"
+  },
+  "privateSourceDataPublished": false
+}

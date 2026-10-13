@@ -1,0 +1,148 @@
+{
+  "slug": "cfd002-extension-complete",
+  "title": "CFD-002: the longer run, and the next question.",
+  "summary": "The extension to approximately 1.50 simulated seconds completes normally. A lower pitch peak adds useful evidence, while the moving mean and unfinished heave rebound leave stability and damping unresolved.",
+  "date": "2026-10-13",
+  "dateLabel": "13 Oct 2026 · completed extension review",
+  "publicationSequence": 1,
+  "revision": "H0-CFD-002 / EXTENSION TO 1.50 s",
+  "type": "Simulation",
+  "evidence": "Completed extension · dynamic classification provisional",
+  "status": "published",
+  "systems": [
+    "hull-hydrodynamics"
+  ],
+  "hero": "engineering/cfd002-extension150/motion.svg",
+  "heroAlt": "Accepted heave and absolute pitch histories through approximately 1.50 simulated seconds, showing the new extrema and unfinished heave rebound.",
+  "heroCaption": "29,908 accepted saved samples, no smoothing. Gold markers identify interpolated extrema; the dashed line marks the previous interval endpoint. 20 km/h · free heave + pitch · surge-constrained · no rider / no jet thrust.",
+  "sections": [
+    {
+      "title": "The extension is complete",
+      "text": "The authorized extension completed normally at approximately τ = 1.50 s, with exit code 0 and a normal end in the solver log. All four ranks exited, and the final checkpoint contained the required motion state, moving-mesh points and flow fields. The extension took approximately 53.6 hours of computing time. Simulated time and computing time describe different things."
+    },
+    {
+      "title": "Three new motion turning points",
+      "text": "Following the <a href=\"/journal/cfd002-completed-interval/\">completed first interval</a>, the accepted history confirms a new pitch minimum near 9.241° bow-up, a heave minimum near +68.551 mm and a later pitch maximum near 11.616°. Heave then rises to +95.910 mm at the endpoint, with positive vertical velocity; that final position is not a confirmed maximum. Positive heave is displacement from release, and pitch is absolute bow-up attitude.",
+      "table": {
+        "caption": "New confirmed extrema · interpolated estimates and saved-step brackets",
+        "headers": [
+          "Motion",
+          "Event",
+          "Estimated τ / s",
+          "Value",
+          "Saved τ bracket / s"
+        ],
+        "rows": [
+          [
+            "Heave",
+            "Minimum",
+            "1.240048",
+            "68.551 mm",
+            "1.240043219–1.240076457"
+          ],
+          [
+            "Pitch",
+            "Minimum",
+            "1.179736",
+            "9.24138°",
+            "1.179727309–1.179789547"
+          ],
+          [
+            "Pitch",
+            "Maximum",
+            "1.456621",
+            "11.61577°",
+            "1.456585901–1.456646087"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "A lower pitch peak is encouraging evidence, not a damping verdict",
+      "text": "The new pitch peak is approximately 0.979° below the preceding 12.595° peak. The latest trough-to-peak rebound is about 2.374°, compared with 2.569° previously, giving a descriptive excursion ratio of 0.9243. The peak-to-peak interval is approximately 0.641 s. These comparisons are useful, but the mean attitude is moving and the heave rebound is unfinished. A lower peak or smaller rebound alone does not establish modal damping or settled longitudinal stability."
+    },
+    {
+      "title": "The averages still depend on the window",
+      "text": "The extension’s time-weighted mean is approximately +82.49 mm heave and 10.51° bow-up, while the latest window averages +88.14 mm and 11.36°. The table shows means ± time-weighted standard deviations. These are transient statistics, not equilibrium trim or final resistance figures. Moment is positive bow-up; board weight is 178.518339 N.",
+      "table": {
+        "caption": "Transient time-weighted means ± standard deviations · windows end at the actual final sample",
+        "headers": [
+          "Quantity",
+          "τ 0.95–final",
+          "τ 1.35–final"
+        ],
+        "rows": [
+          [
+            "Heave from release",
+            "82.489 ± 10.508 mm",
+            "88.142 ± 5.709 mm"
+          ],
+          [
+            "Absolute bow-up pitch",
+            "10.511 ± 0.869 °",
+            "11.364 ± 0.283 °"
+          ],
+          [
+            "Drag",
+            "52.559 ± 5.801 N",
+            "52.246 ± 6.643 N"
+          ],
+          [
+            "Vertical hydrodynamic force",
+            "182.070 ± 24.061 N",
+            "167.077 ± 20.694 N"
+          ],
+          [
+            "Pitch moment at instantaneous CG",
+            "0.369 ± 6.906 N·m",
+            "-3.128 ± 6.714 N·m"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "What the longer trajectory establishes",
+      "text": "The analysis retains provisional classification D: still migrating toward another equilibrium. Coupled heave/pitch oscillation is evident, but the record does not establish a stable attitude, a persistent limit cycle or sustained growing porpoising. At completion the hull is still rising at approximately +0.03567 m/s while rotating bow-down at approximately −4.992°/s. The two motions have not both settled."
+    },
+    {
+      "title": "The same model, with a longer accepted record",
+      "text": "The review uses 29,908 synchronized accepted samples across five bounded segments, excluding 813 samples from the abandoned original branch. The extension retains the hull, mesh, mass, centre of gravity, inertia and sixDoF configuration; all 31 protected configuration hashes and the authorized control dictionary matched. Turning points are interpolated within saved brackets and confirmed with five consecutive saved samples on each side. The 20 km/h condition remains free heave and free pitch, surge-constrained, with no rider and no jet thrust. Normal completion does not establish mesh/time-step convergence or physical validation."
+    },
+    {
+      "title": "Keep H0 and resolve the next question",
+      "text": "The reviewed recommendation is to retain H0 as a provisional comparison baseline. There is not enough evidence to choose a specific Rhino geometry correction. Further CFD-002 time to τ = 2.50 s is recommended to assess whether the mean and amplitude settle, but requires separate approval. No further run or CFD-003 was launched by the completion review. The earlier interval and interim journal entries remain available as the development history."
+    }
+  ],
+  "galleryTitle": "Actual final saved flow fields",
+  "gallery": [
+    {
+      "image": "engineering/cfd002-extension150/Free_surface.png",
+      "caption": "Final saved free surface at α.water = 0.5. Qualitative snapshot, not physical-test evidence."
+    },
+    {
+      "image": "engineering/cfd002-extension150/Hull_pressure.png",
+      "caption": "Final saved hull pressure, retaining the case pressure reference."
+    },
+    {
+      "image": "engineering/cfd002-extension150/Wake.png",
+      "caption": "Final saved y = 0 velocity-magnitude slice. A single wake view does not establish convergence."
+    }
+  ],
+  "downloadsTitle": "Inspect the completed-extension dashboard",
+  "downloadsIntro": "Full accepted histories, confirmed turns, transient statistics and final saved-field views.",
+  "downloads": [
+    {
+      "file": "engineering/cfd002-extension150/H0_CFD_002_Extension_150_Dashboard.png",
+      "label": "Extension to 1.50 s · engineering dashboard · PNG"
+    }
+  ],
+  "sources": [
+    "H0_CFD_002_Extension_150_Report.txt and Dynamic_Analysis.json · 13 October 2026",
+    "Accepted_Data.json · 29,908 synchronized samples, five bounded segments, abandoned branch excluded",
+    "Completion_Verification.json · four-rank final checkpoint and protected configuration verification",
+    "Exact final τ = 1.499980918532212 s; all window statistics end at that saved sample, with no extrapolation",
+    "Completion monitoring record · 13 Oct 2026, 16:15:49 UTC",
+    "Verified archive: 21 files, 13,933,313 bytes, all SHA-256 hashes matched; local sources retained"
+  ],
+  "changes": "Publishes a completed-extension follow-up with unchanged source field images and a transparent plot of accepted motion samples. Earlier journal records and original post-processing remain preserved. This website publication changed no solver, CAD or engineering inputs."
+}
