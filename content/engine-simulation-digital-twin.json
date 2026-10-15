@@ -1,0 +1,53 @@
+{
+  "slug": "engine-simulation-digital-twin",
+  "title": "Building the engine model, one verified layer at a time.",
+  "summary": "The next step is a Wahoo-specific simulation workflow around EngMod2T, connecting controlled inputs, design comparisons and eventually measured engine data.",
+  "date": "2026-10-15",
+  "dateLabel": "15 Oct 2026 · development review",
+  "publicationSequence": 2,
+  "revision": "DEVELOPMENT UPDATE / 15 OCT 2026",
+  "type": "Engineering study",
+  "evidence": "Simulation architecture decision · validation pending",
+  "status": "published",
+  "systems": [
+    "engine",
+    "exhaust",
+    "controls"
+  ],
+  "hero": "engineering/engine-simulation-workflow.svg",
+  "heroAlt": "Planned simulation workflow. The existing motion model, candidate solver integration and future measured calibration are distinct stages.",
+  "heroCaption": "Planned simulation workflow. The existing motion model, candidate solver integration and future measured calibration are distinct stages.",
+  "sections": [
+    {
+      "title": "A useful simulator before a digital twin",
+      "text": "The existing Wahoo model supports piston motion, geometry calculations and consistency checks. It does not predict a validated running engine. The agreed next direction is to investigate a tailored Wahoo interface around a licensed EngMod2T simulation core, while Rhino remains authoritative for spatial geometry."
+    },
+    {
+      "title": "What the documentation review established",
+      "text": "Static inspection recovered the current help content and inspected readable example model files. It supports investigating port, intake, exhaust, ignition and mixture comparisons, text-based input/output handling and sequential batch studies. A checked partial example-file reader was built. No Wahoo engine-performance simulation was run; installation and trial activation remain pending in the reviewed record."
+    },
+    {
+      "title": "Our straight internal stinger remains the requirement",
+      "text": "The reviewed manuals describe internal-stinger modelling through a computational T-pipe network. That name does not require a physical bend in Wahoo’s straight exhaust. Junction and effective-area mapping still need confirmation against the actual design. Port and scavenging assumptions must be reviewed for the custom engine rather than copied from a supplied example."
+    },
+    {
+      "title": "Keep the boundaries between models",
+      "text": "The documentation does not establish complete ECU firmware emulation, live hardware-in-the-loop behaviour, solved coolant flow or detailed metal temperatures. Prescribed wall temperatures and ignition/mixture inputs are not substitutes for those models. The annular-rim piston also needs an appropriate representation; a generic spherical-dome setting cannot simply be assumed equivalent."
+    },
+    {
+      "title": "The first integration sequence",
+      "text": "Install and activate the offered trial, reproduce a supplied example, then create a controlled Wahoo baseline with source/status and units for each input. Confirm round-trip input handling before generating variants. Start with licensed user-started batch runs; unattended launch/API support remains unconfirmed. Preserve software version, inputs, outputs and run IDs so comparisons are reproducible."
+    },
+    {
+      "title": "A twin has to earn its validation",
+      "text": "Compare port/cylinder and engine-matched exhaust alternatives, then map promising dimensions into Rhino for packaging checks. Bench/dyno measurements must later calibrate and challenge the predictions across operating conditions. Agreement with another simulation alone is not physical validation. Vendor manuals, examples, licence material and private correspondence remain in the engineering archive; this publication shares the Wahoo development plan, not the proprietary software."
+    }
+  ],
+  "sources": [
+    "WHE-EMUL-001 Rev01 ASSESSMENT.txt · static inspection, 14 October 2026",
+    "Engine Emulator · agreed licensed-core and Wahoo-tools approach",
+    "Engine System Design · simulator/Rhino roles and installation sequence",
+    "Current piston crown and cylinder/head requirements; performance inputs remain provisional"
+  ],
+  "changes": "Adds a dated evidence-led follow-up. Previous studies and original sources are retained. No engineering CAD, solver, physics, monitors or vendor software were modified for website publication."
+}

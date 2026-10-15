@@ -1,8 +1,8 @@
 {
   "id": "WHE-PLAN-001",
-  "revision": "Website Rev01",
+  "revision": "Website Rev02",
   "sourceRevision": "Rev01",
-  "updated": "2026-10-12",
+  "updated": "2026-10-15",
   "title": "Wahoo Engine Data and Procurement Roadmap",
   "stages": [
     {
@@ -24,10 +24,15 @@
       "source": "Wössner drawings and clearance instructions; verified sample parts and metrology; pump supplier data or instrumented pump test",
       "unlocks": "Physical datums, cylinder compatibility, crankcase interfaces and approximate power demand",
       "status": "Provisional",
-      "currentEvidence": "Piston/crank references selected, not purchased; full interfaces and pump curve are missing.",
-      "nextAction": "Obtain pump torque/power-versus-RPM curve and piston/crank installation drawings.",
+      "currentEvidence": "Supplier-confirmed external crown and 58.6 mm overall height applied to piston Rev02; pin-to-plane placement, skirt/internal details, crank interfaces and pump load remain open.",
+      "nextAction": "Obtain remaining datum/tolerance, crank installation and pump load data.",
       "evidenceRequired": "Source document or measurement with units, part/revision, date, uncertainty and a recorded review.",
-      "updates": []
+      "updates": [
+        {
+          "date": "2026-10-15",
+          "note": "Supplier-confirmed external crown and 58.6 mm overall height applied to piston Rev02; pin-to-plane placement, skirt/internal details, crank interfaces and pump load remain open."
+        }
+      ]
     },
     {
       "id": "engine-stage-3",
@@ -36,10 +41,15 @@
       "source": "Explicit design choices; matching-year Yamaha manual as an OEM reference; measured donor cylinder/head; engine designer; piston/crank drawings and samples",
       "unlocks": "A dimensioned engine specification for prediction and CAD",
       "status": "Provisional",
-      "currentEvidence": "Nominal kinematics exist; cylinder, ports and head are not defined.",
-      "nextAction": "Choose a measured donor cylinder/head benchmark or a deliberately designed custom baseline.",
+      "currentEvidence": "Custom cylinder/head/crankcase direction recorded; corrected crown and initial requirements exist, but port geometry, squish and cooling are not released.",
+      "nextAction": "Define the custom cylinder/head layout and obtain a measured reference where useful.",
       "evidenceRequired": "Source document or measurement with units, part/revision, date, uncertainty and a recorded review.",
-      "updates": []
+      "updates": [
+        {
+          "date": "2026-10-15",
+          "note": "Custom cylinder/head/crankcase direction recorded; corrected crown and initial requirements exist, but port geometry, squish and cooling are not released."
+        }
+      ]
     },
     {
       "id": "engine-stage-4",
@@ -48,10 +58,15 @@
       "source": "Kinematic and gas-dynamic models; pump load curve; benchmark test data; bounded fuel-consumption and thermal assumptions",
       "unlocks": "Provisional component sizes with margins and stated uncertainty",
       "status": "Open",
-      "currentEvidence": "Power/RPM references remain provisional; verified pump load is missing.",
-      "nextAction": "Calculate bounded loads from the controlled engine and pump inputs.",
+      "currentEvidence": "EngMod2T candidate core and Wahoo-specific tools selected as the simulation approach. Static documentation/example inspection complete; installation, baseline run and validation pending.",
+      "nextAction": "Activate the trial, reproduce an example and build a controlled Wahoo engine baseline.",
       "evidenceRequired": "Source document or measurement with units, part/revision, date, uncertainty and a recorded review.",
-      "updates": []
+      "updates": [
+        {
+          "date": "2026-10-15",
+          "note": "EngMod2T candidate core and Wahoo-specific tools selected as the simulation approach. Static documentation/example inspection complete; installation, baseline run and validation pending."
+        }
+      ]
     },
     {
       "id": "engine-stage-5",
@@ -152,6 +167,10 @@
     {
       "date": "2026-10-12",
       "change": "Initial website task register from WHE-PLAN-001 Rev01. No acquisition or verification gates marked complete."
+    },
+    {
+      "date": "2026-10-15",
+      "change": "Recorded supplier-confirmed external piston geometry, custom-cylinder direction and simulator integration plan. No performance or complete acquisition gate marked passed."
     }
   ]
 }

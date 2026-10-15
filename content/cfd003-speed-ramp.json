@@ -1,0 +1,51 @@
+{
+  "slug": "cfd003-speed-ramp",
+  "title": "CFD-003: moving beyond the 20 km/h baseline.",
+  "summary": "The next prescribed-speed study continues from CFD-002 and begins a 20→30 km/h ramp. Initial motion reversals and the 22.5 km/h marker are recorded, with the run still incomplete.",
+  "date": "2026-10-15",
+  "dateLabel": "15 Oct 2026 · development review",
+  "publicationSequence": 3,
+  "revision": "DEVELOPMENT UPDATE / 15 OCT 2026",
+  "type": "Simulation",
+  "evidence": "Work in progress · prescribed-speed numerical study",
+  "status": "published",
+  "systems": [
+    "hull-hydrodynamics"
+  ],
+  "hero": "engineering/cfd003-speed-plan.svg",
+  "heroAlt": "Prescribed boundary-speed schedule, not self-propelled acceleration. Solid curve: schedule through the dated snapshot; dashed curve: remaining planned ramp and hold.",
+  "heroCaption": "Prescribed boundary-speed schedule, not self-propelled acceleration. Solid curve: schedule through the dated snapshot; dashed curve: remaining planned ramp and hold.",
+  "sections": [
+    {
+      "title": "A new question at higher prescribed speed",
+      "text": "CFD-003 branches from the completed CFD-002 final state. It prescribes a half-cosine boundary-speed increase from 20 to 30 km/h over 0.50 simulated seconds, followed by a planned 0.40 s hold. The target interval is 0.90 s. Surge is constrained; heave and pitch remain free. There is no rider, no jet thrust and the intake is closed. This does not simulate a powered board accelerating under its own propulsion."
+    },
+    {
+      "title": "A dated work-in-progress snapshot",
+      "text": "The accepted monitoring snapshot is 2026-10-15 03:03:11 UTC. It contains 4,373 synchronized CFD-003 samples through τ003 ≈ 0.231 s at prescribed speed 24.40 km/h. Heave is approximately +83.17 mm from the original CFD-002 release reference, and pitch 10.427° absolute bow-up. The ramp is still active; the planned 30 km/h hold has not been reached."
+    },
+    {
+      "title": "The first speed marker and motion reversals",
+      "text": "At the interpolated 22.5 km/h marker, τ003 ≈ 0.166667 s, heave is approximately +84.590 mm and pitch 10.360° bow-up. The monitor confirms an early heave maximum near +96.215 mm, a later pitch minimum near 10.293° and a heave minimum near +82.612 mm. Crossing estimates use saved brackets and five consecutive samples on each side. These are transient local reversals, not established cycle amplitudes or settled trim."
+    },
+    {
+      "title": "Continue the accepted trajectory",
+      "text": "An earlier storage-protection stop and authorized checkpoint continuation are preserved in the run provenance. The continuation retained the original ramp origin and endpoint; it did not restart the speed schedule from zero. Restart continuity and actual boundary-velocity checks passed. The failed initialization attempt occurred before a time step and is excluded from accepted trajectory interpretation."
+    },
+    {
+      "title": "What we cannot conclude yet",
+      "text": "At a changing prescribed speed, the motion contains the inherited CFD-002 transient and the response to the new boundary condition. The first lower heave/pitch values do not establish better stability, reduced drag at equilibrium or a safe operating limit. Initial mesh concavity flags remain a qualification. Higher-speed comparisons need the completed ramp/hold record, numerical review and eventual physical validation."
+    },
+    {
+      "title": "The next evidence",
+      "text": "The planned review will compare the remaining speed markers, ramp and hold statistics, corresponding motion excursions and actual saved flow fields. No heavy flow-field rendering or reconstruction was performed for this journal update while the solver is active. The earlier CFD-002 entries remain the comparison record; no new geometry or numerical changes were made for this publication."
+    }
+  ],
+  "sources": [
+    "H0-CFD-003 Observer_Status.json · fixed snapshot 2026-10-15T03:03:11.686844+00:00",
+    "Case_Plan.txt and Branch_Provenance.json · prescribed-speed continuation from CFD-002",
+    "Short_Continuation_Check.json and Storage_Resume01/Continuation_Check.json · PASS",
+    "Hull Design · accepted monitor snapshot and confirmed speed/turning-point review"
+  ],
+  "changes": "Adds a dated evidence-led follow-up. Previous studies and original sources are retained. No engineering CAD, solver, physics, monitors or vendor software were modified for website publication."
+}

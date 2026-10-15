@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-15",
+  "articles": [
+    "piston-confirmed-crown",
+    "engine-simulation-digital-twin",
+    "cfd003-speed-ramp"
+  ],
+  "cfdSnapshotUTC": "2026-10-15T03:03:11.686844+00:00",
+  "cfdObserverSHA256": "117bf7080e72d820e57e340d2aaa8c7e235775dccdd727f817eb40c7609d17da",
+  "notes": "No proprietary manuals, examples, correspondence, CAD or raw solver histories published."
+}

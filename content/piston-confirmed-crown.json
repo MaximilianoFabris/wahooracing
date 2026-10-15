@@ -1,0 +1,52 @@
+{
+  "slug": "piston-confirmed-crown",
+  "title": "The piston crown: assumptions become dimensions.",
+  "summary": "Supplier clarification defines the external crown and overall height. Piston Rev02 and assembly Rev07 now carry those dimensions, with internal details and installed fit still open.",
+  "date": "2026-10-15",
+  "dateLabel": "15 Oct 2026 · development review",
+  "publicationSequence": 1,
+  "revision": "DEVELOPMENT UPDATE / 15 OCT 2026",
+  "type": "Engineering study",
+  "evidence": "Supplier-confirmed external dimensions · model incomplete",
+  "status": "published",
+  "systems": [
+    "engine",
+    "manufacturing"
+  ],
+  "hero": "engineering/piston-confirmed-crown.svg",
+  "heroAlt": "Dimension-based piston reference drawing. Crown inset is vertically exaggerated; skirt outline and pin placement remain provisional.",
+  "heroCaption": "Dimension-based piston reference drawing. Crown inset is vertically exaggerated; skirt outline and pin placement remain provisional.",
+  "sections": [
+    {
+      "title": "The external profile is now clear",
+      "text": "The selected Wössner 8160DA reference now has a confirmed flat Ø47.59 mm centre, a short annular tapered rim to Ø53 mm, 0.6 mm crown rise and 58.6 mm overall height. The nominal rim angle is 12.5°. This is a flat centre with a tapered outer rim, not a spherical dome or an underside feature."
+    },
+    {
+      "title": "Use the right datum",
+      "text": "The supplier reference gives 58 mm from the skirt bottom to the compression surface, plus the 0.6 mm crown rise. The earlier 28 mm pin-centre-to-compression-plane placement is retained provisionally in the assembly; it is not newly confirmed by the crown clarification. Exact datum definitions and tolerances are still required before head/deck or machining decisions."
+    },
+    {
+      "title": "A verified model revision",
+      "text": "WHE-PISTON-001 Rev02 replaces the earlier flat crown and assumed 48 mm overall envelope. The companion engine assembly is Rev07; all 76 non-piston objects were verified unchanged. The piston extends 10 mm farther below the old skirt envelope and 0.6 mm above the former crown plane. The historical Rev06 hull layout was not updated and hull fit has not been rechecked."
+    },
+    {
+      "title": "Dimensions are not tolerances",
+      "text": "The CAD uses the confirmed diameters and rise as constraints. They imply a taper of approximately 12.506°, consistent with the rounded nominal 12.5° reference. The small rounding difference is not a manufacturing tolerance. The 90° ring-locating-pin angular reference does not establish its axial position or intake/exhaust orientation."
+    },
+    {
+      "title": "What remains provisional",
+      "text": "Skirt relief, bottom contour, bosses, inner surfaces, ring groove, cam/taper, running fits, actual pin offset and manufacturing tolerances remain incomplete. The surfaces therefore cannot establish complete piston mass, centre of gravity, ring/port clearance or a finished manufacturing model. These dimensions are supplier-confirmed references, not measurements of a purchased Wahoo piston."
+    },
+    {
+      "title": "The cylinder and head come next",
+      "text": "The cylinder/head requirements now use the corrected crown. Its calculated volume above the compression plane is approximately 1.193 cm³; this is not the combustion-chamber volume. Custom cylinder, head and crankcase structures are the working development direction, driven by horizontal packaging, coaxial drive and straight exhaust. A compatible measured YZ125 top end remains useful as a reference. Ports, squish, cooling and mechanical clearances still need deliberate design."
+    }
+  ],
+  "sources": [
+    "WHE-PISTON-001 Rev02 MODEL_EVIDENCE_AND_VERIFICATION.json · 14 October 2026",
+    "Supplier crown clarification and interpretation correction retained privately in the engineering archive",
+    "WHE-CYL-001 Rev01 requirements and calculation verification · 14 October 2026",
+    "Engine System Design · Rev02 piston and Rev07 assembly acceptance"
+  ],
+  "changes": "Adds a dated evidence-led follow-up. Previous studies and original sources are retained. No engineering CAD, solver, physics, monitors or vendor software were modified for website publication."
+}
