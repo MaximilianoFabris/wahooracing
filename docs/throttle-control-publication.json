@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-15",
+  "designStatus": "Open concepts, not final",
+  "referenceDimensions": {
+    "headSpan_mm": 72,
+    "partialBodyReference_mm": 135,
+    "overallHeight_mm": null
+  },
+  "sourceImages": {
+    "tc_01.png": "101c71f0e4ab4ffd88b52edb8f4b3bf1127e6eb4040208cc07bb1dcd163562cc",
+    "tc_02.png": "b63e230ae8f92679d99730ddede4f059a012c8add98fc5c516df31f14e19b5ec",
+    "tc_03.png": "2950bca6692c3b56b80a008384cd2e54aecece4968eec53a7c0d606171a166f3",
+    "tc_04.png": "465422b5209df729272610a2ed1dcda65a31395a007cab881005a0ae6fa051c2"
+  },
+  "nativeSourcesPublished": false
+}

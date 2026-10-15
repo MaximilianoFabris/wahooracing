@@ -1,0 +1,105 @@
+{
+  "slug": "throttle-control-concept",
+  "title": "Control in your hand. A throttle concept takes shape.",
+  "summary": "New handheld-controller concepts bring grip, throttle, starting, display and stance-aware lanyard positions together. The design remains open, with two drawing references and the next validation steps recorded.",
+  "date": "2026-10-15",
+  "dateLabel": "15 Oct 2026 · throttle concept and reference review",
+  "publicationSequence": 4,
+  "revision": "THROTTLE CONTROL / CONCEPT REVIEW",
+  "type": "Engineering study",
+  "evidence": "Design concepts · ergonomics and function unverified",
+  "status": "published",
+  "systems": [
+    "deck",
+    "controls",
+    "electrical"
+  ],
+  "hero": "engineering/throttle-control/tc_04.png",
+  "heroAlt": "Transparent blue-accent handheld throttle concept, with pistol grip, trigger, rear button and lower connection area.",
+  "heroCaption": "Presentation concept, not a selected final design or tested controller. Geometry, materials, display and safety functions remain under development.",
+  "sections": [
+    {
+      "title": "Every critical function, without changing grip",
+      "text": "The controller is being developed as the rider’s primary connection to the board. The design principle is simple: throttle modulation, engine starting and essential operating information should be accessible without changing grip. The current images explore that idea; no final housing or grip treatment has been selected.",
+      "visual": "throttle-concept-styles"
+    },
+    {
+      "title": "Grip, trigger and thumb-operated starting",
+      "text": "The intended pistol grip combines textured contact areas with a progressive trigger. A rear starter button is positioned for thumb actuation while holding the controller. Wet-hand comfort, trigger reach, return behaviour, actuation force and fatigue still need ergonomic and functional tests. The concepts do not yet establish a validated throttle response or a working start interlock."
+    },
+    {
+      "title": "Essential information on one screen",
+      "text": "The proposed top-mounted display prioritises a readable overview over complex menus. Candidate information includes speed, engine RPM, fuel level, battery status, operating hours and notifications. The final display, available sensors, update rate, sunlight readability and information hierarchy remain to be specified with the electronics design."
+    },
+    {
+      "title": "A lanyard position for either stance",
+      "text": "The concept provides left- and right-side safety-pin positions so riders can select a less exposed tether position for regular or goofy stance. The intent is to reduce accidental contact without compromising reliable shutdown when the rider separates from the board. This is a design requirement, not a proven safety improvement. Retention/release force, attachment geometry, water exposure, reset behaviour and electrical stop logic require testing together."
+    },
+    {
+      "title": "Connect the rider, the grab line and the board",
+      "text": "The reference sheet identifies a grab-line connector and lower cable inlet. These are separate interfaces: the grab line carries the rider connection, while the cable route carries the control/start interfaces as eventually specified. Connector loads, adjustment and replacement access, strain relief, sealing and cable routing remain engineering tasks; no communication protocol or final cable architecture is selected by the render."
+    },
+    {
+      "title": "Two reference dimensions, with clear limits",
+      "text": "The supplied dimension sheet marks 72 mm across the head in the upper view and 135 mm from the housing top to the indicated lower grip/body reference. The 135 mm excludes the complete lower assembly and cable inlet, so it is not overall controller height. The Rhino file is set to centimetres but its apparent geometry scale is inconsistent with a handheld device. Scale must be reconciled against these references before deriving silhouettes or further dimensions from the model.",
+      "table": {
+        "caption": "Supplied drawing references · not verified prototype measurements",
+        "headers": [
+          "Reference",
+          "Dimension",
+          "Qualification"
+        ],
+        "rows": [
+          [
+            "Head span in upper view",
+            "72 mm",
+            "As marked in the supplied concept sheet"
+          ],
+          [
+            "Housing top to indicated lower body reference",
+            "135 mm",
+            "Does not include the entire lower assembly/cable inlet"
+          ],
+          [
+            "Overall height, width and depth",
+            "Not released",
+            "Model units and scale require reconciliation"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Materials and finish are design intent",
+      "text": "The proposed material strategy is a carbon-fibre reinforced nylon housing, internal 6061-T6 aluminium reinforcement, a machined anodised aluminium trigger and stainless external fasteners. Gloss surfaces and textured grip zones are visual directions. Exact grades, manufacturing methods, wall thickness, corrosion compatibility, sealing and environmental performance remain unqualified. The images are not evidence that these materials have been manufactured or tested."
+    },
+    {
+      "title": "Keep the alternatives and test the interfaces",
+      "text": "The open-head treatment and fuller housing/grip treatments remain alternatives. The transparent blue-accent image is used to introduce the concept, not to declare a final selection. Next steps are model-scale verification, consistent source-geometry views, feature packaging, wet-hand trials and integration of start/stop and throttle signals with the ECU and vehicle controller. Earlier rider-interface studies remain in the journal as history."
+    }
+  ],
+  "galleryTitle": "Alternative visual directions · design remains open",
+  "gallery": [
+    {
+      "image": "engineering/throttle-control/tc_01.png",
+      "caption": "Open-head concept treatment with visible fasteners and textured grip. Reference render; no final selection.",
+      "class": "throttle-reference"
+    },
+    {
+      "image": "engineering/throttle-control/tc_02.png",
+      "caption": "Fuller housing treatment with diagonal grip texture and blue detailing. Reference render; no final selection.",
+      "class": "throttle-reference"
+    },
+    {
+      "image": "engineering/throttle-control/tc_03.png",
+      "caption": "Smoother housing treatment with a different grip texture. Reference render; no final selection.",
+      "class": "throttle-reference"
+    }
+  ],
+  "sources": [
+    "Throttle Control Design · supplied design brief, concept renders and founder clarification that no design is fixed",
+    "Original tc_01.png, tc_02.png, tc_03.png and tc_04.png · presentation references copied unchanged",
+    "Throttle control_p2.jpg · supplied 72 mm head span and 135 mm partial-body dimension references",
+    "Wahoo Board_Hand Control_Render.3dm · source model inspected in centimetres; dimensional scale not yet reconciled"
+  ],
+  "changes": "Publishes the throttle requirements and visual directions without selecting a final housing or claiming validated ergonomics, marine durability or safety performance. Source images preserved unchanged. Native model, PSD and original reference files remain private and unmodified."
+}

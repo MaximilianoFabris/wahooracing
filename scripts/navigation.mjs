@@ -24,7 +24,7 @@ export const readingGroups = [
   ['Flow simulation', ['first-corrected-cfd-run', '20kmh-completed-analysis', 'cfd002-moving-hull-methodology', 'cfd002-first-motion-reversals', 'cfd002-return-motion', 'cfd002-completed-interval', 'cfd002-extension-complete', 'cfd003-speed-ramp']],
   ['Engine & integration', ['engine-as-a-system', 'engine-component-baseline', 'engine-motion-and-ports', 'engine-first-moving-model', 'piston-confirmed-crown', 'engine-simulation-digital-twin', 'engine-exhaust-layout-direction', 'engine-service-access-layout', 'efi-starting-shortlist', 'exhaust-water-jacket-baseline', 'exhaust-internal-stinger-variant', 'engine-integrated-systems', 'nozzle-area-study', 'battery-and-starting']],
   ['Electronics & control', ['electronics-control-architecture', 'electronics-engine-management', 'electronics-vehicle-control', 'electronics-electrical-integration', 'electronics-validation']],
-  ['Origins & development brief', ['early-design-archive', 'rider-interface-archive', 'from-brief-to-test']],
+  ['Origins & development brief', ['early-design-archive', 'rider-interface-archive', 'throttle-control-concept', 'from-brief-to-test']],
 ];
 export const descriptiveTitles = {
   'surface-investigation': 'Hull cross-sections: the initial surface study',
