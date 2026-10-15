@@ -3,3 +3,5 @@
 #throttle-investigation>.article-hero{display:flex;align-items:center;gap:36px;max-width:780px;margin:40px auto 50px}#throttle-investigation>.article-hero>img{width:125px;height:260px;max-height:260px;object-fit:contain;flex:0 0 125px}#throttle-investigation>.article-hero>figcaption{max-width:440px;margin:0;line-height:1.8}.throttle-linework{display:grid;grid-template-columns:1fr 1fr;gap:28px;margin:32px 0}.throttle-linework figure{margin:0}.throttle-linework img{width:100%;height:auto;max-height:480px;object-fit:contain}.throttle-linework figcaption{font-size:12px;line-height:1.7}@media(max-width:600px){#throttle-investigation>.article-hero{gap:22px}#throttle-investigation>.article-hero>img{width:95px;height:210px;flex-basis:95px}.throttle-linework{grid-template-columns:1fr;gap:32px}.throttle-linework img{max-height:400px}}
 
 .throttle-overview .throttle-alternatives{margin-top:64px}.throttle-overview .throttle-alternatives img{width:100%}
+
+.throttle-overview .throttle-model-views{margin-top:64px}
