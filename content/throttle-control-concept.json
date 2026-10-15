@@ -40,8 +40,8 @@
       "text": "The reference sheet identifies a grab-line connector and lower cable inlet. These are separate interfaces: the grab line carries the rider connection, while the cable route carries the control/start interfaces as eventually specified. Connector loads, adjustment and replacement access, strain relief, sealing and cable routing remain engineering tasks; no communication protocol or final cable architecture is selected by the render."
     },
     {
-      "title": "Two reference dimensions, with clear limits",
-      "text": "The supplied dimension sheet marks 72 mm across the head in the upper view and 135 mm from the housing top to the indicated lower grip/body reference. The 135 mm excludes the complete lower assembly and cable inlet, so it is not overall controller height. The Rhino file is set to centimetres but its apparent geometry scale is inconsistent with a handheld device. Scale must be reconciled against these references before deriving silhouettes or further dimensions from the model.",
+      "title": "Front and side views, from the source model",
+      "text": "These orthographic views come directly from the Rhino controller geometry. The supplied sheet marks a 72 mm head span and a 135 mm partial-body reference, excluding the complete lower assembly and cable inlet. The head reference sets a provisional uniform presentation scale; the 135 mm lower datum still needs reconciliation with the model. Both are labelled REF. Hidden edges remain visible, so these are geometry line studies rather than manufacturing drawings. Overall dimensions remain unreleased.",
       "table": {
         "caption": "Supplied drawing references · not verified prototype measurements",
         "headers": [
@@ -66,7 +66,8 @@
             "Model units and scale require reconciliation"
           ]
         ]
-      }
+      },
+      "visual": "throttle-dimensioned-views"
     },
     {
       "title": "Materials and finish are design intent",
@@ -74,7 +75,7 @@
     },
     {
       "title": "Keep the alternatives and test the interfaces",
-      "text": "The open-head treatment and fuller housing/grip treatments remain alternatives. The transparent blue-accent image is used to introduce the concept, not to declare a final selection. Next steps are model-scale verification, consistent source-geometry views, feature packaging, wet-hand trials and integration of start/stop and throttle signals with the ECU and vehicle controller. Earlier rider-interface studies remain in the journal as history."
+      "text": "The open-head treatment and fuller housing/grip treatments remain alternatives. The transparent blue-accent image is used to introduce the concept, not to declare a final selection. Next steps are model-scale verification, feature packaging, wet-hand trials and integration of start/stop and throttle signals with the ECU and vehicle controller. Earlier rider-interface studies remain in the journal as history."
     }
   ],
   "galleryTitle": "Alternative visual directions · design remains open",
@@ -99,7 +100,7 @@
     "Throttle Control Design · supplied design brief, concept renders and founder clarification that no design is fixed",
     "Original tc_01.png, tc_02.png, tc_03.png and tc_04.png · presentation references copied unchanged",
     "Throttle control_p2.jpg · supplied 72 mm head span and 135 mm partial-body dimension references",
-    "Wahoo Board_Hand Control_Render.3dm · source model inspected in centimetres; dimensional scale not yet reconciled"
+    "Wahoo Board_Hand Control_Render.3dm · front and side orthographic edge projections; provisional registration against supplied head reference, not verified production dimensions"
   ],
-  "changes": "Publishes the throttle requirements and visual directions without selecting a final housing or claiming validated ergonomics, marine durability or safety performance. Source images preserved unchanged. Native model, PSD and original reference files remain private and unmodified."
+  "changes": "Publishes the throttle requirements and visual directions without selecting a final housing or claiming validated ergonomics, marine durability or safety performance. Source images preserved unchanged. Native model, PSD and original reference files remain private and unmodified. Adds source-model front and side linework with qualified drawing references, and reduces the opening concept render."
 }

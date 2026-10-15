@@ -1,0 +1,24 @@
+{
+  "method": "Orthographic sampled Brep-edge projections; hidden edges retained; branding and detached construction geometry excluded. Original geometry unmodified.",
+  "views": {
+    "side": "XZ, looking along Y",
+    "front": "YZ, looking along X"
+  },
+  "referenceRegistration": {
+    "headReferenceMm": 72,
+    "headNativeXRange": [
+      120.47459935195758,
+      832.5014203236108
+    ],
+    "headSelection": "Housing edge samples at Z >= 1650 native coordinates",
+    "presentationMmPerNativeUnit": 0.10111978633297357,
+    "partialBodyReferenceMm": 135,
+    "qualification": "Uniform presentation registration only. 135 reference datum is projected from sheet target; exact model correspondence is unverified. Not manufacturing drawings. Overall dimensions not released."
+  },
+  "sourceModel": {
+    "file": "Wahoo Board_Hand Control_Render.3dm",
+    "sha256": "fa7e2b997e9ef7fdfd4550c9da884b114cbf87e8da6d958f847dfa98acf303a1",
+    "units": "Centimetres declared; physical scale unresolved",
+    "modified": false
+  }
+}
