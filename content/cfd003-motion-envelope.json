@@ -1,0 +1,97 @@
+{
+  "slug": "cfd003-motion-envelope",
+  "title": "CFD-003: reaching the motion envelope.",
+  "summary": "The prescribed-speed study reached its original protective motion guard before 30 km/h. A checkpoint-preserving continuation investigates the growing response; stability remains unresolved.",
+  "date": "2026-10-16",
+  "dateLabel": "16 Oct 2026 · protective stop and continuation review",
+  "publicationSequence": 1,
+  "revision": "CFD-003 / MOTION ENVELOPE REVIEW",
+  "type": "Simulation",
+  "evidence": "Transient numerical evidence · continuation in progress",
+  "status": "published",
+  "systems": [
+    "hull-hydrodynamics"
+  ],
+  "hero": "engineering/cfd003-motion-envelope/motion-history.svg",
+  "heroAlt": "Recorded heave and pitch histories, with the original 145 mm protective stop and the CFD-003B continuation shown separately.",
+  "heroCaption": "Frozen monitoring history through 16 October 2026, 06:26:51 UTC (10:26:51 Dubai). The dashed vertical marker records the original protective stop. CFD-003B continues from the same checkpoint; the 30 km/h hold has not been reached.",
+  "sections": [
+    {
+      "title": "A protective stop before the target speed",
+      "text": "The original CFD-003 trajectory reached its 145 mm outward-heave guard at a prescribed speed of 29.42 km/h, approximately 0.423 simulated seconds after the branch began. The solver wrote its checkpoint and stopped cleanly. This was a controlled stop near the tested mesh-motion envelope, not completion of the planned 0.90 s study. The 30 km/h hold had not begun.",
+      "table": {
+        "caption": "Original accepted state at the protective stop · transient values",
+        "headers": [
+          "Quantity",
+          "Value"
+        ],
+        "rows": [
+          [
+            "Prescribed boundary speed",
+            "29.42 km/h"
+          ],
+          [
+            "Heave from original CFD-002 release reference",
+            "+145.1 mm"
+          ],
+          [
+            "Absolute bow-up pitch",
+            "13.00°"
+          ],
+          [
+            "Upward velocity",
+            "+0.679 m/s"
+          ],
+          [
+            "Bow-up pitch rate",
+            "+22.66°/s"
+          ],
+          [
+            "Vertical acceleration",
+            "+3.86 m/s² upward"
+          ],
+          [
+            "Net vertical force after weight",
+            "+70.88 N upward"
+          ],
+          [
+            "Pitch moment about instantaneous CG",
+            "7.94 N·m bow-down"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Why the response deserves attention",
+      "text": "At the stop, the hull was still moving upward and bow-up. The vertical force exceeded the modelled weight and the vertical acceleration remained upward, so a vertical restoring response had not yet appeared. Pitch behaved differently: the moment and angular acceleration were already bow-down, opposing the positive bow-up rate. Rotation was slowing, but pitch had not reversed. A growing excursion is an important warning to investigate; this short, changing-speed interval does not establish persistent porpoising or dynamic instability."
+    },
+    {
+      "title": "The mesh envelope is not a hull stability limit",
+      "text": "The original guard protects the moving-mesh calculation within its reviewed deformation range. Crossing that guard does not establish a maximum safe board speed, a physical travel limit or hull failure. The concern is the observed motion and force history; the numerical question is whether a reliable calculation can follow that response long enough to identify a turn or a continuing excursion. Mesh quality, time-step behaviour and restart continuity remain part of that assessment."
+    },
+    {
+      "title": "Continue the same trajectory, preserve the stop",
+      "text": "CFD-003B resumes the exact saved checkpoint with a reviewed, checkpoint-anchored deformation field. The selected geometric checks passed tested states through +220 mm heave and 17° absolute bow-up pitch. A conservative operational envelope of +200 mm and 17° was adopted, with earlier graceful-stop guards at +195 mm while rising or 16.5° while rotating bow-up. The original case and its stop remain preserved. These are numerical operating limits, not validated physical capabilities."
+    },
+    {
+      "title": "A dated continuation snapshot",
+      "text": "At the frozen 2026-10-16 06:26:51 UTC snapshot, CFD-003B was advancing at approximately 29.53 km/h and 0.430 s since the original CFD-003 branch. Heave was approximately +150.4 mm and pitch 13.17° absolute bow-up. Upward velocity remained about +0.705 m/s, while the positive pitch rate was about 20.39°/s. Both displacements were still increasing; the snapshot had not reached 30 km/h or the hold. It is a dated intermediate state, not a live dashboard or final result."
+    },
+    {
+      "title": "What changed, and what did not",
+      "text": "The continuation changes how mesh deformation is distributed away from the hull while preserving the restart mesh and fields at the checkpoint. The pre-run record reports a maximum restart mesh discrepancy of about 6.2 × 10⁻¹¹ m, with all 80 checkpoint-field hashes and 933 original-case hashes verified. The hull geometry, mass properties, physical model and original prescribed-speed schedule were retained. Geometric envelope checks are not a free-surface grid-convergence study. Inherited concave-cell warnings remain, and the longer post-restart shakedown check was still pending at this snapshot."
+    },
+    {
+      "title": "The next question is whether the motion turns back",
+      "text": "The next review must establish whether vertical velocity reverses, whether pitch completes a turn, and whether subsequent excursions remain bounded through the prescribed-speed hold. Force and moment directions must be read alongside displacement, velocity and acceleration. The study still has constrained surge, no rider, no jet thrust and a closed intake. It cannot establish self-propelled acceleration, rider-loaded behaviour or a safe operating speed. The continuation and its numerical checks must be reviewed before any stability conclusion."
+    }
+  ],
+  "sources": [
+    "Hull Design · original CFD-003 protective-stop assessment and CFD-003B continuation review",
+    "H0-CFD-003 Observer_Status.json · original stop at τ003 ≈ 0.422738 s; clean exit and checkpoint record",
+    "H0-CFD-003B_MOTION_ENVELOPE Pre_Run_Report.txt · anchored deformation selection, geometric tests and guards",
+    "H0-CFD-003B_MOTION_ENVELOPE Live_Status.json · frozen 2026-10-16 06:26:51 UTC snapshot",
+    "H0-CFD-003B_MOTION_ENVELOPE Step_History.jsonl · 8,345 accepted samples through the frozen snapshot; original segment and continuation separated"
+  ],
+  "changes": "Adds a dated follow-up to the original CFD-003 speed-ramp entry. The protective stop and subsequent continuation are distinguished. Graphics use frozen lightweight monitoring histories only; no active solver, monitor, numerical dictionary, mesh, CAD or original history was modified. No heavy field reconstruction or rendering was performed."
+}

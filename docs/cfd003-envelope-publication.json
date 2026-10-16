@@ -1,0 +1,91 @@
+{
+  "snapshotUtc": "2026-10-16T06:26:51.344383+00:00",
+  "acceptedHistoryRows": 8345,
+  "originalStop": {
+    "t": 3.502702215551406,
+    "tau": 0.4227375880191939,
+    "speed_m_s": 8.172865521079986,
+    "speed_kmh": 29.42231587588795,
+    "heave_m": 0.1450935141497352,
+    "bow_up_deg": 13.000145777224384,
+    "vertical_velocity_m_s": 0.678713495056,
+    "bow_up_rate_deg_s": 22.658084214174668,
+    "drag_N": 73.837052284,
+    "Fz_N": 249.39688731,
+    "net_Fz_N": 70.87854831000001,
+    "bow_up_moment_CG_Nm": -7.938735284121741
+  },
+  "continuation": {
+    "t": 3.5103922346076497,
+    "tau": 0.4304276070754378,
+    "speed_m_s": 8.202732973907654,
+    "Co": 0.2996173378,
+    "alphaCo": 0.1996209141,
+    "meshCo": 0.09655365001,
+    "alpha_min": -5.484533403e-07,
+    "alpha_max": 1.000000046,
+    "cg": [
+      0.6385243324,
+      -0.007823685067,
+      0.1864666861
+    ],
+    "orientation": [
+      0.975324922,
+      0.0,
+      -0.2207743123,
+      0.0,
+      1.0,
+      0.0,
+      0.2207743123,
+      0.0,
+      0.975324922
+    ],
+    "velocity": [
+      0.0,
+      0.0,
+      0.7050387168
+    ],
+    "omega": [
+      0.0,
+      -0.3558051631,
+      0.0
+    ],
+    "heave": 0.1504183880766352,
+    "cg_z": 0.1864666861,
+    "pitch_change_deg": 12.754516137535736,
+    "bow_up_deg": 13.165785504562082,
+    "vertical_velocity": 0.7050387168,
+    "bow_up_rate_deg_s": 20.386134174593895,
+    "locked_translation_drift": 3.9782177552183384e-11,
+    "locked_rotation_drift": 0.0,
+    "vertical_acceleration": 3.011329139317145,
+    "bow_up_acceleration_deg_s2": -288.1107084820662
+  },
+  "scope": "Frozen monitoring data only; not a completed ramp/hold or physical validation.",
+  "sourceHashes": [
+    {
+      "file": "original-stop.json",
+      "source": "..\\..\\_Wahoo_Engineering\\04_CFD_Results\\H0-CFD-003\\Observer_Status.json",
+      "bytes": 6303,
+      "sha256": "1a9d641df37c4021fe96cba96b527daff620cfa44e475fcea197b274e40a0bee"
+    },
+    {
+      "file": "continuation-status.json",
+      "source": "..\\..\\_Wahoo_Engineering\\04_CFD_Results\\H0-CFD-003B_MOTION_ENVELOPE\\Live_Status.json",
+      "bytes": 2740,
+      "sha256": "5f6281f3780a42fd49bd12800b64bf107a002f73cb1e0efcad159a7c358c3bd0"
+    },
+    {
+      "file": "pre-run-report.txt",
+      "source": "..\\..\\_Wahoo_Engineering\\04_CFD_Results\\H0-CFD-003B_MOTION_ENVELOPE\\Pre_Run_Report.txt",
+      "bytes": 3197,
+      "sha256": "628ea7613ebe2157b578ce74c66fbdba62872bdeede19be0f08dc80dc324c15d"
+    },
+    {
+      "file": "history.jsonl",
+      "source": "..\\..\\_Wahoo_Engineering\\04_CFD_Results\\H0-CFD-003B_MOTION_ENVELOPE\\Step_History.jsonl",
+      "bytes": 6819094,
+      "sha256": "ca96ba15e9dffc5b58638d288d65432602c00ed1cc6f8fc7a4b7a6adfe78441d"
+    }
+  ]
+}

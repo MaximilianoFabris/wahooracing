@@ -39,6 +39,10 @@
     {
       "title": "The next evidence",
       "text": "The planned review will compare the remaining speed markers, ramp and hold statistics, corresponding motion excursions and actual saved flow fields. No heavy flow-field rendering or reconstruction was performed for this journal update while the solver is active. The earlier CFD-002 entries remain the comparison record; no new geometry or numerical changes were made for this publication."
+    },
+    {
+      "title": "Follow-up: the protective motion stop",
+      "text": "A later review records the original motion-envelope stop at 29.42 km/h and the checkpoint-preserving CFD-003B continuation. This entry retains its earlier 15 October snapshot; the next investigation in this reading path contains the dated follow-up."
     }
   ],
   "sources": [
