@@ -15,3 +15,5 @@ html[data-theme=day] .board-panel,html[data-theme=night] .board-panel{--text:var
 .claude-system-list .claude-all-systems{border-color:var(--blue)}
 .claude-system-top>span{color:var(--muted)}
 .claude-system-list a:focus-visible,.claude-board-intro>a:focus-visible{outline-color:var(--blue)}
+
+.footer-contact>a.footer-intelligence{font-size:12px;font-weight:400;letter-spacing:.02em;margin-right:12px}
