@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "records": [
+    {
+      "id": "shared-direction",
+      "publication": "published",
+      "date": "2026-10-16",
+      "agents": ["leo"],
+      "status": "completed",
+      "title": "A shared direction",
+      "summary": "The owner approved a hybrid approach: a private coordination workspace and a public window into approved progress.",
+      "evidence": "Owner-approved coordination direction"
+    },
+    {
+      "id": "ten-roles",
+      "publication": "published",
+      "date": "2026-10-16",
+      "agents": ["leo"],
+      "status": "completed",
+      "title": "Ten roles defined",
+      "summary": "Six engineering specialists work alongside Leo, Isaac, Grace and Clio. Rams connects product design and manufacture; Clio supports document control, configuration and continuity across all local workflows. Defined roles do not indicate current activity.",
+      "evidence": "Defined team responsibilities"
+    },
+    {
+      "id": "coordination-foundation",
+      "publication": "published",
+      "date": "2026-10-16",
+      "agents": ["leo"],
+      "status": "completed",
+      "title": "The coordination foundation",
+      "summary": "Shared task, decision and source records provide a local foundation for passing findings to Leo with their evidence attached. Existing chats do not automatically synchronize.",
+      "evidence": "Implemented locally"
+    },
+    {
+      "id": "private-dashboard",
+      "publication": "published",
+      "date": "2026-10-16",
+      "agents": ["ada"],
+      "status": "completed",
+      "title": "A private working dashboard",
+      "summary": "A local private dashboard presents responsibilities, progress and owner decisions. Hosted chat and background services are not connected.",
+      "evidence": "Implemented locally"
+    },
+    {
+      "id": "reviewed-public-updates",
+      "publication": "published",
+      "date": "2026-10-16",
+      "agents": ["grace"],
+      "status": "planned",
+      "title": "Reviewed public updates",
+      "summary": "Grace prepares clear summaries of approved work. Each update identifies its date and evidence status before owner-approved publication.",
+      "evidence": "Publication workflow defined"
+    }
+  ]
+}

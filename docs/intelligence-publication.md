@@ -30,3 +30,11 @@ The hero uses ten evenly spaced 36-degree positions. Leonardo occupies noon; clo
 Validation: build and repository checks passed (67 pages, 2,241 local references, 62 section/navigation checks). Browser verified ten identities, nine satellite nodes, six engineering highlights, requested clockwise order, working Clio selection, preserved Leo cutout and no horizontal overflow in the inspected preview.
 
 Release mechanism: existing website/initial-prototype production branch and Cloudflare Pages integration. Previous release commit: 4a207630e6632b476122a7624f07d90cd700587b. Publish only the reviewed Intelligence files; retain the previous successful deployment for rollback. Live verification is recorded separately after deployment.
+
+## Owner-approved consolidated organization and activity log — 16 October 2026
+
+The owner approved deployment of all previewed Intelligence refinements. Nine dashed connectors follow the surrounding agents toward Leo. The repeated Specialists section is removed; Organization uses the blue section background, Engineering Team and Operations headings, and a matching three-column Isaac/Grace/Clio row. The marked Ask Leo questions column is removed.
+
+The hero now links to `/intelligence/work/`, replacing the inline progress section with a separate searchable activity record. Status/agent filters and 12-entry batches support a growing history. Five previously published setup entries are carried forward; their dates and evidence status remain explicit. The build generates the page from explicit published records and excludes drafts/private metadata. No background agent synchronization or unattended publication is installed.
+
+Validation: 68 pages, 2,265 local references, navigation and activity projection checks pass. Local browser verified the hero link, filters, empty/reset states, day/night switching and no overflow at the inspected 722-pixel panel width. Release through the existing production branch integration; previous release e1d0f8b remains the rollback point.
