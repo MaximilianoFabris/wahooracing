@@ -12,3 +12,21 @@ Source briefs: 02_Wahoo_Intelligence_Organization_and_Characters.docx and 03_Wah
 Validation: site build, reference checks and navigation checks; desktop/mobile browser checks for /intelligence/, /systems/ and Home; specialist and role-card selection; reduced-motion interaction. No horizontal overflow or JavaScript errors observed.
 
 The original local draft remains in drafts/wahoo-intelligence and is not part of the production build. Production source is scripts/intelligence-page.mjs and public/intelligence*.
+
+## Local revision prepared 16 October 2026 — publication pending
+
+This revision extends the existing page to nine defined roles, adding Rams for industrial design, rider ergonomics, physical throttle, footpads, straps, materials and manufacturing. Organization nodes are selected by role ID rather than roster position; the six discipline roles share a responsive grid. Isaac and Grace remain separate review and communication functions.
+
+A dated, manually curated work-in-progress section distinguishes completed setup decisions, coordination work in progress, and planned dashboard/public-update work. It contains only the owner-approved hybrid direction, defined roster and coordination setup facts from the current discussion. It does not import private task records, engineering files or chat identifiers. Responsibilities do not imply active processes or completed engineering work. No polling or background activity has been added; Ask Leo remains a static concept.
+
+This local revision has not been deployed. The earlier publication record above describes the preceding eight-role version. An approved deployment plan is required before replacing the hosted page.
+
+## Owner-approved ten-role release — 16 October 2026
+
+Owner reviewed the local preview and explicitly requested deployment. This release adds Rams and Clio, the ten-role organization/profile roster and a curated dated progress section. Clio supports all local application workflows and dependency/document continuity. No private coordination database, local paths or chat IDs are included in public output; Ask Leo remains a concept preview.
+
+The hero uses ten evenly spaced 36-degree positions. Leonardo occupies noon; clockwise order is Nikola, Marie, Hedy, Ada, Archimedes, Rams, Isaac, Grace, Clio. Six engineering roles have brighter blue linework/names with restrained static glow; review, communications and document control use muted styling. Source identities remain shared with the organization roster.
+
+Validation: build and repository checks passed (67 pages, 2,241 local references, 62 section/navigation checks). Browser verified ten identities, nine satellite nodes, six engineering highlights, requested clockwise order, working Clio selection, preserved Leo cutout and no horizontal overflow in the inspected preview.
+
+Release mechanism: existing website/initial-prototype production branch and Cloudflare Pages integration. Previous release commit: 4a207630e6632b476122a7624f07d90cd700587b. Publish only the reviewed Intelligence files; retain the previous successful deployment for rollback. Live verification is recorded separately after deployment.
