@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-16",
+  "operation": "Imagegen background removal from supplied originals; original sources preserved unchanged.",
+  "originals": [
+    {
+      "name": "Leo - Full Body.jpg",
+      "sha256": "f2c9020a1b6adb5dc4e726479cdacfd9f4a8f80b0862edf1d6ad1b6003bb0970",
+      "bytes": 1467520
+    },
+    {
+      "name": "Leo - Passport.jpg",
+      "sha256": "7b5958eb7cc1904f179cd5d5ed5c0e7ec5054b3f75cc7983548755ecd8a6964d",
+      "bytes": 2938005
+    },
+    {
+      "name": "Leo - Professional.jpg",
+      "sha256": "0d1d7f0de47ea424171ee6e655e66454d385fac5f4083c2cd118e28e7a6071f8",
+      "bytes": 2276947
+    }
+  ],
+  "assets": [
+    {
+      "asset": "public/assets/intelligence/leo/full-body.png",
+      "size": [
+        1122,
+        1402
+      ],
+      "sha256": "ff7851596c52e18dc24a8ea0c2ebde25ea97b8d0964d372fe2f3e0a2586443b0",
+      "transparentPixels": 1229956
+    },
+    {
+      "asset": "public/assets/intelligence/leo/passport.png",
+      "size": [
+        1084,
+        1451
+      ],
+      "sha256": "465a70dbc1ce6a01e6c9929d8be657037cf32e7b87146aca97be1bb42ba69c60",
+      "transparentPixels": 730161
+    },
+    {
+      "asset": "public/assets/intelligence/leo/professional.png",
+      "size": [
+        1084,
+        1451
+      ],
+      "sha256": "c32719a31395abef82bc9a2ce4d062a5a13742eba6cfe1fae14b0b8ae05e1991",
+      "transparentPixels": 851754
+    }
+  ],
+  "placements": {
+    "full-body": "Intelligence opening illustration",
+    "passport": "Leo organization node, detail and role card",
+    "professional": "Ask Leo static preview"
+  },
+  "capability": "Character art only; no chat API activated."
+}
