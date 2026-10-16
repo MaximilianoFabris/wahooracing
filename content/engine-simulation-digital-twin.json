@@ -2,10 +2,10 @@
   "slug": "engine-simulation-digital-twin",
   "title": "Building the engine model, one verified layer at a time.",
   "summary": "The next step is a Wahoo-specific simulation workflow around EngMod2T, connecting controlled inputs, design comparisons and eventually measured engine data.",
-  "date": "2026-10-15",
-  "dateLabel": "15 Oct 2026 · development review",
+  "date": "2026-10-16",
+  "dateLabel": "16 Oct 2026 · roadmap review; development record from 15 Oct",
   "publicationSequence": 2,
-  "revision": "DEVELOPMENT UPDATE / 15 OCT 2026",
+  "revision": "DEVELOPMENT UPDATE / 16 OCT 2026",
   "type": "Engineering study",
   "evidence": "Simulation architecture decision · validation pending",
   "status": "published",
@@ -41,13 +41,18 @@
     {
       "title": "A twin has to earn its validation",
       "text": "Compare port/cylinder and engine-matched exhaust alternatives, then map promising dimensions into Rhino for packaging checks. Bench/dyno measurements must later calibrate and challenge the predictions across operating conditions. Agreement with another simulation alone is not physical validation. Vendor manuals, examples, licence material and private correspondence remain in the engineering archive; this publication shares the Wahoo development plan, not the proprietary software."
+    },
+    {
+      "title": "Keep the first comparison focused",
+      "text": "A subsequent roadmap review recommends distinguishing a Wahoo-owned design platform from the much larger task of developing a replacement engine solver. The first useful comparison should constrain engine and exhaust variants by packaging and propulsion load, reconcile provisional inputs with the current component references, and check conservation, convergence and input sensitivity. These are recommendations for the next stage, not completed simulations or a validated engine model. Independent measurements remain necessary."
     }
   ],
   "sources": [
     "WHE-EMUL-001 Rev01 ASSESSMENT.txt · static inspection, 14 October 2026",
     "Engine Emulator · agreed licensed-core and Wahoo-tools approach",
     "Engine System Design · simulator/Rhino roles and installation sequence",
-    "Current piston crown and cylinder/head requirements; performance inputs remain provisional"
+    "Current piston crown and cylinder/head requirements; performance inputs remain provisional",
+    "Engine Emulator · simulator masterplan review, 15 October 2026; recommendations only"
   ],
-  "changes": "Adds a dated evidence-led follow-up. Previous studies and original sources are retained. No engineering CAD, solver, physics, monitors or vendor software were modified for website publication."
+  "changes": "Extends the 15 October development record with the subsequent roadmap review recommendations. The licensed-core direction remains in place; no replacement solver or new simulation result is claimed. Previous studies and original sources are retained. No engineering CAD, solver, physics, monitors or vendor software were modified for website publication."
 }

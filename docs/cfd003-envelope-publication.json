@@ -1,6 +1,6 @@
 {
-  "snapshotUtc": "2026-10-16T06:26:51.344383+00:00",
-  "acceptedHistoryRows": 8345,
+  "snapshotUtc": "2026-10-16T11:47:06.770851+00:00",
+  "acceptedHistoryRows": 9379,
   "originalStop": {
     "t": 3.502702215551406,
     "tau": 0.4227375880191939,
@@ -16,76 +16,111 @@
     "bow_up_moment_CG_Nm": -7.938735284121741
   },
   "continuation": {
-    "t": 3.5103922346076497,
-    "tau": 0.4304276070754378,
-    "speed_m_s": 8.202732973907654,
-    "Co": 0.2996173378,
-    "alphaCo": 0.1996209141,
-    "meshCo": 0.09655365001,
-    "alpha_min": -5.484533403e-07,
-    "alpha_max": 1.000000046,
+    "t": 3.565732807479741,
+    "tau": 0.4857681799475291,
+    "speed_m_s": 8.327784154442082,
+    "Co": 0.2012675117,
+    "alphaCo": 0.2003363303,
+    "meshCo": 0.1105184877,
+    "alpha_min": -5.39766717e-07,
+    "alpha_max": 1.000000072,
     "cg": [
       0.6385243324,
       -0.007823685067,
-      0.1864666861
+      0.2311709924
     ],
     "orientation": [
-      0.975324922,
+      0.9705852052,
       0.0,
-      -0.2207743123,
+      -0.2407578863,
       0.0,
       1.0,
       0.0,
-      0.2207743123,
+      0.2407578863,
       0.0,
-      0.975324922
+      0.9705852052
     ],
     "velocity": [
       0.0,
       0.0,
-      0.7050387168
+      0.913810507
     ],
     "omega": [
       0.0,
-      -0.3558051631,
+      -0.434694633,
       0.0
     ],
-    "heave": 0.1504183880766352,
-    "cg_z": 0.1864666861,
-    "pitch_change_deg": 12.754516137535736,
-    "bow_up_deg": 13.165785504562082,
-    "vertical_velocity": 0.7050387168,
-    "bow_up_rate_deg_s": 20.386134174593895,
+    "heave": 0.1951226943766352,
+    "cg_z": 0.2311709924,
+    "pitch_change_deg": 13.931275727782179,
+    "bow_up_deg": 14.342545094808525,
+    "vertical_velocity": 0.913810507,
+    "bow_up_rate_deg_s": 24.906167847888238,
     "locked_translation_drift": 3.9782177552183384e-11,
     "locked_rotation_drift": 0.0,
-    "vertical_acceleration": 3.011329139317145,
-    "bow_up_acceleration_deg_s2": -288.1107084820662
+    "vertical_acceleration": 3.523959746581791,
+    "bow_up_acceleration_deg_s2": 27.627737588381517
   },
-  "scope": "Frozen monitoring data only; not a completed ramp/hold or physical validation.",
+  "scope": "Frozen monitoring data only; clean numerical guard stop, not a completed ramp/hold or physical validation.",
+  "generatorReference": "scripts/plot-cfd003-envelope.py",
+  "originalRows": 8196,
+  "continuationRows": 1183,
+  "timeReference": "tau = solver t - 3.079964627532212 s (CFD-003 branch); heave from original CFD-002 release; absolute bow-up pitch",
+  "smoothing": false,
   "sourceHashes": [
     {
-      "file": "original-stop.json",
-      "source": "..\\..\\_Wahoo_Engineering\\04_CFD_Results\\H0-CFD-003\\Observer_Status.json",
-      "bytes": 6303,
-      "sha256": "1a9d641df37c4021fe96cba96b527daff620cfa44e475fcea197b274e40a0bee"
+      "sha256": "6F2ED5C5CD91EEA3D386B9873B8E8E376208E945B5A9B9843B5BB4A4895F6FCA",
+      "frozen": "continuation-status.json",
+      "bytes": 2818,
+      "source": "_Wahoo_Engineering\\04_CFD_Results\\H0-CFD-003B_MOTION_ENVELOPE\\Live_Status.json"
     },
     {
-      "file": "continuation-status.json",
-      "source": "..\\..\\_Wahoo_Engineering\\04_CFD_Results\\H0-CFD-003B_MOTION_ENVELOPE\\Live_Status.json",
-      "bytes": 2740,
-      "sha256": "5f6281f3780a42fd49bd12800b64bf107a002f73cb1e0efcad159a7c358c3bd0"
+      "sha256": "DDD52188DF293767A0175A95B48503A3D9FC3FF42840D4573B894C628276A98A",
+      "frozen": "history.jsonl",
+      "bytes": 7659591,
+      "source": "_Wahoo_Engineering\\04_CFD_Results\\H0-CFD-003B_MOTION_ENVELOPE\\Step_History.jsonl"
     },
     {
-      "file": "pre-run-report.txt",
-      "source": "..\\..\\_Wahoo_Engineering\\04_CFD_Results\\H0-CFD-003B_MOTION_ENVELOPE\\Pre_Run_Report.txt",
+      "sha256": "85FE6E4613FA5FB3E1B82C585C0E1B7E6727E2D72D52E216233304D0F254A5C7",
+      "frozen": "stop-request.json",
+      "bytes": 236,
+      "source": "_Wahoo_Engineering\\04_CFD_Results\\H0-CFD-003B_MOTION_ENVELOPE\\Stop_Request.json"
+    },
+    {
+      "sha256": "628EA7613EBE2157B578CE74C66FBDBA62872BDEEDE19BE0F08DC80DC324C15D",
+      "frozen": "pre-run-report.txt",
       "bytes": 3197,
-      "sha256": "628ea7613ebe2157b578ce74c66fbdba62872bdeede19be0f08dc80dc324c15d"
+      "source": "_Wahoo_Engineering\\04_CFD_Results\\H0-CFD-003B_MOTION_ENVELOPE\\Pre_Run_Report.txt"
     },
     {
-      "file": "history.jsonl",
-      "source": "..\\..\\_Wahoo_Engineering\\04_CFD_Results\\H0-CFD-003B_MOTION_ENVELOPE\\Step_History.jsonl",
-      "bytes": 6819094,
-      "sha256": "ca96ba15e9dffc5b58638d288d65432602c00ed1cc6f8fc7a4b7a6adfe78441d"
+      "sha256": "0C38105F70FE55802DDA14F25CC24403A264742F3C7B3730D263F011FDC12A2B",
+      "frozen": "short-continuation-check.json",
+      "bytes": 1800,
+      "source": "_Wahoo_Engineering\\04_CFD_Results\\H0-CFD-003B_MOTION_ENVELOPE\\Short_Continuation_Check.json"
+    },
+    {
+      "sha256": "1755DA8645825DD77D6FB49628BCD5656EA348EC2B1E2E14CA56D9B9957F9F4B",
+      "frozen": "latest-log-tail.txt",
+      "bytes": 24000,
+      "source": "_Wahoo_Engineering\\04_CFD_Results\\H0-CFD-003B_MOTION_ENVELOPE\\Latest_Log_Tail.txt"
+    },
+    {
+      "sha256": "22A34C760BA0BBD2A53A6D55080604ECBEE9A5ECA61EF39979748911FB6CD5B9",
+      "frozen": "preparation.json",
+      "bytes": 2069,
+      "source": "_Wahoo_Engineering\\04_CFD_Results\\H0-CFD-003B_MOTION_ENVELOPE\\Motion_Envelope_Resume01\\Preparation.json"
+    },
+    {
+      "sha256": "E7BCF7B753C332B05BCE92F4FAD5F78E2CD673CB5A1FF37F3F593580A892C6B6",
+      "frozen": "continuation-check.json",
+      "bytes": 3819,
+      "source": "_Wahoo_Engineering\\04_CFD_Results\\H0-CFD-003B_MOTION_ENVELOPE\\Motion_Envelope_Resume01\\Continuation_Check.json"
+    },
+    {
+      "sha256": "1A9D641DF37C4021FE96CBA96B527DAFF620CFA44E475FCEA197B274E40A0BEE",
+      "frozen": "original-stop.json",
+      "bytes": 6303,
+      "source": "Website/Current/.preview/cfd003-envelope-source/original-stop.json"
     }
   ]
 }

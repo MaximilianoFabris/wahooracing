@@ -1,20 +1,20 @@
 {
   "slug": "cfd003-motion-envelope",
   "title": "CFD-003: reaching the motion envelope.",
-  "summary": "The prescribed-speed study reached its original protective motion guard before 30 km/h. A checkpoint-preserving continuation investigates the growing response; stability remains unresolved.",
+  "summary": "CFD-003B stopped cleanly at its extended numerical motion guard, just below 30 km/h. The ramp and planned hold remain incomplete; physical stability remains unresolved.",
   "date": "2026-10-16",
-  "dateLabel": "16 Oct 2026 · protective stop and continuation review",
+  "dateLabel": "16 Oct 2026 · original stop, continuation and second protective stop",
   "publicationSequence": 1,
-  "revision": "CFD-003 / MOTION ENVELOPE REVIEW",
+  "revision": "CFD-003 / MOTION ENVELOPE REVIEW · STOP UPDATE",
   "type": "Simulation",
-  "evidence": "Transient numerical evidence · continuation in progress",
+  "evidence": "Transient numerical evidence · clean numerical guard stop",
   "status": "published",
   "systems": [
     "hull-hydrodynamics"
   ],
   "hero": "engineering/cfd003-motion-envelope/motion-history.svg",
-  "heroAlt": "Recorded heave and pitch histories, with the original 145 mm protective stop and the CFD-003B continuation shown separately.",
-  "heroCaption": "Frozen monitoring history through 16 October 2026, 06:26:51 UTC (10:26:51 Dubai). The dashed vertical marker records the original protective stop. CFD-003B continues from the same checkpoint; the 30 km/h hold has not been reached.",
+  "heroAlt": "Unsmoothed heave and absolute bow-up pitch histories through the CFD-003B stop, preserving the original 145 mm guard and showing the continuation 195 mm guard.",
+  "heroCaption": "Frozen monitoring history through 16 October 2026, 11:47:06 UTC (15:47:06 Dubai). The original stop and CFD-003B continuation remain distinct. The continuation ended cleanly at its 195 mm rising-heave guard; the prescribed 20–30 km/h ramp and planned 30 km/h hold were not completed.",
   "sections": [
     {
       "title": "A protective stop before the target speed",
@@ -74,24 +74,63 @@
       "text": "CFD-003B resumes the exact saved checkpoint with a reviewed, checkpoint-anchored deformation field. The selected geometric checks passed tested states through +220 mm heave and 17° absolute bow-up pitch. A conservative operational envelope of +200 mm and 17° was adopted, with earlier graceful-stop guards at +195 mm while rising or 16.5° while rotating bow-up. The original case and its stop remain preserved. These are numerical operating limits, not validated physical capabilities."
     },
     {
-      "title": "A dated continuation snapshot",
-      "text": "At the frozen 2026-10-16 06:26:51 UTC snapshot, CFD-003B was advancing at approximately 29.53 km/h and 0.430 s since the original CFD-003 branch. Heave was approximately +150.4 mm and pitch 13.17° absolute bow-up. Upward velocity remained about +0.705 m/s, while the positive pitch rate was about 20.39°/s. Both displacements were still increasing; the snapshot had not reached 30 km/h or the hold. It is a dated intermediate state, not a live dashboard or final result."
+      "title": "The earlier continuation snapshot",
+      "text": "At the frozen 2026-10-16 06:26:51 UTC snapshot, CFD-003B was advancing at approximately 29.53 km/h and 0.430 s since the original CFD-003 branch. Heave was approximately +150.4 mm and pitch 13.17° absolute bow-up. Upward velocity remained about +0.705 m/s, while the positive pitch rate was about 20.39°/s. Both displacements were still increasing; the snapshot had not reached 30 km/h or the hold. It is a dated intermediate state, not a live dashboard or final result. The later protective stop below supersedes this in-progress status while retaining the snapshot as development history."
     },
     {
       "title": "What changed, and what did not",
-      "text": "The continuation changes how mesh deformation is distributed away from the hull while preserving the restart mesh and fields at the checkpoint. The pre-run record reports a maximum restart mesh discrepancy of about 6.2 × 10⁻¹¹ m, with all 80 checkpoint-field hashes and 933 original-case hashes verified. The hull geometry, mass properties, physical model and original prescribed-speed schedule were retained. Geometric envelope checks are not a free-surface grid-convergence study. Inherited concave-cell warnings remain, and the longer post-restart shakedown check was still pending at this snapshot."
+      "text": "The continuation changes how mesh deformation is distributed away from the hull while preserving the restart mesh and fields at the checkpoint. The pre-run record reports a maximum restart mesh discrepancy of about 6.2 × 10⁻¹¹ m, with all 80 checkpoint-field hashes and 933 original-case hashes verified. The hull geometry, mass properties, physical model and original prescribed-speed schedule were retained. Geometric envelope checks are not a free-surface grid-convergence study. Inherited concave-cell warnings remain, and the longer post-restart shakedown check was still pending at the 06:26 snapshot. The later short-continuation check records PASS, and the final monitoring status records a passed shakedown. These checks do not establish completion of the ramp, a full end-of-run engineering assessment or physical validation."
     },
     {
-      "title": "The next question is whether the motion turns back",
-      "text": "The next review must establish whether vertical velocity reverses, whether pitch completes a turn, and whether subsequent excursions remain bounded through the prescribed-speed hold. Force and moment directions must be read alongside displacement, velocity and acceleration. The study still has constrained surge, no rider, no jet thrust and a closed intake. It cannot establish self-propelled acceleration, rider-loaded behaviour or a safe operating speed. The continuation and its numerical checks must be reviewed before any stability conclusion."
+      "title": "A second protective stop, below 30 km/h",
+      "text": "The frozen 16 October 2026, 11:47:06 UTC status records CFD-003B stopped, with exit code 0 and normal end. A graceful stop was requested at 11:46:46 UTC as the calculation approached its tested motion envelope; the saved log tail ends with End and parallel finalisation. The last completed state is at solver time 3.565733 s, or 0.485768 s since the CFD-003 branch. Heave reached +195.12 mm from the original CFD-002 release reference while still rising. This is a clean numerical guard stop, not completion of the planned 0.90 s study. The speed remained below 30 km/h, so the ramp was incomplete and the planned constant-speed hold was not reached.",
+      "table": {
+        "caption": "Last completed state at the CFD-003B protective stop · transient values",
+        "headers": [
+          "Quantity",
+          "Value"
+        ],
+        "rows": [
+          [
+            "Prescribed boundary speed",
+            "8.327784 m/s · 29.98 km/h"
+          ],
+          [
+            "Time since CFD-003 branch",
+            "0.485768 s"
+          ],
+          [
+            "Heave from original CFD-002 release reference",
+            "+195.12 mm"
+          ],
+          [
+            "Absolute bow-up pitch",
+            "14.34°"
+          ],
+          [
+            "Upward velocity",
+            "+0.914 m/s"
+          ],
+          [
+            "Bow-up pitch rate",
+            "+24.91°/s"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "The open question remains whether the motion turns back",
+      "text": "The available trajectory ends with positive upward velocity and positive bow-up pitch rate. It does not capture a return or a constant-speed hold. A further reviewed numerical plan is required before extending the envelope again or drawing conclusions about bounded motion. Force and moment directions must be read alongside displacement, velocity and acceleration; no new force or moment summary is asserted here. The study still has constrained surge, no rider, no jet thrust and a closed intake. It cannot establish self-propelled acceleration, rider-loaded behaviour, persistent porpoising, dynamic instability or a safe operating speed. The clean stop and short-continuation check do not replace mesh/time-step convergence or experimental validation."
     }
   ],
   "sources": [
     "Hull Design · original CFD-003 protective-stop assessment and CFD-003B continuation review",
     "H0-CFD-003 Observer_Status.json · original stop at τ003 ≈ 0.422738 s; clean exit and checkpoint record",
     "H0-CFD-003B_MOTION_ENVELOPE Pre_Run_Report.txt · anchored deformation selection, geometric tests and guards",
-    "H0-CFD-003B_MOTION_ENVELOPE Live_Status.json · frozen 2026-10-16 06:26:51 UTC snapshot",
-    "H0-CFD-003B_MOTION_ENVELOPE Step_History.jsonl · 8,345 accepted samples through the frozen snapshot; original segment and continuation separated"
+    "CFD-003B monitoring status · retained 06:26:51 UTC snapshot and frozen stopped status at 11:47:06 UTC, 16 October 2026",
+    "CFD-003B accepted monitoring history · 9,379 accepted samples through the last completed state; 8,196 original and 1,183 continuation samples, separated at the saved checkpoint",
+    "CFD-003B stop request and final log tail · graceful SIGUSR2 request and normal solver end",
+    "CFD-003B short-continuation check · reported PASS; final monitor records shakedown passed"
   ],
-  "changes": "Adds a dated follow-up to the original CFD-003 speed-ramp entry. The protective stop and subsequent continuation are distinguished. Graphics use frozen lightweight monitoring histories only; no active solver, monitor, numerical dictionary, mesh, CAD or original history was modified. No heavy field reconstruction or rendering was performed."
+  "changes": "This revision retains the original protective stop and dated 06:26 continuation snapshot, then adds the frozen 11:47 clean numerical guard stop. The plot extends the same unsmoothed histories and established transparent two-axis style through the accepted endpoint, retaining both numerical guards. The ramp and hold remain incomplete. Private frozen inputs and source hashes accompany this review; no solver, monitor, numerical dictionary, mesh, CAD or original history was modified."
 }
