@@ -5,7 +5,7 @@ const reviewer=agents.find(a=>a.id==='isaac');
 const communicator=agents.find(a=>a.id==='grace');
 const controller=agents.find(a=>a.id==='clio');
 const portrait=(cls='')=>`<img class="wi-leo-portrait ${cls}" src="/assets/intelligence/leo/passport.png" alt="Leo, Wahoo’s fictional AI Chief Engineer" width="1084" height="1451" loading="lazy">`;
-const node=(a,extra='')=>`<button class="wi-node ${extra}" type="button" data-agent="${a.id}" aria-pressed="${a.id==='leo'}" aria-controls="wi-agent-detail">${a.id==='leo'?portrait('wi-node-portrait'):icon(a.icon)}<span><strong>${a.name}</strong><small>${a.role}</small></span><span class="wi-plus" aria-hidden="true">↗</span></button>`;
+const node=(a,extra='')=>`<button id="profile-${a.id}" class="wi-node ${extra}" type="button" data-agent="${a.id}" aria-pressed="${a.id==='leo'}" aria-controls="wi-agent-detail">${a.id==='leo'?portrait('wi-node-portrait'):icon(a.icon)}<span><strong>${a.name}</strong><small>${a.role}</small></span><span class="wi-plus" aria-hidden="true">↗</span></button>`;
 
 // Labels and dashed connectors use exactly the same angular positions.
 function heroPositions(){

@@ -23,7 +23,7 @@ for(const file of pages){
   const sectionContent=html.replace(/<header[\s\S]*?<\/header>/,'');
   for(const [,href] of sectionContent.matchAll(/href="(\/[^"]*)"/g)){
     const target=sections.find(([prefix])=>href.startsWith(prefix));
-    if(target&&target[0]!==section[0]&&!(section[0]==='/systems/'&&/^\/journal\/[^/]+\/\?from=/.test(href)))throw Error(`Cross-section link: ${route} → ${href}`);
+    if(target&&target[0]!==section[0]&&!(section[0]==='/systems/'&&/^\/journal\/[^/]+\/\?from=/.test(href))&&!(route==='/systems/'&&href==='/roadmap/'))throw Error(`Cross-section link: ${route} → ${href}`);
   }
   for(const [href] of headerNavigation)if(!html.split('</header>')[0].includes(`href="${href}"`))throw Error('Missing global navigation: '+route);
   if(!html.includes('Home · choose a section'))throw Error('Missing Home exit: '+route);
@@ -35,5 +35,6 @@ for(const [,slugs] of readingGroups)for(let i=0;i<slugs.length;i++){
   if(i<slugs.length-1&&!nav.includes('/journal/'+slugs[i+1]+'/'))throw Error('Missing next study: '+slugs[i]);
 }
 const back=await readFile(new URL('back/index.html',root),'utf8');
-if((back.match(/href="mailto:contact@wahooracing.com\?subject=/g)||[]).length!==1)throw Error('Missing community enquiry action');
+if(!back.includes('id="community"')||!back.includes('id="technical-partnerships"'))throw Error('Missing requested community/collaboration anchor');
+if((back.match(/href="mailto:contact@wahooracing.com\?subject=/g)||[]).length!==2)throw Error('Missing community/collaboration enquiry action');
 console.log(`Passed ${checked} section pages: section boundaries, shared studies, Home exits, consistent reading order and the community contact action.`);

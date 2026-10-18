@@ -2,10 +2,8 @@
 export const headerNavigation = [
   ['/explore/', 'The Board'],
   ['/systems/', 'Engineering'],
-  ['/roadmap/', 'Road Map'],
+  ['/intelligence/', 'Intelligence'],
   ['/journal/', 'Journal'],
-  ['/#ch-04', 'You Own It'],
-  ['/#ch-06', 'Community'],
   ['/history/', 'Our Story'],
   ['/investors/', 'Invest in Wahoo'],
 ];

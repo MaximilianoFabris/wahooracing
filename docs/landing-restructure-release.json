@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-18",
+  "scope": "Owner-approved five-chapter landing restructure, Intelligence links, navigation and anchor continuity",
+  "ownerAuthorization": "ok,, please,, create a backup of the current websit on my W: Drive (W:\\_Wahoo Racing\\Website\\Backups),,, than apply the changes you have done,,,",
+  "backup": {
+    "backupPath": "W:\\_Wahoo Racing\\Website\\Backups\\20261018_165141_UTC_Before_Landing_Restructure",
+    "sitePath": "W:\\_Wahoo Racing\\Website\\Backups\\20261018_165141_UTC_Before_Landing_Restructure\\Website_Current",
+    "source": "C:\\Users\\maxfa\\Desktop\\Wahoo\\_Board Design\\_ChatGpt\\Website\\Current",
+    "beforeCommit": "8301ced",
+    "status": "verified",
+    "fileCount": 5587,
+    "byteTotal": 396747258,
+    "sha256Verified": true,
+    "verifiedUtc": "2026-10-18T16:57:26.772764+00:00"
+  },
+  "review": "Grace copy review and Isaac independent review PASS; source review retained in separate preview copy",
+  "beforeWords": 820,
+  "afterWords": 330,
+  "journal": "No content changes; newest three and published count derived from existing records",
+  "activity": "No content changes; restructure introduces no engineering result",
+  "productionFiles": [
+    "scripts/build.mjs",
+    "scripts/history-page.mjs",
+    "scripts/intelligence-page.mjs",
+    "scripts/navigation-check.mjs",
+    "scripts/navigation.mjs",
+    "scripts/rev01-layout.mjs",
+    "public/intelligence.js",
+    "public/landing-arc.css",
+    "public/palette.css"
+  ],
+  "excluded": "Local preview servers, authentication, review galleries, noindex metadata and test-only scripts are not published."
+}
