@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-18",
+  "approval": "ok,, deploy them please",
+  "beforeCommit": "849792b",
+  "backup": {
+    "path": "W:\\_Wahoo Racing\\Website\\Backups\\20261018_175739_UTC_Before_Journal_Work_Update",
+    "files": 5608,
+    "bytes": 397617924,
+    "sha256Verified": true,
+    "beforeCommit": "849792b",
+    "verifiedUtc": "2026-10-18T18:02:13.6928382Z"
+  },
+  "scope": "Reviewed illustrated simulator revision, controlled hull study, four Intelligence activity entries",
+  "journalCount": 45,
+  "activityCount": 11,
+  "review": "Isaac visual/source review PASS; 361 plotted samples independently checked",
+  "files": [
+    "content/engine-simulation-digital-twin.json",
+    "content/updates.json",
+    "content/intelligence-activity.json",
+    "scripts/navigation.mjs",
+    "public/assets/engineering/simulator-python-gate.svg",
+    "public/assets/engineering/constant-speed-method.svg",
+    "public/assets/engineering/simulator-visuals/evidence-layers.svg",
+    "public/assets/engineering/simulator-visuals/foundation-architecture.svg",
+    "public/assets/engineering/simulator-visuals/historical-motion.svg",
+    "public/assets/engineering/simulator-visuals/qualification-coverage.svg",
+    "scripts/build.mjs",
+    "docs/journal-work-release-20261018.json"
+  ],
+  "excluded": "Private review records, preview tooling, draft flags, noindex headers and generators requiring private source paths"
+}

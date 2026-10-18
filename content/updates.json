@@ -1,5 +1,61 @@
 [
   {
+    "slug": "constant-speed-hull-study",
+    "title": "A clearer constant-speed hull experiment.",
+    "summary": "A controlled 30 km/h study separates fluid preparation from future free heave and pitch. Historical 20 km/h evidence is reused with explicit limits; commissioning is not a completed hull result.",
+    "date": "2026-10-18",
+    "dateLabel": "18 Oct 2026 · frozen commissioning review; method developed 16 Oct",
+    "publicationSequence": 1,
+    "revision": "CONTROLLED HULL STUDY / METHOD AND COMMISSIONING REVIEW",
+    "type": "Engineering study",
+    "evidence": "Reviewed method and frozen numerical commissioning · no completed response result",
+    "status": "published",
+    "hero": "engineering/constant-speed-method.svg",
+    "heroAlt": "Controlled study stages showing historical 20 km/h evidence as a qualified reference separate from fresh fixed-body 30 km/h preparation, readiness review and conditional future release.",
+    "heroCaption": "Method schematic only. Historical 20 km/h data is not a readiness-matched control. A future free-motion stage is conditional; commissioning does not establish preparation completion or a hull-response result.",
+    "systems": [
+      "hull-hydrodynamics"
+    ],
+    "sections": [
+      {
+        "title": "Separate the speed question from the inherited motion",
+        "text": "The earlier rising-speed trajectory ended at protective motion guards before completing its 30 km/h hold. A controlled constant-speed experiment asks a narrower question: how does the same dry hull respond when target flow speed is held constant? Starting from the original documented pose, conditioning the fluid while the hull is fixed, then reviewing readiness before any release helps distinguish the preparation and free-motion stages. It does not reproduce a self-propelled board or rider boarding.",
+        "figure": {
+          "image": "engineering/cfd003-motion-envelope/motion-history.svg",
+          "alt": "Previously published unsmoothed heave and bow-up pitch histories showing the original CFD-003 and CFD-003B guard stops.",
+          "caption": "Earlier rising-speed study · frozen 16 October history, reused unchanged. These are the CFD-003/003B trajectories that motivated the controlled experiment; they are not results from the new constant-speed study. The ramp and planned hold were incomplete."
+        }
+      },
+      {
+        "title": "Reuse the 20 km/h evidence, preserve its limitation",
+        "text": "The historical 20 km/h free-motion record remains a useful transient reference. Retrospective checks of its preceding fixed-body preparation did not meet the newer readiness criteria: vertical force and pitch-moment window means were still changing. It is therefore a qualified historical reference, rather than an independently readiness-matched control. A difference from a future 30 km/h response could reflect both speed and different fluid-development histories. No new 20 km/h calculation is established by this review."
+      },
+      {
+        "title": "Preparation comes before a free response",
+        "text": "The controlled 30 km/h branch holds the body fixed at the original reference pose while developing the target-speed fluid state. The original pose is a reproducible reference, not a demonstrated static or dynamic equilibrium. Fixed-stage support forces are artificial holding reactions. The current first engineering endpoint is 1.000 simulated second, followed by a stop and readiness review. Reaching a time value alone cannot establish settled flow or permit a stability claim."
+      },
+      {
+        "title": "Commissioning and protection are engineering work too",
+        "text": "Frozen 18 October commissioning records document an actual four-rank fixed-body solver launch with independent protection. A later repair distinguished a telemetry query failure from failure of the numerical calculation or host resources. The revised telemetry uses lightweight native sampling, last-good values labelled by age and an independent fallback. A missed query is reported as a monitoring warning; actual unsafe evidence and sustained loss of meaningful telemetry retain protective stop paths. Checkpoint validation and precise restart-clock handling were also repaired within the retained method."
+      },
+      {
+        "title": "Preserve the checkpoints and the unsuccessful attempts",
+        "text": "The frozen recovery record preserves clean checkpoints from genuine host-pressure stops as well as the earlier instrumentation stop. It distinguishes completed numerical steps from validated disk checkpoints. Successful commissioning and recovery demonstrate parts of the execution workflow; they do not establish endpoint completion, prepared-flow readiness or a free-running hull response. This article uses dated records and is not a live progress display."
+      },
+      {
+        "title": "What this study can eventually support",
+        "text": "Any later release would allow heave and pitch while keeping surge, sway, roll and yaw constrained. Dry loading, the closed intake and omitted rider and propulsion remain material model limits. The available commissioning evidence cannot establish stable trim, persistent porpoising, an operating speed limit or a need to alter the hull. Future claims require accepted response histories, consistent load and motion references, uncertainty assessment and the appropriate physical validation. Existing stopped trajectories remain preserved; commissioning does not authorize their continuation."
+      }
+    ],
+    "sources": [
+      "Constant-speed experiment specification and independent method review · 16 October 2026",
+      "Historical 20 km/h reuse audit and staged comparison plan · 16 October 2026",
+      "Frozen fixed-body commissioning and checkpoint/telemetry recovery handoffs · 18 October 2026",
+      "Previously published CFD-003 motion-envelope investigation and original motion-history figure · 16 October 2026"
+    ],
+    "changes": "New draft explaining the controlled experiment and frozen execution-workflow evidence. It adds no new hull-performance result, curve, live status or completion claim. No solver, CAD, mesh or engineering input was changed for publication."
+  },
+  {
     "slug": "hull-materials-and-construction",
     "title": "Two material directions. One engineered structure.",
     "summary": "Carbon for the performance prototype; fiberglass for a possible recreational derivative. Both begin with a designed sandwich structure and a clear estimate boundary.",

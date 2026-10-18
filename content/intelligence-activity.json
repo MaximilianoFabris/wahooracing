@@ -2,6 +2,59 @@
   "schema_version": 1,
   "records": [
     {
+      "id": "simulator-project-migration",
+      "publication": "published",
+      "date": "2026-10-18",
+      "agents": [
+        "grace"
+      ],
+      "status": "completed",
+      "title": "Documenting the simulator's verified migration",
+      "summary": "A source review of the accepted migration record confirms a dedicated simulator home, verified local execution and preserved originals. The same 542-check numerical regression suite passed again, alongside 39 storage checks; 245 inventoried originals remained unchanged. This is relocation and evidence-preservation work. Rhino integration was not run, and no new physics or engine-performance capability is established.",
+      "evidence": "Accepted migration report reviewed for publication · repeated software regression, not physical validation"
+    },
+    {
+      "id": "landing-five-chapter-release",
+      "publication": "published",
+      "date": "2026-10-18",
+      "agents": [
+        "grace",
+        "isaac",
+        "leo"
+      ],
+      "status": "completed",
+      "title": "A shorter introduction to Wahoo",
+      "summary": "The owner-approved landing page now follows five chapters, with a dedicated Intelligence chapter and clearer routes into the engineering record. Copy and independent visual reviews preceded release. Recorded public checks confirmed navigation, team profiles and legacy anchors. This is a website milestone, with no new engineering-performance result.",
+      "evidence": "Owner-approved website release · public navigation and profile checks recorded"
+    },
+    {
+      "id": "simulator-python-foundation",
+      "publication": "published",
+      "date": "2026-10-18",
+      "agents": [
+        "leo",
+        "nikola",
+        "marie"
+      ],
+      "status": "completed",
+      "title": "The simulator's Python foundation passes its gate",
+      "summary": "A bounded software qualification recorded 542 passing checks, no failures and one Rhino integration check not run. Leo accepted the nominal Python scope after mechanical and volume-semantics reviews. Work stopped at this gate; the result does not validate engine performance, actual clearance or CAD integration.",
+      "evidence": "Accepted nominal software qualification · physical validation pending"
+    },
+    {
+      "id": "constant-speed-study-preparation",
+      "publication": "published",
+      "date": "2026-10-18",
+      "agents": [
+        "archimedes",
+        "ada"
+      ],
+      "status": "in-progress",
+      "title": "Commissioning a controlled 30 km/h study",
+      "summary": "Dated commissioning records document fixed-body solver execution, checkpoint recovery and repaired resource telemetry. The method separates preparation from any later heave/pitch release and reuses the historical 20 km/h transient with explicit comparison limits. These records do not establish the 1.000 s endpoint, readiness or a new hull-response result.",
+      "evidence": "Frozen numerical commissioning and protection review · not live status"
+    },
+    {
       "id": "cfd003b-stop-review",
       "publication": "published",
       "date": "2026-10-16",

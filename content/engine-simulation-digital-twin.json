@@ -1,50 +1,70 @@
 {
   "slug": "engine-simulation-digital-twin",
   "title": "Building the engine model, one verified layer at a time.",
-  "summary": "The next step is a Wahoo-specific simulation workflow around EngMod2T, connecting controlled inputs, design comparisons and eventually measured engine data.",
-  "date": "2026-10-16",
-  "dateLabel": "16 Oct 2026 · roadmap review; development record from 15 Oct",
+  "summary": "A verified Python foundation, an earlier engine-solver roadmap and the work still needed to connect geometry, physics and measurements. Software checks come first; a complete engine twin remains a development goal.",
+  "date": "2026-10-18",
+  "dateLabel": "18 Oct 2026 · Python gate review; earlier roadmap retained",
   "publicationSequence": 2,
-  "revision": "DEVELOPMENT UPDATE / 16 OCT 2026",
+  "revision": "DEVELOPMENT UPDATE / 18 OCT 2026 · PYTHON GATE",
   "type": "Engineering study",
-  "evidence": "Simulation architecture decision · validation pending",
+  "evidence": "Accepted nominal software checks · physical validation pending",
   "status": "published",
   "systems": [
     "engine",
     "exhaust",
     "controls"
   ],
-  "hero": "engineering/engine-simulation-workflow.svg",
-  "heroAlt": "Planned simulation workflow. The existing motion model, candidate solver integration and future measured calibration are distinct stages.",
-  "heroCaption": "Planned simulation workflow. The existing motion model, candidate solver integration and future measured calibration are distinct stages.",
+  "hero": "engineering/simulator-python-gate.svg",
+  "heroAlt": "Software evidence sequence: frozen inputs, accepted nominal Python checks, Rhino integration not run and future physical calibration.",
+  "heroCaption": "Evidence sequence, not an engine-performance plot. The Python gate qualifies nominal software checks; actual Rhino integration has not run and physical calibration remains future work.",
   "sections": [
     {
-      "title": "A useful simulator before a digital twin",
-      "text": "The existing Wahoo model supports piston motion, geometry calculations and consistency checks. It does not predict a validated running engine. The agreed next direction is to investigate a tailored Wahoo interface around a licensed EngMod2T simulation core, while Rhino remains authoritative for spatial geometry."
+      "title": "One foundation, several kinds of model",
+      "text": "The target is a digital twin of the entire engine. The accepted first layer is smaller: a Wahoo-owned, backend-independent Python foundation for nominal motion, geometry and evidence handling. It does not replace a combustion or engine-performance solver. Rhino remains authoritative for spatial geometry; actual integration is still untested in the reviewed acceptance record.",
+      "figure": {
+        "image": "engineering/simulator-visuals/foundation-architecture.svg",
+        "alt": "Accepted Python foundation separated from proposed Rhino geometry, physics-backend and measurement connections.",
+        "caption": "Solid stages describe the existing software foundation. Dashed connections are future integrations; this is an architecture diagram, not a demonstrated coupled twin."
+      }
     },
     {
-      "title": "What the documentation review established",
-      "text": "Static inspection recovered the current help content and inspected readable example model files. It supports investigating port, intake, exhaust, ignition and mixture comparisons, text-based input/output handling and sequential batch studies. A checked partial example-file reader was built. No Wahoo engine-performance simulation was run; installation and trial activation remain pending in the reviewed record."
+      "title": "Start with motion we can trace",
+      "text": "The historical motion model uses nominal rigid bodies, zero cylinder offset and constant angular speed. The graph reuses all 361 original one-degree samples. It shows piston travel and signed velocity, with no fitted or smoothed curve. The 12,000 rpm source reference is a design example, not a safe operating limit or a measured engine run.",
+      "figure": {
+        "image": "engineering/simulator-visuals/historical-motion.svg",
+        "alt": "Two plots of piston travel in millimetres and signed piston velocity in metres per second against crank angle from 0 to 360 degrees.",
+        "caption": "Frozen historical samples, reproduced unchanged as connected points. Travel and velocity are positive toward the crankshaft. Nominal dimensions and actual mechanical interfaces remain unverified."
+      }
     },
     {
-      "title": "Our straight internal stinger remains the requirement",
-      "text": "The reviewed manuals describe internal-stinger modelling through a computational T-pipe network. That name does not require a physical bend in Wahoo’s straight exhaust. Junction and effective-area mapping still need confirmation against the actual design. Port and scavenging assumptions must be reviewed for the custom engine rather than copied from a supplied example."
+      "title": "What passed the Python gate",
+      "text": "On 18 October, 21 admission checks passed. The final suite recorded 542 passes, no failures and one Rhino integration check not run. It covered historical motion, 54 parameter combinations, derivative convergence, cold-volume semantics, units and frames, invalid inputs and reproducibility. Two test-recording defects were repaired while retaining failed attempts; equations and acceptance thresholds were not relaxed.",
+      "figure": {
+        "image": "engineering/simulator-visuals/qualification-coverage.svg",
+        "alt": "Eight software-check categories total 542 passes, with Rhino A6 separately labelled not run.",
+        "caption": "Accepted final-suite counts. They count software checks, including related cases; they are not independent physical experiments or a confidence percentage."
+      }
     },
     {
-      "title": "Keep the boundaries between models",
-      "text": "The documentation does not establish complete ECU firmware emulation, live hardware-in-the-loop behaviour, solved coolant flow or detailed metal temperatures. Prescribed wall temperatures and ignition/mixture inputs are not substitutes for those models. The annular-rim piston also needs an appropriate representation; a generic spherical-dome setting cannot simply be assumed equivalent."
+      "title": "Keep the earlier solver roadmap in view",
+      "text": "The earlier roadmap investigated a Wahoo interface around licensed EngMod2T. Static documentation and example-file review supported further investigation; they did not demonstrate a Wahoo performance run or vendor integration. Internal-stinger modelling still needs mapping to Wahoo’s straight exhaust. Port/scavenging assumptions and the annular-rim piston representation require review. Trial activation and unattended integration are not established by the Python gate."
     },
     {
-      "title": "The first integration sequence",
-      "text": "Install and activate the offered trial, reproduce a supplied example, then create a controlled Wahoo baseline with source/status and units for each input. Confirm round-trip input handling before generating variants. Start with licensed user-started batch runs; unattended launch/API support remains unconfirmed. Preserve software version, inputs, outputs and run IDs so comparisons are reproducible."
+      "title": "Preserve the foundation as it moves",
+      "text": "An accepted 18 October migration established a dedicated simulator home, explicit local execution and verified synchronization. The same nominal regression passed again: 542 passes, no failures, Rhino not run. Separately, 39 storage checks passed and 245 inventoried originals remained unchanged. Original packages provide rollback; shared engine/CAD sources keep their own authority. This qualifies relocation and preservation, without adding physics capability."
     },
     {
-      "title": "A twin has to earn its validation",
-      "text": "Compare port/cylinder and engine-matched exhaust alternatives, then map promising dimensions into Rhino for packaging checks. Bench/dyno measurements must later calibrate and challenge the predictions across operating conditions. Agreement with another simulation alone is not physical validation. Vendor manuals, examples, licence material and private correspondence remain in the engineering archive; this publication shares the Wahoo development plan, not the proprietary software."
+      "title": "A pass at one layer is not a pass at every layer",
+      "text": "The accepted scope is nominal rigid, zero-offset cold geometry. Synthetic chamber-volume examples are software fixtures. Actual chamber measurements, assembly mapping, physical rotation, hot clearance and Rhino compatibility remain open. Power, combustion, safe engine speed, temperatures and manufacturing readiness are not validated.",
+      "figure": {
+        "image": "engineering/simulator-visuals/evidence-layers.svg",
+        "alt": "Four evidence layers distinguish accepted nominal software, checked relocation, untested actual CAD connection and unvalidated physical engine behaviour.",
+        "caption": "Software and storage checks preserve a useful foundation. CAD roundtrips, measured geometry and physical engine tests must earn their own evidence."
+      }
     },
     {
-      "title": "Keep the first comparison focused",
-      "text": "A subsequent roadmap review recommends distinguishing a Wahoo-owned design platform from the much larger task of developing a replacement engine solver. The first useful comparison should constrain engine and exhaust variants by packaging and propulsion load, reconcile provisional inputs with the current component references, and check conservation, convergence and input sensitivity. These are recommendations for the next stage, not completed simulations or a validated engine model. Independent measurements remain necessary."
+      "title": "The next useful comparisons",
+      "text": "Future engine/exhaust comparisons should use source-qualified inputs, packaging and propulsion-load constraints, conservation and convergence checks, and sensitivity to uncertain inputs. Complete ECU behaviour, coolant flow and detailed metal temperatures need their own models and measurements; prescribed inputs cannot substitute for them. Bench and dyno evidence must eventually calibrate and challenge predictions. These are development requirements, not completed simulations."
     }
   ],
   "sources": [
@@ -52,7 +72,10 @@
     "Engine Emulator · agreed licensed-core and Wahoo-tools approach",
     "Engine System Design · simulator/Rhino roles and installation sequence",
     "Current piston crown and cylinder/head requirements; performance inputs remain provisional",
-    "Engine Emulator · simulator masterplan review, 15 October 2026; recommendations only"
+    "Engine Emulator · simulator masterplan review, 15 October 2026; recommendations only",
+    "Entire-engine simulator scope clarification · 17 October 2026",
+    "Python qualification acceptance review and final software-test evidence · 18 October 2026",
+    "Controlled simulator migration completion report · 18 October 2026"
   ],
-  "changes": "Extends the 15 October development record with the subsequent roadmap review recommendations. The licensed-core direction remains in place; no replacement solver or new simulation result is claimed. Previous studies and original sources are retained. No engineering CAD, solver, physics, monitors or vendor software were modified for website publication."
+  "changes": "Condenses the earlier roadmap and accepted 18 October software/migration reviews into seven illustrated sections. Four inline transparent figures separate architecture, frozen historical motion samples, software-check coverage and validation status. No new model, engine-performance prediction, CAD integration or physical validation is asserted. Original published revision is retained outside this isolated draft."
 }
