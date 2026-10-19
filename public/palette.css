@@ -19,3 +19,8 @@ html[data-theme=day] .board-panel,html[data-theme=night] .board-panel{--text:var
 .footer-contact>a.footer-intelligence{font-size:12px;font-weight:400;letter-spacing:.02em;margin-right:12px}
 
 .journal-reading-anchors{height:0;position:relative}.journal-reading-anchors>span{position:absolute;top:0;scroll-margin-top:100px}
+
+/* Simulator figures follow the journal's compact scientific-figure scale. */
+.article-inline-figure:has(img[src*="/simulator-visuals/"]){width:100%;max-width:650px;margin-inline:auto}
+.article-inline-figure img[src*="/simulator-visuals/"]{display:block;width:100%;height:auto;max-height:none}
+
