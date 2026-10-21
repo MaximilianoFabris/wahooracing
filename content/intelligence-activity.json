@@ -2,6 +2,46 @@
   "schema_version": 1,
   "records": [
     {
+      "id": "simulator-port-cad-workflow",
+      "publication": "published",
+      "date": "2026-10-21",
+      "agents": [
+        "isaac",
+        "leo"
+      ],
+      "status": "in-progress",
+      "title": "Repairing the boundary between saved evidence and CAD identity",
+      "summary": "The later port workflow observed nominal motion but retained an incomplete full runtime gate. Reviews isolated layer renumbering and cross-runtime floating-number text as distinct persistence/evidence issues. Offline policy and serialization corrections passed their bounded checks, while a fresh complete runtime demonstration remains unverified.",
+      "evidence": "Reviewed runtime failure and accepted offline components · not full CAD acceptance"
+    },
+    {
+      "id": "simulator-synthetic-port-geometry",
+      "publication": "published",
+      "date": "2026-10-21",
+      "agents": [
+        "ada",
+        "isaac",
+        "leo"
+      ],
+      "status": "completed",
+      "title": "A verified synthetic port-timing study",
+      "summary": "Forty synthetic fixture groups and 542 applicable frozen checks passed before the authorized two-family, 18-context geometric comparison. The result supports nominal timing, opening and numerical reasoning; it does not select a cylinder, predict power or establish manufacturing readiness.",
+      "evidence": "Accepted bounded synthetic software comparison · physical applicability unresolved"
+    },
+    {
+      "id": "simulator-rhino-motion-connection",
+      "publication": "published",
+      "date": "2026-10-19",
+      "agents": [
+        "ada",
+        "leo"
+      ],
+      "status": "completed",
+      "title": "Nominal Python motion reaches actual Rhino geometry",
+      "summary": "An accepted working-copy demonstration read back 361 actual CAD poses against the unchanged 0.001 mm threshold, including saved/reopened correspondence and 11 rejection/rollback cases. The copied partial piston and synthetic mechanism establish software integration, without physical engine validation.",
+      "evidence": "Accepted nominal software/geometry correspondence · not an assembled engine"
+    },
+    {
       "id": "simulator-project-migration",
       "publication": "published",
       "date": "2026-10-18",

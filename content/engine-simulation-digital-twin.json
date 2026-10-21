@@ -1,11 +1,11 @@
 {
   "slug": "engine-simulation-digital-twin",
   "title": "Building the engine model, one verified layer at a time.",
-  "summary": "A verified Python foundation, an earlier engine-solver roadmap and the work still needed to connect geometry, physics and measurements. Software checks come first; a complete engine twin remains a development goal.",
-  "date": "2026-10-18",
-  "dateLabel": "18 Oct 2026 · Python gate review; earlier roadmap retained",
-  "publicationSequence": 2,
-  "revision": "DEVELOPMENT UPDATE / 18 OCT 2026 · PYTHON GATE",
+  "summary": "The accepted Python foundation now connects to an observed nominal Rhino motion workflow, with a later synthetic port-geometry stage verified separately. Complete runtime persistence and physical engine validation remain distinct open gates.",
+  "date": "2026-10-21",
+  "dateLabel": "21 Oct 2026 · review of 18–21 Oct milestones",
+  "publicationSequence": 1,
+  "revision": "ENGINE SIMULATOR / SOFTWARE AND CAD EVIDENCE UPDATE",
   "type": "Engineering study",
   "evidence": "Accepted nominal software checks · physical validation pending",
   "status": "published",
@@ -14,17 +14,17 @@
     "exhaust",
     "controls"
   ],
-  "hero": "engineering/simulator-python-gate.svg",
-  "heroAlt": "Software evidence sequence: frozen inputs, accepted nominal Python checks, Rhino integration not run and future physical calibration.",
-  "heroCaption": "Evidence sequence, not an engine-performance plot. The Python gate qualifies nominal software checks; actual Rhino integration has not run and physical calibration remains future work.",
+  "hero": "engineering/simulator-oct21/rhino-milestone.svg",
+  "heroAlt": "Accepted 19 October CAD motion correspondence distinguished from the later incomplete port workflow.",
+  "heroCaption": "The 18 October Python gate, 19 October nominal CAD motion acceptance and 21 October synthetic port study are different milestones. Later port-workflow runtime acceptance remains incomplete.",
   "sections": [
     {
       "title": "One foundation, several kinds of model",
-      "text": "The target is a digital twin of the entire engine. The accepted first layer is smaller: a Wahoo-owned, backend-independent Python foundation for nominal motion, geometry and evidence handling. It does not replace a combustion or engine-performance solver. Rhino remains authoritative for spatial geometry; actual integration is still untested in the reviewed acceptance record.",
+      "text": "The target is a digital twin of the entire engine. The Wahoo-owned, backend-independent Python foundation covers nominal motion, geometry and evidence handling; it does not replace a combustion or engine-performance solver. Actual copied-geometry motion correspondence was accepted on 19 October. Later port construction is a separate workflow whose full runtime gate remains incomplete in the reviewed 21 October records.",
       "figure": {
-        "image": "engineering/simulator-visuals/foundation-architecture.svg",
-        "alt": "Accepted Python foundation separated from proposed Rhino geometry, physics-backend and measurement connections.",
-        "caption": "Solid stages describe the existing software foundation. Dashed connections are future integrations; this is an architecture diagram, not a demonstrated coupled twin."
+        "image": "engineering/simulator-oct21/exchange-readback.svg",
+        "alt": "Frozen Python motion connected to actual Rhino document observations and independent comparison.",
+        "caption": "Updated 21 October review: actual nominal motion correspondence was accepted on 19 October. This is software/CAD evidence, not a coupled physical twin."
       }
     },
     {
@@ -37,12 +37,12 @@
       }
     },
     {
-      "title": "What passed the Python gate",
+      "title": "The original 18 October Python gate",
       "text": "On 18 October, 21 admission checks passed. The final suite recorded 542 passes, no failures and one Rhino integration check not run. It covered historical motion, 54 parameter combinations, derivative convergence, cold-volume semantics, units and frames, invalid inputs and reproducibility. Two test-recording defects were repaired while retaining failed attempts; equations and acceptance thresholds were not relaxed.",
       "figure": {
         "image": "engineering/simulator-visuals/qualification-coverage.svg",
         "alt": "Eight software-check categories total 542 passes, with Rhino A6 separately labelled not run.",
-        "caption": "Accepted final-suite counts. They count software checks, including related cases; they are not independent physical experiments or a confidence percentage."
+        "caption": "Historical 18 October final-suite counts, retained unchanged. Rhino was not run in that suite; the later 19 October actual CAD gate is a separate acceptance record."
       }
     },
     {
@@ -51,16 +51,20 @@
     },
     {
       "title": "Preserve the foundation as it moves",
-      "text": "An accepted 18 October migration established a dedicated simulator home, explicit local execution and verified synchronization. The same nominal regression passed again: 542 passes, no failures, Rhino not run. Separately, 39 storage checks passed and 245 inventoried originals remained unchanged. Original packages provide rollback; shared engine/CAD sources keep their own authority. This qualifies relocation and preservation, without adding physics capability."
+      "text": "An accepted 18 October migration established a dedicated simulator home, explicit local execution and verified synchronization. The same nominal regression passed again: 542 passes, no failures, with Rhino not run in that migration check. Separately, 39 storage checks passed and 245 inventoried originals remained unchanged. The later 19 October CAD connection does not rewrite this earlier software/storage evidence."
     },
     {
       "title": "A pass at one layer is not a pass at every layer",
-      "text": "The accepted scope is nominal rigid, zero-offset cold geometry. Synthetic chamber-volume examples are software fixtures. Actual chamber measurements, assembly mapping, physical rotation, hot clearance and Rhino compatibility remain open. Power, combustion, safe engine speed, temperatures and manufacturing readiness are not validated.",
+      "text": "The 19 October gate accepted nominal copied-piston motion, saved/reopened correspondence and rejected-update/rollback checks. It did not validate physical geometry or installed fit. A later port workflow observed motion but stopped at persistence/evidence-identity gates. Qualified offline corrections are useful component evidence; they do not retroactively pass the failed runtime or establish complete later integration.",
       "figure": {
-        "image": "engineering/simulator-visuals/evidence-layers.svg",
-        "alt": "Four evidence layers distinguish accepted nominal software, checked relocation, untested actual CAD connection and unvalidated physical engine behaviour.",
-        "caption": "Software and storage checks preserve a useful foundation. CAD roundtrips, measured geometry and physical engine tests must earn their own evidence."
+        "image": "engineering/simulator-oct21/persistence-boundary.svg",
+        "alt": "Observed later motion and offline persistence repairs separated from incomplete full runtime acceptance.",
+        "caption": "Latest reviewed offline serialization gate, 21 October: 154 component checks passed; a fresh runtime producer and complete external gate remain undemonstrated."
       }
+    },
+    {
+      "title": "A separate synthetic port-geometry milestone",
+      "text": "On 21 October, 40 synthetic fixture groups and 542 applicable frozen checks passed before an authorized two-family, 18-context timing/opening screen. It supports reproducible cold geometric reasoning. It does not predict pressure, power, safe engine speed or manufacturing suitability. The separate investigations explain the actual CAD connection and synthetic timing study in more detail."
     },
     {
       "title": "The next useful comparisons",
@@ -75,7 +79,10 @@
     "Engine Emulator · simulator masterplan review, 15 October 2026; recommendations only",
     "Entire-engine simulator scope clarification · 17 October 2026",
     "Python qualification acceptance review and final software-test evidence · 18 October 2026",
-    "Controlled simulator migration completion report · 18 October 2026"
+    "Controlled simulator migration completion report · 18 October 2026",
+    "Nominal Rhino motion report and acceptance · 19 October 2026",
+    "Accepted synthetic port-geometry comparison · 21 October 2026",
+    "Later port-workflow runtime, persistence and serialization reviews · 21 October 2026"
   ],
-  "changes": "Condenses the earlier roadmap and accepted 18 October software/migration reviews into seven illustrated sections. Four inline transparent figures separate architecture, frozen historical motion samples, software-check coverage and validation status. No new model, engine-performance prediction, CAD integration or physical validation is asserted. Original published revision is retained outside this isolated draft."
+  "changes": "Updates the overview with accepted 19 October nominal CAD correspondence and 21 October synthetic geometry evidence. The original 18 October gates remain dated history; their Rhino-not-run labels are not current global capability claims. Later runtime incompleteness and physical-validation limits remain explicit. Draft pending owner review; original published overview remains unchanged in Current."
 }

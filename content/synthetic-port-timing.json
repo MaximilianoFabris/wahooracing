@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-21",
+  "status": "published",
+  "systems": [
+    "engine",
+    "exhaust"
+  ],
+  "type": "Engineering study",
+  "slug": "synthetic-port-timing",
+  "title": "Testing port timing before predicting performance.",
+  "summary": "Two hypothetical timing families now provide a checked way to reason about geometric openings. The results verify software behaviour within a declared synthetic domain; they do not select a cylinder or predict engine power.",
+  "dateLabel": "21 Oct 2026 · accepted synthetic software review",
+  "publicationSequence": 2,
+  "revision": "ENGINE SIMULATOR / SYNTHETIC PORT GEOMETRY",
+  "evidence": "Accepted synthetic numerical comparison · physical applicability unresolved",
+  "hero": "engineering/simulator-oct21/port-screen.svg",
+  "heroAlt": "Two hypothetical geometry families and 18 contexts distinguish geometric software reasoning from performance prediction.",
+  "heroCaption": "A bounded synthetic comparison: 40 fixture groups passed, followed by the authorized geometric screen. No performance winner is selected.",
+  "sections": [
+    {
+      "title": "Ask a geometric question first",
+      "text": "The accepted 21 October Python stage adds event timing, inverse geometry and numerical opening integrals to the nominal rigid mechanism. Forty synthetic fixture groups and 542 applicable frozen regression checks passed before the two-family, 18-context screen. A historical Rhino check remained not run in that particular regression suite; actual CAD integration is covered by its separate evidence record."
+    },
+    {
+      "title": "Make the timing change visible",
+      "text": "The hypothetical exhaust families use durations of 180° and 188°, with a common 128° transfer duration. In the declared local reference, family B opens four degrees earlier and closes four degrees later. The pre-transfer geometric interval is 26° for A and 30° for B. These are timing identities; no pressure-release process has been solved.",
+      "figure": {
+        "image": "engineering/simulator-oct21/synthetic-events.svg",
+        "alt": "A exhaust opens at 90 degrees and closes at 270; B at 86 and 274; common transfer at 116 and 244 degrees after local TDC.",
+        "caption": "Events from the accepted synthetic report. Angles follow the software’s local TDC convention; they are not released machining dimensions."
+      }
+    },
+    {
+      "title": "Inspect the original opening samples",
+      "text": "The graph reproduces the accepted exhaust-opening traces at their original five-degree spacing. Opening per unit developed width is a length, not a finite port area or an effective flow area. The fixture uses an idealized uncapped opening; physical width, floor, discharge coefficient and real blocking-edge contour remain unknown. Connected samples are shown without smoothing or a new model run.",
+      "figure": {
+        "image": "engineering/simulator-oct21/synthetic-opening.svg",
+        "alt": "All 73 original samples per exhaust family show normalized geometric opening through one crank revolution.",
+        "caption": "Frozen illustrative context: 8,000 rpm and 8 cc total cold volume. In this rigid model the angular opening geometry is independent of those context values. Neither value is an operating recommendation."
+      }
+    },
+    {
+      "title": "Keep a larger opening out of the winner’s circle",
+      "text": "The screen also evaluates time conversion and conditional cold geometric volume ratios. Changing rpm rescales time integrals within the assumed rigid model; it does not measure breathing or attainable speed. A geometric volume ratio is not trapped mass, dynamic compression, pressure, knock or efficiency. Larger geometric opening alone does not identify a better engine."
+    },
+    {
+      "title": "Know what the verification did not buy",
+      "text": "Actual crown-edge/deck/frame mapping, finite window geometry, ring support, thermal growth, material and manufacturing constraints still need evidence. Pressure, scavenging, combustion, fuel/control behaviour and propulsion load are outside this synthetic model. Mechanical applicability and manufacturing readiness must not be converted from unknown to pass by a successful software fixture.",
+      "figure": {
+        "image": "engineering/simulator-oct21/port-applicability.svg",
+        "alt": "Demonstrated timing and numerical handling separated from unresolved actual cylinder geometry, ring support, flow and measurements.",
+        "caption": "Software correctness over a declared synthetic domain supports the next question. It does not release a real port layout or establish physical performance."
+      }
+    },
+    {
+      "title": "Carry the evidence into the next layer",
+      "text": "Later Rhino port work has observed nominal motion but remains incomplete at its full persistence/external acceptance gate in the latest reviewed records. Offline corrections have qualified components without closing that gate. The accepted Python comparison remains useful on its own terms, with its inputs, limitations and original failures preserved."
+    }
+  ],
+  "sources": [
+    "Synthetic port-geometry results and accepted Python gate · 21 October 2026",
+    "Mechanical applicability and independent review handoffs · 21 October 2026",
+    "Frozen 18-context comparison and five-degree opening traces · 21 October 2026",
+    "Later Rhino runtime and offline serialization gate reviews · 21 October 2026"
+  ],
+  "changes": "New draft uses the accepted synthetic comparison and unmodified tabulated traces. It distinguishes numerical verification, CAD correspondence, physical validation and manufacturability. No new model, solver, CAD session or engineering calculation was run for publication."
+}

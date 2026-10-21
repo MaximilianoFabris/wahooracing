@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-21",
+  "ownerApproval": "Deploy them",
+  "beforeCommit": "1a6ae57",
+  "backup": "W:\\_Wahoo Racing\\Website\\Backups\\2026-10-21T19-52-16-346Z_Before_Simulator_Journal_Release",
+  "backupSHA256Verified": true,
+  "scope": "Two illustrated investigations, revised simulator overview and three activity milestones",
+  "journalCount": 47,
+  "activityCount": 14,
+  "review": "Grace source checkpoint and independent Isaac source/visual PASS",
+  "files": [
+    "content/rhino-motion-correspondence.json",
+    "content/synthetic-port-timing.json",
+    "content/engine-simulation-digital-twin.json",
+    "content/intelligence-activity.json",
+    "scripts/build.mjs",
+    "scripts/navigation.mjs",
+    "public/palette.css",
+    "public/assets/engineering/simulator-oct21/exchange-readback.svg",
+    "public/assets/engineering/simulator-oct21/motion-acceptance.svg",
+    "public/assets/engineering/simulator-oct21/persistence-boundary.svg",
+    "public/assets/engineering/simulator-oct21/port-applicability.svg",
+    "public/assets/engineering/simulator-oct21/port-screen.svg",
+    "public/assets/engineering/simulator-oct21/rhino-90deg-original.png",
+    "public/assets/engineering/simulator-oct21/rhino-milestone.svg",
+    "public/assets/engineering/simulator-oct21/synthetic-events.svg",
+    "public/assets/engineering/simulator-oct21/synthetic-opening.svg",
+    "docs/simulator-journal-release-20261021.json"
+  ],
+  "excluded": "Private source records, preview server/flags/noindex metadata, native raw engineering files and source-dependent generators"
+}

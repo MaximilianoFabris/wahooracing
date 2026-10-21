@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-21",
+  "status": "published",
+  "systems": [
+    "engine",
+    "exhaust"
+  ],
+  "type": "Engineering study",
+  "slug": "rhino-motion-correspondence",
+  "title": "Python motion reaches actual CAD.",
+  "summary": "A measured software connection now links the nominal motion model to a copied Rhino working model. Later port-workflow checks show why observing motion and accepting a complete saved result remain separate milestones.",
+  "dateLabel": "21 Oct 2026 · review of 19–21 Oct software evidence",
+  "publicationSequence": 3,
+  "revision": "ENGINE SIMULATOR / CAD CORRESPONDENCE",
+  "evidence": "Accepted nominal CAD correspondence · later port workflow incomplete",
+  "hero": "engineering/simulator-oct21/rhino-milestone.svg",
+  "heroAlt": "Accepted 19 October motion connection distinguished from the later incomplete port workflow.",
+  "heroCaption": "Two different gates, preserved separately. The accepted motion demonstration does not make every later CAD workflow complete.",
+  "sections": [
+    {
+      "title": "An actual connection, with a small scope",
+      "text": "On 19 October, the unchanged Python foundation drove a copied partial piston model and synthetic crank, rod and cylinder in Rhino 7. Actual document geometry was read back across all 361 one-degree poses. The acceptance review passed software and geometry correspondence, including a saved/reopened working copy. This is nominal rigid-motion software evidence, not a validated assembled engine.",
+      "figure": {
+        "image": "engineering/simulator-oct21/exchange-readback.svg",
+        "alt": "Frozen Python poses pass through a bound exchange to actual Rhino readback and independent comparison.",
+        "caption": "Intended transforms are not sufficient. The accepted workflow compared observations from the document with the frozen numerical core."
+      }
+    },
+    {
+      "title": "What was observed rather than assumed",
+      "text": "The checks covered actual datum and joint positions, millimetre/unit mapping, rigid orientation, complete-cycle return, repeated poses, persistence and rejected updates. Eleven invalid-input and controlled-fault cases preserved the document or verified rollback. The CAD correspondence threshold remained 0.001 mm. The tiny observed numerical residual describes agreement between software representations; it is not the precision of manufactured hardware.",
+      "figure": {
+        "image": "engineering/simulator-oct21/motion-acceptance.svg",
+        "alt": "Four accepted facts: 361 actual poses, unchanged 0.001 millimetre threshold, 11 rejection/rollback cases and saved/reopened readback.",
+        "caption": "Accepted 19 October evidence. The copied piston is a partial nominal constraint model; the surrounding mechanism is synthetic."
+      }
+    },
+    {
+      "title": "Keep the failed attempts in the history",
+      "text": "The first session stopped before geometry acceptance when a document identifier could not be serialized. A separately authorized replacement reached the geometry work. A further recording incompatibility was repaired within that same replacement session; the final motion gate passed. Original failures, source identities and resource records were retained. Successful recovery did not erase the unsuccessful attempts or change the numerical threshold."
+    },
+    {
+      "title": "A later port workflow has a different unfinished gate",
+      "text": "The 21 October port-construction workflow again observed 361 poses, but did not earn complete runtime acceptance. Save/reopen testing first exposed layer-index renumbering. A later attempt exposed a second issue: two runtimes wrote different decimal text for identical floating-point values, so re-encoding changed an evidence hash. That is a demonstrated evidence-identity incompatibility, rather than proof that geometry changed.",
+      "figure": {
+        "image": "engineering/simulator-oct21/persistence-boundary.svg",
+        "alt": "Later port workflow separates successful replay, failed strict persistence identity, isolated causes and qualified offline corrections.",
+        "caption": "The accepted offline policy package passed 100 checks; a later serialization package passed 154 checks. These are separate component qualifications, not completion of the later Rhino gate."
+      }
+    },
+    {
+      "title": "What the offline repair establishes",
+      "text": "The qualified correction binds the producer’s exact persisted bytes, then independently checks complete geometric and logical identity. It retains meaningful geometry, object/layer identity, assignments, settings, rollback and the original geometric threshold. The latest reviewed offline gate still requires a fresh runtime producer receipt and complete external gate. No later successful screenshots or completion receipt are asserted here."
+    },
+    {
+      "title": "Software integration is still not physical validation",
+      "text": "This connection does not establish installed assembly/hull fit, hot clearance, ring-port safety, safe engine speed, combustion, power or manufacturability. The genuine progress is a reproducible connection with observed geometry and explicit failure boundaries. Later stages must earn their own acceptance. A separately reviewed proposal would build a small sequential Python experiment runner with immutable inputs, one owned calculation at a time, checked outcomes and independent resource protection. The plan is ready for a bounded implementation decision; no runner, pilot or unattended study has been executed."
+    }
+  ],
+  "downloadsTitle": "Original accepted motion capture",
+  "downloadsIntro": "Unaltered native capture from the accepted 19 October working-copy demonstration. Its opaque viewport is retained as original evidence, separate from the transparent diagrams.",
+  "downloads": [
+    {
+      "file": "engineering/simulator-oct21/rhino-90deg-original.png",
+      "label": "Actual 90° Rhino viewport · synthetic nominal demonstration"
+    }
+  ],
+  "sources": [
+    "Nominal Rhino motion integration report and acceptance review · 19 October 2026",
+    "Later port-workflow diagnostic and final runtime reports · 21 October 2026",
+    "Independent persistence-policy and raw-evidence serialization reviews · 21 October 2026",
+    "Sequential experiment-runner planning gate and independent review · 21 October 2026; planning only"
+  ],
+  "changes": "Adds an evidence-led account of actual nominal CAD correspondence, while preserving incomplete later port-workflow gates and successful offline component qualifications. No CAD, model, physical input or numerical criterion was changed for this article."
+}
