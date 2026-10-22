@@ -44,10 +44,11 @@ async function dayDrawings(dir){
   if(entry.isDirectory()){if(entry.name!=='brand'&&entry.name!=='day')await dayDrawings(file);continue;}
   if(!entry.name.endsWith('.svg'))continue;
   const svg=await readFile(file,'utf8');
-  if(!/<text[ >]/.test(svg))continue;
+  const nativeMotionDrawing=file.includes(path.sep+'simulator-native-oct22'+path.sep);
+  if(!/<text[ >]/.test(svg)&&!nativeMotionDrawing)continue;
   const dest=path.join(out,'assets/day',path.relative(path.join(out,'assets'),file));
   await mkdir(path.dirname(dest),{recursive:true});
-  await writeFile(dest,svg.replace('</svg>','<style>text,tspan{fill:#33485c!important}</style></svg>'));
+  await writeFile(dest,(nativeMotionDrawing?svg.replaceAll('#f2f2f3','#33485c'):svg).replace('</svg>','<style>text,tspan{fill:#33485c!important}</style></svg>'));
   dayDrawingPaths.push('/assets/'+path.relative(path.join(out,'assets'),file).split(path.sep).join('/'));
  }
 }
