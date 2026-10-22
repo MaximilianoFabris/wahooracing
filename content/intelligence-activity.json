@@ -2,6 +2,50 @@
   "schema_version": 1,
   "records": [
     {
+      "id": "simulator-synthetic-state-flow",
+      "publication": "published",
+      "date": "2026-10-22",
+      "agents": [
+        "ada",
+        "marie",
+        "isaac",
+        "leo"
+      ],
+      "status": "completed",
+      "title": "Synthetic gas-state and pressure-flow modules pass bounded gates",
+      "summary": "Separate accepted modules now cover closed-mass state changes, prescribed heat, open mass/energy/passive-species accounting and a fixed-volume pressure-driven transaction. Original failures and corrections remain in the evidence. These are synthetic numerical capabilities, not a validated firing engine or real port design.",
+      "evidence": "Accepted bounded software modules and verified archive receipts · physical validation pending"
+    },
+    {
+      "id": "simulator-acoustic-accuracy-interface",
+      "publication": "published",
+      "date": "2026-10-22",
+      "agents": [
+        "ada",
+        "marie",
+        "isaac",
+        "leo"
+      ],
+      "status": "completed",
+      "title": "An acoustic accuracy upgrade and an explicit one-way interface",
+      "summary": "A restricted aligned linear-acoustic benchmark greatly reduces the earlier method’s numerical diffusion. A separate held-volume provider and phase-gated boundary also pass, with acoustic work assigned to an external driver. No globally conservative cylinder/exhaust engine or real exhaust performance is established.",
+      "evidence": "Accepted synthetic waveform, energy and interface checks · restricted domain"
+    },
+    {
+      "id": "simulator-bounded-runner-pilot",
+      "publication": "published",
+      "date": "2026-10-22",
+      "agents": [
+        "ada",
+        "isaac",
+        "leo"
+      ],
+      "status": "completed",
+      "title": "A finite supervised experiment runner passes its pilot",
+      "summary": "The sequential runner qualified recovery, checked reporting and owned-work protection for six input records: four results and two expected rejections. Its single pilot completed in about 25 seconds. This demonstrates the bounded workload, without claiming long endurance, sleep/reboot recovery or unattended operation.",
+      "evidence": "Accepted supervised finite-workload qualification · longer operation untested"
+    },
+    {
       "id": "simulator-port-cad-workflow",
       "publication": "published",
       "date": "2026-10-21",

@@ -29,3 +29,8 @@ html[data-theme=day] .board-panel,html[data-theme=night] .board-panel{--text:var
 .article-inline-figure:has(img[src*="/simulator-oct21/"]){width:100%;max-width:650px;margin-inline:auto}
 .article-inline-figure img[src*="/simulator-oct21/"]{display:block;width:100%;height:auto;max-height:none}
 .article-hero:has(img[src*="/simulator-oct21/"]){max-width:650px}
+
+/* Source-backed simulator journal figures. */
+.article-inline-figure:has(img[src*="/simulator-oct22/"]){width:100%;max-width:650px;margin-inline:auto}
+.article-inline-figure img[src*="/simulator-oct22/"]{display:block;width:100%;height:auto;max-height:none}
+.article-hero:has(img[src*="/simulator-oct22/"]){max-width:650px}

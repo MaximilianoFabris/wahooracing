@@ -1,26 +1,27 @@
 {
   "slug": "engine-simulation-digital-twin",
   "title": "Building the engine model, one verified layer at a time.",
-  "summary": "The accepted Python foundation now connects to an observed nominal Rhino motion workflow, with a later synthetic port-geometry stage verified separately. Complete runtime persistence and physical engine validation remain distinct open gates.",
-  "date": "2026-10-21",
-  "dateLabel": "21 Oct 2026 · review of 18–21 Oct milestones",
+  "summary": "The simulator now spans nominal motion, synthetic thermodynamic state, pressure-driven exchange and restricted acoustics. The next task is to connect those separately verified layers without hiding their physical limits.",
+  "date": "2026-10-22",
+  "dateLabel": "22 Oct 2026 · accepted module review; earlier milestones retained",
   "publicationSequence": 1,
-  "revision": "ENGINE SIMULATOR / SOFTWARE AND CAD EVIDENCE UPDATE",
+  "revision": "ENGINE SIMULATOR / STATE, FLOW AND ACOUSTIC MODULES",
   "type": "Engineering study",
-  "evidence": "Accepted nominal software checks · physical validation pending",
+  "evidence": "Accepted bounded synthetic modules · physical engine validation pending",
   "status": "published",
   "systems": [
     "engine",
     "exhaust",
     "controls"
   ],
-  "hero": "engineering/simulator-oct21/rhino-milestone.svg",
-  "heroAlt": "Accepted 19 October CAD motion correspondence distinguished from the later incomplete port workflow.",
-  "heroCaption": "The 18 October Python gate, 19 October nominal CAD motion acceptance and 21 October synthetic port study are different milestones. Later port-workflow runtime acceptance remains incomplete.",
+  "hero": "engineering/simulator-oct22/state-flow-layers.svg",
+  "heroAlt": "Separately qualified software progression from volume to state, heat, inventories and pressure-driven exchange.",
+  "heroCaption": "The new state and flow modules are synthetic numerical benchmarks. Existing nominal geometry and new gas/acoustic histories do not establish a synchronized firing engine or new physical CAD qualification.",
   "sections": [
     {
       "title": "One foundation, several kinds of model",
-      "text": "The target is a digital twin of the entire engine. The Wahoo-owned, backend-independent Python foundation covers nominal motion, geometry and evidence handling; it does not replace a combustion or engine-performance solver. Actual copied-geometry motion correspondence was accepted on 19 October. Later port construction is a separate workflow whose full runtime gate remains incomplete in the reviewed 21 October records.",
+      "visual": "simulator-saved-motion-oct22",
+      "text": "The target remains a digital twin of the entire engine. The Wahoo-owned foundation now includes separately accepted nominal motion/CAD correspondence, synthetic state and heat modules, open-system inventory accounting, pressure-driven exchange and restricted acoustics. These are bounded software capabilities. Real engine calibration, complete moving-volume gas exchange and coupled firing behaviour remain open.",
       "figure": {
         "image": "engineering/simulator-oct21/exchange-readback.svg",
         "alt": "Frozen Python motion connected to actual Rhino document observations and independent comparison.",
@@ -67,6 +68,15 @@
       "text": "On 21 October, 40 synthetic fixture groups and 542 applicable frozen checks passed before an authorized two-family, 18-context timing/opening screen. It supports reproducible cold geometric reasoning. It does not predict pressure, power, safe engine speed or manufacturing suitability. The separate investigations explain the actual CAD connection and synthetic timing study in more detail."
     },
     {
+      "title": "22 October: state and wave modules gain their own evidence",
+      "text": "Closed-mass volume changes now calculate gas state; fixed-volume tests qualify prescribed heat, open mass/energy/passive-species conservation and pressure-driven transactions. A separate aligned linear-acoustic benchmark improves a diffusive baseline, followed by a one-way externally powered boundary adapter. Each result retains its own fixtures, clocks and energy ownership. A bounded supervised runner pilot passed; long unattended execution remains unqualified.",
+      "figure": {
+        "image": "engineering/simulator-oct22/one-way-boundary.svg",
+        "alt": "One-way synthetic provider/acoustic adapter keeps external driver work separate from cylinder energy.",
+        "caption": "A working software interface has explicit limits. This is not globally conservative physical cylinder/exhaust coupling."
+      }
+    },
+    {
       "title": "The next useful comparisons",
       "text": "Future engine/exhaust comparisons should use source-qualified inputs, packaging and propulsion-load constraints, conservation and convergence checks, and sensitivity to uncertain inputs. Complete ECU behaviour, coolant flow and detailed metal temperatures need their own models and measurements; prescribed inputs cannot substitute for them. Bench and dyno evidence must eventually calibrate and challenge predictions. These are development requirements, not completed simulations."
     }
@@ -82,7 +92,9 @@
     "Controlled simulator migration completion report · 18 October 2026",
     "Nominal Rhino motion report and acceptance · 19 October 2026",
     "Accepted synthetic port-geometry comparison · 21 October 2026",
-    "Later port-workflow runtime, persistence and serialization reviews · 21 October 2026"
+    "Later port-workflow runtime, persistence and serialization reviews · 21 October 2026",
+    "Accepted state/heat/open-system/pressure-driven module gates and archive receipts · 22 October 2026",
+    "Accepted acoustic accuracy/interface and bounded supervised runner gates · 22 October 2026"
   ],
-  "changes": "Updates the overview with accepted 19 October nominal CAD correspondence and 21 October synthetic geometry evidence. The original 18 October gates remain dated history; their Rhino-not-run labels are not current global capability claims. Later runtime incompleteness and physical-validation limits remain explicit. Draft pending owner review; original published overview remains unchanged in Current."
+  "changes": "Updates the overview with the accepted 22 October synthetic state, flow, acoustic and supervised-runner capabilities while retaining earlier gate history. Later I2 CAD persistence and original saved-viewer browser UI gates remain incomplete. No new physical CAD, firing-engine prediction or unattended endurance acceptance is implied. Draft pending owner review."
 }

@@ -1,0 +1,72 @@
+{
+  "date": "2026-10-22",
+  "dateLabel": "22 Oct 2026 · accepted synthetic software evidence",
+  "status": "published",
+  "type": "Engineering study",
+  "systems": [
+    "engine",
+    "exhaust"
+  ],
+  "slug": "simulator-state-and-flow",
+  "title": "From piston motion to thermodynamic state.",
+  "summary": "The simulator now calculates bounded synthetic gas states, energy transfers and pressure-driven exchange. Each new layer has its own checks; none yet predicts a firing Wahoo engine.",
+  "publicationSequence": 3,
+  "revision": "ENGINE SIMULATOR / STATE AND FLOW",
+  "evidence": "Accepted synthetic numerical modules · physical validation pending",
+  "hero": "engineering/simulator-oct22/state-flow-layers.svg",
+  "heroAlt": "Software progression from geometry and volume to state, heat, inventories and pressure-driven exchange.",
+  "heroCaption": "A sequence of separately qualified software layers. Their acceptance does not make them one synchronized, physically validated engine cycle.",
+  "sections": [
+    {
+      "title": "Move beyond a prescribed pressure curve",
+      "visual": "simulator-saved-motion-oct22",
+      "text": "The earlier integration joined piston volume to synthetic pressure and an energy ledger. The new closed-mass interval calculates internal energy, temperature and absolute pressure as volume changes. Its compression and independently initialized reverse-expansion fixtures are checked against separate analytical references. The graph follows the accepted compression samples; its synthetic time path is not a reverse-running engine.",
+      "figure": {
+        "image": "engineering/simulator-oct22/compression-pressure-volume.svg",
+        "alt": "All 481 accepted compression samples show absolute pressure against volume in cubic metres.",
+        "caption": "Constant-property ideal gas, closed mass and no heat transfer. Compression proceeds right to left. The 11 cc endpoint and other gas inputs are qualification assumptions, not released chamber geometry or measured trapped conditions."
+      }
+    },
+    {
+      "title": "Add heat without pretending to solve wall cooling",
+      "text": "A separate fixed-volume, closed-mass module applies prescribed heat input or removal. Heating at +1 W for one second raises the fixture temperature from 300 K to about 409 K; −1 W lowers it to about 191 K. Independent heat and energy accounting check signs and state consistency. These tests establish prescribed-heat software, rather than a wall-temperature model or cooling-system prediction.",
+      "figure": {
+        "image": "engineering/simulator-oct22/prescribed-heat.svg",
+        "alt": "Original heating and cooling temperature traces over one second, with mass and volume fixed.",
+        "caption": "All 81 samples per curve retained. The imposed heat rates are synthetic tests; no physical heat-transfer correlation, metal temperature or coolant flow is solved."
+      }
+    },
+    {
+      "title": "Open the inventory, keep the accounting explicit",
+      "text": "The next layer evolves gas mass, internal energy and two passive-species inventories under prescribed inflow, outflow and reversal. Incoming and outgoing enthalpy are accumulated separately, so a residual is checked rather than forced to zero. Flow work appears once within enthalpy. Passive labels test conservation and mixing bookkeeping; they are not combustion chemistry or scavenging-efficiency predictions."
+    },
+    {
+      "title": "Let pressure select the flow direction",
+      "text": "The latest accepted increment adds a quasi-steady ideal-gas restriction, then connects it to a fixed-volume state transaction. The kernel checks equal pressure, subcritical flow, choking and reversed donor ownership against an independent reference. The illustrated transaction changes its external reservoir pressure at 0.010 s. It calculates a subsequent flow reversal; the imposed reservoir change is not a physical valve or autonomous firing event.",
+      "figure": {
+        "image": "engineering/simulator-oct22/pressure-driven-state.svg",
+        "alt": "Original 81-sample absolute cylinder-pressure trace for the accepted controlled reservoir transition.",
+        "caption": "Accepted corrected revision, 20 ms synthetic fixture. Volume is fixed; heat and piston work are zero. Area, discharge coefficient and reservoir states are benchmark assumptions, not Wahoo port specifications."
+      }
+    },
+    {
+      "title": "Preserve the failure that improved the implementation",
+      "text": "The first pressure-state qualification exposed spurious near-equilibrium flow caused by roundoff in pressure reconstruction. Its failed outputs and source revision remain preserved. A reviewed, algebraically equivalent fixed-volume pressure relation then passed the same fixtures and criteria within the original budget. No deadband, clipping or relaxed acceptance threshold was used. A separate review-order deviation in the flow-kernel stage is also recorded; technical acceptance is not a claim that every procedural step occurred in the intended order."
+    },
+    {
+      "title": "Keep the models’ clocks and domains visible",
+      "text": "These are separately qualified synthetic modules, not a complete moving-piston, port-controlled gas-exchange cycle. Acoustic perturbation energy is not gas enthalpy. The earlier nominal CAD demonstration remains geometric evidence; an attractive animation cannot validate pressure, temperature or mass flow. Real effective areas, flow losses, mixture/scavenging behaviour, combustion, injection, friction, pump load and experimental calibration remain open."
+    },
+    {
+      "title": "Make finite experiments reproducible",
+      "text": "A small sequential runner has also passed bounded supervised qualification and one finite pilot. Four model results and two expected rejections were verified; the pilot finished in about 25 seconds. This establishes that workload’s recovery and reporting, not overnight endurance or long unattended operation. The useful next step is a separately qualified connection between these modules, with explicit mass, energy and timing ownership."
+    }
+  ],
+  "sources": [
+    "Accepted volume/pressure/work integration and bounded runner gates · 22 October 2026",
+    "Closed-mass state and fixed-volume prescribed-heat qualification reports · 22 October 2026",
+    "Prescribed open-system conservation and state-integration reviews · 22 October 2026",
+    "Pressure-flow kernel and corrected pressure-state transaction gates and independent reviews · 22 October 2026"
+  ],
+  "changes": "New draft groups the accepted synthetic state/heat/open-system/pressure-flow advances into one investigation. Curves reproduce frozen accepted samples; no model, CAD, CFD or engineering input was run or changed for publication. Physical prediction and complete engine-cycle coupling remain unvalidated."
+}

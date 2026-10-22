@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-21",
+  "date": "2026-10-22",
   "status": "published",
   "systems": [
     "engine",
@@ -9,8 +9,8 @@
   "slug": "rhino-motion-correspondence",
   "title": "Python motion reaches actual CAD.",
   "summary": "A measured software connection now links the nominal motion model to a copied Rhino working model. Later port-workflow checks show why observing motion and accepting a complete saved result remain separate milestones.",
-  "dateLabel": "21 Oct 2026 · review of 19–21 Oct software evidence",
-  "publicationSequence": 3,
+  "dateLabel": "22 Oct 2026 · runner follow-up; 19–21 Oct CAD history retained",
+  "publicationSequence": 0,
   "revision": "ENGINE SIMULATOR / CAD CORRESPONDENCE",
   "evidence": "Accepted nominal CAD correspondence · later port workflow incomplete",
   "hero": "engineering/simulator-oct21/rhino-milestone.svg",
@@ -54,7 +54,7 @@
     },
     {
       "title": "Software integration is still not physical validation",
-      "text": "This connection does not establish installed assembly/hull fit, hot clearance, ring-port safety, safe engine speed, combustion, power or manufacturability. The genuine progress is a reproducible connection with observed geometry and explicit failure boundaries. Later stages must earn their own acceptance. A separately reviewed proposal would build a small sequential Python experiment runner with immutable inputs, one owned calculation at a time, checked outcomes and independent resource protection. The plan is ready for a bounded implementation decision; no runner, pilot or unattended study has been executed."
+      "text": "This connection does not establish installed assembly/hull fit, hot clearance, ring-port safety, safe engine speed, combustion, power or manufacturability. The genuine progress is a reproducible connection with observed geometry and explicit failure boundaries. The 21 October runner proposal was subsequently implemented and accepted on 22 October for a small bounded supervised workload and one finite pilot. Its four model results and two expected rejections do not establish long unattended execution. The later I2 CAD runtime gate remains incomplete in the reviewed 22 October readiness record."
     }
   ],
   "downloadsTitle": "Original accepted motion capture",
@@ -69,7 +69,8 @@
     "Nominal Rhino motion integration report and acceptance review · 19 October 2026",
     "Later port-workflow diagnostic and final runtime reports · 21 October 2026",
     "Independent persistence-policy and raw-evidence serialization reviews · 21 October 2026",
-    "Sequential experiment-runner planning gate and independent review · 21 October 2026; planning only"
+    "Sequential experiment-runner planning gate and independent review · 21 October 2026; planning only",
+    "Bounded supervised runner acceptance and I2 readiness records · 22 October 2026"
   ],
-  "changes": "Adds an evidence-led account of actual nominal CAD correspondence, while preserving incomplete later port-workflow gates and successful offline component qualifications. No CAD, model, physical input or numerical criterion was changed for this article."
+  "changes": "Adds an evidence-led account of actual nominal CAD correspondence, while preserving incomplete later port-workflow gates and successful offline component qualifications. No CAD, model, physical input or numerical criterion was changed for this article. A 22 October follow-up replaces the now-historical runner-planning-only statement with its bounded supervised acceptance; the separate I2 CAD gate remains incomplete."
 }

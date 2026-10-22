@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-22",
+  "dateLabel": "22 Oct 2026 · accepted synthetic software evidence",
+  "status": "published",
+  "type": "Engineering study",
+  "systems": [
+    "engine",
+    "exhaust"
+  ],
+  "slug": "simulator-acoustic-benchmarks",
+  "title": "Check the wave before connecting the exhaust.",
+  "summary": "A restricted acoustic benchmark now transports a small pressure pulse with much less numerical distortion. A one-way cylinder-state interface works too, with its external energy source clearly declared.",
+  "publicationSequence": 2,
+  "revision": "ENGINE SIMULATOR / ACOUSTIC ACCURACY AND INTERFACES",
+  "evidence": "Accepted linear-acoustic benchmarks · real exhaust validation pending",
+  "hero": "engineering/simulator-oct22/acoustic-scope.svg",
+  "heroAlt": "Restricted benchmark accuracy improvement distinguished from general exhaust prediction.",
+  "heroCaption": "Accuracy is attached to a domain: stationary uniform medium, constant wave speed and area, small disturbances and exact grid/time alignment.",
+  "sections": [
+    {
+      "title": "The first passing solver still had an important limitation",
+      "text": "The first linear-acoustic module passed its declared travel, reflection and discrete energy tests. Its first-order transport nevertheless smeared the pulse materially: the finest reflected waveform error was about 40.45% of the initial signal RMS, and about 42.69% of the pulse energy was lost numerically. Those are numerical errors, not physical wall damping. Closing an energy budget alone did not make the waveform accurate."
+    },
+    {
+      "title": "Improve a narrow benchmark before widening its claims",
+      "text": "The next accepted method moves each characteristic by exactly one cell per timestep in this uniform, stationary, constant-wave-speed benchmark. It brings transport and reflection errors near roundoff under those aligned conditions. Receiver sampling still limits peak-time resolution. The graph shows the original rigid-termination histories; it is not a nonlinear hot-exhaust or tuned-pipe calculation.",
+      "figure": {
+        "image": "engineering/simulator-oct22/rigid-pressure-history.svg",
+        "alt": "Two original receiver pressure-perturbation histories show the incident pulse and rigid-end return.",
+        "caption": "561 saved samples per receiver, normalized time τ = c t / L. The 1 m pipe, 50 Pa initial pulse and reference gas are synthetic qualification inputs, not chosen Wahoo exhaust dimensions or operating conditions."
+      }
+    },
+    {
+      "title": "Separate energy that leaves from energy lost numerically",
+      "text": "With a rigid end the aligned benchmark retains its discrete pulse energy; with an absorbing end that energy exits through the boundary. Independent pressure/velocity boundary sums check the ledger, and tiny nonzero summation residuals remain in the evidence. This result does not establish physical damping, arbitrary timestep accuracy, variable-area transport, mean-flow effects or nonlinear blowdown.",
+      "figure": {
+        "image": "engineering/simulator-oct22/acoustic-energy.svg",
+        "alt": "Stored acoustic energy remains in the rigid case and leaves through the absorbing termination.",
+        "caption": "All 561 samples per curve retained. Stored acoustic energy is measured in joules; it must not be relabelled as transported gas enthalpy or engine work."
+      }
+    },
+    {
+      "title": "Connect a provider without hiding who supplies the energy",
+      "text": "A separate accepted adapter uses a held-volume gas provider, a newly prescribed small heat cycle and an independently advancing phase clock to gate an acoustic boundary. Its returning-wave checks allow the boundary to absorb as well as supply energy. The acoustic work comes from an explicitly external driver; it is not deducted from the closed-mass cylinder provider.",
+      "figure": {
+        "image": "engineering/simulator-oct22/one-way-boundary.svg",
+        "alt": "One-way provider-to-acoustic boundary shows the separate external-driver energy ledger.",
+        "caption": "The held volume and independent phase clock are synthetic interface conditions. No mass exchange or globally conservative physical cylinder/exhaust engine is represented."
+      }
+    },
+    {
+      "title": "Do not turn an acoustic pressure into an upstream gas state",
+      "text": "Acoustic pressure perturbation, absolute reference pressure, velocity and acoustic energy have different meanings from reservoir total state, mass flux and enthalpy. The newer pressure-driven gas modules retain their own contracts. A real junction needs a separately verified agreement on mass, species, total energy, momentum and time. Matching plots or convenient connectors cannot supply that missing physics."
+    },
+    {
+      "title": "Use the visuals to inspect evidence, not to create it",
+      "text": "Saved curves and mechanism views help explain these modules. They must retain their independent clocks and model labels rather than appear to be one synchronized firing engine. The latest saved-results prototype passed data/package checks, while its original browser UI gate remained incomplete. No new CAD surfaces, physical exhaust tuning, torque, power or safe operating speed were established by that prototype."
+    }
+  ],
+  "sources": [
+    "First linear-acoustic qualification and material numerical-diffusion review · 22 October 2026",
+    "Aligned characteristic-transport results and independent evidence review · 22 October 2026",
+    "One-way provider/acoustic interface and energy-ownership reviews · 22 October 2026",
+    "Saved-results interface physics and data review · 22 October 2026; original browser UI acceptance incomplete"
+  ],
+  "changes": "New draft preserves the earlier diffusive result and explains the separately accepted aligned benchmark and one-way interface. It republishes accepted sample histories without smoothing or a new acoustic run. No real exhaust design, coupled engine conservation or physical validation is claimed."
+}
