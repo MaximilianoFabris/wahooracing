@@ -2,6 +2,64 @@
   "schema_version": 1,
   "records": [
     {
+      "id": "simulator-offline-display-package",
+      "publication": "published",
+      "date": "2026-10-22",
+      "agents": [
+        "isaac",
+        "leo"
+      ],
+      "status": "completed",
+      "title": "Saved-state display packages pass offline correspondence checks",
+      "summary": "Corrected packages preserve accepted moving-volume data and add 1,156 prescribed-energy state rows. Independent readback and generated-JavaScript syntax checks pass. Actual rendering, controls, console and mobile layout remain untested; interactive UI acceptance is incomplete.",
+      "evidence": "Accepted offline data/package and syntax evidence · browser UI not accepted"
+    },
+    {
+      "id": "simulator-moving-volume-energy",
+      "publication": "published",
+      "date": "2026-10-22",
+      "agents": [
+        "marie",
+        "nikola",
+        "isaac",
+        "leo"
+      ],
+      "status": "completed",
+      "title": "Prescribed energy joins the moving-volume gas model",
+      "summary": "A bounded accepted source-energy increment now acts within the same calculation as volume, port-controlled flow and gas state, with separate heat, work and enthalpy ledgers. Original failures and corrections remain preserved. The energy is prescribed; combustion, fuel delivery and engine performance are not validated.",
+      "evidence": "Accepted synthetic prescribed-energy integration · not combustion"
+    },
+    {
+      "id": "simulator-moving-volume-state",
+      "publication": "published",
+      "date": "2026-10-22",
+      "agents": [
+        "marie",
+        "nikola",
+        "isaac",
+        "leo"
+      ],
+      "status": "completed",
+      "title": "Moving volume and gas exchange share one stage clock",
+      "summary": "A further accepted increment couples nominal piston-driven volume, synthetic port flow, gas mass, energy and passive-species inventories. Independent state, work and transport checks pass after a preserved test correction. No firing engine, physical clearance or manufacturing acceptance is established.",
+      "evidence": "Accepted synthetic moving-volume software · physical validation pending"
+    },
+    {
+      "id": "simulator-port-controlled-flow",
+      "publication": "published",
+      "date": "2026-10-22",
+      "agents": [
+        "marie",
+        "nikola",
+        "isaac",
+        "leo"
+      ],
+      "status": "completed",
+      "title": "Synthetic port opening now controls pressure-driven flow",
+      "summary": "The accepted fixed-volume increment connects nominal piston travel and synthetic aperture to pressure-driven flow and evolving gas state. Four fixtures pass independent geometry, event, flow and conservation checks. This is bounded numerical software, without real port or engine-performance validation.",
+      "evidence": "Accepted synthetic port-controlled flow gate · physical applicability unresolved"
+    },
+    {
       "id": "simulator-synthetic-state-flow",
       "publication": "published",
       "date": "2026-10-22",
