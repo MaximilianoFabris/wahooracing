@@ -8,6 +8,8 @@
     "exhaust"
   ],
   "slug": "simulator-acoustic-benchmarks",
+  "thumbnail": "engineering/journal-thumbnails-oct22/simulator-acoustic-benchmarks.svg",
+  "thumbnailAlt": "Original accepted synthetic acoustic receiver histories.",
   "title": "Check the wave before connecting the exhaust.",
   "summary": "A restricted acoustic benchmark now transports a small pressure pulse with much less numerical distortion. A one-way cylinder-state interface works too, with its external energy source clearly declared.",
   "publicationSequence": 2,

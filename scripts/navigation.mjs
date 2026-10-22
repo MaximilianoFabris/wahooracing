@@ -3,6 +3,7 @@ export const headerNavigation = [
   ['/explore/', 'The Board'],
   ['/systems/', 'Engineering'],
   ['/intelligence/', 'Intelligence'],
+  ['/simulator/', 'Simulator'],
   ['/journal/', 'Journal'],
   ['/history/', 'Our Story'],
   ['/investors/', 'Invest in Wahoo'],

@@ -1,5 +1,7 @@
 {
   "slug": "engine-simulation-digital-twin",
+  "thumbnail": "engineering/journal-thumbnails-oct22/engine-simulation-digital-twin.svg",
+  "thumbnailAlt": "Native partial-piston isometric linework with schematic crank and rod.",
   "title": "Building the engine model, one verified layer at a time.",
   "summary": "The simulator now spans nominal motion, synthetic thermodynamic state, pressure-driven exchange and restricted acoustics. The next task is to connect those separately verified layers without hiding their physical limits.",
   "date": "2026-10-22",

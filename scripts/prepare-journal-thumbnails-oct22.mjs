@@ -1,0 +1,20 @@
+import{readFile,writeFile,mkdir}from'node:fs/promises';import{createHash}from'node:crypto';import path from'node:path';import{fileURLToPath}from'node:url';
+const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'..'),out=path.join(root,'public/assets/engineering/journal-thumbnails-oct22');await mkdir(out,{recursive:true});
+const src={iso:'simulator-native-oct22/piston-isometric.svg',side:'simulator-native-oct22/piston-side.svg',state:'simulator-oct22/compression-pressure-volume.svg',acoustic:'simulator-oct22/rigid-pressure-history.svg',port:'simulator-oct21/synthetic-opening.svg'};
+const raw={};for(const[k,v]of Object.entries(src))raw[k]=await readFile(path.join(root,'public/assets/engineering',v),'utf8');
+const glyphs=s=>[...s.matchAll(/<(?:polyline|path|line|circle|ellipse)\b[^>]*\/>/g)].map(m=>m[0]).join('');
+const count=s=>[...s.matchAll(/<polyline\b/g)].length;
+function bounds(s){const pts=[...s.matchAll(/<polyline\b[^>]*points="([^"]+)"/g)].flatMap(m=>m[1].trim().split(/\s+/).map(p=>p.split(',').map(Number)));for(const m of s.matchAll(/<circle\b[^>]*cx="([^"]+)"[^>]*cy="([^"]+)"[^>]*r="([^"]+)"/g)){const x=+m[1],y=+m[2],r=+m[3];pts.push([x-r,y-r],[x+r,y+r])}if(!pts.length||pts.some(p=>!p.every(Number.isFinite)))throw Error('Bad native bounds');const minx=Math.min(...pts.map(p=>p[0])),maxx=Math.max(...pts.map(p=>p[0])),miny=Math.min(...pts.map(p=>p[1])),maxy=Math.max(...pts.map(p=>p[1])),w=maxx-minx,h=maxy-miny,pad=Math.max(w,h)*.07;return[minx-pad,miny-pad,w+2*pad,h+2*pad].join(' ')}
+function nest(k,x,y,w,h,box){let g=glyphs(raw[k]);if(k==='iso'||k==='side')g=g.replace(/stroke-width="[^"]+"/g,'stroke-width="1.8"');return'<svg x="'+x+'" y="'+y+'" width="'+w+'" height="'+h+'" viewBox="'+box+'" preserveAspectRatio="xMidYMid meet">'+g+'</svg>'}
+const style='<style>.rule{fill:none;stroke:#33404c;stroke-width:1}.axis{fill:none;stroke:#769fc2;stroke-width:1.5}.line{fill:none;stroke:#94bce3;stroke-width:2}.a,.curveA{fill:none;stroke:#24b8ff;stroke-width:3}.b,.curveB{fill:none;stroke:#94bce3;stroke-width:3;stroke-dasharray:8 5}</style>';
+const make=(title,desc,body)=>'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 425" role="img"><title>'+title+'</title><desc>'+desc+'</desc>'+style+body+'</svg>';
+const jobs=[
+['engine-simulation-digital-twin.svg','Native partial-piston geometry','Source-derived native isometric piston linework with schematic crank and rod; historical nominal geometry, not physical validation.',nest('iso',15,15,770,395,bounds(raw.iso))],
+['rhino-motion-correspondence.svg','Native partial piston in side view','Source-derived native piston linework and schematic links from the accepted historical working-copy presentation.',nest('side',15,15,770,395,bounds(raw.side))],
+['simulator-state-and-flow.svg','Native motion and synthetic gas state','Native partial-piston linework beside the original accepted synthetic pressure-volume samples. No complete firing-engine claim.',nest('iso',5,35,390,355,bounds(raw.iso))+nest('state',405,35,390,355,'75 150 650 335')],
+['simulator-acoustic-benchmarks.svg','Accepted acoustic receiver histories','Original synthetic receiver histories, preserving all numerical polyline samples. This is a thumbnail; axis labels and units are available in the article.',nest('acoustic',15,15,770,395,'75 150 650 335')],
+['synthetic-port-timing.svg','Accepted synthetic port-opening traces','Original A and B opening curves, preserving all source samples. The full article gives axes, units and the synthetic domain.',nest('port',15,15,770,395,'65 160 660 315')]
+];
+for(const[n,t,d,b]of jobs){const s=make(t,d,b);if(/<text\b|<rect\b/.test(s))throw Error('Text-led or opaque thumbnail');await writeFile(path.join(out,n),s)}
+console.log(JSON.stringify({written:jobs.map(j=>j[0]),sourceFiles:Object.fromEntries(Object.entries(raw).map(([k,s])=>[k,{path:src[k],sha256:createHash('sha256').update(s).digest('hex'),polylines:count(s)}])),transparency:'No background rectangles or raster canvas; text-free native SVG linework',geometry:'Original coordinates retained; uniform framing; native presentation stroke width only strengthened'}));
+

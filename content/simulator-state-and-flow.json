@@ -8,6 +8,8 @@
     "exhaust"
   ],
   "slug": "simulator-state-and-flow",
+  "thumbnail": "engineering/journal-thumbnails-oct22/simulator-state-and-flow.svg",
+  "thumbnailAlt": "Native piston linework beside accepted synthetic pressure–volume samples.",
   "title": "From piston motion to thermodynamic state.",
   "summary": "The simulator now calculates bounded synthetic gas states, energy transfers and pressure-driven exchange. Each new layer has its own checks; none yet predicts a firing Wahoo engine.",
   "publicationSequence": 3,

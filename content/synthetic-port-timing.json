@@ -7,6 +7,8 @@
   ],
   "type": "Engineering study",
   "slug": "synthetic-port-timing",
+  "thumbnail": "engineering/journal-thumbnails-oct22/synthetic-port-timing.svg",
+  "thumbnailAlt": "Original accepted A and B synthetic port-opening curves.",
   "title": "Testing port timing before predicting performance.",
   "summary": "Two hypothetical timing families now provide a checked way to reason about geometric openings. The results verify software behaviour within a declared synthetic domain; they do not select a cylinder or predict engine power.",
   "dateLabel": "21 Oct 2026 · accepted synthetic software review",

@@ -7,6 +7,8 @@
   ],
   "type": "Engineering study",
   "slug": "rhino-motion-correspondence",
+  "thumbnail": "engineering/journal-thumbnails-oct22/rhino-motion-correspondence.svg",
+  "thumbnailAlt": "Native partial-piston side view from the historical nominal CAD presentation.",
   "title": "Python motion reaches actual CAD.",
   "summary": "A measured software connection now links the nominal motion model to a copied Rhino working model. Later port-workflow checks show why observing motion and accepting a complete saved result remain separate milestones.",
   "dateLabel": "22 Oct 2026 · runner follow-up; 19–21 Oct CAD history retained",
