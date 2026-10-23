@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en" data-theme="night">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Engine laboratory · Wahoo Simulator V2 preview</title><link rel="icon" type="image/png" href="/assets/brand/wahoo-symbol-white.png"><link rel="stylesheet" href="/fonts/fonts.css"><link rel="stylesheet" href="/palette.css"><link rel="stylesheet" href="/preview/simulator-v2/app.css"><script src="/theme.js"></script><script type="module" src="/preview/simulator-v2/app.js"></script></head>
+<body>
+<a class="skip" href="#workspaces">Skip to workspaces</a>
+<header class="lab-header"><a class="brand" href="/" aria-label="Wahoo home"><span class="wordmark"></span><span class="brand-divider"></span><span>SIMULATOR <b>V2</b></span></a><div class="header-right"><span class="preview-label">DESIGN PREVIEW</span><a href="/preview/">Review pages ↗</a><button id="theme" class="icon-button" aria-label="Switch colour theme">◐ <span>Day / night</span></button></div></header>
+<main>
+<section class="app-heading"><div><p class="eyebrow">ENGINE DEVELOPMENT / SAVED EVIDENCE</p><h1>Engine laboratory<span>.</span></h1><p class="intro">Inspect the mechanism. Follow the quantities. Know what the evidence supports.</p></div><div class="data-summary"><div><strong id="dataset-count">—</strong><span>datasets</span></div><div><strong id="sample-count">—</strong><span>saved samples</span></div><div class="evidence-stamp"><i></i><span>SYNTHETIC MODELS<br><b>Physical validation pending</b></span></div></div></section>
+<div id="load-status" role="status" class="load-status">Loading the qualified saved-data projection…</div>
+<nav id="workspaces" class="workspace-tabs" role="tablist" aria-label="Engineering workspaces">
+<button id="tab-overview" role="tab" aria-controls="workspace" aria-selected="true" data-tab="overview"><span class="tab-icon">01</span>Engine overview</button>
+<button id="tab-cylinder" role="tab" aria-controls="workspace" aria-selected="false" data-tab="cylinder" tabindex="-1"><span class="tab-icon">02</span>Cylinder &amp; ports</button>
+<button id="tab-thermo" role="tab" aria-controls="workspace" aria-selected="false" data-tab="thermo" tabindex="-1"><span class="tab-icon">03</span>Thermodynamics</button>
+<button id="tab-exhaust" role="tab" aria-controls="workspace" aria-selected="false" data-tab="exhaust" tabindex="-1"><span class="tab-icon">04</span>Exhaust</button>
+<button id="tab-results" role="tab" aria-controls="workspace" aria-selected="false" data-tab="results" tabindex="-1"><span class="tab-icon">05</span>Results &amp; verification</button>
+</nav>
+<section id="workspace" role="tabpanel" aria-labelledby="tab-overview" tabindex="-1">
+<div class="context-bar"><label class="dataset-label">SAVED DATASET<select id="dataset" aria-label="Saved dataset"></select></label><div class="context-clock"><span class="eyebrow">DATA CLOCK</span><strong id="clock-value">—</strong><span id="clock-name">Independent saved clock</span></div><button id="open-evidence" class="secondary-button">Source &amp; assumptions <span>↗</span></button></div>
+<div class="workspace-title"><div><p class="eyebrow" id="workspace-kicker">REFERENCE MECHANISM</p><h2 id="workspace-title">Motion, with its limits in view.</h2></div><span id="model-class" class="model-class">Saved evidence only</span></div>
+
+<div id="engine-grid" class="engine-grid">
+<section class="panel engine-panel">
+<div class="panel-heading"><div><span class="eyebrow" id="representation-kicker">MECHANISM / INDEPENDENT POSE CLOCK</span><h3 id="representation-title">Saved nominal motion</h3></div><div class="segmented" aria-label="Engine representation"><button data-view="schematic" aria-pressed="true">Schematic</button><button data-view="capture" aria-pressed="false">Partial CAD reference</button></div></div>
+<div class="engine-stage">
+<div class="stage-hud" id="pose-hud"><span><i class="blue-dot"></i> SAVED POSE <b id="pose-badge">090°</b></span><span id="pose-frame">91 / 361</span></div>
+<svg id="engine-svg" viewBox="0 0 900 600" role="img" aria-label="Schematic engine mechanism selecting accepted saved landmarks. No web CAD mesh."></svg>
+<figure id="native-capture" hidden><img src="/assets/engineering/simulator-native-oct22/piston-isometric.svg" alt="Historical native partial-piston projection with schematic crank and rod"><figcaption>Static projection of partial nominal CAD • not a browser mesh or complete engine.</figcaption></figure>
+<div class="stage-foot"><span id="representation-foot">Schematic components · saved landmarks</span><span>NO NEW MODEL RUN</span></div>
+</div>
+<div class="pose-controls"><div class="transport"><button id="pose-prev" class="icon-button" aria-label="Previous saved mechanism pose">‹</button><button id="play" class="play-button">▶ <span>Play saved cycle</span></button><button id="pose-next" class="icon-button" aria-label="Next saved mechanism pose">›</button></div><div class="presets"><button data-pose="0">TDC 0°</button><button data-pose="90">90°</button><button data-pose="180">BDC 180°</button><button data-pose="360">360°</button></div><label class="speed-label">Visual speed<select id="speed" aria-label="Illustrative playback speed"><option value=".5">0.5×</option><option value="1" selected>1×</option><option value="2">2×</option></select></label></div>
+<label class="pose-slider"><span class="sr-only">Saved mechanism angle</span><input id="pose-slider" type="range" min="0" max="360" value="90" step="1"><span><b>0°</b><b>180°</b><b>360°</b></span></label>
+<p id="motion-note" class="panel-note">361 saved frames, including 0° and 360°. Visual speed is not engine RPM. Mechanism and gas/acoustic demonstrations have separate clocks.</p>
+<div class="mesh-slot"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3 28 10v13l-12 7L4 23V10zM4 10l12 7 12-7M16 17v13M16 3v14" fill="none" stroke="currentColor"/></svg><div><strong>Native web mesh</strong><span>Not established · qualified export required</span></div><button disabled title="No qualified web mesh is available">Orbit unavailable</button></div>
+</section>
+<aside class="engine-side">
+<section class="panel telemetry-panel"><div class="panel-heading"><div><span class="eyebrow">SELECTED SAVED DATASET</span><h3 id="telemetry-title">State at this sample</h3></div><span class="small-chip" id="source-group">—</span></div><div id="telemetry" class="telemetry-grid"></div><div class="sample-picker"><div><span class="eyebrow">EXACT SAVED INDEX</span><strong id="sample-number">—</strong></div><div><button id="sample-prev" class="icon-button" aria-label="Previous saved data sample">‹</button><button id="sample-next" class="icon-button" aria-label="Next saved data sample">›</button></div><input id="sample-slider" type="range" min="0" max="0" step="1" value="0" aria-label="Saved data sample"></div><p id="sample-domain" class="panel-note">No interpolation. No cross-clock synchronization.</p></section>
+<section class="panel port-panel"><div class="panel-heading"><div><span class="eyebrow">SAVED APERTURE / FLOW STATE</span><h3>Port evidence</h3></div><span id="port-indicator" class="port-status">UNAVAILABLE</span></div><dl id="port-values" class="compact-dl"></dl><p class="panel-note">Dataset convention only. No flow animation is inferred from an open window or a missing value.</p></section>
+</aside>
+</div>
+
+<div id="state-strip" class="state-strip" hidden></div>
+<div id="analysis-grid" class="analysis-grid">
+<section class="panel chart-panel"><div class="panel-heading"><div><span class="eyebrow">ORIGINAL SAVED SAMPLES</span><h3 id="chart-title">Trace inspection</h3></div><div class="chart-selectors"><label class="signal-label"><span class="sr-only">Chart quantity</span><select id="signal" aria-label="Chart quantity"></select></label><label class="signal-label"><span class="sr-only">Horizontal axis</span><select id="x-axis" aria-label="Horizontal axis"></select></label></div></div><div class="chart-subline"><span id="chart-unit">—</span><span id="chart-point">—</span></div><svg id="main-chart" class="data-chart" viewBox="0 0 900 350" role="img" tabindex="0" aria-label="Saved sample trace. Use arrow keys to inspect exact adjacent samples."></svg><div class="chart-legend"><span><i class="legend-actual"></i>Saved value</span><span id="legend-reference" hidden><i class="legend-reference"></i>Type A reference</span><span id="legend-band" hidden><i class="legend-band"></i>Numerical band</span></div><div class="chart-footer"><span id="chart-reference-note">Lines connect saved points within an event; inspection uses exact samples.</span><button id="show-residual" class="text-button">Inspect verification residual ↗</button></div></section>
+<aside class="panel comparison-panel"><div class="panel-heading"><div><span class="eyebrow">CURRENT POINT / TYPE A</span><h3>Reference comparison</h3></div><span id="comparison-status" class="small-chip">—</span></div><dl id="point-comparison" class="compact-dl comparison-values"></dl><p id="comparison-note" class="panel-note">A numerical tolerance is not physical uncertainty.</p><button id="comparison-evidence" class="text-button">Inspect criterion &amp; source ↗</button></aside>
+</div>
+
+<section id="exhaust-extra" class="panel exhaust-extra" hidden><div class="panel-heading"><div><span class="eyebrow">INDEPENDENT SPATIAL SNAPSHOTS</span><h3>Pulse along the benchmark duct</h3></div><label>Saved snapshot <select id="snapshot" aria-label="Saved acoustic spatial snapshot"></select></label></div><svg id="snapshot-chart" class="data-chart" viewBox="0 0 900 270" role="img" aria-label="Original acoustic pressure perturbation by axial position"></svg><p id="snapshot-note" class="panel-note">Acoustic perturbation pressure is distinct from absolute cylinder pressure and transported enthalpy.</p></section>
+
+<section id="verification-workspace" hidden>
+<div class="verification-heading"><div><p class="eyebrow">FOUR DIFFERENT QUESTIONS</p><h3>Verification does not certify an engine.</h3></div><span>No global safety verdict</span></div>
+<div class="target-grid">
+<article class="panel target-card"><span class="target-letter">A</span><div><h4>Numerical verification</h4><strong id="target-a">—</strong><p>Only the named, approved saved-data criterion.</p></div></article>
+<article class="panel target-card"><span class="target-letter">B</span><div><h4>Design objective</h4><strong>TARGET NOT DEFINED</strong><p>No power, torque or performance target invented.</p></div></article>
+<article class="panel target-card"><span class="target-letter">C</span><div><h4>Engineering constraint</h4><strong>TARGET NOT DEFINED</strong><p>No numerical packaging or clearance limit inferred.</p></div></article>
+<article class="panel target-card"><span class="target-letter">D</span><div><h4>Physical safety</h4><strong>NOT ESTABLISHED</strong><p>No safe pressure, temperature or RPM declaration.</p></div></article>
+</div>
+<section class="panel table-panel"><div class="panel-heading"><div><span class="eyebrow">SELECTED DATASET / CURRENT SAMPLE</span><h3>Bound numerical checks</h3></div><span id="bound-check-count"></span></div><div class="table-scroll"><table><thead><tr><th>Quantity</th><th>Actual</th><th>Reference</th><th>Signed difference</th><th>Allowed numerical band</th><th>Status</th></tr></thead><tbody id="comparison-table"></tbody></table></div><p class="panel-note">Zero-reference percentages are null, not 0%. References do not transfer between models, sources or clocks.</p></section>
+<section class="panel inventory-panel"><div class="panel-heading"><div><span class="eyebrow">COMPLETE PRESERVED RECORD</span><h3>Dataset inventory</h3></div><span>24 datasets / 4,912 samples</span></div><div id="dataset-inventory" class="inventory-grid"></div></section>
+</section>
+
+<footer class="workspace-footer"><span id="clock-contract">Independent clocks. Exact samples. No interpolated physics.</span><button id="assumptions-button" class="text-button">Model assumptions &amp; evidence ↗</button></footer>
+</section>
+</main>
+<dialog id="evidence-dialog"><div class="dialog-top"><div><p class="eyebrow">SOURCE / MODEL / CRITERION</p><h2>Evidence inspector</h2></div><button id="close-evidence" class="icon-button" aria-label="Close evidence inspector">×</button></div><div id="evidence-content"></div></dialog>
+<div class="sr-only" id="announcer" aria-live="polite"></div>
+</body></html>
+

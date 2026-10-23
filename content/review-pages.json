@@ -1,0 +1,16 @@
+{
+  "schema": "wahoo.review-pages/1",
+  "pages": [
+    {
+      "id": "simulator-v2",
+      "title": "Simulator V2",
+      "url": "/preview/simulator-v2/app/",
+      "description": "Explore saved mechanism motion, gas-state demonstrations and acoustic benchmarks in five linked workspaces. Inspect 24 datasets, 4,912 original samples and 6,307 saved numerical comparisons.",
+      "publication": "published",
+      "version": "V2",
+      "evidence": "Saved synthetic benchmarks",
+      "scope": "Numerical qualification only · physical validation not established",
+      "visual": "piston"
+    }
+  ]
+}

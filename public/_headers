@@ -11,6 +11,6 @@ https://:version.:project.pages.dev/*
 /admin/*
   X-Robots-Tag: noindex, nofollow
 
-/preview/simulator-v2/*
+/preview/*
   X-Robots-Tag: noindex, nofollow, noarchive
   Cache-Control: no-store
