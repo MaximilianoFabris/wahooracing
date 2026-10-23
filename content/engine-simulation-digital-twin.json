@@ -3,9 +3,9 @@
   "thumbnail": "engineering/journal-thumbnails-oct22/engine-simulation-digital-twin.svg",
   "thumbnailAlt": "Native partial-piston isometric linework with schematic crank and rod.",
   "title": "Building the engine model, one verified layer at a time.",
-  "summary": "The simulator now spans nominal motion, synthetic thermodynamic state, pressure-driven exchange and restricted acoustics. The next task is to connect those separately verified layers without hiding their physical limits.",
-  "date": "2026-10-22",
-  "dateLabel": "22 Oct 2026 · accepted module review; earlier milestones retained",
+  "summary": "The simulator now has a tested private workspace for inspecting saved synthetic evidence and source-bound assumptions. Physical engine calibration, new-run qualification and genuine web 3D remain separate unfinished tasks.",
+  "date": "2026-10-23",
+  "dateLabel": "23 Oct 2026 · evidence-interface review; earlier milestones retained",
   "publicationSequence": 1,
   "revision": "ENGINE SIMULATOR / STATE, FLOW AND ACOUSTIC MODULES",
   "type": "Engineering study",
@@ -79,6 +79,15 @@
       }
     },
     {
+      "title": "23 October: inspect the evidence, retain the gates",
+      "text": "A private read-only workspace now compares nine stored synthetic studies using independent saved clocks and exposes source-backed targets, hardware categories and missing inputs. The baseline reproduces earlier saved results, but all nine independent trajectory checks remain unexecuted; the varied-input domain is not qualified and Run is disabled. One geometry-export attempt stopped before mesh creation, so genuine web 3D and orbit remain unavailable. This later tested interface does not rewrite the earlier offline-only package checks or resolve incomplete CAD persistence.",
+      "figure": {
+        "image": "engineering/simulator-oct23/qualification-boundaries.svg",
+        "alt": "Separate status of registers, read-only interface, trajectory qualification and web mesh.",
+        "caption": "23 October bounded review: accepted source registers and tested saved-data inspection; incomplete independent trajectory qualification and unavailable genuine mesh. No physical validation follows."
+      }
+    },
+    {
       "title": "The next useful comparisons",
       "text": "Future engine/exhaust comparisons should use source-qualified inputs, packaging and propulsion-load constraints, conservation and convergence checks, and sensitivity to uncertain inputs. Complete ECU behaviour, coolant flow and detailed metal temperatures need their own models and measurements; prescribed inputs cannot substitute for them. Bench and dyno evidence must eventually calibrate and challenge predictions. These are development requirements, not completed simulations."
     }
@@ -96,7 +105,8 @@
     "Accepted synthetic port-geometry comparison · 21 October 2026",
     "Later port-workflow runtime, persistence and serialization reviews · 21 October 2026",
     "Accepted state/heat/open-system/pressure-driven module gates and archive receipts · 22 October 2026",
-    "Accepted acoustic accuracy/interface and bounded supervised runner gates · 22 October 2026"
+    "Accepted acoustic accuracy/interface and bounded supervised runner gates · 22 October 2026",
+    "Bounded private saved-study interface, source-register and independent outcome reviews · 23 October 2026"
   ],
-  "changes": "Updates the overview with the accepted 22 October synthetic state, flow, acoustic and supervised-runner capabilities while retaining earlier gate history. Later I2 CAD persistence and original saved-viewer browser UI gates remain incomplete. No new physical CAD, firing-engine prediction or unattended endurance acceptance is implied. Draft pending owner review."
+  "changes": "Updates the overview with the tested 23 October private read-only interface and its explicit unfinished gates. Earlier source-event history is retained. No public deployment, new mesh, qualified varied-input domain or physical engine performance is implied. Draft pending owner review."
 }

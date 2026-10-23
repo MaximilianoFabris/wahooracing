@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-23",
+  "approval": "please deploy them",
+  "beforeCommit": "053e4ce937c001904eb60733e15cacc962fe7e64",
+  "backup": "W:\\_Wahoo Racing\\Website\\Backups\\2026-10-23T17-52-07-610Z_Before_Journal_Activity_Oct23",
+  "backupSHA256Verified": true,
+  "scope": "One new illustrated simulator journal investigation, updated engine overview, two new activity milestones and one stable-record correction",
+  "journalCount": 50,
+  "activityCount": 23,
+  "review": "Grace editorial; Isaac source/privacy/visual PASS; root actual browser 12 states PASS",
+  "unchanged": "Simulator V1/V2/V2.1/A15 interfaces, backend, private data/CAD, physics, qualification gates and runtime permissions",
+  "excluded": "Preview publication overrides/server, private provenance, original engineering data, source-dependent figure generator, unrelated local files",
+  "files": [
+    "content/engine-simulation-digital-twin.json",
+    "content/intelligence-activity.json",
+    "content/simulator-evidence-and-next-gates.json",
+    "scripts/build.mjs",
+    "scripts/navigation.mjs",
+    "public/styles.css",
+    "public/assets/engineering/simulator-oct23/independent-clocks.svg",
+    "public/assets/engineering/simulator-oct23/performance-dependencies.svg",
+    "public/assets/engineering/simulator-oct23/qualification-boundaries.svg",
+    "docs/journal-activity-release-20261023.json"
+  ]
+}

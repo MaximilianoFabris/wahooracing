@@ -1,0 +1,75 @@
+{
+  "slug": "simulator-evidence-and-next-gates",
+  "title": "Making the simulator’s evidence inspectable.",
+  "summary": "A private read-only workspace now compares saved synthetic studies and makes assumptions, missing inputs and qualification limits visible. New calculations and genuine web 3D remain behind unfinished gates.",
+  "date": "2026-10-23",
+  "dateLabel": "23 Oct 2026 · bounded private software review",
+  "publicationSequence": 2,
+  "revision": "ENGINE SIMULATOR / EVIDENCE AND NEXT GATES",
+  "type": "Engineering study",
+  "evidence": "Tested private read-only inspection · varied-input domain not qualified",
+  "status": "published",
+  "systems": [
+    "engine",
+    "exhaust",
+    "controls"
+  ],
+  "thumbnail": "engineering/journal-thumbnails-oct22/engine-simulation-digital-twin.svg",
+  "thumbnailAlt": "Actual partial-piston linework with schematic mechanism links; no new web mesh.",
+  "hero": "engineering/simulator-oct23/qualification-boundaries.svg",
+  "heroAlt": "Separate completed register and read-only interface work from incomplete trajectory qualification and unavailable web mesh.",
+  "heroCaption": "23 October review. A completed inspection interface does not complete the underlying engineering qualifications. The existing schematic and static source views remain the geometry fallback.",
+  "sections": [
+    {
+      "title": "Compare the evidence before expanding the model",
+      "text": "The latest work asks a practical question: can an engineer inspect what a synthetic calculation actually used, compare its saved results and see what is still unknown? The private workspace now brings assumptions, simultaneous plots, conservation ledgers and applicable numerical references together. These are inspection tools for retained evidence. They are not a newly deployed public simulator or a validated firing engine."
+    },
+    {
+      "title": "Nine stored studies, one unfinished qualification",
+      "text": "Nine discrete synthetic input combinations were calculated and retained. The baseline reproduced the historical saved samples and events exactly; a separate repeat matched, and an intentional publication fault retained failed evidence without publishing a successful result. Independent saved-data review checked 3,081 rows and 12,324 Type A comparison records. However, none of the nine independent trajectory checks ran before the bounded supervision window expired. The varied-input domain is NOT QUALIFIED and Run remains disabled. Conservation arithmetic and baseline agreement do not replace those trajectory checks.",
+      "figure": {
+        "image": "engineering/simulator-oct23/qualification-boundaries.svg",
+        "alt": "Four separate gates: source registers accepted, read-only interface tested, trajectory qualification incomplete and mesh unavailable.",
+        "caption": "A numerical result, an arithmetic reference check, a tested interface and a qualified input domain are different claims. The nine stored studies remain explicitly unqualified."
+      }
+    },
+    {
+      "title": "Keep each calculation on its own clock",
+      "text": "Read-only comparisons now show pressure, temperature, mass flow, internal energy, piston work and conservation residuals. Each side retains its own saved index and time. Different prescribed speeds or event partitions can produce different sample grids; matching an index fraction would invent a correspondence. Selecting an existing result launches no calculation. The historical mechanism clock also stays separate from the selected gas-state record.",
+      "figure": {
+        "image": "engineering/simulator-oct23/independent-clocks.svg",
+        "alt": "Two independent rows of saved sample points, each with its own cursor and clock; no cross-row alignment.",
+        "caption": "Explanatory diagram, with no numerical values or implied time alignment. Inspection selects exact stored samples independently; it does not interpolate a comparison trajectory."
+      }
+    },
+    {
+      "title": "Retain the earlier numerical baseline",
+      "text": "The earlier accepted closed-mass compression fixture remains a useful example of a traceable numerical result. Its pressure–volume curve has explicit assumptions, axes and units. It is shown here unchanged to illustrate the evidence already available, rather than to suggest that the new varied-input qualification passed.",
+      "figure": {
+        "image": "engineering/simulator-oct22/compression-pressure-volume.svg",
+        "alt": "All 481 accepted closed-mass compression samples, absolute pressure versus volume in cubic metres.",
+        "caption": "Previously accepted synthetic compression fixture, 22 October. Constant-property ideal gas, no heat transfer; compression proceeds right to left. This is not an Assignment15 study, released chamber geometry or measured engine performance."
+      }
+    },
+    {
+      "title": "Make missing physical inputs visible",
+      "text": "The accepted source-backed registers separate 12 hardware categories, 11 target records and 14 missing-input records. Supplier references, candidates, unknown parts, model inclusion and unresolved fit are kept distinct. The approximately 12,000 rpm objective is not predicted performance or a safe speed. The 20 kg objective applies to the whole board/system. Undefined torque, horsepower, pressure and temperature targets remain undefined; no objective line is overlaid on an unrelated synthetic trace.",
+      "figure": {
+        "image": "engineering/simulator-oct23/performance-dependencies.svg",
+        "alt": "Ten source-derived roadmap modules and their twelve declared dependency links, all distinct from calculated physical performance.",
+        "caption": "Declared development dependencies, not a solved engine-to-board performance model. Synthetic components cover only bounded portions of this chain; physical coupling, losses, loading and calibration remain open."
+      }
+    },
+    {
+      "title": "Keep the geometry claim equally precise",
+      "text": "One actual export attempt stopped before producing a mesh. Genuine web 3D and camera orbit are therefore unavailable. The accepted historical motion, partial-piston static illustrations and schematic animation remain useful, with their original qualifications. They do not resolve the separate incomplete CAD persistence gate or establish installed fit. Corrected export and independent-qualification recovery are prepared next steps, with no successful recovery result claimed here."
+    }
+  ],
+  "sources": [
+    "Bounded simulator development handoff and independent final review · 23 October 2026",
+    "Saved-study, register and geometry outcome reviews · 23 October 2026",
+    "Tested private read-only interface and retained historical-viewer compatibility checks · 23 October 2026",
+    "Earlier accepted closed-mass compression fixture · 22 October 2026"
+  ],
+  "changes": "New editorial draft based on the 23 October bounded private deliverable. Figures distinguish explanatory diagrams from the unchanged earlier accepted plot. No private study package, CAD, source code or live backend is included. Physical performance and safety are not established. Publication approved by Max on 23 October 2026."
+}

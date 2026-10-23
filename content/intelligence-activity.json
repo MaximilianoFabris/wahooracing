@@ -2,17 +2,47 @@
   "schema_version": 1,
   "records": [
     {
-      "id": "simulator-offline-display-package",
+      "id": "simulator-source-bound-registers",
       "publication": "published",
-      "date": "2026-10-22",
+      "date": "2026-10-23",
       "agents": [
+        "ada",
         "isaac",
         "leo"
       ],
       "status": "completed",
-      "title": "Saved-state display packages pass offline correspondence checks",
-      "summary": "Corrected packages preserve accepted moving-volume data and add 1,156 prescribed-energy state rows. Independent readback and generated-JavaScript syntax checks pass. Actual rendering, controls, console and mobile layout remain untested; interactive UI acceptance is incomplete.",
-      "evidence": "Accepted offline data/package and syntax evidence · browser UI not accepted"
+      "title": "Targets, hardware and missing inputs become explicit",
+      "summary": "Source-checked registers distinguish 12 hardware categories, 11 targets, 14 missing-input records and a 10-module development roadmap. References, candidates, unknowns and fit limits remain separate. Objectives are not predicted performance, safety limits or newly selected hardware.",
+      "evidence": "Accepted bounded source-register review · physical performance not calculated"
+    },
+    {
+      "id": "simulator-stored-study-review",
+      "publication": "published",
+      "date": "2026-10-23",
+      "agents": [
+        "ada",
+        "grace",
+        "isaac",
+        "leo"
+      ],
+      "status": "in-progress",
+      "title": "Nine stored studies expose the next qualification boundary",
+      "summary": "Nine synthetic combinations and an exact historical baseline reproduction are retained for read-only comparison. Independent saved-data checks pass, but zero of nine independent trajectory checks ran before the supervision window expired. The input domain remains NOT QUALIFIED and Run is disabled. A separate geometry-export attempt produced no mesh.",
+      "evidence": "Reviewed saved numerical evidence and tested private inspection · qualification incomplete"
+    },
+    {
+      "id": "simulator-offline-display-package",
+      "publication": "published",
+      "date": "2026-10-23",
+      "agents": [
+        "grace",
+        "isaac",
+        "leo"
+      ],
+      "status": "completed",
+      "title": "Saved results gain a tested read-only inspection interface",
+      "summary": "The earlier offline packages remain historical data checks. A later private interface now passes actual desktop/mobile review of saved plots, independent clocks, references and controls. The latest stored-study comparison also passes read-only review. This does not qualify new calculations, genuine web 3D or engine physics.",
+      "evidence": "Later actual private browser review · earlier offline-only checks retained"
     },
     {
       "id": "simulator-moving-volume-energy",
