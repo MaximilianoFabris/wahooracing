@@ -1,0 +1,17 @@
+{
+  "schema": "wahoo.password-encrypted-preview/1",
+  "version": "A14-Rev01-V2-20261023",
+  "cipher": "AES-GCM",
+  "keyLength": 256,
+  "tagLength": 128,
+  "kdf": "PBKDF2",
+  "hash": "SHA-256",
+  "iterations": 600000,
+  "salt_b64": "EdJ/DBcszLD4uOT7Skv4KXZhUVlYEGGIPp5ZsKOswe0=",
+  "iv_b64": "MlcxRzN0z64VpMFq",
+  "aad": "wahoo-v2-preview:A14-Rev01:20261023:1",
+  "compression": "gzip",
+  "payload": "payload.bin",
+  "cipherBytes": 678142,
+  "payload_sha256": "52f2de24d2f3c313c7c621a0a1b92481a4c22df37092dad169588091f57cc0ce"
+}

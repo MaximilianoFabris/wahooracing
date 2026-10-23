@@ -10,3 +10,7 @@ https://:version.:project.pages.dev/*
   X-Robots-Tag: noindex
 /admin/*
   X-Robots-Tag: noindex, nofollow
+
+/preview/simulator-v2/*
+  X-Robots-Tag: noindex, nofollow, noarchive
+  Cache-Control: no-store

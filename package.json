@@ -6,7 +6,7 @@
   "scripts": {
     "build": "node scripts/build.mjs",
     "start": "node scripts/serve.mjs",
-    "test": "node scripts/check.mjs && node scripts/navigation-check.mjs && node scripts/intelligence-activity-check.mjs"
+    "test": "node scripts/check.mjs && node scripts/navigation-check.mjs && node scripts/intelligence-activity-check.mjs && node scripts/protected-preview-check.mjs"
   },
   "engines": {
     "node": ">=20"
