@@ -35,6 +35,8 @@ for(const batch of data.batches){
 }
 assert.equal(count,30);assert.equal(receipt.files.length,30);
 function walk(folder){return fs.readdirSync(folder,{withFileTypes:true}).flatMap(f=>f.isDirectory()?walk(path.join(folder,f.name)):[path.join(folder,f.name)]);}
-for(const base of ['public','dist']){const files=walk(base+'/preview/social-cards');assert.equal(files.filter(f=>f.endsWith('.png')).length,30);assert(files.every(f=>f.endsWith('.png')||(base==='dist'&&f.endsWith('index.html'))),'Only approved images and rendered gallery may be public');}
+const retained=receipt.retainedFiles||[];
+for(const record of retained){assert(!urls.has(record.imageURL));assert(/^\/preview\/social-cards\/images\/[a-z0-9-]+\/[A-Z0-9-]+\.png$/.test(record.imageURL));for(const base of ['public','dist']){const raw=fs.readFileSync(base+record.imageURL);assert.equal(raw.length,record.bytes);assert.equal(hash(raw),record.sha256,'Historical image URL changed');}}
+for(const base of ['public','dist']){const files=walk(base+'/preview/social-cards');const permitted=new Set([...urls,...retained.map(r=>r.imageURL)].map(url=>path.normalize(base+url)));if(base==='dist')permitted.add(path.normalize(base+'/preview/social-cards/index.html'));assert.deepEqual(files.map(f=>path.normalize(f)).sort(),[...permitted].sort(),'Only allowlisted current/historical images and rendered gallery may be public');}
 const script=fs.readFileSync('public/social-cards.js','utf8');assert(script.includes("text.textContent"));assert(!/fetch\(|localStorage|innerHTML|execCommand/.test(script));
 console.log('PASS: 10 posts / 30 exact 1080×1440 PNGs; source hashes, captions, tags, alt text, public allowlist, visible/copy parity and privacy.');

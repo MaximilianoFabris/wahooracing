@@ -15,3 +15,7 @@ Journal decision: **NO CHANGE**. Existing published journal sources (including s
 Intelligence activity decision: **NO CHANGE**. The existing published activity register, including source-bound simulator registers and stored-study review, was inspected. Owner review access is a presentation change, with no new engineering milestone or changed evidence status. This follows the standing explicit rule that access/navigation changes alone do not create journal/activity entries. Existing journal and activity records are unchanged.
 
 Desktop/mobile browser and theme verification belongs to the release review. Automated checks do not substitute for that inspection.
+
+## Transparent drawing correction — 24 October 2026
+
+Relaunch Rev04 replaces only P01-04 and P04-01 with the same concept illustration prepared as a genuine alpha layer. The full social-card backgrounds remain intentional. Other 19 relaunch exports and all captions/hashtags are unchanged. This is a concept-presentation derivative, not new CAD or qualified engineering evidence. The initial `relaunch-rev03` batch and anchor IDs remain stable for shared mobile links; displayed revision and source correspondence are Rev04. Two previous PNG URLs remain as an explicit, hash-checked historical allowlist in the private source receipt. No diagram source or private alpha-edit package is published.

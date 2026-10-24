@@ -3,7 +3,7 @@
     {
       "id": "relaunch-rev03",
       "title": "Relaunch",
-      "revision": "Rev03",
+      "revision": "Rev04",
       "posts": [
         {
           "id": "P01",
@@ -23,8 +23,8 @@
               "alt": "White upper field reads Maintain it. Designed with serviceability in mind. Below is an approved fictional workshop concept scene with people around a board. Marked Concept visual, a design aim. Card 3 of 5."
             },
             {
-              "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",
-              "alt": "Pale poster with original black Wahoo symbol and headline Make it yours. A wide approved blue concept drawing forms the central image. Text: Long-term ownership. At the core of the brief. Label: Concept drawing, ownership ambition. Card 4 of 5."
+              "imageURL": "/preview/social-cards/images/relaunch-rev04/P01-04.png",
+              "alt": "Pale poster with original black Wahoo symbol and headline Make it yours. Fine blue concept linework of board outlines and sections sits directly on the pale background. Text: Long-term ownership. At the core of the brief. Label: Concept drawing, ownership ambition. Card 4 of 5."
             },
             {
               "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-05.png",
@@ -38,7 +38,7 @@
             "#ProductDevelopment",
             "#DesignForServiceability"
           ],
-          "revision": "Rev03",
+          "revision": "Rev04",
           "reviewStatus": "OWNER_REVIEW"
         },
         {
@@ -57,7 +57,7 @@
             "#JetboardDevelopment",
             "#DesignProcess"
           ],
-          "revision": "Rev03",
+          "revision": "Rev04",
           "reviewStatus": "OWNER_REVIEW"
         },
         {
@@ -85,7 +85,7 @@
             "#AIInEngineering",
             "#ProductDevelopment"
           ],
-          "revision": "Rev03",
+          "revision": "Rev04",
           "reviewStatus": "OWNER_REVIEW"
         },
         {
@@ -94,8 +94,8 @@
           "format": "Single image",
           "cards": [
             {
-              "imageURL": "/preview/social-cards/images/relaunch-rev03/P04-01.png",
-              "alt": "Pale poster with original black Wahoo symbol. Headline Ask. Model. Check. Learn. is arranged in two broad lines above a wide blue concept drawing of board outlines and sections. Text: Every answer starts with a better question. Label: Concept drawing, not a validated design."
+              "imageURL": "/preview/social-cards/images/relaunch-rev04/P04-01.png",
+              "alt": "Pale poster with original black Wahoo symbol. Headline Ask. Model. Check. Learn. is arranged in two broad lines above fine blue concept linework of board outlines and sections, integrated directly with the pale background. Text: Every answer starts with a better question. Label: Concept drawing, not a validated design."
             }
           ],
           "caption": "Ask. Model. Check. Learn.\n\nA drawing explores an idea. A model investigates a question. Both help us decide what to test next. Follow the work as Wahoo takes shape.",
@@ -105,7 +105,7 @@
             "#DesignDevelopment",
             "#Jetboard"
           ],
-          "revision": "Rev03",
+          "revision": "Rev04",
           "reviewStatus": "OWNER_REVIEW"
         },
         {
@@ -125,7 +125,7 @@
             "#RidersAndBuilders",
             "#DesignCommunity"
           ],
-          "revision": "Rev03",
+          "revision": "Rev04",
           "reviewStatus": "OWNER_REVIEW"
         },
         {
@@ -161,7 +161,7 @@
             "#EngineeringDesign",
             "#DevelopmentProcess"
           ],
-          "revision": "Rev03",
+          "revision": "Rev04",
           "reviewStatus": "OWNER_REVIEW"
         },
         {
@@ -197,7 +197,7 @@
             "#Hydrodynamics",
             "#EngineeringDevelopment"
           ],
-          "revision": "Rev03",
+          "revision": "Rev04",
           "reviewStatus": "OWNER_REVIEW"
         }
       ]
