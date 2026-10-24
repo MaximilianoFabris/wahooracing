@@ -13,7 +13,7 @@
   ],
   "independentReview": "Isaac PASS; actual alpha/two-card visuals, 19 unchanged exports, exact current public projection plus retained historical image allowlist. Existing gallery UI unchanged.",
   "galleryHtmlSha256": "6db789e95057bcd85c47c32f28ec12a4591931c9a3e37457831af62af082fdf2",
-  "projectionSha256": "2ccfe328c537f8cb722be4184ddfcaea82093a235abbdffd2391855d81a0f436",
+  "projectionSha256": "34d8ab302a1f943de77d307fb3dd2e7b8b1c6876d0967b33a0966634221b2fe2",
   "unchanged": "Simulator V1/V2, engine calculations, journal and agent activity sources",
   "files": [
     "content/review-pages.json",
@@ -28,5 +28,6 @@
     "P01-04.png",
     "P04-01.png"
   ],
-  "unchangedRelaunchCards": 19
+  "unchangedRelaunchCards": 19,
+  "lineEndingQualification": "Public projection and receipt are UTF-8 LF, matching Git/Cloudflare source bytes."
 }
