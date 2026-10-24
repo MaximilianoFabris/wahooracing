@@ -7,3 +7,5 @@ To add a page, append a catalog record with unique `id`, `title`, local `url`, `
 Keep descriptions and counts tied to the page's actual published source evidence. Numerical verification must remain distinct from physical validation. Do not put passwords, internal paths, chat identifiers or private provenance into this catalog. Future entries require their own source and publication authorization; adding a manifest row does not itself publish a page.
 
 This hub is public and contains no login, encryption or authentication UI. Existing production Simulator navigation and content are independent. The separate build/deployment integration owns shared footer links and route output; the hub module does not modify those files.
+
+The owner-requested Social cards gallery is `/preview/social-cards/`; see `docs/social-cards.md`. Its published catalog entry uses `visual: "social-cards"` and an allowlisted root-relative PNG `image` URL. The existing piston illustration remains unchanged for Simulator V2. Gallery posts retain their separate `OWNER_REVIEW` status and are not approved for Instagram publication.

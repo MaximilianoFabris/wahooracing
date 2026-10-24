@@ -1,0 +1,298 @@
+{
+  "batches": [
+    {
+      "id": "relaunch-rev03",
+      "title": "Relaunch",
+      "revision": "Rev03",
+      "posts": [
+        {
+          "id": "P01",
+          "title": "You own it.",
+          "format": "Five-card carousel",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-01.png",
+              "alt": "Original shaded white Wahoo W symbol beside large stacked words YOU OWN IT with a blue period on graphite. Small text: The Wahoo idea. Card 1 of 5."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-02.png",
+              "alt": "Approved concept image of a jetboard from above in dark water, with the words Understand it. Knowledge is part of ownership. Marked Concept visual, development ambition. Card 2 of 5."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-03.png",
+              "alt": "White upper field reads Maintain it. Designed with serviceability in mind. Below is an approved fictional workshop concept scene with people around a board. Marked Concept visual, a design aim. Card 3 of 5."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",
+              "alt": "Pale poster with original black Wahoo symbol and headline Make it yours. A wide approved blue concept drawing forms the central image. Text: Long-term ownership. At the core of the brief. Label: Concept drawing, ownership ambition. Card 4 of 5."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-05.png",
+              "alt": "Approved action concept image of a rider and board on water. Text: Ride. Grow. Race. A board. A community. An ambition we can share. Marked Concept visual, community ambition. Card 5 of 5."
+            }
+          ],
+          "caption": "You own it. That’s the idea shaping Wahoo.\n\nWe’re developing a jetboard with serviceability and long-term ownership in mind. Understand it. Maintain it. Make it yours.\n\nThese are design ambitions as we develop the board.",
+          "hashtags": [
+            "#WahooRacing",
+            "#Jetboard",
+            "#ProductDevelopment",
+            "#DesignForServiceability"
+          ],
+          "revision": "Rev03",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "P02",
+          "title": "Back to the board.",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/relaunch-rev03/P02-01.png",
+              "alt": "Golden approved action concept of a rider with a board and sea spray. Original white Wahoo wordmark and headline Back to the board. Text: We’re developing Wahoo. Come closer to the work. Marked Concept visual, in development."
+            }
+          ],
+          "caption": "Back to the board.\n\nWe’re sharing the development of Wahoo: the ideas, the questions and the work behind them. Come closer to the process, one story at a time.\n\nConcept image; Wahoo is in development.",
+          "hashtags": [
+            "#WahooRacing",
+            "#JetboardDevelopment",
+            "#DesignProcess"
+          ],
+          "revision": "Rev03",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "P03",
+          "title": "One board. Many minds.",
+          "format": "Three-card carousel",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/relaunch-rev03/P03-01.png",
+              "alt": "Existing website radial constellation adapted to portrait. Fictional Leo character stands at the centre with nine original specialist icons around him: Nikola, Marie, Hedy, Ada, Archimedes, Rams, Isaac, Grace and Clio. Original orbit paths connect the roles. Headline One board. Many minds. Text Meet Wahoo Intelligence. Ten defined AI roles, work on demand. Card 1 of 3."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/relaunch-rev03/P03-02.png",
+              "alt": "Pale graphic headed Different questions. Shared work. Six original outline role icons identify Nikola, geometry and packaging; Marie, heat and combustion; Hedy, fuel, ignition and signals; Ada, models and experiments; Archimedes, water and running attitude; Rams, product and manufacture. Label: Defined AI roles, work runs on demand. Card 2 of 3."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/relaunch-rev03/P03-03.png",
+              "alt": "Graphite graphic says AI investigates. People decide. Original outline icons accompany Leo, connects the work; Isaac, challenges the evidence; Max, decides what moves forward. Text: Physical tests have the final word. Grace shares the story. Clio preserves the record. Card 3 of 3."
+            }
+          ],
+          "caption": "One board. Many minds.\n\nTen defined AI roles help investigate Wahoo’s development. Leo connects the work, specialists explore questions, and Isaac challenges consequential conclusions. Max decides what moves forward.\n\nThe team works on demand. Physical tests are still needed to validate the board.",
+          "hashtags": [
+            "#WahooRacing",
+            "#EngineeringDesign",
+            "#AIInEngineering",
+            "#ProductDevelopment"
+          ],
+          "revision": "Rev03",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "P04",
+          "title": "Ask. Model. Check. Learn.",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/relaunch-rev03/P04-01.png",
+              "alt": "Pale poster with original black Wahoo symbol. Headline Ask. Model. Check. Learn. is arranged in two broad lines above a wide blue concept drawing of board outlines and sections. Text: Every answer starts with a better question. Label: Concept drawing, not a validated design."
+            }
+          ],
+          "caption": "Ask. Model. Check. Learn.\n\nA drawing explores an idea. A model investigates a question. Both help us decide what to test next. Follow the work as Wahoo takes shape.",
+          "hashtags": [
+            "#WahooRacing",
+            "#EngineeringProcess",
+            "#DesignDevelopment",
+            "#Jetboard"
+          ],
+          "revision": "Rev03",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "P05",
+          "title": "Riders. Builders. Curious minds.",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/relaunch-rev03/P05-01.png",
+              "alt": "Approved fictional workshop concept image of people gathered around a board at sunset. Original Wahoo wordmark above. Text: Riders. Builders. Curious minds. What would you want to understand first? Label: Concept visual, community invitation."
+            }
+          ],
+          "caption": "Riders. Builders. Curious minds.\n\nWe want Wahoo to grow with a community that shares what it learns, on the water and in the workshop.\n\nWhat would you want to understand first?\n\nConcept scene, illustrating an ambition.",
+          "hashtags": [
+            "#WahooRacing",
+            "#Jetboarding",
+            "#RidersAndBuilders",
+            "#DesignCommunity"
+          ],
+          "revision": "Rev03",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "P06",
+          "title": "Inside the simulator.",
+          "format": "Five-card carousel",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/relaunch-rev03/P06-01.png",
+              "alt": "Pale poster titled Start with movement. Exact existing 2D piston, rod and crank schematic at its saved 90-degree pose stands to the right of the supporting text: One step toward a model we can question. Label: Saved 2D schematic, not to scale. Card 1 of 5."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/relaunch-rev03/P06-02.png",
+              "alt": "Graphite poster titled Less volume. More pressure. Original saved pressure versus volume compression curve, with original axes, units and labels. Compression runs right to left. Synthetic closed-mass adiabatic ideal-gas qualification fixture with no heat input; not a measured Wahoo trace. Card 2 of 5."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/relaunch-rev03/P06-03.png",
+              "alt": "Pale poster titled Add heat. Check the change. Original synthetic temperature versus time curves show prescribed heating and cooling at fixed mass and volume. Original units and legends retained. No wall-cooling correlation solved. Card 3 of 5."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/relaunch-rev03/P06-04.png",
+              "alt": "Graphite poster with a large saved pressure-history plot above the headline Follow the pulse. Exact original axes, sample curves, units and receiver legends are preserved for a stationary uniform linear-acoustic rigid-boundary benchmark. Text: A saved benchmark. One bounded physics question. Not nonlinear exhaust blowdown. Card 4 of 5."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/relaunch-rev03/P06-05.png",
+              "alt": "Graphite poster with original Wahoo wordmark, titled What does the model keep? Existing acoustic energy benchmark plot retains units, samples and labels. Text: Energy is part of the check. Engine performance still needs validation. Solid curve: rigid termination retains pulse energy. Dashed curve: absorbing termination lets energy leave. Not a dyno result. Card 5 of 5."
+            }
+          ],
+          "caption": "Start with movement. Then ask what happens to pressure, heat and waves.\n\nWahoo’s simulator grows through small, checkable models. These saved schematics and synthetic benchmarks help us test the software before making engine predictions.\n\nThey are development tools, not measured engine performance.",
+          "hashtags": [
+            "#WahooRacing",
+            "#EngineSimulation",
+            "#EngineeringDesign",
+            "#DevelopmentProcess"
+          ],
+          "revision": "Rev03",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "P07",
+          "title": "Hull development: look closer.",
+          "format": "Five-card carousel",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/relaunch-rev03/P07-01.png",
+              "alt": "Dark poster titled Look closer. Large crop of the existing native H0 R02 tail surface zebra inspection, with original Wahoo wordmark. Text: The shape behind the ride. Label: H0 R02, surface review, not water flow. Card 1 of 5."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/relaunch-rev03/P07-02.png",
+              "alt": "Dark poster titled Slice through the question. Original overlaid transverse tail sections from the derived Brep preserve equal Y and Z scales, original units and station legend. The unchanged legend is enlarged separately below the plot so it no longer covers the curves. Text: The tail changes in three dimensions. Sections help us see how. Card 2 of 5."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/relaunch-rev03/P07-03.png",
+              "alt": "Pale poster titled Follow the shape. Existing source-derived Brep tail cutaway illustration shows transverse and longitudinal section curves and original C1/C4 witness labels. This is a clipped analytical view; the actual hull remains closed. Text: Sections and profiles. One three-dimensional question. Card 3 of 5."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/relaunch-rev03/P07-04.png",
+              "alt": "Pale poster titled Check the whole surface. The full native bottom zebra view is arranged vertically at the right, opposite the headline and supporting text: Zebra patterns help us inspect surface continuity. Label: Native surface review, not water flow. Card 4 of 5."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/relaunch-rev03/P07-05.png",
+              "alt": "Dark poster titled Then ask the water. Actual saved historical CFD20 free-surface field at simulation time 1.579983709 seconds. Conditions printed on artwork: historical 20 km/h, bare board, no rider, closed intake, no jet thrust. Text: Early CFD explores a limited case. Physical testing is still ahead. Not performance validation. Card 5 of 5."
+            }
+          ],
+          "caption": "Look closer.\n\nHull development means more than choosing a silhouette. We inspect surfaces, cut sections, follow profiles and mark questions for review. Then limited CFD cases explore the interaction with water.\n\nThese are geometry studies and early simulation evidence. They do not establish handling, stability or final performance; physical validation is still ahead.",
+          "hashtags": [
+            "#WahooRacing",
+            "#HullDesign",
+            "#Hydrodynamics",
+            "#EngineeringDevelopment"
+          ],
+          "revision": "Rev03",
+          "reviewStatus": "OWNER_REVIEW"
+        }
+      ]
+    },
+    {
+      "id": "creative-trial-rev04",
+      "title": "Creative trial",
+      "revision": "Rev04",
+      "posts": [
+        {
+          "id": "A",
+          "title": "Lifestyle",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/creative-trial-rev04/A01.png",
+              "alt": "Concept artwork of a helmeted rider turning a dark board through golden sunlit water and spray. “Chase the last light.” The owner-supplied action image is a concept visual, not a photograph of a Wahoo test."
+            }
+          ],
+          "caption": "The feeling we’re working toward.\n\nLast light, open water and a little more time outside. This concept visual imagines the experience behind Wahoo’s development; it is not a photograph of a Wahoo test or a claim of a finished product.",
+          "hashtags": [
+            "#WahooRacing",
+            "#WatersportDesign",
+            "#OnTheWater",
+            "#ProductInDevelopment"
+          ],
+          "revision": "Rev04",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "B",
+          "title": "Product / design story",
+          "format": "Three-card carousel",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/creative-trial-rev04/B01.png",
+              "alt": "A pale blue CAD-derived H0 R03 hull is rotated into a dramatic upright composition on a dark background. “A shape worth a closer look.” The complete hull remains visible. The original shaded white Wahoo W symbol sits at the lower left."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/creative-trial-rev04/B02.png",
+              "alt": "A large cropped detail of the native hull underside crosses a blue-grey background diagonally. “Follow the surface.” The crop is a detail of the approved render, not new geometry."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/creative-trial-rev04/B03.png",
+              "alt": "The native hull side profile sits above a large blue “Shape. Check. Refine.” headline. “Development in progress” qualifies the product stage."
+            }
+          ],
+          "caption": "A shape is where the questions begin.\n\nA perspective, a closer look underneath, then the side profile: three native CAD-derived views of the H0 R03 hull reference. Looking from different angles helps us question the design before making claims about how it will ride.\n\nThese are development views, not a finished production board or proof of handling. Which angle would you like to explore?",
+          "hashtags": [
+            "#WahooRacing",
+            "#ProductDesign",
+            "#HullDesign",
+            "#DesignDevelopment",
+            "#Watersports"
+          ],
+          "revision": "Rev04",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "C",
+          "title": "Engineering made simple",
+          "format": "Five-card carousel",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/creative-trial-rev04/C01.png",
+              "alt": "“Motion before power.” Native partial-piston linework with schematic crank and rod appears on an open pale background. “Start with something we can check.” The original shaded black Wahoo W symbol sits at the lower right."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/creative-trial-rev04/C02.png",
+              "alt": "“A turn becomes a stroke.” The published simulator’s stronger two-dimensional cylinder, piston, crank and rod schematic is shown at its exact saved 90-degree pose. Schematic components and saved landmarks; not to scale, with no new model run."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/creative-trial-rev04/C03.png",
+              "alt": "“Back. And forth.” A blue curve shows all 361 exact saved nominal piston-pin positions in metres against crank angle from zero to 360 degrees. This is a software motion trace, not an engine performance plot."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/creative-trial-rev04/C04.png",
+              "alt": "“361 positions. One careful check.” A larger cropped native partial-piston linework detail sits above 361 dots. “Software correspondence. Physical validation ahead.”"
+            },
+            {
+              "imageURL": "/preview/social-cards/images/creative-trial-rev04/C05.png",
+              "alt": "“Confidence starts with the basics.” An unchanged native hull perspective connects the motion story back to the board being developed. “A development story. One verified step at a time.” The original shaded black Wahoo W symbol sits at the upper right."
+            }
+          ],
+          "caption": "Does it move the way we expect?\n\nThe crank turns; the piston moves back and forth. Our nominal software/CAD check compared 361 saved positions. Checking that digital motion is one small step toward a product we can trust.\n\nThe linework shows partial source geometry with a schematic mechanism. It does not validate a complete engine, combustion, power, physical reliability or safety. Physical validation remains ahead.\n\nWhat part of Wahoo would you like us to explain next?",
+          "hashtags": [
+            "#WahooRacing",
+            "#EngineeringExplained",
+            "#EngineDevelopment",
+            "#ProductDevelopment"
+          ],
+          "revision": "Rev04",
+          "reviewStatus": "OWNER_REVIEW"
+        }
+      ]
+    }
+  ]
+}
