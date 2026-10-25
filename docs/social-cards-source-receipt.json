@@ -307,9 +307,44 @@
       "source": "Social_Media/Instagram/Horizon_Stories_Rev02_20261025/exports/P16-01.png",
       "bytes": 64996,
       "sha256": "b787056583adfa03d1e01cb3a60db9813435cbf0e2816565ce5d43b526b683f2"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/assignment18-rev01/P17-01.png",
+      "source": "Social_Media/Instagram/Assignment18_Rev01_20261025/exports/P17-01.png",
+      "bytes": 63822,
+      "sha256": "856743d997d95ea877432e94edae2693fee469ac4c7095e2180df32c6fad978e"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/assignment18-rev01/P17-02.png",
+      "source": "Social_Media/Instagram/Assignment18_Rev01_20261025/exports/P17-02.png",
+      "bytes": 78222,
+      "sha256": "b1ec307be3484b3c730c5661c07726bd8e8384d82881c0d5625d2aed1953eff4"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/assignment18-rev01/P17-03.png",
+      "source": "Social_Media/Instagram/Assignment18_Rev01_20261025/exports/P17-03.png",
+      "bytes": 79841,
+      "sha256": "3e93641d49c206b25a9a326e9a92602192f9cfc5393a367176689bcdb10a9c2e"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/assignment18-rev01/P17-04.png",
+      "source": "Social_Media/Instagram/Assignment18_Rev01_20261025/exports/P17-04.png",
+      "bytes": 71434,
+      "sha256": "5a3798e2e2ef1b29b282ff16f3b3d16403dab4dd5d93f2873257c94e99f5e3ae"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/assignment18-rev01/P17-05.png",
+      "source": "Social_Media/Instagram/Assignment18_Rev01_20261025/exports/P17-05.png",
+      "bytes": 83770,
+      "sha256": "ce8d3ea237b4a9782abe338e789d9bc3619e4c0229807bb1446ae44bfcdb2040"
     }
   ],
   "sources": [
+    {
+      "batch": "assignment18-rev01",
+      "source": "Social_Media/Instagram/Assignment18_Rev01_20261025/copy/posts.json",
+      "sha256": "31a1a06a4cfe6df835420576db7cd4f55ac774a07f464cd040d1e99f6e72f83f"
+    },
     {
       "batch": "horizon-stories-rev01",
       "source": "Social_Media/Instagram/Horizon_Stories_Rev02_20261025/copy/posts.json",
@@ -331,7 +366,7 @@
       "sha256": "9b7f6396265a12f41f83d944e80f97f9a2776353c8df246d4bb5f9eec623b342"
     }
   ],
-  "projectionSha256": "809855e98da7e4e728d2cd9383347a0a7f3121a112613ef92b6d394d2e0e917a",
+  "projectionSha256": "c2fb870527688ce60ee258404d8e1e2b02af0576067b2a6e8ae2f510dc8e7111",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",

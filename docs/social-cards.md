@@ -43,3 +43,8 @@ Five new owner-review posts P12-P16 add seven cards: fictional cinematic Leo bea
 ## Fresh editorial visuals - 25 October 2026
 
 Horizon Rev02 replaces P14-01/P14-02/P15-01 with previously unused social source graphics/photo. Four other Horizon cards and the prior44 active PNGs are unchanged. First-use audit checks actual card display, aliases and source lineage rather than folder presence or altered crops/colours. New source ledger and workflow rule remain private. Original logos/fonts remain recurring brand identity. Current posts19/cards51; six old image URLs retained as explicit historical allowlist. Original batch/post IDs remain stable. No Instagram publication.
+
+
+## Assignment18 carousel - 25 October 2026
+
+P17 adds five source-backed cards for owner review. No earlier editorial graphics repeat; source-usage audit and scientific provenance remain private. Five new final PNGs only are public; source packages/data/generators excluded. Earlier51activePNG identities unchanged. Batch links now wrap on small screens as the gallery grows. Total20posts56cards. No Instagram posting. Journal and activity: NO CHANGE; the source A17/A18 milestones were already published, and this is their social presentation.

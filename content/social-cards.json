@@ -1,6 +1,49 @@
 {
   "batches": [
     {
+      "id": "assignment18-rev01",
+      "title": "Assignment 18",
+      "revision": "Rev01",
+      "posts": [
+        {
+          "id": "P17",
+          "title": "Same test. Different flow.",
+          "format": "carousel",
+          "caption": "A port is more than the moment it opens. We put five synthetic layouts through the same controlled comparison to see how the opening shape carries through to flow.\n\nThe reference and taper share the same 90°/270° exhaust events, yet the taper transfers about 41.6% less exhaust mass in this model. That is a difference to understand, not a performance benefit or a winner.\n\nThis is a saved synthetic study at 3,000 rpm: one 20 ms revolution, with an imposed pressure change at 180°. Cylinder feedback and physical engine validation are still ahead. The bars show separate boundary-stream totals, not trapped charge or horsepower.\n\nWhich part would you like us to unpack next: port shape, pressure or cylinder feedback?",
+          "hashtags": [
+            "#WahooRacing",
+            "#TwoStroke",
+            "#EngineDevelopment",
+            "#EngineeringDesign"
+          ],
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/assignment18-rev01/P17-01.png",
+              "alt": "Graphite cover reading Same test. Different flow. Five genuine source developed-wall layouts appear in separate rows: G001-01 reference, G001-02 earlier exhaust, G001-03 tapered exhaust, G001-04 split exhaust and G001-05 staged transfers. Exhaust polygons are orange; transfer polygons are cyan. The cylindrical seam is at each end. These are synthetic layouts, not accepted candidate CAD or a physical cylinder test."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/assignment18-rev01/P17-02.png",
+              "alt": "White card reading The shape of an opening. Reference versus taper: same 90°/270° events. Full saved exhaust developed-area curves are plotted in square millimetres against crank angle from 0 to 360 degrees. The five candidate colours and source series order are retained; reference 01 and staged-transfer 05 overlap. Developed wall area is not calibrated effective flow area."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/assignment18-rev01/P17-03.png",
+              "alt": "Graphite card reading Watch the pressure step. Full saved exhaust mass-flow curves show positive outflow in grams per second against crank angle. At 180 degrees the cylinder proxy pressure is imposed from 160 to 100 kPa, producing the discontinuity. All source samples, including left and right limits, are retained. Reference 01 and 05 overlap. Synthetic 3,000 rpm, 20 ms study without cylinder feedback."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/assignment18-rev01/P17-04.png",
+              "alt": "White card reading Total flow. More questions. Paired bars from accepted saved values retain five candidate colours. Each pair is left exhaust, right transfer, with forward boundary mass in milligrams over one revolution. These are independent stream totals, not trapped charge or horsepower."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/assignment18-rev01/P17-05.png",
+              "alt": "Blue graphite typography card with original shaded W mark asks Which question comes next? Port shape. Pressure. Cylinder feedback. A model gives us something to inspect. The next step is something to question. Stay curious. Follow Wahoo's development. Synthetic study; physical validation is still ahead."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "horizon-stories-rev01",
       "title": "On the horizon",
       "revision": "Rev02",

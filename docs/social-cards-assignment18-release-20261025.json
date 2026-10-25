@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-25",
+  "scope": "Add Assignment18 five-card carousel to established owner-review gallery",
+  "beforeCommit": "7549be6e330249beb581f8a110bb23bae588ed88",
+  "posts": 20,
+  "cards": 56,
+  "newImages": 5,
+  "priorActiveImagesUnchanged": 51,
+  "sourcePackage": "Assignment18_Rev01_20261025",
+  "backup": {
+    "status": "PASS",
+    "destination": "W:\\_Wahoo Racing\\Website\\Backups\\Before_Assignment18_Social_20261025",
+    "files": 472,
+    "bytes": 92398227,
+    "zipSha256": "e38dad445c5d6ad8dbe4a7ad70958456ca31cc98a4dc84bd5166163e3851decb"
+  },
+  "galleryHtmlSha256": "26429fd47c633717e431dd15ebdc30ffd20d92e4da5d239e29d435c7499753e8",
+  "projectionSha256": "c2fb870527688ce60ee258404d8e1e2b02af0576067b2a6e8ae2f510dc8e7111",
+  "files": [
+    "content/review-pages.json",
+    "content/social-cards.json",
+    "docs/social-cards-source-receipt.json",
+    "docs/social-cards.md",
+    "public/preview/social-cards/images/assignment18-rev01/P17-01.png",
+    "public/preview/social-cards/images/assignment18-rev01/P17-02.png",
+    "public/preview/social-cards/images/assignment18-rev01/P17-03.png",
+    "public/preview/social-cards/images/assignment18-rev01/P17-04.png",
+    "public/preview/social-cards/images/assignment18-rev01/P17-05.png",
+    "public/social-cards.css",
+    "scripts/social-cards-check.mjs"
+  ],
+  "independentReview": {
+    "status": "PASS",
+    "scope": "Root inspected corrected five-card strip; all chart layers blend into intentional card backgrounds, no boxed matte on pale graph cards. Source-data, claim, originality and final five-export/copy identities independently reviewed. Gallery owner-review only; Instagram not published.",
+    "independentReview": "ISAAC_ALPHA_REV02_FINAL_REVIEW.md",
+    "identities": "ISAAC_ALPHA_REV02_READBACK.json",
+    "exportManifestSha256": "4414fd23c3f0fd627e98f0289611359d0d199be8295fdf4a23f5b33d1c166070",
+    "copySha256": "31a1a06a4cfe6df835420576db7cd4f55ac774a07f464cd040d1e99f6e72f83f",
+    "browserQA": "BROWSER_QA.json"
+  },
+  "browserQA": {
+    "status": "PASS",
+    "origin": "http://127.0.0.1:4232",
+    "posts": 20,
+    "cards": 56,
+    "checks": [
+      {
+        "width": 1440,
+        "fiveCardsLoaded": true,
+        "copyExact": true,
+        "download": true,
+        "batchNavVisible": true,
+        "noOverflow": true
+      },
+      {
+        "width": 390,
+        "fiveCardsLoaded": true,
+        "copyExact": true,
+        "download": true,
+        "batchNavVisible": true,
+        "noOverflow": true
+      }
+    ],
+    "errors": []
+  },
+  "instagramPublished": false,
+  "journalChange": false,
+  "agentActivityChange": false
+}
