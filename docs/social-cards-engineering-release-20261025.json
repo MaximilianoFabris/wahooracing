@@ -1,0 +1,92 @@
+{
+  "date": "2026-10-25",
+  "beforeCommit": "24be13e198a892775329962213c866991b80451d",
+  "scope": "Add three engineering-story review carousels P09-P11; Instagram not published",
+  "posts": 14,
+  "cards": 44,
+  "newCards": 9,
+  "priorActiveCardsUnchanged": 35,
+  "sourcePackage": "Engineering_Stories_Rev01_20261025",
+  "backup": {
+    "status": "PASS",
+    "destination": "W:\\_Wahoo Racing\\Website\\Backups\\Before_Engineering_Social_20261025",
+    "files": 433,
+    "bytes": 84255819,
+    "zipSha256": "3f3ce8dd8e146e31581d8bb820406e7afc2d9120252ce91f463017ef7a925dfe"
+  },
+  "galleryHtmlSha256": "425f121fde0969c30246d01b437c8d96a7fa53172752a6429463686ecbdda726",
+  "projectionSha256": "003038b0035c8c9bfd81225201a14e29700e93800357da1a7dd04cf6cc3559ec",
+  "files": [
+    "content/review-pages.json",
+    "content/social-cards.json",
+    "docs/social-cards-source-receipt.json",
+    "docs/social-cards.md",
+    "public/preview/social-cards/images/engineering-stories-rev01/P09-01.png",
+    "public/preview/social-cards/images/engineering-stories-rev01/P09-02.png",
+    "public/preview/social-cards/images/engineering-stories-rev01/P09-03.png",
+    "public/preview/social-cards/images/engineering-stories-rev01/P10-01.png",
+    "public/preview/social-cards/images/engineering-stories-rev01/P10-02.png",
+    "public/preview/social-cards/images/engineering-stories-rev01/P10-03.png",
+    "public/preview/social-cards/images/engineering-stories-rev01/P11-01.png",
+    "public/preview/social-cards/images/engineering-stories-rev01/P11-02.png",
+    "public/preview/social-cards/images/engineering-stories-rev01/P11-03.png",
+    "scripts/social-cards-check.mjs"
+  ],
+  "independentReview": {
+    "status": "PASS",
+    "scope": "Root visually inspected final P09,P10,P11 phone strips, approved nine-card presentation for online owner review; Isaac final source/claims/artifact PASS in ISAAC_FINAL_REVIEW.md. Instagram remains OWNER_REVIEW, not published.",
+    "independentReview": "ISAAC_FINAL_REVIEW.md",
+    "sourceMapping": "ISAAC_PLOT_MAPPING_CHECK.json"
+  },
+  "browserQA": {
+    "status": "PASS",
+    "origin": "http://127.0.0.1:4228",
+    "posts": 14,
+    "cards": 44,
+    "checks": [
+      {
+        "width": 1440,
+        "id": "P09",
+        "threeCardsLoaded": true,
+        "copyExact": true,
+        "download": true
+      },
+      {
+        "width": 1440,
+        "id": "P10",
+        "threeCardsLoaded": true,
+        "copyExact": true,
+        "download": true
+      },
+      {
+        "width": 1440,
+        "id": "P11",
+        "threeCardsLoaded": true,
+        "copyExact": true,
+        "download": true
+      },
+      {
+        "width": 390,
+        "id": "P09",
+        "threeCardsLoaded": true,
+        "copyExact": true,
+        "download": true
+      },
+      {
+        "width": 390,
+        "id": "P10",
+        "threeCardsLoaded": true,
+        "copyExact": true,
+        "download": true
+      },
+      {
+        "width": 390,
+        "id": "P11",
+        "threeCardsLoaded": true,
+        "copyExact": true,
+        "download": true
+      }
+    ],
+    "errors": []
+  }
+}

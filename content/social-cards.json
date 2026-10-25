@@ -1,6 +1,98 @@
 {
   "batches": [
     {
+      "id": "engineering-stories-rev01",
+      "title": "Engineering stories",
+      "revision": "Rev01",
+      "posts": [
+        {
+          "id": "P09",
+          "title": "Trust the shape behind the numbers",
+          "format": "carousel",
+          "caption": "Before we learn from a hull analysis, we check the shape it uses. Our native SubD stays the design master; a separate derived Brep supports analytical sectioning. The recorded surface-sample comparison reached a maximum distance of approximately 0.594 micrometres. That is a discrete position check, not proof of exact agreement everywhere or a manufacturing certificate. Good development starts by knowing what the evidence can tell us.",
+          "hashtags": [
+            "#WahooRacing",
+            "#HullDesign",
+            "#DesignEngineering",
+            "#ProductDevelopment"
+          ],
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/engineering-stories-rev01/P09-01.png",
+              "alt": "White card reading “Trust the shape behind the numbers,” with an authentic native bottom-hull zebra inspection rotated so bow is to the right. The stripes are a geometry inspection aid, not flow. Existing background-removed presentation derivative, not new geometry or analysis."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/engineering-stories-rev01/P09-02.png",
+              "alt": "Pale card reading “Compare at the surface.” Transparent source-data top-projection distance map retains R01 X forward and Y port axes in centimetres, and a micrometre distance colour scale. Samples may overlap."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/engineering-stories-rev01/P09-03.png",
+              "alt": "Blue card with 0.594 μm, maximum sampled distance. Native SubD remains master; the derived Brep supports analysis. Explicitly states this is a sampled comparison, not a continuous or manufacturing certificate."
+            }
+          ]
+        },
+        {
+          "id": "P10",
+          "title": "Bring the stinger inside",
+          "format": "carousel",
+          "caption": "Can an exhaust outlet occupy less space outside its chamber? The internal-stinger concept overlaps the tube with the chamber: the provisional sketch records 195 mm inside and 20 mm outside, 215 mm total, with an 18 mm internal diameter. The current direction is completely straight, with no bends inside the hull. Engine alignment, the tube/baffle junction, cooling, tuning and installed clearances still need work. This is a packaging idea to develop, not a demonstrated power or fit result.",
+          "hashtags": [
+            "#WahooRacing",
+            "#ExhaustDesign",
+            "#TwoStroke",
+            "#EngineeringDesign"
+          ],
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/engineering-stories-rev01/P10-01.png",
+              "alt": "Dark card reading “Bring the stinger inside.” Original section-only sketch shows the internal tube overlapping the chamber. Labels retain provisional dimensions; the historical bend plan is excluded."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/engineering-stories-rev01/P10-02.png",
+              "alt": "White typography card with 195 mm inside the chamber and 20 mm projecting outside; 215 mm total and 18 mm internal diameter. Dimensions are provisional and do not establish tuning or fit."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/engineering-stories-rev01/P10-03.png",
+              "alt": "Blue card reading “Keep it straight. No bends or turns inside the hull.” Lists engine alignment, tube/baffle junction, cooling and service clearances as unresolved; power, tuning and fit are unproven."
+            }
+          ]
+        },
+        {
+          "id": "P11",
+          "title": "A clearer route aft",
+          "format": "carousel",
+          "caption": "Packaging an engine means making room for the whole system—and for the hands and tools that will service it. The selected Rev03 direction sends the exhaust aft from the cylinder side, replacing the earlier forward loop. Compactness and access are goals; the rough component envelopes do not prove installed fit. The water-jacket cutaway is the provisional Rev01 external-stinger comparison: separate exhaust gas and cooling water, then verify cooling, tuning, clearances and water protection. Each view answers a different design question.",
+          "hashtags": [
+            "#WahooRacing",
+            "#EngineDesign",
+            "#MarineEngineering",
+            "#DesignProcess",
+            "#ExhaustDesign"
+          ],
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/engineering-stories-rev01/P11-01.png",
+              "alt": "Graphite card reading “A clearer route aft.” Cropped original transparent Rev03 isometric shows provisional engine and exhaust envelopes. Cylinder-side route is selected; fit and tuning remain pending."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/engineering-stories-rev01/P11-02.png",
+              "alt": "White comparison card reading “Make space. Keep access.” Original source views show Rev01 earlier forward loop and Rev03 selected direct-aft route in top views, bow up. These are provisional envelopes; compactness and service access remain goals."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/engineering-stories-rev01/P11-03.png",
+              "alt": "Blue card reading “Gas inside. Water around.” Authentic transparent cutaway shows silver pipe, blue jacket wall and intervening water space. It is the provisional Rev01 unwrapped external-stinger comparison, not the selected installed system."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "relaunch-rev03",
       "title": "Relaunch",
       "revision": "Rev05",

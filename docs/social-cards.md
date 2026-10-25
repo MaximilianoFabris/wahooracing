@@ -28,3 +28,8 @@ Relaunch Rev05 adds five throttle concept cards and replaces only P07-04 with a 
 ## Compact grid review — 25 October 2026
 
 The default gallery is a three-column Instagram-style post grid. Select a cover to open its existing full artwork, carousel, per-image download and exact caption/hashtag copy in a native modal dialog. Old post anchors open the corresponding preview directly. Escape/Close restore focus to the cover; browser Back closes the preview. Mobile uses a full-screen preview, desktop a two-column dialog; themes and reduced-motion preferences are preserved. Without JavaScript/native dialog support the full accessible post list remains available below the grid. All 35 active PNGs, copy and private source bindings remain unchanged. No third-party dependencies or Instagram publishing were added.
+
+
+## Engineering stories - 25 October 2026
+
+Three new three-card carousels cover sampled geometry correspondence, the provisional internal-stinger concept and engine/exhaust packaging. Final artwork/copy only are published to the owner-review gallery; numerical source CSV, private evidence and editing files remain local/archive. Existing 35 active cards, captions, grid behavior and stable links are unchanged. Total14posts44cards. No Instagram publication.

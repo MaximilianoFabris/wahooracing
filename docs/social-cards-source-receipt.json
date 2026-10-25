@@ -211,9 +211,68 @@
       "source": "Social_Media/Instagram/Relaunch_Rev05_20261025/exports/P08-05.png",
       "bytes": 242194,
       "sha256": "1b0774de8df111c37024211db6acc447112907797cc7593b7a79e72703d325ab"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/engineering-stories-rev01/P09-01.png",
+      "source": "Social_Media/Instagram/Engineering_Stories_Rev01_20261025/exports/P09-01.png",
+      "bytes": 389878,
+      "sha256": "459ca8858ba76e74f4ecc4e32a703cbbda6a4a44c89a4ba612755686a788b703"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/engineering-stories-rev01/P09-02.png",
+      "source": "Social_Media/Instagram/Engineering_Stories_Rev01_20261025/exports/P09-02.png",
+      "bytes": 291808,
+      "sha256": "a5a3315c6b8d185f5018e38e3b79d16791ab893717a36b9e5c36be000e67b93f"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/engineering-stories-rev01/P09-03.png",
+      "source": "Social_Media/Instagram/Engineering_Stories_Rev01_20261025/exports/P09-03.png",
+      "bytes": 85153,
+      "sha256": "7db8f1b8e139b3c89e22f6f25f56efda418f21e673c8b4950687ac95d5a52e09"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/engineering-stories-rev01/P10-01.png",
+      "source": "Social_Media/Instagram/Engineering_Stories_Rev01_20261025/exports/P10-01.png",
+      "bytes": 77613,
+      "sha256": "567ed43d83490cbe45cc6784ecab057a75db351f8ea1832bd38a2060630d0838"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/engineering-stories-rev01/P10-02.png",
+      "source": "Social_Media/Instagram/Engineering_Stories_Rev01_20261025/exports/P10-02.png",
+      "bytes": 80136,
+      "sha256": "2f00b3d602b4729ac5611b2869e77a958441faf6b05a6e147f7db0d991c9aecf"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/engineering-stories-rev01/P10-03.png",
+      "source": "Social_Media/Instagram/Engineering_Stories_Rev01_20261025/exports/P10-03.png",
+      "bytes": 87303,
+      "sha256": "9db2c74c349caeb5c7a3493e00f6e27211301f49ef595142910b0f5df13cec61"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/engineering-stories-rev01/P11-01.png",
+      "source": "Social_Media/Instagram/Engineering_Stories_Rev01_20261025/exports/P11-01.png",
+      "bytes": 134033,
+      "sha256": "2dcac98622df40ab4401df5cddbf4deade37d3677da3b04d0827a7912bd7922c"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/engineering-stories-rev01/P11-02.png",
+      "source": "Social_Media/Instagram/Engineering_Stories_Rev01_20261025/exports/P11-02.png",
+      "bytes": 75661,
+      "sha256": "373a76b8ead6f0005fbac2d2b097da3168622d918db0bcb792631bf394cead5d"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/engineering-stories-rev01/P11-03.png",
+      "source": "Social_Media/Instagram/Engineering_Stories_Rev01_20261025/exports/P11-03.png",
+      "bytes": 113870,
+      "sha256": "edbb66ca357f0db0b1ccf8814b8d11f7fcfcd485e549261c05756b89cab29d46"
     }
   ],
   "sources": [
+    {
+      "batch": "engineering-stories-rev01",
+      "source": "Social_Media/Instagram/Engineering_Stories_Rev01_20261025/copy/posts.json",
+      "sha256": "06072eb37d4916d8afbac143f8aef9ed13dbd8e39b7835b5dfe758a848014f7f"
+    },
     {
       "batch": "relaunch-rev03",
       "source": "Social_Media/Instagram/Relaunch_Rev05_20261025/copy/posts.json",
@@ -225,7 +284,7 @@
       "sha256": "9b7f6396265a12f41f83d944e80f97f9a2776353c8df246d4bb5f9eec623b342"
     }
   ],
-  "projectionSha256": "65212fad1d4fad41c4b7eefb67889e5d4a3da5467c1f221c2770396cc137b17e",
+  "projectionSha256": "003038b0035c8c9bfd81225201a14e29700e93800357da1a7dd04cf6cc3559ec",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",

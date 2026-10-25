@@ -4,9 +4,9 @@ const hash=b=>crypto.createHash('sha256').update(b).digest('hex');
 const raw=fs.readFileSync('content/social-cards.json'),data=JSON.parse(raw),receipt=JSON.parse(fs.readFileSync('docs/social-cards-source-receipt.json'));
 assert.equal(hash(raw),receipt.projectionSha256,'Reviewed public projection changed');
 const keys=(object,expected)=>assert.deepEqual(Object.keys(object).sort(),expected.sort());
-keys(data,['batches']);assert.equal(data.batches.length,2);
-assert.deepEqual(data.batches.map(b=>b.id),['relaunch-rev03','creative-trial-rev04']);
-assert.deepEqual(data.batches.map(b=>b.posts.length),[8,3]);
+keys(data,['batches']);assert.equal(data.batches.length,3);
+assert.deepEqual(data.batches.map(b=>b.id),['engineering-stories-rev01','relaunch-rev03','creative-trial-rev04']);
+assert.deepEqual(data.batches.map(b=>b.posts.length),[3,8,3]);
 const html=fs.readFileSync('dist/preview/social-cards/index.html','utf8'),markup=socialCards(data);
 assert(html.includes(markup));assert(html.includes('noindex, nofollow, noarchive'));assert(html.includes('class="site-header'));
 assert(!/[CW]:[\\/]|file:\/\/|Wahoo_Intelligence|Social_Media|source-manifest|source-provenance|"evidence"|"visual_approach"|"rider_meaning"/i.test(html));
@@ -33,10 +33,10 @@ for(const batch of data.batches){
     }
   }
 }
-assert.equal(count,35);assert.equal(receipt.files.length,35);
+assert.equal(count,44);assert.equal(receipt.files.length,44);
 function walk(folder){return fs.readdirSync(folder,{withFileTypes:true}).flatMap(f=>f.isDirectory()?walk(path.join(folder,f.name)):[path.join(folder,f.name)]);}
 const retained=receipt.retainedFiles||[];
 for(const record of retained){assert(!urls.has(record.imageURL));assert(/^\/preview\/social-cards\/images\/[a-z0-9-]+\/[A-Z0-9-]+\.png$/.test(record.imageURL));for(const base of ['public','dist']){const raw=fs.readFileSync(base+record.imageURL);assert.equal(raw.length,record.bytes);assert.equal(hash(raw),record.sha256,'Historical image URL changed');}}
 for(const base of ['public','dist']){const files=walk(base+'/preview/social-cards');const permitted=new Set([...urls,...retained.map(r=>r.imageURL)].map(url=>path.normalize(base+url)));if(base==='dist')permitted.add(path.normalize(base+'/preview/social-cards/index.html'));assert.deepEqual(files.map(f=>path.normalize(f)).sort(),[...permitted].sort(),'Only allowlisted current/historical images and rendered gallery may be public');}
 const script=fs.readFileSync('public/social-cards.js','utf8');assert(script.includes("text.textContent"));assert(!/fetch\(|localStorage|innerHTML|execCommand/.test(script));
-console.log('PASS: 11 posts / 35 exact 1080×1440 PNGs; source hashes, captions, tags, alt text, public allowlist, visible/copy parity and privacy.');
+console.log('PASS: 14 posts / 44 exact 1080×1440 PNGs; source hashes, captions, tags, alt text, public allowlist, visible/copy parity and privacy.');
