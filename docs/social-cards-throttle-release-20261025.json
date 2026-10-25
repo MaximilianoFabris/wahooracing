@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-25",
+  "authorization": "Owner requested corrected zebra artwork and throttle carousel; established public review gallery workflow. No Instagram publication.",
+  "beforeCommit": "b8fc1b789b4467cd4dd8485cf07eda32adceb3fe",
+  "backup": "W:/_Wahoo Racing/Website/Backups/Before_Throttle_Zebra_20261025",
+  "route": "/preview/social-cards/",
+  "hub": "/preview/",
+  "posts": 11,
+  "cards": 35,
+  "sourceRevisions": [
+    "Relaunch Rev05",
+    "Creative trial Rev04"
+  ],
+  "changedImages": 6,
+  "unchangedActiveImages": 29,
+  "retainedHistoricalImages": 3,
+  "independentReview": "Isaac art/source PASS and focused mobile/day-night gallery browser PASS",
+  "galleryHtmlSha256": "dbf4e209da5b1169674615055d77adbc4c2fbfb124fafdd5290617b568a4d50d",
+  "projectionSha256": "65212fad1d4fad41c4b7eefb67889e5d4a3da5467c1f221c2770396cc137b17e",
+  "unchanged": "Existing gallery UI, simulators, engine data, journal and activity sources",
+  "files": [
+    "content/review-pages.json",
+    "content/social-cards.json",
+    "docs/review-pages.md",
+    "docs/social-cards-source-receipt.json",
+    "docs/social-cards.md",
+    "public/preview/social-cards/images/relaunch-rev05/P07-04.png",
+    "public/preview/social-cards/images/relaunch-rev05/P08-01.png",
+    "public/preview/social-cards/images/relaunch-rev05/P08-02.png",
+    "public/preview/social-cards/images/relaunch-rev05/P08-03.png",
+    "public/preview/social-cards/images/relaunch-rev05/P08-04.png",
+    "public/preview/social-cards/images/relaunch-rev05/P08-05.png",
+    "scripts/social-cards-check.mjs"
+  ]
+}

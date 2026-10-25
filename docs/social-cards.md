@@ -19,3 +19,8 @@ Desktop/mobile browser and theme verification belongs to the release review. Aut
 ## Transparent drawing correction — 24 October 2026
 
 Relaunch Rev04 replaces only P01-04 and P04-01 with the same concept illustration prepared as a genuine alpha layer. The full social-card backgrounds remain intentional. Other 19 relaunch exports and all captions/hashtags are unchanged. This is a concept-presentation derivative, not new CAD or qualified engineering evidence. The initial `relaunch-rev03` batch and anchor IDs remain stable for shared mobile links; displayed revision and source correspondence are Rev04. Two previous PNG URLs remain as an explicit, hash-checked historical allowlist in the private source receipt. No diagram source or private alpha-edit package is published.
+
+
+## Throttle carousel and zebra correction - 25 October 2026
+
+Relaunch Rev05 adds five throttle concept cards and replaces only P07-04 with a transparent-background presentation derivative. Other 20 relaunch PNGs and all nine creative-trial PNGs remain unchanged. Gallery: 11 draft posts / 35 cards. Old anchors and three superseded PNG URLs remain available. Public projection contains final cards, captions, tags and alt text only; private sources and alpha-edit provenance remain local/archive. No final controller design or tested functions are claimed. No Instagram publication.

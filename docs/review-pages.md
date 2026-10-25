@@ -9,3 +9,8 @@ Keep descriptions and counts tied to the page's actual published source evidence
 This hub is public and contains no login, encryption or authentication UI. Existing production Simulator navigation and content are independent. The separate build/deployment integration owns shared footer links and route output; the hub module does not modify those files.
 
 The owner-requested Social cards gallery is `/preview/social-cards/`; see `docs/social-cards.md`. Its published catalog entry uses `visual: "social-cards"` and an allowlisted root-relative PNG `image` URL. The existing piston illustration remains unchanged for Simulator V2. Gallery posts retain their separate `OWNER_REVIEW` status and are not approved for Instagram publication.
+
+
+## Throttle carousel and zebra correction - 25 October 2026
+
+Relaunch Rev05 adds five throttle concept cards and replaces only P07-04 with a transparent-background presentation derivative. Other 20 relaunch PNGs and all nine creative-trial PNGs remain unchanged. Gallery: 11 draft posts / 35 cards. Old anchors and three superseded PNG URLs remain available. Public projection contains final cards, captions, tags and alt text only; private sources and alpha-edit provenance remain local/archive. No final controller design or tested functions are claimed. No Instagram publication.

@@ -3,12 +3,21 @@
     {
       "id": "relaunch-rev03",
       "title": "Relaunch",
-      "revision": "Rev04",
+      "revision": "Rev05",
       "posts": [
         {
           "id": "P01",
           "title": "You own it.",
           "format": "Five-card carousel",
+          "caption": "You own it. That’s the idea shaping Wahoo.\n\nWe’re developing a jetboard with serviceability and long-term ownership in mind. Understand it. Maintain it. Make it yours.\n\nThese are design ambitions as we develop the board.",
+          "hashtags": [
+            "#WahooRacing",
+            "#Jetboard",
+            "#ProductDevelopment",
+            "#DesignForServiceability"
+          ],
+          "revision": "Rev05",
+          "reviewStatus": "OWNER_REVIEW",
           "cards": [
             {
               "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-01.png",
@@ -30,40 +39,40 @@
               "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-05.png",
               "alt": "Approved action concept image of a rider and board on water. Text: Ride. Grow. Race. A board. A community. An ambition we can share. Marked Concept visual, community ambition. Card 5 of 5."
             }
-          ],
-          "caption": "You own it. That’s the idea shaping Wahoo.\n\nWe’re developing a jetboard with serviceability and long-term ownership in mind. Understand it. Maintain it. Make it yours.\n\nThese are design ambitions as we develop the board.",
-          "hashtags": [
-            "#WahooRacing",
-            "#Jetboard",
-            "#ProductDevelopment",
-            "#DesignForServiceability"
-          ],
-          "revision": "Rev04",
-          "reviewStatus": "OWNER_REVIEW"
+          ]
         },
         {
           "id": "P02",
           "title": "Back to the board.",
           "format": "Single image",
-          "cards": [
-            {
-              "imageURL": "/preview/social-cards/images/relaunch-rev03/P02-01.png",
-              "alt": "Golden approved action concept of a rider with a board and sea spray. Original white Wahoo wordmark and headline Back to the board. Text: We’re developing Wahoo. Come closer to the work. Marked Concept visual, in development."
-            }
-          ],
           "caption": "Back to the board.\n\nWe’re sharing the development of Wahoo: the ideas, the questions and the work behind them. Come closer to the process, one story at a time.\n\nConcept image; Wahoo is in development.",
           "hashtags": [
             "#WahooRacing",
             "#JetboardDevelopment",
             "#DesignProcess"
           ],
-          "revision": "Rev04",
-          "reviewStatus": "OWNER_REVIEW"
+          "revision": "Rev05",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/relaunch-rev03/P02-01.png",
+              "alt": "Golden approved action concept of a rider with a board and sea spray. Original white Wahoo wordmark and headline Back to the board. Text: We’re developing Wahoo. Come closer to the work. Marked Concept visual, in development."
+            }
+          ]
         },
         {
           "id": "P03",
           "title": "One board. Many minds.",
           "format": "Three-card carousel",
+          "caption": "One board. Many minds.\n\nTen defined AI roles help investigate Wahoo’s development. Leo connects the work, specialists explore questions, and Isaac challenges consequential conclusions. Max decides what moves forward.\n\nThe team works on demand. Physical tests are still needed to validate the board.",
+          "hashtags": [
+            "#WahooRacing",
+            "#EngineeringDesign",
+            "#AIInEngineering",
+            "#ProductDevelopment"
+          ],
+          "revision": "Rev05",
+          "reviewStatus": "OWNER_REVIEW",
           "cards": [
             {
               "imageURL": "/preview/social-cards/images/relaunch-rev03/P03-01.png",
@@ -77,27 +86,12 @@
               "imageURL": "/preview/social-cards/images/relaunch-rev03/P03-03.png",
               "alt": "Graphite graphic says AI investigates. People decide. Original outline icons accompany Leo, connects the work; Isaac, challenges the evidence; Max, decides what moves forward. Text: Physical tests have the final word. Grace shares the story. Clio preserves the record. Card 3 of 3."
             }
-          ],
-          "caption": "One board. Many minds.\n\nTen defined AI roles help investigate Wahoo’s development. Leo connects the work, specialists explore questions, and Isaac challenges consequential conclusions. Max decides what moves forward.\n\nThe team works on demand. Physical tests are still needed to validate the board.",
-          "hashtags": [
-            "#WahooRacing",
-            "#EngineeringDesign",
-            "#AIInEngineering",
-            "#ProductDevelopment"
-          ],
-          "revision": "Rev04",
-          "reviewStatus": "OWNER_REVIEW"
+          ]
         },
         {
           "id": "P04",
           "title": "Ask. Model. Check. Learn.",
           "format": "Single image",
-          "cards": [
-            {
-              "imageURL": "/preview/social-cards/images/relaunch-rev04/P04-01.png",
-              "alt": "Pale poster with original black Wahoo symbol. Headline Ask. Model. Check. Learn. is arranged in two broad lines above fine blue concept linework of board outlines and sections, integrated directly with the pale background. Text: Every answer starts with a better question. Label: Concept drawing, not a validated design."
-            }
-          ],
           "caption": "Ask. Model. Check. Learn.\n\nA drawing explores an idea. A model investigates a question. Both help us decide what to test next. Follow the work as Wahoo takes shape.",
           "hashtags": [
             "#WahooRacing",
@@ -105,19 +99,19 @@
             "#DesignDevelopment",
             "#Jetboard"
           ],
-          "revision": "Rev04",
-          "reviewStatus": "OWNER_REVIEW"
+          "revision": "Rev05",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/relaunch-rev04/P04-01.png",
+              "alt": "Pale poster with original black Wahoo symbol. Headline Ask. Model. Check. Learn. is arranged in two broad lines above fine blue concept linework of board outlines and sections, integrated directly with the pale background. Text: Every answer starts with a better question. Label: Concept drawing, not a validated design."
+            }
+          ]
         },
         {
           "id": "P05",
           "title": "Riders. Builders. Curious minds.",
           "format": "Single image",
-          "cards": [
-            {
-              "imageURL": "/preview/social-cards/images/relaunch-rev03/P05-01.png",
-              "alt": "Approved fictional workshop concept image of people gathered around a board at sunset. Original Wahoo wordmark above. Text: Riders. Builders. Curious minds. What would you want to understand first? Label: Concept visual, community invitation."
-            }
-          ],
           "caption": "Riders. Builders. Curious minds.\n\nWe want Wahoo to grow with a community that shares what it learns, on the water and in the workshop.\n\nWhat would you want to understand first?\n\nConcept scene, illustrating an ambition.",
           "hashtags": [
             "#WahooRacing",
@@ -125,13 +119,28 @@
             "#RidersAndBuilders",
             "#DesignCommunity"
           ],
-          "revision": "Rev04",
-          "reviewStatus": "OWNER_REVIEW"
+          "revision": "Rev05",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/relaunch-rev03/P05-01.png",
+              "alt": "Approved fictional workshop concept image of people gathered around a board at sunset. Original Wahoo wordmark above. Text: Riders. Builders. Curious minds. What would you want to understand first? Label: Concept visual, community invitation."
+            }
+          ]
         },
         {
           "id": "P06",
           "title": "Inside the simulator.",
           "format": "Five-card carousel",
+          "caption": "Start with movement. Then ask what happens to pressure, heat and waves.\n\nWahoo’s simulator grows through small, checkable models. These saved schematics and synthetic benchmarks help us test the software before making engine predictions.\n\nThey are development tools, not measured engine performance.",
+          "hashtags": [
+            "#WahooRacing",
+            "#EngineSimulation",
+            "#EngineeringDesign",
+            "#DevelopmentProcess"
+          ],
+          "revision": "Rev05",
+          "reviewStatus": "OWNER_REVIEW",
           "cards": [
             {
               "imageURL": "/preview/social-cards/images/relaunch-rev03/P06-01.png",
@@ -153,21 +162,21 @@
               "imageURL": "/preview/social-cards/images/relaunch-rev03/P06-05.png",
               "alt": "Graphite poster with original Wahoo wordmark, titled What does the model keep? Existing acoustic energy benchmark plot retains units, samples and labels. Text: Energy is part of the check. Engine performance still needs validation. Solid curve: rigid termination retains pulse energy. Dashed curve: absorbing termination lets energy leave. Not a dyno result. Card 5 of 5."
             }
-          ],
-          "caption": "Start with movement. Then ask what happens to pressure, heat and waves.\n\nWahoo’s simulator grows through small, checkable models. These saved schematics and synthetic benchmarks help us test the software before making engine predictions.\n\nThey are development tools, not measured engine performance.",
-          "hashtags": [
-            "#WahooRacing",
-            "#EngineSimulation",
-            "#EngineeringDesign",
-            "#DevelopmentProcess"
-          ],
-          "revision": "Rev04",
-          "reviewStatus": "OWNER_REVIEW"
+          ]
         },
         {
           "id": "P07",
           "title": "Hull development: look closer.",
           "format": "Five-card carousel",
+          "caption": "Look closer.\n\nHull development means more than choosing a silhouette. We inspect surfaces, cut sections, follow profiles and mark questions for review. Then limited CFD cases explore the interaction with water.\n\nThese are geometry studies and early simulation evidence. They do not establish handling, stability or final performance; physical validation is still ahead.",
+          "hashtags": [
+            "#WahooRacing",
+            "#HullDesign",
+            "#Hydrodynamics",
+            "#EngineeringDevelopment"
+          ],
+          "revision": "Rev05",
+          "reviewStatus": "OWNER_REVIEW",
           "cards": [
             {
               "imageURL": "/preview/social-cards/images/relaunch-rev03/P07-01.png",
@@ -182,23 +191,51 @@
               "alt": "Pale poster titled Follow the shape. Existing source-derived Brep tail cutaway illustration shows transverse and longitudinal section curves and original C1/C4 witness labels. This is a clipped analytical view; the actual hull remains closed. Text: Sections and profiles. One three-dimensional question. Card 3 of 5."
             },
             {
-              "imageURL": "/preview/social-cards/images/relaunch-rev03/P07-04.png",
-              "alt": "Pale poster titled Check the whole surface. The full native bottom zebra view is arranged vertically at the right, opposite the headline and supporting text: Zebra patterns help us inspect surface continuity. Label: Native surface review, not water flow. Card 4 of 5."
+              "imageURL": "/preview/social-cards/images/relaunch-rev05/P07-04.png",
+              "alt": "Pale poster with original black Wahoo symbol. Text: Check the whole surface. A full underside board zebra-pattern image sits directly on the pale background with transparent surroundings. Text: Zebra patterns help us inspect surface continuity. Label: Native surface review, not water flow. Background-removed presentation derivative of the existing native review image, not new geometry or analysis. Card 4 of 5."
             },
             {
               "imageURL": "/preview/social-cards/images/relaunch-rev03/P07-05.png",
               "alt": "Dark poster titled Then ask the water. Actual saved historical CFD20 free-surface field at simulation time 1.579983709 seconds. Conditions printed on artwork: historical 20 km/h, bare board, no rider, closed intake, no jet thrust. Text: Early CFD explores a limited case. Physical testing is still ahead. Not performance validation. Card 5 of 5."
             }
-          ],
-          "caption": "Look closer.\n\nHull development means more than choosing a silhouette. We inspect surfaces, cut sections, follow profiles and mark questions for review. Then limited CFD cases explore the interaction with water.\n\nThese are geometry studies and early simulation evidence. They do not establish handling, stability or final performance; physical validation is still ahead.",
+          ]
+        },
+        {
+          "id": "P08",
+          "title": "Control. In your hand.",
+          "format": "Five-card carousel",
+          "caption": "Control in your hand. The design is still open.\n\nWe’re exploring how grip, throttle, starting and essential information could come together in one handheld controller. The blue-accent presentation concept introduces the idea; three other visual directions keep the housing and grip discussion open.\n\nThe intended features include a progressive trigger, thumb-operated rear starter, top display, left- or right-side lanyard positions, and separate grab-line and cable interfaces. Ergonomics, operation and safety functions still need testing. No final design has been selected.\n\nWhich visual direction would you explore—and what would matter most in your hand?",
           "hashtags": [
             "#WahooRacing",
-            "#HullDesign",
-            "#Hydrodynamics",
-            "#EngineeringDevelopment"
+            "#Jetboard",
+            "#ProductDesign",
+            "#DesignProcess",
+            "#ThrottleControl"
           ],
-          "revision": "Rev04",
-          "reviewStatus": "OWNER_REVIEW"
+          "revision": "Rev05",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/relaunch-rev05/P08-01.png",
+              "alt": "Pale Wahoo poster with original black shaded W symbol. Large words: Control. In your hand. The unchanged blue-accent tc04 handheld-controller concept sits to the right. Text: One interface. Four visual directions. The design stays open. Label: Presentation concept, no final design selected. Card 1 of 5."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/relaunch-rev05/P08-02.png",
+              "alt": "Graphite poster headed Keep the grip. Reach the controls. The unchanged tc04 controller concept sits beside five intended functions: progressive trigger for throttle modulation; rear starter for thumb-operated starting; top display for essential operating information; left/right lanyard for stance-aware attachment positions; lower interfaces for grab line and control cable. Label: Design intent, ergonomics and function untested. Card 2 of 5."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/relaunch-rev05/P08-03.png",
+              "alt": "Pale poster showing the unchanged tc01 controller concept with open head, visible fasteners and textured grip. Headline: Open expression. Option 01. Original black shaded Wahoo symbol. Label: Visual direction, no final selection. Card 3 of 5."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/relaunch-rev05/P08-04.png",
+              "alt": "Blue graphite poster showing the unchanged tc02 controller concept at large scale on the left. Headline: Fuller form. Option 02. Text: A fuller housing. Diagonal grip texture. Blue detailing. Original white Wahoo symbol. Label: Visual direction, no final selection. Card 4 of 5."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/relaunch-rev05/P08-05.png",
+              "alt": "Pale poster showing the unchanged tc03 controller concept on the right. Headline: Smoother surfaces. Option 03. Text: A quieter housing treatment. A different grip texture. Question: Which direction would you explore? Original black Wahoo wordmark. Label: Concepts, ergonomics still to be tested. Card 5 of 5."
+            }
+          ]
         }
       ]
     },
