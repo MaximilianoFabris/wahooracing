@@ -1,6 +1,121 @@
 {
   "batches": [
     {
+      "id": "horizon-stories-rev01",
+      "title": "On the horizon",
+      "revision": "Rev01",
+      "posts": [
+        {
+          "id": "P12",
+          "title": "Meet Leo",
+          "format": "single",
+          "caption": "Meet Leo, the fictional face of Wahoo’s coordinating AI role. He helps connect questions, specialist work and the evidence behind it. Max owns the decisions, and physical tests still have the final word. A little imagination on the shoreline; a lot of real work behind the build. Follow along.",
+          "hashtags": [
+            "#WahooRacing",
+            "#WahooIntelligence",
+            "#DesignProcess",
+            "#BuildInPublic"
+          ],
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/horizon-stories-rev01/P12-01.png",
+              "alt": "Cinematic generated scene of Leo, Wahoo’s fictional black and blue AI character, standing alone on a beach and looking toward the sunset horizon beneath dramatic clouds. Subtle digital particles surround one hand. Original Wahoo wordmark and headline “Meet Leo.” Label states fictional AI character, generated scene."
+            }
+          ]
+        },
+        {
+          "id": "P13",
+          "title": "Know your machine",
+          "format": "single",
+          "caption": "The more you understand a machine, the better the questions you can ask about it. We want understanding and care to be part of the ownership experience—from what a control does to how the system can be maintained. That is a design ambition we are still working toward. What would you want explained first?",
+          "hashtags": [
+            "#WahooRacing",
+            "#DesignForOwnership",
+            "#ProductDesign",
+            "#CuriousMinds"
+          ],
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/horizon-stories-rev01/P13-01.png",
+              "alt": "White editorial card reading “Know your machine” and “Curiosity is part of ownership.” Authentic transparent throttle source linework stands beside “Ask how it works. Ask how to care for it. That’s the ambition.” Original shaded W symbol. Linework is a design concept, not final hardware."
+            }
+          ]
+        },
+        {
+          "id": "P14",
+          "title": "The small checks matter",
+          "format": "carousel",
+          "caption": "A useful simulator needs questions we can answer clearly. Start with a saved movement schematic. Then isolate a simple pressure and volume relationship, so the software has something specific to check. These are saved development illustrations and a synthetic ideal-gas fixture, not measured engine performance. Small checks help us build understanding before prediction. Follow the build as the questions develop.",
+          "hashtags": [
+            "#WahooRacing",
+            "#EngineSimulation",
+            "#EngineeringExplained",
+            "#DesignProcess"
+          ],
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/horizon-stories-rev01/P14-01.png",
+              "alt": "Blue card reading “The small checks matter.” The exact saved 2D piston, connecting rod and crank schematic is shown at its existing pose. Text: First, make the movement clear. Saved 2D schematic, not to scale. Card 1 of 3."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/horizon-stories-rev01/P14-02.png",
+              "alt": "Graphite card reading “Change the volume. Watch the pressure.” Original saved synthetic compression graph retains absolute pressure in Pa, volume in cubic metres, 481 original samples, and right to left compression direction. Closed-mass adiabatic ideal-gas fixture, no heat input; not a measured Wahoo trace. Card 2 of 3."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/horizon-stories-rev01/P14-03.png",
+              "alt": "White typography card reading “Better questions. Better checks.” Build understanding before making predictions. Software checks are one step; physical validation is still ahead. Original shaded W symbol. Development tool, not measured engine performance. Card 3 of 3."
+            }
+          ]
+        },
+        {
+          "id": "P15",
+          "title": "What makes a great ride?",
+          "format": "single",
+          "caption": "Everyone brings a different idea of a great day on the water. Feeling in control, exploring a new stretch of coastline, or simply finding your own rhythm—what matters most to you? Tell us one thing you would want from your ideal ride. Concept imagery; the Wahoo build is still in development.",
+          "hashtags": [
+            "#WahooRacing",
+            "#Watersports",
+            "#RideIdeas",
+            "#OnTheWater"
+          ],
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/horizon-stories-rev01/P15-01.png",
+              "alt": "Graphite card asking “What makes a great ride?” Approved fictional ocean concept image in a broad landscape band shows a helmeted rider carving across blue water. Label: Concept scene. Below: The feeling of control? The freedom to explore? Tell us what matters to you. This is not a physical Wahoo test."
+            }
+          ]
+        },
+        {
+          "id": "P16",
+          "title": "Follow the build",
+          "format": "single",
+          "caption": "Some days the build moves through a new idea. Other days it moves through a better question. We are sharing both: the design, the learning and the work still ahead. Follow Wahoo and come closer to the process.",
+          "hashtags": [
+            "#WahooRacing",
+            "#FollowTheBuild",
+            "#ProductDevelopment",
+            "#BuildInPublic"
+          ],
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/horizon-stories-rev01/P16-01.png",
+              "alt": "Cool blue typographic card with the original shaded W symbol and large headline “Follow the build.” Text: The ideas. The questions. The work in between. Invitation: Come closer to Wahoo."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "engineering-stories-rev01",
       "title": "Engineering stories",
       "revision": "Rev01",

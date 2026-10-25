@@ -33,3 +33,8 @@ The default gallery is a three-column Instagram-style post grid. Select a cover 
 ## Engineering stories - 25 October 2026
 
 Three new three-card carousels cover sampled geometry correspondence, the provisional internal-stinger concept and engine/exhaust packaging. Final artwork/copy only are published to the owner-review gallery; numerical source CSV, private evidence and editing files remain local/archive. Existing 35 active cards, captions, grid behavior and stable links are unchanged. Total14posts44cards. No Instagram publication.
+
+
+## Horizon stories - 25 October 2026
+
+Five new owner-review posts P12-P16 add seven cards: fictional cinematic Leo beach scene, ownership intent, saved synthetic simulator evidence, community question and follow-the-build invitation. Original artwork, captions, grid UI and all existing44 active images remain unchanged. Only final new PNGs and allowlisted copy are public; source assets, prompts and private evidence remain local/archive. No Instagram publication.

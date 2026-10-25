@@ -265,9 +265,56 @@
       "source": "Social_Media/Instagram/Engineering_Stories_Rev01_20261025/exports/P11-03.png",
       "bytes": 113870,
       "sha256": "edbb66ca357f0db0b1ccf8814b8d11f7fcfcd485e549261c05756b89cab29d46"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/horizon-stories-rev01/P12-01.png",
+      "source": "Social_Media/Instagram/Horizon_Stories_Rev01_20261025/exports/P12-01.png",
+      "bytes": 2082760,
+      "sha256": "0b00b487c3d4d0e2a2ed32718d91ca15014f7904307c1a1237f524a747b03955"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/horizon-stories-rev01/P13-01.png",
+      "source": "Social_Media/Instagram/Horizon_Stories_Rev01_20261025/exports/P13-01.png",
+      "bytes": 129446,
+      "sha256": "6fc361056dc949ba3566ddaca17e179191248bfc72ed8c2d7e0bd5abd3148f45"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/horizon-stories-rev01/P14-01.png",
+      "source": "Social_Media/Instagram/Horizon_Stories_Rev01_20261025/exports/P14-01.png",
+      "bytes": 80937,
+      "sha256": "2d332125bcd0e7cca180d2fe8de509905eb9bae22689ff358f72d55b609368ec"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/horizon-stories-rev01/P14-02.png",
+      "source": "Social_Media/Instagram/Horizon_Stories_Rev01_20261025/exports/P14-02.png",
+      "bytes": 97037,
+      "sha256": "ab98732e63e15cdde18acb30d7f4da3b2e872e52444e35871025f10c14601f89"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/horizon-stories-rev01/P14-03.png",
+      "source": "Social_Media/Instagram/Horizon_Stories_Rev01_20261025/exports/P14-03.png",
+      "bytes": 79357,
+      "sha256": "d24da26a89a8750b350f7dd12685fe9733aeab2ef0e64c7adbf0f572b5285dd1"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/horizon-stories-rev01/P15-01.png",
+      "source": "Social_Media/Instagram/Horizon_Stories_Rev01_20261025/exports/P15-01.png",
+      "bytes": 970561,
+      "sha256": "40e5afacbd5ae27a23087e70f6fac58cdd7d533f2655b825eaa6fe4507b4e192"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/horizon-stories-rev01/P16-01.png",
+      "source": "Social_Media/Instagram/Horizon_Stories_Rev01_20261025/exports/P16-01.png",
+      "bytes": 64996,
+      "sha256": "b787056583adfa03d1e01cb3a60db9813435cbf0e2816565ce5d43b526b683f2"
     }
   ],
   "sources": [
+    {
+      "batch": "horizon-stories-rev01",
+      "source": "Social_Media/Instagram/Horizon_Stories_Rev01_20261025/copy/posts.json",
+      "sha256": "61d216c6222529ef511a8adb7b6857a03cb7d47bbac7120af9aecd8712b47302"
+    },
     {
       "batch": "engineering-stories-rev01",
       "source": "Social_Media/Instagram/Engineering_Stories_Rev01_20261025/copy/posts.json",
@@ -284,7 +331,7 @@
       "sha256": "9b7f6396265a12f41f83d944e80f97f9a2776353c8df246d4bb5f9eec623b342"
     }
   ],
-  "projectionSha256": "003038b0035c8c9bfd81225201a14e29700e93800357da1a7dd04cf6cc3559ec",
+  "projectionSha256": "c51933a175090a76c9c30395a630ea6877c19bb56aa56f4ef8437f2ee75e0e90",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",

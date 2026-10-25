@@ -1,0 +1,128 @@
+{
+  "date": "2026-10-25",
+  "beforeCommit": "8211436cbf8d1a6614b7d7a4876af8a0c36e39d4",
+  "scope": "Add five varied review posts P12-P16; Instagram not published",
+  "posts": 19,
+  "cards": 51,
+  "newCards": 7,
+  "priorActiveCardsUnchanged": 44,
+  "sourcePackage": "Horizon_Stories_Rev01_20261025",
+  "backup": {
+    "status": "PASS",
+    "destination": "W:\\_Wahoo Racing\\Website\\Backups\\Before_Horizon_Social_20261025",
+    "files": 443,
+    "bytes": 85604079,
+    "zipSha256": "a2ff13bd9fc49c804f6b0fb21ced1377811aa7ed526894f17759b5058ea662e0"
+  },
+  "galleryHtmlSha256": "8b8e5f1de6c1ca72ceeaa9527fe3281e1df6ccf8698cde01d75d0097101e62a3",
+  "projectionSha256": "c51933a175090a76c9c30395a630ea6877c19bb56aa56f4ef8437f2ee75e0e90",
+  "files": [
+    "content/review-pages.json",
+    "content/social-cards.json",
+    "docs/social-cards-source-receipt.json",
+    "docs/social-cards.md",
+    "public/preview/social-cards/images/horizon-stories-rev01/P12-01.png",
+    "public/preview/social-cards/images/horizon-stories-rev01/P13-01.png",
+    "public/preview/social-cards/images/horizon-stories-rev01/P14-01.png",
+    "public/preview/social-cards/images/horizon-stories-rev01/P14-02.png",
+    "public/preview/social-cards/images/horizon-stories-rev01/P14-03.png",
+    "public/preview/social-cards/images/horizon-stories-rev01/P15-01.png",
+    "public/preview/social-cards/images/horizon-stories-rev01/P16-01.png",
+    "scripts/social-cards-check.mjs"
+  ],
+  "independentReview": {
+    "status": "PASS",
+    "scope": "Root reviewed seven-card contact sheet and final Leo/ownership phone previews; composition accepted for online owner review. Grace two-pass art production and Isaac independent final claims/source/hash review passed. Instagram remains OWNER_REVIEW, not published.",
+    "independentReview": "ISAAC_FINAL_REVIEW.md",
+    "identities": "ISAAC_FINAL_HASH_CHECK.json"
+  },
+  "browserQA": {
+    "status": "PASS",
+    "origin": "http://127.0.0.1:4229",
+    "posts": 19,
+    "cards": 51,
+    "checks": [
+      {
+        "width": 1440,
+        "id": "P12",
+        "cards": 1,
+        "imagesLoaded": true,
+        "copyExact": true,
+        "download": true
+      },
+      {
+        "width": 1440,
+        "id": "P13",
+        "cards": 1,
+        "imagesLoaded": true,
+        "copyExact": true,
+        "download": true
+      },
+      {
+        "width": 1440,
+        "id": "P14",
+        "cards": 3,
+        "imagesLoaded": true,
+        "copyExact": true,
+        "download": true
+      },
+      {
+        "width": 1440,
+        "id": "P15",
+        "cards": 1,
+        "imagesLoaded": true,
+        "copyExact": true,
+        "download": true
+      },
+      {
+        "width": 1440,
+        "id": "P16",
+        "cards": 1,
+        "imagesLoaded": true,
+        "copyExact": true,
+        "download": true
+      },
+      {
+        "width": 390,
+        "id": "P12",
+        "cards": 1,
+        "imagesLoaded": true,
+        "copyExact": true,
+        "download": true
+      },
+      {
+        "width": 390,
+        "id": "P13",
+        "cards": 1,
+        "imagesLoaded": true,
+        "copyExact": true,
+        "download": true
+      },
+      {
+        "width": 390,
+        "id": "P14",
+        "cards": 3,
+        "imagesLoaded": true,
+        "copyExact": true,
+        "download": true
+      },
+      {
+        "width": 390,
+        "id": "P15",
+        "cards": 1,
+        "imagesLoaded": true,
+        "copyExact": true,
+        "download": true
+      },
+      {
+        "width": 390,
+        "id": "P16",
+        "cards": 1,
+        "imagesLoaded": true,
+        "copyExact": true,
+        "download": true
+      }
+    ],
+    "errors": []
+  }
+}
