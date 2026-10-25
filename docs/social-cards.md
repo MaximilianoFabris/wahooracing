@@ -38,3 +38,8 @@ Three new three-card carousels cover sampled geometry correspondence, the provis
 ## Horizon stories - 25 October 2026
 
 Five new owner-review posts P12-P16 add seven cards: fictional cinematic Leo beach scene, ownership intent, saved synthetic simulator evidence, community question and follow-the-build invitation. Original artwork, captions, grid UI and all existing44 active images remain unchanged. Only final new PNGs and allowlisted copy are public; source assets, prompts and private evidence remain local/archive. No Instagram publication.
+
+
+## Fresh editorial visuals - 25 October 2026
+
+Horizon Rev02 replaces P14-01/P14-02/P15-01 with previously unused social source graphics/photo. Four other Horizon cards and the prior44 active PNGs are unchanged. First-use audit checks actual card display, aliases and source lineage rather than folder presence or altered crops/colours. New source ledger and workflow rule remain private. Original logos/fonts remain recurring brand identity. Current posts19/cards51; six old image URLs retained as explicit historical allowlist. Original batch/post IDs remain stable. No Instagram publication.

@@ -3,7 +3,7 @@
     {
       "id": "horizon-stories-rev01",
       "title": "On the horizon",
-      "revision": "Rev01",
+      "revision": "Rev02",
       "posts": [
         {
           "id": "P12",
@@ -16,7 +16,7 @@
             "#DesignProcess",
             "#BuildInPublic"
           ],
-          "revision": "Rev01",
+          "revision": "Rev02",
           "reviewStatus": "OWNER_REVIEW",
           "cards": [
             {
@@ -36,7 +36,7 @@
             "#ProductDesign",
             "#CuriousMinds"
           ],
-          "revision": "Rev01",
+          "revision": "Rev02",
           "reviewStatus": "OWNER_REVIEW",
           "cards": [
             {
@@ -47,25 +47,25 @@
         },
         {
           "id": "P14",
-          "title": "The small checks matter",
+          "title": "When does it open?",
           "format": "carousel",
-          "caption": "A useful simulator needs questions we can answer clearly. Start with a saved movement schematic. Then isolate a simple pressure and volume relationship, so the software has something specific to check. These are saved development illustrations and a synthetic ideal-gas fixture, not measured engine performance. Small checks help us build understanding before prediction. Follow the build as the questions develop.",
+          "caption": "Start with a question you can inspect. These are two separate saved synthetic checks: an idealized opening trace, and a pressure response inside a fixed volume. They do not form a connected engine sequence. The opening is not an effective flow area, and the imposed reservoir change is not a real valve or firing event. Both are development fixtures, not measured Wahoo engine performance. Follow the build as better questions become clearer checks.",
           "hashtags": [
             "#WahooRacing",
             "#EngineSimulation",
             "#EngineeringExplained",
             "#DesignProcess"
           ],
-          "revision": "Rev01",
+          "revision": "Rev02",
           "reviewStatus": "OWNER_REVIEW",
           "cards": [
             {
-              "imageURL": "/preview/social-cards/images/horizon-stories-rev01/P14-01.png",
-              "alt": "Blue card reading “The small checks matter.” The exact saved 2D piston, connecting rod and crank schematic is shown at its existing pose. Text: First, make the movement clear. Saved 2D schematic, not to scale. Card 1 of 3."
+              "imageURL": "/preview/social-cards/images/horizon-stories-rev02/P14-01.png",
+              "alt": "Blue card asking “When does it open?” Original saved synthetic plot shows idealized opening per unit developed width in millimetres against crank angle after local top dead centre. Solid cyan A and dashed blue B retain all 73 source samples per curve at five-degree intervals without smoothing. Idealized uncapped geometry, not effective flow area. Card 1 of 3."
             },
             {
-              "imageURL": "/preview/social-cards/images/horizon-stories-rev01/P14-02.png",
-              "alt": "Graphite card reading “Change the volume. Watch the pressure.” Original saved synthetic compression graph retains absolute pressure in Pa, volume in cubic metres, 481 original samples, and right to left compression direction. Closed-mass adiabatic ideal-gas fixture, no heat input; not a measured Wahoo trace. Card 2 of 3."
+              "imageURL": "/preview/social-cards/images/horizon-stories-rev02/P14-02.png",
+              "alt": "Graphite card asking “What changes inside?” Original saved synthetic fixed-volume controlled reservoir transition shows absolute cylinder pressure in Pa against fixture time in seconds, with 81 saved states and reservoir change at 0.010 seconds. Imposed boundary change is not a real valve or firing event; not measured engine performance. Card 2 of 3."
             },
             {
               "imageURL": "/preview/social-cards/images/horizon-stories-rev01/P14-03.png",
@@ -84,12 +84,12 @@
             "#RideIdeas",
             "#OnTheWater"
           ],
-          "revision": "Rev01",
+          "revision": "Rev02",
           "reviewStatus": "OWNER_REVIEW",
           "cards": [
             {
-              "imageURL": "/preview/social-cards/images/horizon-stories-rev01/P15-01.png",
-              "alt": "Graphite card asking “What makes a great ride?” Approved fictional ocean concept image in a broad landscape band shows a helmeted rider carving across blue water. Label: Concept scene. Below: The feeling of control? The freedom to explore? Tell us what matters to you. This is not a physical Wahoo test."
+              "imageURL": "/preview/social-cards/images/horizon-stories-rev02/P15-01.png",
+              "alt": "Graphite card asking “What makes a great ride?” A previously unused approved fictional concept image shows a helmeted rider and dark board from overhead, surrounded by white wake on dark water. Original landscape image shown proportionally. Label: Concept scene. Invitation: Tell us what matters to you. This is not a physical Wahoo test."
             }
           ]
         },
@@ -104,7 +104,7 @@
             "#ProductDevelopment",
             "#BuildInPublic"
           ],
-          "revision": "Rev01",
+          "revision": "Rev02",
           "reviewStatus": "OWNER_REVIEW",
           "cards": [
             {

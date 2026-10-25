@@ -1,0 +1,126 @@
+{
+  "date": "2026-10-25",
+  "beforeCommit": "e0fe66e03318149d27e90a424214acf320454bd6",
+  "scope": "Replace three repeated editorial visuals in newest five social posts; preserve four other Horizon PNGs and earlier44activePNGs",
+  "posts": 19,
+  "cards": 51,
+  "changedImages": 3,
+  "unchangedActiveImages": 48,
+  "retainedHistoricalImages": 6,
+  "sourcePackage": "Horizon_Stories_Rev02_20261025",
+  "backup": {
+    "status": "PASS",
+    "destination": "W:\\_Wahoo Racing\\Website\\Backups\\Before_Horizon_Unique_20261025",
+    "files": 451,
+    "bytes": 89122274,
+    "zipSha256": "466767b0e0e92933c4a6cfa76336d88fd3c75e2b5e03c9c595ae5157712d61f4"
+  },
+  "galleryHtmlSha256": "d299d408f6a5a9672d5f3726ab3d50c1e5a78e7d353ed1d0279958e794f69c34",
+  "projectionSha256": "809855e98da7e4e728d2cd9383347a0a7f3121a112613ef92b6d394d2e0e917a",
+  "files": [
+    "content/review-pages.json",
+    "content/social-cards.json",
+    "docs/social-cards-source-receipt.json",
+    "docs/social-cards.md",
+    "public/preview/social-cards/images/horizon-stories-rev02/P14-01.png",
+    "public/preview/social-cards/images/horizon-stories-rev02/P14-02.png",
+    "public/preview/social-cards/images/horizon-stories-rev02/P15-01.png"
+  ],
+  "independentReview": {
+    "status": "PASS",
+    "scope": "Root inspected final P14 strip and P15 phone image; three repeated editorial visuals replaced with genuinely unused source graphics/photo. Four other newest-batch PNGs preserved exactly. Isaac final uniqueness/source/claims/hash/alpha PASS recorded. Online owner review only; Instagram remains unpublished.",
+    "independentReview": "ISAAC_FINAL_REVIEW.md",
+    "usageAudit": "Social_Media/Instagram/Horizon_Stories_Rev02_20261025/review/CONTENT_USE_LEDGER.json",
+    "identities": "ISAAC_FINAL_HASH_CHECK.json"
+  },
+  "browserQA": {
+    "status": "PASS",
+    "origin": "http://127.0.0.1:4230",
+    "posts": 19,
+    "cards": 51,
+    "checks": [
+      {
+        "width": 1440,
+        "id": "P12",
+        "cards": 1,
+        "imagesLoaded": true,
+        "copyExact": true,
+        "download": true
+      },
+      {
+        "width": 1440,
+        "id": "P13",
+        "cards": 1,
+        "imagesLoaded": true,
+        "copyExact": true,
+        "download": true
+      },
+      {
+        "width": 1440,
+        "id": "P14",
+        "cards": 3,
+        "imagesLoaded": true,
+        "copyExact": true,
+        "download": true
+      },
+      {
+        "width": 1440,
+        "id": "P15",
+        "cards": 1,
+        "imagesLoaded": true,
+        "copyExact": true,
+        "download": true
+      },
+      {
+        "width": 1440,
+        "id": "P16",
+        "cards": 1,
+        "imagesLoaded": true,
+        "copyExact": true,
+        "download": true
+      },
+      {
+        "width": 390,
+        "id": "P12",
+        "cards": 1,
+        "imagesLoaded": true,
+        "copyExact": true,
+        "download": true
+      },
+      {
+        "width": 390,
+        "id": "P13",
+        "cards": 1,
+        "imagesLoaded": true,
+        "copyExact": true,
+        "download": true
+      },
+      {
+        "width": 390,
+        "id": "P14",
+        "cards": 3,
+        "imagesLoaded": true,
+        "copyExact": true,
+        "download": true
+      },
+      {
+        "width": 390,
+        "id": "P15",
+        "cards": 1,
+        "imagesLoaded": true,
+        "copyExact": true,
+        "download": true
+      },
+      {
+        "width": 390,
+        "id": "P16",
+        "cards": 1,
+        "imagesLoaded": true,
+        "copyExact": true,
+        "download": true
+      }
+    ],
+    "errors": []
+  },
+  "instagramPublished": false
+}
