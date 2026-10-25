@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-25",
+  "change": "Instagram-style three-column grid and accessible post preview dialog",
+  "backup": {
+    "status": "PASS",
+    "destination": "W:\\_Wahoo Racing\\Website\\Backups\\Before_Social_Grid_20261025",
+    "count": 432,
+    "bytes": 84247322,
+    "zipSha256": "3f713f6bb6a7ebf5a434b2ef9fe55ac6957ed9a0f06e65889c34814aaf0a6d97"
+  },
+  "beforeCommit": "9b09731e562f84751fd3fde93ac2a9516874f890",
+  "files": [
+    "docs/social-cards.md",
+    "public/social-cards.css",
+    "public/social-cards.js",
+    "scripts/social-cards.mjs"
+  ],
+  "posts": 11,
+  "cards": 35,
+  "artworkAndCopyUnchanged": true,
+  "dependenciesAdded": false,
+  "browserQA": {
+    "status": "PASS",
+    "origin": "http://127.0.0.1:4227",
+    "results": [
+      {
+        "width": 1440,
+        "gridColumns": 3,
+        "pageHeight": 2569,
+        "allFiveCards": true,
+        "copyExact": true,
+        "download": true,
+        "keyboard": true,
+        "focusReturn": true,
+        "back": true,
+        "oldDeepLink": true,
+        "overflow": {
+          "page": 1440,
+          "modal": 1038,
+          "modalClient": 1038
+        }
+      },
+      {
+        "width": 390,
+        "gridColumns": 3,
+        "pageHeight": 1535,
+        "allFiveCards": true,
+        "copyExact": true,
+        "download": true,
+        "keyboard": true,
+        "focusReturn": true,
+        "back": true,
+        "oldDeepLink": true,
+        "overflow": {
+          "page": 390,
+          "modal": 390,
+          "modalClient": 390
+        }
+      }
+    ],
+    "noJavaScriptFallback": true,
+    "errors": []
+  },
+  "galleryHtmlSha256": "e4ceb734c5770124b5f5a2abb6ec86b54b6c7abca3e8897f5d283ed516b460dc",
+  "instagramPublished": false
+}

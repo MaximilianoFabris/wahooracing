@@ -24,3 +24,7 @@ Relaunch Rev04 replaces only P01-04 and P04-01 with the same concept illustratio
 ## Throttle carousel and zebra correction - 25 October 2026
 
 Relaunch Rev05 adds five throttle concept cards and replaces only P07-04 with a transparent-background presentation derivative. Other 20 relaunch PNGs and all nine creative-trial PNGs remain unchanged. Gallery: 11 draft posts / 35 cards. Old anchors and three superseded PNG URLs remain available. Public projection contains final cards, captions, tags and alt text only; private sources and alpha-edit provenance remain local/archive. No final controller design or tested functions are claimed. No Instagram publication.
+
+## Compact grid review — 25 October 2026
+
+The default gallery is a three-column Instagram-style post grid. Select a cover to open its existing full artwork, carousel, per-image download and exact caption/hashtag copy in a native modal dialog. Old post anchors open the corresponding preview directly. Escape/Close restore focus to the cover; browser Back closes the preview. Mobile uses a full-screen preview, desktop a two-column dialog; themes and reduced-motion preferences are preserved. Without JavaScript/native dialog support the full accessible post list remains available below the grid. All 35 active PNGs, copy and private source bindings remain unchanged. No third-party dependencies or Instagram publishing were added.
