@@ -88,6 +88,15 @@
       }
     },
     {
+      "title": "25 October: actual contour comparisons reach prescribed flow",
+      "text": "Five generated, numerically verified synthetic port layouts now have a common prescribed-reservoir flow comparison. Inspect the <a class=\"text-link\" href=\"/journal/g001-generated-port-layouts/\">source geometry ↗</a> and <a class=\"text-link\" href=\"/journal/g001-synthetic-flow-comparison/\">original flow graphs ↗</a>. This later bounded result does not qualify the nine earlier varied-input studies, close the CAD persistence gate or validate physical engine performance. Fuel-derived heat remains separately unqualified.",
+      "figure": {
+        "image": "engineering/g001-oct25/integrated_mass.svg",
+        "alt": "Original five-candidate integrated exhaust and transfer boundary-stream masses in milligrams.",
+        "caption": "25 October accepted synthetic comparison, with EX left and TR right for each candidate. Cylinder state remains imposed; these totals are not cylinder inventories."
+      }
+    },
+    {
       "title": "The next useful comparisons",
       "text": "Future engine/exhaust comparisons should use source-qualified inputs, packaging and propulsion-load constraints, conservation and convergence checks, and sensitivity to uncertain inputs. Complete ECU behaviour, coolant flow and detailed metal temperatures need their own models and measurements; prescribed inputs cannot substitute for them. Bench and dyno evidence must eventually calibrate and challenge predictions. These are development requirements, not completed simulations."
     }
@@ -106,7 +115,16 @@
     "Later port-workflow runtime, persistence and serialization reviews · 21 October 2026",
     "Accepted state/heat/open-system/pressure-driven module gates and archive receipts · 22 October 2026",
     "Accepted acoustic accuracy/interface and bounded supervised runner gates · 22 October 2026",
-    "Bounded private saved-study interface, source-register and independent outcome reviews · 23 October 2026"
+    "Bounded private saved-study interface, source-register and independent outcome reviews · 23 October 2026",
+    "G001 generated geometry and G001-B prescribed-reservoir flow acceptance · 25 October 2026"
   ],
-  "changes": "Updates the overview with the tested 23 October private read-only interface and its explicit unfinished gates. Earlier source-event history is retained. No public deployment, new mesh, qualified varied-input domain or physical engine performance is implied. Draft pending owner review."
+  "changes": "Local draft adds a dated 25 October cross-link and original synthetic comparison figure. Earlier event dates, source history and unresolved interface/physics gates are retained. Owner public-update approval is pending.",
+  "downloadsTitle": "Original accepted transparent figures",
+  "downloadsIntro": "Original accepted transparent PNG figures, retained unchanged for full-size inspection.",
+  "downloads": [
+    {
+      "file": "engineering/g001-oct25/integrated_mass.png",
+      "label": "integrated mass · original PNG"
+    }
+  ]
 }

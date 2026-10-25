@@ -2,6 +2,52 @@
   "schema_version": 1,
   "records": [
     {
+      "id": "simulator-g001-prescribed-flow",
+      "publication": "published",
+      "date": "2026-10-25",
+      "agents": [
+        "ada",
+        "nikola",
+        "marie",
+        "isaac",
+        "leo"
+      ],
+      "status": "completed",
+      "title": "Five source contours reach a common synthetic flow comparison",
+      "summary": "The five accepted G001 layouts now drive a shared 3,000 rpm prescribed-reservoir experiment. Independent adapter and saved-data checks pass. Stream mass and enthalpy comparisons retain actual aperture histories; cylinder feedback, scavenging and engine performance remain unvalidated.",
+      "evidence": "Qualified synthetic geometry-to-flow comparison · static saved-data package accepted"
+    },
+    {
+      "id": "simulator-g001-generated-geometry",
+      "publication": "published",
+      "date": "2026-10-25",
+      "agents": [
+        "ada",
+        "nikola",
+        "marie",
+        "isaac",
+        "leo"
+      ],
+      "status": "completed",
+      "title": "Five generated port configurations become traceable comparisons",
+      "summary": "Five complete synthetic exhaust/transfer layouts passed numerical and geometric-distinctness checks, with separate saved-data review. Rectangle, earlier exhaust, taper, split exhaust and staged transfers retain actual contours. The separate Rhino startup gate failed; no candidate CAD or manufacturing acceptance followed.",
+      "evidence": "Accepted generated and numerically verified synthetic geometry · candidate CAD blocked"
+    },
+    {
+      "id": "simulator-fuel-source-execution-gate",
+      "publication": "published",
+      "date": "2026-10-24",
+      "agents": [
+        "ada",
+        "isaac",
+        "leo"
+      ],
+      "status": "in-progress",
+      "title": "Fuel-source qualification remains at its execution gate",
+      "summary": "A bounded execution-control diagnostic remained incomplete. No fuel-energy model or numerical qualification matrix ran, and the coupled gate remains locked. Later independent geometry and flow work does not qualify fuel-derived heat or combustion.",
+      "evidence": "Reviewed incomplete diagnostic · no new fuel-model qualification"
+    },
+    {
       "id": "simulator-source-bound-registers",
       "publication": "published",
       "date": "2026-10-23",

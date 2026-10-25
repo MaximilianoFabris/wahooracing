@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-25",
+  "approval": "Owner explicitly approved publication of the reviewed candidate",
+  "beforeCommit": "798847d569bf7d0010fddc6d34154c03da3a59f6",
+  "journalAdd": 2,
+  "journalOverviewUpdate": 1,
+  "activityAdd": 3,
+  "journalCount": 52,
+  "sitePages": 80,
+  "publicRoutes": [
+    "/journal/g001-synthetic-flow-comparison/",
+    "/journal/g001-generated-port-layouts/",
+    "/journal/engine-simulation-digital-twin/",
+    "/intelligence/work/",
+    "/journal/",
+    "/"
+  ],
+  "files": [
+    "content/engine-simulation-digital-twin.json",
+    "content/g001-generated-port-layouts.json",
+    "content/g001-synthetic-flow-comparison.json",
+    "content/intelligence-activity.json",
+    "public/assets/engineering/g001-oct25/EX_area.png",
+    "public/assets/engineering/g001-oct25/EX_area.svg",
+    "public/assets/engineering/g001-oct25/EX_flow.png",
+    "public/assets/engineering/g001-oct25/EX_flow.svg",
+    "public/assets/engineering/g001-oct25/G001-01_wall.svg",
+    "public/assets/engineering/g001-oct25/G001-03_wall.svg",
+    "public/assets/engineering/g001-oct25/G001-04_wall.svg",
+    "public/assets/engineering/g001-oct25/G001-05_wall.svg",
+    "public/assets/engineering/g001-oct25/TR_area.png",
+    "public/assets/engineering/g001-oct25/TR_area.svg",
+    "public/assets/engineering/g001-oct25/TR_flow.png",
+    "public/assets/engineering/g001-oct25/TR_flow.svg",
+    "public/assets/engineering/g001-oct25/integrated_mass.png",
+    "public/assets/engineering/g001-oct25/integrated_mass.svg",
+    "scripts/build.mjs",
+    "scripts/navigation.mjs"
+  ],
+  "figureFiles": 14,
+  "reviewedMainMarkupExact": true,
+  "reviewedMainRoutes": [
+    "journal/g001-generated-port-layouts/index.html",
+    "journal/g001-synthetic-flow-comparison/index.html",
+    "journal/engine-simulation-digital-twin/index.html",
+    "intelligence/work/index.html",
+    "journal/index.html"
+  ],
+  "homepageManagedImagePlacementsPreserved": true,
+  "privateMaterialExcluded": true,
+  "routeHashes": {
+    "/journal/g001-synthetic-flow-comparison/": "e1f5c4e77d9151a44176eec104056699d2faea45e34992276594c174ce1a7ddf",
+    "/journal/g001-generated-port-layouts/": "d020717e866e3f47c176f97629a3e13f90348815e6610c5dabc43c3f7285e727",
+    "/journal/engine-simulation-digital-twin/": "b0ea45e2494c973bf966abfb003734e938721af836be959580a54e7db6ef8c48",
+    "/intelligence/work/": "b8287dc4d6f7b73ef61575fc2a6753eaec2484080fa9e5a5cc87f6023f5578bb",
+    "/journal/": "614e1f1550f7ac2cc03addd956de900a15d07c68852c3648ad70ba6e47ad6251",
+    "/": "523dfc40e2fe8db0c6df575d20b01c6528f8ba9c0d2019d9293e0af4fa3a982c"
+  },
+  "backup": "W:/_Wahoo Racing/Website/Backups/Before_Journal_A18_Publication_20261025"
+}

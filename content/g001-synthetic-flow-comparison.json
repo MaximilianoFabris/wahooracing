@@ -1,0 +1,150 @@
+{
+  "slug": "g001-synthetic-flow-comparison",
+  "title": "From port shape to synthetic gas exchange.",
+  "summary": "The same five generated layouts now drive one common prescribed-reservoir comparison. The original graphs reveal how aperture progression changes stream flow and transferred mass, within an explicitly synthetic model.",
+  "date": "2026-10-25",
+  "dateLabel": "25 Oct 2026 · accepted synthetic study",
+  "publicationSequence": 2,
+  "revision": "ENGINE SIMULATOR / G001-B FLOW",
+  "type": "Engineering study",
+  "evidence": "Qualified synthetic flow · physical engine gas exchange not validated",
+  "status": "published",
+  "systems": [
+    "engine",
+    "exhaust"
+  ],
+  "thumbnail": "engineering/g001-oct25/EX_flow.svg",
+  "thumbnailAlt": "Five-candidate exhaust mass-flow histories in grams per second versus crank angle.",
+  "hero": "engineering/g001-oct25/EX_flow.svg",
+  "heroAlt": "Five-candidate exhaust mass-flow histories in grams per second versus crank angle.",
+  "heroCaption": "Accepted exhaust-flow overlay. Outflow is positive. The step at 180° is the imposed cylinder-proxy pressure switch, not an emergent engine transient. G001-01 and G001-05 intentionally overlap.",
+  "sections": [
+    {
+      "title": "Give every contour the same experiment",
+      "text": "The five accepted <a class=\"text-link\" href=\"/journal/g001-generated-port-layouts/\">G001 port layouts ↗</a> were reused unchanged. The adapter evaluates each real saved polygon, converts developed aperture from mm² to m², applies a declared synthetic restriction factor of 0.7, and applies discharge coefficient 0.8 once. Separate ports retain their own events and streams before group summation. Tapers and split windows were not replaced by rectangles.",
+      "figure": {
+        "image": "engineering/g001-oct25/EX_area.svg",
+        "alt": "All five source exhaust developed-area histories in square millimetres against crank angle.",
+        "caption": "The geometric input to the flow calculation. Exposed wall area is not a measured duct throat or a calibrated effective flow area. Source colours and axes are unchanged."
+      }
+    },
+    {
+      "title": "Make the imposed pressure step explicit",
+      "text": "One revolution lasts 20 ms at 3,000 rpm. Stationary reservoirs use absolute stagnation pressure: the cylinder proxy is prescribed at 160 kPa in the first half and 100 kPa in the second, exhaust at 60 kPa and transfer at 200 kPa. Proxy temperature is 300 K; external reservoirs are 420 K. Constant-property ideal gas uses R = 287, cv = 718 and cp = 1005 J/kg/K. These are fixture assumptions, not measured Wahoo conditions. Before 180°, nonzero exhaust flow is choked and transfer flow is subcritical; afterward those regimes reverse.",
+      "figure": {
+        "image": "engineering/g001-oct25/TR_flow.svg",
+        "alt": "Original transfer mass-flow overlay in grams per second against crank angle, inflow positive.",
+        "caption": "The jump at 180° comes from the imposed pressure schedule. G001-01–04 share one transfer history, with violet G001-04 drawn last; G001-05 is pink. Distinct left/right saved samples retain the discontinuity without interpolating across it."
+      }
+    },
+    {
+      "title": "Read the contour effect beyond peak area",
+      "text": "G001-02 transfers 29.764851% more exhaust mass than the reference in this fixture. It opens 8° earlier and stays open 16° longer, while maximum area grows 21.892802%; this does not isolate timing as the cause. The taper is a sharper comparison: G001-03 keeps the same 90°/270° events but reduces integrated exhaust mass by 41.560531%, while peak flow falls 37.5%. The full contour progression matters within this model. Split G001-04 reduces both exhaust peak and integrated flow by 25%, without establishing bridge physics.",
+      "figure": {
+        "image": "engineering/g001-oct25/EX_flow.svg",
+        "alt": "Original exhaust-flow curves retaining all candidate colours, full axes and the imposed pressure discontinuity.",
+        "caption": "G001-02 is amber, G001-03 green and G001-04 violet. G001-05 pink covers the identical G001-01 cyan history. A larger transferred stream is not a physical performance winner."
+      }
+    },
+    {
+      "title": "Compare totals without calling them trapped mass",
+      "text": "The staged transfers in G001-05 reduce integrated inflow by 40.626164% relative to the common transfer configuration. Each value below is the independent boundary-stream total over the same imposed revolution. Exhaust and transfer totals are separate; their difference is a boundary ledger, not a cylinder inventory, trapping efficiency or scavenging result. Reverse flow is zero under this particular imposed schedule.",
+      "figure": {
+        "image": "engineering/g001-oct25/integrated_mass.svg",
+        "alt": "Original paired bars of integrated forward boundary mass in milligrams for all five candidates, exhaust on the left and transfer on the right.",
+        "caption": "All five actual accepted results. For each candidate the left bar is EX and the right bar is TR. These are integrated stream totals, not accumulated-cylinder mass histories."
+      },
+      "table": {
+        "caption": "Boundary-stream totals over one 20 ms synthetic revolution · displayed to six decimal places",
+        "headers": [
+          "Candidate",
+          "EX mass [mg]",
+          "TR mass [mg]",
+          "EX enthalpy [J]",
+          "TR enthalpy [J]"
+        ],
+        "rows": [
+          [
+            "G001-01 · reference",
+            "467.112706",
+            "208.349383",
+            "140.834481",
+            "87.944275"
+          ],
+          [
+            "G001-02 · earlier EX",
+            "606.148105",
+            "208.349383",
+            "182.753654",
+            "87.944275"
+          ],
+          [
+            "G001-03 · tapered EX",
+            "272.978183",
+            "208.349383",
+            "82.302922",
+            "87.944275"
+          ],
+          [
+            "G001-04 · split EX",
+            "350.334529",
+            "208.349383",
+            "105.625861",
+            "87.944275"
+          ],
+          [
+            "G001-05 · staged TR",
+            "467.112706",
+            "123.705022",
+            "140.834481",
+            "52.215890"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "Keep transfer staging and verification in view",
+      "text": "The aperture curves preserve the separate late opening rather than smoothing it into one window. The adapter passed 693 Stage 1 checks. Independent Stage 2 verification passed 597 checks over 7,274 saved history rows, using separate flow references and 1°, 0.5° and 0.25° refinement. Maximum relative integrated mass/enthalpy discrepancy was about 2.28 parts per million, within the frozen numerical criterion. That is software verification within this fixture, not a physical-accuracy claim. The plots retain every accepted 0.25° event-split saved sample, including both one-sided limits at the imposed 180° switch, without smoothing.",
+      "figure": {
+        "image": "engineering/g001-oct25/TR_area.svg",
+        "alt": "Original transfer exposed-area overlay retains the staged G001-05 progression and common four-candidate curve.",
+        "caption": "Exact saved geometry-to-aperture history. Paired reservoir transactions close algebraically; independent stream-integral residuals provide separate evidence and remain nonzero."
+      }
+    },
+    {
+      "title": "The next model needs cylinder feedback",
+      "text": "Cylinder pressure and temperature are imposed here. Dynamic cylinder mass, internal energy, volume, piston work, heat-release response, trapping, scavenging, horsepower and torque are unavailable. Donor stream enthalpy includes flow work once; no balancing heat was added. Fuel-derived heat remains separately unqualified. A future bounded dynamic-cylinder study needs its own inputs, independent references and acceptance. The accepted offline saved-data/static package also does not claim interactive browser or mobile acceptance of the private report."
+    }
+  ],
+  "sources": [
+    "G001-B geometry-to-flow adapter and frozen common-reservoir experiment · 25 October 2026",
+    "Independent prospective and actual gas-exchange/enthalpy interpretation · 25 October 2026",
+    "Stage 1 interface and Stage 2 saved numerical verification · 25 October 2026",
+    "Accepted corrected saved-data/static comparison package and original five transparent PNG figures · 25 October 2026"
+  ],
+  "changes": "New local draft using the accepted five-design synthetic comparison and original transparent figures. No engineering calculation was repeated. Static numerical evidence is distinguished from physical validation and from unverified private-report browser interaction.",
+  "downloadsTitle": "Original accepted transparent figures",
+  "downloadsIntro": "Original accepted transparent PNG figures, retained unchanged for full-size inspection.",
+  "downloads": [
+    {
+      "file": "engineering/g001-oct25/EX_area.png",
+      "label": "EX area · original PNG"
+    },
+    {
+      "file": "engineering/g001-oct25/EX_flow.png",
+      "label": "EX flow · original PNG"
+    },
+    {
+      "file": "engineering/g001-oct25/TR_area.png",
+      "label": "TR area · original PNG"
+    },
+    {
+      "file": "engineering/g001-oct25/TR_flow.png",
+      "label": "TR flow · original PNG"
+    },
+    {
+      "file": "engineering/g001-oct25/integrated_mass.png",
+      "label": "integrated mass · original PNG"
+    }
+  ]
+}
