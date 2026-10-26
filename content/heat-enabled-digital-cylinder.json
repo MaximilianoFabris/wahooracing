@@ -1,0 +1,73 @@
+{
+  "slug": "heat-enabled-digital-cylinder",
+  "title": "Adding heat to a digital cylinder.",
+  "summary": "A qualified heat source joins the coupled cylinder model. In one controlled synthetic experiment, the heated gas finishes warmer — yet at slightly lower pressure. The mass and energy accounts explain why.",
+  "date": "2026-10-26",
+  "dateLabel": "26 Oct 2026 · accepted synthetic study",
+  "publicationSequence": 2,
+  "revision": "ENGINE SIMULATOR / A20 + A21",
+  "type": "Engineering study",
+  "evidence": "Independently qualified synthetic heat coupling · physical combustion unvalidated",
+  "status": "published",
+  "systems": [
+    "engine",
+    "exhaust"
+  ],
+  "thumbnail": "engineering/heat-coupling-oct26/pressure.svg",
+  "thumbnailAlt": "Unheated and heated absolute cylinder-pressure histories remain close over the full synthetic revolution.",
+  "hero": "engineering/heat-coupling-oct26/pressure.svg",
+  "heroAlt": "Absolute cylinder pressure in kPa versus crank angle for the accepted unheated A19 and heated A21 G001-01 histories.",
+  "heroCaption": "Same G001-01 geometry, initial state and synthetic reservoirs. Cyan is unheated; orange receives a prescribed 2 J. Every accepted saved fine-grid node is retained. The full pressure scale shows how small the difference is. Open the drawing at original size to inspect it.",
+  "sections": [
+    {
+      "title": "First, qualify the source of heat",
+      "text": "What changes when heat enters a cylinder that can also exchange gas? Our <a class=\"text-link\" href=\"/journal/g001c1-dynamic-cylinder/\">five-design dynamic-cylinder study ↗</a> established a numerically qualified model without combustion heat. Two subsequent steps now connect a declared fuel-energy budget to that responding cylinder. Assignment 20 qualified the source mathematics and sealed reference cases. Assignment 21 then coupled one qualified source to the open-port G001-01 reference. This is a deliberate progression: establish what the source delivers before interpreting what a moving, breathing cylinder does with it.",
+      "figure": {
+        "image": "engineering/heat-coupling-oct26/cumulative-heat.svg",
+        "alt": "Cumulative heat in joules: the unheated history stays at zero; the heated history rises smoothly to 2 J over 90 to 180 degrees and then remains constant.",
+        "caption": "Accepted A21 cumulative gas-heat history. The prescribed cubic source acts from 90° to 180°, or 5–10 ms. Its numerical integral retains a small nonzero quadrature residual; the curve has not been replaced with an idealized drawing."
+      }
+    },
+    {
+      "title": "Four joules available. Two allocated to the gas.",
+      "text": "The synthetic budget starts with 0.1 mg of available fuel and a declared lower heating value of 40 MJ/kg: 4 J of chemical energy. A separate 50% allocation supplies 2 J to the modelled gas. That allocation is an assumption, not measured combustion or engine efficiency, and the remaining 2 J is unallocated rather than a calculated wall loss. No fuel mass or combustion products are added to the gas inventory. In the simplest sealed, fixed-volume reference, internal energy rises from 2.751916 J to 4.751916 J: exactly the prescribed 2 J within the numerical comparison. Mass stays unchanged and boundary work is zero. Moving-volume references also pass independent checks. In those sealed cases, spreading the same 2 J uniformly through the revolution or supplying it over 90–180° produces different piston work and final temperature: when heat arrives matters as well as how much. The smooth cubic source is qualified in those sealed consumers; the alternative Wiebe schedule has passed standalone mathematics checks only, not thermodynamic coupling."
+    },
+    {
+      "title": "Let the cylinder respond",
+      "text": "The open-port pilot uses the same accepted rectangular reference geometry at 3,000 rpm, through one 20 ms initial-value revolution. It retains the earlier piston motion, synthetic reservoirs, constant-property ideal gas and flow model. Only the qualified cubic heat source is added, once, to the energy calculation at every numerical stage. Updated pressure and temperature then affect the next boundary flow. Independent trajectory, conservation and refinement checks passed. This qualifies the numerical coupling within the declared model; it does not introduce ignition chemistry, injection, reacting species or a physical combustion test.",
+      "figure": {
+        "image": "engineering/heat-coupling-oct26/temperature.svg",
+        "alt": "Unheated and heated cylinder-temperature histories in kelvin versus crank angle, retaining the expansion minimum and compression rise.",
+        "caption": "The final temperature rises from 972.745 K to 978.823 K, a 6.078 K difference. Full histories retain the low-temperature region rather than cropping to the final result. These are synthetic model states."
+      }
+    },
+    {
+      "title": "Warmer gas, slightly lower final pressure",
+      "text": "At the same final volume, the heated case ends at 1,652.985 kPa instead of 1,660.222 kPa — 7.238 kPa lower. Gas mass falls from 65.415 mg to 64.725 mg. This result belongs to this one experiment; adding heat does not generally lower pressure. The exhaust explains part of the response. Gross outward exhaust mass decreases slightly, but exhaust backflow decreases more, so the net mass lost through the exhaust increases. Transfer inflow is effectively unchanged to numerical precision. The saved exhaust-flow reversal brackets occur about 0.91° earlier with heat; that is an approximate comparison of brackets, not an exact physical reversal time.",
+      "figure": {
+        "image": "engineering/heat-coupling-oct26/exhaust-flow.svg",
+        "alt": "Exhaust mass flow in grams per second versus crank angle for unheated and heated cases, with positive discharge and negative backflow preserved.",
+        "caption": "Outward is positive; negative flow is exhaust backflow into the cylinder. Gross outward transfer and net exhaust loss are different quantities. The similar curves are shown on one common scale without magnifying their separation."
+      }
+    },
+    {
+      "title": "Follow every route into and out of the energy account",
+      "text": "The added 2 J is offset by about 2.018 J less net incoming boundary enthalpy — energy carried with the gas — and 0.181 J less mechanical compression input. Final internal energy is therefore 0.199 J lower, changing from 45.6879 J to 45.4888 J. With constant gas properties at equal volume, lower internal energy means lower pressure. Mass falls proportionally more than energy, so temperature can still rise. Work by the gas changes from −26.9976 J to −26.8164 J and remains negative: the imposed piston motion supplies net mechanical input. That difference is not generated shaft power.",
+      "figure": {
+        "image": "engineering/heat-coupling-oct26/pressure-volume.svg",
+        "alt": "Chronological pressure-volume paths in kPa and cubic centimetres for both accepted saved histories.",
+        "caption": "One initial-value revolution, not an established periodic engine cycle. Each curve follows the original saved nodes in chronological order; no artificial closure or resampling was added."
+      }
+    },
+    {
+      "title": "A useful model needs visible limits",
+      "text": "The achievement is a numerically qualified heat source and its first qualified open-port coupling. It remains a homogeneous, constant-property synthetic model, with minima near 134 K and 5.94 kPa absolute that are not evidence of normal firing-engine conditions. Real heat transfer, exhaust waves, scavenging, delivered fuel, reacting gas properties and manufacturing constraints still need suitable models and measurements. Further heat-phasing comparisons are a proposed direction, not completed evidence. Generative port design will need to compare heat schedules and geometry together, then confront installed mechanical constraints and physical validation; a promising isolated opening cannot stand in for that coupled assessment. No power, torque, efficiency, fuel-consumption, physical safety or winning-design conclusion follows. The lesson is narrower and useful: an open cylinder’s final state depends on the whole mass, heat and work account, not the heat input alone."
+    }
+  ],
+  "sources": [
+    "Assignment 20 accepted fuel-source mathematics and sealed-reference qualification · 26 October 2026",
+    "Assignment 21 accepted heated/unheated fine histories and independent numerical qualification · 26 October 2026",
+    "Accepted saved-data comparison graphs, source correspondence and independent thermodynamic interpretation · 26 October 2026"
+  ],
+  "changes": "26 October 2026 — First publication of the A20/A21 synthetic heat-coupling milestone. Original accepted comparison graphs retain their numerical points and axes. The earlier five-design article remains intact."
+}

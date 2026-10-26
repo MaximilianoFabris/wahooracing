@@ -2,6 +2,36 @@
   "schema_version": 1,
   "records": [
     {
+      "id": "simulator-heat-enabled-cylinder",
+      "publication": "published",
+      "date": "2026-10-26",
+      "agents": [
+        "ada",
+        "isaac",
+        "marie",
+        "leo"
+      ],
+      "status": "completed",
+      "title": "One open-port cylinder gains qualified heat coupling",
+      "summary": "A prescribed 2 J cubic heat source now drives the G001-01 synthetic dynamic cylinder. Independent numerical and saved-data checks pass. The heated case finishes warmer but with less mass, stored energy and final pressure in this single initial-value revolution; physical combustion and engine performance remain unvalidated.",
+      "evidence": "Accepted single-case synthetic heat coupling and comparison · no physical validation"
+    },
+    {
+      "id": "simulator-fuel-heat-qualification",
+      "publication": "published",
+      "date": "2026-10-26",
+      "agents": [
+        "ada",
+        "isaac",
+        "marie",
+        "leo"
+      ],
+      "status": "completed",
+      "title": "Fuel-energy mathematics and sealed heat references qualify",
+      "summary": "Independent checks qualify the fuel-energy budget, cubic-source sealed fixed- and moving-volume integration, and exact zero-source compatibility. A synthetic 4 J chemical budget allocates 2 J to gas heat; the 50% allocation is not measured efficiency. Wiebe is qualified as standalone mathematics only.",
+      "evidence": "Accepted source mathematics and sealed numerical references · physical fuel calibration unvalidated"
+    },
+    {
       "id": "simulator-g001c1-dynamic-cylinder",
       "publication": "published",
       "date": "2026-10-26",

@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-26",
+  "ownerApproval": "Deploy it",
+  "beforeCommit": "37db0c49c7ded77bc6309869434923a056d32b79",
+  "scope": "Publish the reviewed A20/A21 Journal article, two activity milestones and five original accepted-data SVGs. No social changes.",
+  "files": [
+    "content/heat-enabled-digital-cylinder.json",
+    "content/intelligence-activity.json",
+    "public/assets/engineering/heat-coupling-oct26/cumulative-heat.svg",
+    "public/assets/engineering/heat-coupling-oct26/exhaust-flow.svg",
+    "public/assets/engineering/heat-coupling-oct26/pressure-volume.svg",
+    "public/assets/engineering/heat-coupling-oct26/pressure.svg",
+    "public/assets/engineering/heat-coupling-oct26/temperature.svg",
+    "scripts/build.mjs",
+    "scripts/navigation.mjs"
+  ],
+  "journal": "heat-enabled-digital-cylinder",
+  "activity": [
+    "simulator-fuel-heat-qualification",
+    "simulator-heat-enabled-cylinder"
+  ],
+  "socialChanged": false,
+  "sourceFreezeSha256": "5244c1d83363dcdcd895db3d34f0ffb0823df246f2f964927f3527379461216a"
+}
