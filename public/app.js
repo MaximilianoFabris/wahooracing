@@ -78,7 +78,33 @@ if(returnLink){const value=new URLSearchParams(location.search).get('return');if
 }}
 
 const inspected=document.querySelector('[data-inspection-image]');
-if(inspected){const src=new URLSearchParams(location.search).get('image');const status=document.querySelector('[data-image-status]');const zoom=document.querySelector('[data-image-zoom]');if(/^\/assets\/(?:(?:geometry|engineering)\/(?:[a-zA-Z0-9_-]+\/)*[a-zA-Z0-9_-]+\.(png|svg)|hull-section-(25|50|75|90)\.svg)$/.test(src||'')){inspected.src=src;inspected.hidden=false;status.textContent='Loading drawing…';inspected.onload=()=>{zoom.disabled=false;status.textContent='Drawing loaded. '+inspected.naturalWidth+' × '+inspected.naturalHeight+' pixels.';};inspected.onerror=()=>{status.textContent='This drawing could not be loaded. Use the return link to choose another drawing.';};zoom.addEventListener('click',()=>{const large=inspected.classList.toggle('original-size');inspected.style.width=large?inspected.naturalWidth+'px':'';zoom.textContent=large?'Fit to screen':'Original size';zoom.setAttribute('aria-pressed',String(large));});}}
+if(inspected){
+ const src=new URLSearchParams(location.search).get('image'),status=document.querySelector('[data-image-status]'),zoom=document.querySelector('[data-image-zoom]');
+ if(/^\/assets\/(?:(?:geometry|engineering)\/(?:[a-zA-Z0-9_-]+\/)*[a-zA-Z0-9_-]+\.(png|svg)|hull-section-(25|50|75|90)\.svg)$/.test(src||'')){
+  // Responsive SVGs have no intrinsic pixel size; use their saved drawing bounds.
+  const dimensions=src.endsWith('.svg')?fetch(src).then(async response=>{
+   if(!response.ok)return null;
+   const svg=new DOMParser().parseFromString(await response.text(),'image/svg+xml').documentElement;
+   if(svg.localName!=='svg')return null;
+   const box=(svg.getAttribute('viewBox')||'').trim().split(/[\s,]+/).map(Number);
+   return box.length===4&&box.every(Number.isFinite)&&box[2]>0&&box[3]>0?{width:box[2],height:box[3]}:null;
+  }).catch(()=>null):Promise.resolve(null);
+  let drawingWidth=0,drawingHeight=0;
+  inspected.hidden=false;status.textContent='Loading drawing…';
+  inspected.onload=async()=>{
+   const bounds=await dimensions;
+   drawingWidth=Math.max(inspected.naturalWidth,bounds?.width||0);drawingHeight=bounds&&drawingWidth===bounds.width?bounds.height:inspected.naturalHeight;
+   if(inspected.classList.contains('original-size'))inspected.style.width=drawingWidth+'px';
+   zoom.disabled=false;status.textContent='Drawing loaded. '+drawingWidth+' × '+drawingHeight+(bounds?' drawing units.':' pixels.');
+  };
+  inspected.onerror=()=>{status.textContent='This drawing could not be loaded. Use the return link to choose another drawing.';};
+  inspected.src=src;
+  zoom.addEventListener('click',()=>{
+   const large=inspected.classList.toggle('original-size');inspected.style.width=large?drawingWidth+'px':'';
+   zoom.textContent=large?'Fit to screen':'Original size';zoom.setAttribute('aria-pressed',String(large));
+  });
+ }
+}
 
 // Include drawings loaded by the inspection viewer after initial page setup.
 applyTheme(document.documentElement.dataset.theme);
