@@ -1,6 +1,6 @@
 {
   "schema": "wahoo.social-review.receipt/1",
-  "sourceDate": "2026-10-25",
+  "sourceDate": "2026-10-26",
   "files": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-01.png",
@@ -337,9 +337,44 @@
       "source": "Social_Media/Instagram/Assignment18_Rev01_20261025/exports/P17-05.png",
       "bytes": 83770,
       "sha256": "ce8d3ea237b4a9782abe338e789d9bc3619e4c0229807bb1446ae44bfcdb2040"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g001c1-rev01/G001C1-01.png",
+      "source": "Social_Media/Instagram/G001C1_Rev01_20261026/exports/G001C1-01.png",
+      "bytes": 157901,
+      "sha256": "6854926b629d306444e2630e1bc149f63ba5b520486ffd9c132211aece97d243"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g001c1-rev01/G001C1-02.png",
+      "source": "Social_Media/Instagram/G001C1_Rev01_20261026/exports/G001C1-02.png",
+      "bytes": 150485,
+      "sha256": "47e90719ffa96a98458856ad6fc0317da446df54b40c7c48262e41e3b9f39572"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g001c1-rev01/G001C1-03.png",
+      "source": "Social_Media/Instagram/G001C1_Rev01_20261026/exports/G001C1-03.png",
+      "bytes": 179537,
+      "sha256": "0c9ff2b4c148fbead49a9aee8e1e201690acbcd52e09d86dc55eed3f47320a33"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g001c1-rev01/G001C1-04.png",
+      "source": "Social_Media/Instagram/G001C1_Rev01_20261026/exports/G001C1-04.png",
+      "bytes": 189494,
+      "sha256": "8a4808547dfa3b04da5c9d69db3668a0266097302c3cc9abf389351f0637eb94"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g001c1-rev01/G001C1-05.png",
+      "source": "Social_Media/Instagram/G001C1_Rev01_20261026/exports/G001C1-05.png",
+      "bytes": 140943,
+      "sha256": "c54fc6861ab64b25ad8ec8cc88ecfbf4ea13919d0e7feaf58819b38212bd981e"
     }
   ],
   "sources": [
+    {
+      "batch": "g001c1-rev01",
+      "source": "Social_Media/Instagram/G001C1_Rev01_20261026/copy/posts.json",
+      "sha256": "2e785b4735a5b6b936eeafe90bc388d25dce981a99131834c461b48384c4044c"
+    },
     {
       "batch": "assignment18-rev01",
       "source": "Social_Media/Instagram/Assignment18_Rev01_20261025/copy/posts.json",
@@ -366,7 +401,7 @@
       "sha256": "9b7f6396265a12f41f83d944e80f97f9a2776353c8df246d4bb5f9eec623b342"
     }
   ],
-  "projectionSha256": "c2fb870527688ce60ee258404d8e1e2b02af0576067b2a6e8ae2f510dc8e7111",
+  "projectionSha256": "2fe247da61a3ae1b41ccb73ba917fe2651b1f209bd5da23acf5a48d1a3e043b5",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",

@@ -1,0 +1,69 @@
+{
+  "slug": "g001c1-dynamic-cylinder",
+  "title": "Five port designs. One responding cylinder.",
+  "summary": "Changing transfer geometry changes exhaust discharge, even when the exhaust geometry stays the same. Five numerically qualified synthetic designs show why gas exchange needs a connected model.",
+  "date": "2026-10-26",
+  "dateLabel": "26 Oct 2026 · accepted synthetic study",
+  "publicationSequence": 1,
+  "revision": "ENGINE SIMULATOR / G001-C1",
+  "type": "Engineering study",
+  "evidence": "Independently qualified synthetic numerical experiment · no physical validation",
+  "status": "published",
+  "systems": [
+    "engine",
+    "exhaust"
+  ],
+  "thumbnail": "engineering/g001c1-oct26/pressure.svg",
+  "thumbnailAlt": "Five accepted dynamic-cylinder pressure histories against crank angle.",
+  "hero": "engineering/g001c1-oct26/pressure.svg",
+  "heroAlt": "Five absolute cylinder-pressure histories, in MPa, through one 360-degree synthetic revolution.",
+  "heroCaption": "Accepted fine-grid samples, connected without smoothing. One revolution at 3,000 rpm; zero combustion heat. Pressure evolves with the cylinder state. This is a synthetic numerical experiment, not a physical engine test.",
+  "sections": [
+    {
+      "title": "What happens when a port changes?",
+      "text": "In a two-stroke engine, the moving piston uncovers openings that let gases enter and leave the cylinder. Their shape and timing affect how much area is available at each instant. But the flow also depends on the gas on either side. If gas enters or leaves, the cylinder changes — and that changes the next moment of flow. Wahoo Intelligence has now independently qualified this feedback across five synthetic port configurations.",
+      "figure": {
+        "image": "engineering/g001c1-oct26/coupling.svg",
+        "alt": "Conceptual relationship diagram connecting port geometry, gas flow and changing cylinder state, with piston work and volume noted.",
+        "caption": "Conceptual relationships, not hardware or exact geometry. The cylinder model couples mass, internal energy, pressure and temperature to piston-driven volume and boundary flows."
+      }
+    },
+    {
+      "title": "Five designs share one experiment",
+      "text": "The accepted layouts are G001-01, the rectangular exhaust reference; G001-02, earlier-opening exhaust; G001-03, tapered exhaust; G001-04, split exhaust; and G001-05, staged transfers. Their original contours were reused unchanged. The <a class=\"text-link\" href=\"/journal/g001-generated-port-layouts/\">earlier geometry study ↗</a> explains those families. Here, each runs through one 20 ms initial-value revolution at 3,000 rpm, with the same synthetic reservoirs, a constant-property ideal gas and no combustion heat. Unlike the <a class=\"text-link\" href=\"/journal/g001-synthetic-flow-comparison/\">earlier prescribed-pressure comparison ↗</a>, cylinder pressure is calculated from the evolving state. These are different experiments; ratios between them would not isolate feedback alone.",
+      "figure": {
+        "image": "engineering/g001c1-oct26/mass.svg",
+        "alt": "Five exact cylinder gas-mass histories in milligrams against crank angle.",
+        "caption": "Cylinder inventory changes through the revolution. This mass is the total gas currently in the modelled cylinder; it is distinct from the accumulated mass crossing each boundary. All accepted saved samples are retained."
+      }
+    },
+    {
+      "title": "Same exhaust. Different discharge.",
+      "text": "G001-01 and G001-05 have identical exhaust geometry. Their transfer arrangements differ in timing and total exposure. The reference admits 229.102 mg through the transfers and discharges 204.256 mg outward through the exhaust. The staged-transfer design admits 136.027 mg and discharges 128.826 mg outward. Changing the transfer geometry changes the pressure and mass histories, which changes exhaust discharge despite the shared exhaust opening. This is the central finding within the accepted model: geometry changes flow; flow changes pressure; pressure changes what happens next.",
+      "figure": {
+        "image": "engineering/g001c1-oct26/boundary-mass.svg",
+        "alt": "Common-scale boundary-stream mass comparison: G001-01 transfer inflow 229.102 mg, exhaust outward 204.256 mg; G001-05 transfer inflow 136.027 mg, exhaust outward 128.826 mg.",
+        "caption": "Separate forward-stream totals, rounded to three decimals. Exhaust backflow also occurs and is recorded separately: 27.794 mg for G001-01 and 32.331 mg for G001-05. These totals are not trapped fresh charge or scavenging efficiency. Lower flow does not mean better performance."
+      }
+    },
+    {
+      "title": "Follow the energy as well as the gas",
+      "text": "A pressure-volume view makes the piston’s role visible. Gas carries energy across the boundaries, and the piston exchanges mechanical work with it. Zero combustion heat therefore does not mean constant temperature or zero work. Each trajectory ends with net compression input, rather than generated shaft work. This is one initial-value revolution; it has not established a repeating engine cycle. The five calculations passed the original independent numerical criteria, including trajectory, conservation and refinement checks. That verifies the declared numerical model, not its accuracy for a real engine.",
+      "figure": {
+        "image": "engineering/g001c1-oct26/pressure-volume.svg",
+        "alt": "Exact saved cylinder pressure in MPa against volume in cubic centimetres for all five synthetic configurations.",
+        "caption": "Samples remain in their original trajectory order. The curves are not closed artificially into periodic cycles. Work by the gas is negative over each saved revolution; no horsepower or torque result is inferred."
+      }
+    },
+    {
+      "title": "A qualified step, with the next gates still ahead",
+      "text": "The execution monitor was independently qualified, and the saved-data comparison passed source-correspondence checks. This is a numerically qualified synthetic experiment with zero combustion heat; not a physically validated engine-performance prediction. Fuel and heat-release qualification, more realistic boundary and flow data, mechanical feasibility and physical testing remain future work. No production cylinder has been selected. There is no demonstrated power, torque, efficiency, fuel consumption, scavenging result, safe operating limit or manufacturing readiness. The milestone is a coupled synthetic model that passed independent numerical checks — a stronger basis for asking the next engineering question."
+    }
+  ],
+  "sources": [
+    "G001-C1 Recovery Protocol v2 executive handoff · 26 October 2026",
+    "Accepted five-design fine-grid histories and independent Gate B numerical acceptance · 26 October 2026",
+    "Independent five-design engineering interpretation and saved-data/source correspondence review · 26 October 2026"
+  ],
+  "changes": "26 October 2026 — First publication of the accepted synthetic dynamic-cylinder milestone. Historical geometry and prescribed-pressure studies remain available."
+}

@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-26",
+  "ownerApproval": "please, deploy all",
+  "beforeCommit": "47e065ac0ed13587c8585c2ff3e2344867fdf749",
+  "scope": "Publish reviewed G001-C1 Journal and activity update; add five-card owner-review carousel. No Instagram posting.",
+  "files": [
+    "content/g001c1-dynamic-cylinder.json",
+    "content/intelligence-activity.json",
+    "content/review-pages.json",
+    "content/social-cards.json",
+    "scripts/navigation.mjs",
+    "scripts/social-cards-check.mjs",
+    "public/assets/engineering/g001c1-oct26/boundary-mass.svg",
+    "public/assets/engineering/g001c1-oct26/coupling.svg",
+    "public/assets/engineering/g001c1-oct26/mass.svg",
+    "public/assets/engineering/g001c1-oct26/pressure-volume.svg",
+    "public/assets/engineering/g001c1-oct26/pressure.svg",
+    "public/preview/social-cards/images/g001c1-rev01/G001C1-01.png",
+    "public/preview/social-cards/images/g001c1-rev01/G001C1-02.png",
+    "public/preview/social-cards/images/g001c1-rev01/G001C1-03.png",
+    "public/preview/social-cards/images/g001c1-rev01/G001C1-04.png",
+    "public/preview/social-cards/images/g001c1-rev01/G001C1-05.png",
+    "docs/social-cards-source-receipt.json",
+    "scripts/build.mjs"
+  ],
+  "journal": "g001c1-dynamic-cylinder",
+  "activity": "simulator-g001c1-dynamic-cylinder",
+  "posts": 21,
+  "cards": 61,
+  "instagramPublished": false,
+  "sourceFreeze": "938230bf56d33575506eb3522b6d964d54fe1f5f73fa05a28d3e6ade205f8cb6"
+}

@@ -2,6 +2,22 @@
   "schema_version": 1,
   "records": [
     {
+      "id": "simulator-g001c1-dynamic-cylinder",
+      "publication": "published",
+      "date": "2026-10-26",
+      "agents": [
+        "ada",
+        "isaac",
+        "marie",
+        "clio",
+        "leo"
+      ],
+      "status": "completed",
+      "title": "Five dynamic-cylinder designs pass independent numerical qualification",
+      "summary": "Five accepted synthetic port configurations now drive coupled cylinder mass, energy, pressure and temperature through one zero-heat revolution. Independent numerical and saved-data checks pass; execution-monitor qualification is complete. Fuel and heat-release qualification remains ahead. Physical engine performance is unvalidated.",
+      "evidence": "Accepted five-design synthetic numerical milestone · no physical validation"
+    },
+    {
       "id": "simulator-g001-prescribed-flow",
       "publication": "published",
       "date": "2026-10-25",

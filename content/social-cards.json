@@ -1,6 +1,50 @@
 {
   "batches": [
     {
+      "id": "g001c1-rev01",
+      "title": "A responding cylinder",
+      "revision": "Rev01",
+      "posts": [
+        {
+          "id": "IG-20261026-G001C1",
+          "title": "The cylinder responds.",
+          "format": "carousel",
+          "caption": "Same exhaust geometry. Different exhaust flow.\n\nThat is the interesting connection in Wahoo’s latest simulator milestone. We compared five generated cylinder-port designs with a model that updates cylinder mass and energy, derives pressure and temperature, and feeds the changing state into the next gas-flow calculation.\n\nFor G001-01 and G001-05, the exhaust geometry is identical. Changing the transfer-port geometry changes the cylinder response—and the exhaust stream. More flow does not establish a better design.\n\nThis is a numerically qualified synthetic study: one initial-value revolution at 3,000 rpm, with zero combustion heat. It is not a physically tested engine or a performance result.\n\nFollow the build as we connect the next pieces.",
+          "hashtags": [
+            "#WahooRacing",
+            "#EngineDevelopment",
+            "#TwoStroke",
+            "#ComputationalEngineering",
+            "#BehindTheBuild"
+          ],
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/g001c1-rev01/G001C1-01.png",
+              "alt": "Dark Wahoo card titled “The cylinder responds.” Accepted synthetic G001-01 and G001-05 pressure–volume trajectories are drawn in blue solid and pale dashed lines. Axes show absolute pressure from 0 to 1.8 MPa and cylinder volume from 0 to 140 cubic centimetres. The paths are open initial-value trajectories, not a repeating cycle. Text: Geometry changes the state. The state changes the flow. One synthetic revolution, 3,000 rpm, zero combustion heat."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/g001c1-rev01/G001C1-02.png",
+              "alt": "Pale card titled “One cylinder. A feedback loop.” A fresh qualitative control-volume schematic shows transfer and exhaust calculation links beside a cylinder-state block marked mass plus energy, pressure and temperature. A lower connector runs from the updated state back to the next flow calculation. The graphic is schematic, not exact G001 geometry; arrows show calculation links. Original shaded Wahoo symbol at upper right."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/g001c1-rev01/G001C1-03.png",
+              "alt": "Dark card titled “Same start. Different response.” All five accepted synthetic G001 cylinder absolute-pressure histories share common axes of 0–360 crank-angle degrees and 0–3.2 MPa. Blue and pale solid, dashed and dotted traces identify G001-01 through G001-05. The histories remain separate at the final compression endpoint. Text identifies an initial-value study, not a repeating firing cycle."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/g001c1-rev01/G001C1-04.png",
+              "alt": "Pale card titled “Same exhaust. Different flow.” G001-01 and G001-05 share identical exhaust geometry and differ in transfer geometry. On a common zero-based linear bar scale, transfer inflow is 229.102 versus 136.027 mg; accumulated outward exhaust transfer is 204.256 versus 128.826 mg. Text states that outward totals exclude backflow, which also occurs, and gives no performance ranking. The study is synthetic."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/g001c1-rev01/G001C1-05.png",
+              "alt": "Dark blue milestone card titled “From shape to a system.” Dated 26 October 2026. Three steps read: five port geometries generated; synthetic gas exchange modeled; dynamic cylinder numerically qualified. Text: Physical validation is still ahead. Follow the build. An original shaded Wahoo symbol anchors the upper left."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "assignment18-rev01",
       "title": "Assignment 18",
       "revision": "Rev01",
