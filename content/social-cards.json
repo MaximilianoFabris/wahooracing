@@ -1,6 +1,57 @@
 {
   "batches": [
     {
+      "id": "g025-rev01",
+      "title": "From 41 designs to eight",
+      "revision": "Rev01",
+      "posts": [
+        {
+          "id": "G025",
+          "title": "41 designs. Eight better questions.",
+          "caption": "41 port designs. Eight better questions.\n\nWahoo Intelligence generated 41 distinct synthetic cylinder-port configurations, then screened all 41 under the same prescribed pressures. The results show how port families, widths and opening times change flow capacity, helping us choose what to investigate next.\n\nA useful contrast: A23-007 and A23-011 show similar outward exhaust totals—534.665 and 537.180 mg—yet first open at 86° and 90°. Similar totals can hide different timing.\n\nEight designs are shortlisted for the next comparison: five have qualified historical dynamic records to reuse; three await dynamic simulation, proposed for A26. This is a development shortlist, not a ranking of the best engines.\n\nThe screen does not predict power, torque, trapped charge, scavenging or rider performance. Mechanical assessment and physical validation are still ahead.\n\nFollow the build.",
+          "hashtags": [
+            "#WahooRacing",
+            "#EngineDevelopment",
+            "#TwoStroke",
+            "#PortTiming",
+            "#EngineeringDesign",
+            "#GenerativeDesign",
+            "#Simulation",
+            "#ComputationalEngineering",
+            "#DesignIteration",
+            "#MarineEngineering",
+            "#Jetboard",
+            "#FollowTheBuild"
+          ],
+          "format": "carousel",
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/g025-rev01/G025-01.png",
+              "alt": "Dark Wahoo cover with a monumental white 41 and text: The search gets wider. 41 port designs. One controlled screen. Forty-one small outlined rectangles form a repeated pattern. They are explicitly schematic marks, not a geometry atlas. Synthetic design study."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/g025-rev01/G025-02.png",
+              "alt": "Pale card titled Four ways to open. Four newly drawn nonproportional schematics show rectangular, tapered, split and staged port families in blue. Labels explain a common starting point; width changes with height; separate openings; openings begin at different times. These are qualitative schematics, not actual contours or dimensions."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/g025-rev01/G025-03.png",
+              "alt": "Dark card titled 41 designs. 41 screening results. Scatter plot of all 41 accepted source records: exhaust gross outward capacity in milligrams on the horizontal axis, transfer gross inward capacity in milligrams vertically. Eight shortlisted records are white; the others blue. Some points overlap without jitter. The graph shows prescribed-pressure gross boundary totals, not engine performance."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/g025-rev01/G025-04.png",
+              "alt": "Pale card titled Similar totals. Different timing. Two bars share a zero-based scale from 0 to 600 mg. A23-007 has 534.665 mg exhaust outward capacity; A23-011 has 537.180 mg. A separate linear angle strip from 80 to 100 degrees marks first exhaust opening at 86 degrees for 007 and 90 degrees for 011. These are prescribed-pressure screen results, not predicted engine output."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/g025-rev01/G025-05.png",
+              "alt": "Dark closing card shows 8 designs shortlisted from 41 screened. Eight schematic blocks carry candidate suffixes001,003,004,011,013,007,009,020. Five filled blocks identify qualified historical dynamic records to reuse; three hollow blocks identify pending dynamic cases proposed for A26. Text: Next: dynamic simulation. Follow the build. A useful shortlist, not a performance ranking."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "g001c1-rev01",
       "title": "A responding cylinder",
       "revision": "Rev01",

@@ -1,6 +1,6 @@
 {
   "schema": "wahoo.social-review.receipt/1",
-  "sourceDate": "2026-10-26",
+  "sourceDate": "2026-10-27",
   "files": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-01.png",
@@ -367,9 +367,44 @@
       "source": "Social_Media/Instagram/G001C1_Rev01_20261026/exports/G001C1-05.png",
       "bytes": 140943,
       "sha256": "c54fc6861ab64b25ad8ec8cc88ecfbf4ea13919d0e7feaf58819b38212bd981e"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g025-rev01/G025-01.png",
+      "source": "Social_Media/Instagram/G025_Rev01_20261027/exports/G025-01.png",
+      "bytes": 96097,
+      "sha256": "3c39889e1c8a188a0af200072ba064915b11498cc14c11a0406ce0cca71575d7"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g025-rev01/G025-02.png",
+      "source": "Social_Media/Instagram/G025_Rev01_20261027/exports/G025-02.png",
+      "bytes": 118961,
+      "sha256": "028e8fe3f15cb9dc6e271b249959535d1ad65c0dc44bb0d389fb6aa420ff1c0c"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g025-rev01/G025-03.png",
+      "source": "Social_Media/Instagram/G025_Rev01_20261027/exports/G025-03.png",
+      "bytes": 131510,
+      "sha256": "a4bbe4c53887d9e8a99170c53c72d1170d35ec4028c6be80a413b1665a2ae539"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g025-rev01/G025-04.png",
+      "source": "Social_Media/Instagram/G025_Rev01_20261027/exports/G025-04.png",
+      "bytes": 137496,
+      "sha256": "d0cd28b2f2bae36aaaa57efc6dd1af65b8857af48873683f5d8f2d509de0f8bc"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g025-rev01/G025-05.png",
+      "source": "Social_Media/Instagram/G025_Rev01_20261027/exports/G025-05.png",
+      "bytes": 159874,
+      "sha256": "707fc29221779cb341e4b891af46e70d46b536433c0ee3bfe6d9b5cf387cece2"
     }
   ],
   "sources": [
+    {
+      "batch": "g025-rev01",
+      "source": "Social_Media/Instagram/G025_Rev01_20261027/copy/posts.json",
+      "sha256": "75117320065908c85dc40e772b97f8f70ff6e261cc7c5bb4b1ff295401a82d8f"
+    },
     {
       "batch": "g001c1-rev01",
       "source": "Social_Media/Instagram/G001C1_Rev01_20261026/copy/posts.json",
@@ -401,7 +436,7 @@
       "sha256": "9b7f6396265a12f41f83d944e80f97f9a2776353c8df246d4bb5f9eec623b342"
     }
   ],
-  "projectionSha256": "2fe247da61a3ae1b41ccb73ba917fe2651b1f209bd5da23acf5a48d1a3e043b5",
+  "projectionSha256": "d460a6c793e5faf85e78311d2173faa4fd8a4c34ba4ca32abcf189d8561235d9",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",

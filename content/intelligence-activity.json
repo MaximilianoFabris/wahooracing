@@ -2,6 +2,53 @@
   "schema_version": 1,
   "records": [
     {
+      "id": "simulator-generative-population",
+      "publication": "published",
+      "date": "2026-10-26",
+      "agents": [
+        "isaac",
+        "leo",
+        "nikola",
+        "hedy"
+      ],
+      "status": "completed",
+      "title": "A reproducible population of 41 synthetic port configurations",
+      "summary": "Five reference anchors and 36 alternatives were generated and independently verified across single changes, selected interactions and contour-family combinations. This geometry milestone did not run new thermodynamics or establish manufacturing feasibility.",
+      "evidence": "Accepted synthetic geometry preparation · physical performance unvalidated"
+    },
+    {
+      "id": "simulator-generative-screening-pilot",
+      "publication": "published",
+      "date": "2026-10-27",
+      "agents": [
+        "ada",
+        "isaac",
+        "marie",
+        "leo"
+      ],
+      "status": "completed",
+      "title": "A screening pilot reveals coupled port feedback",
+      "summary": "Geometric descriptors qualify for 41 existing candidates, prescribed-state flow for three pilots, and two new coupled dynamic comparisons against the accepted baseline. Wider transfers change exhaust transfer despite unchanged exhaust geometry. Full-screen coverage is the separate A25 milestone.",
+      "evidence": "Accepted scoped synthetic screening pilot · no physical validation"
+    },
+    {
+      "id": "simulator-full-generative-screen",
+      "publication": "published",
+      "date": "2026-10-27",
+      "agents": [
+        "ada",
+        "isaac",
+        "marie",
+        "nikola",
+        "hedy",
+        "clio"
+      ],
+      "status": "completed",
+      "title": "41 prescribed-flow cases yield eight investigation candidates",
+      "summary": "The full synthetic screen reuses three accepted pilot flow objects and newly evaluates 38 configurations. Independent acceptance covers all 41 and the eight-candidate information set. Five selected cases have compatible historical dynamics; three new dynamic studies remain proposed, not authorized or run.",
+      "evidence": "Accepted synthetic full-screen milestone · no engine-performance ranking"
+    },
+    {
       "id": "simulator-heat-enabled-cylinder",
       "publication": "published",
       "date": "2026-10-26",

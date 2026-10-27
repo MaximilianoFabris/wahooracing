@@ -1,0 +1,68 @@
+{
+  "slug": "from-41-designs-to-eight",
+  "title": "From 41 designs to eight",
+  "summary": "A complete synthetic port screen turns a broad design population into eight information-rich questions. Reused evidence, opening chronology and model limits explain the choice.",
+  "date": "2026-10-27",
+  "dateLabel": "27 Oct 2026 · accepted synthetic screening milestone",
+  "publicationSequence": 3,
+  "revision": "ENGINE SIMULATOR / A23–A25",
+  "type": "Engineering study",
+  "evidence": "Independently qualified synthetic prescribed-flow screen · physical performance unvalidated",
+  "status": "published",
+  "systems": [
+    "engine",
+    "exhaust"
+  ],
+  "thumbnail": "engineering/g025-oct27/scatter.svg",
+  "thumbnailAlt": "41 accepted prescribed-state exhaust and transfer capacity points, in milligrams; some coincide.",
+  "hero": "engineering/g025-oct27/scatter.svg",
+  "heroAlt": "41 accepted prescribed-state exhaust and transfer capacity points, in milligrams; some coincide.",
+  "heroCaption": "All 41 accepted prescribed-state results. A25 reused three pilot flow objects and evaluated 38 others. Some points coincide; capacity coverage is not an engine-performance ranking.",
+  "sections": [
+    {
+      "title": "A wider search begins with reproducible geometry",
+      "text": "How do we explore more engine-port ideas without confusing a large result table with engineering progress? Wahoo’s latest step starts with a controlled population, applies one inexpensive screen consistently, then chooses a small set of questions worth investigating more deeply. The outcome is 41 screened synthetic configurations and eight candidates for further investigation. Those eight are informative contrasts, not the eight best engines.<br><br>Assignment 23 prepared the population on 26 October: five reference anchors, 16 single-parameter variants, 12 selected interactions and eight family/transfer combinations. Actual rectangular, tapered, split and staged contours were preserved. Independent geometry checks established reproducible configurations and aperture descriptions. They did not establish manufacturing feasibility or predict gas exchange."
+    },
+    {
+      "title": "One common screen, with a declared boundary",
+      "text": "Assignment 24 then qualified refined geometric descriptors for all 41 candidates and prescribed-flow calculations for three pilots. It also qualified two new coupled dynamic cases against an accepted unheated baseline. Assignment 25 completes the inexpensive flow coverage: exactly three accepted pilot objects were reused unchanged, and 38 other configurations were newly evaluated. No new dynamic simulation was performed in that full-screen stage.<br><br>The screen runs at a synthetic 3,000 rpm, representing one 20 ms revolution. It imposes cylinder pressure before and after bottom dead centre and holds the external reservoir states fixed. Actual aperture development determines conditional mass and enthalpy transfer. The screen does not evolve cylinder inventory, temperature, work or pressure feedback. Its numerical qualification makes that calculation trustworthy within its declared assumptions; it does not make those assumptions a calibrated engine.",
+      "figure": {
+        "image": "engineering/g025-oct27/population.svg",
+        "alt": "41 dots in four population groups: five anchors, 16 single changes, 12 selected interactions and eight family combinations.",
+        "caption": "Population composition. Dots represent counts only, not port geometry or a performance scale."
+      }
+    },
+    {
+      "title": "Why capacity alone cannot choose a design",
+      "text": "The A24 pilot explains the distinction. Widening exhaust ports by 15% raises prescribed exhaust capacity by 15%, while coupled dynamic net outward exhaust transfer rises only about 3.95% against that model’s own baseline. Wider transfers also change exhaust transfer despite unchanged exhaust geometry. Pressure feedback connects the port groups. Absolute screen and dynamic transfers are therefore not interchangeable predictions for an identical cylinder-state history.<br><br>Across A25, prescribed exhaust capacity spans 240.622–614.865 mg and transfer inflow spans 99.656–292.827 mg. These are coverage ranges, not performance scores. Width-only changes scale their own group exactly under imposed states; timing and floor changes also alter how area develops. The screen’s structural independence between groups must not be mistaken for an absence of interactions in a responding cylinder."
+    },
+    {
+      "title": "Almost the same total can hide a different opening",
+      "text": "A particularly useful pair is A23-007 and A23-011. Their prescribed exhaust capacities are close: 534.665 and 537.180 mg. Yet the first opens at 86°, the second at 90°. One changes timing; the other isolates width. Similar integrated totals therefore leave a meaningful chronology question for the coupled model.<br><br>The same caution applies to contour families. The split reference’s lower capacity follows its reduced combined aperture in this synthetic population; it is not a universal penalty for splitting a port. Staged cases need per-port chronology because a single group opening angle conceals later activation. Keeping these distinctions visible is more useful than compressing every design into one apparently decisive number.",
+      "figure": {
+        "image": "engineering/g025-oct27/chronology.svg",
+        "alt": "Exhaust capacities of 534.665 and 537.180 mg with first openings of 86 and 90 degrees.",
+        "caption": "Accepted prescribed-state summaries. Both capacities share a zero baseline; opening angles identify chronology, not an inferred performance advantage."
+      }
+    },
+    {
+      "title": "Eight candidates, eight information roles",
+      "text": "The reviewed investigation set retains the reference, isolated exhaust-width and transfer-width changes, earlier exhaust and transfer timing, taper, split exhaust and a late-stage transfer perturbation. Each candidate answers a specific question about mechanism, chronology or model response. Selection follows information value rather than a manufactured engine-performance ranking.<br><br>Five selected cases already have compatible accepted historical dynamics: A23-001, 003, 004, 011 and 013. Those records should be verified and reused. The next stage is planned to compare the three timing/staging alternatives, 007, 009 and 020, under the same unheated dynamic conditions. That gives new work a common reference while preserving the value of existing evidence.",
+      "figure": {
+        "image": "engineering/g025-oct27/eight.svg",
+        "alt": "Five selected cases have reusable historical dynamics; three new dynamic studies are proposed but not run.",
+        "caption": "Historical evidence and future work remain distinct. The full 41-candidate screen does not imply 41 dynamic simulations."
+      }
+    },
+    {
+      "title": "Numerical progress, with the physical questions still open",
+      "text": "Independent acceptance covers the population, calculations, comparison and eight-candidate investigation set. That is a useful milestone for generative engineering: many reproducible ideas can face the same explicit question before a few receive deeper study. The expensive model is then used to investigate the assumptions and mechanisms that the inexpensive screen cannot resolve.<br><br>For Wahoo, the practical aim is a better path from ideas to an engine that can be built and tested. Ring support, bridges, skirt and liner geometry, cooling and installed interfaces must enter the assessment alongside gas exchange. Suitable measurements must eventually challenge both the geometry and the model. The screen supplies neither a power prediction nor manufacturing approval; it supplies a traceable reason to investigate one alternative rather than another. That makes a broad search useful without treating a numerical shortlist as the finished design."
+    }
+  ],
+  "sources": [
+    "Assignment 23 accepted synthetic population and independent geometry checks · 26 October 2026",
+    "Assignment 24 accepted screening qualification and coupled pilot comparison · 27 October 2026",
+    "Assignment 25 accepted full screen, independent four-level acceptance and reviewed information shortlist · 27 October 2026"
+  ],
+  "changes": "27 October 2026 — First publication of the accepted A23–A25 synthetic generation and screening milestone. Capacity, chronology and historical-versus-proposed dynamic evidence remain distinct."
+}

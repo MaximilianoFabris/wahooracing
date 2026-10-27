@@ -1,0 +1,14 @@
+{
+  "release": "G-025",
+  "ownerApproval": "Deploy all — 27 October 2026",
+  "journal": "from-41-designs-to-eight",
+  "activity": [
+    "simulator-generative-population",
+    "simulator-generative-screening-pilot",
+    "simulator-full-generative-screen"
+  ],
+  "socialBatch": "g025-rev01",
+  "cards": 5,
+  "instagramPublication": false,
+  "scope": "Reviewed synthetic screening article, Activity milestones and social review gallery. No private geometry or dashboard source."
+}
