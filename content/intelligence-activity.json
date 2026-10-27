@@ -2,6 +2,21 @@
   "schema_version": 1,
   "records": [
     {
+      "id": "simulator-eight-case-dynamic-comparison",
+      "publication": "published",
+      "date": "2026-10-27",
+      "agents": [
+        "ada",
+        "isaac",
+        "marie",
+        "leo"
+      ],
+      "status": "completed",
+      "title": "Eight shortlisted designs gain an accepted dynamic comparison",
+      "summary": "Five compatible historical histories were reused and three new unheated cases evaluated. Similar screening capacities yield different dynamic responses; changed transfers alter exhaust flow despite identical exhaust geometry. This single synthetic revolution does not validate engine performance.",
+      "evidence": "Accepted eight-case synthetic numerical comparison · physical performance unvalidated"
+    },
+    {
       "id": "simulator-generative-population",
       "publication": "published",
       "date": "2026-10-26",

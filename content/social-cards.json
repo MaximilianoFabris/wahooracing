@@ -1,6 +1,57 @@
 {
   "batches": [
     {
+      "id": "g026-rev01",
+      "title": "Eight dynamic cylinder designs",
+      "revision": "Rev01",
+      "posts": [
+        {
+          "id": "G026",
+          "title": "The shortlist comes alive",
+          "caption": "A shortlist becomes more useful when we see how it behaves.\n\nWith Wahoo Intelligence, 41 generated port designs became eight dynamic histories: five accepted records reused and three new studies. Similar screening totals can lead to different pressure histories. Changing the transfer ports can also change exhaust transport, even with the same exhaust geometry.\n\nThis is one unheated synthetic revolution at 3000 RPM over 20 ms, not a power prediction or physical engine validation. The next design questions must account for combined effects, ring support, cooling, manufacturing and fit.\n\nFollow the build as Wahoo’s engine development continues.",
+          "hashtags": [
+            "#WahooRacing",
+            "#EngineDevelopment",
+            "#GenerativeDesign",
+            "#EngineeringDesign",
+            "#GasDynamics",
+            "#EngineSimulation",
+            "#TwoStroke",
+            "#ComputationalEngineering",
+            "#DesignIteration",
+            "#MarineEngineering",
+            "#ProductDevelopment",
+            "#BehindTheBuild"
+          ],
+          "format": "carousel",
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/g026-rev01/G026-01.png",
+              "alt": "Dark Wahoo card titled The shortlist comes alive. Eight outlined oval study identities read 001, 011, 007, 013, 009, 003, 004 and 020. A prominent 8 investigated is paired with 41 generated. Five dynamic histories were reused and three are new. These marks identify synthetic cases and do not depict components."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/g026-rev01/G026-02.png",
+              "alt": "Pale card titled Eight ways to ask why. Eight deliberately nonproportional aperture schematics: 001 reference; 011 wider exhaust; 007 exhaust timing and height; 013 transfer width; 009 transfer timing and area; 003 tapered exhaust; 004 split exhaust; 020 staged transfer. These are qualitative symbols, not actual CAD contours or dimensions."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/g026-rev01/G026-03.png",
+              "alt": "Dark plot titled Similar screen totals. Different histories. Cases 007 and 011 have prescribed-pressure exhaust screening capacities about 0.47 percent apart. Their actual selected pressure nodes are joined without smoothing. Horizontal axis crank angle 0 to 360 degrees; vertical absolute cylinder pressure 0 to 1600 kPa. Both fall from 100 kPa, recover during gas exchange and rise during final compression; 007 ends near 1385 kPa and 011 near 1449 kPa. Synthetic 3000 RPM, 20 ms, no heat input."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/g026-rev01/G026-04.png",
+              "alt": "Pale card titled Same exhaust. A different response. A conceptual transfer–cylinder–exhaust connection diagram has no flow arrows. Comparing 009 with 013, changed transfer design with unchanged exhaust geometry gives 6.193 percent greater transfer inward mass and 5.613 percent greater net exhaust outward mass. Timing and area change together in this synthetic single revolution."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/g026-rev01/G026-05.png",
+              "alt": "Dark card titled Generate ideas. Test the system. A new conceptual method diagram connects timing, width and shape to candidate marks and combined effects, then to physical constraints: ring support, cooling, manufacturing and fit. A better question comes before a production decision. The graphic describes a source-based method; physical validation remains open."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "g025-rev01",
       "title": "From 41 designs to eight",
       "revision": "Rev01",

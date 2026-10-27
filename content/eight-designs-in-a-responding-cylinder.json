@@ -1,0 +1,73 @@
+{
+  "slug": "eight-designs-in-a-responding-cylinder",
+  "title": "Eight designs in a responding cylinder",
+  "summary": "Eight accepted synthetic histories put a port shortlist into motion. Similar screening capacities produce different responses, and changing transfers alters exhaust flow through the evolving cylinder state.",
+  "date": "2026-10-27",
+  "dateLabel": "27 Oct 2026 · accepted synthetic comparison",
+  "publicationSequence": 4,
+  "revision": "ENGINE SIMULATOR / A26",
+  "type": "Engineering study",
+  "evidence": "Independently qualified unheated numerical comparison · physical performance unvalidated",
+  "status": "published",
+  "systems": [
+    "engine",
+    "exhaust"
+  ],
+  "thumbnail": "engineering/g026-oct27/pressure.svg",
+  "thumbnailAlt": "Eight accepted synthetic cylinder-pressure histories against crank angle, in MPa absolute.",
+  "hero": "engineering/g026-oct27/pressure.svg",
+  "heroAlt": "Eight actual selected saved-node pressure histories, in MPa absolute, over one synthetic 360-degree revolution.",
+  "heroCaption": "Eight accepted unheated histories: five compatible historical cases reused, three newly evaluated. Actual selected saved nodes are connected without smoothing; full-cycle pressure uses a common scale. One initial-value revolution is not a periodic engine cycle or a physical test.",
+  "sections": [
+    {
+      "title": "The shortlist now has a common dynamic comparison",
+      "text": "Our <a class=\"text-link\" href=\"/journal/from-41-designs-to-eight/\">41-design screening study ↗</a> chose eight configurations for the questions they could answer. Its imposed cylinder pressures made a useful, inexpensive capacity screen, but left an essential question open: what happens when the gas itself responds? Assignment 26 completes that comparison. Five compatible, accepted dynamic histories were reused; three alternatives were newly evaluated. All eight now share an independently qualified numerical comparison.<br><br>This moves the shortlist from a proposed investigation to a completed synthetic experiment. It does not identify eight successful engines. The set retains a reference, exhaust and transfer variants, tapered and split exhausts, and a staged-transfer alternative. Their value lies in the contrasts they expose, rather than a single finishing order."
+    },
+    {
+      "title": "A shared experiment, with a visible boundary",
+      "text": "Each case follows one 20 ms initial-value revolution at a synthetic 3,000 rpm. Piston motion changes the cylinder volume; gas enters and leaves through openings; mass and internal energy determine the changing pressure and temperature. The model uses constant ideal-gas properties and fixed external reservoirs. All eight cases are unheated: no combustion source is added.<br><br>That last point matters when reading the rising pressure near the end of compression. Energy can arrive with incoming gas, and the piston can do work on the gas. A hot final state therefore does not imply combustion. Nor does the work over this single revolution represent engine power. The cylinder has not reached a repeating operating cycle.",
+      "figure": {
+        "image": "engineering/g026-oct27/mass.svg",
+        "alt": "Terminal cylinder gas mass in milligrams for eight accepted synthetic cases.",
+        "caption": "Terminal cylinder inventory at 360 degrees, from a common zero baseline. This is one point in each history, not accumulated boundary transfer or a performance ranking."
+      }
+    },
+    {
+      "title": "Similar capacity, different response",
+      "text": "Cases 007 and 011 make the first useful contrast. Their prescribed exhaust capacities were close: 534.665 and 537.180 mg. Yet 007 opens earlier, and their coupled responses remain distinct. In the dynamic experiment, net outward exhaust transfer is 185.010 versus 183.435 mg. Transfer inflow is the same within numerical precision, but 007 finishes with about 2.69% less cylinder mass and 4.39% lower pressure.<br><br>A nearly equal integrated capacity has therefore not made the two histories interchangeable. The order can also change during the revolution: a terminal value is only one point on the trajectory. This is a comparison of coupled timing, height and aperture changes. It does not isolate timing as the sole cause of the difference.",
+      "figure": {
+        "image": "engineering/g026-oct27/exhaust-pair.svg",
+        "alt": "Actual selected saved-node cylinder-pressure histories for 007 and 011, with a full-cycle panel and a magnified 80–280 degree open-port interval.",
+        "caption": "007 and 011: full-cycle pressure above and the 80–280 degree open-port interval below, with explicit MPa and kPa scales. Actual selected nodes are connected; timing, height and aperture changes are coupled."
+      }
+    },
+    {
+      "title": "Identical exhaust geometry can carry different flow",
+      "text": "Cases 009 and 013 share exactly the same exhaust geometry, while their transfer arrangements differ. The transfers admit 279.418 and 263.124 mg respectively. Net outward exhaust transfer also changes, from 203.585 mg in 013 to 215.012 mg in 009: about 5.61% more, despite the unchanged exhaust opening.<br><br>The link is the cylinder state. Different transfer admission changes mass, pressure and energy, which changes the exhaust response. This extends the feedback demonstrated in the <a class=\"text-link\" href=\"/journal/g001c1-dynamic-cylinder/\">earlier five-design study ↗</a> to a targeted shortlist contrast. Here too, transfer timing changes accompany height and aperture changes; the result cannot be assigned to timing alone.",
+      "figure": {
+        "image": "engineering/g026-oct27/transfer-feedback.svg",
+        "alt": "Instantaneous exhaust and transfer group mass flow in mg/s for 009 and 013 over 80–280 degrees.",
+        "caption": "Actual selected saved nodes over the 80–280 degree open-port interval; outside this interval both groups are closed. Mass flow is outward-positive, so negative means inflow. Exhaust geometry is identical; transfer variants change the responding cylinder."
+      }
+    },
+    {
+      "title": "Staging adds another chronology question",
+      "text": "The staged-transfer case 020 admits 162.797 mg through its transfers. The separately integrated late pair supplies about 29.64% of that total. That contribution comes from actual flux histories, not an allocation by nominal port area. Staged admission therefore needs its own chronology: one group opening angle cannot describe when every aperture contributes.<br><br>Tapered and split exhaust alternatives add further contrasts, but their changed area exposure prevents a universal claim for either contour family. These results explain this synthetic population; they do not release a bridge, liner, ring-support or cooling design.",
+      "figure": {
+        "image": "engineering/g026-oct27/staged-contribution.svg",
+        "alt": "Case 020 instantaneous exhaust and transfer group mass flows in mg/s over 80–280 degrees.",
+        "caption": "Actual selected saved nodes for 020 in the 80–280 degree open-port interval. The trace shows aggregate transfer flow, not separate early and late ports. Outward-positive sign convention; outside this interval the groups are closed."
+      }
+    },
+    {
+      "title": "A stronger comparison defines the next question",
+      "text": "Independent checks cover numerical convergence, conservation, state consistency and saved-data integrity. That supports using the eight histories to examine model behaviour. These results come from independently qualified synthetic numerical simulations. They do not establish actual horsepower, torque, combustion performance, mechanical durability or manufacturability.<br><br>Fixed reservoirs omit exhaust waves and crankcase dynamics; a uniform cylinder cannot resolve spatial scavenging or short-circuiting. Heat transfer, combustion and measured calibration remain outside this comparison. The next planned question is how exhaust and transfer changes behave together, compared with the baseline and each change separately. Physical constraints and suitable measurements must then inform whether those numerical interactions offer useful design directions. The milestone is a traceable dynamic comparison that makes those questions sharper."
+    }
+  ],
+  "sources": [
+    "Assignment 26 accepted eight-case unheated dynamic comparison and historical reuse verification · 27 October 2026",
+    "Independent numerical acceptance and thermodynamic interpretation of the actual saved histories · 27 October 2026",
+    "Accepted Assignment 23–25 population and prescribed-state screening summaries · 26–27 October 2026"
+  ],
+  "changes": "27 October 2026 — First publication of the accepted A26 eight-design unheated dynamic comparison. Five reused histories and three newly qualified histories remain distinguished; no physical performance or manufacturing validation is claimed."
+}

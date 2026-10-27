@@ -397,9 +397,44 @@
       "source": "Social_Media/Instagram/G025_Rev01_20261027/exports/G025-05.png",
       "bytes": 159874,
       "sha256": "707fc29221779cb341e4b891af46e70d46b536433c0ee3bfe6d9b5cf387cece2"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g026-rev01/G026-01.png",
+      "source": "Social_Media/Instagram/G026_Rev01_20261027/exports/G026-01.png",
+      "bytes": 160703,
+      "sha256": "f5ef742c5b7bba73f7c34d3dfd5a2fe6c5875458771a67bd74c3c7b43b537a55"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g026-rev01/G026-02.png",
+      "source": "Social_Media/Instagram/G026_Rev01_20261027/exports/G026-02.png",
+      "bytes": 130534,
+      "sha256": "174599b6a04da0e75410164918d31c1f3c74b231b3668ad1825ef0917c9dd43f"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g026-rev01/G026-03.png",
+      "source": "Social_Media/Instagram/G026_Rev01_20261027/exports/G026-03.png",
+      "bytes": 153780,
+      "sha256": "0f1414c0ffe9e41647fb9fed1086944ae54f65c00f70f780d7bdaf4f09d3adbd"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g026-rev01/G026-04.png",
+      "source": "Social_Media/Instagram/G026_Rev01_20261027/exports/G026-04.png",
+      "bytes": 196365,
+      "sha256": "8e181674a5b5547442235e933f00d04b571ed4b7fcaafb99ddfb7d4c99741682"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g026-rev01/G026-05.png",
+      "source": "Social_Media/Instagram/G026_Rev01_20261027/exports/G026-05.png",
+      "bytes": 186877,
+      "sha256": "baef1487dd7bd392a22dc8c8bc746f48f9480e91d6fed8436c3c2784533a4061"
     }
   ],
   "sources": [
+    {
+      "batch": "g026-rev01",
+      "source": "Social_Media/Instagram/G026_Rev01_20261027/copy/posts.json",
+      "sha256": "157cda8212c1a797c62d5ed3cfeafd96eac604d61c0549dd89cd64c559d0bb07"
+    },
     {
       "batch": "g025-rev01",
       "source": "Social_Media/Instagram/G025_Rev01_20261027/copy/posts.json",
@@ -436,7 +471,7 @@
       "sha256": "9b7f6396265a12f41f83d944e80f97f9a2776353c8df246d4bb5f9eec623b342"
     }
   ],
-  "projectionSha256": "d460a6c793e5faf85e78311d2173faa4fd8a4c34ba4ca32abcf189d8561235d9",
+  "projectionSha256": "47060865ec27859d9614c3e32a1fbf24e46150b6532890e99383b3a79f2df64c",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",
