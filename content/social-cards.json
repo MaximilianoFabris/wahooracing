@@ -1,6 +1,57 @@
 {
   "batches": [
     {
+      "id": "g028-rev01",
+      "title": "From simulation to 3D design",
+      "revision": "Rev01",
+      "posts": [
+        {
+          "id": "G028",
+          "caption": "The numbers are becoming something we can design around.\n\nAfter generating and studying synthetic cylinder-port geometries, Wahoo Intelligence has created its first editable, parametric 3D cylinder CAD foundation. Independent geometric checks confirmed the source-to-CAD mapping.\n\nChanging the provisional occupied-space outer envelope from 94 to 96 mm regenerated the model while preserving the bore and accepted port contours. That is parameter propagation, rather than a complete redraw.\n\nThe digital study also preserved a 0.6 mm conflict between a provisional head envelope and the corrected piston crown: a question to resolve before release, not a defect in manufactured hardware.\n\nThis is preliminary CAD. The analytic shell remains unjoined; it is not a manufacturing-ready solid, and no cylinder hardware has been manufactured or physically validated by this milestone.\n\nNext comes the complete engine architecture: internal components, cooling, standard purchased hardware, custom CNC-machined parts, a living BOM and integration with the hull and jet pump.\n\nFollow the build as Wahoo moves from digital research toward physical engineering.",
+          "hashtags": [
+            "#WahooRacing",
+            "#WahooIntelligence",
+            "#EngineDevelopment",
+            "#Jetboard",
+            "#MechanicalEngineering",
+            "#CADDesign",
+            "#ParametricDesign",
+            "#PrototypeDevelopment",
+            "#TwoStroke",
+            "#MarineEngineering",
+            "#ProductDevelopment",
+            "#BehindTheBuild"
+          ],
+          "title": "From simulation to 3D design.",
+          "format": "carousel",
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/g028-rev01/G028-01.png",
+              "alt": "From simulation to 3D design. Large blue-grey source-derived cylinder geometry on graphite, showing the accepted exhaust aperture and two transfer apertures. Preliminary CAD, with an unjoined analytic shell; not manufactured hardware."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/g028-rev01/G028-02.png",
+              "alt": "Digital geometry. Engineering precision. Actual saved curved bore aperture loops on a pale field: one exhaust opening and two transfer openings. Source-to-CAD correspondence checks passed. These raster presentation views are not manufacturing drawings."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/g028-rev01/G028-03.png",
+              "alt": "One parameter. A new configuration. Two actual saved CAD-derived cylinder projections compare provisional 94 mm and 96 mm occupied-space outer envelopes. Outer radius increases by approximately 1 mm while bore and accepted port contours remain unchanged. No hardware dimension release."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/g028-rev01/G028-04.png",
+              "alt": "Every millimeter matters. Actual corrected piston and aperture context appears beside a clearly magnified, not-to-scale schematic of the 0.6 mm provisional head-envelope overlap with the corrected piston crown. A dimensional conflict to resolve before release; no manufactured hardware defect is established."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/g028-rev01/G028-05.png",
+              "alt": "Next: the complete engine. Actual cylinder geometry is central to a clearly labeled conceptual development roadmap, linked to cylinder head, cooling, fuel injection, exhaust, crankcase, crankshaft, bearings and seals, and jet-pump fit. Surrounding systems are planned, not complete verified CAD. Follow the build."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "g026-rev01",
       "title": "Eight dynamic cylinder designs",
       "revision": "Rev01",

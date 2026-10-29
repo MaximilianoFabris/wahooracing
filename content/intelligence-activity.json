@@ -2,6 +2,20 @@
   "schema_version": 1,
   "records": [
     {
+      "id": "first-parametric-cylinder-cad-foundation",
+      "publication": "published",
+      "date": "2026-10-27",
+      "agents": [
+        "nikola",
+        "isaac",
+        "leo"
+      ],
+      "status": "completed",
+      "title": "First parametric cylinder CAD foundation",
+      "summary": "An editable Rhino-format cylinder foundation now carries accepted numerical port geometry. Independent correspondence checks passed and parameter-driven regeneration was demonstrated. Corrected piston, provisional head and historical hull references expose further interface questions. Manufacturing constraints and physical installation remain under development.",
+      "evidence": "Accepted preliminary CAD correspondence · no manufacturing or physical-performance validation"
+    },
+    {
       "id": "simulator-eight-case-dynamic-comparison",
       "publication": "published",
       "date": "2026-10-27",

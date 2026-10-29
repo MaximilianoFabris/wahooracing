@@ -1,0 +1,12 @@
+{
+  "release": "G-028",
+  "ownerApproval": "Deploy all — 27 October 2026",
+  "journal": "from-simulation-to-3d-cylinder",
+  "activity": [
+    "first-parametric-cylinder-cad-foundation"
+  ],
+  "socialBatch": "g028-rev01",
+  "cards": 5,
+  "instagramPublication": false,
+  "scope": "Reviewed A28 parametric cylinder CAD article, one Activity milestone and social review gallery. Raster CAD-derived views only; no native CAD, vector contour datasets, private sources or CAD01 BOM frontend."
+}

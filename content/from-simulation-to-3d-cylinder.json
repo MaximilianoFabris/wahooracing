@@ -1,0 +1,78 @@
+{
+  "slug": "from-simulation-to-3d-cylinder",
+  "title": "From simulation to 3D: Wahoo’s first parametric engine cylinder",
+  "summary": "Accepted numerical port geometry now has an editable three-dimensional cylinder foundation. It is a first step toward mechanical engine design, with reproducible parameters and unresolved interfaces made visible.",
+  "date": "2026-10-27",
+  "dateLabel": "27 Oct 2026 · preliminary CAD foundation",
+  "publicationSequence": 6,
+  "revision": "ENGINE DEVELOPMENT / A28",
+  "type": "Engineering study",
+  "evidence": "Independently checked preliminary CAD · physical performance unvalidated",
+  "status": "published",
+  "systems": [
+    "engine",
+    "exhaust"
+  ],
+  "thumbnail": "engineering/g028-oct27/cylinder.png",
+  "thumbnailAlt": "Source-derived view of the preliminary cylinder CAD foundation with accepted port apertures.",
+  "hero": "engineering/g028-oct27/cylinder.png",
+  "heroAlt": "Actual preliminary cylinder geometry rendered from accepted source geometry, showing the cylindrical shell and port apertures.",
+  "heroCaption": "Actual source-derived CAD illustration, not an interactive Rhino screenshot. The preliminary foundation contains unjoined analytic surfaces; this is not a completed cylinder or manufacturing release.",
+  "sections": [
+    {
+      "title": "A new phase for the engine",
+      "text": "For the last several development stages, Wahoo Intelligence has been exploring cylinder-port geometry through mathematics and simulation. Generating alternatives, screening their opening capacities and comparing their dynamic responses has helped the team ask better engineering questions. Now that research has its first editable three-dimensional mechanical foundation.<br><br>Assignment 28 turns an accepted reference configuration into a preliminary parametric cylinder model. That is an important change in the work: geometry can now be inspected alongside piston and assembly references, rather than existing only as calculations and diagrams. It begins the transition toward a physical Wahoo engine. It does not mean that an engine has been manufactured, or that its physical performance has been demonstrated."
+    },
+    {
+      "title": "From contours to a cylinder",
+      "text": "The accepted exhaust and transfer-port contours were mapped onto a cylindrical surface while retaining their connection to the numerical source. The result is a genuine Rhino 7-format 3DM containing 288 model objects. Its preliminary analytic cylinder shell comprises 88 unjoined surface tiles, with three source-derived port aperture patches.<br><br>Those details describe the representation honestly. The model offers editable geometry and a traceable foundation for mechanical work; it is not a watertight analytic solid. Corrected piston Rev02 references, existing engine assembly references and historical hull-layout context accompany the cylinder. Preliminary head, cooling and injection envelopes help expose interface questions, without making those systems complete designs.",
+      "figure": {
+        "image": "engineering/g028-oct27/mapping.png",
+        "alt": "Source-derived port contours and their corresponding cylindrical aperture views.",
+        "caption": "Accepted source contours mapped onto the cylinder. Public raster illustration of the actual geometry; exact coordinate datasets and editable CAD remain private. Port passages and surrounding material are not manufacturing-qualified."
+      }
+    },
+    {
+      "title": "One parameter, a reproducible change",
+      "text": "Parametric design makes revisions more systematic. Instead of redrawing a component whenever a dimension changes, a generator can rebuild it from defined inputs while preserving specified relationships. Reproducible scripts and parameter manifests keep the connection between an engineering choice and the resulting model visible.<br><br>The accepted demonstration changed the provisional cylinder outer diameter from 94 mm to 96 mm. A separate regenerated model gained approximately 1 mm of outer radius, while the bore and accepted port contours remained unchanged. This is evidence that the parameter propagates as intended. The dimensions are development parameters, not released manufacturing dimensions, and the demonstration does not establish adequate wall thickness or a workable cooling jacket.",
+      "figure": {
+        "image": "engineering/g028-oct27/parameters.png",
+        "alt": "Actual reference and regenerated outer-envelope projections for provisional 94 and 96 millimetre diameters.",
+        "caption": "Separate accepted reference and regenerated geometry: provisional outer diameter 94 → 96 mm, approximately +1 mm outer radius. Bore and accepted port contours remain unchanged. This demonstrates parameter propagation, not manufacturability."
+      }
+    },
+    {
+      "title": "Accuracy keeps the research connected",
+      "text": "A useful CAD foundation must preserve the geometry it claims to represent. Independent correspondence checks accepted the source-to-CAD mapping within the declared preliminary scope, using a 0.001 mm correspondence tolerance. A separate development mesh satisfied the required 0.01 mm chord limit. These checks address different representations and must not be confused with a machining tolerance.<br><br>Keeping that distinction matters as numerical work becomes mechanical design. A carefully transferred aperture is a stronger starting point than an attractive approximation, but it does not establish ring support, material suitability or durability. The corrected piston references provide another essential relationship to investigate as the cylinder develops.",
+      "figure": {
+        "image": "engineering/g028-oct27/piston.png",
+        "alt": "Actual corrected piston reference shown in relation to the preliminary cylinder and port openings.",
+        "caption": "Source-derived cylinder and corrected piston reference. Their geometric relationship is visible, while complete liner-wall design, ring support and mechanical clearances remain unresolved."
+      }
+    },
+    {
+      "title": "Finding an interface question early",
+      "text": "The model also revealed an issue worth preserving: the inherited provisional head envelope overlaps the corrected piston crown by approximately 0.6 mm. This is a dimensional conflict between development references. Because the head is provisional, it is not proof of a final combustion-chamber collision or a physical defect in manufactured hardware.<br><br>The team retained the discrepancy rather than moving geometry to hide it. That makes the next decision clearer: the head/cylinder interface needs investigation before further design release. Accurate digital engineering earns its value partly by making such questions visible while changes are still practical.",
+      "figure": {
+        "image": "engineering/g028-oct27/interface.png",
+        "alt": "Clearly labeled conceptual magnification explaining the reported provisional head-envelope and piston-crown overlap.",
+        "caption": "Conceptual magnification of the accepted 0.6 mm development-envelope overlap. It explains a recorded interface issue; it is not a section through a finished head or evidence of a manufactured-engine defect."
+      }
+    },
+    {
+      "title": "Toward the complete engine",
+      "text": "The next phase is the complete engine architecture and a Living Bill of Materials: crankcase, cylinder, cylinder head, crankshaft, cooling jackets, bearings, seals, gaskets, injection and exhaust. The Living BOM will connect purchased standard components with custom parts intended for CNC machining, alongside the information needed to develop and review them.<br><br>Important work remains. The model has not yet been interactively inspected in Rhino. Actual cooling passages, cylinder wall thickness and ring support require development, and installation fit with the Wahoo hull and jet pump remains unverified. The objective is a real, compact, serviceable and high-performance propulsion system. This milestone provides an editable foundation for pursuing that objective; it does not claim that those qualities have already been achieved.",
+      "figure": {
+        "image": "engineering/g028-oct27/architecture.png",
+        "alt": "Conceptual engine architecture with the actual preliminary cylinder at its centre and labeled future systems.",
+        "caption": "Conceptual development roadmap around the actual cylinder foundation. Surrounding systems indicate work to develop and integrate; they are not complete verified CAD components."
+      }
+    }
+  ],
+  "sources": [
+    "Assignment 28 accepted parametric cylinder CAD foundation, source-derived illustrations and parameter-regeneration records · 27 October 2026",
+    "Independent native-geometry correspondence and separate development-mesh checks · 27 October 2026",
+    "Corrected piston Rev02 references and preliminary mechanical/interface review · 27 October 2026"
+  ],
+  "changes": "27 October 2026 — First publication of the accepted A28 preliminary parametric cylinder CAD foundation. Source correspondence, provisional envelope propagation and unresolved mechanical interfaces remain distinct from manufacturing and physical validation."
+}

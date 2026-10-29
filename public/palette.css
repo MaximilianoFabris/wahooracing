@@ -34,3 +34,7 @@ html[data-theme=day] .board-panel,html[data-theme=night] .board-panel{--text:var
 .article-inline-figure:has(img[src*="/simulator-oct22/"]){width:100%;max-width:650px;margin-inline:auto}
 .article-inline-figure img[src*="/simulator-oct22/"]{display:block;width:100%;height:auto;max-height:none}
 .article-hero:has(img[src*="/simulator-oct22/"]){max-width:650px}
+
+/* A28 source-derived CAD: retain natural proportions and open page canvas. */
+.article-hero img[src*="/g028-oct27/"]{width:auto;max-width:100%;height:auto;max-height:620px}.article-inline-figure img[src*="/g028-oct27/"]{display:block;width:auto;max-width:100%;height:auto;max-height:750px;margin-inline:auto}
+@media(max-width:600px){.article-hero img[src*="/g028-oct27/"]{max-height:460px}.article-inline-figure img[src*="/g028-oct27/"]{max-height:none}}
