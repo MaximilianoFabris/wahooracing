@@ -1,0 +1,23 @@
+{
+  "release": "G-029",
+  "ownerApproval": "Approved all \u2014 30 October 2026",
+  "journal": [
+    "inside-wahoo-digital-engine-assembly",
+    "designing-details-crankcase"
+  ],
+  "activity": [
+    "crankshaft-crankcase-development",
+    "integrated-engine-cad-architecture",
+    "living-bom-rev02-workflow"
+  ],
+  "bom": {
+    "route": "/systems/engine/bill-of-materials/",
+    "revision": "Rev02",
+    "publicProjectionSha256": "f3a16a6296ce61efe8bd2638bbe6a9dda8417080b2239b55f18f50dcb5c3b089"
+  },
+  "socialBatch": "g029-rev01",
+  "cards": 11,
+  "campaigns": 3,
+  "instagramPublication": false,
+  "scope": "Approved website, filtered unscaled CAD-derived raster illustrations, sanitized aggregate BOM and online social review gallery. No native CAD, supplier records or private engineering package."
+}

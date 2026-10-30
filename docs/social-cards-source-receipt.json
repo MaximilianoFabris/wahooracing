@@ -1,6 +1,6 @@
 {
   "schema": "wahoo.social-review.receipt/1",
-  "sourceDate": "2026-10-27",
+  "sourceDate": "2026-10-30",
   "files": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-01.png",
@@ -457,9 +457,80 @@
       "source": "Social_Media/Instagram/G028_Rev01_20261027/exports/G028-05.png",
       "bytes": 256651,
       "sha256": "65c47cde11b5b64aa69782c2d43f9404f514238fc9235866f4d810d97d347508"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g029-rev01/G029-C1-01.png",
+      "source": "Website/G029_20261030/social/exports/G029-C1-01.png",
+      "bytes": 302444,
+      "sha256": "230b029111daabd4a55e3c0971f58946bc8b3968f083a6360318ca13c9863410"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g029-rev01/G029-C1-02.png",
+      "source": "Website/G029_20261030/social/exports/G029-C1-02.png",
+      "bytes": 187468,
+      "sha256": "be7b805b70575fca85613b208ad1cea11252bed32b4f24f82579e69cb09a462e"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g029-rev01/G029-C1-03.png",
+      "source": "Website/G029_20261030/social/exports/G029-C1-03.png",
+      "bytes": 151293,
+      "sha256": "f6033a41bf0e4b918155b28a5206c4b51c4fb8891ff0f74a20df0046416d141b"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g029-rev01/G029-C1-04.png",
+      "source": "Website/G029_20261030/social/exports/G029-C1-04.png",
+      "bytes": 166798,
+      "sha256": "f1e6f7eb71e3d39d01093de3f23543884775c6e739ec48fa9405698a2f2faa02"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g029-rev01/G029-C1-05.png",
+      "source": "Website/G029_20261030/social/exports/G029-C1-05.png",
+      "bytes": 241460,
+      "sha256": "9db4f93eedb322c6969544fe7b89b12d4b4e9c17a8afcb0224c13d837654996c"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g029-rev01/G029-C2-01.png",
+      "source": "Website/G029_20261030/social/exports/G029-C2-01.png",
+      "bytes": 126000,
+      "sha256": "30306f0008db5140ba57fff4bca0d0e1f96df7584d2a00198c3caeae9a045fb4"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g029-rev01/G029-C2-02.png",
+      "source": "Website/G029_20261030/social/exports/G029-C2-02.png",
+      "bytes": 286392,
+      "sha256": "4a73a678e70820373e86856d35b2062a459b0864ebf97fb8c27ae7df287161a7"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g029-rev01/G029-C2-03.png",
+      "source": "Website/G029_20261030/social/exports/G029-C2-03.png",
+      "bytes": 135869,
+      "sha256": "e6325aeb7e8d9d8c1c10414828b21a0a29b2a0726eaca6b52b3607540df3b2f3"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g029-rev01/G029-C3-01.png",
+      "source": "Website/G029_20261030/social/exports/G029-C3-01.png",
+      "bytes": 119778,
+      "sha256": "0278718563b6bfd1bc98ac8555dd06ee4e38980752588807f56c85f7739cbe69"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g029-rev01/G029-C3-02.png",
+      "source": "Website/G029_20261030/social/exports/G029-C3-02.png",
+      "bytes": 247571,
+      "sha256": "63a53b28341e3282153bc2fd14fe40c6d7c300aae0360ce08a9f109a09458eb9"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g029-rev01/G029-C3-03.png",
+      "source": "Website/G029_20261030/social/exports/G029-C3-03.png",
+      "bytes": 152500,
+      "sha256": "b66d6b51c03cd26a496d421aebc72b0fcb829a22b7167f452d49c3f3dbb5f811"
     }
   ],
   "sources": [
+    {
+      "batch": "g029-rev01",
+      "source": "Website/G029_20261030/social/copy/posts.json",
+      "sha256": "dd95e55f0cd1f3e26d75cc88ec347e367850de1598716b64fadd61b19fddc632"
+    },
     {
       "batch": "g028-rev01",
       "source": "Social_Media/Instagram/G028_Rev01_20261027/copy/posts.json",
@@ -506,7 +577,7 @@
       "sha256": "9b7f6396265a12f41f83d944e80f97f9a2776353c8df246d4bb5f9eec623b342"
     }
   ],
-  "projectionSha256": "b9c5885ce0d2209a56b33fc21c6b882d88b9874d729ca43676c0754a12796569",
+  "projectionSha256": "88dd9848d470ebf5e0cb291ed0409cdc476e39d6a5427112f1791851b574d20e",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",

@@ -1,2 +1,5 @@
 content/social-cards.json text eol=lf
 docs/social-cards-source-receipt.json text eol=lf
+
+# Accepted public BOM is byte-pinned; do not normalize its line endings.
+public/assets/engine-bom.public.json -text

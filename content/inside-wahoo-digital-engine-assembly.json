@@ -1,0 +1,62 @@
+{
+  "slug": "inside-wahoo-digital-engine-assembly",
+  "title": "Inside Wahoo: Building Our First Digital Engine Assembly",
+  "summary": "From individual engine components to one connected parametric mechanical architecture.",
+  "hero": "engineering/g029-oct30/assembly.png",
+  "sections": [
+    {
+      "title": "From one component to a connected engine",
+      "text": "An engine begins as a collection of questions. Where should the cylinder sit? What supports the crankshaft? How will the intake, exhaust and cooling systems meet the parts around them? Wahoo’s numerical studies and first parametric cylinder gave those questions a clearer foundation. CAD-01 now brings the developing mechanical architecture together in a standalone editable assembly.<br><br>This milestone follows <a href=\"/journal/from-simulation-to-3d-cylinder/\">the first parametric cylinder</a>, rather than repeating it. The earlier work established a cylinder foundation tied to numerical port geometry. The new work connects that foundation to a wider mechanical system. It is the first integrated digital engine architecture, accepted within a preliminary scope. It is not a complete functional engine, a physical prototype or a claim about power on the water."
+    },
+    {
+      "title": "Nine systems, one architecture",
+      "text": "The standalone model contains 365 native CAD objects arranged across nine major systems: the rotating assembly, crankcase, cylinder, cylinder head, intake and fuel injection, exhaust, cooling, starting and electrical, and installation interfaces. A separate historical hull-context assembly contains 451 objects. That context helps explain packaging history; it does not establish an installed engine or verified pump alignment.<br><br>A shared hierarchy makes dependencies easier to see. A bearing position affects the crankcase around it. A cylinder position affects the head, intake and exhaust relationships. Service access needs space alongside the main geometry. Bringing these relationships into one assembly gives the team a place to identify questions that a set of separate component views could leave hidden."
+    },
+    {
+      "title": "Designed to evolve",
+      "text": "The model is parametric: selected geometry can be regenerated from recorded inputs. Instead of rebuilding every connected feature by hand when a parameter changes, the development workflow can reproduce the geometry and check what was preserved. Regeneration was verified within the accepted preliminary scope.<br><br>This matters because real interfaces will continue to replace provisional references. A measured datum should have a traceable route into the model, followed by checks on the affected relationships. Parametric development supports that discipline. It does not make an assumption true, and it does not turn editable surfaces into released manufacturing geometry.",
+      "figure": {
+        "image": "engineering/g029-oct30/cad01-architecture.png",
+        "alt": "Generalized explanatory illustration based on the accepted preliminary architecture.",
+        "caption": "Generalized supporting illustration from the accepted engineering structure. It does not reproduce exact proprietary geometry or define manufacturing details."
+      }
+    },
+    {
+      "title": "The small details carry the big decisions",
+      "text": "Bearings, seals, gaskets and fasteners can look secondary beside a cylinder or crankcase. Mechanically, they define how parts locate, move, seal and come apart. Their dimensions and access requirements can determine whether an attractive arrangement can become an assembly that is practical to build and maintain.<br><br>CAD-01 includes 160 symbolic interface markers. These identify relationships and future engineering work; they are not 160 fully modeled or installed components. Distinguishing markers from hardware is essential. The architecture can record that a connection needs attention without pretending that its sealing, retention, fastener pattern or structural details have already been resolved."
+    },
+    {
+      "title": "A component record that develops with the model",
+      "text": "The <a href=\"/systems/engine/bill-of-materials/\">Living Bill of Materials</a> connects component records with the developing CAD structure. It separates purchased components from custom CNC concepts, entries included within purchased assemblies, and definition or context references. The public view presents a sanitized system-level projection rather than the private engineering database.<br><br>The current Rev02 master contains 192 canonical definitions. That is a record count, not a count of purchased parts or a complete engine shopping list. Hardware quantities remain incomplete, and component masses and costs are unavailable. Keeping those gaps visible gives future research, measurement and design work an honest starting point.",
+      "figure": {
+        "image": "engineering/g029-oct30/living-bom.png",
+        "alt": "Source-derived overview of the nine-system database and procurement classifications.",
+        "caption": "Generalized view of the accepted Living BOM structure. Definitions are engineering records, not purchased or installed quantities."
+      }
+    },
+    {
+      "title": "The next step is physically grounded",
+      "text": "The architecture now needs progressively detailed mechanical parts and confirmed interfaces. The <a href=\"/journal/designing-details-crankcase/\">next crankcase study</a> begins that work around the rotating assembly and bearing supports. Physical measurements and supplier confirmations are the next planned stage, with crankshaft, rod, seal and cylinder-base relationships still requiring evidence.<br><br>Standard components will be purchased where suitable; Wahoo-specific prototype parts are intended for CNC development. Machining has not begun. The useful achievement today is a connected, reproducible foundation that makes the next engineering decisions more concrete. Follow the <a href=\"/intelligence/work/\">Activity Log</a> for accepted milestones and the <a href=\"/roadmap/#engine-mechanical\">Roadmap</a> for the questions still ahead."
+    }
+  ],
+  "date": "2026-10-30",
+  "dateLabel": "30 Oct 2026 · accepted preliminary mechanical CAD",
+  "publicationSequence": 7,
+  "revision": "ENGINE DEVELOPMENT / CAD-01",
+  "type": "Engineering study",
+  "evidence": "Independently accepted preliminary CAD · physical interfaces unverified",
+  "status": "published",
+  "systems": [
+    "engine"
+  ],
+  "thumbnail": "engineering/g029-oct30/assembly.png",
+  "thumbnailAlt": "Actual accepted CAD-01 source-edge geometry, rasterized without dimensions or private annotations. Open stock frames, a provisional head and symbolic interfaces remain preliminary; this is not a sealed working engine or a Rhino screenshot.",
+  "heroAlt": "Actual accepted CAD-01 source-edge geometry, rasterized without dimensions or private annotations. Open stock frames, a provisional head and symbolic interfaces remain preliminary; this is not a sealed working engine or a Rhino screenshot.",
+  "heroCaption": "Actual accepted CAD-01 source-edge geometry, rasterized without dimensions or private annotations. Open stock frames, a provisional head and symbolic interfaces remain preliminary; this is not a sealed working engine or a Rhino screenshot.",
+  "sources": [
+    "CAD-01 accepted preliminary integrated engine architecture, Rev01; acceptance 30 October 2026.",
+    "CAD-02 accepted crankshaft, bearing and crankcase study, Rev01; acceptance 30 October 2026.",
+    "Living BOM engineering master Rev02; independently checked public-safe aggregate projection."
+  ],
+  "changes": "New preliminary engineering milestone, following the separately published cylinder foundation. Physical measurement remains planned. No manufacturing or performance validation is claimed."
+}

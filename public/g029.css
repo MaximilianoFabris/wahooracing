@@ -1,0 +1,4 @@
+/* Keep the source geometry's aspect ratio within the established article measure. */
+.article-hero img[src*="g029-oct30/assembly.png"],
+.article-hero img[src*="g029-oct30/mechanics.png"]{width:100%;height:auto;max-height:620px;object-fit:contain}
+@media(max-width:600px){.article-hero img[src*="g029-oct30/assembly.png"],.article-hero img[src*="g029-oct30/mechanics.png"]{max-height:460px}}

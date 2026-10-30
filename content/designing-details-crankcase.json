@@ -1,0 +1,62 @@
+{
+  "slug": "designing-details-crankcase",
+  "title": "Designing the Details: Wahoo’s Crankcase Takes Shape",
+  "summary": "Bearings, crankshaft motion, CNC manufacturing and the mechanical foundations of our prototype engine.",
+  "hero": "engineering/g029-oct30/mechanics.png",
+  "sections": [
+    {
+      "title": "The structure around the motion",
+      "text": "A crankcase is more than a shell around an engine. In a compact two-stroke architecture, it must accommodate the rotating assembly, support the crankshaft and help define the sealed spaces and interfaces on which the engine depends. It also has to connect to the cylinder, allow assembly and service, and eventually carry loads through a practical structure.<br><br>Those requirements make the crankcase a useful test of how a digital architecture becomes mechanical engineering. After <a href=\"/journal/inside-wahoo-digital-engine-assembly/\">the first integrated assembly</a>, CAD-02 develops the space around the crankshaft and its supports. The result is an editable preliminary study, not a manufacturing-ready case or an approved structural design."
+    },
+    {
+      "title": "Designing from the inside out",
+      "text": "The starting point is the moving mechanism. The crankshaft rotates, the connecting rod changes angle, and the piston travels through the cylinder. A useful crankcase arrangement has to respect those relationships through the cycle, rather than simply look convincing at one selected position.<br><br>The accepted study includes 361 sampled positions across one crankshaft revolution. This provides a geometric motion reference for inspecting the mechanism and its surrounding envelopes. It is not a measured running engine, a durability test or a dynamic load validation. The distinction matters: geometry can reveal where investigation is needed, while physical dimensions and further engineering are needed to establish whether the parts can work together.",
+      "figure": {
+        "image": "engineering/g029-oct30/motion-reference.png",
+        "alt": "Generalized crankshaft, rod and piston reference based on the accepted 361-position study.",
+        "caption": "Source-grounded geometric motion illustration. The accepted study sampled 361 positions over a revolution; no physical running or structural validation is implied."
+      }
+    },
+    {
+      "title": "A more developed mechanical model",
+      "text": "CAD-02 contains 468 native CAD objects while preserving all 365 source objects from CAD-01. The additional work introduces preliminary crankcase stock and bearing-support geometry, conditional bearing envelopes and a controlled Living BOM revision. Parameter regeneration was checked, so the study remains an editable development foundation rather than a single frozen illustration.<br><br>Preservation is useful here. The earlier architecture remains traceable while the newer geometry asks more specific questions about support, space and assembly. The greater object count describes model development; it does not mean that every object is a finished mechanical part. The surfaces and reference envelopes still need to become verified interfaces and, eventually, machinable details.",
+      "figure": {
+        "image": "engineering/g029-oct30/cad02-mechanics.png",
+        "alt": "Generalized explanatory illustration based on the accepted preliminary architecture.",
+        "caption": "Generalized supporting illustration from the accepted engineering structure. It does not reproduce exact proprietary geometry or define manufacturing details."
+      }
+    },
+    {
+      "title": "Buy smart. Machine what matters.",
+      "text": "Wahoo’s prototype approach is to purchase standard mechanical components whenever suitable. Bearings, seals, screws, gaskets and fittings come with established functions, but suitability still has to be checked against the actual engine. A catalogue entry alone cannot establish a compatible fit, retention arrangement or operating capability.<br><br>Custom Wahoo-specific components are intended for CNC manufacturing. For a one-off prototype, that means developing geometry with stock, tool access, assembly sequence and inspection in mind. Casting is not part of the present prototype baseline. The current crankcase study explores this direction; it does not claim that machining has started or that wall thicknesses, sealing joints and detailed fastening have been approved."
+    },
+    {
+      "title": "When the interfaces disagree",
+      "text": "One of the most valuable outcomes is finding where historical proxy geometry and researched components do not yet agree. The shaft reference in the older model differs from the bore of the conditional bearing candidates. No final compatible main bearing has been selected. The team must establish the real journal and support requirements before converting a candidate envelope into a bearing seat.<br><br>The study also retains an unresolved preliminary piston-to-head envelope overlap, together with differences at connecting-rod and cylinder interfaces. These are issues in a developing digital model, not established defects in manufactured parts. Recording them openly prevents a plausible-looking assembly from hiding an assumption. The next drawing should be better because the conflict was found, measured and resolved, rather than merely made less visible."
+    },
+    {
+      "title": "Measure before committing the detail",
+      "text": "M01 is the planned physical measurement stage. It is intended to obtain actual crankshaft, bearing, seal, rod and cylinder-base interface dimensions, supported by supplier confirmation where appropriate. No completed physical measurement campaign is claimed. Those inputs will help decide which references to retain, which geometry to revise and which components are compatible.<br><br>Bearing retention and fit, seal seats, split-joint sealing, structural walls, cylinder registration, cooling jackets and direct-injection hardware remain open. Head clearance and hull-to-pump alignment also need evidence. The <a href=\"/systems/engine/bill-of-materials/\">Living BOM</a> provides a way to retain these distinctions as the records evolve. The <a href=\"/roadmap/#engine-mechanical\">mechanical roadmap</a> connects this preliminary CAD work to measurement, detailed design and eventual CNC prototyping. The craft is in turning each uncertainty into a checked interface, one decision at a time."
+    }
+  ],
+  "date": "2026-10-30",
+  "dateLabel": "30 Oct 2026 · accepted preliminary mechanical CAD",
+  "publicationSequence": 8,
+  "revision": "ENGINE DEVELOPMENT / CAD-02",
+  "type": "Engineering study",
+  "evidence": "Independently accepted preliminary CAD · physical interfaces unverified",
+  "status": "published",
+  "systems": [
+    "engine"
+  ],
+  "thumbnail": "engineering/g029-oct30/mechanics.png",
+  "thumbnailAlt": "Actual accepted CAD-02 source-edge geometry, rasterized without private annotations. Crankcase stock and bearing envelopes are provisional; no final bearing or manufacturing release is established.",
+  "heroAlt": "Actual accepted CAD-02 source-edge geometry, rasterized without private annotations. Crankcase stock and bearing envelopes are provisional; no final bearing or manufacturing release is established.",
+  "heroCaption": "Actual accepted CAD-02 source-edge geometry, rasterized without private annotations. Crankcase stock and bearing envelopes are provisional; no final bearing or manufacturing release is established.",
+  "sources": [
+    "CAD-01 accepted preliminary integrated engine architecture, Rev01; acceptance 30 October 2026.",
+    "CAD-02 accepted crankshaft, bearing and crankcase study, Rev01; acceptance 30 October 2026.",
+    "Living BOM engineering master Rev02; independently checked public-safe aggregate projection."
+  ],
+  "changes": "New preliminary engineering milestone, following the separately published cylinder foundation. Physical measurement remains planned. No manufacturing or performance validation is claimed."
+}

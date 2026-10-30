@@ -1,6 +1,108 @@
 {
   "batches": [
     {
+      "id": "g029-rev01",
+      "title": "The engine takes shape",
+      "revision": "Rev01",
+      "posts": [
+        {
+          "id": "G029-C1",
+          "title": "The engine is taking shape",
+          "format": "5-card carousel",
+          "caption": "The engine is taking shape - digitally.\n\nWahoo now has a first integrated, editable engine architecture, bringing nine major systems into one developing mechanical structure. A controlled parameter change can regenerate selected geometry while preserving accepted source components.\n\nThe next questions live in the details: bearings, seals, fasteners, interfaces and assembly access. The actual CAD-derived views shown here include preliminary geometry, proxy references and open-through crankcase frame studies; they are not a complete functional engine or sealed, manufacturing-ready crankcase. The hardware icons are symbolic.\n\nPhysical measurements and supplier confirmations must guide the detailed parts before eventual CNC prototyping. No engine hardware has been manufactured or physically validated by this digital milestone.\n\nFollow the build.",
+          "hashtags": [
+            "#WahooRacing",
+            "#EngineDevelopment",
+            "#MechanicalDesign",
+            "#CADDesign",
+            "#BehindTheBuild"
+          ],
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/g029-rev01/G029-C1-01.png",
+              "alt": "Dark Wahoo poster: The engine is taking shape. One connected architecture. Actual CAD-derived assembly linework combines a retained cylinder source, proxy references and open-through preliminary frame studies. It is preliminary digital engineering, not a complete functional engine."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/g029-rev01/G029-C1-02.png",
+              "alt": "Pale poster: Every component has a purpose. A connected hierarchy lists nine developing systems: rotating assembly, crankcase, cylinder, cylinder head, cooling, fuel and intake, exhaust, starting and electrical, and installation and propulsion. A hierarchy does not mean every part is fully developed."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/g029-rev01/G029-C1-03.png",
+              "alt": "Dark typographic workflow: Designed to evolve. Parameters change the design inputs; selected geometry regenerates; connections preserve accepted source components. A conceptual explanation of the preliminary parametric workflow."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/g029-rev01/G029-C1-04.png",
+              "alt": "Pale poster: The small parts matter. Symbolic drawings depict bearings, seals, a screw and layered mechanical interfaces. Fit, access and assembly need deliberate design. Hardware arrangements remain provisional."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/g029-rev01/G029-C1-05.png",
+              "alt": "Dark poster with actual CAD-derived open-frame stock study. From digital design to physical engineering. Measure, confirm, detail, then prototype. Follow the build. CNC prototyping remains ahead."
+            }
+          ]
+        },
+        {
+          "id": "G029-C2",
+          "title": "Engineering the details",
+          "format": "3-card carousel",
+          "caption": "Good mechanical design starts where parts meet.\n\nOur crankcase and rotating-assembly development brings the crankshaft, connecting rod, piston motion and bearing-support studies into the same engineering conversation. The motion illustration uses selected poses from a full revolution of 361 saved nominal positions. It is not a clearance or physical validation result.\n\nThe bearing geometry is a conditional envelope, not a final bearing selection. The surrounding stock and interfaces remain provisional. Actual measurements and supplier specifications come next, so detailed custom parts can be developed toward CNC prototyping. Casting is outside the current one-off prototype baseline.\n\nStandard components will be purchased where suitable; custom parts will be designed around the interfaces we can confirm. Follow Wahoo's move from digital studies toward physical engineering.",
+          "hashtags": [
+            "#WahooRacing",
+            "#MechanicalEngineering",
+            "#EngineDevelopment",
+            "#CNCPrototyping",
+            "#TwoStroke"
+          ],
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/g029-rev01/G029-C2-01.png",
+              "alt": "Pale Wahoo poster: Designed from the inside out. Three selected saved poses show nominal crank, rod and wrist-pin landmarks; a symbolic piston block marks the main pose. One revolution, 361 saved positions. Source-derived nominal motion; clearance unqualified."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/g029-rev01/G029-C2-02.png",
+              "alt": "Dark poster: Precision starts with the fit. Actual saved CAD edges show conditional bearing envelopes and provisional support stock. Purchased parts, custom interfaces. No bearing selected; no manufacturing release."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/g029-rev01/G029-C2-03.png",
+              "alt": "Pale typographic closing poster: The next step is physical. Measure actual interfaces, confirm supplier specifications, detail parts for CNC prototyping. The physical measurement assignment is planned."
+            }
+          ]
+        },
+        {
+          "id": "G029-C3",
+          "title": "What does it take to build an engine?",
+          "format": "3-card carousel",
+          "caption": "What does it take to build an engine? A connected record of the decisions behind every part.\n\nWahoo's Living Bill of Materials begins with 192 part definitions in one engine project, organized around nine systems and supporting context references. These are engineering records - not 192 purchased parts, a complete hardware quantity or a box of finished components. Quantities and maturity remain incomplete.\n\nOur approach is practical: source standard bearings, seals and fasteners where suitable, and develop Wahoo-specific components for CNC prototyping. The hardware symbols are illustrative; the open-frame CAD view is a preliminary study, not a released machined part.\n\nThe Living BOM connects component identities, revisions and CAD development so the project can be maintained as the engineering evolves.\n\nDiscover the build at wahooracing.com.",
+          "hashtags": [
+            "#WahooRacing",
+            "#ProductDevelopment",
+            "#BillOfMaterials",
+            "#DesignEngineering",
+            "#BehindTheBuild"
+          ],
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/g029-rev01/G029-C3-01.png",
+              "alt": "Dark poster: 192 part definitions. One engine project. An abstract field contains exactly 192 record marks. A definition is an engineering record, not a count of purchased parts. Introducing the Living Bill of Materials."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/g029-rev01/G029-C3-02.png",
+              "alt": "Pale poster: Buy smart. Machine what matters. Symbolic bearing and seal illustrations represent standard components sourced where suitable. Actual preliminary open-frame CAD linework represents developing custom parts intended for CNC prototyping; no hardware is shown as manufactured."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/g029-rev01/G029-C3-03.png",
+              "alt": "Dark poster: Every part. Every revision. One connected system. A symbolic link joins Engine CAD, geometry and identity, to Living BOM, records and revisions. A developing engine, a traceable record. Discover the engineering story at wahooracing.com."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "g028-rev01",
       "title": "From simulation to 3D design",
       "revision": "Rev01",

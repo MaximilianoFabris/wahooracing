@@ -1,0 +1,145 @@
+{
+  "schema": "wahoo.engine.bom-public/1",
+  "revision": "Rev02",
+  "status": "PRELIMINARY_MECHANICAL_DEVELOPMENT_NOT_MANUFACTURING_RELEASE",
+  "systems": [
+    {
+      "public_category": "Crankshaft and Rotating Assembly",
+      "public_label": "Crankshaft and Rotating Assembly",
+      "procurement_counts": {
+        "purchased": 12,
+        "included_in_purchased_assembly": 3
+      },
+      "maturity_counts": {
+        "SELECTED_PARTIAL_DIMENSIONAL_EVIDENCE": 3,
+        "ARCHITECTURE_ONLY": 12
+      },
+      "definition_count": 15,
+      "hardware_definition_count": 12
+    },
+    {
+      "public_category": "Crankcase Assembly",
+      "public_label": "Crankcase Assembly",
+      "procurement_counts": {
+        "custom_cnc": 4,
+        "purchased": 15
+      },
+      "maturity_counts": {
+        "PROVISIONAL_CNC_CONCEPT_NO_MANUFACTURING_RELEASE": 2,
+        "ARCHITECTURE_ONLY": 17
+      },
+      "definition_count": 19,
+      "hardware_definition_count": 19
+    },
+    {
+      "public_category": "Cylinder Assembly",
+      "public_label": "Cylinder Assembly",
+      "procurement_counts": {
+        "custom_cnc": 2,
+        "purchased": 12,
+        "definition_only": 1
+      },
+      "maturity_counts": {
+        "ARCHITECTURE_ONLY": 15
+      },
+      "definition_count": 15,
+      "hardware_definition_count": 14
+    },
+    {
+      "public_category": "Cylinder Head",
+      "public_label": "Cylinder Head",
+      "procurement_counts": {
+        "custom_cnc": 4,
+        "purchased": 13
+      },
+      "maturity_counts": {
+        "ARCHITECTURE_ONLY": 17
+      },
+      "definition_count": 17,
+      "hardware_definition_count": 17
+    },
+    {
+      "public_category": "Intake and Fuel Injection",
+      "public_label": "Intake and Fuel Injection",
+      "procurement_counts": {
+        "custom_cnc": 4,
+        "purchased": 31
+      },
+      "maturity_counts": {
+        "ARCHITECTURE_ONLY": 35
+      },
+      "definition_count": 35,
+      "hardware_definition_count": 35
+    },
+    {
+      "public_category": "Exhaust",
+      "public_label": "Exhaust",
+      "procurement_counts": {
+        "custom_cnc": 6,
+        "purchased": 9
+      },
+      "maturity_counts": {
+        "ARCHITECTURE_ONLY": 15
+      },
+      "definition_count": 15,
+      "hardware_definition_count": 15
+    },
+    {
+      "public_category": "Cooling",
+      "public_label": "Cooling",
+      "procurement_counts": {
+        "definition_only": 2,
+        "purchased": 14
+      },
+      "maturity_counts": {
+        "ARCHITECTURE_ONLY": 16
+      },
+      "definition_count": 16,
+      "hardware_definition_count": 14
+    },
+    {
+      "public_category": "Starting and Electrical",
+      "public_label": "Starting and Electrical",
+      "procurement_counts": {
+        "purchased": 30,
+        "custom_cnc": 4
+      },
+      "maturity_counts": {
+        "ARCHITECTURE_ONLY": 34
+      },
+      "definition_count": 34,
+      "hardware_definition_count": 34
+    },
+    {
+      "public_category": "Installation and Propulsion Interface",
+      "public_label": "Installation and Propulsion Interface",
+      "procurement_counts": {
+        "custom_cnc": 2,
+        "purchased": 13,
+        "definition_only": 1
+      },
+      "maturity_counts": {
+        "ARCHITECTURE_ONLY": 16
+      },
+      "definition_count": 16,
+      "hardware_definition_count": 15
+    }
+  ],
+  "summary": {
+    "part_definitions": 192,
+    "hardware_definitions": 175,
+    "known_hardware_quantity": 21,
+    "unknown_quantity_definitions": 156,
+    "system_count": 9,
+    "procurement_counts": {
+      "purchased": 149,
+      "included_in_purchased_assembly": 3,
+      "custom_cnc": 26,
+      "definition_only": 4,
+      "reference_only": 10
+    },
+    "counts_incomplete": true,
+    "mass_available": false,
+    "cost_available": false
+  }
+}

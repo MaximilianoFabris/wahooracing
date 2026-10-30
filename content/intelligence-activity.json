@@ -2,6 +2,48 @@
   "schema_version": 1,
   "records": [
     {
+      "id": "living-bom-rev02-workflow",
+      "publication": "published",
+      "date": "2026-10-30",
+      "agents": [
+        "nikola",
+        "isaac",
+        "leo"
+      ],
+      "status": "completed",
+      "title": "Living BOM maintenance workflow accepted",
+      "summary": "The local engineering database and CAD maintenance workflow now have a controlled Rev02 master. The website presents a public-safe aggregate view, while the private engineering database remains authoritative. Definitions are not purchased-part totals.",
+      "evidence": "Accepted preliminary engineering milestone · no physical or manufacturing validation"
+    },
+    {
+      "id": "crankshaft-crankcase-development",
+      "publication": "published",
+      "date": "2026-10-30",
+      "agents": [
+        "nikola",
+        "isaac",
+        "leo"
+      ],
+      "status": "completed",
+      "title": "Crankshaft and crankcase development",
+      "summary": "A revised editable assembly adds preliminary crankcase and bearing supports, conditional bearing studies and a full-revolution geometric motion reference. Geometric checks passed; physical dimensions and final bearing selection remain outstanding.",
+      "evidence": "Accepted preliminary engineering milestone · no physical or manufacturing validation"
+    },
+    {
+      "id": "integrated-engine-cad-architecture",
+      "publication": "published",
+      "date": "2026-10-30",
+      "agents": [
+        "nikola",
+        "isaac",
+        "leo"
+      ],
+      "status": "completed",
+      "title": "Integrated engine architecture",
+      "summary": "The first standalone editable integrated engine architecture connects nine major systems and a structured component hierarchy. Independently accepted within preliminary CAD scope; detailed mechanical interfaces remain open.",
+      "evidence": "Accepted preliminary engineering milestone · no physical or manufacturing validation"
+    },
+    {
       "id": "first-parametric-cylinder-cad-foundation",
       "publication": "published",
       "date": "2026-10-27",
