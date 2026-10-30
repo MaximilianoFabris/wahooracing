@@ -1,0 +1,98 @@
+{
+  "schema": "wahoo.board.bom-source-registry/1",
+  "revision": "BOARD-REGISTER-20261030",
+  "scope": "PUBLIC_SAFE_SOURCE_COVERAGE_NOT_COMPLETE_BOARD_PARTS_LIST",
+  "sources": [
+    {
+      "id": "engine-rev02-aggregate",
+      "board_system": "engine",
+      "revision": "Rev02",
+      "route": "/systems/engine/bill-of-materials/",
+      "data": "/assets/engine-bom.public.json",
+      "schema": "wahoo.engine.bom-public/1",
+      "sha256": "f3a16a6296ce61efe8bd2638bbe6a9dda8417080b2239b55f18f50dcb5c3b089",
+      "scope": "Engine-development aggregate only; includes engine installation interfaces and context references. Not a whole-board count."
+    }
+  ],
+  "groups": [
+    {
+      "id": "hull-hydrodynamics",
+      "name": "Hull & hydrodynamics",
+      "engineering_route": "/systems/hull-hydrodynamics/",
+      "public_source_ids": [],
+      "coverage": "NO_APPROVED_PUBLIC_BOM_EXPORT_LINKED"
+    },
+    {
+      "id": "engine",
+      "name": "Engine",
+      "engineering_route": "/systems/engine/",
+      "public_source_ids": [
+        "engine-rev02-aggregate"
+      ],
+      "coverage": "PUBLIC_SAFE_ENGINE_AGGREGATE_AVAILABLE"
+    },
+    {
+      "id": "fuel-injection",
+      "name": "Fuel & injection",
+      "engineering_route": "/systems/fuel-injection/",
+      "public_source_ids": [],
+      "coverage": "NO_APPROVED_PUBLIC_BOM_EXPORT_LINKED"
+    },
+    {
+      "id": "air-intake",
+      "name": "Air intake",
+      "engineering_route": "/systems/air-intake/",
+      "public_source_ids": [],
+      "coverage": "NO_APPROVED_PUBLIC_BOM_EXPORT_LINKED"
+    },
+    {
+      "id": "exhaust",
+      "name": "Exhaust",
+      "engineering_route": "/systems/exhaust/",
+      "public_source_ids": [],
+      "coverage": "NO_APPROVED_PUBLIC_BOM_EXPORT_LINKED"
+    },
+    {
+      "id": "jet-pump",
+      "name": "Jet pump & propulsion",
+      "engineering_route": "/systems/jet-pump/",
+      "public_source_ids": [],
+      "coverage": "NO_APPROVED_PUBLIC_BOM_EXPORT_LINKED"
+    },
+    {
+      "id": "cooling",
+      "name": "Cooling",
+      "engineering_route": "/systems/cooling/",
+      "public_source_ids": [],
+      "coverage": "NO_APPROVED_PUBLIC_BOM_EXPORT_LINKED"
+    },
+    {
+      "id": "electrical",
+      "name": "Electrical, battery & starting",
+      "engineering_route": "/systems/electrical/",
+      "public_source_ids": [],
+      "coverage": "NO_APPROVED_PUBLIC_BOM_EXPORT_LINKED"
+    },
+    {
+      "id": "controls",
+      "name": "ECU, sensors & controls",
+      "engineering_route": "/systems/controls/",
+      "public_source_ids": [],
+      "coverage": "NO_APPROVED_PUBLIC_BOM_EXPORT_LINKED"
+    },
+    {
+      "id": "deck",
+      "name": "Deck & rider interface",
+      "engineering_route": "/systems/deck/",
+      "public_source_ids": [],
+      "coverage": "NO_APPROVED_PUBLIC_BOM_EXPORT_LINKED"
+    },
+    {
+      "id": "manufacturing",
+      "name": "Assembly & manufacturing",
+      "engineering_route": "/systems/manufacturing/",
+      "public_source_ids": [],
+      "coverage": "NO_APPROVED_PUBLIC_BOM_EXPORT_LINKED"
+    }
+  ]
+}

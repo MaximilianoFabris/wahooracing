@@ -58,6 +58,12 @@
       "slug": "manufacturing",
       "name": "Assembly & manufacturing",
       "summary": "Materials, construction and serviceability."
+    },
+    {
+      "slug": "bill-of-materials",
+      "name": "Bill of Materials",
+      "kind": "register",
+      "summary": "A shared component register across the board’s eleven engineering systems."
     }
   ],
   "socialLinks": {
