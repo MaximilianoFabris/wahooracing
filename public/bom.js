@@ -1,3 +1,5 @@
+// Keep native form submission inert without inline handlers (production CSP).
+document.querySelector('.bom-filters')?.addEventListener('submit',event=>event.preventDefault());
 const $=s=>document.querySelector(s);
 const category=$('#bom-category'), procurement=$('#bom-procurement'), maturity=$('#bom-maturity');
 const rows=[...document.querySelectorAll('[data-category]')];
