@@ -1,0 +1,61 @@
+{
+  "slug": "designing-cnc-cylinder-cooling",
+  "title": "Designing the Cooling System: Wahoo’s CNC Approach",
+  "summary": "A machined groove and removable sleeve turn cooling into a set of concrete mechanical questions.",
+  "hero": "engineering/g030-oct30/a29-studio-hero.png",
+  "thumbnail": "engineering/g030-oct30/a29-studio-hero.png",
+  "heroAlt": "Actual A29 source-derived preliminary cooling-band geometry. No seals, coolant circuit or validated cooling performance is depicted.",
+  "heroCaption": "Actual A29 CAD-derived construction study. Preliminary alternative geometry; no manufactured hardware or completed cooling system.",
+  "thumbnailAlt": "Actual A29 source-derived construction study, preliminary geometry.",
+  "sections": [
+    {
+      "title": "A compact engine has to manage heat",
+      "text": "The Wahoo Racing jetboard project brings a developing engine architecture into a confined product. That makes cooling a mechanical problem as well as a thermal one. Heat must leave the cylinder through a practical path, while the surrounding structure still supports assembly, sealing and service. An attractive jacket on a drawing cannot answer all of those questions.<br><br>A29 takes a first construction step. Building on the <a href=\"/journal/inside-wahoo-digital-engine-assembly/\">integrated engine architecture</a>, the accepted digital study explores an external machined groove closed by a separate removable sleeve. It is an experimental upper-cylinder concept. No cooling hardware has been manufactured, and the model does not establish adequate heat rejection."
+    },
+    {
+      "title": "Make the construction accessible",
+      "text": "A one-off CNC prototype needs features that can be reached, held and inspected. The proposed arrangement exposes a circumferential groove on the cylinder body before a separately bored outer sleeve covers it. That provides a useful way to investigate cutter access without assuming that a hidden internal passage can simply be manufactured.<br><br>The study separates a core, upper and lower lips, a cover and a reference coolant volume. The three host regions describe one intended continuous machined body. They are not three extra purchased parts. The saved working model contains 478 objects and preserves all 473 objects inherited from the supplier-supported M02 assembly. The construction additions are an alternative study layered over the retained reference geometry."
+    },
+    {
+      "title": "A bounded band, not a complete jacket",
+      "text": "The current band lies 2–16 mm below the reference deck. Its provisional outer sleeve diameter is 100 mm, compared with the inherited cylinder envelope of 94 mm. That additional diameter is an explicit packaging question for the jetboard. It does not establish clearance inside the hull, where the actual inner structure, access openings and neighboring components still need evidence.<br><br>An independent check found approximately 14.96 mm of axial separation from the nearest accepted exhaust aperture. This is a separation between the aperture band and the proposed construction band. It does not clear unknown three-dimensional ducts, prove a safe ligament or establish full-cylinder cooling. The limits of the check are as useful as the number.",
+      "figure": {
+        "image": "engineering/g030-oct30/a29-band-section.png",
+        "alt": "Actual A29 source-derived preliminary cooling-band geometry. No seals, coolant circuit or validated cooling performance is depicted.",
+        "caption": "Actual saved A29 meridional annular profiles, equal scale. Gray is the provisional host construction, light blue the reference coolant volume and dark blue the cover. This is an upper-band construction section, not a complete cylinder or validated flow circuit."
+      }
+    },
+    {
+      "title": "Editable geometry makes questions testable",
+      "text": "The construction remains parametric. A controlled regeneration changed one groove-depth parameter, and independent checking confirmed the expected changes while preserving the inherited source geometry and the cover. That demonstrates reproducible geometry within this limited construction study.<br><br>It does not establish structural strength or a thermal solution. A deeper groove may create more space for a reference coolant volume while also reducing material in the host. The engineering task is to evaluate those competing needs using justified loads, material properties and manufacturing limits. Regeneration makes such comparisons traceable; it cannot supply the missing physical assumptions."
+    },
+    {
+      "title": "The details that must come next",
+      "text": "A functional concept needs an inlet and outlet, a coherent flow path, sealing surfaces, sleeve retention and a credible assembly sequence. Coolant pressure, flow distribution, boiling margin, expansion and corrosion strategy remain unresolved. Wall thickness, groove corner radii, tool access, stock and workholding also need review. The upper band alone cannot answer what happens around the rest of the cylinder or head.<br><br>Materials, liner or coating choices and finish-bore distortion belong in that same discussion. A removable cover can help inspection and service, but its removal path must exist in the eventual installation. None of these requirements is satisfied merely because the study can be saved as editable CAD.",
+      "figure": {
+        "image": "engineering/g030-oct30/a29-studio-exploded.png",
+        "alt": "Actual source-derived A29 construction presented with the cover separated for explanation.",
+        "caption": "Actual source-derived A29 upper-band construction. Exploded presentation is explanatory and does not establish assembly access, seals or retention."
+      }
+    },
+    {
+      "title": "From concept to an engineering decision",
+      "text": "The next useful decision is whether this construction deserves further development against alternatives, including open milled channels with covers and drilled galleries. That requires mechanical, thermal, sealing and installation evidence. A30 native inspection and commercial commissioning remain outstanding. No completed native model inspection or commercial run is claimed here.<br><br>The <a href=\"/systems/engine/bill-of-materials/\">Living BOM</a> keeps the concept connected to component definitions without inventing installed quantities. Follow the <a href=\"/roadmap/#engine-mechanical\">engineering roadmap</a> as Wahoo moves from numerical research through editable geometry toward a reviewed physical prototype. The achievement is a clearer, inspectable construction question, with its unresolved requirements still visible."
+    }
+  ],
+  "date": "2026-10-30",
+  "dateLabel": "30 Oct 2026 · accepted limited digital engineering",
+  "publicationSequence": 10,
+  "revision": "ENGINE DEVELOPMENT / A29 COOLING",
+  "type": "Engineering study",
+  "evidence": "Accepted digital preparation · no physical validation or commercial solver run",
+  "status": "published",
+  "systems": [
+    "engine"
+  ],
+  "sources": [
+    "Accepted M02 supplier-supported digital engineering, Rev01, 30 October 2026.",
+    "Accepted A29 EngMod2T preparation and CAD03A cooling study, Rev01, 30 October 2026."
+  ],
+  "changes": "G030 editorial record approved for website publication on 1 November 2026. Engineering evidence dates and limitations are unchanged."
+}

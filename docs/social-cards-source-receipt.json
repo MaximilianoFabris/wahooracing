@@ -1,6 +1,6 @@
 {
   "schema": "wahoo.social-review.receipt/1",
-  "sourceDate": "2026-10-30",
+  "sourceDate": "2026-11-01",
   "files": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-01.png",
@@ -523,13 +523,101 @@
       "source": "Website/G029_20261030/social/exports/G029-C3-03.png",
       "bytes": 152500,
       "sha256": "b66d6b51c03cd26a496d421aebc72b0fcb829a22b7167f452d49c3f3dbb5f811"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g030-rev01/G030-C2-01.png",
+      "source": "Social_Media/Instagram/G030_Rev01_20261030/exports/G030-C2-01.png",
+      "bytes": 329562,
+      "sha256": "77f773a1cf885329f68a8b9865e042fd739368255998127748f6e543e9592edf"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g030-rev01/G030-C2-02.png",
+      "source": "Social_Media/Instagram/G030_Rev01_20261030/exports/G030-C2-02.png",
+      "bytes": 125359,
+      "sha256": "08e7f34c0fb4d45f558b58a08942e27c939dea7107cc0bac3e88ff47a9752c0f"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g030-rev01/G030-C2-03.png",
+      "source": "Social_Media/Instagram/G030_Rev01_20261030/exports/G030-C2-03.png",
+      "bytes": 446693,
+      "sha256": "bcd6de2a8ec01b2018d37f5861c8c9822539f855c6d48ba743fdccda4f481641"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g030-rev01/G030-C2-04.png",
+      "source": "Social_Media/Instagram/G030_Rev01_20261030/exports/G030-C2-04.png",
+      "bytes": 105779,
+      "sha256": "9e88d2623e996d89f25e398738ddd7eeb1223147332a928628f7b1dc46f0ba78"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g030-rev01/G030-C2-05.png",
+      "source": "Social_Media/Instagram/G030_Rev01_20261030/exports/G030-C2-05.png",
+      "bytes": 119054,
+      "sha256": "04d8dbaf787e78916769548d2bce029cb3a7eb4ed02d5ecd84f95b280e910384"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g030-rev01/G030-C3-01.png",
+      "source": "Social_Media/Instagram/G030_Rev01_20261030/exports/G030-C3-01.png",
+      "bytes": 122918,
+      "sha256": "c9f2143fff3b68a6bb42a05a79e0dc462e1668a78002325f5ee252f9867d7ab3"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g030-rev01/G030-C3-02.png",
+      "source": "Social_Media/Instagram/G030_Rev01_20261030/exports/G030-C3-02.png",
+      "bytes": 120765,
+      "sha256": "1ad9ebf6000c430300f8e38c85b05a07e2729fa44211278792798a92bc52e88d"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g030-rev01/G030-C3-03.png",
+      "source": "Social_Media/Instagram/G030_Rev01_20261030/exports/G030-C3-03.png",
+      "bytes": 155920,
+      "sha256": "1402ecdb08c269805a06d41e71ca3f745c681ea4c1fab16885d31d10668898e1"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g030-rev01/G030-C3-04.png",
+      "source": "Social_Media/Instagram/G030_Rev01_20261030/exports/G030-C3-04.png",
+      "bytes": 145666,
+      "sha256": "8ac838cb1440823c90b03d3279d1157df5eeaffb97c68ba12d70be0682fa1a8b"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g030-rev01/G030-C3-05.png",
+      "source": "Social_Media/Instagram/G030_Rev01_20261030/exports/G030-C3-05.png",
+      "bytes": 102026,
+      "sha256": "8e21419f2abf6969254e9cd4ee888912e1ac0e87400192ebfc593ff2532b1798"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g031-rev01/G031-01.png",
+      "source": "Social_Media/Instagram/G031_Rev01_20261101/exports/G031-01.png",
+      "bytes": 63267,
+      "sha256": "15ad3e2d0f94b12ca89fadefc40d646bce3e8b5db9305f5646bfc18c66b4dd97"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g031-rev01/G031-02.png",
+      "source": "Social_Media/Instagram/G031_Rev01_20261101/exports/G031-02.png",
+      "bytes": 72469,
+      "sha256": "7b6564da754b1633d32da369c7876f69909d3e4312e8ed2ab2572011166fc9c6"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g031-rev01/G031-03.png",
+      "source": "Social_Media/Instagram/G031_Rev01_20261101/exports/G031-03.png",
+      "bytes": 60709,
+      "sha256": "d4a01e93db411ec743f296af4bd648ae7d5d5de60194d4b895b77a63eb1c8e96"
     }
   ],
   "sources": [
     {
+      "batch": "g031-rev01",
+      "source": "Social_Media/Instagram/G031_Rev01_20261101/copy/posts.json",
+      "sha256": "176d2076a41178168f6eb1ca9af44b49747e78fb2283cefb41a393059f3b0e62"
+    },
+    {
+      "batch": "g030-rev01",
+      "source": "Social_Media/Instagram/G030_Rev01_20261030/copy/gallery-batch.json",
+      "sha256": "f214908e4d0eb6da7524ef1727ac96b53346aa64a191ec006c2510f5def90dd7"
+    },
+    {
       "batch": "g029-rev01",
-      "source": "Website/G029_20261030/social/copy/posts.json",
-      "sha256": "dd95e55f0cd1f3e26d75cc88ec347e367850de1598716b64fadd61b19fddc632"
+      "source": "Social_Media/Instagram/G030_Rev01_20261030/copy/reused-g029-batch.json",
+      "sha256": "0c816c2b25f4dfb3484796be3907d2944da03314ff96cfe93decb07ccaf52cf8"
     },
     {
       "batch": "g028-rev01",
@@ -577,7 +665,7 @@
       "sha256": "9b7f6396265a12f41f83d944e80f97f9a2776353c8df246d4bb5f9eec623b342"
     }
   ],
-  "projectionSha256": "88dd9848d470ebf5e0cb291ed0409cdc476e39d6a5427112f1791851b574d20e",
+  "projectionSha256": "75437d72cb974f2a0e7ed7a3d7531b586f95e32de4534a7a1861c1568ec1a188",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",

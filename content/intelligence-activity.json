@@ -2,6 +2,81 @@
   "schema_version": 1,
   "records": [
     {
+      "id": "constant-speed-fixed-endpoint-accepted",
+      "publication": "published",
+      "date": "2026-11-01",
+      "agents": [
+        "archimedes",
+        "ada",
+        "isaac"
+      ],
+      "status": "completed",
+      "title": "Controlled 30 km/h fixed endpoint accepted",
+      "summary": "The fixed-body preparation reached its accepted nominal 1.0-second endpoint with a complete accepted saved checkpoint and normal solver exit. Fluid-readiness review remains incomplete while the required load, phase-balance and spatial histories still need review. No free heave/pitch response, stability result or physical validation is claimed.",
+      "evidence": "Accepted numerical endpoint · readiness unresolved"
+    },
+    {
+      "id": "a31-vendor-commissioning-preparation",
+      "publication": "published",
+      "date": "2026-10-31",
+      "agents": [
+        "leo",
+        "isaac"
+      ],
+      "status": "completed",
+      "title": "Commercial simulation commissioning preparation checked",
+      "summary": "The limited preparation package and retained vendor inputs were checked. A clarification on trial timing was sent; a reply and separate installation, registration and activation approval remain outstanding. No commercial simulation was run.",
+      "evidence": "Accepted limited preparation · no vendor execution or physical validation"
+    },
+    {
+      "id": "a29-cooling-simulation-preparation",
+      "publication": "published",
+      "date": "2026-10-30",
+      "agents": [
+        "leo"
+      ],
+      "status": "completed",
+      "title": "A29 cooling and simulation preparation",
+      "summary": "A 478-object working model adds a preliminary CNC cooling-band concept; parametric regeneration and nine offline adapter tests passed. No EngMod2T run or license activation occurred. Flow, sealing, structural adequacy and installation remain unverified.",
+      "evidence": "Accepted limited digital preparation · no physical validation"
+    },
+    {
+      "id": "m03-supplier-correspondence",
+      "publication": "published",
+      "date": "2026-10-30",
+      "agents": [
+        "leo"
+      ],
+      "status": "completed",
+      "title": "Supplier correspondence prepared and owner-dispatched",
+      "summary": "Two supplier messages on critical mechanical interfaces were prepared and independently checked. The owner confirms dispatch; no new supplier reply is claimed.",
+      "evidence": "Accepted limited digital preparation · no physical validation"
+    },
+    {
+      "id": "m02-supplier-digital-engineering",
+      "publication": "published",
+      "date": "2026-10-30",
+      "agents": [
+        "leo"
+      ],
+      "status": "completed",
+      "title": "Supplier-supported digital engineering accepted",
+      "summary": "A 473-object assembly adds supplier-supported rod-eye, needle-bearing and pin interfaces. Living BOM Rev03 distinguishes included kit contents from purchased definitions. Fits and physical inspection remain outstanding.",
+      "evidence": "Accepted limited digital preparation · no physical validation"
+    },
+    {
+      "id": "m01-measurement-preparation",
+      "publication": "published",
+      "date": "2026-10-30",
+      "agents": [
+        "leo"
+      ],
+      "status": "completed",
+      "title": "Physical measurement package prepared",
+      "summary": "Measurement documentation is complete. No physical engine components were available and none were measured. Supplier documentation supports continued digital engineering; inspection remains a later manufacturing requirement.",
+      "evidence": "Accepted limited digital preparation · no physical validation"
+    },
+    {
       "id": "living-bom-rev02-workflow",
       "publication": "published",
       "date": "2026-10-30",

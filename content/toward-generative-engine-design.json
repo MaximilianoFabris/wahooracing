@@ -1,0 +1,56 @@
+{
+  "slug": "toward-generative-engine-design",
+  "title": "Toward Generative Engine Design: Preparing Wahoo’s Next Step",
+  "summary": "Connecting parametric geometry, mechanical constraints and a planned commercial simulation evaluation.",
+  "hero": "engineering/g030-oct30/a29-studio-exploded.png",
+  "thumbnail": "engineering/g030-oct30/a29-studio-exploded.png",
+  "heroAlt": "Actual A29 source-derived preliminary cooling-band geometry. No seals, coolant circuit or validated cooling performance is depicted.",
+  "heroCaption": "Actual A29 CAD-derived construction study. Preliminary alternative geometry; no manufactured hardware or completed cooling system.",
+  "thumbnailAlt": "Actual A29 source-derived construction study, preliminary geometry.",
+  "sections": [
+    {
+      "title": "An engine that can evolve",
+      "text": "Generative engineering is an ambition for how Wahoo develops its engine, not a claim that a computer has already found the final design. The intended cycle is straightforward: define variables, generate a candidate, check its physical constraints, evaluate it with an appropriate model, and use the evidence to decide what to try next.<br><br>For Wahoo Racing, that cycle must connect to an actual jetboard. A mathematically interesting cylinder still has to meet a crankcase, accept practical components, support cooling and fit a serviceable installation. The <a href=\"/journal/designing-cnc-cylinder-cooling/\">preliminary CNC cooling study</a> illustrates why geometry and mechanical requirements need to develop together."
+    },
+    {
+      "title": "Parametric does not mean feasible",
+      "text": "The integrated engine CAD can reproduce selected geometry from recorded parameters. Accepted regeneration checks show that controlled inputs can produce expected geometric changes while preserving other source objects. That gives future comparisons a traceable foundation.<br><br>It does not make every generated combination buildable. A candidate can violate a material thickness, overlap a port, leave no sealing space or require inaccessible machining. A plausible silhouette is not enough. Mechanical constraints need explicit evidence and a clear outcome: passed within a stated scope, failed, or unresolved. Unknown information must remain visible rather than disappear inside a numerical score."
+    },
+    {
+      "title": "Preparing the commercial evaluation",
+      "text": "A29 prepares a bridge toward EngMod2T, a commercial two-stroke evaluation tool. The intended evaluation concentrates on gas dynamics, port timing and exhaust behavior. No EngMod2T simulation has been executed, and no trial license has been activated for this milestone.<br><br>The current implementation documented for this project does not provide direct-injection modeling or ECU coupling. It also does not turn a cylinder cooling construction into solved coolant flow. Those boundaries matter because an engine is a coupled physical system, while each evaluation tool represents only part of it. Any eventual result must retain the model’s actual scope.",
+      "figure": {
+        "image": "engineering/g030-oct30/evaluation-workflow.svg",
+        "alt": "Schematic planned workflow connecting accepted parametric geometry, mechanical constraints, offline input handling and future commercial evaluation.",
+        "caption": "Schematic technical illustration based on the accepted A29 preparation plan. Feedback and commercial evaluation are planned; no solver performance or automatic optimization is depicted."
+      }
+    },
+    {
+      "title": "What the working adapter really proves",
+      "text": "The accepted offline work includes nine passing adapter tests and independent reference checks. The adapter can read a bounded legacy labeled geometry format, retain opaque bytes and make narrow changes to selected geometry tokens. It is not a complete vendor-format writer, solver launcher, output parser or optimization API.<br><br>A Wahoo input manifest brings known nominal geometry and accepted port references together while leaving missing inputs unresolved. Chamber and deck details, intake and reed behavior, port ducts, a conventional exhaust baseline, combustion, thermal assumptions and pump load still need definition. Arithmetic tests using synthetic values check software handling; they are not Wahoo torque or power predictions."
+    },
+    {
+      "title": "Five cases with a focused question",
+      "text": "The proposed first experiment is intentionally small. It contains a conventional baseline, two exhaust-duration cases at 176 and 184 degrees around a 180-degree reference, and two expansion-chamber axial-length scales of 0.98 and 1.02. Transfer timing, width and unrelated conditions are intended to remain fixed.<br><br>These are planned comparisons, not completed runs. The pipe baseline and physical constraints must be established before runnable Wahoo vendor inputs can be prepared. Torque and net-power curves, fuel and thermal diagnostics, packaging and constraint states should remain separate comparison dimensions. No single invented score should hide a candidate that appears promising in one respect but cannot be built."
+    },
+    {
+      "title": "Earn each link in the workflow",
+      "text": "The trial-readiness recommendation is to begin with a supplied example once installation, licensing conditions and a benchmark are agreed. Reproducing known behavior comes before interpreting an unfamiliar Wahoo case. Future automation also needs its actual interfaces and license terms confirmed; a general statement about batch use is not a demonstrated integration.<br><br>A30 native inspection and commercial commissioning remain outstanding. No completed inspection, activated trial or optimized production engine is claimed. The <a href=\"/roadmap/#engine-mechanical\">roadmap</a> separates accepted digital preparation from commercial evaluation and physical prototyping. The long-term direction is to generate, evaluate and refine with traceable evidence. Today’s achievement is preparing the inputs, tests and mechanical questions that can make that direction credible."
+    }
+  ],
+  "date": "2026-10-30",
+  "dateLabel": "30 Oct 2026 · accepted limited digital engineering",
+  "publicationSequence": 11,
+  "revision": "ENGINE DEVELOPMENT / A29 SIMULATION PREPARATION",
+  "type": "Engineering study",
+  "evidence": "Accepted digital preparation · no physical validation or commercial solver run",
+  "status": "published",
+  "systems": [
+    "engine"
+  ],
+  "sources": [
+    "Accepted M02 supplier-supported digital engineering, Rev01, 30 October 2026.",
+    "Accepted A29 EngMod2T preparation and CAD03A cooling study, Rev01, 30 October 2026."
+  ],
+  "changes": "G030 editorial record approved for website publication on 1 November 2026. Engineering evidence dates and limitations are unchanged."
+}

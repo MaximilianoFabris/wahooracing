@@ -1,0 +1,61 @@
+{
+  "slug": "engineering-supplier-supported-details",
+  "title": "From Supplier Data to Engine Interfaces",
+  "summary": "Supplier evidence improves the digital interfaces while fits, manufacturing and physical inspection remain open.",
+  "hero": "engineering/g030-oct30/m02-pin-interface-detail.png",
+  "thumbnail": "engineering/g030-oct30/m02-pin-interface-detail.png",
+  "heroAlt": "Actual M02 saved native pin and small-end interface edge detail, cropped from the source projection. Historical surrounding references remain preliminary.",
+  "heroCaption": "Actual M02 source-edge detail of the pin and small-end interfaces. Presentation crop and stronger strokes improve visibility; source profiles are unchanged. No complete rod internals, installed fit or physical validation is depicted.",
+  "thumbnailAlt": "Actual M02 saved pin and small-end interface edge detail.",
+  "sections": [
+    {
+      "title": "Progress without pretending to have hardware",
+      "text": "Wahoo currently has no physical engine components available to measure. That is a real boundary, but it does not prevent useful digital engineering. M01 prepared the measurement package; it did not measure parts. M02 advances the engine using supplier documentation while retaining a clear distinction between advertised dimensions, reference geometry and physical evidence.<br><br>This is the next chapter after <a href=\"/journal/designing-details-crankcase/\">the preliminary crankcase study</a>. The question has become more specific: which commercially supported interfaces can replace old proxies, and what remains unknown before custom parts can be designed around them? The objective is better decisions, not an appearance of finished hardware."
+    },
+    {
+      "title": "Improve the interfaces, preserve the history",
+      "text": "The accepted M02 model contains 473 native objects. It preserves all 468 CAD-02 source objects and adds five supplier-dimensional references: two connecting-rod eye surfaces, two needle-bearing envelopes and a hollow wrist-pin representation. These deliberately limited shapes describe interfaces. They do not invent complete rod internals or a finished bearing assembly.<br><br>A separate regeneration demonstration checks how the five additions move under a controlled pose change. The inherited engine objects remain at their historical position. It is not a whole-engine animation or proof of motion clearance. Preserving that distinction avoids turning a useful local check into a broader claim than the evidence supports.",
+      "figure": {
+        "image": "engineering/g030-oct30/m02-supplier-isometric-detail.png",
+        "alt": "Actual source-derived M02 isometric edge projection with gray historical context and colored supplier-dimensional interface profiles.",
+        "caption": "Actual M02 saved edge projection. Gray historical proxy geometry remains; colored interface envelopes do not establish a sealed assembly or qualified motion clearance."
+      }
+    },
+    {
+      "title": "A kit is not a second shopping list",
+      "text": "Supplier research also clarifies what a component purchase may contain. A complete crankshaft and connecting-rod assembly is different from a rebuild-kit alternative. A piston kit may include a ring, pin and clips, but an associated small-end bearing still needs delivery-content confirmation.<br><br>The Living BOM records those relationships so that included components are not silently counted as additional purchases. Rev03 retains 192 canonical definitions: 145 designated purchased, 26 custom CNC, seven included within purchased assemblies, four definition-only and ten reference-only. These are classifications of records, not 192 delivered parts. Installed quantities remain incomplete, and total engine mass and cost remain unknown.",
+      "figure": {
+        "image": "engineering/g029-oct30/living-bom.png",
+        "alt": "Explanatory illustration of the engine component record structure.",
+        "caption": "Generalized component-record illustration. The current Rev03 aggregate is linked below; the image is not the authoritative data."
+      }
+    },
+    {
+      "title": "Catalogue dimensions have limits",
+      "text": "A supplier-supported bore or width is more useful than a guessed proxy, but it still needs the correct identity, datum and application. The main-journal, seal-land, shoulder, end-connection and axial-stack dimensions remain incomplete. Conditional main-bearing candidates do not establish a selected compatible bearing, and catalogue operating ratings do not automatically qualify fuel and oil-mist duty.<br><br>The retained shaft proxy and conditional bearing reference still disagree. The corrected piston crown also retains an overlap with the provisional head envelope. M02 does not resize the shaft or move the head to make the picture look resolved. Those conflicts identify the next interface questions, rather than defects proven in manufactured hardware."
+    },
+    {
+      "title": "Buy standard parts, develop custom CNC parts",
+      "text": "Wahoo’s prototype direction is to purchase suitable standard components and develop the custom cylinder, head and crankcase through CNC engineering. Supplier documentation helps establish boundaries for the custom geometry: where a shaft is supported, how a pin is located and which components must be assembled or removed.<br><br>That approach does not make the preliminary crankcase manufacturing-ready. Fits, seal seats, split-joint sealing, retention, structural walls, fasteners and tooling access remain open. Drawings and commercial listings support digital development; physical inspection remains necessary before a manufacturing release. No machining or purchase occurred in this milestone."
+    },
+    {
+      "title": "Keep the evidence connected",
+      "text": "M03 prepared two independently checked supplier messages. The owner confirms sending them. No new manufacturer reply is claimed here. The correspondence seeks the critical information that can narrow crankshaft, bearing, rod, piston and seal questions without replacing unknowns with convenient assumptions.<br><br>The <a href=\"/systems/engine/bill-of-materials/\">public Living BOM</a> presents the accepted Rev03 aggregate without private part rows, supplier quotations or manufacturing dimensions. The <a href=\"/journal/designing-cnc-cylinder-cooling/\">cooling construction study</a> then builds on the same preserved digital foundation. Follow the <a href=\"/intelligence/work/\">Activity Log</a> for the sequence. Building the Wahoo Racing jetboard means making each of these small relationships dependable before asking a complete engine to perform."
+    }
+  ],
+  "date": "2026-10-30",
+  "dateLabel": "30 Oct 2026 · accepted limited digital engineering",
+  "publicationSequence": 9,
+  "revision": "ENGINE DEVELOPMENT / M02",
+  "type": "Engineering study",
+  "evidence": "Accepted digital preparation · no physical validation or commercial solver run",
+  "status": "published",
+  "systems": [
+    "engine"
+  ],
+  "sources": [
+    "Accepted M02 supplier-supported digital engineering, Rev01, 30 October 2026.",
+    "Accepted A29 EngMod2T preparation and CAD03A cooling study, Rev01, 30 October 2026."
+  ],
+  "changes": "G030 editorial record approved for website publication on 1 November 2026. Engineering evidence dates and limitations are unchanged."
+}

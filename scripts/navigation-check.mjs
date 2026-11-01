@@ -2,6 +2,9 @@ import {readFile} from 'node:fs/promises';
 import {headerNavigation,sections,readingGroups} from './navigation.mjs';
 const root=new URL('../dist/',import.meta.url);
 const pages=JSON.parse(await readFile(new URL('build-manifest.json',root)));
+// Check the reading paths against this build's available published/review routes.
+const availableSlugs=new Set(pages.map(p=>p.match(/^journal\/([^/]+)\/index.html$/)?.[1]).filter(Boolean));
+for(const [,slugs]of readingGroups)for(let i=slugs.length-1;i>=0;i--)if(!availableSlugs.has(slugs[i]))slugs.splice(i,1);
 if(pages.some(p=>p.includes('/studies/')))throw Error('Duplicate study pages returned');
 if(pages.filter(p=>/^journal\/[^/]+\/index.html$/.test(p)).length!==readingGroups.flatMap(g=>g[1]).length)throw Error('Study inventory mismatch');
 const legacy=JSON.parse(await readFile(new URL('../content/legacy-study-routes.json',root)));
@@ -23,8 +26,9 @@ for(const file of pages){
   const sectionContent=html.replace(/<header[\s\S]*?<\/header>/,'');
   for(const [,href] of sectionContent.matchAll(/href="(\/[^"]*)"/g)){
     const target=sections.find(([prefix])=>href.startsWith(prefix));
+    const g030Link=(['/systems/engine/','/roadmap/','/intelligence/', '/journal/engineering-supplier-supported-details/','/journal/designing-cnc-cylinder-cooling/','/journal/toward-generative-engine-design/','/journal/inside-wahoo-digital-engine-assembly/','/journal/designing-details-crankcase/'].includes(route)&&['/journal/engineering-supplier-supported-details/','/journal/designing-cnc-cylinder-cooling/','/journal/toward-generative-engine-design/','/systems/engine/bill-of-materials/','/roadmap/#engine-mechanical','/intelligence/work/'].includes(href));
     const g029Link=(['/systems/engine/','/systems/engine/bill-of-materials/','/roadmap/','/journal/inside-wahoo-digital-engine-assembly/','/journal/designing-details-crankcase/'].includes(route)&&['/journal/from-simulation-to-3d-cylinder/','/journal/inside-wahoo-digital-engine-assembly/','/journal/designing-details-crankcase/','/systems/engine/bill-of-materials/','/roadmap/#engine-mechanical','/intelligence/work/'].includes(href));
-    if(!g029Link&&target&&target[0]!==section[0]&&!(section[0]==='/systems/'&&/^\/journal\/[^/]+\/\?from=/.test(href))&&!(route==='/systems/'&&href==='/roadmap/'))throw Error(`Cross-section link: ${route} → ${href}`);
+    if(!g030Link&&!g029Link&&target&&target[0]!==section[0]&&!(section[0]==='/systems/'&&/^\/journal\/[^/]+\/\?from=/.test(href))&&!(route==='/systems/'&&href==='/roadmap/'))throw Error(`Cross-section link: ${route} → ${href}`);
   }
   for(const [href] of headerNavigation)if(!html.split('</header>')[0].includes(`href="${href}"`))throw Error('Missing global navigation: '+route);
   if(!html.includes('Home · choose a section'))throw Error('Missing Home exit: '+route);

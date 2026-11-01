@@ -37,6 +37,14 @@
     {
       "title": "Measure before committing the detail",
       "text": "M01 is the planned physical measurement stage. It is intended to obtain actual crankshaft, bearing, seal, rod and cylinder-base interface dimensions, supported by supplier confirmation where appropriate. No completed physical measurement campaign is claimed. Those inputs will help decide which references to retain, which geometry to revise and which components are compatible.<br><br>Bearing retention and fit, seal seats, split-joint sealing, structural walls, cylinder registration, cooling jackets and direct-injection hardware remain open. Head clearance and hull-to-pump alignment also need evidence. The <a href=\"/systems/engine/bill-of-materials/\">Living BOM</a> provides a way to retain these distinctions as the records evolve. The <a href=\"/roadmap/#engine-mechanical\">mechanical roadmap</a> connects this preliminary CAD work to measurement, detailed design and eventual CNC prototyping. The craft is in turning each uncertainty into a checked interface, one decision at a time."
+    },
+    {
+      "title": "Development update · 30 October 2026",
+      "text": "The article above records the accepted CAD milestone and its historical Rev02 baseline. Subsequent M01 measurement preparation is complete; no physical components were measured. M02 supplier-supported digital engineering has now been accepted and the controlled Living BOM selects Rev03. No physical engine components are currently available. Read <a href=\"/journal/engineering-supplier-supported-details/\">the supplier-supported details</a> and <a href=\"/journal/designing-cnc-cylinder-cooling/\">the preliminary cooling study</a> for the later work. Physical inspection remains necessary before manufacturing release.",
+      "requiresPublishedSlugs": [
+        "engineering-supplier-supported-details",
+        "designing-cnc-cylinder-cooling"
+      ]
     }
   ],
   "date": "2026-10-30",

@@ -1,8 +1,8 @@
 {
   "id": "WHE-PLAN-001",
-  "revision": "Website Rev02",
+  "revision": "Website G030 owner-review draft",
   "sourceRevision": "Rev01",
-  "updated": "2026-10-15",
+  "updated": "2026-10-30",
   "title": "Wahoo Engine Data and Procurement Roadmap",
   "stages": [
     {
@@ -24,13 +24,17 @@
       "source": "Wössner drawings and clearance instructions; verified sample parts and metrology; pump supplier data or instrumented pump test",
       "unlocks": "Physical datums, cylinder compatibility, crankcase interfaces and approximate power demand",
       "status": "Provisional",
-      "currentEvidence": "Supplier-confirmed external crown and 58.6 mm overall height applied to piston Rev02; pin-to-plane placement, skirt/internal details, crank interfaces and pump load remain open.",
-      "nextAction": "Obtain remaining datum/tolerance, crank installation and pump load data.",
+      "currentEvidence": "M01 measurement preparation and M02 supplier-dimensional interfaces accepted. No physical components measured; shaft, seal and assembly datums remain open.",
+      "nextAction": "Seek missing supplier interface evidence and plan physical inspection when baseline parts are available.",
       "evidenceRequired": "Source document or measurement with units, part/revision, date, uncertainty and a recorded review.",
       "updates": [
         {
           "date": "2026-10-15",
           "note": "Supplier-confirmed external crown and 58.6 mm overall height applied to piston Rev02; pin-to-plane placement, skirt/internal details, crank interfaces and pump load remain open."
+        },
+        {
+          "date": "2026-10-30",
+          "note": "M01 measurement preparation and M02 supplier-dimensional interfaces accepted. No physical components measured; shaft, seal and assembly datums remain open."
         }
       ]
     },
@@ -41,13 +45,17 @@
       "source": "Explicit design choices; matching-year Yamaha manual as an OEM reference; measured donor cylinder/head; engine designer; piston/crank drawings and samples",
       "unlocks": "A dimensioned engine specification for prediction and CAD",
       "status": "Provisional",
-      "currentEvidence": "Custom cylinder/head/crankcase direction recorded; corrected crown and initial requirements exist, but port geometry, squish and cooling are not released.",
-      "nextAction": "Define the custom cylinder/head layout and obtain a measured reference where useful.",
+      "currentEvidence": "A28, CAD01/CAD02 and M02 establish preliminary editable geometry. A29 adds an experimental upper cooling band; sealing, structure, chamber and full cooling remain unresolved.",
+      "nextAction": "Review construction alternatives and constraints; A30 native inspection and commercial commissioning remain outstanding.",
       "evidenceRequired": "Source document or measurement with units, part/revision, date, uncertainty and a recorded review.",
       "updates": [
         {
           "date": "2026-10-15",
           "note": "Custom cylinder/head/crankcase direction recorded; corrected crown and initial requirements exist, but port geometry, squish and cooling are not released."
+        },
+        {
+          "date": "2026-10-30",
+          "note": "A28, CAD01/CAD02 and M02 establish preliminary editable geometry. A29 adds an experimental upper cooling band; sealing, structure, chamber and full cooling remain unresolved."
         }
       ]
     },
@@ -58,13 +66,17 @@
       "source": "Kinematic and gas-dynamic models; pump load curve; benchmark test data; bounded fuel-consumption and thermal assumptions",
       "unlocks": "Provisional component sizes with margins and stated uncertainty",
       "status": "Open",
-      "currentEvidence": "EngMod2T candidate core and Wahoo-specific tools selected as the simulation approach. Static documentation/example inspection complete; installation, baseline run and validation pending.",
-      "nextAction": "Activate the trial, reproduce an example and build a controlled Wahoo engine baseline.",
+      "currentEvidence": "A29 offline adapter: nine passing tests, Wahoo input manifest and proposed five-case plan. No commercial run, installation or activated trial is claimed.",
+      "nextAction": "Agree installation/license conditions and supplied-example benchmark before commercial evaluation.",
       "evidenceRequired": "Source document or measurement with units, part/revision, date, uncertainty and a recorded review.",
       "updates": [
         {
           "date": "2026-10-15",
           "note": "EngMod2T candidate core and Wahoo-specific tools selected as the simulation approach. Static documentation/example inspection complete; installation, baseline run and validation pending."
+        },
+        {
+          "date": "2026-10-30",
+          "note": "A29 offline adapter: nine passing tests, Wahoo input manifest and proposed five-case plan. No commercial run, installation or activated trial is claimed."
         }
       ]
     },
@@ -99,10 +111,15 @@
       "source": "Initial compression/friction estimates; motor/controller curves; later unfired crank torque test; electrical and cooling chapters; coolant/pump measurements",
       "unlocks": "Starter/drive, flywheel, power system, cooling and lubrication selections",
       "status": "Provisional",
-      "currentEvidence": "Starter position retained; voltage, torque, drive and cooling data unresolved.",
-      "nextAction": "Resolve voltage/current budget, starter drive, cooling and lubrication inputs.",
+      "currentEvidence": "A29 machined groove and sleeve construction study accepted within preliminary digital scope. Coolant flow, sealing, retention and thermal adequacy remain unverified.",
+      "nextAction": "Establish the cooling circuit, material and manufacturing constraints alongside electrical and starter requirements.",
       "evidenceRequired": "Source document or measurement with units, part/revision, date, uncertainty and a recorded review.",
-      "updates": []
+      "updates": [
+        {
+          "date": "2026-10-30",
+          "note": "A29 machined groove and sleeve construction study accepted within preliminary digital scope. Coolant flow, sealing, retention and thermal adequacy remain unverified."
+        }
+      ]
     },
     {
       "id": "engine-stage-8",
@@ -111,10 +128,15 @@
       "source": "Supplier CAD; measured parts; Rhino assembly; structural/thermal checks; physical mock-up",
       "unlocks": "Prototype machining drawings and a reviewed purchase list",
       "status": "Provisional",
-      "currentEvidence": "Rev06 layout accepted; extraction, interior clearances and mass/CG unverified.",
-      "nextAction": "Verify inner hull, assembly stack-ups and the tank extraction sweep.",
+      "currentEvidence": "CAD01/02/M02 and A29 preserve traceable assembly development. Larger cooling sleeve is a packaging question; inner-hull clearance, pump registration and mass/CG remain unverified.",
+      "nextAction": "Verify real installation geometry and mechanical stack-ups before prototype machining.",
       "evidenceRequired": "Source document or measurement with units, part/revision, date, uncertainty and a recorded review.",
-      "updates": []
+      "updates": [
+        {
+          "date": "2026-10-30",
+          "note": "CAD01/02/M02 and A29 preserve traceable assembly development. Larger cooling sleeve is a packaging question; inner-hull clearance, pump registration and mass/CG remain unverified."
+        }
+      ]
     },
     {
       "id": "engine-stage-9",
@@ -171,6 +193,10 @@
     {
       "date": "2026-10-15",
       "change": "Recorded supplier-confirmed external piston geometry, custom-cylinder direction and simulator integration plan. No performance or complete acquisition gate marked passed."
+    },
+    {
+      "date": "2026-10-30",
+      "change": "Accepted M01/M02/A29 digital preparation incorporated; commercial trial and physical prototyping remain future."
     }
   ]
 }

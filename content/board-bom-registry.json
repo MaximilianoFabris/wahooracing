@@ -1,16 +1,16 @@
 {
   "schema": "wahoo.board.bom-source-registry/1",
-  "revision": "BOARD-REGISTER-20261030",
+  "revision": "BOARD-REGISTER-G030-REVIEW-20261030",
   "scope": "PUBLIC_SAFE_SOURCE_COVERAGE_NOT_COMPLETE_BOARD_PARTS_LIST",
   "sources": [
     {
-      "id": "engine-rev02-aggregate",
+      "id": "engine-rev03-aggregate",
       "board_system": "engine",
-      "revision": "Rev02",
+      "revision": "Rev03_20261030",
       "route": "/systems/engine/bill-of-materials/",
       "data": "/assets/engine-bom.public.json",
       "schema": "wahoo.engine.bom-public/1",
-      "sha256": "f3a16a6296ce61efe8bd2638bbe6a9dda8417080b2239b55f18f50dcb5c3b089",
+      "sha256": "a1fb7c4e0229e9ec06fb6349f16a0f8f6f22cf25361bffd71bf5dc3d67d3bcdf",
       "scope": "Engine-development aggregate only; includes engine installation interfaces and context references. Not a whole-board count."
     }
   ],
@@ -27,7 +27,7 @@
       "name": "Engine",
       "engineering_route": "/systems/engine/",
       "public_source_ids": [
-        "engine-rev02-aggregate"
+        "engine-rev03-aggregate"
       ],
       "coverage": "PUBLIC_SAFE_ENGINE_AGGREGATE_AVAILABLE"
     },

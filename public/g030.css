@@ -1,0 +1,7 @@
+/* Retain the established article visual measure and actual source aspect ratio. */
+.article-hero img[src*="g030-oct30/"]{width:100%;height:auto;max-height:620px;object-fit:contain}
+.article-inline-figure img[src*="g030-oct30/"]{max-height:620px;object-fit:contain}
+@media(max-width:600px){.article-hero img[src*="g030-oct30/"]{max-height:460px}}
+
+/* G031 diagrams use native square proportions and large labels for phone reading. */
+.article-hero img[src*="g031-"],.article-inline-figure img[src*="g031-"]{width:100%;height:auto;max-height:460px;object-fit:contain}

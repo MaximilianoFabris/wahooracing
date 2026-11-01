@@ -3,20 +3,20 @@ import {createHash} from 'node:crypto';
 import path from 'node:path';
 export async function buildBom(root,out,layout){
 const exportDir=path.resolve(root,'public/assets');
-const accepted='f3a16a6296ce61efe8bd2638bbe6a9dda8417080b2239b55f18f50dcb5c3b089';
+const accepted='a1fb7c4e0229e9ec06fb6349f16a0f8f6f22cf25361bffd71bf5dc3d67d3bcdf';
 const hash=b=>createHash('sha256').update(b).digest('hex');
 const bytes=await readFile(path.join(exportDir,'engine-bom.public.json'));
-if(hash(bytes)!==accepted)throw Error('Rev02 public export hash mismatch');
+if(hash(bytes)!==accepted)throw Error('Rev03_20261030 public export hash mismatch');
 // Private derivation evidence is retained outside this repository.
 // A clean checkout builds from the exact reviewed public projection and strict checks below.
 const data=JSON.parse(bytes);
 function keys(o,list,label){if(!o||Array.isArray(o)||typeof o!=='object'||Object.keys(o).sort().join('|')!==list.slice().sort().join('|'))throw Error('Schema allowlist violation: '+label);}
 function integer(n){if(!Number.isSafeInteger(n)||n<0)throw Error('Invalid count');}
 const pLabels={purchased:'Purchased',included_in_purchased_assembly:'Included in purchased assembly',custom_cnc:'Custom CNC',definition_only:'Definition only',reference_only:'Context reference only'};
-const mLabels={SELECTED_PARTIAL_DIMENSIONAL_EVIDENCE:'Selected · partial dimensional evidence',ARCHITECTURE_ONLY:'Architecture only',PROVISIONAL_CNC_CONCEPT_NO_MANUFACTURING_RELEASE:'Provisional CNC concept · no manufacturing release'};
+const mLabels={SELECTED_PARTIAL_DIMENSIONAL_EVIDENCE:'Selected · partial dimensional evidence',SOURCE_DIMENSIONAL_REFERENCE_INSTALLED_PROFILE_UNQUALIFIED:'Supplier dimensional reference · installed profile unqualified',ARCHITECTURE_ONLY:'Architecture only',PROVISIONAL_CNC_CONCEPT_NO_MANUFACTURING_RELEASE:'Provisional CNC concept · no manufacturing release'};
 const categories=['Crankshaft and Rotating Assembly','Crankcase Assembly','Cylinder Assembly','Cylinder Head','Intake and Fuel Injection','Exhaust','Cooling','Starting and Electrical','Installation and Propulsion Interface'];
 keys(data,['schema','revision','status','systems','summary'],'root');
-if(data.schema!=='wahoo.engine.bom-public/1'||data.revision!=='Rev02'||data.status!=='PRELIMINARY_MECHANICAL_DEVELOPMENT_NOT_MANUFACTURING_RELEASE')throw Error('Unexpected export identity');
+if(data.schema!=='wahoo.engine.bom-public/1'||data.revision!=='Rev03_20261030'||data.status!=='PRELIMINARY_ARCHITECTURE_NOT_MANUFACTURING_RELEASE')throw Error('Unexpected export identity');
 keys(data.summary,['part_definitions','hardware_definitions','known_hardware_quantity','unknown_quantity_definitions','system_count','procurement_counts','counts_incomplete','mass_available','cost_available'],'summary');
 const sum=o=>Object.values(o).reduce((a,b)=>a+b,0);
 const totals={};let defs=0,hardware=0;

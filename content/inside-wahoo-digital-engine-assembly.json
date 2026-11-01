@@ -37,6 +37,14 @@
     {
       "title": "The next step is physically grounded",
       "text": "The architecture now needs progressively detailed mechanical parts and confirmed interfaces. The <a href=\"/journal/designing-details-crankcase/\">next crankcase study</a> begins that work around the rotating assembly and bearing supports. Physical measurements and supplier confirmations are the next planned stage, with crankshaft, rod, seal and cylinder-base relationships still requiring evidence.<br><br>Standard components will be purchased where suitable; Wahoo-specific prototype parts are intended for CNC development. Machining has not begun. The useful achievement today is a connected, reproducible foundation that makes the next engineering decisions more concrete. Follow the <a href=\"/intelligence/work/\">Activity Log</a> for accepted milestones and the <a href=\"/roadmap/#engine-mechanical\">Roadmap</a> for the questions still ahead."
+    },
+    {
+      "title": "Development update · 30 October 2026",
+      "text": "The article above records the accepted CAD milestone and its historical Rev02 baseline. Subsequent M01 measurement preparation is complete; no physical components were measured. M02 supplier-supported digital engineering has now been accepted and the controlled Living BOM selects Rev03. No physical engine components are currently available. Read <a href=\"/journal/engineering-supplier-supported-details/\">the supplier-supported details</a> and <a href=\"/journal/designing-cnc-cylinder-cooling/\">the preliminary cooling study</a> for the later work. Physical inspection remains necessary before manufacturing release.",
+      "requiresPublishedSlugs": [
+        "engineering-supplier-supported-details",
+        "designing-cnc-cylinder-cooling"
+      ]
     }
   ],
   "date": "2026-10-30",

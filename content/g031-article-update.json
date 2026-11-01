@@ -1,0 +1,33 @@
+{
+  "status": "published",
+  "slug": "constant-speed-hull-study",
+  "dateLabel": "18 Oct 2026 · method review; updated 1 Nov 2026",
+  "revision": "CONTROLLED HULL STUDY / ACCEPTED FIXED ENDPOINT",
+  "summary": "The fixed-body 30 km/h preparation reached its accepted nominal 1.0-second endpoint. The saved state is accepted; fluid-readiness review remains incomplete and no free-response result follows.",
+  "evidence": "Accepted fixed-body numerical endpoint · readiness unresolved · no physical validation",
+  "sections": [
+    {
+      "title": "1 November update: the fixed endpoint is accepted",
+      "text": "With the hull held at its fixed reference pose and inflow prescribed at 30 km/h, the preparation has now reached its accepted nominal one-second endpoint. The final integration step finished just beyond that target. The complete saved four-rank endpoint is accepted and the solver exited normally. This is a numerical preparation milestone, separate from a verdict on the developed fluid state."
+    },
+    {
+      "title": "A saved state and a ready flow answer different questions",
+      "text": "Acceptance establishes that the saved numerical state is complete and valid within the endpoint checks. Readiness asks whether loads, free surface, phase balance and boundary behaviour support the intended next experiment. The required load, phase-balance and spatial histories still need substantive review. Readiness is not established. Unreviewed evidence cannot demonstrate either readiness or a need for more simulated time.",
+      "figure": {
+        "image": "engineering/g031-evidence.png",
+        "alt": "Two distinct evidence questions: accepted saved state and fluid readiness still to be established. The second requires load history, phase balance, free surface and boundary evidence.",
+        "caption": "Explanatory diagram of the evidence boundary. No synthetic force trace, surface contour or wake is presented as a result."
+      }
+    },
+    {
+      "title": "The free-response question remains open",
+      "text": "No free heave or pitch response follows from the accepted fixed endpoint. Holding the hull at a reference pose does not demonstrate its equilibrium, trim or stability. The next interpretation depends on completing the readiness evidence review. This dated update preserves the original October method and commissioning record below; it does not replace the earlier stopped trajectories or claim physical validation."
+    }
+  ],
+  "sources": [
+    "Accepted fixed-body 30 km/h endpoint receipt · 1 November 2026",
+    "Interim readiness review and independent evidence-boundary review · 1 November 2026"
+  ],
+  "changes": "Dated 1 November follow-up to the original 18 October method review. Accepted saved endpoint distinguished from unresolved fluid readiness. New explanatory diagrams; no new CFD field image, hull response or physical validation.",
+  "updatedDate": "2026-11-01"
+}

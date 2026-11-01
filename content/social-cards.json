@@ -1,6 +1,137 @@
 {
   "batches": [
     {
+      "id": "g031-rev01",
+      "title": "The accepted fixed endpoint",
+      "revision": "Rev01 · 1 November 2026",
+      "posts": [
+        {
+          "id": "G031",
+          "title": "One second. One checkpoint.",
+          "format": "Three-card carousel",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/g031-rev01/G031-01.png",
+              "alt": "One second. One checkpoint. A nominal time ruler from zero to 1.0 s marks the accepted fixed-body 30 km/h numerical endpoint. The saved state is accepted; the readiness question stays open. Explanatory graphic, not CFD field data."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/g031-rev01/G031-02.png",
+              "alt": "Two different questions on a pale background. Saved: complete checkpoint and normal exit. Ready: requires loads, free surface, phase balance and boundary evidence. Required evidence still needs review and readiness review is incomplete."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/g031-rev01/G031-03.png",
+              "alt": "Evidence before release. A filled fixed-endpoint node is accepted; an open readiness-review node is incomplete; a future free-response node is conditional. No stability or physical-test result is claimed. Explanatory evidence sequence."
+            }
+          ],
+          "caption": "A small checkpoint in a bigger question.\n\nWahoo’s fixed-body 30 km/h preparation reached its accepted nominal one-second endpoint. The saved numerical state is accepted. That does not yet tell us whether the flow is ready for the next experiment.\n\nThe readiness review is incomplete because required load, phase-balance and spatial histories still need review. No free heave/pitch response, stability result or physical-test result is claimed. This carousel explains the evidence sequence; it contains no new CFD field images.",
+          "hashtags": [
+            "#WahooRacing",
+            "#HullDevelopment",
+            "#ComputationalFluidDynamics",
+            "#EngineeringExplained",
+            "#ProductDevelopment"
+          ],
+          "revision": "Rev01 · 1 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        }
+      ]
+    },
+    {
+      "id": "g030-rev01",
+      "title": "From cooling concept to generative ambition",
+      "revision": "Rev01",
+      "posts": [
+        {
+          "id": "G030-C2",
+          "title": "Engineering the cooling system",
+          "format": "5-card carousel",
+          "caption": "A cooling system starts with a construction question.\n\nFor Wahoo’s compact two-stroke project, we’re exploring a machined groove around the cylinder and a removable outer sleeve. A29 turned that idea into an editable preliminary upper-band study, using accepted source geometry.\n\nThe shaded views show that construction only. The exploded display and sections help explain the parts; they do not prove an assembly route. Flow, sealing, retention, wall thickness, thermal behaviour and installation still need engineering. No cooling performance or physical test is claimed.\n\nIt’s one more step from a digital engine toward the jetboard we want to build. Follow the build.",
+          "hashtags": [
+            "#WahooRacing",
+            "#EngineDevelopment",
+            "#TwoStroke",
+            "#CoolingDesign",
+            "#CNCDesign",
+            "#MechanicalEngineering",
+            "#ParametricDesign",
+            "#PrototypeDevelopment",
+            "#MarineEngineering",
+            "#Jetboard",
+            "#ProductDevelopment",
+            "#BehindTheBuild"
+          ],
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/g030-rev01/G030-C2-01.png",
+              "alt": "Night Wahoo cover: Keeping performance cool. A shaded source-derived perspective of the accepted A29 upper-band annular construction, with the blue sleeve surrounding the body. A preliminary CNC cooling concept, not a validated system."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/g030-rev01/G030-C2-02.png",
+              "alt": "Light poster: High performance generates heat. An equally scaled section of the accepted upper band shows grey host material, blue reference coolant space and outer sleeve. No flow or heat field is depicted."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/g030-rev01/G030-C2-03.png",
+              "alt": "Dark poster: Machined for precision. An actual-source-coordinate display separates the removable sleeve upward from the groove host for explanation. Exploded translation is a presentation device; it is not an assembly or removal-path test."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/g030-rev01/G030-C2-04.png",
+              "alt": "Light Wahoo poster: Designing the details. An enlarged right-hand detail of the exact saved A29 section shows host material, empty reference coolant space and outer sleeve. Labels list open questions about flow, sealing, structure and CNC access; no seal or port hardware is invented."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/g030-rev01/G030-C2-05.png",
+              "alt": "Dark Wahoo closing with the approved shaded symbol: From concept to engineering. Four next questions—structural, thermal, sealing and installation—follow the preliminary construction concept. Physical validation remains ahead."
+            }
+          ]
+        },
+        {
+          "id": "G030-C3",
+          "title": "The future of generative engine design",
+          "format": "5-card carousel",
+          "caption": "What if the next design started with a better question?\n\nWahoo’s generative-engineering ambition connects editable geometry, mechanical constraints and simulation. We can already demonstrate a bounded parameter change updating the preliminary A29 construction. That is a foundation—not an automated optimization system.\n\nThe planned five-case EngMod2T experiment would evaluate two-stroke gas dynamics, port timing and exhaust behaviour. The trial is inactive and no commercial simulation has run. The documented integration does not provide direct-injection modeling or ECU coupling.\n\nFirst define what can be built. Then evaluate what deserves to be built. Follow Wahoo’s development.",
+          "hashtags": [
+            "#WahooRacing",
+            "#WahooIntelligence",
+            "#GenerativeDesign",
+            "#EngineDevelopment",
+            "#ParametricDesign",
+            "#EngineeringDesign",
+            "#EngineSimulation",
+            "#TwoStroke",
+            "#ComputationalEngineering",
+            "#DesignIteration",
+            "#Jetboard",
+            "#FollowTheBuild"
+          ],
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/g030-rev01/G030-C3-01.png",
+              "alt": "Light Wahoo poster: What if an engine could evolve? A small exact-source A29 section anchors the parametric-geometry node of a connected triangle linking geometry, mechanical constraints and simulation evaluation. It depicts a development ambition, not an accomplished optimization system."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/g030-rev01/G030-C3-02.png",
+              "alt": "Dark Wahoo poster: One engine. Many possibilities. Two equally scaled right-hand sections from the accepted A29 reference and saved groove-depth regeneration show a controlled parameter change. Grey host material, blue reference coolant space and darker outer sleeve retain exact saved coordinate relationships. This is native parameter propagation, not optimization, a flow result or manufactured hardware."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/g030-rev01/G030-C3-03.png",
+              "alt": "Light Wahoo poster: Not every design can be built. Five constraint categories—geometry, cooling, thickness, clearance and manufacturing—form a clear vertical framework. Final engineering limits remain undefined."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/g030-rev01/G030-C3-04.png",
+              "alt": "Dark poster: Test the ideas digitally. A planned sequence links parametric CAD, input preparation and intended EngMod2T evaluation. Trial inactive; no commercial solver run yet. No direct-injection modeling or ECU coupling is claimed."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/g030-rev01/G030-C3-05.png",
+              "alt": "Night Wahoo closing with large Generate. Evaluate. Refine. typography and the original shaded Wahoo symbol. Engineering the next generation of jetboards is explicitly presented as a development ambition."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "g029-rev01",
       "title": "The engine takes shape",
       "revision": "Rev01",
@@ -9,15 +140,22 @@
           "id": "G029-C1",
           "title": "The engine is taking shape",
           "format": "5-card carousel",
-          "caption": "The engine is taking shape - digitally.\n\nWahoo now has a first integrated, editable engine architecture, bringing nine major systems into one developing mechanical structure. A controlled parameter change can regenerate selected geometry while preserving accepted source components.\n\nThe next questions live in the details: bearings, seals, fasteners, interfaces and assembly access. The actual CAD-derived views shown here include preliminary geometry, proxy references and open-through crankcase frame studies; they are not a complete functional engine or sealed, manufacturing-ready crankcase. The hardware icons are symbolic.\n\nPhysical measurements and supplier confirmations must guide the detailed parts before eventual CNC prototyping. No engine hardware has been manufactured or physically validated by this digital milestone.\n\nFollow the build.",
+          "caption": "Historical CAD01/CAD02 preliminary milestone artwork.\n\nThe engine is taking shape - digitally.\n\nWahoo now has a first integrated, editable engine architecture, bringing nine major systems into one developing mechanical structure. A controlled parameter change can regenerate selected geometry while preserving accepted source components.\n\nThe next questions live in the details: bearings, seals, fasteners, interfaces and assembly access. The actual CAD-derived views shown here include preliminary geometry, proxy references and open-through crankcase frame studies; they are not a complete functional engine or sealed, manufacturing-ready crankcase. The hardware icons are symbolic.\n\nPhysical measurements and supplier confirmations must guide the detailed parts before eventual CNC prototyping. No engine hardware has been manufactured or physically validated by this digital milestone.\n\nFollow the build.\n\nDevelopment update · 30 October 2026: the accepted M02 milestone now adds supplier-supported digital interfaces and Living BOM Rev03. M01 measurement preparation is complete; future physical inspection remains pending. No physical engine components have been measured or manufactured. Quantities, costs, masses and final fits remain open.",
           "hashtags": [
             "#WahooRacing",
             "#EngineDevelopment",
             "#MechanicalDesign",
             "#CADDesign",
-            "#BehindTheBuild"
+            "#BehindTheBuild",
+            "#WahooIntelligence",
+            "#MarineEngineering",
+            "#Jetboard",
+            "#PrototypeDevelopment",
+            "#TwoStroke",
+            "#CNCDesign",
+            "#EngineeringDesign"
           ],
-          "revision": "Rev01",
+          "revision": "Rev01 artwork / G030 copy context",
           "reviewStatus": "OWNER_REVIEW",
           "cards": [
             {
@@ -46,15 +184,22 @@
           "id": "G029-C2",
           "title": "Engineering the details",
           "format": "3-card carousel",
-          "caption": "Good mechanical design starts where parts meet.\n\nOur crankcase and rotating-assembly development brings the crankshaft, connecting rod, piston motion and bearing-support studies into the same engineering conversation. The motion illustration uses selected poses from a full revolution of 361 saved nominal positions. It is not a clearance or physical validation result.\n\nThe bearing geometry is a conditional envelope, not a final bearing selection. The surrounding stock and interfaces remain provisional. Actual measurements and supplier specifications come next, so detailed custom parts can be developed toward CNC prototyping. Casting is outside the current one-off prototype baseline.\n\nStandard components will be purchased where suitable; custom parts will be designed around the interfaces we can confirm. Follow Wahoo's move from digital studies toward physical engineering.",
+          "caption": "Historical CAD01/CAD02 preliminary milestone artwork.\n\nGood mechanical design starts where parts meet.\n\nOur crankcase and rotating-assembly development brings the crankshaft, connecting rod, piston motion and bearing-support studies into the same engineering conversation. The motion illustration uses selected poses from a full revolution of 361 saved nominal positions. It is not a clearance or physical validation result.\n\nThe bearing geometry is a conditional envelope, not a final bearing selection. The surrounding stock and interfaces remain provisional. Actual measurements and supplier specifications come next, so detailed custom parts can be developed toward CNC prototyping. Casting is outside the current one-off prototype baseline.\n\nStandard components will be purchased where suitable; custom parts will be designed around the interfaces we can confirm. Follow Wahoo's move from digital studies toward physical engineering.\n\nDevelopment update · 30 October 2026: the accepted M02 milestone now adds supplier-supported digital interfaces and Living BOM Rev03. M01 measurement preparation is complete; future physical inspection remains pending. No physical engine components have been measured or manufactured. Quantities, costs, masses and final fits remain open.",
           "hashtags": [
             "#WahooRacing",
             "#MechanicalEngineering",
             "#EngineDevelopment",
             "#CNCPrototyping",
-            "#TwoStroke"
+            "#TwoStroke",
+            "#WahooIntelligence",
+            "#MarineEngineering",
+            "#Jetboard",
+            "#PrototypeDevelopment",
+            "#CNCDesign",
+            "#EngineeringDesign",
+            "#DesignDevelopment"
           ],
-          "revision": "Rev01",
+          "revision": "Rev01 artwork / G030 copy context",
           "reviewStatus": "OWNER_REVIEW",
           "cards": [
             {
@@ -67,7 +212,7 @@
             },
             {
               "imageURL": "/preview/social-cards/images/g029-rev01/G029-C2-03.png",
-              "alt": "Pale typographic closing poster: The next step is physical. Measure actual interfaces, confirm supplier specifications, detail parts for CNC prototyping. The physical measurement assignment is planned."
+              "alt": "Historical preliminary milestone poster: The next step is physical. Measure actual interfaces, confirm supplier specifications and detail parts for CNC prototyping. M01 measurement preparation is now complete; future physical inspection remains pending."
             }
           ]
         },
@@ -75,15 +220,22 @@
           "id": "G029-C3",
           "title": "What does it take to build an engine?",
           "format": "3-card carousel",
-          "caption": "What does it take to build an engine? A connected record of the decisions behind every part.\n\nWahoo's Living Bill of Materials begins with 192 part definitions in one engine project, organized around nine systems and supporting context references. These are engineering records - not 192 purchased parts, a complete hardware quantity or a box of finished components. Quantities and maturity remain incomplete.\n\nOur approach is practical: source standard bearings, seals and fasteners where suitable, and develop Wahoo-specific components for CNC prototyping. The hardware symbols are illustrative; the open-frame CAD view is a preliminary study, not a released machined part.\n\nThe Living BOM connects component identities, revisions and CAD development so the project can be maintained as the engineering evolves.\n\nDiscover the build at wahooracing.com.",
+          "caption": "Historical CAD01/CAD02 preliminary milestone artwork.\n\nWhat does it take to build an engine? A connected record of the decisions behind every part.\n\nWahoo's Living Bill of Materials begins with 192 part definitions in one engine project, organized around nine systems and supporting context references. These are engineering records - not 192 purchased parts, a complete hardware quantity or a box of finished components. Quantities and maturity remain incomplete.\n\nOur approach is practical: source standard bearings, seals and fasteners where suitable, and develop Wahoo-specific components for CNC prototyping. The hardware symbols are illustrative; the open-frame CAD view is a preliminary study, not a released machined part.\n\nThe Living BOM connects component identities, revisions and CAD development so the project can be maintained as the engineering evolves.\n\nDiscover the build at wahooracing.com.\n\nDevelopment update · 30 October 2026: the accepted M02 milestone now adds supplier-supported digital interfaces and Living BOM Rev03. M01 measurement preparation is complete; future physical inspection remains pending. No physical engine components have been measured or manufactured. Quantities, costs, masses and final fits remain open.",
           "hashtags": [
             "#WahooRacing",
             "#ProductDevelopment",
             "#BillOfMaterials",
             "#DesignEngineering",
-            "#BehindTheBuild"
+            "#BehindTheBuild",
+            "#WahooIntelligence",
+            "#MarineEngineering",
+            "#Jetboard",
+            "#PrototypeDevelopment",
+            "#TwoStroke",
+            "#CNCDesign",
+            "#EngineeringDesign"
           ],
-          "revision": "Rev01",
+          "revision": "Rev01 artwork / G030 copy context",
           "reviewStatus": "OWNER_REVIEW",
           "cards": [
             {
