@@ -601,9 +601,44 @@
       "source": "Social_Media/Instagram/G031_Rev01_20261101/exports/G031-03.png",
       "bytes": 60709,
       "sha256": "d4a01e93db411ec743f296af4bd648ae7d5d5de60194d4b895b77a63eb1c8e96"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/h0-development-rev01/H0-01.png",
+      "source": "Social_Media/Instagram/H0_Development_Rev01_20261101/exports/H0-01.png",
+      "bytes": 71931,
+      "sha256": "a9e54ac04afb7393d518791675805f5b0ec510340370cde49beb57b2d0cc7e25"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/h0-development-rev01/H0-02.png",
+      "source": "Social_Media/Instagram/H0_Development_Rev01_20261101/exports/H0-02.png",
+      "bytes": 70316,
+      "sha256": "285580e49ca00db9b9b1c4a6e63abd08267af50ca97c8fd0fa7bace6b4c3d20e"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/h0-development-rev01/H0-03.png",
+      "source": "Social_Media/Instagram/H0_Development_Rev01_20261101/exports/H0-03.png",
+      "bytes": 75737,
+      "sha256": "a75737ab5ae2c52be0623b00954fd057e5b4492095472ae4f2ee7343de9a0140"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/h0-development-rev01/H0-04.png",
+      "source": "Social_Media/Instagram/H0_Development_Rev01_20261101/exports/H0-04.png",
+      "bytes": 83362,
+      "sha256": "dd856312ce56547b34bcfd38fe5a5fecadf5f54644689da9ab25021a9e547612"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/h0-development-rev01/H0-05.png",
+      "source": "Social_Media/Instagram/H0_Development_Rev01_20261101/exports/H0-05.png",
+      "bytes": 83305,
+      "sha256": "be6c549b405b87948ba7c1be73bd99d9bf90858935829a4ac04d3619b19aa6ba"
     }
   ],
   "sources": [
+    {
+      "batch": "h0-development-rev01",
+      "source": "Social_Media/Instagram/H0_Development_Rev01_20261101/copy/posts.json",
+      "sha256": "4fac15e87dc23efa9f9c7ac826c20834d1e5a5b290691977319649ec3c255052"
+    },
     {
       "batch": "g031-rev01",
       "source": "Social_Media/Instagram/G031_Rev01_20261101/copy/posts.json",
@@ -665,7 +700,7 @@
       "sha256": "9b7f6396265a12f41f83d944e80f97f9a2776353c8df246d4bb5f9eec623b342"
     }
   ],
-  "projectionSha256": "75437d72cb974f2a0e7ed7a3d7531b586f95e32de4534a7a1861c1568ec1a188",
+  "projectionSha256": "f1d4c144fd8f0a13f380f4ea948bc381ea065b621809523a6cc7222fb68e5270",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",

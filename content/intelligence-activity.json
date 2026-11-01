@@ -2,6 +2,20 @@
   "schema_version": 1,
   "records": [
     {
+      "id": "h0-fixed-readiness-hold",
+      "publication": "published",
+      "date": "2026-11-01",
+      "agents": [
+        "archimedes",
+        "isaac",
+        "leo"
+      ],
+      "status": "completed",
+      "title": "Fixed 30 km/h readiness review holds free release",
+      "summary": "The accepted one-second checkpoint is retained. Late drag and vertical-fluid-force averages became more repeatable, but pitch-moment evolution still failed readiness. Heave and pitch remain locked. Continuing flow development and possible boundary influence remain causally unresolved; no extra CFD duration or boundary change is justified by the present evidence.",
+      "evidence": "Completed readiness review · numerical evidence · diagnostic cause inconclusive"
+    },
+    {
       "id": "constant-speed-fixed-endpoint-accepted",
       "publication": "published",
       "date": "2026-11-01",

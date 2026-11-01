@@ -1,0 +1,37 @@
+{
+  "status": "published",
+  "slug": "constant-speed-hull-study",
+  "dateLabel": "18 Oct method · 1 Nov endpoint history · 1 Nov readiness review",
+  "updatedDate": "2026-11-01",
+  "revision": "H0 DEVELOPMENT / READINESS REVIEW",
+  "summary": "The controlled fixed-body 30 km/h run completed its nominal one-second checkpoint. Late load averages became more repeatable, but pitch-moment evolution still failed readiness. Heave and pitch remain locked; the diagnostic cause is unresolved.",
+  "evidence": "numerical development · not ready for release · no physical validation",
+  "changes": "Dated readiness follow-up. Original 18 October method and earlier 1 November endpoint record retained below as historical records. Diagnostic cause unresolved; no free-motion, validated drag or stability claim.",
+  "sections": [
+    {
+      "title": "Latest review · 1 November 2026: numerical completion, readiness held",
+      "text": "The controlled 30 km/h preparation run has reached its nominal one-second checkpoint. The solver exited normally, and an independent check accepted the saved numerical state. That is a useful milestone for H0, Wahoo's developing hull. It does not mean the flow is ready for the next experiment.</p><p>The current H0 dry-hull baseline remained fixed in its original pose throughout this stage. H0 geometry and the Rhino source remain unchanged. Vertical motion, or heave, and fore-aft rotation, or pitch, stayed locked. We have not released those motions or demonstrated stable trim. The purpose was to prepare and examine the flow before asking how the hull would respond."
+    },
+    {
+      "title": "One question at a time",
+      "text": "Earlier work included a transition from 20 to 30 km/h. A speed ramp changes the conditions while the flow is developing. It can be useful in a commissioning sequence, but it makes the subsequent evidence harder to interpret: a changing load may reflect the changing imposed speed, continuing flow development, or both.</p><p>The controlled experiment holds the imposed speed at 30 km/h and holds the hull's pose. That narrows the question. Before allowing heave and pitch, is the prepared flow sufficiently repeatable under the agreed readiness checks? A fixed body is a deliberate experimental condition, not a substitute for a freely responding board.</p><p>The nominal one-second endpoint is simulation time. It is not a physical test, a rider trial or a statement about how long a real board takes to settle."
+    },
+    {
+      "title": "The solver finished. The engineering did not.",
+      "text": "A complete checkpoint answers a numerical question: did the run reach its endpoint and leave a usable saved state? Readiness asks a different question: does the evolving flow support the next stage of the experiment?</p><p>The recorded histories were compared over three late windows, each approximately one hull-length transit time at the imposed speed. Drag and vertical-fluid-force averages became more repeatable between the final two windows. Their instantaneous loads still fluctuated. A small change in an average should not be mistaken for quiet flow, a fully stationary result or validated drag.</p><p>Pitch moment gives a more cautious answer. Its three window means continued to change. The final adjacent change remained beyond the preparation criterion, even though late fluctuation repeatability improved. The full set of readiness checks was therefore not satisfied.</p><p>That finding concerns preparation of this numerical experiment. A nonzero moment on a restrained hull does not, by itself, establish instability, a hull defect or a stable running attitude. Those conclusions would require different evidence."
+    },
+    {
+      "title": "Why we did not release the board",
+      "text": "We retained the accepted checkpoint and kept heave and pitch locked. Numerical completion did not earn automatic progression.</p><p>Review of the saved evidence shows continuing redistribution of pressure and contact proxies, along with evolving downstream flow. These observations make the next question more specific, but they do not resolve its cause. Ordinary settling, persistent unsteadiness and possible outlet or boundary influence have not been separated causally.</p><p>The diagnostic conclusion is inconclusive. That does not reverse the readiness finding: the preparation is not ready for release. Nor does it prove that reflected waves returned from the outlet, that one boundary condition caused the drift, or that a longer run would cure it. The available evidence does not yet justify prescribing extra CFD duration or a boundary change."
+    },
+    {
+      "title": "Evidence before speed",
+      "text": "Archimedes's next technical question is which existing evidence can distinguish continued development from a material domain or boundary effect. Leo's integration question is what decision that evidence would enable, and whether any further computation would be justified. A hull change should follow a supported engineering diagnosis, rather than an attempt to make an inconvenient trace disappear.</p><p>The working principle is simple: do not force the answer you want. When the evidence is not ready, stop and investigate. This milestone is progress because it gives us a checked checkpoint and a clear reason to hold the next stage. Physical validation and performance claims remain ahead."
+    }
+  ],
+  "sources": [
+    "Accepted fixed-body endpoint and completed readiness review · 1 November 2026",
+    "Independent engineering readiness assessment · 1 November 2026",
+    "Existing-data diagnostic documentary closeout · 1 November 2026; causal attribution inconclusive"
+  ]
+}

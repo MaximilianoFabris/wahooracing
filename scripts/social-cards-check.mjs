@@ -5,16 +5,19 @@ const sourceFilename=card=>{const name=typeof card==='string'?card:card?.file??c
 const raw=fs.readFileSync('content/social-cards.json'),data=JSON.parse(raw),receipt=JSON.parse(fs.readFileSync('docs/social-cards-source-receipt.json'));
 assert.equal(hash(raw),receipt.projectionSha256,'Reviewed public projection changed');
 const keys=(object,expected)=>assert.deepEqual(Object.keys(object).sort(),expected.sort());
-keys(data,['batches']);assert.equal(data.batches.length,12);
-assert.deepEqual(data.batches.map(b=>b.id),['g031-rev01','g030-rev01','g029-rev01','g028-rev01','g026-rev01','g025-rev01','g001c1-rev01','assignment18-rev01','horizon-stories-rev01','engineering-stories-rev01','relaunch-rev03','creative-trial-rev04']);
-assert.deepEqual(data.batches.map(b=>b.posts.length),[1,2,3,1,1,1,1,1,5,3,8,3]);
+keys(data,['batches']);assert.equal(data.batches.length,13);
+assert.deepEqual(data.batches.map(b=>b.id),['h0-development-rev01','g031-rev01','g030-rev01','g029-rev01','g028-rev01','g026-rev01','g025-rev01','g001c1-rev01','assignment18-rev01','horizon-stories-rev01','engineering-stories-rev01','relaunch-rev03','creative-trial-rev04']);
+assert.deepEqual(data.batches.map(b=>b.posts.length),[1,1,2,3,1,1,1,1,1,5,3,8,3]);
+assert.equal(data.batches.reduce((n,b)=>n+b.posts.length,0),31);
+assert.deepEqual(data.batches[0].posts.map(p=>p.id),['H0-DEVELOPMENT-20261101']);
+assert.deepEqual(data.batches[0].posts[0].cards.map(c=>path.basename(c.imageURL)),['H0-01.png','H0-02.png','H0-03.png','H0-04.png','H0-05.png']);
 const html=fs.readFileSync('dist/preview/social-cards/index.html','utf8');
 const g031Visible=html.includes('id="g031-rev01"');const projected=g031Visible?data:{...data,batches:data.batches.filter(b=>b.id!=='g031-rev01')};const markup=socialCards(projected);
 assert(html.includes(markup));assert(html.includes('noindex, nofollow, noarchive'));assert(html.includes('class="site-header'));
 assert(!/[CW]:[\\/]|file:\/\/|Wahoo_Intelligence|Social_Media|source-manifest|source-provenance|"evidence"|"visual_approach"|"rider_meaning"/i.test(html));
 assert(!/[CW]:[\\/]|file:\/\/|Wahoo_Intelligence|Social_Media|source-manifest|source-provenance/i.test(raw.toString()));
 let count=0;const urls=new Set();const esc=s=>s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const workspace=path.resolve('../..');
+let workspace=path.resolve('.');while(!fs.existsSync(path.join(workspace,'Social_Media'))&&path.dirname(workspace)!==workspace)workspace=path.dirname(workspace);
 for(const batch of projected.batches){
   keys(batch,['id','title','revision','posts']);
   const source=receipt.sources.find(s=>s.batch===batch.id),sourceFile=path.join(workspace,source.source);
@@ -35,7 +38,7 @@ for(const batch of projected.batches){
     }
   }
 }
-assert.equal(count,g031Visible?100:97);assert.equal(receipt.files.length,100);
+assert.equal(count,g031Visible?105:102);assert.equal(receipt.files.length,105);
 function walk(folder){return fs.readdirSync(folder,{withFileTypes:true}).flatMap(f=>f.isDirectory()?walk(path.join(folder,f.name)):[path.join(folder,f.name)]);}
 const retained=receipt.retainedFiles||[];
 for(const record of retained){assert(!urls.has(record.imageURL));assert(/^\/preview\/social-cards\/images\/[a-z0-9-]+\/[A-Z0-9-]+\.png$/.test(record.imageURL));for(const base of ['public','dist']){const raw=fs.readFileSync(base+record.imageURL);assert.equal(raw.length,record.bytes);assert.equal(hash(raw),record.sha256,'Historical image URL changed');}}

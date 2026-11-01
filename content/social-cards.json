@@ -1,6 +1,50 @@
 {
   "batches": [
     {
+      "id": "h0-development-rev01",
+      "title": "H0: evidence before speed",
+      "revision": "Rev01 · 1 November 2026",
+      "posts": [
+        {
+          "id": "H0-DEVELOPMENT-20261101",
+          "title": "Evidence before speed",
+          "format": "Five-card carousel",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/h0-development-rev01/H0-01.png",
+              "alt": "Dark graphite cover with monumental 30 and km/h CFD — Completed. Fixed-body preparation; nominal one-second checkpoint; heave and pitch locked. Flow readiness: not yet. Typographic cover, not a field image."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/h0-development-rev01/H0-02.png",
+              "alt": "One question at a time. From a 20 to 30 km/h ramp to one controlled speed. Speed held, motion held. Condition the flow, then ask about response. Explanatory experiment sequence, not measured flow."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/h0-development-rev01/H0-03.png",
+              "alt": "The solver finished. The engineering didn’t. Genuine recorded drag in newtons and vertical force in newtons versus solver time from about 0.370 to 1.000 seconds. Cyan oscillating traces and dashed window means. Late windows increasingly repeatable; repeatability is one check, not validation."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/h0-development-rev01/H0-04.png",
+              "alt": "Why we did not release the board. Heave and pitch remain locked. Recorded bow-up moment about the center of gravity in newton metres versus solver time, about 0.370 to 1.000 seconds. Cyan oscillating trace and dashed window means. Window means still changing; readiness criterion not met. No smoothing."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/h0-development-rev01/H0-05.png",
+              "alt": "Evidence before speed. If it is not ready, stop and investigate. Flow development and possible boundary influence remain questions. Cause unresolved; no free release. Do not force the answer you want."
+            }
+          ],
+          "caption": "The solver finished. The engineering question stayed open.\n\nWahoo’s H0 hull completed a controlled 30 km/h fixed-body preparation run to its nominal one-second checkpoint, with normal exit and an independently checked saved state. Heave and pitch stayed locked throughout.\n\nEarlier work used a 20-to-30 km/h ramp. Holding speed and motion now gives us a more controlled question: is the flow ready before we allow the hull to respond?\n\nLate drag and vertical-fluid-force averages became more repeatable. The instantaneous loads still fluctuated, and the pitch-moment means were still changing beyond the readiness criterion. Numerical completion did not establish flow readiness or physical validation.\n\nSo we did not release the board. We are investigating ongoing flow development and possible outlet or boundary influence; the cause remains unresolved. Existing evidence does not yet justify extra CFD duration or a boundary change.\n\nThe principle is simple: do not force the answer you want. If the evidence is not ready, stop and investigate.\n\nThis is a numerical development milestone, not a stability, rider-test or validated performance result.",
+          "hashtags": [
+            "#WahooRacing",
+            "#HullDevelopment",
+            "#CFD",
+            "#EngineeringDevelopment",
+            "#Jetboard"
+          ],
+          "revision": "Rev01 · 1 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        }
+      ]
+    },
+    {
       "id": "g031-rev01",
       "title": "The accepted fixed endpoint",
       "revision": "Rev01 · 1 November 2026",
