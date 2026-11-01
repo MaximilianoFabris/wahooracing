@@ -87,7 +87,7 @@ async function dayDrawings(dir){
 const dayDrawingPaths=['/assets/engineering/g031-endpoint.png','/assets/engineering/g031-evidence.png','/assets/engineering/g029-oct30/assembly.png','/assets/engineering/g029-oct30/mechanics.png'];await dayDrawings(path.join(out,'assets'));
 // A28 transparent raster annotation palettes; preserve geometry and alpha.
 for(const name of ['mapping','piston','parameters','interface','architecture'])dayDrawingPaths.push('/assets/engineering/g028-oct27/'+name+'.png');
-await writeFile(path.join(out,'drawing-themes.js'),'window.wahooDayDrawings='+JSON.stringify(dayDrawingPaths)+';');
+await writeFile(path.join(out,'drawing-themes.js'),'window.wahooDayDrawings='+JSON.stringify(dayDrawingPaths.slice().sort())+';');
 
 const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const img=(name,alt,cls='',eager=false)=>`<img class="${cls}" src="/assets/${name}" alt="${esc(alt)}" ${eager?'fetchpriority="high"':'loading="lazy"'} decoding="async" width="1600" height="850">`;
