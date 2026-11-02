@@ -1,6 +1,165 @@
 {
   "batches": [
     {
+      "id": "color-reference-rev01",
+      "title": "Color Testing · reference studies",
+      "revision": "Eight additional mockups · Rev01 · 2 November 2026",
+      "posts": [
+        {
+          "id": "01-DARK",
+          "title": "Blue + ember · dark",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/color-reference-rev01/01-DARK.png",
+              "alt": "Blue + ember palette exploration on a dark background. soft orange bloom meets cool blue depth. Original Wahoo wordmark. Headline: BUILT TO UNDERSTAND. Source-derived WHE-03-001 rendered in neutral metal. Preliminary cylinder construction · not manufacturing released. Material unselected; appearance illustrative."
+            }
+          ],
+          "caption": "Blue + ember: an experimental Wahoo accent direction. Diffuse light and restrained text highlights bring color into the composition without a solid color panel. The source-derived component image is deliberately reused for this design study; this is not new engineering evidence or an adopted brand palette.",
+          "hashtags": [
+            "#WahooRacing",
+            "#DesignExploration",
+            "#BehindTheBuild"
+          ],
+          "revision": "Reference studies · Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "01-LIGHT",
+          "title": "Blue + ember · light",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/color-reference-rev01/01-LIGHT.png",
+              "alt": "Blue + ember palette exploration on a light background. soft orange bloom meets cool blue depth. Original Wahoo wordmark. Headline: BUILT TO UNDERSTAND. Source-derived WHE-03-001 rendered in neutral metal. Preliminary cylinder construction · not manufacturing released. Material unselected; appearance illustrative."
+            }
+          ],
+          "caption": "Blue + ember: an experimental Wahoo accent direction. Diffuse light and restrained text highlights bring color into the composition without a solid color panel. The source-derived component image is deliberately reused for this design study; this is not new engineering evidence or an adopted brand palette.",
+          "hashtags": [
+            "#WahooRacing",
+            "#DesignExploration",
+            "#BehindTheBuild"
+          ],
+          "revision": "Reference studies · Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "02-DARK",
+          "title": "Crimson edge · dark",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/color-reference-rev01/02-DARK.png",
+              "alt": "Crimson edge palette exploration on a dark background. a restrained crimson edge against a blue-black field. Original Wahoo wordmark. Headline: DESIGN IN THE OPEN. Source-derived WHE-02-001 rendered in neutral metal. Stock study · sealed joints and fasteners remain unresolved. Material unselected; appearance illustrative."
+            }
+          ],
+          "caption": "Crimson edge: an experimental Wahoo accent direction. Diffuse light and restrained text highlights bring color into the composition without a solid color panel. The source-derived component image is deliberately reused for this design study; this is not new engineering evidence or an adopted brand palette.",
+          "hashtags": [
+            "#WahooRacing",
+            "#DesignExploration",
+            "#BehindTheBuild"
+          ],
+          "revision": "Reference studies · Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "02-LIGHT",
+          "title": "Crimson edge · light",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/color-reference-rev01/02-LIGHT.png",
+              "alt": "Crimson edge palette exploration on a light background. a restrained crimson edge against a blue-black field. Original Wahoo wordmark. Headline: DESIGN IN THE OPEN. Source-derived WHE-02-001 rendered in neutral metal. Stock study · sealed joints and fasteners remain unresolved. Material unselected; appearance illustrative."
+            }
+          ],
+          "caption": "Crimson edge: an experimental Wahoo accent direction. Diffuse light and restrained text highlights bring color into the composition without a solid color panel. The source-derived component image is deliberately reused for this design study; this is not new engineering evidence or an adopted brand palette.",
+          "hashtags": [
+            "#WahooRacing",
+            "#DesignExploration",
+            "#BehindTheBuild"
+          ],
+          "revision": "Reference studies · Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "03-DARK",
+          "title": "Electric focus · dark",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/color-reference-rev01/03-DARK.png",
+              "alt": "Electric focus palette exploration on a dark background. a luminous yellow focal point with quiet blue refraction. Original Wahoo wordmark. Headline: ASK. MODEL. CHECK. LEARN. Source-derived WHE-01-009 rendered in neutral metal. Supplier reconstruction · not a Wahoo-designed piston. Material unselected; appearance illustrative."
+            }
+          ],
+          "caption": "Electric focus: an experimental Wahoo accent direction. Diffuse light and restrained text highlights bring color into the composition without a solid color panel. The source-derived component image is deliberately reused for this design study; this is not new engineering evidence or an adopted brand palette.",
+          "hashtags": [
+            "#WahooRacing",
+            "#DesignExploration",
+            "#BehindTheBuild"
+          ],
+          "revision": "Reference studies · Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "03-LIGHT",
+          "title": "Electric focus · light",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/color-reference-rev01/03-LIGHT.png",
+              "alt": "Electric focus palette exploration on a light background. a luminous yellow focal point with quiet blue refraction. Original Wahoo wordmark. Headline: ASK. MODEL. CHECK. LEARN. Source-derived WHE-01-009 rendered in neutral metal. Supplier reconstruction · not a Wahoo-designed piston. Material unselected; appearance illustrative."
+            }
+          ],
+          "caption": "Electric focus: an experimental Wahoo accent direction. Diffuse light and restrained text highlights bring color into the composition without a solid color panel. The source-derived component image is deliberately reused for this design study; this is not new engineering evidence or an adopted brand palette.",
+          "hashtags": [
+            "#WahooRacing",
+            "#DesignExploration",
+            "#BehindTheBuild"
+          ],
+          "revision": "Reference studies · Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "04-DARK",
+          "title": "Forest depth · dark",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/color-reference-rev01/04-DARK.png",
+              "alt": "Forest depth palette exploration on a dark background. layered forest-green atmosphere with a fine blue highlight. Original Wahoo wordmark. Headline: DETAILS MATTER. Source-derived WHE-03-009 rendered in neutral metal. Cooling-cover construction study · fit and cooling unverified. Material unselected; appearance illustrative."
+            }
+          ],
+          "caption": "Forest depth: an experimental Wahoo accent direction. Diffuse light and restrained text highlights bring color into the composition without a solid color panel. The source-derived component image is deliberately reused for this design study; this is not new engineering evidence or an adopted brand palette.",
+          "hashtags": [
+            "#WahooRacing",
+            "#DesignExploration",
+            "#BehindTheBuild"
+          ],
+          "revision": "Reference studies · Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "04-LIGHT",
+          "title": "Forest depth · light",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/color-reference-rev01/04-LIGHT.png",
+              "alt": "Forest depth palette exploration on a light background. layered forest-green atmosphere with a fine blue highlight. Original Wahoo wordmark. Headline: DETAILS MATTER. Source-derived WHE-03-009 rendered in neutral metal. Cooling-cover construction study · fit and cooling unverified. Material unselected; appearance illustrative."
+            }
+          ],
+          "caption": "Forest depth: an experimental Wahoo accent direction. Diffuse light and restrained text highlights bring color into the composition without a solid color panel. The source-derived component image is deliberately reused for this design study; this is not new engineering evidence or an adopted brand palette.",
+          "hashtags": [
+            "#WahooRacing",
+            "#DesignExploration",
+            "#BehindTheBuild"
+          ],
+          "revision": "Reference studies · Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        }
+      ]
+    },
+    {
       "id": "color-testing-rev01",
       "title": "Color Testing",
       "revision": "Translucent accents · Rev02 · 2 November 2026",
