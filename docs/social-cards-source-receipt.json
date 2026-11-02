@@ -949,9 +949,62 @@
       "source": "Social_Media/Instagram/Neon_Red_Deck_Rev01_20261102/exports/RED-08.png",
       "bytes": 1031159,
       "sha256": "5f147e73425643135dc6ce562863719878d06412146c17ea34d02e843bbc1e63"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/blue-studio-rev01/BLUE-01.png",
+      "source": "Social_Media/Instagram/Blue_Studio_Rev01_20261103/exports/BLUE-01.png",
+      "bytes": 1244350,
+      "sha256": "edeb47a60dc4e06c4f6f423d2f53620d3a6fbed62479724801e9f7a9e85bb817"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/blue-studio-rev01/BLUE-02.png",
+      "source": "Social_Media/Instagram/Blue_Studio_Rev01_20261103/exports/BLUE-02.png",
+      "bytes": 56750,
+      "sha256": "8dd5aa7c72ca19fb118fb848088cc0268435a3d3f98a200b66ac6d287fe904e2"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/blue-studio-rev01/BLUE-03.png",
+      "source": "Social_Media/Instagram/Blue_Studio_Rev01_20261103/exports/BLUE-03.png",
+      "bytes": 984572,
+      "sha256": "53dc1793d068b42ccb55f321f68626383a99be17bed517263166fb7e15d0290b"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/blue-studio-rev01/BLUE-04.png",
+      "source": "Social_Media/Instagram/Blue_Studio_Rev01_20261103/exports/BLUE-04.png",
+      "bytes": 103522,
+      "sha256": "bddb1868c166965d627e9a945f3c2d33aaf59a9470241c1e86357e9565f082f8"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/blue-studio-rev01/BLUE-05.png",
+      "source": "Social_Media/Instagram/Blue_Studio_Rev01_20261103/exports/BLUE-05.png",
+      "bytes": 1265018,
+      "sha256": "0b1f8c9d36256583280bf27c2f2a2b412ab4240c7d4b7b847698b3a8973cf7b4"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/blue-studio-rev01/BLUE-06.png",
+      "source": "Social_Media/Instagram/Blue_Studio_Rev01_20261103/exports/BLUE-06.png",
+      "bytes": 46506,
+      "sha256": "aea8215db9c1e92019178593264f8ae3aef74a67967100c5854d49ef9b87a251"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/blue-studio-rev01/BLUE-07.png",
+      "source": "Social_Media/Instagram/Blue_Studio_Rev01_20261103/exports/BLUE-07.png",
+      "bytes": 105120,
+      "sha256": "e5198c9f943c92edd4b8fca5538f6125d29a031bd57ce288a6242d502c558fc3"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/blue-studio-rev01/BLUE-08.png",
+      "source": "Social_Media/Instagram/Blue_Studio_Rev01_20261103/exports/BLUE-08.png",
+      "bytes": 1033058,
+      "sha256": "028453ec2c350a734dfb3ba6c84e9f30e37fba91601fcbdd1ef497bbb9b33c14"
     }
   ],
   "sources": [
+    {
+      "batch": "blue-studio-rev01",
+      "source": "Wahoo_Intelligence/communications/control/20261103-Blue-Studio-Publish/source-posts.json",
+      "sha256": "7e7e7822173f159deb71606111b01c112b1bc4e8dc14b0e8bae629e25639a546"
+    },
     {
       "batch": "neon-red-deck-rev01",
       "source": "Wahoo_Intelligence/communications/control/20261102-Neon-Red-Deck-Publish/source-posts.json",
@@ -1048,7 +1101,7 @@
       "sha256": "9b7f6396265a12f41f83d944e80f97f9a2776353c8df246d4bb5f9eec623b342"
     }
   ],
-  "projectionSha256": "37baeefbd98375d594f704d90f6d45044dede313535e3bdef62adb28e6dbd2b3",
+  "projectionSha256": "cdcb854f652b25575f8416b06707f412a8a05f33f402e592ce959d0224065d91",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",
