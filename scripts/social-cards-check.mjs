@@ -5,13 +5,15 @@ const sourceFilename=card=>{const name=typeof card==='string'?card:card?.file??c
 const raw=fs.readFileSync('content/social-cards.json'),data=JSON.parse(raw),receipt=JSON.parse(fs.readFileSync('docs/social-cards-source-receipt.json'));
 assert.equal(hash(raw),receipt.projectionSha256,'Reviewed public projection changed');
 const keys=(object,expected)=>assert.deepEqual(Object.keys(object).sort(),expected.sort());
-keys(data,['batches']);assert.equal(data.batches.length,14);
-assert.deepEqual(data.batches.map(b=>b.id),['components-rev01','h0-development-rev01','g031-rev01','g030-rev01','g029-rev01','g028-rev01','g026-rev01','g025-rev01','g001c1-rev01','assignment18-rev01','horizon-stories-rev01','engineering-stories-rev01','relaunch-rev03','creative-trial-rev04']);
-assert.deepEqual(data.batches.map(b=>b.posts.length),[11,1,1,2,3,1,1,1,1,1,5,3,8,3]);
-assert.equal(data.batches.reduce((n,b)=>n+b.posts.length,0),42);
-assert.deepEqual(data.batches[1].posts.map(p=>p.id),['H0-DEVELOPMENT-20261101']);
-assert.deepEqual(data.batches[1].posts[0].cards.map(c=>path.basename(c.imageURL)),['H0-01.png','H0-02.png','H0-03.png','H0-04.png','H0-05.png']);
-assert.deepEqual(data.batches[0].posts.map(p=>p.id),["WHE-03-001", "WHE-02-001", "WHE-02-002", "WHE-02-003", "WHE-02-011", "WHE-03-009", "WHE-EXH-001-PIPE", "WHE-EXH-001-JACKET", "THROTTLE-CONCEPT", "WHE-01-009", "PIPE-ALT-SELECTED-SECTION"]);
+keys(data,['batches']);assert.equal(data.batches.length,15);
+assert.deepEqual(data.batches.map(b=>b.id),['color-testing-rev01','components-rev01','h0-development-rev01','g031-rev01','g030-rev01','g029-rev01','g028-rev01','g026-rev01','g025-rev01','g001c1-rev01','assignment18-rev01','horizon-stories-rev01','engineering-stories-rev01','relaunch-rev03','creative-trial-rev04']);
+assert.deepEqual(data.batches.map(b=>b.posts.length),[10,11,1,1,2,3,1,1,1,1,1,5,3,8,3]);
+assert.equal(data.batches.reduce((n,b)=>n+b.posts.length,0),52);
+assert.deepEqual(data.batches[2].posts.map(p=>p.id),['H0-DEVELOPMENT-20261101']);
+assert.deepEqual(data.batches[2].posts[0].cards.map(c=>path.basename(c.imageURL)),['H0-01.png','H0-02.png','H0-03.png','H0-04.png','H0-05.png']);
+assert.deepEqual(data.batches[1].posts.map(p=>p.id),["WHE-03-001", "WHE-02-001", "WHE-02-002", "WHE-02-003", "WHE-02-011", "WHE-03-009", "WHE-EXH-001-PIPE", "WHE-EXH-001-JACKET", "THROTTLE-CONCEPT", "WHE-01-009", "PIPE-ALT-SELECTED-SECTION"]);
+assert(data.batches[1].posts.every(p=>p.cards.length===1));
+assert.deepEqual(data.batches[0].posts.map(p=>p.id),["DARK-BLUE-CONTROL", "DARK-DARK-RED", "DARK-NEON-YELLOW", "DARK-NEON-ORANGE", "DARK-DARK-GREEN", "LIGHT-BLUE-CONTROL", "LIGHT-DARK-RED", "LIGHT-NEON-YELLOW", "LIGHT-NEON-ORANGE", "LIGHT-DARK-GREEN"]);
 assert(data.batches[0].posts.every(p=>p.cards.length===1));
 const html=fs.readFileSync('dist/preview/social-cards/index.html','utf8');
 const g031Visible=html.includes('id="g031-rev01"');const projected=g031Visible?data:{...data,batches:data.batches.filter(b=>b.id!=='g031-rev01')};const markup=socialCards(projected);
@@ -40,7 +42,7 @@ for(const batch of projected.batches){
     }
   }
 }
-assert.equal(count,g031Visible?116:113);assert.equal(receipt.files.length,116);
+assert.equal(count,g031Visible?126:123);assert.equal(receipt.files.length,126);
 function walk(folder){return fs.readdirSync(folder,{withFileTypes:true}).flatMap(f=>f.isDirectory()?walk(path.join(folder,f.name)):[path.join(folder,f.name)]);}
 const retained=receipt.retainedFiles||[];
 for(const record of retained){assert(!urls.has(record.imageURL));assert(/^\/preview\/social-cards\/images\/[a-z0-9-]+\/[A-Z0-9-]+\.png$/.test(record.imageURL));for(const base of ['public','dist']){const raw=fs.readFileSync(base+record.imageURL);assert.equal(raw.length,record.bytes);assert.equal(hash(raw),record.sha256,'Historical image URL changed');}}

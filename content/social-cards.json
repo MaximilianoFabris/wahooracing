@@ -1,6 +1,203 @@
 {
   "batches": [
     {
+      "id": "color-testing-rev01",
+      "title": "Color Testing",
+      "revision": "Experimental accents · Rev01 · 2 November 2026",
+      "posts": [
+        {
+          "id": "DARK-BLUE-CONTROL",
+          "title": "Blue control · dark background",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/color-testing-rev01/DARK-BLUE-CONTROL.png",
+              "alt": "Blue control accent (#94BCE3) on a dark Wahoo card, with the unchanged metallic cylinder study. Cylinder body; 54 mm nominal bore; 94 mm provisional envelope. Preliminary construction, not manufacturing released. Material unselected; metal finish is visualization."
+            }
+          ],
+          "caption": "Color testing: blue control (#94BCE3) on a dark background.\n\nAn experimental accent alongside Wahoo’s existing blue. The same cylinder image and layout are deliberately reused so the colors can be compared fairly. This is a visual mockup, not an adopted brand palette or a new engineering result.\n\nThe cylinder remains a preliminary source-derived study. Material is unselected; its metallic finish is visualization.",
+          "hashtags": [
+            "#WahooRacing",
+            "#DesignExploration",
+            "#ColorStudy"
+          ],
+          "revision": "Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "DARK-DARK-RED",
+          "title": "Dark red · dark background",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/color-testing-rev01/DARK-DARK-RED.png",
+              "alt": "Dark red accent (#8F2437) on a dark Wahoo card, with the unchanged metallic cylinder study. Cylinder body; 54 mm nominal bore; 94 mm provisional envelope. Preliminary construction, not manufacturing released. Material unselected; metal finish is visualization."
+            }
+          ],
+          "caption": "Color testing: dark red (#8F2437) on a dark background.\n\nAn experimental accent alongside Wahoo’s existing blue. The same cylinder image and layout are deliberately reused so the colors can be compared fairly. This is a visual mockup, not an adopted brand palette or a new engineering result.\n\nThe cylinder remains a preliminary source-derived study. Material is unselected; its metallic finish is visualization.",
+          "hashtags": [
+            "#WahooRacing",
+            "#DesignExploration",
+            "#ColorStudy"
+          ],
+          "revision": "Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "DARK-NEON-YELLOW",
+          "title": "Neon yellow · dark background",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/color-testing-rev01/DARK-NEON-YELLOW.png",
+              "alt": "Neon yellow accent (#DEFF00) on a dark Wahoo card, with the unchanged metallic cylinder study. Cylinder body; 54 mm nominal bore; 94 mm provisional envelope. Preliminary construction, not manufacturing released. Material unselected; metal finish is visualization."
+            }
+          ],
+          "caption": "Color testing: neon yellow (#DEFF00) on a dark background.\n\nAn experimental accent alongside Wahoo’s existing blue. The same cylinder image and layout are deliberately reused so the colors can be compared fairly. This is a visual mockup, not an adopted brand palette or a new engineering result.\n\nThe cylinder remains a preliminary source-derived study. Material is unselected; its metallic finish is visualization.",
+          "hashtags": [
+            "#WahooRacing",
+            "#DesignExploration",
+            "#ColorStudy"
+          ],
+          "revision": "Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "DARK-NEON-ORANGE",
+          "title": "Neon orange · dark background",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/color-testing-rev01/DARK-NEON-ORANGE.png",
+              "alt": "Neon orange accent (#FF661A) on a dark Wahoo card, with the unchanged metallic cylinder study. Cylinder body; 54 mm nominal bore; 94 mm provisional envelope. Preliminary construction, not manufacturing released. Material unselected; metal finish is visualization."
+            }
+          ],
+          "caption": "Color testing: neon orange (#FF661A) on a dark background.\n\nAn experimental accent alongside Wahoo’s existing blue. The same cylinder image and layout are deliberately reused so the colors can be compared fairly. This is a visual mockup, not an adopted brand palette or a new engineering result.\n\nThe cylinder remains a preliminary source-derived study. Material is unselected; its metallic finish is visualization.",
+          "hashtags": [
+            "#WahooRacing",
+            "#DesignExploration",
+            "#ColorStudy"
+          ],
+          "revision": "Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "DARK-DARK-GREEN",
+          "title": "Dark green · dark background",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/color-testing-rev01/DARK-DARK-GREEN.png",
+              "alt": "Dark green accent (#155C48) on a dark Wahoo card, with the unchanged metallic cylinder study. Cylinder body; 54 mm nominal bore; 94 mm provisional envelope. Preliminary construction, not manufacturing released. Material unselected; metal finish is visualization."
+            }
+          ],
+          "caption": "Color testing: dark green (#155C48) on a dark background.\n\nAn experimental accent alongside Wahoo’s existing blue. The same cylinder image and layout are deliberately reused so the colors can be compared fairly. This is a visual mockup, not an adopted brand palette or a new engineering result.\n\nThe cylinder remains a preliminary source-derived study. Material is unselected; its metallic finish is visualization.",
+          "hashtags": [
+            "#WahooRacing",
+            "#DesignExploration",
+            "#ColorStudy"
+          ],
+          "revision": "Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "LIGHT-BLUE-CONTROL",
+          "title": "Blue control · light background",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/color-testing-rev01/LIGHT-BLUE-CONTROL.png",
+              "alt": "Blue control accent (#94BCE3) on a light Wahoo card, with the unchanged metallic cylinder study. Cylinder body; 54 mm nominal bore; 94 mm provisional envelope. Preliminary construction, not manufacturing released. Material unselected; metal finish is visualization."
+            }
+          ],
+          "caption": "Color testing: blue control (#94BCE3) on a light background.\n\nAn experimental accent alongside Wahoo’s existing blue. The same cylinder image and layout are deliberately reused so the colors can be compared fairly. This is a visual mockup, not an adopted brand palette or a new engineering result.\n\nThe cylinder remains a preliminary source-derived study. Material is unselected; its metallic finish is visualization.",
+          "hashtags": [
+            "#WahooRacing",
+            "#DesignExploration",
+            "#ColorStudy"
+          ],
+          "revision": "Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "LIGHT-DARK-RED",
+          "title": "Dark red · light background",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/color-testing-rev01/LIGHT-DARK-RED.png",
+              "alt": "Dark red accent (#8F2437) on a light Wahoo card, with the unchanged metallic cylinder study. Cylinder body; 54 mm nominal bore; 94 mm provisional envelope. Preliminary construction, not manufacturing released. Material unselected; metal finish is visualization."
+            }
+          ],
+          "caption": "Color testing: dark red (#8F2437) on a light background.\n\nAn experimental accent alongside Wahoo’s existing blue. The same cylinder image and layout are deliberately reused so the colors can be compared fairly. This is a visual mockup, not an adopted brand palette or a new engineering result.\n\nThe cylinder remains a preliminary source-derived study. Material is unselected; its metallic finish is visualization.",
+          "hashtags": [
+            "#WahooRacing",
+            "#DesignExploration",
+            "#ColorStudy"
+          ],
+          "revision": "Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "LIGHT-NEON-YELLOW",
+          "title": "Neon yellow · light background",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/color-testing-rev01/LIGHT-NEON-YELLOW.png",
+              "alt": "Neon yellow accent (#DEFF00) on a light Wahoo card, with the unchanged metallic cylinder study. Cylinder body; 54 mm nominal bore; 94 mm provisional envelope. Preliminary construction, not manufacturing released. Material unselected; metal finish is visualization."
+            }
+          ],
+          "caption": "Color testing: neon yellow (#DEFF00) on a light background.\n\nAn experimental accent alongside Wahoo’s existing blue. The same cylinder image and layout are deliberately reused so the colors can be compared fairly. This is a visual mockup, not an adopted brand palette or a new engineering result.\n\nThe cylinder remains a preliminary source-derived study. Material is unselected; its metallic finish is visualization.",
+          "hashtags": [
+            "#WahooRacing",
+            "#DesignExploration",
+            "#ColorStudy"
+          ],
+          "revision": "Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "LIGHT-NEON-ORANGE",
+          "title": "Neon orange · light background",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/color-testing-rev01/LIGHT-NEON-ORANGE.png",
+              "alt": "Neon orange accent (#FF661A) on a light Wahoo card, with the unchanged metallic cylinder study. Cylinder body; 54 mm nominal bore; 94 mm provisional envelope. Preliminary construction, not manufacturing released. Material unselected; metal finish is visualization."
+            }
+          ],
+          "caption": "Color testing: neon orange (#FF661A) on a light background.\n\nAn experimental accent alongside Wahoo’s existing blue. The same cylinder image and layout are deliberately reused so the colors can be compared fairly. This is a visual mockup, not an adopted brand palette or a new engineering result.\n\nThe cylinder remains a preliminary source-derived study. Material is unselected; its metallic finish is visualization.",
+          "hashtags": [
+            "#WahooRacing",
+            "#DesignExploration",
+            "#ColorStudy"
+          ],
+          "revision": "Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "LIGHT-DARK-GREEN",
+          "title": "Dark green · light background",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/color-testing-rev01/LIGHT-DARK-GREEN.png",
+              "alt": "Dark green accent (#155C48) on a light Wahoo card, with the unchanged metallic cylinder study. Cylinder body; 54 mm nominal bore; 94 mm provisional envelope. Preliminary construction, not manufacturing released. Material unselected; metal finish is visualization."
+            }
+          ],
+          "caption": "Color testing: dark green (#155C48) on a light background.\n\nAn experimental accent alongside Wahoo’s existing blue. The same cylinder image and layout are deliberately reused so the colors can be compared fairly. This is a visual mockup, not an adopted brand palette or a new engineering result.\n\nThe cylinder remains a preliminary source-derived study. Material is unselected; its metallic finish is visualization.",
+          "hashtags": [
+            "#WahooRacing",
+            "#DesignExploration",
+            "#ColorStudy"
+          ],
+          "revision": "Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        }
+      ]
+    },
+    {
       "id": "components-rev01",
       "title": "Component collection · ten parts + optional exhaust view",
       "revision": "Rev01 · 2 November 2026",

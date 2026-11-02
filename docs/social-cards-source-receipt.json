@@ -697,9 +697,74 @@
       "source": "Social_Media/Instagram/Component_Collection_Rev01_20261102/alternatives/PIPE-ALT-SELECTED-SECTION.png",
       "bytes": 143492,
       "sha256": "d3e9637931c17a14bc5fdd44686ee96aec96b5917f592c054243f408ad1758ff"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/color-testing-rev01/DARK-BLUE-CONTROL.png",
+      "source": "Social_Media/Instagram/Accent_Studies_Rev01_20261102/exports/dark-blue-control.png",
+      "bytes": 319855,
+      "sha256": "c54ad8e6f5013a19c99014ff9dcb141ef7565698c8bb79b415682b8d65332cf4"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/color-testing-rev01/DARK-DARK-RED.png",
+      "source": "Social_Media/Instagram/Accent_Studies_Rev01_20261102/exports/dark-dark-red.png",
+      "bytes": 319848,
+      "sha256": "597fe8ae6cc75ade055ea62decfcf748f1bb67babf4f7b5c0b31dbd216ef6374"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/color-testing-rev01/DARK-NEON-YELLOW.png",
+      "source": "Social_Media/Instagram/Accent_Studies_Rev01_20261102/exports/dark-neon-yellow.png",
+      "bytes": 319618,
+      "sha256": "a1485328e9a3bda6ffc82f2c50ce9d6589f8c3aa0e201a193b34c88014e9c6e5"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/color-testing-rev01/DARK-NEON-ORANGE.png",
+      "source": "Social_Media/Instagram/Accent_Studies_Rev01_20261102/exports/dark-neon-orange.png",
+      "bytes": 318863,
+      "sha256": "d63e4c759a28a37bcb8526ff6227ac2f0f4b83db9cddd43fcd26b1a195be667e"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/color-testing-rev01/DARK-DARK-GREEN.png",
+      "source": "Social_Media/Instagram/Accent_Studies_Rev01_20261102/exports/dark-dark-green.png",
+      "bytes": 319958,
+      "sha256": "1cbc5c7465a2520e0b08b84779d455121d280cdb16a2fd0bbe2f0687a826d145"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/color-testing-rev01/LIGHT-BLUE-CONTROL.png",
+      "source": "Social_Media/Instagram/Accent_Studies_Rev01_20261102/exports/light-blue-control.png",
+      "bytes": 317829,
+      "sha256": "05db59a034671a8b0dbd42855f4afbbfb2bb5de8efce64f2cb36d4506030675f"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/color-testing-rev01/LIGHT-DARK-RED.png",
+      "source": "Social_Media/Instagram/Accent_Studies_Rev01_20261102/exports/light-dark-red.png",
+      "bytes": 317798,
+      "sha256": "a05ff7c2f2f0346be4872a0997eabd183f00ff9377ee07accb79fd6abed4eee2"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/color-testing-rev01/LIGHT-NEON-YELLOW.png",
+      "source": "Social_Media/Instagram/Accent_Studies_Rev01_20261102/exports/light-neon-yellow.png",
+      "bytes": 317565,
+      "sha256": "73251792c7f7bf207637ecf03fcda1698635a44706813f2a070973811f196bbd"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/color-testing-rev01/LIGHT-NEON-ORANGE.png",
+      "source": "Social_Media/Instagram/Accent_Studies_Rev01_20261102/exports/light-neon-orange.png",
+      "bytes": 316832,
+      "sha256": "1dd1aa82e236e2c922daa4e76498a189f3da18749ee1472ad932c80c4d431f35"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/color-testing-rev01/LIGHT-DARK-GREEN.png",
+      "source": "Social_Media/Instagram/Accent_Studies_Rev01_20261102/exports/light-dark-green.png",
+      "bytes": 317911,
+      "sha256": "d2565f91c856409256ff981377e3c629d2f17072aa9f500fd344835d114033ea"
     }
   ],
   "sources": [
+    {
+      "batch": "color-testing-rev01",
+      "source": "Wahoo_Intelligence/communications/control/20261102-Color-Testing-Publish/source-posts.json",
+      "sha256": "a517b4cc56a4fe9d2c65c71b6e5aee7ab6e0e56aa2f7a579e2e7309e83b3e665"
+    },
     {
       "batch": "components-rev01",
       "source": "Website/Component_Cards_Publication_Rev01_20261102/release-source-posts.json",
@@ -771,7 +836,7 @@
       "sha256": "9b7f6396265a12f41f83d944e80f97f9a2776353c8df246d4bb5f9eec623b342"
     }
   ],
-  "projectionSha256": "371f19f0c35e34d80d4fa01f72075c278d868edff22af060018ba7b9f2f40d89",
+  "projectionSha256": "6ebc1842f8779bba18d7cdfac5ab2640284ec6549eacaca31be26cd7a5462b2a",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",
