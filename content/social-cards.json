@@ -1,6 +1,165 @@
 {
   "batches": [
     {
+      "id": "color-impact-rev01",
+      "title": "Color Testing · high impact",
+      "revision": "Eight stronger mockups · Rev01 · 2 November 2026",
+      "posts": [
+        {
+          "id": "01-DARK",
+          "title": "Orange surge · dark",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/color-impact-rev01/01-DARK.png",
+              "alt": "Orange surge palette exploration on a dark background. a broad opaque orange sweep with a fine blue counter-line. Original Wahoo wordmark. Headline: BUILT TO UNDERSTAND. Source-derived WHE-03-001 rendered in neutral metal. Preliminary cylinder construction · not manufacturing released. Material unselected; appearance illustrative."
+            }
+          ],
+          "caption": "Orange surge: an experimental Wahoo accent direction. Saturated opaque graphic strokes and bolder typography give the accent a stronger role without adding a solid rectangular color panel. The source-derived component image is deliberately reused for this design study; this is not new engineering evidence or an adopted brand palette.",
+          "hashtags": [
+            "#WahooRacing",
+            "#DesignExploration",
+            "#BehindTheBuild"
+          ],
+          "revision": "High-impact studies · Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "01-LIGHT",
+          "title": "Orange surge · light",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/color-impact-rev01/01-LIGHT.png",
+              "alt": "Orange surge palette exploration on a light background. a broad opaque orange sweep with a fine blue counter-line. Original Wahoo wordmark. Headline: BUILT TO UNDERSTAND. Source-derived WHE-03-001 rendered in neutral metal. Preliminary cylinder construction · not manufacturing released. Material unselected; appearance illustrative."
+            }
+          ],
+          "caption": "Orange surge: an experimental Wahoo accent direction. Saturated opaque graphic strokes and bolder typography give the accent a stronger role without adding a solid rectangular color panel. The source-derived component image is deliberately reused for this design study; this is not new engineering evidence or an adopted brand palette.",
+          "hashtags": [
+            "#WahooRacing",
+            "#DesignExploration",
+            "#BehindTheBuild"
+          ],
+          "revision": "High-impact studies · Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "02-DARK",
+          "title": "Crimson cut · dark",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/color-impact-rev01/02-DARK.png",
+              "alt": "Crimson cut palette exploration on a dark background. a saturated crimson cut arc. Original Wahoo wordmark. Headline: DESIGN IN THE OPEN. Source-derived WHE-02-001 rendered in neutral metal. Stock study · sealed joints and fasteners remain unresolved. Material unselected; appearance illustrative."
+            }
+          ],
+          "caption": "Crimson cut: an experimental Wahoo accent direction. Saturated opaque graphic strokes and bolder typography give the accent a stronger role without adding a solid rectangular color panel. The source-derived component image is deliberately reused for this design study; this is not new engineering evidence or an adopted brand palette.",
+          "hashtags": [
+            "#WahooRacing",
+            "#DesignExploration",
+            "#BehindTheBuild"
+          ],
+          "revision": "High-impact studies · Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "02-LIGHT",
+          "title": "Crimson cut · light",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/color-impact-rev01/02-LIGHT.png",
+              "alt": "Crimson cut palette exploration on a light background. a saturated crimson cut arc. Original Wahoo wordmark. Headline: DESIGN IN THE OPEN. Source-derived WHE-02-001 rendered in neutral metal. Stock study · sealed joints and fasteners remain unresolved. Material unselected; appearance illustrative."
+            }
+          ],
+          "caption": "Crimson cut: an experimental Wahoo accent direction. Saturated opaque graphic strokes and bolder typography give the accent a stronger role without adding a solid rectangular color panel. The source-derived component image is deliberately reused for this design study; this is not new engineering evidence or an adopted brand palette.",
+          "hashtags": [
+            "#WahooRacing",
+            "#DesignExploration",
+            "#BehindTheBuild"
+          ],
+          "revision": "High-impact studies · Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "03-DARK",
+          "title": "Volt yellow · dark",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/color-impact-rev01/03-DARK.png",
+              "alt": "Volt yellow palette exploration on a dark background. a bold opaque volt-yellow crescent. Original Wahoo wordmark. Headline: ASK. MODEL. CHECK. LEARN. Source-derived WHE-01-009 rendered in neutral metal. Supplier reconstruction · not a Wahoo-designed piston. Material unselected; appearance illustrative."
+            }
+          ],
+          "caption": "Volt yellow: an experimental Wahoo accent direction. Saturated opaque graphic strokes and bolder typography give the accent a stronger role without adding a solid rectangular color panel. The source-derived component image is deliberately reused for this design study; this is not new engineering evidence or an adopted brand palette.",
+          "hashtags": [
+            "#WahooRacing",
+            "#DesignExploration",
+            "#BehindTheBuild"
+          ],
+          "revision": "High-impact studies · Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "03-LIGHT",
+          "title": "Volt yellow · light",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/color-impact-rev01/03-LIGHT.png",
+              "alt": "Volt yellow palette exploration on a light background. a bold opaque volt-yellow crescent. Original Wahoo wordmark. Headline: ASK. MODEL. CHECK. LEARN. Source-derived WHE-01-009 rendered in neutral metal. Supplier reconstruction · not a Wahoo-designed piston. Material unselected; appearance illustrative."
+            }
+          ],
+          "caption": "Volt yellow: an experimental Wahoo accent direction. Saturated opaque graphic strokes and bolder typography give the accent a stronger role without adding a solid rectangular color panel. The source-derived component image is deliberately reused for this design study; this is not new engineering evidence or an adopted brand palette.",
+          "hashtags": [
+            "#WahooRacing",
+            "#DesignExploration",
+            "#BehindTheBuild"
+          ],
+          "revision": "High-impact studies · Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "04-DARK",
+          "title": "Racing green · dark",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/color-impact-rev01/04-DARK.png",
+              "alt": "Racing green palette exploration on a dark background. a strong green folded sweep with an open centre. Original Wahoo wordmark. Headline: DETAILS MATTER. Source-derived WHE-03-009 rendered in neutral metal. Cooling-cover construction study · fit and cooling unverified. Material unselected; appearance illustrative."
+            }
+          ],
+          "caption": "Racing green: an experimental Wahoo accent direction. Saturated opaque graphic strokes and bolder typography give the accent a stronger role without adding a solid rectangular color panel. The source-derived component image is deliberately reused for this design study; this is not new engineering evidence or an adopted brand palette.",
+          "hashtags": [
+            "#WahooRacing",
+            "#DesignExploration",
+            "#BehindTheBuild"
+          ],
+          "revision": "High-impact studies · Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "04-LIGHT",
+          "title": "Racing green · light",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/color-impact-rev01/04-LIGHT.png",
+              "alt": "Racing green palette exploration on a light background. a strong green folded sweep with an open centre. Original Wahoo wordmark. Headline: DETAILS MATTER. Source-derived WHE-03-009 rendered in neutral metal. Cooling-cover construction study · fit and cooling unverified. Material unselected; appearance illustrative."
+            }
+          ],
+          "caption": "Racing green: an experimental Wahoo accent direction. Saturated opaque graphic strokes and bolder typography give the accent a stronger role without adding a solid rectangular color panel. The source-derived component image is deliberately reused for this design study; this is not new engineering evidence or an adopted brand palette.",
+          "hashtags": [
+            "#WahooRacing",
+            "#DesignExploration",
+            "#BehindTheBuild"
+          ],
+          "revision": "High-impact studies · Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        }
+      ]
+    },
+    {
       "id": "color-reference-rev01",
       "title": "Color Testing · reference studies",
       "revision": "Eight additional mockups · Rev01 · 2 November 2026",

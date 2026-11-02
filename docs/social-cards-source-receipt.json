@@ -805,9 +805,62 @@
       "source": "Social_Media/Instagram/Accent_Reference_Studies_Rev01_20261102/exports/04-LIGHT.png",
       "bytes": 594414,
       "sha256": "a2a2bb21e340c4d7f0544eb7f3a65610709d5127e41bb3f1868480b202273f4e"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/color-impact-rev01/01-DARK.png",
+      "source": "Social_Media/Instagram/Accent_Impact_Studies_Rev01_20261102/exports/01-DARK.png",
+      "bytes": 251337,
+      "sha256": "684cd4593a0cb331a51adb25fa7ec5c9b436783d64b2cba686f908335c777672"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/color-impact-rev01/01-LIGHT.png",
+      "source": "Social_Media/Instagram/Accent_Impact_Studies_Rev01_20261102/exports/01-LIGHT.png",
+      "bytes": 248845,
+      "sha256": "7e72c950fc0cec5dbc9d0d4fafd21768de81485cd6b43938762328552e4728db"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/color-impact-rev01/02-DARK.png",
+      "source": "Social_Media/Instagram/Accent_Impact_Studies_Rev01_20261102/exports/02-DARK.png",
+      "bytes": 230792,
+      "sha256": "018e86d92490f917523591e08055e3507fb871fa6ba955f755b5e1b77c6b9f51"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/color-impact-rev01/02-LIGHT.png",
+      "source": "Social_Media/Instagram/Accent_Impact_Studies_Rev01_20261102/exports/02-LIGHT.png",
+      "bytes": 227875,
+      "sha256": "06913712ee8a565852f11642f882a8c45399ddbd5ad5c5f5d967577d4253787e"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/color-impact-rev01/03-DARK.png",
+      "source": "Social_Media/Instagram/Accent_Impact_Studies_Rev01_20261102/exports/03-DARK.png",
+      "bytes": 248923,
+      "sha256": "b52560776a2830cb1e904c8a3ddab29c7acb03c2ca0df14090c1024088692e3e"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/color-impact-rev01/03-LIGHT.png",
+      "source": "Social_Media/Instagram/Accent_Impact_Studies_Rev01_20261102/exports/03-LIGHT.png",
+      "bytes": 246500,
+      "sha256": "92bbd7ae9fab34660b166d9847a9c22c41d8f3e880055c866339205158275cb6"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/color-impact-rev01/04-DARK.png",
+      "source": "Social_Media/Instagram/Accent_Impact_Studies_Rev01_20261102/exports/04-DARK.png",
+      "bytes": 301684,
+      "sha256": "c6f15254b9decea1996dcfb84fd26534bb31a86c6366da072f0b05e7a280d6d1"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/color-impact-rev01/04-LIGHT.png",
+      "source": "Social_Media/Instagram/Accent_Impact_Studies_Rev01_20261102/exports/04-LIGHT.png",
+      "bytes": 299080,
+      "sha256": "dff394e7e9329f85aee4fc4817b7f904fc541bf76280a10ad7c6bd9fd2f12a4c"
     }
   ],
   "sources": [
+    {
+      "batch": "color-impact-rev01",
+      "source": "Wahoo_Intelligence/communications/control/20261102-Impact-Accents-Publish/source-posts.json",
+      "sha256": "bdb01370bf7d66986d94e04a666b04bfb597a38876e08febb442d893896f8abe"
+    },
     {
       "batch": "color-reference-rev01",
       "source": "Wahoo_Intelligence/communications/control/20261102-Reference-Accents-Publish/source-posts.json",
@@ -889,7 +942,7 @@
       "sha256": "9b7f6396265a12f41f83d944e80f97f9a2776353c8df246d4bb5f9eec623b342"
     }
   ],
-  "projectionSha256": "85996ee9b4e4216126973da8890346dd65e755ba421c2beb5d419f1a3fe0add4",
+  "projectionSha256": "c2dc45b286593928005bb86a2eee6a1fe721ffb1c027051d58246768bc01f99e",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",
