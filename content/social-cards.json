@@ -3,7 +3,7 @@
     {
       "id": "blue-studio-rev01",
       "title": "Wahoo blue · studio set",
-      "revision": "Approved look & feel / mirrored carbon correction Rev02 · 3 November 2026",
+      "revision": "Approved look & feel / mirrored carbon correction Rev03 · 3 November 2026",
       "posts": [
         {
           "id": "BLUE-01",
@@ -11,7 +11,7 @@
           "format": "Single image",
           "cards": [
             {
-              "imageURL": "/preview/social-cards/images/blue-studio-rev02/BLUE-01.png",
+              "imageURL": "/preview/social-cards/images/blue-studio-rev03/BLUE-01.png",
               "alt": "Cinematic dark hull study with restrained Wahoo-blue and cool reflections. Headline: A NEW WAY TO THE WATER. Historical H0 deck geometry only; cosmetic finish, not a tested production board."
             }
           ],
@@ -21,7 +21,7 @@
             "#BehindTheBuild",
             "#EngineeringDesign"
           ],
-          "revision": "Approved blue direction · carbon correction Rev02 · 3 November 2026",
+          "revision": "Approved blue direction · carbon correction Rev03 · 3 November 2026",
           "reviewStatus": "OWNER_REVIEW"
         },
         {
@@ -87,7 +87,7 @@
           "format": "Single image",
           "cards": [
             {
-              "imageURL": "/preview/social-cards/images/blue-studio-rev02/BLUE-05.png",
+              "imageURL": "/preview/social-cards/images/blue-studio-rev03/BLUE-05.png",
               "alt": "Light studio card showing the historical H0 hull deck from another camera angle. Headline: FORM FIRST. THE SHAPE OF WHAT'S NEXT. Cosmetic finish on development geometry."
             }
           ],
@@ -97,7 +97,7 @@
             "#BehindTheBuild",
             "#EngineeringDesign"
           ],
-          "revision": "Approved blue direction · carbon correction Rev02 · 3 November 2026",
+          "revision": "Approved blue direction · carbon correction Rev03 · 3 November 2026",
           "reviewStatus": "OWNER_REVIEW"
         },
         {
