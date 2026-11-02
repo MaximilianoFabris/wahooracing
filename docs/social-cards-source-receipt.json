@@ -853,9 +853,62 @@
       "source": "Social_Media/Instagram/Accent_Impact_Studies_Rev01_20261102/exports/04-LIGHT.png",
       "bytes": 299080,
       "sha256": "dff394e7e9329f85aee4fc4817b7f904fc541bf76280a10ad7c6bd9fd2f12a4c"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/cinematic-mixed-rev01/STUDIO-01.png",
+      "source": "Social_Media/Instagram/Cinematic_Mixed_Set_Rev01_20261102/exports/STUDIO-01.png",
+      "bytes": 1040151,
+      "sha256": "d0251e8c2bd3ba49c51eb9938a3fab8c872179f39b9478a1b5ce25081e9c717d"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/cinematic-mixed-rev01/STUDIO-02.png",
+      "source": "Social_Media/Instagram/Cinematic_Mixed_Set_Rev01_20261102/exports/STUDIO-02.png",
+      "bytes": 56669,
+      "sha256": "f62c395b7e97a6ffe1263c059e12d5107a653786bad503bba84aeb2e215ec6dd"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/cinematic-mixed-rev01/STUDIO-03.png",
+      "source": "Social_Media/Instagram/Cinematic_Mixed_Set_Rev01_20261102/exports/STUDIO-03.png",
+      "bytes": 1052894,
+      "sha256": "55ea08fe0fcc6f49e18650a4c4ae827ce72eb1109a173470de9955371187d676"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/cinematic-mixed-rev01/STUDIO-04.png",
+      "source": "Social_Media/Instagram/Cinematic_Mixed_Set_Rev01_20261102/exports/STUDIO-04.png",
+      "bytes": 103620,
+      "sha256": "700c573bfeecad7e33c48da3804e53057b97d4028bda27492a32c414de67a6be"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/cinematic-mixed-rev01/STUDIO-05.png",
+      "source": "Social_Media/Instagram/Cinematic_Mixed_Set_Rev01_20261102/exports/STUDIO-05.png",
+      "bytes": 1063786,
+      "sha256": "f597761edc89fcdff2c9568dceeffac8b6eb686a36ae7c7a7e2b6af4960241b1"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/cinematic-mixed-rev01/STUDIO-06.png",
+      "source": "Social_Media/Instagram/Cinematic_Mixed_Set_Rev01_20261102/exports/STUDIO-06.png",
+      "bytes": 46255,
+      "sha256": "aee7c0e6dafc49b9e4f631f50ce2795c9068fcdf46e6909f4560504a9640b854"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/cinematic-mixed-rev01/STUDIO-07.png",
+      "source": "Social_Media/Instagram/Cinematic_Mixed_Set_Rev01_20261102/exports/STUDIO-07.png",
+      "bytes": 105706,
+      "sha256": "4a1e34bfdc4282623d0fe566a49d0eb63fd9306411bd77b98b346ac59f2100c6"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/cinematic-mixed-rev01/STUDIO-08.png",
+      "source": "Social_Media/Instagram/Cinematic_Mixed_Set_Rev01_20261102/exports/STUDIO-08.png",
+      "bytes": 1022582,
+      "sha256": "eaea92fafb5e3a498e95eea20fcc8e9f253f8d72db8c36669c25b1e20c5fefa4"
     }
   ],
   "sources": [
+    {
+      "batch": "cinematic-mixed-rev01",
+      "source": "Wahoo_Intelligence/communications/control/20261102-Cinematic-Mixed-Publish/source-posts.json",
+      "sha256": "9779379e0f925b615288b2018f8614141fadb9a26dc60ff7bc03b2d084bffb34"
+    },
     {
       "batch": "color-impact-rev01",
       "source": "Wahoo_Intelligence/communications/control/20261102-Impact-Accents-Publish/source-posts.json",
@@ -942,7 +995,7 @@
       "sha256": "9b7f6396265a12f41f83d944e80f97f9a2776353c8df246d4bb5f9eec623b342"
     }
   ],
-  "projectionSha256": "c2dc45b286593928005bb86a2eee6a1fe721ffb1c027051d58246768bc01f99e",
+  "projectionSha256": "3a76fbc2916e75a250ba957bd0b5ded256428cdffa1d8e8b6afe0e3c842965d5",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",
