@@ -901,9 +901,62 @@
       "source": "Social_Media/Instagram/Cinematic_Mixed_Set_Rev01_20261102/exports/STUDIO-08.png",
       "bytes": 1022582,
       "sha256": "eaea92fafb5e3a498e95eea20fcc8e9f253f8d72db8c36669c25b1e20c5fefa4"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/neon-red-deck-rev01/RED-01.png",
+      "source": "Social_Media/Instagram/Neon_Red_Deck_Rev01_20261102/exports/RED-01.png",
+      "bytes": 1259004,
+      "sha256": "e4da87df29aa76cc1566560423a680bfa89d19657c41e6ccb3429ee67cc6952d"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/neon-red-deck-rev01/RED-02.png",
+      "source": "Social_Media/Instagram/Neon_Red_Deck_Rev01_20261102/exports/RED-02.png",
+      "bytes": 56581,
+      "sha256": "d052c7f1151ba895afa6fdecca5c82282cd6bb003893bf65565d9cd713cebf8a"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/neon-red-deck-rev01/RED-03.png",
+      "source": "Social_Media/Instagram/Neon_Red_Deck_Rev01_20261102/exports/RED-03.png",
+      "bytes": 1051559,
+      "sha256": "8e945e55a6faad2e277209271ec14db299a24f54f7f8e375fb422f2fe1e2efd5"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/neon-red-deck-rev01/RED-04.png",
+      "source": "Social_Media/Instagram/Neon_Red_Deck_Rev01_20261102/exports/RED-04.png",
+      "bytes": 103620,
+      "sha256": "7dd9256d2f199710d33d8e86eb1bdfde86cfd0c7c14d27de3883770a0a7f8227"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/neon-red-deck-rev01/RED-05.png",
+      "source": "Social_Media/Instagram/Neon_Red_Deck_Rev01_20261102/exports/RED-05.png",
+      "bytes": 1321238,
+      "sha256": "8c51cf9423a32e5cacdd6571c251276bb3521428d94f2ae539a7fddcee356208"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/neon-red-deck-rev01/RED-06.png",
+      "source": "Social_Media/Instagram/Neon_Red_Deck_Rev01_20261102/exports/RED-06.png",
+      "bytes": 45539,
+      "sha256": "9e4ce2dec6f96419b5c03351479d3e04aec70fe8443356fed958ba45c5db6e3e"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/neon-red-deck-rev01/RED-07.png",
+      "source": "Social_Media/Instagram/Neon_Red_Deck_Rev01_20261102/exports/RED-07.png",
+      "bytes": 104655,
+      "sha256": "b8856b53fb3a6e8b5015e565dcc9d14a9ceb23ad65d404f8f6b6d0d7c9b2447d"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/neon-red-deck-rev01/RED-08.png",
+      "source": "Social_Media/Instagram/Neon_Red_Deck_Rev01_20261102/exports/RED-08.png",
+      "bytes": 1031159,
+      "sha256": "5f147e73425643135dc6ce562863719878d06412146c17ea34d02e843bbc1e63"
     }
   ],
   "sources": [
+    {
+      "batch": "neon-red-deck-rev01",
+      "source": "Wahoo_Intelligence/communications/control/20261102-Neon-Red-Deck-Publish/source-posts.json",
+      "sha256": "10cea9c5388ffb769aa7a8cd5bf38c80802fc40e6083c87e7bb042d4bed2e49a"
+    },
     {
       "batch": "cinematic-mixed-rev01",
       "source": "Wahoo_Intelligence/communications/control/20261102-Cinematic-Mixed-Publish/source-posts.json",
@@ -995,7 +1048,7 @@
       "sha256": "9b7f6396265a12f41f83d944e80f97f9a2776353c8df246d4bb5f9eec623b342"
     }
   ],
-  "projectionSha256": "3a76fbc2916e75a250ba957bd0b5ded256428cdffa1d8e8b6afe0e3c842965d5",
+  "projectionSha256": "37baeefbd98375d594f704d90f6d45044dede313535e3bdef62adb28e6dbd2b3",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",

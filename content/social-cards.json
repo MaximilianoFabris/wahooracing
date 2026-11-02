@@ -1,6 +1,165 @@
 {
   "batches": [
     {
+      "id": "neon-red-deck-rev01",
+      "title": "Neon red · deck & carbon",
+      "revision": "Board · engine · typography · graphs / Rev01 · 2 November 2026",
+      "posts": [
+        {
+          "id": "RED-01",
+          "title": "A new way to the water",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/neon-red-deck-rev01/RED-01.png",
+              "alt": "Cinematic dark hull study with restrained neon-red and cool reflections. Headline: A NEW WAY TO THE WATER. Historical H0 deck geometry only; cosmetic finish, not a tested production board."
+            }
+          ],
+          "caption": "A newly lit studio view of the verified historical H0 hull display mesh. The model is still a development study; a glossy carbon appearance with mirrored 45-degree twill and neon-red rim lighting is a cosmetic proposal. It does not show a complete, manufactured or water-tested Wahoo board.",
+          "hashtags": [
+            "#WahooRacing",
+            "#BehindTheBuild",
+            "#EngineeringDesign"
+          ],
+          "revision": "Neon red · Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "RED-02",
+          "title": "Ask. Model. Check. Learn.",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/neon-red-deck-rev01/RED-02.png",
+              "alt": "Pale typography-only Wahoo card: ASK. MODEL. CHECK. LEARN. Large charcoal type with a neon-red final word, original W symbol and generous spacing."
+            }
+          ],
+          "caption": "Good questions, traceable decisions. This is the process Wahoo Intelligence is building around the development of Wahoo: investigate the question, examine the evidence and preserve what we learn.",
+          "hashtags": [
+            "#WahooRacing",
+            "#BehindTheBuild",
+            "#EngineeringDesign"
+          ],
+          "revision": "Neon red · Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "RED-03",
+          "title": "From parts to a system",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/neon-red-deck-rev01/RED-03.png",
+              "alt": "Dark cinematic studio render of two crankcase halves, a bearing-support study, cylinder and cooling-cover study in their source positions. Headline: FROM PARTS TO A SYSTEM. Preliminary incomplete construction; material appearance illustrative."
+            }
+          ],
+          "caption": "Five preliminary construction parts shown together at their native relative positions. This is an engine construction study, not a complete or manufacturing-released engine. The studio finish helps explain form; material grades and functional interfaces remain unverified.",
+          "hashtags": [
+            "#WahooRacing",
+            "#BehindTheBuild",
+            "#EngineeringDesign"
+          ],
+          "revision": "Neon red · Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "RED-04",
+          "title": "The exhaust responds",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/neon-red-deck-rev01/RED-04.png",
+              "alt": "Pale graph-led card. Zero-based gas-transfer bars compare A23-009 and A23-013: transfer inflow 279.418 versus 263.124 mg; net outward exhaust transfer 215.012 versus 203.585 mg. Accepted synthetic results, no physical engine test."
+            }
+          ],
+          "caption": "In the accepted A26 synthetic comparison, candidates 009 and 013 share the same exhaust geometry but use different transfer configurations. Their transfer inflow and net outward exhaust transfer differ. The chart uses accepted saved results with a zero-based scale; it does not establish engine power or scavenging efficiency.",
+          "hashtags": [
+            "#WahooRacing",
+            "#BehindTheBuild",
+            "#EngineeringDesign"
+          ],
+          "revision": "Neon red · Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "RED-05",
+          "title": "The shape of what's next",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/neon-red-deck-rev01/RED-05.png",
+              "alt": "Light studio card showing the historical H0 hull deck from another camera angle. Headline: FORM FIRST. THE SHAPE OF WHAT'S NEXT. Cosmetic finish on development geometry."
+            }
+          ],
+          "caption": "A second studio view of the historical H0 hull study, this time on a light surface. It explores how the geometry could be communicated while the product remains in development. No complete-board intake, native CAD change or physical validation is implied.",
+          "hashtags": [
+            "#WahooRacing",
+            "#BehindTheBuild",
+            "#EngineeringDesign"
+          ],
+          "revision": "Neon red · Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "RED-06",
+          "title": "You own it",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/neon-red-deck-rev01/RED-06.png",
+              "alt": "Graphite typography-only card with oversized YOU OWN IT. The middle word is neon red. Original Wahoo wordmark and the line Understand it. Maintain it. Make it yours."
+            }
+          ],
+          "caption": "You own it is the ambition behind Wahoo: understand the machine, maintain it and make it yours. The board is still in development; this is a design philosophy, not a claim that a production product is available.",
+          "hashtags": [
+            "#WahooRacing",
+            "#BehindTheBuild",
+            "#EngineeringDesign"
+          ],
+          "revision": "Neon red · Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "RED-07",
+          "title": "Similar capacity. Different response.",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/neon-red-deck-rev01/RED-07.png",
+              "alt": "Dark graph-led card with the exact selected pressure nodes of A23-007 and A23-011 over 0–360 degrees. Absolute pressure in MPa, zero-based scale 0–1.5 MPa. Synthetic unheated numerical study, not a physical engine test."
+            }
+          ],
+          "caption": "Two generated geometries can have similar inexpensive screening capacity and still produce different synthetic cylinder histories. These are the accepted A26 selected pressure nodes for A23-007 and A23-011 over one unheated revolution at 3,000 rpm. Lines join the saved nodes; the pressure scale begins at zero. Numerical qualification is separate from physical validation.",
+          "hashtags": [
+            "#WahooRacing",
+            "#BehindTheBuild",
+            "#EngineeringDesign"
+          ],
+          "revision": "Neon red · Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "RED-08",
+          "title": "Details before decisions",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/neon-red-deck-rev01/RED-08.png",
+              "alt": "Light studio engine construction view. Headline: DETAILS BEFORE DECISIONS. Five native-position preliminary parts, not a complete engine or a fit/material/manufacturing release."
+            }
+          ],
+          "caption": "A lighter studio view of the preliminary engine construction. Source positions and geometry are preserved; open questions about fits, sealing, cooling and manufacturing remain. The materials are illustrative, not released specifications.",
+          "hashtags": [
+            "#WahooRacing",
+            "#BehindTheBuild",
+            "#EngineeringDesign"
+          ],
+          "revision": "Neon red · Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        }
+      ]
+    },
+    {
       "id": "cinematic-mixed-rev01",
       "title": "Studio direction · mixed set",
       "revision": "Board · engine · typography · graphs / Rev01 · 2 November 2026",
