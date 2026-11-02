@@ -1,6 +1,222 @@
 {
   "batches": [
     {
+      "id": "components-rev01",
+      "title": "Component collection · ten parts + optional exhaust view",
+      "revision": "Rev01 · 2 November 2026",
+      "posts": [
+        {
+          "id": "WHE-03-001",
+          "title": "CYLINDER BODY",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/components-rev01/WHE-03-001.png",
+              "alt": "Cylinder body shown alone in a newly rendered source-derived metallic development study on a graphite field. Artwork title: CYLINDER BODY. 54 mm: Nominal bore; 94 mm: Provisional envelope. Preliminary construction · not manufacturing released. Material unselected · metal finish is visualization."
+            }
+          ],
+          "caption": "Cylinder body: one piece of the development story.\n\n54 mm nominal bore; 94 mm provisional body envelope; Actual source-derived cylinder mesh.\n\nA28 preliminary construction; not manufacturing released. The metallic finish helps reveal the source geometry. Material grade is not selected, and the image does not claim manufacture or physical validation.",
+          "hashtags": [
+            "#WahooRacing",
+            "#ProductDevelopment",
+            "#EngineeringDesign"
+          ],
+          "revision": "Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "WHE-02-001",
+          "title": "DRIVE-SIDE CRANKCASE",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/components-rev01/WHE-02-001.png",
+              "alt": "Drive-side crankcase shown alone in a newly rendered source-derived metallic development study on a pale field. Artwork title: DRIVE-SIDE CRANKCASE. 40 mm: Axial half-span study; X0: Split plane. Open-throat stock study · joints and fasteners incomplete. Material unselected · metal finish is visualization."
+            }
+          ],
+          "caption": "Drive-side crankcase: one piece of the development story.\n\nOpen-throat CNC stock study; 40 mm axial half span; X0 split plane.\n\nCAD02 provisional open C-section; sealed neck, joints and fasteners incomplete. The metallic finish helps reveal the source geometry. Material grade is not selected, and the image does not claim manufacture or physical validation.",
+          "hashtags": [
+            "#WahooRacing",
+            "#ProductDevelopment",
+            "#EngineeringDesign"
+          ],
+          "revision": "Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "WHE-02-002",
+          "title": "ROTOR-SIDE CRANKCASE",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/components-rev01/WHE-02-002.png",
+              "alt": "Rotor-side crankcase shown alone in a newly rendered source-derived metallic development study on a graphite field. Artwork title: ROTOR-SIDE CRANKCASE. 40 mm: Axial half-span study; X0: Split plane. Open-throat stock study · joints and fasteners incomplete. Material unselected · metal finish is visualization."
+            }
+          ],
+          "caption": "Rotor-side crankcase: one piece of the development story.\n\nOpen-throat CNC stock study; 40 mm axial half span; X0 split plane.\n\nCAD02 provisional open C-section; sealed neck, joints and fasteners incomplete. The metallic finish helps reveal the source geometry. Material grade is not selected, and the image does not claim manufacture or physical validation.",
+          "hashtags": [
+            "#WahooRacing",
+            "#ProductDevelopment",
+            "#EngineeringDesign"
+          ],
+          "revision": "Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "WHE-02-003",
+          "title": "BEARING SUPPORT",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/components-rev01/WHE-02-003.png",
+              "alt": "Main bearing support shown alone in a newly rendered source-derived metallic development study on a pale field. Artwork title: BEARING SUPPORT. 16 mm: Provisional axial stock; 56 mm: Nominal opening. Annular stock study · fit and retention unresolved. Material unselected · metal finish is visualization."
+            }
+          ],
+          "caption": "Main bearing support: one piece of the development story.\n\n16 mm provisional axial stock; 56 mm nominal opening; Two source study positions.\n\nAnnular stock study; no approved seat, fit, shoulder or retention. The metallic finish helps reveal the source geometry. Material grade is not selected, and the image does not claim manufacture or physical validation.",
+          "hashtags": [
+            "#WahooRacing",
+            "#ProductDevelopment",
+            "#EngineeringDesign"
+          ],
+          "revision": "Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "WHE-02-011",
+          "title": "SERVICE COVER STOCK",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/components-rev01/WHE-02-011.png",
+              "alt": "Service cover stock shown alone in a newly rendered source-derived metallic development study on a graphite field. Artwork title: SERVICE COVER STOCK. 6 mm: Axial edge stock; 136 mm: Source stock span. Nonfunctional edge-stock study · incomplete working cover. Material unselected · metal finish is visualization."
+            }
+          ],
+          "caption": "Service cover stock: an early construction study.\n\nThe genuine editable stock has a source envelope of 6 mm axially and 136 mm across, with a 10 mm third span. These describe the source stock geometry, not an approved working-cover fit.\n\nThis is nonfunctional cover-edge stock; sealing, fasteners and the complete working cover remain unresolved. The metallic finish helps reveal the source geometry. Material grade is not selected, and the image does not claim manufacture or physical validation.",
+          "hashtags": [
+            "#WahooRacing",
+            "#ProductDevelopment",
+            "#EngineeringDesign"
+          ],
+          "revision": "Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "WHE-03-009",
+          "title": "COOLING JACKET COVER",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/components-rev01/WHE-03-009.png",
+              "alt": "Cooling jacket cover shown alone in a newly rendered source-derived metallic development study on a pale field. Artwork title: COOLING JACKET COVER. 100 mm: Provisional outer Ø; 94 mm: Provisional inner Ø; 14 mm: Axial study band. Preliminary cover study · pressure and sealing unqualified. Material unselected · metal finish is visualization."
+            }
+          ],
+          "caption": "Cooling jacket cover: one piece of the development story.\n\n100 mm provisional outer diameter; 94 mm provisional inner diameter; 14 mm axial study band.\n\nA29 preliminary removable annular cover; seals, retention, inlet/outlet and pressure adequacy unqualified. The metallic finish helps reveal the source geometry. Material grade is not selected, and the image does not claim manufacture or physical validation.",
+          "hashtags": [
+            "#WahooRacing",
+            "#ProductDevelopment",
+            "#EngineeringDesign"
+          ],
+          "revision": "Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "WHE-EXH-001-PIPE",
+          "title": "EXPANSION PIPE HISTORICAL REV01",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/components-rev01/WHE-EXH-001-PIPE.png",
+              "alt": "Historical external-stinger expansion pipe shown alone in a new metallic render of the earlier external-stinger Rev01 pipe geometry on a graphite field. Artwork title: EXPANSION PIPE HISTORICAL REV01. 1 mm: Illustrative wall; Rev01: Earlier external stinger. Historical packaging baseline · selected geometry not shown. Material unselected · metal finish is visualization."
+            }
+          ],
+          "caption": "Expansion pipe: a historical packaging study.\n\nThis new metallic render uses the genuine 10 October Rev01 mesh, with its earlier external stinger and illustrative 1 mm pipe wall. It does not show the later selected internal-stinger routing. Updating that 3D geometry remains open.\n\nThe historical baseline is a packaging reference, not tuned-performance or fabrication approval. The metallic finish helps reveal the source geometry. Material grade is not selected, and the image does not claim manufacture or physical validation.",
+          "hashtags": [
+            "#WahooRacing",
+            "#ProductDevelopment",
+            "#EngineeringDesign"
+          ],
+          "revision": "Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "WHE-EXH-001-JACKET",
+          "title": "EXHAUST COOLING JACKET",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/components-rev01/WHE-EXH-001-JACKET.png",
+              "alt": "Exhaust cooling jacket reference shown alone in a newly rendered source-derived metallic development study on a pale field. Artwork title: EXHAUST COOLING JACKET. 5 mm: Illustrative water gap; 1 mm: Illustrative wall. Historical Rev01 packaging · cooling not validated. Material unselected · metal finish is visualization."
+            }
+          ],
+          "caption": "Exhaust cooling jacket: a historical packaging study.\n\nThis new metallic render uses the genuine 10 October Rev01 jacket mesh, with a 5 mm illustrative radial water gap and 1 mm illustrative wall. It belongs to the earlier packaging baseline; it does not establish current hull fit or cooling performance. The metallic finish helps reveal the source geometry. Material grade is not selected, and the image does not claim manufacture or physical validation.",
+          "hashtags": [
+            "#WahooRacing",
+            "#ProductDevelopment",
+            "#EngineeringDesign"
+          ],
+          "revision": "Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "THROTTLE-CONCEPT",
+          "title": "RIDER CONTROL",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/components-rev01/THROTTLE-CONCEPT.png",
+              "alt": "Handheld rider control shown alone in a supplied concept render with a polymer-look housing on a graphite field. Artwork title: RIDER CONTROL. 72 mm: Head-span drawing ref.; Progressive: Trigger concept. Open design concept · ergonomics and safety unverified. Proposed reinforced nylon housing · materials not final."
+            }
+          ],
+          "caption": "Handheld rider control: one piece of the development story.\n\n72 mm head-span drawing reference; Progressive trigger concept; Thumb start and stance-aware lanyard positions.\n\nOpen design concept; ergonomics, dimensions, sealing and safety functions unverified. The housing is shown as a polymer concept, reflecting proposed reinforced-nylon intent; its material selection and internal hardware remain unverified.",
+          "hashtags": [
+            "#WahooRacing",
+            "#ProductDevelopment",
+            "#EngineeringDesign"
+          ],
+          "revision": "Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "WHE-01-009",
+          "title": "PISTON REFERENCE",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/components-rev01/WHE-01-009.png",
+              "alt": "Supplier-reference piston shown alone in a newly rendered source-derived metallic development study on a pale field. Artwork title: PISTON REFERENCE. 53 mm: External crown Ø; 47.59 mm: Flat centre; 0.6 mm: Annular crown rise. Partial supplier reconstruction · not a Wahoo piston design. Material unspecified · metal finish is visualization."
+            }
+          ],
+          "caption": "Supplier-reference piston: one piece of the development story.\n\n53 mm external crown diameter; 47.59 mm flat centre; 0.6 mm short annular crown rise.\n\nWHE-PISTON-001 Rev02 partial supplier-reference reconstruction; not Wahoo-designed piston or manufactured part. This is a partial supplier-reference reconstruction, not a Wahoo-designed piston. The metallic appearance is illustrative; it does not specify a released material.",
+          "hashtags": [
+            "#WahooRacing",
+            "#ProductDevelopment",
+            "#EngineeringDesign"
+          ],
+          "revision": "Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "PIPE-ALT-SELECTED-SECTION",
+          "title": "Optional exhaust view: internal-stinger section",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/components-rev01/PIPE-ALT-SELECTED-SECTION.png",
+              "alt": "Graphite alternate card titled Internal stinger, with the genuine source 2D section showing the stinger inside the pipe. 18 mm provisional bore, 195 mm inside length, 20 mm outside length. Selected section concept; qualified selected 3D model not available. Material not selected. Original source geometry and annotations retained."
+            }
+          ],
+          "caption": "The selected internal-stinger concept, in section.\n\nThe genuine 2D source shows an 18 mm provisional stinger bore, with 195 mm inside and 20 mm outside the pipe. A qualified 3D model of this selected direction is not available; the diagram does not claim tuned performance or fabrication approval.\n\nOptional alternate for the same component. It replaces the historical Rev01 portrait if chosen; it is not an extra post or a carousel.",
+          "hashtags": [
+            "#WahooRacing",
+            "#ProductDevelopment",
+            "#EngineeringDesign"
+          ],
+          "revision": "Rev01 · 2 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        }
+      ]
+    },
+    {
       "id": "h0-development-rev01",
       "title": "H0: evidence before speed",
       "revision": "Rev01 · 1 November 2026",

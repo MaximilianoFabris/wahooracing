@@ -1,0 +1,81 @@
+{
+  "status": "OWNER_APPROVED_WEBSITE_RELEASE_CANDIDATE",
+  "scope": "Eleven exact single-image posts: ten component cards and one clearly optional selected-section alternate for the same exhaust component. No Instagram posting.",
+  "expected": {
+    "batches": 14,
+    "posts": 42,
+    "cards": 116
+  },
+  "previous_batches_preserved": 13,
+  "previous_posts_preserved": 31,
+  "previous_cards_preserved": 105,
+  "files": [
+    {
+      "imageURL": "/preview/social-cards/images/components-rev01/WHE-03-001.png",
+      "source": "Social_Media/Instagram/Component_Collection_Rev01_20261102/exports/WHE-03-001.png",
+      "bytes": 331899,
+      "sha256": "c92da8fa846b762721770dca2bacf38ad172a4380b5d07a7d337ba4ded566f98"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/components-rev01/WHE-02-001.png",
+      "source": "Social_Media/Instagram/Component_Collection_Rev01_20261102/exports/WHE-02-001.png",
+      "bytes": 229846,
+      "sha256": "98eebfc83af4ffeb9601182b58caca59542184d28463b4fc69248ecaf820149a"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/components-rev01/WHE-02-002.png",
+      "source": "Social_Media/Instagram/Component_Collection_Rev01_20261102/exports/WHE-02-002.png",
+      "bytes": 210891,
+      "sha256": "438ae0ba1eeefe97d0ddfd57a45f58da69b7387c8aa1e5cc5a6b93004f9aeefe"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/components-rev01/WHE-02-003.png",
+      "source": "Social_Media/Instagram/Component_Collection_Rev01_20261102/exports/WHE-02-003.png",
+      "bytes": 219726,
+      "sha256": "676fbac21fc4e12691040126955890e274bfe8c8713725db19a55cf01170cc9b"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/components-rev01/WHE-02-011.png",
+      "source": "Social_Media/Instagram/Component_Collection_Rev01_20261102/exports/WHE-02-011.png",
+      "bytes": 164761,
+      "sha256": "2097634882f5b9b1ad8c89cf5a9844e30bd8df158fabb87131208791ae7e0feb"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/components-rev01/WHE-03-009.png",
+      "source": "Social_Media/Instagram/Component_Collection_Rev01_20261102/exports/WHE-03-009.png",
+      "bytes": 292323,
+      "sha256": "14a2e96bfc75f2c13fe69292669dda27dc716b7195f872bcb68ecf3ff05193a2"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/components-rev01/WHE-EXH-001-PIPE.png",
+      "source": "Social_Media/Instagram/Component_Collection_Rev01_20261102/exports/WHE-EXH-001-PIPE.png",
+      "bytes": 149087,
+      "sha256": "38c1a02367d2d7ec08000e91aa4283a7b86661cf6c21bdb05d8c1c49cac5e123"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/components-rev01/WHE-EXH-001-JACKET.png",
+      "source": "Social_Media/Instagram/Component_Collection_Rev01_20261102/exports/WHE-EXH-001-JACKET.png",
+      "bytes": 183555,
+      "sha256": "9ade84b6c80e15e05d7ffe8c24671326fe50ec830021678c18ab2cb7b88f4051"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/components-rev01/THROTTLE-CONCEPT.png",
+      "source": "Social_Media/Instagram/Component_Collection_Rev01_20261102/exports/THROTTLE-CONCEPT.png",
+      "bytes": 246220,
+      "sha256": "e18bae0f0343c91aa000775abfae94f53d0e732d6a8839d35674fba3859618ad"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/components-rev01/WHE-01-009.png",
+      "source": "Social_Media/Instagram/Component_Collection_Rev01_20261102/exports/WHE-01-009.png",
+      "bytes": 253574,
+      "sha256": "04a642624b3a5f460b051e985f8d33609b91458374802054a9777cc035dda96e"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/components-rev01/PIPE-ALT-SELECTED-SECTION.png",
+      "source": "Social_Media/Instagram/Component_Collection_Rev01_20261102/alternatives/PIPE-ALT-SELECTED-SECTION.png",
+      "bytes": 143492,
+      "sha256": "d3e9637931c17a14bc5fdd44686ee96aec96b5917f592c054243f408ad1758ff"
+    }
+  ],
+  "canonical_release_source_sha256": "09d84b7f6da540371f9d81e093c98993515f23d7aff4c51ca4854c3dedbd577d"
+}
