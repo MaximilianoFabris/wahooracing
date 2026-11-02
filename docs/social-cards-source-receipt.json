@@ -951,12 +951,6 @@
       "sha256": "5f147e73425643135dc6ce562863719878d06412146c17ea34d02e843bbc1e63"
     },
     {
-      "imageURL": "/preview/social-cards/images/blue-studio-rev01/BLUE-01.png",
-      "source": "Social_Media/Instagram/Blue_Studio_Rev01_20261103/exports/BLUE-01.png",
-      "bytes": 1244350,
-      "sha256": "edeb47a60dc4e06c4f6f423d2f53620d3a6fbed62479724801e9f7a9e85bb817"
-    },
-    {
       "imageURL": "/preview/social-cards/images/blue-studio-rev01/BLUE-02.png",
       "source": "Social_Media/Instagram/Blue_Studio_Rev01_20261103/exports/BLUE-02.png",
       "bytes": 56750,
@@ -975,12 +969,6 @@
       "sha256": "bddb1868c166965d627e9a945f3c2d33aaf59a9470241c1e86357e9565f082f8"
     },
     {
-      "imageURL": "/preview/social-cards/images/blue-studio-rev01/BLUE-05.png",
-      "source": "Social_Media/Instagram/Blue_Studio_Rev01_20261103/exports/BLUE-05.png",
-      "bytes": 1265018,
-      "sha256": "0b1f8c9d36256583280bf27c2f2a2b412ab4240c7d4b7b847698b3a8973cf7b4"
-    },
-    {
       "imageURL": "/preview/social-cards/images/blue-studio-rev01/BLUE-06.png",
       "source": "Social_Media/Instagram/Blue_Studio_Rev01_20261103/exports/BLUE-06.png",
       "bytes": 46506,
@@ -997,6 +985,18 @@
       "source": "Social_Media/Instagram/Blue_Studio_Rev01_20261103/exports/BLUE-08.png",
       "bytes": 1033058,
       "sha256": "028453ec2c350a734dfb3ba6c84e9f30e37fba91601fcbdd1ef497bbb9b33c14"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/blue-studio-rev02/BLUE-01.png",
+      "source": "Social_Media/Instagram/Blue_Studio_Rev02_20261103/exports/BLUE-01.png",
+      "bytes": 1263516,
+      "sha256": "5b2f3e54c29f98c9a6d7b40a7560faffdeceb66c54d09b5bdc7593fc972b647a"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/blue-studio-rev02/BLUE-05.png",
+      "source": "Social_Media/Instagram/Blue_Studio_Rev02_20261103/exports/BLUE-05.png",
+      "bytes": 1285016,
+      "sha256": "33082187fe43fd587b112d348e047534ebbfe9eaf45576ae029d8d00b2b63e58"
     }
   ],
   "sources": [
@@ -1101,7 +1101,7 @@
       "sha256": "9b7f6396265a12f41f83d944e80f97f9a2776353c8df246d4bb5f9eec623b342"
     }
   ],
-  "projectionSha256": "cdcb854f652b25575f8416b06707f412a8a05f33f402e592ce959d0224065d91",
+  "projectionSha256": "ea0dd1f70850d55fe1c5d9ea4f75c7a5a2b486358e12db8b1a04921641a35daf",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",
@@ -1198,6 +1198,18 @@
       "source": "Social_Media/Instagram/Accent_Studies_Rev01_20261102/exports/light-dark-green.png",
       "bytes": 317911,
       "sha256": "d2565f91c856409256ff981377e3c629d2f17072aa9f500fd344835d114033ea"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/blue-studio-rev01/BLUE-01.png",
+      "source": "Social_Media/Instagram/Blue_Studio_Rev01_20261103/exports/BLUE-01.png",
+      "bytes": 1244350,
+      "sha256": "edeb47a60dc4e06c4f6f423d2f53620d3a6fbed62479724801e9f7a9e85bb817"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/blue-studio-rev01/BLUE-05.png",
+      "source": "Social_Media/Instagram/Blue_Studio_Rev01_20261103/exports/BLUE-05.png",
+      "bytes": 1265018,
+      "sha256": "0b1f8c9d36256583280bf27c2f2a2b412ab4240c7d4b7b847698b3a8973cf7b4"
     }
   ]
 }
