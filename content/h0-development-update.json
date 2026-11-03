@@ -1,15 +1,28 @@
 {
   "status": "published",
   "slug": "constant-speed-hull-study",
-  "dateLabel": "18 Oct method · 1 Nov endpoint history · 1 Nov readiness review",
-  "updatedDate": "2026-11-01",
-  "revision": "H0 DEVELOPMENT / READINESS REVIEW",
-  "summary": "The controlled fixed-body 30 km/h run completed its nominal one-second checkpoint. Late load averages became more repeatable, but pitch-moment evolution still failed readiness. Heave and pitch remain locked; the diagnostic cause is unresolved.",
-  "evidence": "numerical development · not ready for release · no physical validation",
-  "changes": "Dated readiness follow-up. Original 18 October method and earlier 1 November endpoint record retained below as historical records. Diagnostic cause unresolved; no free-motion, validated drag or stability claim.",
+  "dateLabel": "2 Nov comparison started · 3 Nov follow-up · 1 Nov readiness review",
+  "updatedDate": "2026-11-03",
+  "revision": "H0 DEVELOPMENT / CONTROLLED OUTLET COMPARISON",
+  "summary": "The fixed-body 30 km/h endpoint remains accepted, while free heave/pitch release stays on hold. A controlled outlet comparison now investigates possible boundary influence using the same saved start and matching simulation-time intervals. Comparative results remain pending.",
+  "evidence": "Recorded CFD development · comparison result pending · no physical validation",
+  "changes": "3 November dated outlet-comparison follow-up. The 1 November readiness hold, accepted fixed endpoint and original October method are preserved as dated history. The new experiment does not establish outlet causation, validated drag, stable trim or permission to change H0.",
   "sections": [
     {
-      "title": "Latest review · 1 November 2026: numerical completion, readiness held",
+      "title": "Follow-up · 3 November 2026: test the boundary before changing the hull",
+      "text": "The 1 November review left an important question open: why was the pitching moment still evolving while H0, Wahoo's developing hull, remained fixed? The outlet is the downstream edge of the simulated water domain. How flow leaves that edge could influence the calculation, but the earlier evidence did not establish that it caused the observed behaviour.</p><p>On 2 November, a new, bounded experiment was authorized to test sensitivity to the outlet velocity treatment. That authorization is a separate step after the earlier diagnostic hold; it does not overturn the readiness finding or authorize changes to H0. The original baseline remains preserved, and vertical motion (heave) and fore-aft rotation (pitch) remain locked. Testing the numerical boundary first helps avoid changing the hull in response to an unresolved numerical effect.</p><p>The load histories above are retained fixed-baseline evidence from the 1 November review, not results from this new comparison."
+    },
+    {
+      "title": "Two branches, the same simulation clock",
+      "text": "The comparison reuses the original baseline and starts a separate test branch from exactly the same saved flow state. Only the outlet velocity treatment changes. Hull geometry, pose, speed, mesh and the other numerical settings stay the same.</p><p>The comparison requires matching intervals of physical simulation time, using saved samples covering those same intervals. Comparing a later test interval with an earlier baseline interval could confuse ordinary flow development with a boundary effect. The shared starting state and equal-time comparison address that problem.</p><p>A dated 3 November record confirms that the test resumed and advanced after recovery. This records the start and resumption of an experiment; its comparison result has not yet been accepted. The evidence reviewed here does not yet establish whether the outlet treatment materially changes the loads or pitching moment. No new drag, stability or physical-performance claim follows.",
+      "figure": {
+        "image": "engineering/h0-outlet-comparison-20261103.svg",
+        "alt": "Transparent method-only diagram: the same saved initial state branches to preserved baseline A and an alternative outlet velocity treatment B. Comparison requires matching physical-time intervals. H0 is unchanged, heave and pitch locked, comparative result pending.",
+        "caption": "A controlled comparison changes one outlet velocity treatment. This is an explanatory method diagram, not a CFD contour, force history or accepted comparison result."
+      }
+    },
+    {
+      "title": "Readiness review · 1 November 2026: numerical completion, readiness held",
       "text": "The controlled 30 km/h preparation run has reached its nominal one-second checkpoint. The solver exited normally, and an independent check accepted the saved numerical state. That is a useful milestone for H0, Wahoo's developing hull. It does not mean the flow is ready for the next experiment.</p><p>The current H0 dry-hull baseline remained fixed in its original pose throughout this stage. H0 geometry and the Rhino source remain unchanged. Vertical motion, or heave, and fore-aft rotation, or pitch, stayed locked. We have not released those motions or demonstrated stable trim. The purpose was to prepare and examine the flow before asking how the hull would respond."
     },
     {
@@ -32,6 +45,9 @@
   "sources": [
     "Accepted fixed-body endpoint and completed readiness review · 1 November 2026",
     "Independent engineering readiness assessment · 1 November 2026",
-    "Existing-data diagnostic documentary closeout · 1 November 2026; causal attribution inconclusive"
+    "Existing-data diagnostic documentary closeout · 1 November 2026; causal attribution inconclusive",
+    "Controlled outlet-velocity comparison scope, shared-start and time-matching records · 2 November 2026",
+    "Recorded experimental launch and resumption · 2–3 November 2026",
+    "Independent editorial source correspondence review · 3 November 2026; not acceptance of a comparison result"
   ]
 }

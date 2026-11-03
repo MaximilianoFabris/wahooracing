@@ -2,6 +2,19 @@
   "schema_version": 1,
   "records": [
     {
+      "id": "h0-controlled-outlet-comparison",
+      "publication": "published",
+      "date": "2026-11-02",
+      "agents": [
+        "archimedes",
+        "ada"
+      ],
+      "status": "in-progress",
+      "title": "A controlled outlet comparison begins",
+      "summary": "A bounded fixed-hull comparison varies only the outlet velocity treatment, using the same saved starting state and requiring matching simulation-time intervals. H0 remains unchanged and heave/pitch stay locked. Comparative results and interpretation remain pending.",
+      "evidence": "Recorded CFD experiment · comparison result pending"
+    },
+    {
       "id": "h0-fixed-readiness-hold",
       "publication": "published",
       "date": "2026-11-01",
