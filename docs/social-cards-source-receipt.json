@@ -997,9 +997,20 @@
       "source": "Social_Media/Instagram/Blue_Studio_Rev03_20261103/exports/BLUE-05.png",
       "bytes": 1275038,
       "sha256": "c4cfc757ee1b60f3f7918f61a19b7302fa6ca87fbbea9bdd62f00706e042d03c"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/water-lifestyle-rev01/WATER-01.png",
+      "source": "Social_Media/Instagram/Water_Lifestyle_Rev01_20261103/exports/WATER-01.png",
+      "bytes": 1522135,
+      "sha256": "96b67ea432f229beff1fe445cd9ee505ca2d963fe550ce953a1e0e635af9d453"
     }
   ],
   "sources": [
+    {
+      "batch": "water-lifestyle-rev01",
+      "source": "Wahoo_Intelligence/communications/control/20261103-Water-Lifestyle/source-posts.json",
+      "sha256": "6588140370b1a72ba2799df85ebea3bd3384a7a434893337b8e3dc883e6f6006"
+    },
     {
       "batch": "blue-studio-rev01",
       "source": "Wahoo_Intelligence/communications/control/20261103-Blue-Studio-Publish/source-posts.json",
@@ -1101,7 +1112,7 @@
       "sha256": "9b7f6396265a12f41f83d944e80f97f9a2776353c8df246d4bb5f9eec623b342"
     }
   ],
-  "projectionSha256": "4187c68e708b6c62c4d5a5e79ba2ca455980f10dc1fea2ce9babf249acb94480",
+  "projectionSha256": "610d8dcf6fdedbecc303cd9b7b3d486a9d39867b41172d62642d04e68175e76c",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",
