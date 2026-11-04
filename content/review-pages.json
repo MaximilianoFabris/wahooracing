@@ -9,7 +9,7 @@
       "publication": "published",
       "version": "V2",
       "evidence": "Saved synthetic benchmarks",
-      "scope": "Numerical qualification only · physical validation not established",
+      "scope": "Numerical qualification only \u00b7 physical validation not established",
       "visual": "piston"
     },
     {
@@ -18,11 +18,22 @@
       "url": "/preview/social-cards/",
       "description": "Review twenty-one draft posts with 61 full-size cards, complete captions, hashtags and per-card alt text. The five-card dynamic-cylinder milestone appears first.",
       "publication": "published",
-      "version": "G001-C1 · Rev01",
+      "version": "G001-C1 \u00b7 Rev01",
       "evidence": "Draft artwork and copy",
-      "scope": "Owner review · Instagram publication not approved",
+      "scope": "Owner review \u00b7 Instagram publication not approved",
       "visual": "social-cards",
       "image": "/preview/social-cards/images/relaunch-rev03/P02-01.png"
+    },
+    {
+      "id": "board-3d",
+      "title": "The board \u00b7 in 3D",
+      "url": "/preview/board-3d/",
+      "description": "Rotate the development hull, explore the deck and underside, and inspect its cosmetic glossy carbon finish.",
+      "publication": "published",
+      "version": "Hull explorer \u00b7 Rev01",
+      "evidence": "Historical H0 display geometry",
+      "scope": "Basic hull only \u00b7 cosmetic appearance proposal \u00b7 not a finished production board",
+      "visual": "board-3d"
     }
   ]
 }
