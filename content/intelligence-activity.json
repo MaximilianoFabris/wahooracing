@@ -4,15 +4,17 @@
     {
       "id": "h0-controlled-outlet-comparison",
       "publication": "published",
-      "date": "2026-11-02",
+      "date": "2026-11-05",
       "agents": [
         "archimedes",
-        "ada"
+        "ada",
+        "isaac",
+        "leo"
       ],
-      "status": "in-progress",
-      "title": "A controlled outlet comparison begins",
-      "summary": "A bounded fixed-hull comparison varies only the outlet velocity treatment, using the same saved starting state and requiring matching simulation-time intervals. H0 remains unchanged and heave/pitch stay locked. Comparative results and interpretation remain pending.",
-      "evidence": "Recorded CFD experiment · comparison result pending"
+      "status": "completed",
+      "title": "Controlled outlet comparison completed; readiness hold retained",
+      "summary": "The fixed-hull comparison reached its accepted one-second endpoint. Matching-time histories show a pressure-dominated late-load difference, while pitch-moment drift remains unresolved and the final interpretation is inconclusive. H0 is unchanged; heave and pitch stay locked.",
+      "evidence": "Completed numerical sensitivity experiment · independent review · no physical validation"
     },
     {
       "id": "h0-fixed-readiness-hold",
