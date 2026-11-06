@@ -1,6 +1,50 @@
 {
   "batches": [
     {
+      "id": "engine-concept-rev01",
+      "title": "Engine · concept study",
+      "revision": "Owner-supplied concept visualization · Rev01",
+      "posts": [
+        {
+          "id": "ENGINE-CONCEPT",
+          "title": "Engine in focus",
+          "format": "Carousel · 5 cards",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/engine-concept-rev01/ENGINE-01.png",
+              "alt": "Dramatic Wahoo engine concept visualization on a wet reflective surface, with silver housings, dark covers, exposed gears and hoses. Text: Engine. In focus. Engine concept. This is illustrative imagery, not a photograph of built hardware."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/engine-concept-rev01/ENGINE-02.png",
+              "alt": "The illustrative Wahoo engine isolated against a pale background, revealing its overall silhouette and visible component arrangement. Text: The overall form. Form in the open. A visual direction. Still in development. Engine concept. The image does not establish actual packaging or a released assembly."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/engine-concept-rev01/ENGINE-03.png",
+              "alt": "Close crop of the engine concept's visible gears, fasteners and dark Wahoo cover. Text: A closer look. Concept detail. The mechanical appearance is illustrative and is not manufacturing evidence."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/engine-concept-rev01/ENGINE-04.png",
+              "alt": "Three large design questions on a pale field: Will it fit? How will it cool? Can we reach it? A small engine concept illustration supports the typography. Text also reads: Behind the visual. Good design starts with better questions. Design questions. Engine concept."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/engine-concept-rev01/ENGINE-05.png",
+              "alt": "Dark graphite closing card with a smaller Wahoo engine concept illustration and the original Wahoo brand mark. Text: Follow the development. What would you look at first? Engine concept."
+            }
+          ],
+          "caption": "An engine idea, brought into focus.\n\nThis Wahoo concept visualization invites a closer look: the overall form, the visible details and the questions behind them.\n\nWill the layout fit? How will cooling be arranged? Can the parts that need attention be reached? Those questions connect a striking image to the patient work of development.\n\nSwipe through, then tell us what you would examine first: packaging, cooling or service access.\n\nThis is illustrative concept artwork, not a physical prototype or tested engine. It does not establish a released design or verified performance.\n\nFollow Wahoo Racing as development continues, one checked decision at a time.",
+          "hashtags": [
+            "#WahooRacing",
+            "#EngineDevelopment",
+            "#ConceptDesign",
+            "#MechanicalDesign",
+            "#ProductDevelopment"
+          ],
+          "revision": "Engine concept · Rev01 · 6 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        }
+      ]
+    },
+    {
       "id": "water-lifestyle-rev01",
       "title": "On the water · lifestyle",
       "revision": "Source-model concept / native render + environmental post-production",

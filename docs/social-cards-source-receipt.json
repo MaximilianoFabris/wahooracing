@@ -1003,9 +1003,44 @@
       "source": "Social_Media/Instagram/Water_Lifestyle_Rev01_20261103/exports/WATER-01.png",
       "bytes": 1522135,
       "sha256": "96b67ea432f229beff1fe445cd9ee505ca2d963fe550ce953a1e0e635af9d453"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/engine-concept-rev01/ENGINE-01.png",
+      "source": "Social_Media/Instagram/Engine_Concept_Rev01_20261106/exports/ENGINE-01.png",
+      "bytes": 1764346,
+      "sha256": "a5f88aedc0c3bce0d921125b934c68943d2135e3529bbb7031979fc8ad310aa1"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/engine-concept-rev01/ENGINE-02.png",
+      "source": "Social_Media/Instagram/Engine_Concept_Rev01_20261106/exports/ENGINE-02.png",
+      "bytes": 612053,
+      "sha256": "b7a48e1daa037576b2c8d574eab961ec2d9b2a351f998125934e855acdd38b78"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/engine-concept-rev01/ENGINE-03.png",
+      "source": "Social_Media/Instagram/Engine_Concept_Rev01_20261106/exports/ENGINE-03.png",
+      "bytes": 1083990,
+      "sha256": "d88ecbcfe32292dfe628b7b6b570a82b06f4b44215ca04ba6a64ad0c73b107d2"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/engine-concept-rev01/ENGINE-04.png",
+      "source": "Social_Media/Instagram/Engine_Concept_Rev01_20261106/exports/ENGINE-04.png",
+      "bytes": 329793,
+      "sha256": "e65b610be8495706bf575b306c55c8f5294a8ca0ef2373e651048c488870cb5a"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/engine-concept-rev01/ENGINE-05.png",
+      "source": "Social_Media/Instagram/Engine_Concept_Rev01_20261106/exports/ENGINE-05.png",
+      "bytes": 496340,
+      "sha256": "8a572de9b90be83402dd508f04474e02829dc0f423694a894bba4d2064b5f246"
     }
   ],
   "sources": [
+    {
+      "batch": "engine-concept-rev01",
+      "source": "Wahoo_Intelligence/communications/control/20261106-Engine-Concept/source-posts.json",
+      "sha256": "976f9ec2529cf9af464ebb72f94c94480eba3f563c4434732c7fc7f6a1f65401"
+    },
     {
       "batch": "water-lifestyle-rev01",
       "source": "Wahoo_Intelligence/communications/control/20261103-Water-Lifestyle/source-posts.json",
@@ -1112,7 +1147,7 @@
       "sha256": "9b7f6396265a12f41f83d944e80f97f9a2776353c8df246d4bb5f9eec623b342"
     }
   ],
-  "projectionSha256": "610d8dcf6fdedbecc303cd9b7b3d486a9d39867b41172d62642d04e68175e76c",
+  "projectionSha256": "74014db2dce87562e61049d16cee04d841fe7d22fb70cd2ac33afe284a5b2513",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",
