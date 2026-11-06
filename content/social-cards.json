@@ -1,6 +1,50 @@
 {
   "batches": [
     {
+      "id": "hull-first-step-rev01",
+      "title": "Hull CFD · the first checked step",
+      "revision": "Source-derived numerical graphics · Rev01",
+      "posts": [
+        {
+          "id": "HULL-FIRST-STEP",
+          "title": "Before the hull moves",
+          "format": "Carousel · 5 cards",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/hull-first-step-rev01/HULL-01.png",
+              "alt": "Before the hull moves. Two separate numerical comparisons show the fixed-state endpoint above its final-window mean: upward fluid force about436 versus217N and bow-up moment about615 versus407N·m. An endpoint is not a time average."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/hull-first-step-rev01/HULL-02.png",
+              "alt": "Where the load acts. Aggregate pressure-only vertical contributions at the fixed B endpoint are +897.36 N, −460.39 N and net +436.97 N. These bars show force cancellation, not longitudinal positions, contact-line geometry or a moving response."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/hull-first-step-rev01/HULL-03.png",
+              "alt": "Preserve the starting state. A method-only diagram shows that pressure-corrected face-normal flow information must be retained when converting the fixed calculation into a moving-solver restart. It is not a simulated flow field."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/hull-first-step-rev01/HULL-04.png",
+              "alt": "Same safeguard. Checked start. Body angular acceleration across internal iterations is about388 then1253rad/s² in the original attempt; its second trial is rejected above the1000limit. Corrected iterations are about388,189and213rad/s². All are within one physical timestep, not a motion history."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/hull-first-step-rev01/HULL-05.png",
+              "alt": "A first step. An honest limit. Large9.95microseconds identifies the duration of the one completed numerical timestep. H0 is unchanged. Longer motion, coupled convergence and physical performance have not been demonstrated."
+            }
+          ],
+          "caption": "Before we ask how the hull moves, we need to understand the state we release.\n\nThe saved fixed-hull calculation carried a substantial pitching load. Its endpoint was one moment in an unsteady flow, not the same thing as the average over a longer interval.\n\nOur first numerical release stopped inside its first timestep. A controlled diagnostic found missing face-normal flow information in the transfer to the moving solver. Preserving that information allowed one checked step under the same safeguards.\n\nThat step spans approximately 9.95 microseconds. It qualifies a startup correction, not stable trim, a completed motion study or rider performance. H0 remains unchanged.\n\nUnderstanding the start is part of earning the next result.",
+          "hashtags": [
+            "#WahooRacing",
+            "#HullDesign",
+            "#Hydrodynamics",
+            "#EngineeringDevelopment",
+            "#CFD"
+          ],
+          "revision": "Numerical first-step investigation · Rev01 · 7 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        }
+      ]
+    },
+    {
       "id": "engine-concept-rev01",
       "title": "Engine · concept study",
       "revision": "Owner-supplied concept visualization · Rev01",

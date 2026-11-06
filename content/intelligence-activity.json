@@ -2,6 +2,20 @@
   "schema_version": 1,
   "records": [
     {
+      "id": "h0-startup-state-correction",
+      "publication": "published",
+      "date": "2026-11-07",
+      "agents": [
+        "archimedes",
+        "isaac",
+        "leo"
+      ],
+      "status": "completed",
+      "title": "Hull startup correction completes one checked timestep",
+      "summary": "A controlled diagnostic traced the original startup rejection to lost face-normal restart information. Preserving that state allowed one approximately 9.95-microsecond numerical timestep under unchanged safeguards. H0 is unchanged; longer motion, coupled convergence and physical performance remain unqualified. Further execution is held for review.",
+      "evidence": "Controlled numerical diagnostic · independent review · one completed timestep · no physical validation"
+    },
+    {
       "id": "h0-controlled-outlet-comparison",
       "publication": "published",
       "date": "2026-11-05",

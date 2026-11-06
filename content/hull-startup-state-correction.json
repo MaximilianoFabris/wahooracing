@@ -1,0 +1,60 @@
+{
+  "status": "published",
+  "slug": "hull-startup-state-correction",
+  "title": "Before the hull moves",
+  "dateLabel": "7 November 2026 · first-step diagnostic",
+  "updatedDate": "2026-11-07",
+  "revision": "H0 DEVELOPMENT / FIRST-STEP DIAGNOSTIC",
+  "summary": "A held hull can carry substantial pitching load. We examined the exact release state, diagnosed a missing part of its numerical restart and completed one guarded timestep. The result qualifies a startup correction, not the board's running behaviour.",
+  "evidence": "Controlled numerical startup diagnostic · one approximately 9.95-microsecond timestep · no physical validation",
+  "changes": "New dated milestone after the completed outlet comparison. Preserve the earlier constant-speed study and its dated evidence. No claim of a 20 ms or 50 ms response, stable trim, validated drag or hull redesign.",
+  "sections": [
+    {
+      "title": "A held hull is carrying a load",
+      "text": "Our <a class=\"text-link\" href=\"/journal/constant-speed-hull-study/\">completed outlet comparison ↗</a> retained an unresolved physical interpretation. A later purpose-specific review qualified B for a narrower first-response investigation, without converting the earlier mean/RMS readiness failures into a pass.</p><p>At 30 km/h, a hull held in one pose does not have to balance its own fluid loads. The restraint supplies the missing force and torque. Before letting H0 move vertically and pitch, we therefore examined the exact saved state that would be released.</p><p>Its instantaneous upward fluid force was about 436 N and its bow-up moment about the centre of gravity about 615 N·m. The corresponding final-window averages were about 217 N and 407 N·m. Those are different questions: an interval average describes a period of unsteady flow; the endpoint supplies one particular starting condition."
+    },
+    {
+      "title": "Where the water pushes matters",
+      "text": "A pitching moment depends on where pressure acts along the hull, as well as the net upward force. Positive and negative contributions can partly cancel in force while still producing a substantial moment. The aggregate pressure groups below show that cancellation; they do not show the longitudinal positions that determine the moment.</p><p>The saved B state remains a specific unsteady starting condition. On 6 November, review qualified it for a phase-specific response experiment: observing the response of that exact state. The purpose changed; the earlier readiness checks were not converted into a pass, and the outlet comparison remains inconclusive. This narrower experiment asks how that particular state enters a moving-hull calculation.",
+      "figure": {
+        "image": "engineering/hull-startup-nov07/pressure-support.svg",
+        "alt": "Aggregate pressure-only vertical load groups at the fixed B one-second endpoint: positive 897.36 N, negative −460.39 N and net pressure 436.97 N. The bars show no longitudinal positions or contact-line geometry.",
+        "caption": "Fixed B endpoint pressure-only vertical contributions, grouped by sign: +897.36 N and −460.39 N sum to +436.97 N. These are aggregate groups, not fore/aft positions, wetted-contact geometry or a moving load history. The net excludes viscous force, weight and restraint reactions. Separate spatial pressure summaries support only approximate moment-geometry interpretation; no coordinates or moment arms are plotted here."
+      }
+    },
+    {
+      "title": "A failed start deserved a diagnosis",
+      "text": "The first release attempt stopped when an internal coupling iteration exceeded the unchanged angular-acceleration limit. No complete fluid timestep was accepted. That rejected trial could not establish how the board would move, whether it would restore itself or whether H0 needed to change.</p><p>The diagnostic reproduced the failure and traced a specific problem in transferring the fixed calculation into the moving solver. The restart had lost part of the pressure-corrected flow information at mesh faces. Preserving that discrete state removed the original cap violation, without changing H0, its mass properties, the physical boundary conditions or the safeguards.",
+      "figure": {
+        "image": "engineering/hull-startup-nov07/startup-iterations.svg",
+        "alt": "Bow-up body angular acceleration by internal outer iteration of one numerical timestep. Original values are about 387.50 then 1253.36 rad/s², with the second trial rejected above the unchanged 1000 cap. Corrected values are about 387.50, 189.10 and 212.73 rad/s².",
+        "caption": "Internal coupling iterations of the same first physical timestep, not successive physical-time response samples. The original second trial exceeded the unchanged 1000 rad/s² numerical protection cap and was rejected. The corrected run completed one approximately 9.95-microsecond step. This comparison supports the restart correction; it does not prove coupled convergence, a physical acceleration limit or hull stability."
+      }
+    },
+    {
+      "title": "One checked step, with a clear boundary",
+      "text": "The corrected calculation completed exactly one native numerical timestep: approximately 9.95 microseconds after release. A complete physical checkpoint was retained, and independent review supports the diagnosed restart defect and the bounded correction.</p><p>That small step answers the startup question. It does not establish converged coupling, a meaningful heave-and-pitch trajectory, stable trim, damping or validated resistance. Loads still change across the internal iterations, and the completed-fluid load is evaluated later than the load used in the last motion update.</p><p>Further observation remains a separate decision. For now, H0 is unchanged. The progress is a better-founded starting point for studying motion, with the numerical correction and its limits recorded before interpreting the hull's behaviour.",
+      "figure": {
+        "image": "engineering/hull-startup-nov07/restart-method.svg",
+        "alt": "Explanatory method sequence: saved fixed flow with pressure-corrected face-normal flux, consistent restart retaining the missing face-velocity state, then one checked numerical step of approximately 9.95 microseconds followed by review.",
+        "caption": "Method explanation of the bounded diagnostic, not a CFD field, geometry image or motion trajectory. Preserving the missing face-normal restart information allowed one complete numerical timestep under unchanged safeguards. Longer heave-and-pitch behaviour remains unobserved and further execution is held for review."
+      }
+    }
+  ],
+  "sources": [
+    "Purpose-specific release-state review and independent engineering assessment · 6 November 2026",
+    "Recorded protected first-start rejection · 6 November 2026; no complete timestep",
+    "Controlled original/corrected startup diagnostic and independent review · 7 November 2026",
+    "Accepted one-step physical checkpoint and stopped execution state · 7 November 2026"
+  ],
+  "relatedArticle": "/journal/constant-speed-hull-study/",
+  "hero": "engineering/hull-startup-nov07/release-loads.svg",
+  "heroAlt": "Two separate fixed-B numerical comparisons: final W3 time mean versus instantaneous release endpoint, in upward force N and positive bow-up CG moment N·m. Different time estimands, not a performance comparison.",
+  "heroCaption": "Fixed B at imposed 30 km/h. W3 is the time-weighted mean over 0.789933–1.000000 s; endpoint is the instantaneous saved state at 1.000000 s. Upward = Fz; bow-up = −My about the unchanged CG. Different time estimands. These are calculated loads, not validated physical performance.",
+  "date": "2026-11-07",
+  "type": "Engineering study",
+  "systems": [
+    "hull-hydrodynamics"
+  ],
+  "publicationSequence": 1
+}
