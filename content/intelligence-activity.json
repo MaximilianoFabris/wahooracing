@@ -2,6 +2,19 @@
   "schema_version": 1,
   "records": [
     {
+      "id": "intake-placement-visual-study",
+      "publication": "published",
+      "date": "2026-11-07",
+      "agents": [
+        "grace",
+        "leo"
+      ],
+      "status": "completed",
+      "title": "Intake placement study gains a source-based visual review",
+      "summary": "Five native-source views explain the existing A/B intake placements, H0 control-net context and historical engine-envelope proxy. Candidate B remains provisional; installed pump registration, drive connection, hull interface and clearances are unresolved. H0 is unchanged and no new flow or physical-test result is claimed.",
+      "evidence": "Completed visual/editorial package · provisional CAD packaging · no fit or performance validation"
+    },
+    {
       "id": "h0-startup-state-correction",
       "publication": "published",
       "date": "2026-11-07",

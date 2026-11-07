@@ -4,6 +4,7 @@ const escape=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&
 const labels={'completed':'Completed','in-progress':'In progress','planned':'Planned'};
 const agentName=id=>agents.find(agent=>agent.id===id)?.name??id;
 const related={
+ 'intake-placement-visual-study':[['intake-placement-study','Explore the intake placement study']],
  'h0-startup-state-correction':[['hull-startup-state-correction','Read the investigation']],
  'h0-controlled-outlet-comparison':[['constant-speed-hull-study','The controlled outlet comparison']],
  'a29-cooling-simulation-preparation':[['designing-cnc-cylinder-cooling','Cooling construction study'],['toward-generative-engine-design','Simulation preparation']],

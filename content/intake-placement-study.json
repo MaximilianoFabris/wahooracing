@@ -1,0 +1,60 @@
+{
+  "slug": "intake-placement-study",
+  "title": "Finding the intake’s place",
+  "date": "2026-11-07",
+  "dateLabel": "7 November 2026 · visual review of the 6 November placement studies",
+  "publicationSequence": 2,
+  "revision": "INTAKE / A–B PLACEMENT STUDY",
+  "type": "Engineering study",
+  "evidence": "Provisional CAD packaging · interfaces and clearances unresolved",
+  "status": "published",
+  "systems": ["jet-pump", "hull-hydrodynamics", "engine"],
+  "summary": "We’re studying where the jetpump intake belongs beneath H0 and how it integrates with the pump and surrounding packaging. Candidate B explores an aft position; the placement, interfaces and clearances remain provisional.",
+  "hero": "engineering/intake-placement-nov07/01-Hero.png",
+  "heroAlt": "Source-based three-quarter view of the current H0 native control-net context and blue Candidate B intake. The image identifies an aft alternative and labels it provisional and unfitted.",
+  "heroCaption": "Candidate B in the native H0 control-net context. Saved intake and pump-study geometry; provisional and unfitted. The wire hull is not an inner surface or a cut opening.",
+  "sections": [
+    {
+      "title": "A small passage in a larger system",
+      "text": "The intake has to belong to the whole board. Its entry sits beneath the hull, its curved passage meets the pump concept, and the surrounding space must also accommodate the drive and engine. A plausible shape alone cannot settle those relationships.</p><p>These new views use the existing editable placement studies, with the current native H0 control net as context. The blue geometry is the saved intake study. Showing it through wire context lets us inspect the relationship without cutting the hull or inventing an interior surface.",
+      "figure": {
+        "image": "engineering/intake-placement-nov07/02-Underside.png",
+        "alt": "View from below of the H0 control net and Candidate B, with an enlarged detail of the proposed entry boundary. The image states that no hull cut or fitted joint is defined.",
+        "caption": "Full underside context and an enlarged entry detail. The proposed boundary remains unfitted; this is not an opening made in H0."
+      }
+    },
+    {
+      "title": "Seeing the space around it",
+      "text": "The close view brings the intake, pump study and historical engine envelope together. The engine appears as a wire bounding proxy, not detailed engine geometry. It helps screen a placement, but it cannot describe the usable space inside the hull.</p><p>Actual interior structure, mounting provisions and access still need definition. A component can appear separated in one projection while leaving unanswered questions about its real shape, connections or removal path. Those questions remain part of the design work, rather than benefits established by this illustration.",
+      "figure": {
+        "image": "engineering/intake-placement-nov07/03-Packaging.png",
+        "alt": "Oblique view of the blue Candidate B intake and pump study against the H0 control net. A wire box marks the historical engine bounding-envelope proxy. Interfaces remain unresolved.",
+        "caption": "The wire engine envelope is a historical packaging reference. It does not establish installed fit, inner-hull clearance or service access."
+      }
+    },
+    {
+      "title": "What the aft alternative changes",
+      "text": "Candidate A places the intake farther forward. Candidate B moves the intake and pump concept aft, reducing the earlier screening conflict with the old engine envelope. B remains the working hypothesis for further packaging investigation.</p><p>The matched views keep camera, scale and surrounding context constant so the placement change is visible. They do not turn B into a verified installation. Moving the concept also changes the unresolved drive relationship; a cleaner-looking arrangement is not evidence that the shaft connection, sealing or stern exit has been solved.",
+      "figure": {
+        "image": "engineering/intake-placement-nov07/04-Placement-Comparison.png",
+        "alt": "Matched aft-detail crops show Candidate A above and Candidate B below at the same scale. The intake and pump move aft while hull and historical engine-envelope context remain fixed. Both placements are provisional.",
+        "caption": "Same camera and scale, two provisional placements. No verified clearance or final A/B selection is represented."
+      }
+    },
+    {
+      "title": "Next, define the interfaces",
+      "text": "The next useful step is a registered interface layout: the selected pump face and shaft line, the inlet’s mechanical and sealing details, and the surrounding interior, structure and service needs. Existing digital design sources can supply that definition where available.</p><p>Until those relationships are resolved, the studies remain alternatives to develop. H0 is unchanged. This visual package records a packaging question and makes it easier to discuss; it adds no flow result, physical test, structural qualification or finished-product claim.",
+      "figure": {
+        "image": "engineering/intake-placement-nov07/05-Journal-Banner.png",
+        "alt": "Wide source-based view of the H0 control-net context and Candidate B intake study, labelled as a development placement concept.",
+        "caption": "The intake in context: a provisional placement study with drive, inlet and hull interfaces still open."
+      }
+    }
+  ],
+  "sources": [
+    "Editable Candidate A and Candidate B provisional intake packaging studies · 6 November 2026",
+    "Intake interface review · 7 November 2026 · installed pump registration, interior keepouts and mechanical interface unresolved",
+    "Source-based native control-net and saved component visual package · 7 November 2026 · presentation only"
+  ],
+  "changes": "Adds a dated visual record of the existing A/B intake placement studies. Preserves earlier engine and hull development history. No source CAD, H0 geometry, installed interface or engineering result was changed for this article."
+}
