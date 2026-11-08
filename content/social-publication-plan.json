@@ -1,0 +1,225 @@
+{
+  "schema": "wahoo.social-publication-plan/1",
+  "retiredBatches": [
+    "neon-red-deck-rev01",
+    "cinematic-mixed-rev01",
+    "color-impact-rev01",
+    "color-reference-rev01",
+    "color-testing-rev01"
+  ],
+  "entries": [
+    {
+      "key": "relaunch-rev03-P01",
+      "category": "brand"
+    },
+    {
+      "key": "relaunch-rev03-P02",
+      "category": "lifestyle"
+    },
+    {
+      "key": "blue-studio-rev01-BLUE-01",
+      "category": "product"
+    },
+    {
+      "key": "water-lifestyle-rev01-WATER-01",
+      "category": "lifestyle"
+    },
+    {
+      "key": "relaunch-rev03-P03",
+      "category": "people"
+    },
+    {
+      "key": "creative-trial-rev04-C",
+      "category": "engineering"
+    },
+    {
+      "key": "relaunch-rev03-P06",
+      "category": "engineering"
+    },
+    {
+      "key": "horizon-stories-rev01-P12",
+      "category": "people"
+    },
+    {
+      "key": "horizon-stories-rev01-P14",
+      "category": "engineering"
+    },
+    {
+      "key": "assignment18-rev01-P17",
+      "category": "engineering"
+    },
+    {
+      "key": "relaunch-rev03-P08",
+      "category": "product"
+    },
+    {
+      "key": "g001c1-rev01-IG-20261026-G001C1",
+      "category": "engineering"
+    },
+    {
+      "key": "g025-rev01-G025",
+      "category": "engineering"
+    },
+    {
+      "key": "horizon-stories-rev01-P15",
+      "category": "community"
+    },
+    {
+      "key": "g026-rev01-G026",
+      "category": "engineering"
+    },
+    {
+      "key": "blue-studio-rev01-BLUE-07",
+      "category": "engineering"
+    },
+    {
+      "key": "creative-trial-rev04-A",
+      "category": "lifestyle"
+    },
+    {
+      "key": "blue-studio-rev01-BLUE-04",
+      "category": "engineering"
+    },
+    {
+      "key": "g028-rev01-G028",
+      "category": "engineering"
+    },
+    {
+      "key": "engine-concept-rev01-ENGINE-CONCEPT",
+      "category": "product"
+    },
+    {
+      "key": "g029-rev01-G029-C1",
+      "category": "engineering"
+    },
+    {
+      "key": "g029-rev01-G029-C2",
+      "category": "engineering"
+    },
+    {
+      "key": "blue-studio-rev01-BLUE-03",
+      "category": "product"
+    },
+    {
+      "key": "g029-rev01-G029-C3",
+      "category": "engineering"
+    },
+    {
+      "key": "g030-rev01-G030-C2",
+      "category": "engineering"
+    },
+    {
+      "key": "relaunch-rev03-P05",
+      "category": "community"
+    },
+    {
+      "key": "g030-rev01-G030-C3",
+      "category": "engineering"
+    },
+    {
+      "key": "components-rev01-WHE-01-009",
+      "category": "engineering"
+    },
+    {
+      "key": "horizon-stories-rev01-P13",
+      "category": "brand"
+    },
+    {
+      "key": "components-rev01-WHE-03-001",
+      "category": "engineering"
+    },
+    {
+      "key": "components-rev01-WHE-02-001",
+      "category": "engineering"
+    },
+    {
+      "key": "blue-studio-rev01-BLUE-08",
+      "category": "product"
+    },
+    {
+      "key": "components-rev01-WHE-02-002",
+      "category": "engineering"
+    },
+    {
+      "key": "components-rev01-WHE-02-003",
+      "category": "engineering"
+    },
+    {
+      "key": "blue-studio-rev01-BLUE-06",
+      "category": "brand"
+    },
+    {
+      "key": "components-rev01-WHE-02-011",
+      "category": "engineering"
+    },
+    {
+      "key": "components-rev01-WHE-03-009",
+      "category": "engineering"
+    },
+    {
+      "key": "components-rev01-THROTTLE-CONCEPT",
+      "category": "product"
+    },
+    {
+      "key": "components-rev01-WHE-EXH-001-PIPE",
+      "category": "engineering"
+    },
+    {
+      "key": "components-rev01-PIPE-ALT-SELECTED-SECTION",
+      "category": "engineering",
+      "alternateOf": "components-rev01-WHE-EXH-001-PIPE"
+    },
+    {
+      "key": "components-rev01-WHE-EXH-001-JACKET",
+      "category": "engineering"
+    },
+    {
+      "key": "creative-trial-rev04-B",
+      "category": "product"
+    },
+    {
+      "key": "engineering-stories-rev01-P11",
+      "category": "engineering"
+    },
+    {
+      "key": "engineering-stories-rev01-P10",
+      "category": "engineering"
+    },
+    {
+      "key": "blue-studio-rev01-BLUE-05",
+      "category": "product"
+    },
+    {
+      "key": "engineering-stories-rev01-P09",
+      "category": "engineering"
+    },
+    {
+      "key": "relaunch-rev03-P04",
+      "category": "brand"
+    },
+    {
+      "key": "relaunch-rev03-P07",
+      "category": "engineering"
+    },
+    {
+      "key": "g031-rev01-G031",
+      "category": "engineering"
+    },
+    {
+      "key": "blue-studio-rev01-BLUE-02",
+      "category": "brand"
+    },
+    {
+      "key": "h0-development-rev01-H0-DEVELOPMENT-20261101",
+      "category": "engineering"
+    },
+    {
+      "key": "hull-first-step-rev01-HULL-FIRST-STEP",
+      "category": "engineering"
+    },
+    {
+      "key": "horizon-stories-rev01-P16",
+      "category": "brand"
+    }
+  ]
+}

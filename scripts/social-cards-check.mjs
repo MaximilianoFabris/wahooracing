@@ -1,5 +1,5 @@
 import fs from 'node:fs';import path from 'node:path';import crypto from 'node:crypto';import assert from 'node:assert/strict';
-import {socialCards,postText} from './social-cards.mjs';
+import {socialCards,postText,publicationEntries} from './social-cards.mjs';
 const hash=b=>crypto.createHash('sha256').update(b).digest('hex');
 const sourceFilename=card=>{const name=typeof card==='string'?card:card?.file??card?.imageURL;assert(typeof name==='string'&&name.length>0,'Source card must have a nonempty file string, object.file or object.imageURL');return path.basename(name);};
 const raw=fs.readFileSync('content/social-cards.json'),data=JSON.parse(raw),receipt=JSON.parse(fs.readFileSync('docs/social-cards-source-receipt.json'));
@@ -32,7 +32,22 @@ assert.deepEqual(data.batches[1].posts[0].cards.map(c=>path.basename(c.imageURL)
 assert.deepEqual(data.batches[0].posts.map(p=>p.id),['HULL-FIRST-STEP']);
 assert.deepEqual(data.batches[0].posts[0].cards.map(c=>path.basename(c.imageURL)),['HULL-01.png','HULL-02.png','HULL-03.png','HULL-04.png','HULL-05.png']);
 const html=fs.readFileSync('dist/preview/social-cards/index.html','utf8');
-const g031Visible=html.includes('id="g031-rev01"');const projected=g031Visible?data:{...data,batches:data.batches.filter(b=>b.id!=='g031-rev01')};const markup=socialCards(projected);
+const plan=JSON.parse(fs.readFileSync('content/social-publication-plan.json'));
+keys(plan,['schema','retiredBatches','entries']);
+assert.deepEqual(plan.retiredBatches,['neon-red-deck-rev01','cinematic-mixed-rev01','color-impact-rev01','color-reference-rev01','color-testing-rev01']);
+for(const row of plan.entries)keys(row,row.alternateOf?['key','category','alternateOf']:['key','category']);
+const allPostKeys=new Set(data.batches.flatMap(b=>b.posts.map(p=>b.id+'-'+p.id)));
+assert(plan.entries.every(e=>allPostKeys.has(e.key)),'Unknown publication plan key');
+assert.equal(new Set(plan.entries.map(e=>e.key)).size,plan.entries.length,'Duplicate publication plan key');
+const g031Visible=html.includes('id="g031-rev01"');const projected=g031Visible?data:{...data,batches:data.batches.filter(b=>b.id!=='g031-rev01')};const entries=publicationEntries(projected,plan),activeKeys=new Set(entries.map(e=>e.key)),markup=socialCards(projected,plan);
+assert.equal(entries.length,g031Visible?53:52);assert.equal(entries.filter(e=>!e.alternateOf).length,g031Visible?52:51);
+assert.equal(entries.filter(e=>e.alternateOf).length,1);
+assert.equal(entries.find(e=>e.alternateOf).position,entries.find(e=>e.key==='components-rev01-WHE-EXH-001-PIPE').position);
+assert.deepEqual([...html.matchAll(/data-social-open="([^"]+)"/g)].map(m=>m[1]),entries.map(e=>e.key),'Grid must follow approved publishing order');
+let run=0;for(const e of entries.filter(e=>!e.alternateOf)){run=e.category==='engineering'?run+1:0;assert(run<=2,'No more than two engineering posts without a break');}
+for(const id of plan.retiredBatches){assert(!html.includes(`id="${id}"`));assert(!html.includes(`data-social-collection="${id}"`));}
+assert(html.includes('data-social-collection-filter')&&html.includes('data-social-category-filter'));
+assert.equal(entries.reduce((n,e)=>n+e.post.cards.length,0),g031Visible?135:132);
 assert(html.includes(markup));assert(html.includes('noindex, nofollow, noarchive'));assert(html.includes('class="site-header'));
 assert(!/[CW]:[\\/]|file:\/\/|Wahoo_Intelligence|Social_Media|source-manifest|source-provenance|"evidence"|"visual_approach"|"rider_meaning"/i.test(html));
 assert(!/[CW]:[\\/]|file:\/\/|Wahoo_Intelligence|Social_Media|source-manifest|source-provenance/i.test(raw.toString()));
@@ -44,8 +59,10 @@ for(const batch of projected.batches){
   let originals;
   if(fs.existsSync(sourceFile)){const sourceRaw=fs.readFileSync(sourceFile);assert.equal(hash(sourceRaw),source.sha256);const parsed=JSON.parse(sourceRaw);originals=Array.isArray(parsed)?parsed:parsed.posts;}
   for(const post of batch.posts){
+    const active=activeKeys.has(batch.id+'-'+post.id);
     keys(post,['id','title','format','cards','caption','hashtags','revision','reviewStatus']);assert.equal(post.reviewStatus,'OWNER_REVIEW');assert(post.caption.length>0);assert([1,3,5].includes(post.cards.length));
-    assert(html.includes(`<div class="social-post-text" data-social-text>${esc(postText(post))}</div>`),'Visible text and clipboard text must be identical');
+    if(active)assert(html.includes(`<div class="social-post-text" data-social-text>${esc(postText(post))}</div>`),'Visible text and clipboard text must be identical');
+    else assert(!html.includes(`data-social-open="${batch.id}-${post.id}"`),'Retired design must not appear in gallery');
     const original=originals?.find(p=>p.id===post.id);
     if(original){assert.equal(post.caption,original.caption);assert.deepEqual(post.hashtags,original.hashtags);assert.deepEqual(post.cards.map(c=>c.alt),(original.alt_text??original.cards?.map(c=>c.alt)));if(original.cards||original.files)assert.deepEqual(post.cards.map(c=>path.basename(c.imageURL)),(original.cards||original.files).map(sourceFilename));else assert.equal(original.card_count,post.cards.length,'Source card count mismatch');}
     for(const card of post.cards){
@@ -54,7 +71,7 @@ for(const batch of projected.batches){
       const record=receipt.files.find(f=>f.imageURL===card.imageURL);assert(record);
       for(const base of ['public','dist']){const buffer=fs.readFileSync(base+card.imageURL);assert.equal(buffer.length,record.bytes);assert.equal(hash(buffer),record.sha256);assert.equal(buffer.readUInt32BE(16),1080);assert.equal(buffer.readUInt32BE(20),1440);}
       const originalFile=path.join(workspace,record.source);if(fs.existsSync(originalFile))assert.equal(hash(fs.readFileSync(originalFile)),record.sha256,'Original export mismatch');
-      assert(html.includes(`alt="${esc(card.alt)}"`));assert(html.includes(`href="${card.imageURL}" download`));
+      if(active){assert(html.includes(`alt="${esc(card.alt)}"`));assert(html.includes(`href="${card.imageURL}" download`));}
     }
   }
 }
@@ -64,4 +81,4 @@ const retained=receipt.retainedFiles||[];
 for(const record of retained){assert(!urls.has(record.imageURL));assert(/^\/preview\/social-cards\/images\/[a-z0-9-]+\/[A-Z0-9-]+\.png$/.test(record.imageURL));for(const base of ['public','dist']){const raw=fs.readFileSync(base+record.imageURL);assert.equal(raw.length,record.bytes);assert.equal(hash(raw),record.sha256,'Historical image URL changed');}}
 for(const base of ['public','dist']){const files=walk(base+'/preview/social-cards');const extra=base==='public'&&!g031Visible?receipt.files.filter(f=>f.imageURL.includes('/g031-rev01/')).map(f=>f.imageURL):[];const permitted=new Set([...urls,...extra,...retained.map(r=>r.imageURL)].map(url=>path.normalize(base+url)));if(base==='dist')permitted.add(path.normalize(base+'/preview/social-cards/index.html'));assert.deepEqual(files.map(f=>path.normalize(f)).sort(),[...permitted].sort(),'Only allowlisted current/historical images and rendered gallery may be public');}
 const script=fs.readFileSync('public/social-cards.js','utf8');assert(script.includes("text.textContent"));assert(!/fetch\(|localStorage|innerHTML|execCommand/.test(script));
-console.log(`PASS: ${projected.batches.reduce((n,b)=>n+b.posts.length,0)} posts / ${count} exact 1080×1440 PNGs; source hashes, captions, tags, alt text, public allowlist, visible/copy parity and privacy.`);
+console.log(`PASS: ${entries.filter(e=>!e.alternateOf).length} publishing slots / ${entries.length} entries; balanced sequence, collection/content filters and alternatives; all ${count} exact original PNGs and source captions retained and verified.`);

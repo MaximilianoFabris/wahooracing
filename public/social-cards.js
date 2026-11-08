@@ -20,6 +20,25 @@ for(const post of posts){
  });
 }
 const gallery=document.querySelector('[data-social-gallery]'),dialog=document.querySelector('[data-social-dialog]');
+const collection=gallery?.querySelector('[data-social-collection-filter]'),category=gallery?.querySelector('[data-social-category-filter]'),tiles=[...document.querySelectorAll('[data-social-tile]')];
+function filterPosts(){
+ if(!collection||!category)return;
+ const visible=tiles.filter(tile=>{const show=(collection.value==='all'||tile.dataset.socialCollection===collection.value)&&(category.value==='all'||tile.dataset.socialCategory===category.value);tile.hidden=!show;const post=posts.find(p=>p.id===tile.dataset.socialOpen);if(post)post.hidden=!show;return show;});
+ const slots=new Set(visible.map(tile=>tile.dataset.publicationPosition));
+ gallery.querySelector('[data-social-filter-count]').textContent=`${visible.length} of ${tiles.length} entries · ${slots.size} publishing slots`;
+ gallery.querySelector('[data-social-empty]').hidden=visible.length!==0;
+}
+function hashCollection(){
+ const id=location.hash.slice(1);if(!collection||![...collection.options].some(o=>o.value===id&&id!=='all'))return false;
+ collection.value=id;category.value='all';filterPosts();return true;
+}
+if(collection&&category){
+ gallery.querySelector('[data-social-filters]').hidden=false;
+ collection.addEventListener('change',filterPosts);category.addEventListener('change',filterPosts);
+ gallery.querySelector('[data-social-clear]').addEventListener('click',()=>{collection.value=category.value='all';filterPosts();history.replaceState(null,'','#publication-sequence');});
+ for(const link of gallery.querySelectorAll('[data-social-filter-batch]'))link.addEventListener('click',()=>{collection.value=link.dataset.socialFilterBatch;category.value='all';filterPosts();});
+ filterPosts();hashCollection();
+}
 if(gallery&&typeof dialog?.showModal==='function'){
  gallery.classList.add('social-enhanced');
  const body=dialog.querySelector('[data-social-dialog-body]'),close=dialog.querySelector('[data-social-close]'),origins=new Map(posts.map(post=>[post,post.parentNode]));
@@ -31,7 +50,7 @@ if(gallery&&typeof dialog?.showModal==='function'){
   document.body.classList.add('social-modal-open');if(!dialog.open)dialog.showModal();
   dialog.scrollTop=0;requestAnimationFrame(()=>updates.get(post)?.());
  }
- function fromHash(){const post=posts.find(p=>'#'+p.id===location.hash);if(post)open(post);else if(dialog.open)dialog.close();}
+ function fromHash(){if(hashCollection()){if(dialog.open)dialog.close();return;}const post=posts.find(p=>'#'+p.id===location.hash);if(post){post.hidden=false;open(post);}else if(dialog.open)dialog.close();}
  for(const tile of gallery.querySelectorAll('[data-social-open]'))tile.addEventListener('click',event=>{
   if(event.ctrlKey||event.metaKey||event.shiftKey||event.altKey)return;
   event.preventDefault();trigger=tile;const id=tile.dataset.socialOpen;
