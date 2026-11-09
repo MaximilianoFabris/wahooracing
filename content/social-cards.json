@@ -2404,6 +2404,49 @@
           "reviewStatus": "OWNER_REVIEW"
         }
       ]
+    },
+    {
+      "id": "h0-100ms-rev01",
+      "title": "H0 · the first 100 milliseconds",
+      "revision": "Source-derived numerical campaign · Rev01",
+      "posts": [
+        {
+          "id": "H0-100MS",
+          "title": "What happens in the first 100 milliseconds?",
+          "format": "Carousel · 5 cards",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/h0-100ms-rev01/H0-100MS-01.png",
+              "alt": "Graphite Wahoo cover reads “What happens in the first 100 milliseconds?” Large blue 100 leads to a genuine saved H0 geometry view at 100 milliseconds. It is an early numerical study, with actual pose and no magnified motion."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/h0-100ms-rev01/H0-100MS-02.png",
+              "alt": "Pale Wahoo card reads “The water pushes back.” An unsmoothed completed-fluid upward-force chart shows all accepted dynamic states and short pulses, with separate lines for native process segments and no restart bridging. A disconnected open dot marks the pre-update release snapshot. The weight reference is 178.5 newtons. Positive fluid force alone does not establish upward acceleration."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/h0-100ms-rev01/H0-100MS-03.png",
+              "alt": "Graphite card reads “50 milliseconds. A change in direction.” Actual vertical position falls to a sampled minimum 3.777 millimetres below release at 50.269 milliseconds, then rises to 6.545 millimetres above release at 100 milliseconds. Text qualifies the turn as restart-adjacent and says the bow keeps rotating."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/h0-100ms-rev01/H0-100MS-04.png",
+              "alt": "Pale card reads “Less torque. Still rotating.” Separate charts show completed-fluid bow-up moment at current centre of gravity and absolute pitch. The 615 newton metre pre-update release snapshot is labelled and drawn as a disconnected open dot, separate from accepted dynamic states. The endpoint is 0.189 newton metres; pitch increases from 0.411 to 6.529 degrees. Lines break at process segments and the quantities have separate vertical axes."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/h0-100ms-rev01/H0-100MS-05.png",
+              "alt": "Graphite card reads “Engineering the next move.” A second genuinely new view of the actual saved H0 surface accompanies the question “What will slow the bow-up rotation?” Text says H0 remains the baseline and makes no optimized hull claim."
+            }
+          ],
+          "caption": "What can one tenth of a second reveal?\n\nIn this numerical study at a prescribed 30 km/h, H0 first moves down, then rises. Its sampled low point is at 50.269 ms, close to a process restart; accepted neighboring samples support the reversal, while that timing retains the restart qualification.\n\nThe bow keeps rotating upward. The fluid moment about the current centre of gravity falls from a 615 N·m pre-release snapshot to 0.189 N·m at 100 ms, but a small remaining torque does not erase momentum gained earlier. Absolute pitch reaches 6.529°, with bow-up rotation still continuing at 1.381 rad/s.\n\nCurves show accepted dynamic states. Open dots mark the separate release snapshots; lines break at process restarts.\n\nThat is a useful development finding, not stable trim or a finished hull. This is the dry, provisional-inertia H0 model with a closed intake, no rider and no thrust. It has not been physically validated. H0 remains our baseline while the next engineering question is reviewed.\n\nWhat will slow that rotation?\n\nFollow the build as we investigate the next move.\n\n#WahooRacing #Hydrodynamics #HullDesign #EngineeringDevelopment\n",
+          "hashtags": [
+            "#WahooRacing",
+            "#Hydrodynamics",
+            "#HullDesign",
+            "#EngineeringDevelopment"
+          ],
+          "revision": "Accepted 100 ms numerical study · Rev01 · 9 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        }
+      ]
     }
   ]
 }

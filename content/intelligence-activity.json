@@ -2,6 +2,20 @@
   "schema_version": 1,
   "records": [
     {
+      "id": "h0-first-100ms-dynamic-response",
+      "publication": "published",
+      "date": "2026-11-09",
+      "agents": [
+        "archimedes",
+        "isaac",
+        "leo"
+      ],
+      "status": "completed",
+      "title": "First 100 ms dynamic hull response independently reviewed",
+      "summary": "The existing H0 numerical trajectory completed 100 ms at prescribed 30 km/h. Accepted samples support a restart-adjacent first vertical reversal, followed by upward heave and persistent bow-up rotation. H0 is unchanged; stable trim, damping and physical performance remain unverified.",
+      "evidence": "Accepted numerical milestone · independent review · no physical validation"
+    },
+    {
       "id": "intake-placement-visual-study",
       "publication": "published",
       "date": "2026-11-07",

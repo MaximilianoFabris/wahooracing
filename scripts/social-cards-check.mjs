@@ -5,10 +5,11 @@ const sourceFilename=card=>{const name=typeof card==='string'?card:card?.file??c
 const raw=fs.readFileSync('content/social-cards.json'),data=JSON.parse(raw),receipt=JSON.parse(fs.readFileSync('docs/social-cards-source-receipt.json'));
 assert.equal(hash(raw),receipt.projectionSha256,'Reviewed public projection changed');
 const keys=(object,expected)=>assert.deepEqual(Object.keys(object).sort(),expected.sort());
-keys(data,['batches']);assert.equal(data.batches.length,23);
-assert.deepEqual(data.batches.map(b=>b.id),["hull-first-step-rev01", "engine-concept-rev01", "water-lifestyle-rev01", "blue-studio-rev01", "neon-red-deck-rev01", "cinematic-mixed-rev01", "color-impact-rev01", "color-reference-rev01", "color-testing-rev01", "components-rev01", "h0-development-rev01", "g031-rev01", "g030-rev01", "g029-rev01", "g028-rev01", "g026-rev01", "g025-rev01", "g001c1-rev01", "assignment18-rev01", "horizon-stories-rev01", "engineering-stories-rev01", "relaunch-rev03", "creative-trial-rev04"]);
-assert.deepEqual(data.batches.map(b=>b.posts.length),[1, 1, 1, 8, 8, 8, 8, 8, 10, 11, 1, 1, 2, 3, 1, 1, 1, 1, 1, 5, 3, 8, 3]);
-assert.equal(data.batches.reduce((n,b)=>n+b.posts.length,0),95);
+keys(data,['batches']);assert.equal(data.batches.length,24);
+assert.deepEqual(data.batches.map(b=>b.id),["hull-first-step-rev01", "engine-concept-rev01", "water-lifestyle-rev01", "blue-studio-rev01", "neon-red-deck-rev01", "cinematic-mixed-rev01", "color-impact-rev01", "color-reference-rev01", "color-testing-rev01", "components-rev01", "h0-development-rev01", "g031-rev01", "g030-rev01", "g029-rev01", "g028-rev01", "g026-rev01", "g025-rev01", "g001c1-rev01", "assignment18-rev01", "horizon-stories-rev01", "engineering-stories-rev01", "relaunch-rev03", "creative-trial-rev04", "h0-100ms-rev01"]);
+assert.deepEqual(data.batches.map(b=>b.posts.length),[1, 1, 1, 8, 8, 8, 8, 8, 10, 11, 1, 1, 2, 3, 1, 1, 1, 1, 1, 5, 3, 8, 3, 1]);
+assert.equal(data.batches.reduce((n,b)=>n+b.posts.length,0),96);
+assert.deepEqual(data.batches[23].posts[0].cards.map(c=>path.basename(c.imageURL)),['H0-100MS-01.png','H0-100MS-02.png','H0-100MS-03.png','H0-100MS-04.png','H0-100MS-05.png']);
 assert.deepEqual(data.batches[10].posts.map(p=>p.id),['H0-DEVELOPMENT-20261101']);
 assert.deepEqual(data.batches[10].posts[0].cards.map(c=>path.basename(c.imageURL)),['H0-01.png','H0-02.png','H0-03.png','H0-04.png','H0-05.png']);
 assert.deepEqual(data.batches[9].posts.map(p=>p.id),["WHE-03-001", "WHE-02-001", "WHE-02-002", "WHE-02-003", "WHE-02-011", "WHE-03-009", "WHE-EXH-001-PIPE", "WHE-EXH-001-JACKET", "THROTTLE-CONCEPT", "WHE-01-009", "PIPE-ALT-SELECTED-SECTION"]);
@@ -40,14 +41,15 @@ const allPostKeys=new Set(data.batches.flatMap(b=>b.posts.map(p=>b.id+'-'+p.id))
 assert(plan.entries.every(e=>allPostKeys.has(e.key)),'Unknown publication plan key');
 assert.equal(new Set(plan.entries.map(e=>e.key)).size,plan.entries.length,'Duplicate publication plan key');
 const g031Visible=html.includes('id="g031-rev01"');const projected=g031Visible?data:{...data,batches:data.batches.filter(b=>b.id!=='g031-rev01')};const entries=publicationEntries(projected,plan),activeKeys=new Set(entries.map(e=>e.key)),markup=socialCards(projected,plan);
-assert.equal(entries.length,g031Visible?53:52);assert.equal(entries.filter(e=>!e.alternateOf).length,g031Visible?52:51);
+assert.equal(entries.length,g031Visible?54:53);assert.equal(entries.filter(e=>!e.alternateOf).length,g031Visible?53:52);
+assert.equal(entries.at(-1).key,'h0-100ms-rev01-H0-100MS');assert.equal(entries.at(-2).key,'horizon-stories-rev01-P16','Brand break precedes new engineering story');
 assert.equal(entries.filter(e=>e.alternateOf).length,1);
 assert.equal(entries.find(e=>e.alternateOf).position,entries.find(e=>e.key==='components-rev01-WHE-EXH-001-PIPE').position);
 assert.deepEqual([...html.matchAll(/data-social-open="([^"]+)"/g)].map(m=>m[1]),entries.map(e=>e.key),'Grid must follow approved publishing order');
 let run=0;for(const e of entries.filter(e=>!e.alternateOf)){run=e.category==='engineering'?run+1:0;assert(run<=2,'No more than two engineering posts without a break');}
 for(const id of plan.retiredBatches){assert(!html.includes(`id="${id}"`));assert(!html.includes(`data-social-collection="${id}"`));}
 assert(html.includes('data-social-collection-filter')&&html.includes('data-social-category-filter'));
-assert.equal(entries.reduce((n,e)=>n+e.post.cards.length,0),g031Visible?135:132);
+assert.equal(entries.reduce((n,e)=>n+e.post.cards.length,0),g031Visible?140:137);
 assert(html.includes(markup));assert(html.includes('noindex, nofollow, noarchive'));assert(html.includes('class="site-header'));
 assert(!/[CW]:[\\/]|file:\/\/|Wahoo_Intelligence|Social_Media|source-manifest|source-provenance|"evidence"|"visual_approach"|"rider_meaning"/i.test(html));
 assert(!/[CW]:[\\/]|file:\/\/|Wahoo_Intelligence|Social_Media|source-manifest|source-provenance/i.test(raw.toString()));
@@ -57,7 +59,7 @@ for(const batch of projected.batches){
   keys(batch,['id','title','revision','posts']);
   const source=receipt.sources.find(s=>s.batch===batch.id),sourceFile=path.join(workspace,source.source);
   let originals;
-  if(fs.existsSync(sourceFile)){const sourceRaw=fs.readFileSync(sourceFile);assert.equal(hash(sourceRaw),source.sha256);const parsed=JSON.parse(sourceRaw);originals=Array.isArray(parsed)?parsed:parsed.posts;}
+  if(fs.existsSync(sourceFile)){const sourceRaw=fs.readFileSync(sourceFile);assert.equal(hash(sourceRaw),source.sha256);const parsed=JSON.parse(sourceRaw);originals=Array.isArray(parsed)?parsed:parsed.posts;if(!originals&&parsed.caption&&parsed.cards){assert.equal(batch.posts.length,1);originals=[{...parsed,id:batch.posts[0].id}];}}
   for(const post of batch.posts){
     const active=activeKeys.has(batch.id+'-'+post.id);
     keys(post,['id','title','format','cards','caption','hashtags','revision','reviewStatus']);assert.equal(post.reviewStatus,'OWNER_REVIEW');assert(post.caption.length>0);assert([1,3,5].includes(post.cards.length));
@@ -75,7 +77,7 @@ for(const batch of projected.batches){
     }
   }
 }
-assert.equal(count,g031Visible?177:174);assert.equal(receipt.files.length,177);
+assert.equal(count,g031Visible?182:179);assert.equal(receipt.files.length,182);
 function walk(folder){return fs.readdirSync(folder,{withFileTypes:true}).flatMap(f=>f.isDirectory()?walk(path.join(folder,f.name)):[path.join(folder,f.name)]);}
 const retained=receipt.retainedFiles||[];
 for(const record of retained){assert(!urls.has(record.imageURL));assert(/^\/preview\/social-cards\/images\/[a-z0-9-]+\/[A-Z0-9-]+\.png$/.test(record.imageURL));for(const base of ['public','dist']){const raw=fs.readFileSync(base+record.imageURL);assert.equal(raw.length,record.bytes);assert.equal(hash(raw),record.sha256,'Historical image URL changed');}}
