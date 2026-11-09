@@ -12,7 +12,7 @@
       ],
       "status": "completed",
       "title": "First 100 ms dynamic hull response independently reviewed",
-      "summary": "The existing H0 numerical trajectory completed 100 ms at prescribed 30 km/h. Accepted samples support a restart-adjacent first vertical reversal, followed by upward heave and persistent bow-up rotation. H0 is unchanged; stable trim, damping and physical performance remain unverified.",
+      "summary": "The H0 numerical trajectory completed 100 ms at prescribed 30 km/h. A first downward-to-upward reversal occurred near 50.269 ms, adjacent to a process restart. By 100 ms, the hull had risen 6.545 mm above release and reached 6.529° absolute bow-up pitch. Rotation continued despite a small remaining pitching moment: accumulated angular momentum still mattered. H0 is unchanged; stable trim, damping and physical performance remain unverified.",
       "evidence": "Accepted numerical milestone · independent review · no physical validation"
     },
     {
