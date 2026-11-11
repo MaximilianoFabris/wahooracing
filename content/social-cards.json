@@ -2568,6 +2568,50 @@
           "reviewStatus": "OWNER_REVIEW"
         }
       ]
+    },
+    {
+      "id": "h1-architecture-rev01",
+      "title": "H1 · three paths, one board",
+      "revision": "Corrected preliminary architecture · 11 November 2026",
+      "posts": [
+        {
+          "id": "H1-ARCHITECTURE",
+          "title": "Three paths. One board.",
+          "format": "Carousel · 5 cards",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/h1-architecture-rev01/ARCH-01.png",
+              "alt": "Three paths. One board. A preliminary CAD-derived assembly on pale grey shows green engine-air nozzle and internal duct, amber single exhaust and jacket, blue jet-water system, and neutral mechanical parts. The legend identifies each system; physical fit remains unresolved."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/h1-architecture-rev01/ARCH-02.png",
+              "alt": "Engine air. A vertical plan view of actual-source green nozzle and preliminary internal tank-bypass duct around the neutral tank, ending at provisional induction envelopes. Labels identify external nozzle, internal tank bypass and provisional elbow. Airflow, drainage and seals need development."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/h1-architecture-rev01/ARCH-03.png",
+              "alt": "One exhaust. On graphite, the actual-source amber pipe and coaxial cooling jacket form one elongated assembly. Engine and stern joints remain unresolved; this is preliminary digital architecture."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/h1-architecture-rev01/ARCH-04.png",
+              "alt": "A separate water path. Enlarged actual-source blue jet-water assembly with neutral mechanical shaft references. Text names underside intake, pump and stern water discharge. Preliminary digital architecture, not computed flow."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/h1-architecture-rev01/ARCH-05.png",
+              "alt": "The next questions. CAD-derived registered assembly within a translucent H1 opening-branch hull on graphite. Text asks about inner structure, tank and deck, air and water, and connections still to resolve. What would you explore first? Preliminary digital architecture."
+            }
+          ],
+          "caption": "Three paths. One board.\n\nGreen brings engine air from the external nozzle through a preliminary internal tank bypass to a provisional elbow. Amber marks one exhaust assembly, including its coaxial cooling jacket. Blue follows the separate jet-water intake, pump and stern discharge.\n\nThis is a preliminary digital architecture study, not a physically validated installation. Inner-laminate space, the tank/deck interface, airflow, drainage, seals and engine connections still need development. The H1 opening branch is derived from the hull study; the H0 master remains preserved. Colors identify systems, not computed fluid fields.\n\nWhat would you explore first?",
+          "hashtags": [
+            "#WahooRacing",
+            "#Jetboard",
+            "#ProductDevelopment",
+            "#MarineEngineering",
+            "#DesignProcess"
+          ],
+          "revision": "Rev01 · 11 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        }
+      ]
     }
   ]
 }

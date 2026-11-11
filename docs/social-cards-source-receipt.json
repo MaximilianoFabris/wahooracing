@@ -1171,6 +1171,36 @@
       "source": "Social_Media/Instagram/Intake_Integration_Rev01_20261111/exports/INTAKE-05.png",
       "bytes": 526512,
       "sha256": "dfe174f7859786e0e6f4a65925e1819e4fe8fb2dc17ca30f5a5f633bdcf64fbb"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/h1-architecture-rev01/ARCH-01.png",
+      "source": "Social_Media/Instagram/H1_Architecture_Rev01_20261111/exports/ARCH-01.png",
+      "bytes": 143001,
+      "sha256": "5c90588c3a3f40266aab3a15c3d6c008c8152c33e0c91d6ac26e7247b0090fd9"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/h1-architecture-rev01/ARCH-02.png",
+      "source": "Social_Media/Instagram/H1_Architecture_Rev01_20261111/exports/ARCH-02.png",
+      "bytes": 82968,
+      "sha256": "817d9c9ab2a1f68f67049e125f86e1566562a47c83f9fe22fd13c953f850c7bd"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/h1-architecture-rev01/ARCH-03.png",
+      "source": "Social_Media/Instagram/H1_Architecture_Rev01_20261111/exports/ARCH-03.png",
+      "bytes": 94674,
+      "sha256": "af5016942489bff9c75f8b37fb0fa6581bfacfa65d0b771f93b6de05d990c29c"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/h1-architecture-rev01/ARCH-04.png",
+      "source": "Social_Media/Instagram/H1_Architecture_Rev01_20261111/exports/ARCH-04.png",
+      "bytes": 93333,
+      "sha256": "4d5a2709fb2f197f949b22391a20e64e1e56a30e63304545c40f4f231fda16fa"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/h1-architecture-rev01/ARCH-05.png",
+      "source": "Social_Media/Instagram/H1_Architecture_Rev01_20261111/exports/ARCH-05.png",
+      "bytes": 128359,
+      "sha256": "14c790d9145ff9a6dce97066c0681e80a13b7a716d6b33f328b05758b93f7dff"
     }
   ],
   "sources": [
@@ -1308,9 +1338,14 @@
       "batch": "intake-integration-rev01",
       "source": "Social_Media/Instagram/Intake_Integration_Rev01_20261111/copy/CAPTION_AND_ALT.json",
       "sha256": "43278a81aac37973c08a613d8df79f17f4175bed97204bbcb338d2881583ead4"
+    },
+    {
+      "batch": "h1-architecture-rev01",
+      "source": "Social_Media/Instagram/H1_Architecture_Rev01_20261111/copy/CAPTION_AND_ALT.json",
+      "sha256": "af225d919d7872fe494ba6777c6deec53109e4a585aa2aea353345b73520d0ec"
     }
   ],
-  "projectionSha256": "877774686e5c2243208f11ba3ccd4ab1368807af03449544fd854cc0e8558ee5",
+  "projectionSha256": "7efda9a27724bb6322eff7d5f72d1de8033ab5313b15de74fdea1a871d1c8e18",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",
