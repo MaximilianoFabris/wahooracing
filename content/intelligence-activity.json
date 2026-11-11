@@ -2,6 +2,34 @@
   "schema_version": 1,
   "records": [
     {
+      "id": "hull-controlled-design-questions",
+      "publication": "published",
+      "date": "2026-11-11",
+      "agents": [
+        "archimedes",
+        "isaac",
+        "leo"
+      ],
+      "status": "completed",
+      "title": "Hull evidence frames controlled next-design questions",
+      "summary": "The reviewed decision pack prioritizes aft-support and middle-rocker hypotheses for separate geometry development. Editable control-net proxies and a planned small design matrix provide a preparation baseline; smooth-surface qualification, structural constraints and registered intake interfaces remain open. H0 is retained. No improved hull or new H1 CFD result is claimed.",
+      "evidence": "Completed engineering decision review · provisional geometry tools · design benefits untested"
+    },
+    {
+      "id": "h0-150ms-angular-braking",
+      "publication": "published",
+      "date": "2026-11-09",
+      "agents": [
+        "archimedes",
+        "isaac",
+        "leo"
+      ],
+      "status": "completed",
+      "title": "H0 completes 150 ms; opposing pitch load develops",
+      "summary": "The unchanged H0 numerical trajectory reached 150 ms at imposed 30 km/h; independent review followed on 10 November. Bow-up pitch rate fell approximately 16.7% between 100 and 150 ms, while pitch continued increasing and heave remained upward-driven. Restart pulses are retained. Stable trim, damping and physical performance remain unverified.",
+      "evidence": "Accepted numerical endpoint · independently reviewed 10 November · no physical validation"
+    },
+    {
       "id": "h0-first-100ms-dynamic-response",
       "publication": "published",
       "date": "2026-11-09",

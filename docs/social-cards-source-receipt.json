@@ -1093,6 +1093,36 @@
       "source": "Social_Media/Instagram/H0_First_100ms_Rev01_20261109/exports/H0-100MS-05.png",
       "bytes": 128834,
       "sha256": "fc8d5ce3dd84afb0833a751a186ecdcae4c14d218da1c9d89f1c1d853a61e293"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/h0-150ms-rev01/H0-150-01.png",
+      "source": "Social_Media/Instagram/Hull_Next_Move_Rev01_20261111/exports/H0-150-01.png",
+      "bytes": 110156,
+      "sha256": "46a804c85ae73133c5c30e0414bf33a333fbc2dffeca871f94fbdbb6d5b21a08"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/h0-150ms-rev01/H0-150-02.png",
+      "source": "Social_Media/Instagram/Hull_Next_Move_Rev01_20261111/exports/H0-150-02.png",
+      "bytes": 117392,
+      "sha256": "fdd8df09ecedb1f228d71948dfd106e71b55ee4a8b5c859b5a091660bb9f1e14"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/h0-150ms-rev01/H0-150-03.png",
+      "source": "Social_Media/Instagram/Hull_Next_Move_Rev01_20261111/exports/H0-150-03.png",
+      "bytes": 126319,
+      "sha256": "83035d023f4553153d12be8b8f450c97d14a27d88227ac2f8a83973382e29121"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/h0-150ms-rev01/H0-150-04.png",
+      "source": "Social_Media/Instagram/Hull_Next_Move_Rev01_20261111/exports/H0-150-04.png",
+      "bytes": 159896,
+      "sha256": "9526936d140044ef0e4dbbe70e8b7e4ec386be49c553dfc39d0addb91f8c55d7"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/h0-150ms-rev01/H0-150-05.png",
+      "source": "Social_Media/Instagram/Hull_Next_Move_Rev01_20261111/exports/H0-150-05.png",
+      "bytes": 78199,
+      "sha256": "49f0f63c657861dcfe551ffa9400fa0f77a802a9808ca0ae6b0743c71660e92d"
     }
   ],
   "sources": [
@@ -1215,9 +1245,14 @@
       "batch": "h0-100ms-rev01",
       "source": "Social_Media/Instagram/H0_First_100ms_Rev01_20261109/copy/CAPTION_AND_ALT.json",
       "sha256": "7a7ca6e5648bd0f1e7ef4746dbfcb52c9dbf9718bece02e5e3990a1b71fbb036"
+    },
+    {
+      "batch": "h0-150ms-rev01",
+      "source": "Social_Media/Instagram/Hull_Next_Move_Rev01_20261111/copy/CAPTION_AND_ALT.json",
+      "sha256": "570659c5d15748618cf5d272d555654d74dabba36647a60b923cce2b8123c1c8"
     }
   ],
-  "projectionSha256": "46f443b796804d55f2f44d5d4bcd27e463e9cc3b056da8bd68c41d5f66aed54c",
+  "projectionSha256": "827be382403e64e9c59333a833e0bfc629f11b657662e14d5f3092e83911080d",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",
@@ -1340,5 +1375,5 @@
       "sha256": "33082187fe43fd587b112d348e047534ebbfe9eaf45576ae029d8d00b2b63e58"
     }
   ],
-  "updatedDate": "2026-11-09"
+  "updatedDate": "2026-11-11"
 }

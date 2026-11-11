@@ -1,20 +1,64 @@
 {
   "slug": "h0-first-100-milliseconds",
-  "title": "100 milliseconds: what CFD reveals about the Wahoo hull",
-  "date": "2026-11-09",
-  "dateLabel": "9 November 2026 · accepted 100 ms numerical milestone",
-  "revision": "H0 / FIRST 100 MILLISECONDS",
+  "title": "The rotation slows: inside Wahoo’s 150 ms hull study",
+  "date": "2026-11-11",
+  "dateLabel": "9 November endpoint · reviewed 10 November · updated 11 November 2026",
+  "revision": "H0 / 150 MS UPDATE · ORIGINAL 100 MS RECORD RETAINED",
   "type": "Engineering study",
   "evidence": "Independently reviewed numerical response · provisional inertia · no physical validation",
   "status": "published",
   "systems": [
     "hull-hydrodynamics"
   ],
-  "summary": "A closer look at the forces, motion and engineering decisions shaping our next-generation jetboard. A first vertical reversal, persistent bow-up rotation and a sharper engineering question from H0’s accepted first 100 milliseconds.",
-  "hero": "engineering/h0-100ms-review/01-Hero.png",
-  "heroAlt": "Actual H0 hull surface rendered against graphite, retaining the saved 100 millisecond pose.",
-  "heroCaption": "Actual H0 surface at the accepted 100 ms state. Geometry and saved pose are preserved; lighting is illustrative. No water surface or motion exaggeration is added.",
+  "summary": "An opposing moment is slowing the bow-up rotation. The hull is still rising and rotating. What the next fifty milliseconds reveal—and how the evidence is shaping our next design questions.",
+  "hero": "engineering/h0-150ms-nov11/06-Pressure.png",
+  "heroAlt": "Native physical pressure at the saved 150 ms state on actual H0 geometry, with a shared minus 15 to plus 6 kilopascal scale and zero pascal reference.",
+  "heroCaption": "Actual saved physical p at 150 ms; reference 0 Pa. Common camera and −15 to +6 kPa display range. Colours are the accepted pressure mapping, without decorative relighting. No fictional flow or free surface is added.",
   "sections": [
+    {
+      "title": "150 ms update — the rotation slows",
+      "text": "The next fifty milliseconds changed the engineering question. The same H0 hull simulation has now completed 150 ms at an imposed 30 km/h. The bow is still rotating upward, but its rotation is slowing: the bow-up rate falls from 1.381 rad/s at 100 ms to 1.150 rad/s at 150 ms, a reduction of approximately 16.7%.</p><p>This is angular braking in the numerical model. It does not mean that the hull has reached a settled running attitude. Absolute pitch is still increasing, and vertical motion is still upward. Separating those observations is essential when deciding what to investigate next.</p><p>The endpoint was reached on 9 November; the accepted engineering review followed on 10 November. This dated Journal update was prepared on 11 November. The original 100 ms account remains below, with its figures and qualifications preserved.",
+      "figure": {
+        "image": "engineering/h0-150ms-nov11/01-Rate.png",
+        "alt": "Actual bow-up pitch-rate history from release to 150 ms, on a zero-based vertical scale. Rate is lower at 150 ms than at 100 ms but remains positive.",
+        "caption": "All 4,042 accepted dynamic samples; no smoothing. Rate remains positive. Curves break at process restarts, and accepted pulses remain in the record. The open release marker is a separate stored reference."
+      }
+    },
+    {
+      "title": "A force can oppose motion without stopping it",
+      "text": "A moment is the turning effect of a force. When it acts against existing rotation, it can remove angular momentum; stopping takes time and enough accumulated opposing action. At 100 ms, the completed-fluid moment was small while the bow kept rotating. The longer record now shows sustained opposition in both the moment applied to the body and the completed-fluid moment.</p><p>That opposition appears from approximately 106.995 to 138.262 ms, and again from 138.293 to 150 ms. A brief restart-adjacent pulse separates the intervals and remains visible. The pulse is not edited away to make the story smoother.</p><p>At 150 ms, the completed-fluid moment about the instantaneous centre of gravity is approximately −14.10 N·m. The body-applied moment is approximately −13.93 N·m. These loads come from different phases of the numerical coupling; they must not be treated as interchangeable measurements.",
+      "figure": {
+        "image": "engineering/h0-150ms-nov11/02-Moment.png",
+        "alt": "Completed-fluid bow-up moment about the current centre of gravity from 50 to 150 ms. The full late-window vertical range retains short pulses; the endpoint is negative.",
+        "caption": "50–150 ms detail, with its full transient range retained. Negative values oppose positive bow-up rotation. Completed-fluid load and body-applied load belong to different coupling phases. A negative endpoint does not prove pitch arrest or damping."
+      }
+    },
+    {
+      "title": "Still rising. Still rotating.",
+      "text": "By 150 ms, the hull is 38.866 mm above its release position and has reached 10.229° absolute bow-up pitch. Its upward velocity is approximately 0.825 m/s, with upward acceleration still positive. The earlier downward-to-upward reversal has not been followed by an upper vertical turning point.</p><p>The full vertical-position history makes that sequence visible, from initial descent through the first reversal to the later rise. The graph keeps the accepted displacement scale. It describes the numerical H0 hull, rather than a board being ridden.",
+      "figure": {
+        "image": "engineering/h0-150ms-nov11/04-Heave.png",
+        "alt": "Actual heave history from release to 150 ms. An initial descent reverses near 50.269 ms before the hull rises above release height.",
+        "caption": "Heave is relative to release. The first sampled minimum is restart-adjacent. The endpoint is +38.866 mm and is still rising; no upper turning point or damping is established."
+      }
+    },
+    {
+      "title": "Pressure maps explain where to look",
+      "text": "The saved pressure field adds another layer of evidence. It maps the instantaneous numerical pressure directly onto the real H0 surface. Large local contributions can oppose one another, so a resultant moment cannot be read from the brightest region alone.</p><p>The maps use a common −15 to +6 kPa range and a zero-pressure reference. They provide spatial context, not a unique centre of pressure, an exact wetting boundary or proof that a particular hull region is defective. We keep those limits visible rather than turning a striking image into a stronger claim.",
+      "figure": {
+        "image": "engineering/h0-150ms-nov11/06-Pressure.png",
+        "alt": "Native physical pressure at the saved 150 ms state on actual H0 geometry, with a shared minus 15 to plus 6 kilopascal scale and zero pascal reference.",
+        "caption": "Actual saved physical p at 150 ms; reference 0 Pa. Common camera and −15 to +6 kPa display range. Colours are the accepted pressure mapping, without decorative relighting. No fictional flow or free surface is added."
+      }
+    },
+    {
+      "title": "From a numerical finding to better design questions",
+      "text": "The evidence supports a useful next step: develop controlled geometry questions before assuming that more observation will solve the design. Two priorities are the aft support region and the middle rocker, the lengthwise curvature of the hull. Their influence on early turning impulse, support and drag must be tested; changing a surface is not an improvement by itself.</p><p>Source-derived editable proxy geometry and a small planned design matrix now provide a foundation for that work. Those are geometry-development tools, not smooth, manufacturable hulls or completed CFD comparisons. H0 stays unchanged as the reference. The team must still qualify the smooth surfaces, structural implications and the relationship to intake packaging.</p><p>The intake study is part of the same system question. Its location must make sense alongside the selected pump, drive, hull interior and service access. The aft-shifted direction remains provisional. A visual fit does not establish a sealed installation or usable clearance.</p><p>This milestone therefore records progress without selecting a winner. Angular braking has developed; pitch-position reversal, stable trim and qualified damping have not been demonstrated. The model remains a dry, closed-intake hull with provisional inertia, no rider and no jet thrust, with only heave and pitch free. It does not establish physical product performance. Future geometry and propulsion studies need their own evidence and execution authorization."
+    },
+    {
+      "title": "Original investigation — first 100 ms / 9 November 2026",
+      "text": "The following account preserves the original accepted 100 ms milestone and its graphics. Its values and next-step discussion describe that earlier endpoint; the dated 150 ms update above supplies the later evidence."
+    },
     {
       "title": "Why let the hull move?",
       "text": "One tenth of a second is easy to miss. In a numerical hull study, it can reveal a sequence that a single picture hides: the hull moves down, changes vertical direction and rises, while its bow continues to rotate upward. Following that sequence helps us ask a more useful next question about H0, Wahoo&#x27;s baseline hull.</p><p>Computational fluid dynamics, or CFD, calculates the changing flow and loads around a digital hull. Allowing that hull to move lets us follow an interaction that a fixed-pose calculation cannot show: the water loads influence motion, and the changing pose feeds back into the flow.</p><p>This accepted study follows the early response at a prescribed flow speed of 30 km/h. Only vertical movement and pitch rotation are free. It uses the dry model, provisional rotational inertia and a closed intake, with no rider or thrust. Those choices define the question being studied. They also limit what the result can say about a complete board on the water.",
@@ -82,10 +126,21 @@
     }
   ],
   "sources": [
+    "Accepted H0-CS-030 Stage3A-3 150 ms engineering report · endpoint 9 November, independent review 10 November 2026",
+    "Frozen 4,042-state trajectory and independent load-phase, angular-momentum and spatial-pressure reviews",
+    "11 November engineering decision pack · controlled H1 questions and provisional intake integration; no H1 performance qualification",
     "Accepted H0-CS-030 Stage3A-2 100 ms engineering report · 9 November 2026",
     "Frozen 2,482-state trajectory and independent numerical review",
     "Verified native hull surface and physical-pressure packets at 50, 75 and 100 ms",
     "Independent spatial-pressure and angular-momentum interpretation reviews"
   ],
-  "changes": "Owner-approved publication of the accepted 100 ms numerical milestone. No Instagram publication or scheduling. No physical validation, optimized hull, stable trim or damping claim. H0 and the accepted engineering sources remain unchanged."
+  "changes": "Owner-authorized 11 November update adds the accepted 150 ms findings and controlled next-phase questions. The original 100 ms narrative and figures remain as dated history. No new CFD, H0 geometry change, physical-validation claim or Instagram posting/scheduling accompanies this publication.",
+  "downloadsTitle": "Inspect the complete pitch history",
+  "downloadsIntro": "The absolute pitch angle continues increasing even while its rate decreases. Open the full chart to inspect its axes and restart markers.",
+  "downloads": [
+    {
+      "file": "engineering/h0-150ms-nov11/03-Pitch.png",
+      "label": "Absolute pitch · full 0–150 ms numerical history"
+    }
+  ]
 }

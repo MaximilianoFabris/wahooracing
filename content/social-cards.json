@@ -2447,6 +2447,49 @@
           "reviewStatus": "OWNER_REVIEW"
         }
       ]
+    },
+    {
+      "id": "h0-150ms-rev01",
+      "title": "H0 · the next fifty milliseconds",
+      "revision": "Accepted 150 ms numerical milestone · 11 November 2026",
+      "posts": [
+        {
+          "id": "H0-150MS",
+          "title": "Torque opposes. Rotation continues.",
+          "format": "Carousel · 5 cards",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/h0-150ms-rev01/H0-150-01.png",
+              "alt": "Pale Wahoo card: “Torque opposes. Rotation continues.” A proportionally scaled crop of the actual saved H0 pose at 150 ms appears below. Early numerical simulation at imposed 30 km/h, unchanged geometry and no motion magnification. This is not a photograph or physical test."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/h0-150ms-rev01/H0-150-02.png",
+              "alt": "Pale Wahoo card: “Angular braking”, with −14.10 Nm completed-fluid pitching moment about the centre of gravity at 150 ms. A source-derived transparent signed 50–150 ms moment graph retains full axes, units, negative values and restart pulses. Samples are unsmoothed and curves split at process restarts. Applied body loads have a different coupling clock."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/h0-150ms-rev01/H0-150-03.png",
+              "alt": "Dark Wahoo card: “Slower. Still bow-up.” A source-derived transparent full 0–150 ms pitch-rate graph retains the zero baseline, time in milliseconds and bow-up pitch rate in radians per second. The curve rises then declines, remaining positive. Large text states 16.7% lower pitch rate from 100 to 150 ms. Dotted lines mark process restarts; curve segments split at restarts. All accepted samples are unsmoothed."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/h0-150ms-rev01/H0-150-04.png",
+              "alt": "Dark Wahoo card: “A snapshot, not a finish line.” An unchanged actual native-pressure surface of the saved H0 hull at 150 ms is shown with the original −15 to +6 kPa scale, pressure reference 0 Pa. No water surface or proprietary next-model geometry is drawn. This is an instantaneous numerical result, not physical validation."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/h0-150ms-rev01/H0-150-05.png",
+              "alt": "Pale Wahoo typographic closing card: “Evidence first. The next move is a controlled question.” Hull design and intake integration are proposed questions; changes still need testing. Stable trim remains unproven. The dry, closed-intake simulation has no rider or thrust, uses provisional inertia and is not physical validation."
+            }
+          ],
+          "caption": "Torque opposes. Rotation continues.\n\nAt 150 milliseconds in H0’s early simulation, an opposing pitching moment is braking the bow-up rotation. Pitch rate is about 16.7% lower than at 100 ms, yet the bow is still rotating upward. Slowing and stopping are different observations.\n\nThe hull is also still rising and accelerating upward. Stable trim and qualified damping remain open questions.\n\nThis is numerical evidence at imposed 30 km/h, with unchanged H0 geometry: a dry, closed-intake model with no rider or jet thrust and provisional inertia. It is not physical validation or a product-performance result. Actual restart pulses remain in the graphs; nothing has been smoothed away. Completed-fluid moments and applied body loads have different coupling clocks.\n\nThe next move is to use that evidence to frame controlled hull-design and intake-integration questions. Proposed changes still need testing.\n\nFollow the build as evidence shapes the next question.",
+          "hashtags": [
+            "#WahooRacing",
+            "#HullDesign",
+            "#Engineering",
+            "#CFD"
+          ],
+          "revision": "Source-derived campaign · Rev01 · 11 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        }
+      ]
     }
   ]
 }
