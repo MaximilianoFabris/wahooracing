@@ -21,10 +21,6 @@
       "category": "product"
     },
     {
-      "key": "water-lifestyle-rev01-WATER-01",
-      "category": "lifestyle"
-    },
-    {
       "key": "relaunch-rev03-P03",
       "category": "people"
     },
@@ -194,6 +190,10 @@
       "category": "engineering"
     },
     {
+      "key": "intake-integration-rev01-INTAKE-INTEGRATION",
+      "category": "engineering"
+    },
+    {
       "key": "relaunch-rev03-P04",
       "category": "brand"
     },
@@ -227,6 +227,14 @@
     },
     {
       "key": "h0-150ms-rev01-H0-150MS",
+      "category": "engineering"
+    },
+    {
+      "key": "water-lifestyle-rev01-WATER-01",
+      "category": "lifestyle"
+    },
+    {
+      "key": "pressure-fields-rev01-PRESSURE-FIELDS",
       "category": "engineering"
     }
   ]

@@ -2490,6 +2490,84 @@
           "reviewStatus": "OWNER_REVIEW"
         }
       ]
+    },
+    {
+      "id": "pressure-fields-rev01",
+      "title": "Three saved pressure fields",
+      "revision": "Source-derived graphics · Rev01 · 11 November 2026",
+      "posts": [
+        {
+          "id": "PRESSURE-FIELDS",
+          "title": "Three saved pressure fields",
+          "format": "Carousel · 3 cards",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/pressure-fields-rev01/PRESSURE-01.png",
+              "alt": "Three saved pressure fields: actual H0 surface maps at 50, 75 and 100 milliseconds stacked on a pale background at identical geometric scale and camera. Colours map native physical pressure from minus15 to plus6 kilopascals with zero pascal reference. The 75 ms field is labelled an instantaneous short-step-aligned pulse. Numerical study."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/pressure-fields-rev01/PRESSURE-02.png",
+              "alt": "Graphite card with Wahoo wordmark, large75 ms and the headline A moment in the field. An enlarged actual75 millisecond pressure field spans the card. The shared minus15 to plus6 kilopascal native pressure legend retains the zero pascal reference. Text identifies an instantaneous short-step-aligned pulse, a snapshot rather than a representative mean."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/pressure-fields-rev01/PRESSURE-03.png",
+              "alt": "Pale card with original Wahoo symbol and100 ms label. An enlarged actual100 millisecond H0 pressure field sits above the shared minus15 to plus6 kilopascal legend with zero pascal reference. Headline Pressure in context. Text: Saved values across the real H0 hull. Stability needs more evidence."
+            }
+          ],
+          "caption": "Three moments. One pressure scale.\n\nThese saved H0 surface fields show how pressure is distributed across the hull at 50, 75 and 100 milliseconds. The camera and colour range stay fixed so the comparison stays honest.\n\nThe 75 ms field captures an instantaneous, short-step-aligned pulse, not a representative mean. These early numerical snapshots add spatial context; they do not establish stable trim or physical performance.\n\nDevelopment simulation: imposed 30 km/h, constrained heave and pitch, closed intake, no rider or thrust, and provisional dry-body inertia. The maps do not locate an exact wetting line or a unique centre of pressure.\n\nFollow the build as we turn these fields into better engineering questions.",
+          "hashtags": [
+            "#WahooRacing",
+            "#HullDevelopment",
+            "#CFD",
+            "#MarineEngineering"
+          ],
+          "revision": "Rev01 · 11 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        }
+      ]
+    },
+    {
+      "id": "intake-integration-rev01",
+      "title": "Inside the intake integration study",
+      "revision": "Source-derived graphics · Rev01 · 11 November 2026",
+      "posts": [
+        {
+          "id": "INTAKE-INTEGRATION",
+          "title": "Every interface shapes the whole.",
+          "format": "Carousel · 5 cards",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/intake-integration-rev01/INTAKE-01.png",
+              "alt": "Dark Wahoo card headed “Every interface shapes the whole.” An enlarged actual transparent 3D source projection shows provisional arrangement B with a blue intake concept, pale concept pump, grey historical component proxy boxes and a grey faceted hull control net. This is a control-net/concept study of unselected geometry with no confirmed fit or clearance."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/intake-integration-rev01/INTAKE-02.png",
+              "alt": "Light Wahoo card headed “Two positions. One integration question.” Actual longitudinal centreline source cuts for A and provisional B are stacked at the same scale and crop, with forward to the right. Blue saved intake sections sit among concept pump and historical component proxy outlines. Hull outlines are faceted cage sections, not smooth hull or inner laminate. Unselected geometry; no confirmed fit or clearance."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/intake-integration-rev01/INTAKE-03.png",
+              "alt": "Dark Wahoo card headed “A different view of the same question.” Actual A and B bottom source projections appear side by side at the same scale, rotated as complete views so forward is up. Blue saved intake curves and pale concept pump geometry appear within a grey hull control net and historical component proxy outlines. Local aft crop; control-net/concept study, unselected geometry and no confirmed fit or clearance."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/intake-integration-rev01/INTAKE-04.png",
+              "alt": "Light Wahoo card headed “Look across the interface.” Actual transverse source sections for A and provisional B are stacked. Each cut follows its corresponding entry centre, so they are at different axial stations; their common display scale is preserved. Blue saved intake sections sit within faceted cage outlines among historical component proxies. These are not smooth H0 or inner-laminate sections; unselected geometry, no confirmed fit or clearance."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/intake-integration-rev01/INTAKE-05.png",
+              "alt": "Dark Wahoo card asks “What connects the concept?” An enlarged source-derived transparent 3D detail of A shows the saved intake concept, concept pump and historical component proxy boxes among hull control-net lines. Copy reads “Pump. Shaft. Structure. Service access.” and proposes one registered interface proposal. A and B remain unselected; control-net/concept study, no confirmed fit or clearance."
+            }
+          ],
+          "caption": "Every interface shapes the whole.\n\nMoving an intake concept changes its relationship with the pump, shaft and the space reserved for other components. That is why we compare the same proposal from several directions.\n\nThese are actual source projections of two unselected digital arrangements, A and B. The blue lines describe the saved intake concept; the surrounding hull lines are its faceted control net. Component boxes are historical proxies, and the pump remains a concept. The transverse cuts follow each entry centre at different axial stations.\n\nB is the preferred provisional direction. Neither arrangement establishes a fitted installation, physical clash, usable clearance or flow performance. No hull opening has been made.\n\nThe next design question brings the pump, shaft, structure and service access into one registered interface proposal. The aim is to design the connections together before committing to a layout.",
+          "hashtags": [
+            "#WahooRacing",
+            "#ProductDevelopment",
+            "#IntakeDesign",
+            "#EngineeringDesign"
+          ],
+          "revision": "Rev01 · 11 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        }
+      ]
     }
   ]
 }

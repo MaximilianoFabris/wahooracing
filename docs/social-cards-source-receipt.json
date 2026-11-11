@@ -1123,6 +1123,54 @@
       "source": "Social_Media/Instagram/Hull_Next_Move_Rev01_20261111/exports/H0-150-05.png",
       "bytes": 78199,
       "sha256": "49f0f63c657861dcfe551ffa9400fa0f77a802a9808ca0ae6b0743c71660e92d"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/pressure-fields-rev01/PRESSURE-01.png",
+      "source": "Social_Media/Instagram/Pressure_Fields_Rev01_20261111/exports/PRESSURE-01.png",
+      "bytes": 377727,
+      "sha256": "1da1db66be1353c0978fe69d6a0172fc398780788195c286b1673b3e2d113ebe"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/pressure-fields-rev01/PRESSURE-02.png",
+      "source": "Social_Media/Instagram/Pressure_Fields_Rev01_20261111/exports/PRESSURE-02.png",
+      "bytes": 202036,
+      "sha256": "2a09d532ed0ca1c247a9783db1067bce5afea4c5ff93da7169c0d33c91fa8484"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/pressure-fields-rev01/PRESSURE-03.png",
+      "source": "Social_Media/Instagram/Pressure_Fields_Rev01_20261111/exports/PRESSURE-03.png",
+      "bytes": 185767,
+      "sha256": "87f626e393358895a6a464e6aa999cbaaa49f1a18ecb37fa606d859be2fcb718"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/intake-integration-rev01/INTAKE-01.png",
+      "source": "Social_Media/Instagram/Intake_Integration_Rev01_20261111/exports/INTAKE-01.png",
+      "bytes": 486235,
+      "sha256": "800ff7f287f9766ed8de0a0ea42e33a50bfb83b68d8e246d7bde6b15edcb7988"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/intake-integration-rev01/INTAKE-02.png",
+      "source": "Social_Media/Instagram/Intake_Integration_Rev01_20261111/exports/INTAKE-02.png",
+      "bytes": 175166,
+      "sha256": "e1e8810c081fb469f79ae2591b00da528a91ba678092448f49f35e9532eadcac"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/intake-integration-rev01/INTAKE-03.png",
+      "source": "Social_Media/Instagram/Intake_Integration_Rev01_20261111/exports/INTAKE-03.png",
+      "bytes": 247514,
+      "sha256": "b684d970d82e6992556b46a30508a4b995d6dc118add22fdbcf3c83485389ecc"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/intake-integration-rev01/INTAKE-04.png",
+      "source": "Social_Media/Instagram/Intake_Integration_Rev01_20261111/exports/INTAKE-04.png",
+      "bytes": 163687,
+      "sha256": "73f1d1ba6efe38f39e0943553789ed072e091b7aca6050988e0640ce4f2b48b8"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/intake-integration-rev01/INTAKE-05.png",
+      "source": "Social_Media/Instagram/Intake_Integration_Rev01_20261111/exports/INTAKE-05.png",
+      "bytes": 526512,
+      "sha256": "dfe174f7859786e0e6f4a65925e1819e4fe8fb2dc17ca30f5a5f633bdcf64fbb"
     }
   ],
   "sources": [
@@ -1250,9 +1298,19 @@
       "batch": "h0-150ms-rev01",
       "source": "Social_Media/Instagram/Hull_Next_Move_Rev01_20261111/copy/CAPTION_AND_ALT.json",
       "sha256": "570659c5d15748618cf5d272d555654d74dabba36647a60b923cce2b8123c1c8"
+    },
+    {
+      "batch": "pressure-fields-rev01",
+      "source": "Social_Media/Instagram/Pressure_Fields_Rev01_20261111/copy/CAPTION_AND_ALT.json",
+      "sha256": "6f0f02f9b50ffce61d302967061388db8d5e53782bc2d64e6401ba6cfd66457b"
+    },
+    {
+      "batch": "intake-integration-rev01",
+      "source": "Social_Media/Instagram/Intake_Integration_Rev01_20261111/copy/CAPTION_AND_ALT.json",
+      "sha256": "43278a81aac37973c08a613d8df79f17f4175bed97204bbcb338d2881583ead4"
     }
   ],
-  "projectionSha256": "827be382403e64e9c59333a833e0bfc629f11b657662e14d5f3092e83911080d",
+  "projectionSha256": "877774686e5c2243208f11ba3ccd4ab1368807af03449544fd854cc0e8558ee5",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",
