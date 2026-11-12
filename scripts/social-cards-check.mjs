@@ -41,11 +41,13 @@ const allPostKeys=new Set(data.batches.flatMap(b=>b.posts.map(p=>b.id+'-'+p.id))
 assert(plan.entries.every(e=>allPostKeys.has(e.key)),'Unknown publication plan key');
 assert.equal(new Set(plan.entries.map(e=>e.key)).size,plan.entries.length,'Duplicate publication plan key');
 const g031Visible=html.includes('id="g031-rev01"');const projected=g031Visible?data:{...data,batches:data.batches.filter(b=>b.id!=='g031-rev01')};const entries=publicationEntries(projected,plan),activeKeys=new Set(entries.map(e=>e.key)),markup=socialCards(projected,plan);
-assert.equal(entries.length,g031Visible?70:69);assert.equal(entries.filter(e=>!e.alternateOf).length,g031Visible?69:68);
+assert.equal(entries.length,g031Visible?70:69);assert.equal(entries.filter(e=>!e.alternateOf).length,g031Visible?70:69);
 assert.deepEqual(data.batches[25].posts[0].cards.map(c=>path.basename(c.imageURL)),['PRESSURE-01.png','PRESSURE-02.png','PRESSURE-03.png']);assert.deepEqual(data.batches[26].posts[0].cards.map(c=>path.basename(c.imageURL)),['INTAKE-01.png','INTAKE-02.png','INTAKE-03.png','INTAKE-04.png','INTAKE-05.png']);
 assert.deepEqual(data.batches[24].posts[0].cards.map(c=>path.basename(c.imageURL)),['H0-150-01.png','H0-150-02.png','H0-150-03.png','H0-150-04.png','H0-150-05.png']);
-assert.equal(entries.filter(e=>e.alternateOf).length,1);
-assert.equal(entries.find(e=>e.alternateOf).position,entries.find(e=>e.key==='components-rev01-WHE-EXH-001-PIPE').position);
+assert.equal(entries.filter(e=>e.alternateOf).length,0);
+assert.deepEqual(entries.map(e=>e.position),Array.from({length:entries.length},(_,i)=>i+1),'Every post must have a unique consecutive number');
+assert.equal(entries.find(e=>e.key==='components-rev01-WHE-EXH-001-PIPE').position,38);
+assert.equal(entries.find(e=>e.key==='components-rev01-PIPE-ALT-SELECTED-SECTION').position,39);
 assert.deepEqual([...html.matchAll(/data-social-open="([^"]+)"/g)].map(m=>m[1]),entries.map(e=>e.key),'Grid must follow approved publishing order');
 const orderLock=JSON.parse(fs.readFileSync('docs/social-publication-order-lock.json'));
 assert.deepEqual(plan.entries.slice(0,orderLock.lockedKeys.length).map(e=>e.key),orderLock.lockedKeys,'Existing publication order is locked; append new posts only');
@@ -98,7 +100,7 @@ assert.deepEqual(data.batches[30].posts[0].cards.map(c=>path.basename(c.imageURL
 assert.deepEqual(data.batches.slice(31,34).map(b=>b.posts.reduce((n,p)=>n+p.cards.length,0)),[5,6,3]);
 
 assert.deepEqual(data.batches[34].posts[0].cards.map(c=>path.basename(c.imageURL)),["FUEL-01.png","FUEL-02.png","FUEL-03.png","FUEL-04.png","FUEL-05.png"]);
-assert.equal(entries.find(e=>e.key==="modular-fuel-rev01-MODULAR-FUEL").position,68);
+assert.equal(entries.find(e=>e.key==="modular-fuel-rev01-MODULAR-FUEL").position,69);
 
 assert.deepEqual(data.batches[35].posts[0].cards.map(c=>path.basename(c.imageURL)),["FUEL-01.png","FUEL-02.png","FUEL-03.png","FUEL-04.png","FUEL-05.png"]);
-assert.equal(entries.find(e=>e.key==="fuel-service-002-rev01-FUEL-SERVICE-002").position,69);
+assert.equal(entries.find(e=>e.key==="fuel-service-002-rev01-FUEL-SERVICE-002").position,70);
