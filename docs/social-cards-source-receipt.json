@@ -1231,6 +1231,24 @@
       "source": "Social_Media/Instagram/H1_02_Water_Management_Rev01_20261111/exports/WATER-05.png",
       "bytes": 169715,
       "sha256": "5b3bc3e9fb9543d5e21841fa13a7aaecc1f60aed8aab4684426f9147da1ce80a"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/follow-build-rev01/FOLLOW-01.png",
+      "source": "Social_Media/Instagram/Follow_The_Build_Rev01_20261112/exports/FOLLOW-01.png",
+      "bytes": 1490633,
+      "sha256": "c67cda4e2a694d429dc2d4195937d941be8a20aa89926efc813d1d5713a8d28c"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/follow-build-rev01/FOLLOW-02.png",
+      "source": "Social_Media/Instagram/Follow_The_Build_Rev01_20261112/exports/FOLLOW-02.png",
+      "bytes": 554031,
+      "sha256": "f4847b0c382eaee7f7c839d60987b6e0305700cb2f078f3a31405c174836df89"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/follow-build-rev01/FOLLOW-03.png",
+      "source": "Social_Media/Instagram/Follow_The_Build_Rev01_20261112/exports/FOLLOW-03.png",
+      "bytes": 468755,
+      "sha256": "bc39773b1610cf9d498029f7bd7733a275eb49edbce03087a8e9e48e1fdd7f9c"
     }
   ],
   "sources": [
@@ -1378,9 +1396,14 @@
       "batch": "h102-water-management-rev01",
       "source": "Social_Media/Instagram/H1_02_Water_Management_Rev01_20261111/copy/CAPTION_AND_ALT.json",
       "sha256": "b07fc8b73e8a745df61b3f136cd27e49299629290184f7d4714e0b4dced3c80b"
+    },
+    {
+      "batch": "follow-build-rev01",
+      "source": "Social_Media/Instagram/Follow_The_Build_Rev01_20261112/copy/CAPTION_AND_ALT.json",
+      "sha256": "c4dab2dce6aa00c36c01177c4541304cc898bfd162a9b0f29f81c72a2d49dbfd"
     }
   ],
-  "projectionSha256": "9aae8d0e4424a01c8d3a28d614a23548b54335f558c8e9289995337ba3b15c8a",
+  "projectionSha256": "cd8e389298e382ab35bb9206c6446fb2f9798bb57f9b2988a06a098830effbfe",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",

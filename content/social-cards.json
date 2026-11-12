@@ -2656,6 +2656,42 @@
           "reviewStatus": "OWNER_REVIEW"
         }
       ]
+    },
+    {
+      "id": "follow-build-rev01",
+      "title": "Follow the Wahoo build",
+      "revision": "Community introduction · 12 November 2026",
+      "posts": [
+        {
+          "id": "FOLLOW-BUILD",
+          "title": "Follow the build.",
+          "format": "Carousel · 3 cards",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/follow-build-rev01/FOLLOW-01.png",
+              "alt": "A dark carbon hull concept sits on blue coastal water beneath a distant shore. Large white text: Follow the build. A new way to the water starts here. Computer-generated concept, work in progress; this is not a photograph of a physical board or test."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/follow-build-rev01/FOLLOW-02.png",
+              "alt": "Pale card with the original Wahoo symbol above A jetboard. From the inside out. A silver and black engine concept sits below. Text: Hull. Propulsion. Controls. Designing. Simulating. Refining. Computer-generated engine concept, in development; the assembly is illustrative."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/follow-build-rev01/FOLLOW-03.png",
+              "alt": "Dark graphite closing card with the original Wahoo symbol and Wahoo Racing, a glossy mirrored-carbon deck-up hull concept, and large white text: Be here for what comes next. Follow Wahoo Racing. Computer-generated hull concept, work in progress."
+            }
+          ],
+          "caption": "A jetboard. From the inside out.\n\nWe’re developing Wahoo: the hull, propulsion and controls, and how they come together. Designing, simulating and refining as we go.\n\nFollow Wahoo Racing for the ideas, the details and the decisions behind the build. Be here for what comes next.\n\nVisuals are computer-generated concepts. Wahoo is in development.",
+          "hashtags": [
+            "#WahooRacing",
+            "#Jetboard",
+            "#BehindTheBuild",
+            "#ProductDevelopment",
+            "#WaterSports"
+          ],
+          "revision": "Rev01 · 12 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        }
+      ]
     }
   ]
 }

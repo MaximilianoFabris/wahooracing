@@ -244,6 +244,10 @@
     {
       "key": "h102-water-management-rev01-H102-WATER",
       "category": "engineering"
+    },
+    {
+      "key": "follow-build-rev01-FOLLOW-BUILD",
+      "category": "community"
     }
   ]
 }
