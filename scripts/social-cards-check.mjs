@@ -5,10 +5,10 @@ const sourceFilename=card=>{const name=typeof card==='string'?card:card?.file??c
 const raw=fs.readFileSync('content/social-cards.json'),data=JSON.parse(raw),receipt=JSON.parse(fs.readFileSync('docs/social-cards-source-receipt.json'));
 assert.equal(hash(raw),receipt.projectionSha256,'Reviewed public projection changed');
 const keys=(object,expected)=>assert.deepEqual(Object.keys(object).sort(),expected.sort());
-keys(data,['batches']);assert.equal(data.batches.length,31);
-assert.deepEqual(data.batches.map(b=>b.id),["hull-first-step-rev01", "engine-concept-rev01", "water-lifestyle-rev01", "blue-studio-rev01", "neon-red-deck-rev01", "cinematic-mixed-rev01", "color-impact-rev01", "color-reference-rev01", "color-testing-rev01", "components-rev01", "h0-development-rev01", "g031-rev01", "g030-rev01", "g029-rev01", "g028-rev01", "g026-rev01", "g025-rev01", "g001c1-rev01", "assignment18-rev01", "horizon-stories-rev01", "engineering-stories-rev01", "relaunch-rev03", "creative-trial-rev04", "h0-100ms-rev01", "h0-150ms-rev01", "pressure-fields-rev01", "intake-integration-rev01", "h1-architecture-rev01", "h102-water-management-rev01", "follow-build-rev01", "follow-build-rev02"]);
-assert.deepEqual(data.batches.map(b=>b.posts.length),[1, 1, 1, 8, 8, 8, 8, 8, 10, 11, 1, 1, 2, 3, 1, 1, 1, 1, 1, 5, 3, 8, 3, 1, 1, 1, 1, 1, 1, 1, 1]);
-assert.equal(data.batches.reduce((n,b)=>n+b.posts.length,0),103);
+keys(data,['batches']);assert.equal(data.batches.length,34);
+assert.deepEqual(data.batches.map(b=>b.id),["hull-first-step-rev01", "engine-concept-rev01", "water-lifestyle-rev01", "blue-studio-rev01", "neon-red-deck-rev01", "cinematic-mixed-rev01", "color-impact-rev01", "color-reference-rev01", "color-testing-rev01", "components-rev01", "h0-development-rev01", "g031-rev01", "g030-rev01", "g029-rev01", "g028-rev01", "g026-rev01", "g025-rev01", "g001c1-rev01", "assignment18-rev01", "horizon-stories-rev01", "engineering-stories-rev01", "relaunch-rev03", "creative-trial-rev04", "h0-100ms-rev01", "h0-150ms-rev01", "pressure-fields-rev01", "intake-integration-rev01", "h1-architecture-rev01", "h102-water-management-rev01", "follow-build-rev01", "follow-build-rev02", "h1-progress-rev01", "h1-spotlights-rev01", "h0-dynamics-recap-rev01"]);
+assert.deepEqual(data.batches.map(b=>b.posts.length),[1, 1, 1, 8, 8, 8, 8, 8, 10, 11, 1, 1, 2, 3, 1, 1, 1, 1, 1, 5, 3, 8, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 6, 1]);
+assert.equal(data.batches.reduce((n,b)=>n+b.posts.length,0),111);
 assert.deepEqual(data.batches[23].posts[0].cards.map(c=>path.basename(c.imageURL)),['H0-100MS-01.png','H0-100MS-02.png','H0-100MS-03.png','H0-100MS-04.png','H0-100MS-05.png']);
 assert.deepEqual(data.batches[10].posts.map(p=>p.id),['H0-DEVELOPMENT-20261101']);
 assert.deepEqual(data.batches[10].posts[0].cards.map(c=>path.basename(c.imageURL)),['H0-01.png','H0-02.png','H0-03.png','H0-04.png','H0-05.png']);
@@ -41,8 +41,8 @@ const allPostKeys=new Set(data.batches.flatMap(b=>b.posts.map(p=>b.id+'-'+p.id))
 assert(plan.entries.every(e=>allPostKeys.has(e.key)),'Unknown publication plan key');
 assert.equal(new Set(plan.entries.map(e=>e.key)).size,plan.entries.length,'Duplicate publication plan key');
 const g031Visible=html.includes('id="g031-rev01"');const projected=g031Visible?data:{...data,batches:data.batches.filter(b=>b.id!=='g031-rev01')};const entries=publicationEntries(projected,plan),activeKeys=new Set(entries.map(e=>e.key)),markup=socialCards(projected,plan);
-assert.equal(entries.length,g031Visible?60:59);assert.equal(entries.filter(e=>!e.alternateOf).length,g031Visible?59:58);
-assert.equal(entries.at(-1).key,'follow-build-rev02-FOLLOW-BUILD');assert.equal(entries.at(-1).category,'community');assert.equal(entries.at(-1).position,59);assert.equal(entries.at(-2).key,'h102-water-management-rev01-H102-WATER');assert.equal(entries.at(-3).key,'blue-studio-rev01-BLUE-01','Product break before H1-02');assert.equal(entries.at(-4).key,'h1-architecture-rev01-H1-ARCHITECTURE');
+assert.equal(entries.length,g031Visible?68:67);assert.equal(entries.filter(e=>!e.alternateOf).length,g031Visible?67:66);
+assert.equal(entries.at(-1).key,'h0-dynamics-recap-rev01-H0-DYNAMIC-RECAP');assert.equal(entries.at(-1).position,67);assert.equal(entries.at(-2).key,'h1-progress-rev01-H1-EVOLUTION');assert.equal(entries.at(-3).key,'follow-build-rev02-FOLLOW-BUILD');assert.equal(entries.at(-3).position,65);assert.equal(entries.at(-3).category,'community');
 assert.deepEqual(data.batches[25].posts[0].cards.map(c=>path.basename(c.imageURL)),['PRESSURE-01.png','PRESSURE-02.png','PRESSURE-03.png']);assert.deepEqual(data.batches[26].posts[0].cards.map(c=>path.basename(c.imageURL)),['INTAKE-01.png','INTAKE-02.png','INTAKE-03.png','INTAKE-04.png','INTAKE-05.png']);
 assert.deepEqual(data.batches[24].posts[0].cards.map(c=>path.basename(c.imageURL)),['H0-150-01.png','H0-150-02.png','H0-150-03.png','H0-150-04.png','H0-150-05.png']);
 assert.equal(entries.filter(e=>e.alternateOf).length,1);
@@ -51,7 +51,7 @@ assert.deepEqual([...html.matchAll(/data-social-open="([^"]+)"/g)].map(m=>m[1]),
 let run=0;for(const e of entries.filter(e=>!e.alternateOf)){run=e.category==='engineering'?run+1:0;assert(run<=2,'No more than two engineering posts without a break');}
 for(const id of plan.retiredBatches){assert(!html.includes(`id="${id}"`));assert(!html.includes(`data-social-collection="${id}"`));}
 assert(html.includes('data-social-collection-filter')&&html.includes('data-social-category-filter'));
-assert.equal(entries.reduce((n,e)=>n+e.post.cards.length,0),g031Visible?171:168);
+assert.equal(entries.reduce((n,e)=>n+e.post.cards.length,0),g031Visible?185:182);
 assert(html.includes(markup));assert(html.includes('noindex, nofollow, noarchive'));assert(html.includes('class="site-header'));
 assert(!/[CW]:[\\/]|file:\/\/|Wahoo_Intelligence|Social_Media|source-manifest|source-provenance|"evidence"|"visual_approach"|"rider_meaning"/i.test(html));
 assert(!/[CW]:[\\/]|file:\/\/|Wahoo_Intelligence|Social_Media|source-manifest|source-provenance/i.test(raw.toString()));
@@ -79,7 +79,7 @@ for(const batch of projected.batches){
     }
   }
 }
-assert.equal(count,g031Visible?216:213);assert.equal(receipt.files.length,216);
+assert.equal(count,g031Visible?230:227);assert.equal(receipt.files.length,230);
 function walk(folder){return fs.readdirSync(folder,{withFileTypes:true}).flatMap(f=>f.isDirectory()?walk(path.join(folder,f.name)):[path.join(folder,f.name)]);}
 const retained=receipt.retainedFiles||[];
 for(const record of retained){assert(!urls.has(record.imageURL));assert(/^\/preview\/social-cards\/images\/[a-z0-9-]+\/[A-Z0-9-]+\.png$/.test(record.imageURL));for(const base of ['public','dist']){const raw=fs.readFileSync(base+record.imageURL);assert.equal(raw.length,record.bytes);assert.equal(hash(raw),record.sha256,'Historical image URL changed');}}
@@ -94,3 +94,5 @@ assert.deepEqual(data.batches[28].posts[0].cards.map(c=>path.basename(c.imageURL
 assert.deepEqual(data.batches[29].posts[0].cards.map(c=>path.basename(c.imageURL)),['FOLLOW-01.png','FOLLOW-02.png','FOLLOW-03.png']);
 
 assert.deepEqual(data.batches[30].posts[0].cards.map(c=>path.basename(c.imageURL)),Array.from({length:8},(_,i)=>`BUILD-${String(i+1).padStart(2,'0')}.png`));
+
+assert.deepEqual(data.batches.slice(31).map(b=>b.posts.reduce((n,p)=>n+p.cards.length,0)),[5,6,3]);

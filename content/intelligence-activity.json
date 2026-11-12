@@ -2,6 +2,22 @@
   "schema_version": 1,
   "records": [
     {
+      "id": "h103-inner-hull-water-service",
+      "publication": "published",
+      "date": "2026-11-12",
+      "agents": [
+        "ada",
+        "archimedes",
+        "nikola",
+        "isaac",
+        "leo"
+      ],
+      "status": "completed",
+      "title": "H1-03 develops inner structure and service packaging",
+      "summary": "The qualified preliminary digital assembly adds inner structure, revised battery/ECU packaging, tank alternatives and service interfaces around the registered intake and provisional pump. Independent review retains the aft collection barrier, discharge backflow risk and starter/pump service limits. Fuel capacity, bilge hardware and physical installation remain unqualified.",
+      "evidence": "Independently reviewed preliminary digital development · no physical validation"
+    },
+    {
       "id": "h102-open-compartment-water-management",
       "publication": "published",
       "date": "2026-11-11",

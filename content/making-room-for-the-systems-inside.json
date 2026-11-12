@@ -1,0 +1,83 @@
+{
+  "slug": "making-room-for-the-systems-inside",
+  "title": "Making room for the systems inside",
+  "date": "2026-11-12",
+  "dateLabel": "12 November 2026 · qualified preliminary digital development",
+  "revision": "H1-03 / INNER STRUCTURE & SYSTEM INTEGRATION",
+  "type": "Engineering study",
+  "evidence": "Independently reviewed digital development · physical installation unvalidated",
+  "status": "published",
+  "systems": [
+    "hull-hydrodynamics",
+    "engine",
+    "jet-pump"
+  ],
+  "summary": "H1-03 brings inner structure, drainage and service packaging into the hull-development story.",
+  "hero": "engineering/h103-nov12/hero.png",
+  "heroAlt": "Final preliminary H1-03 configuration, drawn from the registered CAD assembly. Physical installation, selected hardware and effective water management remain unqualified.",
+  "heroCaption": "Final preliminary H1-03 configuration, drawn from the registered CAD assembly. Physical installation, selected hardware and effective water management remain unqualified. Colours identify systems, not simulated flow.",
+  "sections": [
+    {
+      "title": "From motion to the space inside",
+      "text": "The first hull studies asked how H0 responds when it can move. The latest H1 work asks what must fit inside the board, where incoming water can collect, and how the machinery can be reached again. These are connected development questions: a promising outer shape still needs a credible internal arrangement.</p><p>The accepted numerical record reached 100 ms on 9 November, then 150 ms later that day. At 150 ms the bow-up rotation was slowing, while angle and upward motion continued increasing. That is useful evidence for future controlled hull comparisons; it does not demonstrate stable trim. H1-03 adds preliminary construction and packaging geometry, without another CFD run or a physical performance claim.",
+      "figure": {
+        "image": "engineering/h0-150ms-nov11/01-Rate.png",
+        "alt": "H0 bow-up pitch rate over the accepted 150 ms history. The rate falls late in this interval, while the hull continues rotating upward. All 4,042 saved samples are retained with process-restart breaks; stable trim and damping remain unproven.",
+        "caption": "H0 bow-up pitch rate over the accepted 150 ms history. The rate falls late in this interval, while the hull continues rotating upward. All 4,042 saved samples are retained with process-restart breaks; stable trim and damping remain unproven."
+      }
+    },
+    {
+      "title": "An architecture corrected, then simplified",
+      "text": "H1-01 corrected the integrated representation around the actual green external air nozzle and a single exhaust pipe with its cooling jacket. The jacket belongs to that exhaust assembly. Engine air, exhaust gas and the underside jet-water path remain distinct.</p><p>H1-02 then removed the direct nozzle-to-engine duct. The green nozzle now supplies an open engine compartment, with a separate provisional engine inlet. H1-03 keeps this arrangement. It avoids treating an enclosed low-point passage as the answer to water entry, while leaving airflow, splash behavior, heat and engine-off fuel-vapor ventilation to be qualified. The optional draining shields remain ideas to compare, rather than demonstrated protection.",
+      "figure": {
+        "image": "engineering/h103-nov12/air.png",
+        "alt": "H1-03 retains the actual green nozzle, separate induction interface, and one exhaust pipe with its cooling jacket. The open compartment has no direct combustion-air duct.",
+        "caption": "H1-03 retains the actual green nozzle, separate induction interface, and one exhaust pipe with its cooling jacket. The open compartment has no direct combustion-air duct."
+      }
+    },
+    {
+      "title": "A real preliminary interior",
+      "text": "The new editable assembly introduces liner panels, frame and reinforcement zones, engine-bed load spreaders, drainage troughs and collection pockets. The battery and ECU have revised rigid orientations and positions, with a cassette, mounting and isolation spaces, and service interfaces. This develops the unsuccessful earlier packaging studies without reusing the rejected lowered-battery pose. The water intake and provisional jet-pump assembly remain registered packaging references, while shaft, sealing and stern interfaces still need detail.</p><p>The 434-object model preserves all 142 accepted H1-02 source geometries within the recorded native-representation qualifications. Independent readback corroborates bounded packaging checks; it does not certify laminate strength, production clearances or selected electrical hardware. The interior allowances remain provisional. The advance is a more explicit, editable installation basis whose limitations can be examined.",
+      "figure": {
+        "image": "engineering/h103-nov12/structure.png",
+        "alt": "Editable preliminary inner structure around preserved source components. Panel and frame geometry is a design basis; material, bonds, loads and manufactured laminate remain unresolved.",
+        "caption": "Editable preliminary inner structure around preserved source components. Panel and frame geometry is a design basis; material, bonds, loads and manufactured laminate remain unresolved."
+      }
+    },
+    {
+      "title": "The route matters as much as the pump",
+      "text": "The most useful new water-management result is an unresolved problem. All 45 accepted drainage nodes connect in the represented network, yet the level case requires about 56.2 mm of modeled water head for the low aft pocket to spill toward the primary pickup. A connected route can still leave water behind. These are static centerline calculations, not residual-water volumes or simulated slosh.</p><p>The custom bilge installation now includes a mated discharge interface. Its low straight route fits geometrically but can backflood. The tested high-loop candidate conflicts with the bearing cross bridge; a separate positive-isolation function has space, but no valve or operational barrier is selected. Effective aft collection and a complete pump-backed discharge solution therefore remain priorities, alongside engine-off power and warning.",
+      "figure": {
+        "image": "engineering/h103-nov12/collection.png",
+        "alt": "Longitudinal collection study. The aft pocket still faces a roughly 56.2 mm level-case centerline spill barrier; connectivity does not establish effective drainage.",
+        "caption": "Longitudinal collection study. The aft pocket still faces a roughly 56.2 mm level-case centerline spill barrier; connectivity does not establish effective drainage."
+      }
+    },
+    {
+      "title": "Capacity and access become visible tradeoffs",
+      "text": "Three tank studies now separate capacity from position. Their gross enclosed volumes are approximately 1.89, 2.52 and 3.20 liters; these are mutually exclusive alternatives. Neither gross volume nor the illustrative fill figures establishes usable fuel capacity. Option 1 is the displayed template, and no capacity has been selected.</p><p>Options 1 and 2 have no detected final frame contacts in the independent screen. The larger forward Option 3 intersects two frame webs and needs a different derived frame arrangement. Service studies also use actual parts at finite translated stations, including a local derived battery hatch. Starter interference and the initial pump-cartridge motion remain open; sampled clear stations do not certify an entire removal path.",
+      "figure": {
+        "image": "engineering/h103-nov12/tanks.png",
+        "alt": "Three separate tank capacity/position studies. Option 3 needs frame revisions. Option 1 is the displayed template; usable fuel capacity is unselected.",
+        "caption": "Three separate tank capacity/position studies. Option 3 needs frame revisions. Option 1 is the displayed template; usable fuel capacity is unselected."
+      }
+    },
+    {
+      "title": "The next decision is more specific",
+      "text": "H1-03 makes the next assignment clearer: finish aft collection, select bilge and backflow hardware against the real installation, and resolve starter, pump and hatch interfaces. Required usable fuel and endurance will guide the tank choice. Fuel containment, vapor ventilation and safe cranking need their own evidence.</p><p>The independent review supports this advance while retaining the negative findings. An exported model can pass its verification checks and still contain an unresolved design problem. Keeping both conclusions together helps the next designer work on the remaining interfaces without losing the useful progress already made.</p><p>This is qualified preliminary digital development. It preserves H0 and accepted mass, center of gravity and inertia. The value is a clearer set of engineering choices, ready for bounded design work before any separately authorized benign physical qualification.</p><p>Earlier development: <a href=\"/journal/water-will-get-in/\">the open-compartment study</a> and <a href=\"/journal/h0-first-100-milliseconds/\">the H0 dynamic-response record</a>.",
+      "figure": {
+        "image": "engineering/h103-nov12/service.png",
+        "alt": "Service stations and hatch context use actual registered parts in a preliminary assembly. Finite sampled stations do not establish continuous removal clearance; starter interference and the initial pump-cartridge unseating remain unresolved.",
+        "caption": "Service stations and hatch context use actual registered parts in a preliminary assembly. Finite sampled stations do not establish continuous removal clearance; starter interference and the initial pump-cartridge unseating remain unresolved."
+      }
+    }
+  ],
+  "sources": [
+    "H1-03 final preliminary assembly, engineering handoff and source-bound CAD views · 12 November 2026",
+    "Independent serialized readback and qualified digital-development review, with drainage, backflow and service limits retained",
+    "H1-01 corrected air/exhaust architecture and H1-02 final R02 open-compartment baseline · 11 November 2026",
+    "Accepted H0 100/150 ms numerical histories and their independent reviews · 9–10 November 2026"
+  ],
+  "changes": "Owner-approved H1-03 editorial follow-up. Original engineering reports, native CAD, exact-coordinate appendix and private review package are not published. H0 and earlier articles remain preserved.",
+  "updatedDate": "2026-11-12"
+}

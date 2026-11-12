@@ -2748,6 +2748,206 @@
           "reviewStatus": "OWNER_REVIEW"
         }
       ]
+    },
+    {
+      "id": "h1-progress-rev01",
+      "title": "H1 hull evolution",
+      "revision": "Prepared 12 November 2026 · website review only; not Instagram posted",
+      "posts": [
+        {
+          "id": "H1-EVOLUTION",
+          "title": "From hull to whole system",
+          "format": "Carousel · 5 cards",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/h1-progress-rev01/EVOLUTION-01.png",
+              "alt": "Dark graphite card headed “From hull to whole system.” An actual registered H1-03 CAD image shows the preliminary assembly inside a pale translucent hull: internal panels and frames, fuel study, battery and ECU packaging, engine, a single exhaust and cooling jacket, jet pump and green air nozzle. Text: “H0 baseline. Early 100 + 150 ms dynamics. Now: integrating the H1 architecture.” H1 is digital development; the numerical milestones belong to H0."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/h1-progress-rev01/EVOLUTION-02.png",
+              "alt": "Pale card headed “One exhaust. Two coaxial walls.” Original H1-01 CAD perspective of the single retained exhaust, in its source amber system colour. The pipe is surrounded by its cooling jacket. The historical extra exhaust was removed. Small original callouts and the artwork state that the engine and stern connections remain preliminary. The picture is digital geometry, not installed hardware."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/h1-progress-rev01/EVOLUTION-03.png",
+              "alt": "Dark card headed “Open the compartment.” Original H1-02 plan view shows the green external air nozzle at one end of a pale hull, an open space between it and the engine induction reference, with exhaust, cooling jacket and jet-water system retained. Explanatory green lines indicate intended air direction, not computed flow. The direct H1-01 nozzle-to-engine duct is superseded. Airflow and drainage remain unqualified."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/h1-progress-rev01/EVOLUTION-04.png",
+              "alt": "Pale card headed “Make room inside.” An original H1-03 perspective shows partial grey liner panels and frames, with cyan bilge trough geometry, inside the hull reference. A separate original CAD detail shows preliminary battery and ECU packaging and hatch interfaces. Text labels liner, frames, tank studies and new battery/ECU packaging. Dated 12 November. Capacity, hardware and structural qualification remain provisional. Separate details use different scales."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/h1-progress-rev01/EVOLUTION-05.png",
+              "alt": "Dark card headed “The next fit: real hardware.” Original H1-03 service-study geometry shows tank and electrical packaging with two grey electrical shapes raised at finite service stations. This is not a continuous removal proof. Beside it, a cyan custom pump-installation envelope and discharge interface represent packaging space, not selected pump hardware. Text calls for service access, aft water collection, backflow protection and choosing components. The assembly is preliminary and physical qualification remains ahead. Separate details use different scales."
+            }
+          ],
+          "caption": "The hull is only the beginning.\n\nH0 gives us a reference, with early 100 and 150 millisecond numerical snapshots—not a settled riding attitude. H1 turns attention to the whole package.\n\nH1-01 corrected the exhaust to one pipe with its coaxial cooling jacket. H1-02 removed the direct nozzle-to-engine air duct in favour of an open compartment. H1-03 adds preliminary inner panels, frames, tank studies and new battery/ECU packaging.\n\nNext come the actual hardware interfaces: service access, aft water collection, backflow protection and component selection. Airflow, drainage, structure and safe operation still need qualification. These are digital development views, not a physical test or a finished board.",
+          "hashtags": [
+            "#WahooRacing",
+            "#EngineeringDesign",
+            "#ProductDevelopment",
+            "#Jetboard"
+          ],
+          "revision": "Rev01 · owner-approved website review · 12 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        }
+      ]
+    },
+    {
+      "id": "h1-spotlights-rev01",
+      "title": "H1 technical spotlights",
+      "revision": "Prepared 12 November 2026 · website review only; not Instagram posted",
+      "posts": [
+        {
+          "id": "SPOTLIGHT-01",
+          "title": "ROOM FOR EVERY SYSTEM",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/h1-spotlights-rev01/SPOTLIGHT-01.png",
+              "alt": "Dark technical card with principal plan and side views of the actual H1-03 assembly. Green air nozzle, amber exhaust, purple cooling jacket, cyan bilge routes, blue jet water and ochre tank retain source colours. Text: Room for every system. Preliminary digital concept, private."
+            }
+          ],
+          "caption": "Inside the hull, every system asks for space. H1-03 adds preliminary inner structure and new battery, ECU and tank arrangements around the registered powertrain. These are digital packaging studies; hardware, connections, construction and physical fit remain to be qualified.",
+          "hashtags": [
+            "#WahooRacing",
+            "#EngineeringDesign",
+            "#DesignDevelopment"
+          ],
+          "revision": "Rev01 · owner-approved website review · 12 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "SPOTLIGHT-02",
+          "title": "ONE EXHAUST. TWO LAYERS.",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/h1-spotlights-rev01/SPOTLIGHT-02.png",
+              "alt": "Pale card with the source amber exhaust study enlarged across the centre. Text: One exhaust. Two layers. Exhaust pipe plus coaxial cooling jacket. Engine connection, tuning and stern protection remain preliminary. Private digital concept."
+            }
+          ],
+          "caption": "Two source walls belong to one exhaust: the pipe and its coaxial cooling jacket. The digital assembly preserves that distinction. Engine connection, final tuned geometry, thermal protection and stern interface remain preliminary.",
+          "hashtags": [
+            "#WahooRacing",
+            "#EngineeringDesign",
+            "#DesignDevelopment"
+          ],
+          "revision": "Rev01 · owner-approved website review · 12 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "SPOTLIGHT-03",
+          "title": "THE INTAKE MEETS THE PUMP",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/h1-spotlights-rev01/SPOTLIGHT-03.png",
+              "alt": "Pale card featuring the blue actual-CAD jet-pump and intake assembly, grey bridge and retained cyan component. Text: The intake meets the pump. Registered geometry; interfaces still to detail. Preliminary digital concept, private."
+            }
+          ],
+          "caption": "A closer look at the registered Intake C and provisional WJ70-C01 Rev02 pump package. The shaft, pump, stern and removable bridge must work as one installation, while real joints, sealing and service mechanics still need detail. This is a digital geometry study, without a flow or performance claim.",
+          "hashtags": [
+            "#WahooRacing",
+            "#EngineeringDesign",
+            "#DesignDevelopment"
+          ],
+          "revision": "Rev01 · owner-approved website review · 12 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "SPOTLIGHT-04",
+          "title": "CONNECTED ISN’T DRAINED",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/h1-spotlights-rev01/SPOTLIGHT-04.png",
+              "alt": "Dark card showing cyan source drainage geometry within the pale hull outline. Large text: Connected isn’t drained. The aft pocket still needs an effective route or a separately serviceable pickup. Modeled paths do not prove working drainage. Private preliminary concept."
+            }
+          ],
+          "caption": "Drawing connected paths is only the beginning. The current H1-03 model still leaves an aft collection problem, and heel or trim changes where water gathers. An effective collection route or independently serviceable aft pickup is still needed. The bilge pump is unselected; drainage, delivered flow and backflow protection remain unqualified.",
+          "hashtags": [
+            "#WahooRacing",
+            "#EngineeringDesign",
+            "#DesignDevelopment"
+          ],
+          "revision": "Rev01 · owner-approved website review · 12 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "SPOTLIGHT-05",
+          "title": "DESIGNING THE WAY OUT",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/h1-spotlights-rev01/SPOTLIGHT-05.png",
+              "alt": "Pale card with the dark actual-CAD battery and ECU cassette and local roof/hatch study. Text: Designing the way out. Removal is conditional; starter and pump service interfaces remain unresolved. Preliminary digital concept, private."
+            }
+          ],
+          "caption": "Fitting a component is one question. Getting it out is another. H1-03 studies the actual battery and ECU shapes, cassette and local hatch geometry, with isolation and disconnection in the removal sequence. Finite station checks do not prove continuous clearance, tools or sealing. Starter and pump service interfaces still have unresolved findings.",
+          "hashtags": [
+            "#WahooRacing",
+            "#EngineeringDesign",
+            "#DesignDevelopment"
+          ],
+          "revision": "Rev01 · owner-approved website review · 12 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "SPOTLIGHT-06",
+          "title": "MORE FUEL. MORE TO RESOLVE.",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/h1-spotlights-rev01/SPOTLIGHT-06.png",
+              "alt": "Pale card with three separately scaled source tank-option plan crops, vertically arranged. Ochre tank geometry and dark electrical parts remain at their source relationships. Labels: displayed study, alternative, and frame conflict requiring revised frames and recheck. Text: Three mutually exclusive tank studies. Preliminary digital concept, private."
+            }
+          ],
+          "caption": "Fuel capacity is still a design choice. H1-03 contains three mutually exclusive tank studies: Option 1 is the displayed packaging template, Option 2 is an alternative, and the larger forward Option 3 conflicts with two frame webs. Option 3 needs revised derived frames and a new check. Geometric volumes are not usable fuel capacity; duty, restraints, fittings, ventilation and hardware remain to be defined.",
+          "hashtags": [
+            "#WahooRacing",
+            "#EngineeringDesign",
+            "#DesignDevelopment"
+          ],
+          "revision": "Rev01 · owner-approved website review · 12 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        }
+      ]
+    },
+    {
+      "id": "h0-dynamics-recap-rev01",
+      "title": "H0 dynamic milestones · retrospective",
+      "revision": "Prepared 12 November 2026 · website review only; not Instagram posted",
+      "posts": [
+        {
+          "id": "H0-DYNAMIC-RECAP",
+          "title": "Moving is not yet settled",
+          "format": "Carousel · 3 cards",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/h0-dynamics-recap-rev01/CFD-01.png",
+              "alt": "Dark CFD milestone card with the exact saved 100 ms H0 underside pressure field. Legend minus 15 to plus 6 kPa, native p relative to zero Pa. At 100 ms absolute bow-up pitch is 6.529 degrees and heave is plus 6.545 mm from release. Accepted numerical history, not a physical test."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/h0-dynamics-recap-rev01/CFD-02.png",
+              "alt": "Pale CFD card with a zero-based bow-up pitch-rate plot over zero to 150 ms. All 4,042 accepted rows plotted without smoothing, separated by process restarts. Rate declines from 1.381 rad/s at 100 ms to 1.150 rad/s at 150 ms; the bow still rotates upward."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/h0-dynamics-recap-rev01/CFD-03.png",
+              "alt": "Dark CFD card with actual absolute bow-up pitch increasing over zero to 150 ms on a zero to 12 degree scale. All 4,042 source rows retained, with process-restart breaks. Headline: The angle keeps growing. Stable trim and damping remain unproven. H0 retained while H1 concepts develop."
+            }
+          ],
+          "caption": "A hull moves. The forces change. The next question emerges.\n\nOur early H0 dynamic CFD milestones captured the first 100 and 150 milliseconds at an imposed 30 km/h. By 100 ms the hull had risen 6.545 mm from release and reached 6.529 degrees absolute bow-up pitch.\n\nAt 150 ms, bow-up rotation was slowing: pitch rate fell from 1.381 to 1.150 rad/s between 100 and 150 ms. But the pitch angle continued increasing, reaching 10.229 degrees. Slower rotation is an observation of this numerical history; stable trim and hydrodynamic damping have not been demonstrated.\n\nH0 remains our preserved numerical baseline while H1 concepts develop the internal architecture. Controlled comparisons remain a future, separately authorized step.\n\nThese are accepted numerical observations, not physical prototype test results. Graphs retain all 4,042 saved samples, split at process restarts without smoothing. No engine output, rider behavior or final product performance is established.",
+          "hashtags": [
+            "#WahooRacing",
+            "#CFD",
+            "#HullDesign",
+            "#MarineEngineering",
+            "#BehindTheBuild"
+          ],
+          "revision": "Rev01 · owner-approved website review · 12 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        }
+      ]
     }
   ]
 }

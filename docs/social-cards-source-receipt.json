@@ -1297,6 +1297,90 @@
       "source": "Social_Media/Instagram/Follow_The_Build_Rev02_20261112/exports/BUILD-08.png",
       "bytes": 65130,
       "sha256": "0a61c4a1f17f36ac834a0918b2f09ef22389d3f740707586a4899da229f13da6"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/h1-progress-rev01/EVOLUTION-01.png",
+      "source": "Social_Media/Instagram/H1_Progress_Private_Rev01_20261112/Set_A/exports/EVOLUTION-01.png",
+      "bytes": 228776,
+      "sha256": "638d40c83ee04ae6eace49ce4580fdc0e4c682d15cc0d3c24adeea707cd0114d"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/h1-progress-rev01/EVOLUTION-02.png",
+      "source": "Social_Media/Instagram/H1_Progress_Private_Rev01_20261112/Set_A/exports/EVOLUTION-02.png",
+      "bytes": 130932,
+      "sha256": "bbb606f754731745b925045e8f62adfc6e406658b249df9c723108c55691836f"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/h1-progress-rev01/EVOLUTION-03.png",
+      "source": "Social_Media/Instagram/H1_Progress_Private_Rev01_20261112/Set_A/exports/EVOLUTION-03.png",
+      "bytes": 113348,
+      "sha256": "fb5ff1e924e40eb8a595c098e6b0475ddf1bb8f31b3590a185c25d21bb35a43e"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/h1-progress-rev01/EVOLUTION-04.png",
+      "source": "Social_Media/Instagram/H1_Progress_Private_Rev01_20261112/Set_A/exports/EVOLUTION-04.png",
+      "bytes": 233265,
+      "sha256": "a1a1b49b6e09d585fc9de1d2b4e9421d3669ea8361a4b463516ceb25bcfbeace"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/h1-progress-rev01/EVOLUTION-05.png",
+      "source": "Social_Media/Instagram/H1_Progress_Private_Rev01_20261112/Set_A/exports/EVOLUTION-05.png",
+      "bytes": 126985,
+      "sha256": "d5f753913b8bfd9f1a811bae1737269420f7b52b75779cbd8074396a553c3ddf"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/h1-spotlights-rev01/SPOTLIGHT-01.png",
+      "source": "Social_Media/Instagram/H1_Progress_Private_Rev01_20261112/Set_B/exports/SPOTLIGHT-01.png",
+      "bytes": 136125,
+      "sha256": "e488428de6b4116ed76cffc7e1bf272067a6811bf123c54af4c7929c5557260e"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/h1-spotlights-rev01/SPOTLIGHT-02.png",
+      "source": "Social_Media/Instagram/H1_Progress_Private_Rev01_20261112/Set_B/exports/SPOTLIGHT-02.png",
+      "bytes": 129121,
+      "sha256": "65aa263acbb64ab8a84c67708745f1f81aaea8e51b733c4b91d179d19ca77630"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/h1-spotlights-rev01/SPOTLIGHT-03.png",
+      "source": "Social_Media/Instagram/H1_Progress_Private_Rev01_20261112/Set_B/exports/SPOTLIGHT-03.png",
+      "bytes": 125708,
+      "sha256": "6fa6e0c8842f8f382075c023ec83fb46565c35eb5fac8979cd0e8c89b4ec0c3a"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/h1-spotlights-rev01/SPOTLIGHT-04.png",
+      "source": "Social_Media/Instagram/H1_Progress_Private_Rev01_20261112/Set_B/exports/SPOTLIGHT-04.png",
+      "bytes": 87385,
+      "sha256": "33522b10813a70908e3fdb59995e154476acccfd2fde241aec16a008f8047f77"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/h1-spotlights-rev01/SPOTLIGHT-05.png",
+      "source": "Social_Media/Instagram/H1_Progress_Private_Rev01_20261112/Set_B/exports/SPOTLIGHT-05.png",
+      "bytes": 113570,
+      "sha256": "63912753bddb1726bf421c2ffe565e26e5b95ed883485e5c8173418ef497aab7"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/h1-spotlights-rev01/SPOTLIGHT-06.png",
+      "source": "Social_Media/Instagram/H1_Progress_Private_Rev01_20261112/Set_B/exports/SPOTLIGHT-06.png",
+      "bytes": 95586,
+      "sha256": "0b9e212be7fdb63a7001a0411db42302283d801034de46771a3c2958c4b1b27b"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/h0-dynamics-recap-rev01/CFD-01.png",
+      "source": "Social_Media/Instagram/H1_Progress_Private_Rev01_20261112/Set_C/exports/CFD-01.png",
+      "bytes": 190085,
+      "sha256": "b6636c09d9dc4f54227fa1117b0d5ce5db32be8842820a775536fa08e099a390"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/h0-dynamics-recap-rev01/CFD-02.png",
+      "source": "Social_Media/Instagram/H1_Progress_Private_Rev01_20261112/Set_C/exports/CFD-02.png",
+      "bytes": 68865,
+      "sha256": "bc664974a51915b9398afca44a2f7bc1a822ac1a86871c9ebd9c16310c504ac9"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/h0-dynamics-recap-rev01/CFD-03.png",
+      "source": "Social_Media/Instagram/H1_Progress_Private_Rev01_20261112/Set_C/exports/CFD-03.png",
+      "bytes": 66478,
+      "sha256": "b98490cbac3ef00d6a52b445e29ca6a5ef42f3517286ac93db3a383c6d94982a"
     }
   ],
   "sources": [
@@ -1454,9 +1538,24 @@
       "batch": "follow-build-rev02",
       "source": "Social_Media/Instagram/Follow_The_Build_Rev02_20261112/copy/CAPTION_AND_ALT.json",
       "sha256": "034587645e54c0cd03660000f681cfb0800dd916c4296fce64fc7986865e6942"
+    },
+    {
+      "batch": "h1-progress-rev01",
+      "source": "Social_Media/Instagram/H1_Progress_Private_Rev01_20261112/Set_A/copy/CAPTION_AND_ALT.json",
+      "sha256": "f1f08fd2bc0e0e6fa5937d1d62d7a55d3579a07fdcc2d72cdaea2a2ebc3d125c"
+    },
+    {
+      "batch": "h1-spotlights-rev01",
+      "source": "Social_Media/Instagram/H1_Progress_Private_Rev01_20261112/Set_B/copy/posts.json",
+      "sha256": "e1788859ce1b37680ad2960b4cac9b7964d8902dacaea85550c3ad856670f28b"
+    },
+    {
+      "batch": "h0-dynamics-recap-rev01",
+      "source": "Social_Media/Instagram/H1_Progress_Private_Rev01_20261112/Set_C/copy/CAPTION_AND_ALT.json",
+      "sha256": "15dcc414e6dcd9ad95ec389163b563344b00ec31ea26c97621b81260912d8ce6"
     }
   ],
-  "projectionSha256": "9c77c5a8eedd139e89e1e1d4c1d34e71efe5cb3562d5b5c0e3a20c57307eab98",
+  "projectionSha256": "70d33d1b8b1a94e3a2c2739f9d78509d8bd65b5c46a9dc660316b932f1bb232e",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",
