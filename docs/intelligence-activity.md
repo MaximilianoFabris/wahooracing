@@ -14,3 +14,8 @@ The build reads no private task database or engineering directories. `scripts/in
 ## Automation boundary
 
 Page generation, ordering, counts and filtering are implemented. Publication is still a reviewed release. This does not install an agent runtime, chat synchronization, a scheduler, filesystem watcher or automatic deployment of private findings. A later runtime can submit draft summaries into this same format, preserving the review boundary. Ask Leo remains a concept preview.
+
+
+## Detailed action ledger — 12 November 2026
+
+The work page now loads sanitized monthly action metadata from `/activity-ledger/index.json`. The original curated milestones remain separate and unchanged. Import and append-only source evidence stay in the private Wahoo Intelligence activity directory; never copy raw histories, commands, messages, paths or the SQLite index into the website. Unknown roles/dates remain explicit. Counts represent recorded actions, not agents or validated engineering results. Synchronization is on demand at handoff/release, not a background live service. History coverage is incomplete; source sync and public export dates are distinct.

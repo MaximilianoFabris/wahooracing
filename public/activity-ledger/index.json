@@ -1,0 +1,118 @@
+{
+  "schema": "wahoo.activity-public/1",
+  "generatedAt": "2026-11-12T09:43:53.328800Z",
+  "historySyncedAt": "2026-11-12T09:34:45.380719Z",
+  "totalEvents": 46720,
+  "coverage": {
+    "label": "Recovered activity, with known history gaps",
+    "limitations": [
+      "This is a recovered activity ledger, not a complete record of every past action.",
+      "Commands, code, private paths, chat identifiers and engineering source material are not published.",
+      "A completed tool action or recorded task state is not engineering validation.",
+      "Unknown dates and unrecorded roles remain explicitly unknown. Dates from chat turns are labelled as turn start.",
+      "The ledger updates after a history sync; it is not a live agent monitor."
+    ],
+    "localSessions": 313,
+    "cloudRecovery": "Limited accessible conversation window; older history may be unavailable."
+  },
+  "agents": [
+    {
+      "id": "leo",
+      "name": "Leonardo"
+    },
+    {
+      "id": "grace",
+      "name": "Grace"
+    },
+    {
+      "id": "ada",
+      "name": "Ada"
+    },
+    {
+      "id": "isaac",
+      "name": "Isaac"
+    },
+    {
+      "id": "archimedes",
+      "name": "Archimedes"
+    },
+    {
+      "id": "nikola",
+      "name": "Nikola"
+    },
+    {
+      "id": "hedy",
+      "name": "Hedy"
+    },
+    {
+      "id": "marie",
+      "name": "Marie"
+    },
+    {
+      "id": "rams",
+      "name": "Rams"
+    },
+    {
+      "id": "clio",
+      "name": "Clio"
+    },
+    {
+      "id": "unknown",
+      "name": "Role not recorded"
+    },
+    {
+      "id": "owner",
+      "name": "Project owner"
+    }
+  ],
+  "kinds": [
+    {
+      "id": "command",
+      "name": "Commands"
+    },
+    {
+      "id": "read",
+      "name": "Inspection & research"
+    },
+    {
+      "id": "edit",
+      "name": "File changes"
+    },
+    {
+      "id": "delegation",
+      "name": "Agent coordination"
+    },
+    {
+      "id": "message",
+      "name": "Messages"
+    },
+    {
+      "id": "task",
+      "name": "Tasks & connected tools"
+    },
+    {
+      "id": "decision",
+      "name": "Decisions"
+    }
+  ],
+  "months": [
+    {
+      "id": "2026-11",
+      "count": 21418,
+      "url": "/activity-ledger/2026-11.json",
+      "sha256": "f74508ba4769c691d5ef40e7193af06dd27a2fc2879b7af8b66511e2bdf0894a"
+    },
+    {
+      "id": "2026-10",
+      "count": 25246,
+      "url": "/activity-ledger/2026-10.json",
+      "sha256": "333bef8940f15c821505eaa0b1bf34210170937e9dac61c12aa8acbdc0ef21e4"
+    },
+    {
+      "id": "unknown",
+      "count": 56,
+      "url": "/activity-ledger/unknown.json",
+      "sha256": "c5bbeec28dcf5d65ebcd7a128cfac7cda3286e6396793385a95259d7afb95a96"
+    }
+  ]
+}
