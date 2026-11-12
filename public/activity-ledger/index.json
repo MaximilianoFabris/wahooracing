@@ -1,8 +1,8 @@
 {
   "schema": "wahoo.activity-public/1",
-  "generatedAt": "2026-11-12T09:43:53.328800Z",
-  "historySyncedAt": "2026-11-12T09:34:45.380719Z",
-  "totalEvents": 46720,
+  "generatedAt": "2026-11-12T15:33:36.035196Z",
+  "historySyncedAt": "2026-11-12T15:33:34.563335Z",
+  "totalEvents": 47758,
   "coverage": {
     "label": "Recovered activity, with known history gaps",
     "limitations": [
@@ -10,9 +10,9 @@
       "Commands, code, private paths, chat identifiers and engineering source material are not published.",
       "A completed tool action or recorded task state is not engineering validation.",
       "Unknown dates and unrecorded roles remain explicitly unknown. Dates from chat turns are labelled as turn start.",
-      "The ledger updates after a history sync; it is not a live agent monitor."
+      "Available local histories are collected automatically. Missing or cloud-only history is not automatically retrieved."
     ],
-    "localSessions": 313,
+    "localSessions": 336,
     "cloudRecovery": "Limited accessible conversation window; older history may be unavailable."
   },
   "agents": [
@@ -63,6 +63,10 @@
     {
       "id": "owner",
       "name": "Project owner"
+    },
+    {
+      "id": "henry",
+      "name": "Henry"
     }
   ],
   "kinds": [
@@ -98,21 +102,27 @@
   "months": [
     {
       "id": "2026-11",
-      "count": 21418,
+      "count": 22445,
       "url": "/activity-ledger/2026-11.json",
-      "sha256": "f74508ba4769c691d5ef40e7193af06dd27a2fc2879b7af8b66511e2bdf0894a"
+      "sha256": "12413d2e8302f69face662e75ebf09213673744e74f9e88075de6f72eefca1e6"
     },
     {
       "id": "2026-10",
-      "count": 25246,
+      "count": 25242,
       "url": "/activity-ledger/2026-10.json",
-      "sha256": "333bef8940f15c821505eaa0b1bf34210170937e9dac61c12aa8acbdc0ef21e4"
+      "sha256": "c8e0973ea353c30e772e2eb7a5ad8c5cf10a252caddb98a486f18235f535c4ae"
     },
     {
       "id": "unknown",
-      "count": 56,
+      "count": 71,
       "url": "/activity-ledger/unknown.json",
-      "sha256": "c5bbeec28dcf5d65ebcd7a128cfac7cda3286e6396793385a95259d7afb95a96"
+      "sha256": "6c027d1e8b7a6109fcc4f478310c41d3a995c1b78400ee26f14584e6c96fb9e8"
     }
-  ]
+  ],
+  "automaticSync": {
+    "enabled": true,
+    "intervalMinutes": 15,
+    "idleHeartbeatMinutes": 60,
+    "availability": "Runs while this Windows computer is awake and the owner is signed in. Network access is required for website publication."
+  }
 }
