@@ -2,6 +2,67 @@
   "schema_version": 1,
   "records": [
     {
+      "id": "fuel002-derived-opening",
+      "publication": "published",
+      "date": "2026-11-12",
+      "agents": [
+        "leo"
+      ],
+      "status": "completed",
+      "title": "A derived service opening replaces the blocked route",
+      "summary": "Reprofiled nominal 2 L bodies and an actual stepped cut define a new digital service proposal. Accepted source masters remain preserved.",
+      "evidence": "Study milestone reported in the reviewed engineering record; digital scope only."
+    },
+    {
+      "id": "fuel002-continuous-body-path",
+      "publication": "published",
+      "date": "2026-11-12",
+      "agents": [
+        "leo",
+        "isaac"
+      ],
+      "status": "completed",
+      "title": "Continuous modeled body withdrawal independently reviewed",
+      "summary": "Both defined bodies clear the modeled straight lift with intentional support departure. Added clearance margin, hand access and complete rider service remain unqualified.",
+      "evidence": "Study milestone reported in the reviewed engineering record; digital scope only."
+    },
+    {
+      "id": "fuel002-real-coupling-gap",
+      "publication": "published",
+      "date": "2026-11-12",
+      "agents": [
+        "leo"
+      ],
+      "status": "completed",
+      "title": "Supplier dimensions expose the next connection challenge",
+      "summary": "Real coupling components exceed short functional reservations. The connected arrangement, hoses and operator actuation remain unresolved.",
+      "evidence": "Study milestone reported in the reviewed engineering record; digital scope only."
+    },
+    {
+      "id": "fuel002-safety-manufacturing-boundaries",
+      "publication": "published",
+      "date": "2026-11-12",
+      "agents": [
+        "leo"
+      ],
+      "status": "completed",
+      "title": "Hatch, isolation and retention requirements retained",
+      "summary": "Digital body-path progress does not establish a watertight structural hatch, qualified fuel boundary or safe rider exchange. No physical fuel operation or manufacturing release follows.",
+      "evidence": "Study milestone reported in the reviewed engineering record; digital scope only."
+    },
+    {
+      "id": "fuel002-next-coupling-isolation",
+      "publication": "published",
+      "date": "2026-11-12",
+      "agents": [
+        "leo"
+      ],
+      "status": "planned",
+      "title": "Next proposal: coupling packaging and fuel-bay isolation",
+      "summary": "Target exact component packaging, realistic service access, retention and hatch interfaces before a complete installation decision. This next assignment is proposed, not completed.",
+      "evidence": "Proposed future assignment, not completed or executed."
+    },
+    {
       "id": "modular-fuel-01",
       "publication": "published",
       "date": "2026-11-12",

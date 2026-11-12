@@ -4,6 +4,12 @@ const escape=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&
 const labels={'completed':'Completed','in-progress':'In progress','planned':'Planned'};
 const agentName=id=>agents.find(agent=>agent.id===id)?.name??id;
 const related={
+ 'fuel002-derived-opening':[['a-way-out-for-the-fuel-module','Read the fuel-service follow-up']],
+ 'fuel002-continuous-body-path':[['a-way-out-for-the-fuel-module','Read the fuel-service follow-up']],
+ 'fuel002-real-coupling-gap':[['a-way-out-for-the-fuel-module','Read the fuel-service follow-up']],
+ 'fuel002-safety-manufacturing-boundaries':[['a-way-out-for-the-fuel-module','Read the fuel-service follow-up']],
+ 'fuel002-next-coupling-isolation':[['a-way-out-for-the-fuel-module','Read the fuel-service follow-up']],
+
  'modular-fuel-01':[['one-jetboard-different-fuel-capacities','Read the modular fuel study']],
  'modular-fuel-02':[['one-jetboard-different-fuel-capacities','Read the modular fuel study']],
  'modular-fuel-03':[['one-jetboard-different-fuel-capacities','Read the modular fuel study']],

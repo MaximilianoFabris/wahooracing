@@ -1,0 +1,84 @@
+{
+  "slug": "a-way-out-for-the-fuel-module",
+  "title": "A way out for the fuel module",
+  "date": "2026-11-12",
+  "updatedDate": "2026-11-12",
+  "dateLabel": "12 November 2026 · qualified digital service study",
+  "revision": "FUEL MODULE / CONTINUOUS MODELED BODY PATH",
+  "type": "Engineering study",
+  "evidence": "Independently reviewed digital geometry · complete rider service and fuel operation unqualified",
+  "status": "published",
+  "systems": [
+    "fuel-injection",
+    "hull-hydrodynamics",
+    "engine"
+  ],
+  "summary": "A reshaped module and stepped opening establish a continuous modeled withdrawal path. Real connections, access and fuel-bay protection are the next questions.",
+  "hero": "engineering/fuel002-nov12/hero.png",
+  "heroAlt": "Actual source-derived rigid module at the illustrated 250 mm lift in the proposed service state. Fixed surroundings remain installed. A body path is not a qualified rider-service or fueled installation.",
+  "heroCaption": "A modeled way out. This source-derived pose illustrates the separate continuous geometric check; it does not establish safe disconnection, hand access, sealing or physical fuel operation. Colours are presentation treatments.",
+  "sections": [
+    {
+      "title": "The problem becomes a design assignment",
+      "text": "The first modular fuel study ended with a useful frustration: two preliminary reservoirs occupied their proposed space, but both met obstacles when lifted out. A replaceable tank needs a way out of the board. Our follow-up now demonstrates that route for the defined digital bodies, while exposing the work still needed around them.</p><p>The new proposal reshapes and slightly repositions the two nominal 2-liter concepts. It also creates an actual stepped opening in a separate derived model, replacing the earlier opening outline and conflicting local access geometry. A narrow pocket reaches the common interface. The engine, electronic control unit, fixed fuel interface and jet pump remain installed.</p><p>This is an H1-05 interface proposal developed from the specified H1-04 reference. It is not an accepted H1-05 master or a claim of integration with a newer hull model. Existing accepted source geometry remains preserved. The result gives future integration work a concrete service arrangement to examine.</p><p>Earlier record: <a href=\"/journal/one-jetboard-different-fuel-capacities/\">the first modular fuel comparison</a>.",
+      "figure": {
+        "image": "engineering/fuel002-nov12/opening.png",
+        "alt": "Overhead view of the proposed stepped opening in local H1-04 source context. The actual derived cut and fixed interface region are visible in blue and gunmetal. Accepted masters remain unchanged.",
+        "caption": "A proposed stepped opening and reprofiled body address the earlier obstruction. Deck strength, sealing and electrical/fuel isolation remain open."
+      }
+    },
+    {
+      "title": "A complete modeled route",
+      "text": "The key advance is the complete modeled lift. For rigid cartridge A and protected-bladder cassette B1, the analysis covers the straight upward motion from the seated position through 250 millimeters. Conservative enclosing shapes cover every intermediate position and are checked against the represented obstacles. Four intentional support contacts separate as the module rises. Independent review corroborates the defined path.</p><p>The pictures show selected positions along that motion; those pictures alone are not the clearance proof. The result applies to the modeled parts, retained surroundings and declared released state. It does not establish the movement of real hoses, the release of actual fittings or an operator’s ability to reach and handle the module.</p><p>Extra room remains an open question. A uniform additional 3-millimeter clearance margin has not been proved, and hand access remains unproved. Overlap between conservative enclosures does not automatically mean a physical collision, but it cannot be reported as a clearance pass. Manufacturing tolerances, hull movement, swelling, heat and wear still need appropriate allowances.",
+      "figure": {
+        "image": "engineering/fuel002-nov12/paths.png",
+        "alt": "Two matching rows show rigid A and protected cassette B1 at zero,60,140 and250 mm lift. Every panel uses the same camera, framing and scale. The selected poses illustrate the separate continuous enclosure calculation, not a physical test.",
+        "caption": "Both defined bodies have a continuous modeled0–250 mm path under declared released/disconnected conditions. The four poses are illustrations; the independent geometric enclosure analysis supplies the clearance evidence."
+      }
+    },
+    {
+      "title": "Real connections need real space",
+      "text": "The common connection area now presents the next packaging challenge. Manufacturer research shows that real coupling components are substantially longer than the short functional reservations in the model. Their complete connected arrangement, release motion, adapters and hose bends still need to fit. The shared plate establishes connection locations; it does not establish a qualified fuel circuit.",
+      "figure": {
+        "image": "engineering/fuel002-nov12/connections.png",
+        "alt": "Blue short function reservations appear beside separate cylindrical supplier-dimension research envelopes. The two component envelopes match each other in scale; their view uses a different scale from the plate view. No connected or installed coupling arrangement is shown.",
+        "caption": "Short function reservations are not complete couplings. Different view scales are explicit. Actual mating stack, hose routing and actuation remain unresolved."
+      }
+    },
+    {
+      "title": "The opening is part of the system",
+      "text": "The service opening also changes what must be protected. A cover can follow the hull surface without being a strong, watertight hatch. Its rim, reinforcement, seals, fasteners and closing loads remain preliminary. Shared fuel and electronics access requires engineered liquid and vapor separation. Safe isolation, residual-fuel handling and independent mechanical retention remain unresolved.</p><p>The protected bladder stays in a rigid cassette for the modeled B1 withdrawal. Its flexibility therefore gives no demonstrated hatch advantage. Removing only a drained bag is a separate maintenance idea requiring supplier evidence for seams, fittings, folding life and residual handling. Neither that process nor filled-bag extraction is qualified. Exact materials and complete-system weight and cost remain unknown; neither architecture has won.",
+      "figure": {
+        "image": "engineering/fuel002-nov12/hatch.png",
+        "alt": "A grey surface-following stepped lid sits within a blue rim and seal reservation, with pale latch function blocks. It is a preliminary construction study, not a watertight or structurally qualified hatch.",
+        "caption": "The lid follows the proposed opening. Reinforcement, joining, seals, retention loads and fuel-bay isolation remain to be engineered."
+      }
+    },
+    {
+      "title": "Accounting stays separate",
+      "text": "The accounting work remains separate. The earlier 22 synthetic checks are preserved historical results and were not rerun in this phase. A new service transaction contract describes requirements for actual contents, partial swaps and recovery, without demonstrating new ECU firmware or safe fuel delivery. Estimated quantity cannot authorize a restart."
+    },
+    {
+      "title": "The next focused question",
+      "text": "The proposed next assignment focuses on actual coupling packaging and fuel-bay isolation, followed by realistic access, retention and hatch interfaces. Nominal fill still does not establish usable capacity or endurance. The progress is specific: a continuously clear modeled body path, with the remaining service and safety questions now better defined.",
+      "figure": {
+        "image": "engineering/fuel002-nov12/context.png",
+        "alt": "A new source-derived full-board context view highlights the fuel service proposal among retained H1-04 engine, pump, electrical and structural references. The hull is ghosted for display. It is an H1-05 interface proposal, not an accepted H1-05 master.",
+        "caption": "The proposed service arrangement in its H1-04 source context. Accepted masters are preserved; this is not a synchronized or physically validated H1-05 integration."
+      }
+    }
+  ],
+  "sources": [
+    "Modular fuel service study, Rev01 · 12 November 2026",
+    "Independent final serialized geometry and path review · qualified digital finding",
+    "Manufacturer-dimension research and bounded manufacturing/interface review · no installed component qualification"
+  ],
+  "relatedArticles": [
+    {
+      "slug": "one-jetboard-different-fuel-capacities",
+      "label": "Earlier study: different fuel capacities?"
+    }
+  ],
+  "changes": "Follow-up to the earlier modular fuel study. The derived body path is continuously clear within the stated digital model; complete rider exchange, fuel delivery, physical manufacture and operation remain unqualified. Accepted reference masters are preserved.",
+  "publicationSequence": 3
+}

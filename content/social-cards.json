@@ -2992,6 +2992,50 @@
           "reviewStatus": "OWNER_REVIEW"
         }
       ]
+    },
+    {
+      "id": "fuel-service-002-rev01",
+      "title": "Fuel002 · a modeled way out",
+      "revision": "12 November 2026 · website review only; not Instagram posted",
+      "posts": [
+        {
+          "id": "FUEL-SERVICE-002",
+          "title": "A modeled way out",
+          "format": "Carousel · 5 cards",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/fuel-service-002-rev01/FUEL-01.png",
+              "alt": "A modeled way out. A source-derived rigid fuel body is shown at250 mm lift above the proposed stepped service opening. The surrounding fixed equipment stays in place. Blue port functions are preliminary placeholders. Defined modeled body path only; not a complete service qualification."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/fuel-service-002-rev01/FUEL-02.png",
+              "alt": "250 mm continuous modeled body motion. Four matched-scale panels show A and B1 each seated and at250 mm lift. The illustrated end states accompany separate continuous geometric analysis. Defined parts/released states only; no complete rider-service pass."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/fuel-service-002-rev01/FUEL-03.png",
+              "alt": "Room to move? Room for hands? A typography-led card explicitly says hand access is not proved, and the extra3 mm clearance margin is also unproved. A clear modeled body path is not rider-service qualification. No hand or physical service test is illustrated."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/fuel-service-002-rev01/FUEL-04.png",
+              "alt": "Real connections. Real space. Short function reservations are shown at left, with two separate research coupling envelopes at right. Views use different scales. The pair envelopes are not connected or selected installed hardware; stack, hoses and actuation remain unresolved."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/fuel-service-002-rev01/FUEL-05.png",
+              "alt": "Design the complete service. Actual source-derived preliminary lid, rim and latch function geometry appears in blue and gunmetal. Connections, retention and isolation are future engineering work. Follow the build. No physical release is implied."
+            }
+          ],
+          "caption": "The first fuel modules met an obstacle on the way out. This follow-up changes their shape and creates an actual stepped opening in a separate digital proposal.\n\nBoth defined bodies now have a continuously clear modeled straight lift, with the fixed interface and surrounding equipment retained. The illustrated poses accompany the continuous analysis; pictures alone are not the proof.\n\nReal service still asks more: an extra 3 mm clearance margin and hand access remain unproved. Supplier coupling components are longer than the model’s short reservations. Actual hoses, locking, seals, hatch structure and fuel-bay isolation still need engineering.\n\nThis is an H1-05 interface proposal developed from the H1-04 reference, with accepted masters preserved. No architecture, endurance or complete-system weight winner is established.\n\nNext proposed focus: real coupling packaging and fuel-bay isolation. Digital progress; complete rider exchange and fueled operation remain unqualified.\n\nFollow the build as each engineering question becomes more specific.",
+          "hashtags": [
+            "#WahooRacing",
+            "#Jetboard",
+            "#EngineeringDesign",
+            "#ProductDevelopment",
+            "#MarineEngineering"
+          ],
+          "revision": "Rev01 · website review · 12 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        }
+      ]
     }
   ]
 }
