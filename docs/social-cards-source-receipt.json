@@ -1622,10 +1622,10 @@
     {
       "batch": "fuel-service-002-rev01",
       "source": "Wahoo_Intelligence/communications/control/20261112-Fuel002/SOCIAL_SOURCE.json",
-      "sha256": "187943eb9a256f5f7320443c456a1183f570f820450692369ac71fde9afaf609"
+      "sha256": "79bad4445bd945b26c5fdb4e568fd3f06ce6f1be454a06dd3d44e43825a57809"
     }
   ],
-  "projectionSha256": "0119af999839931a5a0a4211f906fac9f7425345182277d84b779dee715357f9",
+  "projectionSha256": "7a467ad850216b50446cc818c40931a3da935cb2027e3d7d29dd82e5052d6c89",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",
