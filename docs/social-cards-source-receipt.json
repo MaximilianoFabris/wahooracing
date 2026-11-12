@@ -1249,6 +1249,54 @@
       "source": "Social_Media/Instagram/Follow_The_Build_Rev01_20261112/exports/FOLLOW-03.png",
       "bytes": 468755,
       "sha256": "bc39773b1610cf9d498029f7bd7733a275eb49edbce03087a8e9e48e1fdd7f9c"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/follow-build-rev02/BUILD-01.png",
+      "source": "Social_Media/Instagram/Follow_The_Build_Rev02_20261112/exports/BUILD-01.png",
+      "bytes": 387635,
+      "sha256": "40642fc3a1471c8c96837026431dd82d1c1718f71c4ded9f4ae227fdda7c5fb3"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/follow-build-rev02/BUILD-02.png",
+      "source": "Social_Media/Instagram/Follow_The_Build_Rev02_20261112/exports/BUILD-02.png",
+      "bytes": 192836,
+      "sha256": "11467d6aaccee97cb795fd9fabceda3c070443551ea4e2d63469119bb09c81f4"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/follow-build-rev02/BUILD-03.png",
+      "source": "Social_Media/Instagram/Follow_The_Build_Rev02_20261112/exports/BUILD-03.png",
+      "bytes": 579222,
+      "sha256": "0f8cc19d3f82cc105b58c8b62fddba9fa50a3cf6255638bcc7d3d73672960464"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/follow-build-rev02/BUILD-04.png",
+      "source": "Social_Media/Instagram/Follow_The_Build_Rev02_20261112/exports/BUILD-04.png",
+      "bytes": 235375,
+      "sha256": "488cdf1326d748ea004920cf5446e4651591aaa26c0b37ca5eeca5e04e935d5b"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/follow-build-rev02/BUILD-05.png",
+      "source": "Social_Media/Instagram/Follow_The_Build_Rev02_20261112/exports/BUILD-05.png",
+      "bytes": 105499,
+      "sha256": "96b2b545faf7ba89eddf6102604926de33043d04c6e8c55f584a13d894d8f4f5"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/follow-build-rev02/BUILD-06.png",
+      "source": "Social_Media/Instagram/Follow_The_Build_Rev02_20261112/exports/BUILD-06.png",
+      "bytes": 219298,
+      "sha256": "516e360e11ababa263e831777eb7028a7f8208755d8a5c40434cc59ce86e6758"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/follow-build-rev02/BUILD-07.png",
+      "source": "Social_Media/Instagram/Follow_The_Build_Rev02_20261112/exports/BUILD-07.png",
+      "bytes": 295644,
+      "sha256": "d35679fe7a48ae86341a730cb368f7bd7905ac0fde745c26e3cfe0b0e22a6839"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/follow-build-rev02/BUILD-08.png",
+      "source": "Social_Media/Instagram/Follow_The_Build_Rev02_20261112/exports/BUILD-08.png",
+      "bytes": 65130,
+      "sha256": "0a61c4a1f17f36ac834a0918b2f09ef22389d3f740707586a4899da229f13da6"
     }
   ],
   "sources": [
@@ -1401,9 +1449,14 @@
       "batch": "follow-build-rev01",
       "source": "Social_Media/Instagram/Follow_The_Build_Rev01_20261112/copy/CAPTION_AND_ALT.json",
       "sha256": "c4dab2dce6aa00c36c01177c4541304cc898bfd162a9b0f29f81c72a2d49dbfd"
+    },
+    {
+      "batch": "follow-build-rev02",
+      "source": "Social_Media/Instagram/Follow_The_Build_Rev02_20261112/copy/CAPTION_AND_ALT.json",
+      "sha256": "034587645e54c0cd03660000f681cfb0800dd916c4296fce64fc7986865e6942"
     }
   ],
-  "projectionSha256": "cd8e389298e382ab35bb9206c6446fb2f9798bb57f9b2988a06a098830effbfe",
+  "projectionSha256": "9c77c5a8eedd139e89e1e1d4c1d34e71efe5cb3562d5b5c0e3a20c57307eab98",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",

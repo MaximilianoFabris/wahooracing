@@ -2692,6 +2692,62 @@
           "reviewStatus": "OWNER_REVIEW"
         }
       ]
+    },
+    {
+      "id": "follow-build-rev02",
+      "title": "Follow the Wahoo development",
+      "revision": "Eight development chapters · Rev02 · 12 November 2026",
+      "posts": [
+        {
+          "id": "FOLLOW-BUILD",
+          "title": "The build is the story.",
+          "format": "Carousel · 8 cards",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/follow-build-rev02/BUILD-01.png",
+              "alt": "Dark opening card with the original Wahoo wordmark and a glossy deck-up carbon hull concept. Headline: The build is the story. Supporting text: Developing a jetboard. Sharing the journey. Follow Wahoo Racing. Existing computer-generated hull concept, in development; no physical board is pictured."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/follow-build-rev02/BUILD-02.png",
+              "alt": "Pale hull-development card. Headline: Understand the water. The accepted saved 100 ms H0 underside CFD pressure field is shown with the native p reference of zero Pa and an unaltered minus15 to plus6 kPa colour range. Text: Studying hull forces and motion before deciding what to change. Numerical study, not a physical water test."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/follow-build-rev02/BUILD-03.png",
+              "alt": "Dark engine card with the existing silver and black computer-generated engine concept. Headline: Developing the heart. Text: Cylinder. Crankcase. Exhaust. Developing them as a connected system. Engine concept; geometry and materials provisional. This is illustrative artwork, not manufactured hardware."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/follow-build-rev02/BUILD-04.png",
+              "alt": "Pale Wahoo Intelligence card. Headline: Many minds. One direction. The actual website team constellation places the fictional AI Chief Engineer Leonardo at its centre, with specialist AI roles around him. Text: Specialist AI roles. Shared evidence. Human-led engineering decisions. AI illustration; work runs on assigned tasks."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/follow-build-rev02/BUILD-05.png",
+              "alt": "Dark simulator card. Headline: Make the invisible visible. The existing piston, rod and crank schematic is set beside Motion. Pressure. Flow. Supporting text: Explore piston motion, pressure and gas exchange through saved numerical results. Mechanism schematic, not a physical engine test or live physics run."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/follow-build-rev02/BUILD-06.png",
+              "alt": "Pale generative-design card with a large41 and Designs. More questions. Existing source-derived preliminary cylinder CAD linework appears beside qualitative tapered and split-port schematics. Text: Generate. Compare. Investigate. Exploring how port geometry changes the behavior of our digital cylinder. The41 refers to synthetic port configurations; the pictures are illustrative, not a complete geometry atlas or optimized engine."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/follow-build-rev02/BUILD-07.png",
+              "alt": "Dark components card. Headline: Big ideas. Small details. Three separated existing studies show the preliminary source-derived cylinder body, open-throat crankcase and conceptual handheld rider control. Labels identify each. These views are not assembled, not to a common scale and do not establish fit or manufacture. Materials are not final."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/follow-build-rev02/BUILD-08.png",
+              "alt": "Pale closing card with the original Wahoo wordmark. Large type: Come for the board. Stay for the build. Follow Wahoo Racing. Smaller text: The ideas. The experiments. The decisions along the way. Computer-generated visuals; product in development."
+            }
+          ],
+          "caption": "The build is the story.\n\nWe’re developing Wahoo from the inside out—and sharing the work behind it.\n\nTHE HULL — Using CFD to investigate how the hull moves and how the water responds.\n\nTHE ENGINE — Developing cylinder, crankcase and exhaust concepts as parts of one system.\n\nWAHOO INTELLIGENCE — Specialist AI roles help investigate questions, preserve evidence and challenge ideas. People make the decisions.\n\nTHE SIMULATOR — Exploring piston motion, pressure and gas exchange through saved numerical experiments.\n\nGENERATIVE DESIGN — Creating and comparing synthetic cylinder-port alternatives. Our 41-design study helps identify useful questions for deeper investigation.\n\nTHE COMPONENTS — Working through the details, from preliminary engine parts to the rider-control concept.\n\nFollow Wahoo Racing for the ideas, experiments and decisions along the way. Which chapter would you like to see more of?\n\nWahoo is in development. Product visuals are computer-generated concepts and preliminary CAD studies; CFD imagery shows numerical results, not physical testing. Geometry, materials and specifications remain subject to change. The engine concept artwork does not depict manufactured Wahoo hardware.",
+          "hashtags": [
+            "#WahooRacing",
+            "#Jetboard",
+            "#BehindTheBuild",
+            "#GenerativeDesign",
+            "#EngineeringDesign"
+          ],
+          "revision": "Rev02 · 12 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        }
+      ]
     }
   ]
 }

@@ -5,7 +5,8 @@
     "cinematic-mixed-rev01",
     "color-impact-rev01",
     "color-reference-rev01",
-    "color-testing-rev01"
+    "color-testing-rev01",
+    "follow-build-rev01"
   ],
   "entries": [
     {
@@ -246,7 +247,7 @@
       "category": "engineering"
     },
     {
-      "key": "follow-build-rev01-FOLLOW-BUILD",
+      "key": "follow-build-rev02-FOLLOW-BUILD",
       "category": "community"
     }
   ]
