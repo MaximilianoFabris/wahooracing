@@ -73,7 +73,12 @@ if(page){
    index=data;
    index.months.sort((a,b)=>(a.id==='unknown')-(b.id==='unknown')||b.id.localeCompare(a.id));
    find('total').textContent=number.format(index.totalEvents);
-   find('sync').textContent=index.historySyncedAt?`History last synchronized: ${new Date(index.historySyncedAt).toISOString().replace('T',' ').replace('.000Z',' UTC')}`:'';
+   const syncNote=()=>{
+    const stamp=Date.parse(index.historySyncedAt),age=Date.now()-stamp;
+    if(!Number.isFinite(stamp)){find('sync').textContent='Sync time unavailable';return;}
+    const utc=new Date(stamp).toISOString().replace('T',' ').replace(/\.\d+Z$/,' UTC');
+    find('sync').textContent=index.automaticSync?.enabled?`Automatic collection · every ${index.automaticSync.intervalMinutes} minutes while the computer is available. Last collection: ${utc}. ${age>7200000?'Update overdue: the computer may be offline or the sync may need attention.':'Idle website heartbeat: hourly.'}`:`History last synchronized: ${utc}`;
+   };syncNote();setInterval(syncNote,60000);
    find('coverage').textContent=index.coverage?.label||'Available public action history.';
    find('limitations').textContent=Array.isArray(index.coverage?.limitations)?index.coverage.limitations.join(' '):index.coverage?.limitations||'Only available, reviewed records are included.';
    fields.month.replaceChildren();options(fields.month,index.months.map(month=>({id:month.id,name:`${month.id} · ${number.format(month.count)} actions`})));

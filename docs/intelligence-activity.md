@@ -19,3 +19,6 @@ Page generation, ordering, counts and filtering are implemented. Publication is 
 ## Detailed action ledger — 12 November 2026
 
 The work page now loads sanitized monthly action metadata from `/activity-ledger/index.json`. The original curated milestones remain separate and unchanged. Import and append-only source evidence stay in the private Wahoo Intelligence activity directory; never copy raw histories, commands, messages, paths or the SQLite index into the website. Unknown roles/dates remain explicit. Counts represent recorded actions, not agents or validated engineering results. Synchronization is on demand at handoff/release, not a background live service. History coverage is incomplete; source sync and public export dates are distinct.
+
+
+Automatic synchronization (owner-approved 12 November 2026): the native Windows collector uses guarded append offsets and a strict approved-text projection, then publishes only activity-ledger JSON from a separate checkout. Interval 15 minutes while the computer is awake and owner signed in; idle freshness heartbeat hourly. Network/GitHub access required. No AI call, CFD/CAD execution or automatic publication of pending Journal/cards. The public page displays the last collection timestamp and an overdue notice after two hours. Full operational controls and diagnostics remain in the private activity policy/runtime.
