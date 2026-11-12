@@ -4,6 +4,7 @@ const escape=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&
 const labels={'completed':'Completed','in-progress':'In progress','planned':'Planned'};
 const agentName=id=>agents.find(agent=>agent.id===id)?.name??id;
 const related={
+ 'h102-open-compartment-water-management':[['water-will-get-in','Read the water-management study']],
  'h0-150ms-angular-braking':[['h0-first-100-milliseconds','The accepted 150 ms update']],
  'hull-controlled-design-questions':[['h0-first-100-milliseconds','How the evidence shapes the next questions']],
  'h0-first-100ms-dynamic-response':[['h0-first-100-milliseconds','Inside the first 100 milliseconds']],

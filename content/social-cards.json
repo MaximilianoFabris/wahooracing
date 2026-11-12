@@ -2612,6 +2612,50 @@
           "reviewStatus": "OWNER_REVIEW"
         }
       ]
+    },
+    {
+      "id": "h102-water-management-rev01",
+      "title": "H1-02 · water management and integrated design",
+      "revision": "R02 digital concept · 11 November 2026",
+      "posts": [
+        {
+          "id": "H102-WATER",
+          "title": "Water will get in. What happens next?",
+          "format": "Carousel · 5 cards",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/h102-water-management-rev01/WATER-01.png",
+              "alt": "Wahoo engineering editorial on a pale background. Headline: WATER WILL GET IN. So what happens next? An original CAD-derived three-quarter hull assembly reveals grey engine and packaging, green external air nozzle, blue jet pump, amber exhaust, purple cooling jacket and cyan preliminary bilge candidate. Labelled H1-02 digital concept. Supporting text connects real riding experience to new engineering questions."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/h102-water-management-rev01/WATER-02.png",
+              "alt": "Dark Wahoo card headed NOT EVERY PIPE IS A SOLUTION. The original top-view CAD plot shows the retained green nozzle and explanatory green open-compartment waypoints toward the separate engine induction envelope. The direct nozzle-to-engine duct is removed. Text states airflow remains unproven. This is a digital concept, not measured flow or installed hardware."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/h102-water-management-rev01/WATER-03.png",
+              "alt": "Pale Wahoo card headed WHERE DOES THE WATER GO? Original CAD drainage study shows cyan provisional waypoints around the engine and toward a preliminary bilge candidate. Source annotation says pump inlet and capacity are unknown. Copy states collection changes as the board tilts, drainage remains to be qualified, route arrows are provisional and pump capability is unselected. H1-02 digital concept."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/h102-water-management-rev01/WATER-04.png",
+              "alt": "Graphite Wahoo card with an original assembly plot above the headline EVERY MILLIMETER MATTERS. The retained tank is red to identify a known tank conflict in the digital model. Engine, fuel, electronics and jet pump share the hull space. It is an unresolved digital packaging study, not proof of physical fit."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/h102-water-management-rev01/WATER-05.png",
+              "alt": "Pale Wahoo card headed DESIGNED THROUGH ENGINEERING. Reverse-angle original corrected assembly shows numbered engine, green air nozzle, single amber exhaust, purple cooling jacket, cyan bilge candidate and blue jet pump, with matching key. Copy says a digital concept with more development ahead and invites viewers to follow the Wahoo development journey. Physical installation and system performance are not validated."
+            }
+          ],
+          "caption": "Water will get in. What happens next?\n\nReal riding experience keeps bringing us back to that question. Splashing and capsizing make water ingress part of the design problem for a gasoline jetboard.\n\nIn our new H1-02 digital study, we removed the direct enclosed duct between the external air nozzle and engine. That duct could collect water and direct it toward the engine. The original green nozzle now feeds an open engine compartment, with engine induction kept separate.\n\nA simpler air arrangement still needs a water-management plan. Where water collects changes as the board tilts, and the engine, exhaust, fuel, electronics and jet pump all compete for space. Our preliminary bilge layout uses a recovered project pump shape; the actual hardware and its capability are not selected.\n\nNext we are developing the inner structure, connected drainage, component packaging and service access. Fuel-tank and battery installation remain unresolved. Airflow, drainage effectiveness and physical installation still need qualification; this is not a finished waterproofing or water-ingestion prevention solution.\n\nFollow the Wahoo development journey. Which part of the build would you like to see next?",
+          "hashtags": [
+            "#WahooRacing",
+            "#Jetboard",
+            "#MarineEngineering",
+            "#ProductDevelopment",
+            "#BehindTheBuild"
+          ],
+          "revision": "Rev01 · published 12 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        }
+      ]
     }
   ]
 }

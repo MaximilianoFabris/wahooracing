@@ -1,0 +1,140 @@
+{
+  "slug": "water-will-get-in",
+  "title": "Water will get in. What happens next?",
+  "date": "2026-11-11",
+  "dateLabel": "11 November 2026 digital concept · published 12 November 2026",
+  "revision": "H1-02 / WATER MANAGEMENT & INTEGRATED DESIGN",
+  "type": "Engineering study",
+  "evidence": "Qualified digital concept · physical installation, drainage and airflow unvalidated",
+  "status": "published",
+  "systems": [
+    "hull-hydrodynamics",
+    "engine"
+  ],
+  "summary": "How Wahoo is rethinking engine ventilation, water management and internal propulsion integration.",
+  "hero": "engineering/h102-review/hero.png",
+  "heroAlt": "Actual H1-02 integrated CAD assembly with ghosted hull and separated engine-air, exhaust, cooling, bilge and jet-water study systems.",
+  "heroCaption": "Source-derived H1-02 CAD view. System colours explain the preliminary architecture; they are not flow measurements. Optional parts and nonphysical reservations do not establish installed hardware.",
+  "sections": [
+    {
+      "title": "A practical question from the water",
+      "text": "Water will get in. The useful engineering question is what happens next.</p><p>This study starts with practical experience of operating gasoline-powered jetboards, where splash, capsize and water entry must be anticipated. That experience informs Wahoo’s development questions; it is not a claim that this digital Wahoo assembly has been physically tested.</p><p>H1-02 brings engine air, water collection and component packaging into one preliminary layout. Its aim is to make the relationships visible early, while there is still room to change the design."
+    },
+    {
+      "title": "Air without the direct duct",
+      "text": "An earlier integration study connected the external air nozzle directly to the engine through an enclosed duct. Its low points raised a concern: water could collect inside and be directed toward the induction system.</p><p>The revised baseline removes that direct duct. The actual green nozzle supplies an open engine compartment; engine induction remains a separate, provisional interface. This is a simpler architecture to investigate, not proof of sufficient airflow or protection against water ingestion. Compartment ventilation, including engine-off conditions, still needs its own definition and qualification.",
+      "figure": {
+        "image": "engineering/h102-review/air.png",
+        "alt": "Actual registered H1-02 plan view: the green external nozzle remains, the direct enclosed duct is absent, and explanatory lines indicate the open-compartment air concept.",
+        "caption": "Open-compartment baseline. The green nozzle is retained; the direct nozzle-to-engine duct is removed. Arrows show intended routing only, not computed or measured airflow. Engine induction hardware and airflow sufficiency remain unresolved."
+      }
+    },
+    {
+      "title": "Where the water can collect",
+      "text": "Once water enters, its route matters. H1-02 recovers the project’s historical bilge-pump shape and studies a relocated position. That shape does not identify a selected pump model, suction inlet or delivered pumping capacity.</p><p>The drainage study exposes the harder question: collection changes with pitch, heel and inversion. A normal bottom pickup is not an all-attitude solution, and the proposed side routes do not establish connected gravity drains. Real inner structure and waterlines are still missing.</p><p>The final R02 revision corrects a discharge reservation that crossed component envelopes. Its new centreline remains a routing study, not an installed hose, qualified outlet or proven anti-siphon arrangement. Water management needs those interfaces as well as a pump.",
+      "figure": {
+        "image": "engineering/h102-review/drainage.png",
+        "alt": "Original-image-derived drainage view with the provisional recovered bilge geometry and final R02 discharge reservation. Drain arrows are explanatory and do not establish hydraulic connectivity.",
+        "caption": "Final R02 study: the specific earlier discharge-route conflicts were remedied in the tested centreline representation. Pump capability, connected drainage, hose bends, waterlines, backflow and all-attitude performance remain unqualified."
+      }
+    },
+    {
+      "title": "One layout, connected decisions",
+      "text": "The engine, exhaust, jet pump, fuel, battery and bilge share the same limited space. Moving one item can change a drain route, a service opening or another component’s mounting problem.</p><p>H1-02 keeps combustion air, exhaust gas, cooling water, bilge water and jet-pump water distinct. One exhaust pipe and its cooling jacket form one exhaust assembly. The provisional WJ70-C01 Rev02 installation remains a separate propulsion study. The integrated views help us see these relationships without pretending that all their interfaces have been solved.",
+      "figure": {
+        "image": "engineering/h102-review/section.png",
+        "alt": "Longitudinal study combining the actual Y-equals-zero hull section with off-plane registered component context projected at its actual longitudinal and vertical coordinates.",
+        "caption": "The Y=0 hull section and projected component context are different representations. Off-plane components are shown at their registered X/Z positions; this is not a common cut through every component or proof of inner-laminate fit."
+      }
+    },
+    {
+      "title": "Keep the simple baseline in the comparison",
+      "text": "More parts are not automatically a better answer. The open compartment is the baseline against which two optional splash-control ideas can be compared: a short sloping sheet below the nozzle and an open-bottom roof near the induction envelope.</p><p>Both remain inactive, preliminary alternatives. Neither reconnects the nozzle to the engine as a closed passage. Their value would depend on demonstrated splash benefit, acceptable airflow loss, drainage and access. Those results do not yet exist.",
+      "figure": {
+        "image": "engineering/h102-review/options.png",
+        "alt": "Three original CAD comparison panels showing the open baseline and two inactive open splash-control alternatives. Panels use independent display scales.",
+        "caption": "Baseline plus two inactive open-sheet options. The panels are independently scaled; size must not be compared across panels. Splash separation, restriction and water-ingestion benefits have not been validated."
+      }
+    },
+    {
+      "title": "Useful problems, found digitally",
+      "text": "Digital packaging is useful when it reveals a problem. The current fuel-tank and battery references do not have accepted fit. A lowered battery alternative still failed its screen, while other inactive packaging studies trade space against sampled outer-skin margin.</p><p>A positive distance from the outside hull is not a manufactured clearance inside a laminate. Likewise, a rectangular CAD volume is not usable fuel capacity. These findings define the next design decisions; they do not silently select new components or resolve the existing conflicts.",
+      "figure": {
+        "image": "engineering/h102-review/packaging.png",
+        "alt": "Actual H1-02 clash and packaging study retaining the source component conflicts and distinguishing inactive alternatives from the current reference layout.",
+        "caption": "Unresolved reference packaging remains visible. Failed and inactive alternatives are studies, not adopted installations. Finite outer-skin screens cannot certify inner-hull clearance, thermal allowance or manufactured fit."
+      }
+    },
+    {
+      "title": "The next engineering questions",
+      "text": "The next work is to define the real inner hull, connected drainage, selected bilge interfaces, fuel and electrical packages, and service access together. Removing a component must be considered alongside installing it; a service envelope is not a certified collision-free removal path.</p><p>Controls are developing too. Starter protection has passed synthetic event-logic checks, not hardware or water-ingestion tests. It does not establish hydrolock diagnosis or safe starting.</p><p>H1-02 is a qualified digital concept with physical installation still unvalidated. Wahoo’s next step is to turn the unresolved interfaces into testable designs, compare the simplest arrangement with carefully chosen alternatives, and keep learning from what the engineering reveals.",
+      "figure": {
+        "image": "engineering/h102-review/service.png",
+        "alt": "Actual service-access study with nonphysical access and removal reservations around the registered engine and pump installation.",
+        "caption": "Access reservations are nonphysical study geometry. The pump bridge and disconnect sequence still need definition; full removal paths, hatches, tools, mounts, seals and thermal protection are not qualified."
+      }
+    }
+  ],
+  "galleryTitle": "Ten original engineering views",
+  "gallery": [
+    {
+      "image": "engineering/h102-review/originals/H1_02_TECH_01.png",
+      "caption": "01 · Complete integrated assembly. Actual registered H1-02 CAD; illustrative system colours, not computed fluid fields. Physical installation is unvalidated.",
+      "alt": "Actual registered H1-02 integrated assembly with source hull overlay and distinct air, exhaust, cooling, bilge and jet-water concepts."
+    },
+    {
+      "image": "engineering/h102-review/originals/H1_02_TECH_02.png",
+      "caption": "02 · Open engine compartment. Direct duct removed. Nozzle supplies the open compartment; induction and engine-off ventilation remain unqualified.",
+      "alt": "Plan view of the retained green nozzle supplying an open compartment; direct enclosed air duct removed and induction interface provisional."
+    },
+    {
+      "image": "engineering/h102-review/originals/H1_02_TECH_03.png",
+      "caption": "03 · Water ingress and drainage. R02 discharge reservation; proposed routes are not connected working drains or installed hoses.",
+      "alt": "Actual drainage and bilge placement study with cyan provisional routes and the final R02 discharge reservation; pump capability unknown."
+    },
+    {
+      "image": "engineering/h102-review/originals/H1_02_TECH_04.png",
+      "caption": "04 · Longitudinal section. Y=0 hull cut with off-plane components projected at actual X/Z; not a common section or inner-laminate clearance.",
+      "alt": "Y=0 longitudinal hull section with off-plane component context projected at actual X/Z; original section and study limits retained."
+    },
+    {
+      "image": "engineering/h102-review/originals/H1_02_TECH_05.png",
+      "caption": "05 · Transverse sections. Cuts at labelled different longitudinal stations; source component conflicts remain unresolved.",
+      "alt": "Two labelled transverse hull sections at different longitudinal stations showing the source component arrangement and unresolved internal packaging."
+    },
+    {
+      "image": "engineering/h102-review/originals/H1_02_TECH_06.png",
+      "caption": "06 · Jet-pump installation. Provisional WJ70-C01 Rev02 geometry; no selected fit, flow, mounting or sealing qualification.",
+      "alt": "Provisional WJ70-C01 Rev02 jet-pump assembly and mechanical shaft references, without an installation or performance qualification."
+    },
+    {
+      "image": "engineering/h102-review/originals/H1_02_TECH_07.png",
+      "caption": "07 · Clash and clearance review. Reference conflicts and inactive/rejected alternatives remain explicit; sampled outer-skin distance is not manufactured fit.",
+      "alt": "Digital clash assessment highlighting the current tank conflict and distinguishing reference components from inactive rejected or alternative packages."
+    },
+    {
+      "image": "engineering/h102-review/originals/H1_02_TECH_08.png",
+      "caption": "08 · Service-access study. Nonphysical service reservations; no certified full removal path or released hatch design.",
+      "alt": "Actual assembly with nonphysical service and removal reservations; hatches, disconnects and complete removal paths remain unresolved."
+    },
+    {
+      "image": "engineering/h102-review/originals/H1_02_TECH_09.png",
+      "caption": "09 · Open splash-control options. Open baseline and two inactive options, independently scaled; no demonstrated splash or airflow benefit.",
+      "alt": "Open-compartment baseline and two inactive open-sheet splash-control options in independently scaled source panels, with no demonstrated benefit."
+    },
+    {
+      "image": "engineering/h102-review/originals/H1_02_TECH_10.png",
+      "caption": "10 · Complete corrected assembly. Current corrected H1-02 arrangement; system arrows are explanatory. H0 and earlier revisions remain preserved.",
+      "alt": "Reverse-angle complete corrected H1-02 assembly with source component and system labels; qualified digital concept only."
+    }
+  ],
+  "sources": [
+    "H1-02 final R02 digital assembly and native report · 11 November 2026",
+    "Isaac final R02 serialized readback and qualified digital-concept disposition",
+    "Nikola engine/air assessment, with final R02 integration binding",
+    "Hedy synthetic starter event-logic results and independent targeted checks; no hardware qualification",
+    "Ten original full-resolution registered-CAD PNGs and their source/camera/hash manifest"
+  ],
+  "changes": "Owner-approved publication of the H1-02 R02 digital-concept article and original engineering imagery. Earlier H1-01 work remains historical. No physical validation, CAD change, CFD execution, Instagram upload or scheduling accompanies this publication.",
+  "updatedDate": "2026-11-12"
+}

@@ -17,10 +17,6 @@
       "category": "lifestyle"
     },
     {
-      "key": "blue-studio-rev01-BLUE-01",
-      "category": "product"
-    },
-    {
       "key": "relaunch-rev03-P03",
       "category": "people"
     },
@@ -239,6 +235,14 @@
     },
     {
       "key": "h1-architecture-rev01-H1-ARCHITECTURE",
+      "category": "engineering"
+    },
+    {
+      "key": "blue-studio-rev01-BLUE-01",
+      "category": "product"
+    },
+    {
+      "key": "h102-water-management-rev01-H102-WATER",
       "category": "engineering"
     }
   ]

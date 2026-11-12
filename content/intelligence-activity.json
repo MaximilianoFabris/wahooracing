@@ -2,6 +2,22 @@
   "schema_version": 1,
   "records": [
     {
+      "id": "h102-open-compartment-water-management",
+      "publication": "published",
+      "date": "2026-11-11",
+      "agents": [
+        "archimedes",
+        "nikola",
+        "isaac",
+        "hedy",
+        "leo"
+      ],
+      "status": "completed",
+      "title": "H1-02 frames open-compartment water management",
+      "summary": "The qualified digital concept removes the direct nozzle-to-engine duct and studies bilge placement, drainage and integrated packaging. Final R02 corrects a specific discharge-route conflict in the tested centreline representation. Physical installation, drainage, airflow and safe starting remain unvalidated.",
+      "evidence": "Qualified digital concept · synthetic control checks · no physical validation"
+    },
+    {
       "id": "hull-controlled-design-questions",
       "publication": "published",
       "date": "2026-11-11",
