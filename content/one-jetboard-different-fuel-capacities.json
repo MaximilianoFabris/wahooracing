@@ -1,0 +1,74 @@
+{
+  "slug": "one-jetboard-different-fuel-capacities",
+  "title": "One jetboard. Different fuel capacities?",
+  "date": "2026-11-12",
+  "updatedDate": "2026-11-12",
+  "publicationSequence": 2,
+  "dateLabel": "12 November 2026 · preliminary digital development",
+  "revision": "MODULAR FUEL / RIGID A & PROTECTED BLADDER B",
+  "type": "Engineering study",
+  "evidence": "Independently reviewed preliminary CAD · physical fuel-system operation unvalidated",
+  "status": "published",
+  "systems": [
+    "fuel-injection",
+    "hull-hydrodynamics",
+    "engine"
+  ],
+  "summary": "How Wahoo is exploring replaceable fuel reservoirs for racing and longer riding sessions.",
+  "hero": "engineering/modular-fuel-nov12/hero.png",
+  "heroAlt": "Two actual-CAD-derived nominal 2 L fuel concepts share a provisional dry interface. Presentation colours and display cutaways do not qualify materials, fittings or usable capacity.",
+  "heroCaption": "Two preliminary nominal 2 L concepts, with source geometry unchanged. Colours and lighting are presentation treatments. Nominal fill is not verified usable fuel; containment, delivery and safety remain unqualified.",
+  "sections": [
+    {
+      "title": "Different sessions, different questions",
+      "text": "A short race and a longer riding session ask different things of a jetboard. Carrying more fuel adds weight; carrying less limits time on the water. Wahoo is exploring whether riders could eventually choose a reservoir for the session while keeping a common fuel-system interface installed in the board.</p><p>That is the idea behind our latest modular fuel study. It is a development question, rather than a feature available today. We designed two preliminary digital concepts, then examined how they would come out of the board. The removal checks revealed a problem that static placement alone had missed.",
+      "figure": {
+        "image": "engineering/modular-fuel-nov12/FUEL_AB_02_H104_PACKAGING.png",
+        "alt": "Matched-scale perspectives show alternatives A and B in the same transparent H1-04 hull context, with structural, engine and electrical packaging visible. The small blue fuel references sit beside orange interface plates. Display hiding aids inspection; the accepted deck and flanges were retained in the checks.",
+        "caption": "Both alternatives in the same H1-04 assembly. Limited static-placement screens clear; a qualified installation and removal path remain open."
+      }
+    },
+    {
+      "title": "Rigid or flexible?",
+      "text": "A rigid tank gives fuel a defined container, but its outer shape, walls, fittings and service opening compete for limited space. A flexible bladder offers a different containment approach. It still needs protection, support and connections, so we studied it inside a protective cassette. A drained bladder may flex; its cassette remains rigid.</p><p>The comparison uses two nominal 2-liter concepts: A, a removable rigid cartridge, and B, a protected flexible reservoir. Both include additional headspace. Neither nominal fill nor modeled internal volume establishes how much fuel the rider can actually use. Pickup behavior, trapped liquid, attitude and reserve still matter. Larger capacities remain possibilities to investigate, with no demonstrated fit. Neither 2-liter concept demonstrates the 45-minute endurance requirement.",
+      "figure": {
+        "image": "engineering/modular-fuel-nov12/FUEL_AB_01_CONSTRUCTIVE.png",
+        "alt": "Side-by-side actual CAD cutaways show a grey rigid cartridge at left and a flexible rest envelope inside a grey protective cassette at right. Blue liquid references occupy both. Each sits beside an orange common dry service plate. Top panels are hidden for display; containment, materials and usable capacity remain unqualified.",
+        "caption": "Two preliminary nominal 2 L concepts: rigid cartridge A and protected flexible reservoir B. Blue represents the upright liquid reference, not verified usable fuel."
+      }
+    },
+    {
+      "title": "A common interface, an open weight question",
+      "text": "Both concepts use the same provisional dry service plate, mounting references and fuel-interface locations. The aim is to separate the replaceable reservoir from hardware intended to stay installed. The plate is a mechanical and connection study, with no liquid buffer. Its identical geometry does not qualify real couplings, seals, pump performance or fuel delivery. Those components and their operating requirements still need definition.</p><p>Flexibility also does not automatically mean a lighter complete installation. Under the study’s provisional thickness assumptions, B uses less protective metal than A uses for its shell. The bag, seams, padding and unique hardware could consume that difference. With matched metal thickness, B’s cassette is already slightly heavier before adding the bag. No complete-system weight advantage has been demonstrated, and equal thickness would not establish equal strength.",
+      "figure": {
+        "image": "engineering/modular-fuel-nov12/FUEL_AB_03_COMMON_INTERFACE.png",
+        "alt": "Actual CAD view of an orange rectangular dry service plate with three upright orange function blocks and grey mounting reservations underneath. The source drawing lists feed, vent and conditional-return locations. No selected coupling, pump or liquid buffer is represented.",
+        "caption": "One provisional fixed dry plate defines shared mounting and connection locations. The blocks reserve functions; they are not qualified production fittings."
+      }
+    },
+    {
+      "title": "We designed two modules. Then checked removal.",
+      "text": "The clearest discovery came from service access. Both arrangements passed the limited static-placement screens in the actual H1-04 digital assembly. During the tested straight upward withdrawal, both encountered represented hull and equipment-access obstacles. Later clear positions do not create a route through earlier obstructions. Neither extraction path is qualified, and these checks do not rule out every other possible removal strategy.</p><p>This makes the next engineering question concrete: how can the reservoir, retention hardware and disconnected fittings pass through a real service opening? The opening, supporting structure, tools and continuous removal path must work together. Modularity depends on that complete installation. It cannot be established by drawing a tank that occupies an available space.",
+      "figure": {
+        "image": "engineering/modular-fuel-nov12/FUEL_AB_04_SERVICE.png",
+        "alt": "Actual service-study diagram compares A rigid and B bag cassette in two station grids. Both are clear at the initial station, contact at 20, 40, 60, 80 and 100 millimeters, then clear at sampled 120 through 240 millimeters. The fixed plate stays installed. Discrete clear samples are not a continuous-path pass.",
+        "caption": "Both straight withdrawal studies encounter contact at sampled lifts from 20 to 100 mm. Later clear stations do not qualify a continuous removal path."
+      }
+    },
+    {
+      "title": "accounting across a reservoir change",
+      "text": "A separate software demonstrator explores fuel accounting across reservoir changes. It tracks actual quantity estimates and uncertainty, rather than assuming that a capacity label means a full tank. It also avoids counting fuel retained in fixed hardware twice. The demonstrator passed 22 synthetic tests. These validate limited accounting behavior; they establish neither real injector calibration nor an operational ECU or fuel system."
+    },
+    {
+      "title": "What needs to work next",
+      "text": "The recommended next phase is to resolve removal access, common connections, packaging and safety requirements, while comparing supplier-supported bladder details against the rigid control. Materials, seams, sealing, venting, pickup and delivery remain unvalidated. Finding the access conflict now gives the next design assignment a clearer target before manufacturing. That is useful engineering progress, with the unresolved problem kept visible."
+    }
+  ],
+  "sources": [
+    "WHE-FUEL-MOD-001 Rev01 feasibility and Rev02 editable CAD comparison · 12 November 2026",
+    "Independent serialized native readback and engineering review; finite placement and negative withdrawal observations retained",
+    "Four original full-resolution engineering figures from the accepted Rev02 comparison",
+    "Common fuel-accounting demonstrator: 22 synthetic software checks; no injector calibration, ECU integration or physical fuel-system validation"
+  ],
+  "changes": "Owner-approved Journal and review-gallery release, 12 November 2026. The four original engineering figures are published as reviewed; native CAD, detailed source data, code and private reports remain private. H0, H1-04, earlier articles and accepted engineering sources are preserved."
+}

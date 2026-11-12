@@ -2,6 +2,138 @@
   "schema_version": 1,
   "records": [
     {
+      "id": "modular-fuel-01",
+      "publication": "published",
+      "date": "2026-11-12",
+      "agents": [
+        "leo"
+      ],
+      "status": "completed",
+      "title": "Initial modular fuel-system proposal",
+      "summary": "Owner-authorized modular reservoir/fixed-hardware research is recorded on 12 November. Original concept-diagram creation date and exact proposal time are not recorded in inspected provenance.",
+      "evidence": "Engineering-study milestone reported in Leo’s source-reviewed record; completion applies only to the stated digital/research task. Physical qualification remains open."
+    },
+    {
+      "id": "modular-fuel-02",
+      "publication": "published",
+      "date": "2026-11-12",
+      "agents": [
+        "leo"
+      ],
+      "status": "completed",
+      "title": "Rev01 feasibility research",
+      "summary": "Research and independent review concluded insufficient evidence to select an implementation architecture; this is research completion, not production adoption.",
+      "evidence": "Engineering-study milestone reported in Leo’s source-reviewed record; completion applies only to the stated digital/research task. Physical qualification remains open."
+    },
+    {
+      "id": "modular-fuel-03",
+      "publication": "published",
+      "date": "2026-11-12",
+      "agents": [
+        "leo"
+      ],
+      "status": "completed",
+      "title": "Rigid, flexible and hybrid architectures compared",
+      "summary": "Rev01 compares rigid A, protected direct bladder B and bladder-plus-collector C. A wet collector is conditional on quantified need, not an adopted architecture.",
+      "evidence": "Engineering-study milestone reported in Leo’s source-reviewed record; completion applies only to the stated digital/research task. Physical qualification remains open."
+    },
+    {
+      "id": "modular-fuel-04",
+      "publication": "published",
+      "date": "2026-11-12",
+      "agents": [
+        "leo"
+      ],
+      "status": "completed",
+      "title": "Rigid A retained as control; bladder B as challenger",
+      "summary": "Max accepted Recommendation D and authorized the bounded A/B CAD follow-up. No production architecture selected.",
+      "evidence": "Engineering-study milestone reported in Leo’s source-reviewed record; completion applies only to the stated digital/research task. Physical qualification remains open."
+    },
+    {
+      "id": "modular-fuel-05",
+      "publication": "published",
+      "date": "2026-11-12",
+      "agents": [
+        "leo"
+      ],
+      "status": "completed",
+      "title": "Common dry interface defined",
+      "summary": "Both studies share the fixed dry plate, mounting and function locations. Actual fittings, retention, pump and hydraulic performance remain unqualified.",
+      "evidence": "Engineering-study milestone reported in Leo’s source-reviewed record; completion applies only to the stated digital/research task. Physical qualification remains open."
+    },
+    {
+      "id": "modular-fuel-06",
+      "publication": "published",
+      "date": "2026-11-12",
+      "agents": [
+        "leo"
+      ],
+      "status": "completed",
+      "title": "Rev02 editable CAD completed",
+      "summary": "Three editable Rhino 7 files and independent serialized readback delivered. Register completion timestamp records closeout, not the instant each file was created.",
+      "evidence": "Engineering-study milestone reported in Leo’s source-reviewed record; completion applies only to the stated digital/research task. Physical qualification remains open."
+    },
+    {
+      "id": "modular-fuel-07",
+      "publication": "published",
+      "date": "2026-11-12",
+      "agents": [
+        "leo"
+      ],
+      "status": "completed",
+      "title": "Static-placement findings recorded",
+      "summary": "Both nominal 2 L arrangements clear the stated finite static-placement screens. Continuous clearance, manufacture and installed operation remain unvalidated.",
+      "evidence": "Engineering-study milestone reported in Leo’s source-reviewed record; completion applies only to the stated digital/research task. Physical qualification remains open."
+    },
+    {
+      "id": "modular-fuel-08",
+      "publication": "published",
+      "date": "2026-11-12",
+      "agents": [
+        "leo"
+      ],
+      "status": "completed",
+      "title": "Blocked removal-path discovery retained",
+      "summary": "Both tested straight withdrawals encounter sampled contact from +20 to +100 mm. Neither extraction path is qualified; alternative removal strategies are not all ruled out.",
+      "evidence": "Engineering-study milestone reported in Leo’s source-reviewed record; completion applies only to the stated digital/research task. Physical qualification remains open."
+    },
+    {
+      "id": "modular-fuel-09",
+      "publication": "published",
+      "date": "2026-11-12",
+      "agents": [
+        "leo"
+      ],
+      "status": "completed",
+      "title": "Complete-system mass uncertainty established",
+      "summary": "Default thinner B cassette metal advantage does not establish a complete-system saving. Bag/padding/seams/unique hardware remain unknown; matched-gauge B metal is heavier before the bag.",
+      "evidence": "Engineering-study milestone reported in Leo’s source-reviewed record; completion applies only to the stated digital/research task. Physical qualification remains open."
+    },
+    {
+      "id": "modular-fuel-10",
+      "publication": "published",
+      "date": "2026-11-12",
+      "agents": [
+        "leo"
+      ],
+      "status": "completed",
+      "title": "ECU accounting synthetic-test milestone",
+      "summary": "The new standalone common quantity ledger records 22 passed synthetic tests, zero failures/errors. No calibrated injector, ECU integration, hydraulic delivery, firmware or safety qualification follows.",
+      "evidence": "Engineering-study milestone reported in Leo’s source-reviewed record; completion applies only to the stated digital/research task. Physical qualification remains open."
+    },
+    {
+      "id": "modular-fuel-11",
+      "publication": "published",
+      "date": "2026-11-12",
+      "agents": [
+        "leo"
+      ],
+      "status": "planned",
+      "title": "Fuel-module accessibility and common connections",
+      "summary": "Recommended next assignment: real service opening/flange alignment, retention/disconnect hardware and continuous withdrawal closure, with supplier-supported bladder/ports/pickup. Recommendation recorded 12 November; assignment execution and completion are not recorded.",
+      "evidence": "Recommended next assignment; not completed or executed."
+    },
+    {
       "id": "h103-inner-hull-water-service",
       "publication": "published",
       "date": "2026-11-12",

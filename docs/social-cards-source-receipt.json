@@ -1381,6 +1381,36 @@
       "source": "Social_Media/Instagram/H1_Progress_Private_Rev01_20261112/Set_C/exports/CFD-03.png",
       "bytes": 66478,
       "sha256": "b98490cbac3ef00d6a52b445e29ca6a5ef42f3517286ac93db3a383c6d94982a"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/modular-fuel-rev01/FUEL-01.png",
+      "source": "Social_Media/Instagram/Modular_Fuel_Rev01_20261112/exports/FUEL-01.png",
+      "bytes": 135647,
+      "sha256": "a5502a01015b76625c1e08cfa04a3f6a87e26de3c25ad1d8cc7a18a14ef13016"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/modular-fuel-rev01/FUEL-02.png",
+      "source": "Social_Media/Instagram/Modular_Fuel_Rev01_20261112/exports/FUEL-02.png",
+      "bytes": 123622,
+      "sha256": "aec8828ea2e353da5c75e68bab24378d91572829a2097828d1c1b13b48aabc91"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/modular-fuel-rev01/FUEL-03.png",
+      "source": "Social_Media/Instagram/Modular_Fuel_Rev01_20261112/exports/FUEL-03.png",
+      "bytes": 99974,
+      "sha256": "713723756754f71fe5e07fe3cc2186d46966034b8fa3e33a1d1d717c4492fbf6"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/modular-fuel-rev01/FUEL-04.png",
+      "source": "Social_Media/Instagram/Modular_Fuel_Rev01_20261112/exports/FUEL-04.png",
+      "bytes": 83524,
+      "sha256": "ee724b8fbd4cb6d5992fd4276a89dade62d0167aa0a039a6c3695c73d83411ba"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/modular-fuel-rev01/FUEL-05.png",
+      "source": "Social_Media/Instagram/Modular_Fuel_Rev01_20261112/exports/FUEL-05.png",
+      "bytes": 204398,
+      "sha256": "9846ce89ccb3c34956d21b1a9fa7af3f20f2437e6ab9ab82420298534bea8d45"
     }
   ],
   "sources": [
@@ -1553,9 +1583,14 @@
       "batch": "h0-dynamics-recap-rev01",
       "source": "Social_Media/Instagram/H1_Progress_Private_Rev01_20261112/Set_C/copy/CAPTION_AND_ALT.json",
       "sha256": "15dcc414e6dcd9ad95ec389163b563344b00ec31ea26c97621b81260912d8ce6"
+    },
+    {
+      "batch": "modular-fuel-rev01",
+      "source": "Wahoo_Intelligence/communications/control/20261112-Modular-Fuel-Publish/SOCIAL_SOURCE.json",
+      "sha256": "43d20df562de86f5ba30750b866cc5b9cf9ffed19487c42acbe8ab050f090b78"
     }
   ],
-  "projectionSha256": "70d33d1b8b1a94e3a2c2739f9d78509d8bd65b5c46a9dc660316b932f1bb232e",
+  "projectionSha256": "8506cb6ca86fc24ab81601ba3f42c435d91de91c64ee9e891ceb724e46bebf42",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",

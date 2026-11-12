@@ -2948,6 +2948,50 @@
           "reviewStatus": "OWNER_REVIEW"
         }
       ]
+    },
+    {
+      "id": "modular-fuel-rev01",
+      "title": "Modular fuel · designing the way out",
+      "revision": "12 November 2026 · website review only; not Instagram posted",
+      "posts": [
+        {
+          "id": "MODULAR-FUEL",
+          "title": "One board. Different fuel capacities?",
+          "format": "Carousel · 5 cards",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/modular-fuel-rev01/FUEL-01.png",
+              "alt": "One board. Different fuel capacities? Two preliminary source-derived CAD cutaways, A and B, are staggered on a graphite field. Blue is a nominal liquid reference. The shared plate and function reservations are shown in presentation colours. These are nominal 2 L concepts, not verified usable capacity or manufactured hardware."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/modular-fuel-rev01/FUEL-02.png",
+              "alt": "Rigid or flexible? Equal-scale source-derived views on a light field compare rigid cartridge A with protected bladder concept B. B is a flexible rest envelope inside a rigid protective cassette. No complete-system weight advantage is demonstrated. Both are preliminary CAD."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/modular-fuel-rev01/FUEL-03.png",
+              "alt": "One fuel system. Different reservoirs. Enlarged source-derived view of the same fixed dry service plate and its three rectangular feed, vent and conditional-return function reservations. The blocks are datums, not qualified fittings. Blue and gunmetal are presentation colours."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/modular-fuel-rev01/FUEL-04.png",
+              "alt": "It fits. But can we remove it? The small line qualifies this as limited static placement. Large 20 mm marks the first sampled contact for both concepts. Two rows plot actual straight upward withdrawal stations from 0 to 240 mm: clear at 0, contact at 20 through 100, clear at sampled 120 through 240. Clear samples do not establish a continuous removal path."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/modular-fuel-rev01/FUEL-05.png",
+              "alt": "Designing for the rider. Actual H1-04 packaging context is shown with a ghosted hull and a blue-highlighted nominal fuel module. Access, safety and integration are the next engineering work. Display hiding and colours explain the arrangement; no hull, installation or fuel system is physically validated."
+            }
+          ],
+          "caption": "We designed two fuel modules. Then checked how to remove them—in CAD.\n\nA short race and a longer ride may call for different fuel capacities. Wahoo is exploring a rigid cartridge and a protected flexible reservoir on the same provisional dry interface.\n\nBoth nominal 2 L concepts cleared their limited static-placement screens. Both encountered obstacles along the tested straight withdrawal path. That problem remains unresolved.\n\nThe next design question is the complete installation: opening, retention, connections, packaging and safety. A bladder has no demonstrated complete-system weight advantage, and nominal fill is not validated usable capacity.\n\nThese are preliminary digital studies. Fuel delivery, materials, connections and safe operation remain unvalidated. Interchangeable reservoirs are a development idea, not an available Wahoo feature.\n\nFollow the build as we work through the complete installation.",
+          "hashtags": [
+            "#WahooRacing",
+            "#Jetboard",
+            "#EngineeringDesign",
+            "#ProductDevelopment",
+            "#MarineEngineering"
+          ],
+          "revision": "Rev01 · owner-approved website review · 12 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        }
+      ]
     }
   ]
 }

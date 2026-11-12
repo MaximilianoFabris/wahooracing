@@ -45,6 +45,7 @@ allUpdates.unshift(JSON.parse(await readFile(path.join(root,'content/intake-plac
 allUpdates.unshift(JSON.parse(await readFile(path.join(root,'content/h0-first-100-milliseconds.json'),'utf8')));
 allUpdates.unshift(JSON.parse(await readFile(path.join(root,'content/water-will-get-in.json'),'utf8')));
 allUpdates.unshift(JSON.parse(await readFile(path.join(root,'content/making-room-for-the-systems-inside.json'),'utf8')));
+allUpdates.unshift(JSON.parse(await readFile(path.join(root,'content/one-jetboard-different-fuel-capacities.json'),'utf8')));
 const g031Patch=JSON.parse(await readFile(path.join(root,'content/g031-article-update.json'),'utf8'));
 if(review||g031Patch.status==='published'){
  const target=allUpdates.find(u=>u.slug===g031Patch.slug);

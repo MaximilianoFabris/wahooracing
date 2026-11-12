@@ -4,6 +4,18 @@ const escape=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&
 const labels={'completed':'Completed','in-progress':'In progress','planned':'Planned'};
 const agentName=id=>agents.find(agent=>agent.id===id)?.name??id;
 const related={
+ 'modular-fuel-01':[['one-jetboard-different-fuel-capacities','Read the modular fuel study']],
+ 'modular-fuel-02':[['one-jetboard-different-fuel-capacities','Read the modular fuel study']],
+ 'modular-fuel-03':[['one-jetboard-different-fuel-capacities','Read the modular fuel study']],
+ 'modular-fuel-04':[['one-jetboard-different-fuel-capacities','Read the modular fuel study']],
+ 'modular-fuel-05':[['one-jetboard-different-fuel-capacities','Read the modular fuel study']],
+ 'modular-fuel-06':[['one-jetboard-different-fuel-capacities','Read the modular fuel study']],
+ 'modular-fuel-07':[['one-jetboard-different-fuel-capacities','Read the modular fuel study']],
+ 'modular-fuel-08':[['one-jetboard-different-fuel-capacities','Read the modular fuel study']],
+ 'modular-fuel-09':[['one-jetboard-different-fuel-capacities','Read the modular fuel study']],
+ 'modular-fuel-10':[['one-jetboard-different-fuel-capacities','Read the modular fuel study']],
+ 'modular-fuel-11':[['one-jetboard-different-fuel-capacities','Read the modular fuel study']],
+
  'h103-inner-hull-water-service':[['making-room-for-the-systems-inside','Explore the H1-03 interior study']],
  'h102-open-compartment-water-management':[['water-will-get-in','Read the water-management study']],
  'h0-150ms-angular-braking':[['h0-first-100-milliseconds','The accepted 150 ms update']],
