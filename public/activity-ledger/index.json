@@ -1,8 +1,8 @@
 {
   "schema": "wahoo.activity-public/1",
-  "generatedAt": "2026-11-12T17:32:03.888360Z",
-  "historySyncedAt": "2026-11-12T17:32:02.317457Z",
-  "totalEvents": 48589,
+  "generatedAt": "2026-11-12T19:02:01.614064Z",
+  "historySyncedAt": "2026-11-12T19:02:00.082991Z",
+  "totalEvents": 49167,
   "coverage": {
     "label": "Recovered activity, with known history gaps",
     "limitations": [
@@ -12,7 +12,7 @@
       "Unknown dates and unrecorded roles remain explicitly unknown. Dates from chat turns are labelled as turn start.",
       "Available local histories are collected automatically. Missing or cloud-only history is not automatically retrieved."
     ],
-    "localSessions": 350,
+    "localSessions": 361,
     "cloudRecovery": "Limited accessible conversation window; older history may be unavailable."
   },
   "agents": [
@@ -102,9 +102,9 @@
   "months": [
     {
       "id": "2026-11",
-      "count": 23275,
+      "count": 23852,
       "url": "/activity-ledger/2026-11.json",
-      "sha256": "63d2625fe8ccd12a141665ba96a8b213a0493147d41017eb17101e16d5396671"
+      "sha256": "d2e5a3d81478af02cb976409d6c0a1705418c0f3d7f7a744ce2c0c086fdfb3c5"
     },
     {
       "id": "2026-10",
@@ -114,9 +114,9 @@
     },
     {
       "id": "unknown",
-      "count": 72,
+      "count": 73,
       "url": "/activity-ledger/unknown.json",
-      "sha256": "4947542ee304091c3ac539d3c7e3debda15ee65230acd2caac33e02e178358b5"
+      "sha256": "fad8addeab02caf560e4b2635da74cbf2d27acb9f0edb799d2b42bd170d648b1"
     }
   ],
   "automaticSync": {
