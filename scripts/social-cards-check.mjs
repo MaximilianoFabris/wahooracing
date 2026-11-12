@@ -42,13 +42,13 @@ assert(plan.entries.every(e=>allPostKeys.has(e.key)),'Unknown publication plan k
 assert.equal(new Set(plan.entries.map(e=>e.key)).size,plan.entries.length,'Duplicate publication plan key');
 const g031Visible=html.includes('id="g031-rev01"');const projected=g031Visible?data:{...data,batches:data.batches.filter(b=>b.id!=='g031-rev01')};const entries=publicationEntries(projected,plan),activeKeys=new Set(entries.map(e=>e.key)),markup=socialCards(projected,plan);
 assert.equal(entries.length,g031Visible?70:69);assert.equal(entries.filter(e=>!e.alternateOf).length,g031Visible?69:68);
-assert.equal(entries.at(-1).key,'h0-dynamics-recap-rev01-H0-DYNAMIC-RECAP');assert.equal(entries.at(-1).position,69);assert.equal(entries.at(-2).key,'h1-progress-rev01-H1-EVOLUTION');assert.equal(entries.at(-3).key,'follow-build-rev02-FOLLOW-BUILD');assert.equal(entries.at(-3).position,67);assert.equal(entries.at(-3).category,'community');
 assert.deepEqual(data.batches[25].posts[0].cards.map(c=>path.basename(c.imageURL)),['PRESSURE-01.png','PRESSURE-02.png','PRESSURE-03.png']);assert.deepEqual(data.batches[26].posts[0].cards.map(c=>path.basename(c.imageURL)),['INTAKE-01.png','INTAKE-02.png','INTAKE-03.png','INTAKE-04.png','INTAKE-05.png']);
 assert.deepEqual(data.batches[24].posts[0].cards.map(c=>path.basename(c.imageURL)),['H0-150-01.png','H0-150-02.png','H0-150-03.png','H0-150-04.png','H0-150-05.png']);
 assert.equal(entries.filter(e=>e.alternateOf).length,1);
 assert.equal(entries.find(e=>e.alternateOf).position,entries.find(e=>e.key==='components-rev01-WHE-EXH-001-PIPE').position);
 assert.deepEqual([...html.matchAll(/data-social-open="([^"]+)"/g)].map(m=>m[1]),entries.map(e=>e.key),'Grid must follow approved publishing order');
-let run=0;for(const e of entries.filter(e=>!e.alternateOf)){run=e.category==='engineering'?run+1:0;assert(run<=2,'No more than two engineering posts without a break');}
+const orderLock=JSON.parse(fs.readFileSync('docs/social-publication-order-lock.json'));
+assert.deepEqual(plan.entries.slice(0,orderLock.lockedKeys.length).map(e=>e.key),orderLock.lockedKeys,'Existing publication order is locked; append new posts only');
 for(const id of plan.retiredBatches){assert(!html.includes(`id="${id}"`));assert(!html.includes(`data-social-collection="${id}"`));}
 assert(html.includes('data-social-collection-filter')&&html.includes('data-social-category-filter'));
 assert.equal(entries.reduce((n,e)=>n+e.post.cards.length,0),g031Visible?195:192);
@@ -85,7 +85,7 @@ const retained=receipt.retainedFiles||[];
 for(const record of retained){assert(!urls.has(record.imageURL));assert(/^\/preview\/social-cards\/images\/[a-z0-9-]+\/[A-Z0-9-]+\.png$/.test(record.imageURL));for(const base of ['public','dist']){const raw=fs.readFileSync(base+record.imageURL);assert.equal(raw.length,record.bytes);assert.equal(hash(raw),record.sha256,'Historical image URL changed');}}
 for(const base of ['public','dist']){const files=walk(base+'/preview/social-cards');const extra=base==='public'&&!g031Visible?receipt.files.filter(f=>f.imageURL.includes('/g031-rev01/')).map(f=>f.imageURL):[];const permitted=new Set([...urls,...extra,...retained.map(r=>r.imageURL)].map(url=>path.normalize(base+url)));if(base==='dist')permitted.add(path.normalize(base+'/preview/social-cards/index.html'));assert.deepEqual(files.map(f=>path.normalize(f)).sort(),[...permitted].sort(),'Only allowlisted current/historical images and rendered gallery may be public');}
 const script=fs.readFileSync('public/social-cards.js','utf8');assert(script.includes("text.textContent"));assert(!/fetch\(|localStorage|innerHTML|execCommand/.test(script));
-console.log(`PASS: ${entries.filter(e=>!e.alternateOf).length} publishing slots / ${entries.length} entries; balanced sequence, collection/content filters and alternatives; all ${count} exact original PNGs and source captions retained and verified.`);
+console.log(`PASS: ${entries.filter(e=>!e.alternateOf).length} publishing slots / ${entries.length} entries; locked append-only sequence, collection/content filters and alternatives; all ${count} exact original PNGs and source captions retained and verified.`);
 
 assert.deepEqual(data.batches[27].posts[0].cards.map(c=>path.basename(c.imageURL)),['ARCH-01.png','ARCH-02.png','ARCH-03.png','ARCH-04.png','ARCH-05.png']);
 
@@ -98,7 +98,7 @@ assert.deepEqual(data.batches[30].posts[0].cards.map(c=>path.basename(c.imageURL
 assert.deepEqual(data.batches.slice(31,34).map(b=>b.posts.reduce((n,p)=>n+p.cards.length,0)),[5,6,3]);
 
 assert.deepEqual(data.batches[34].posts[0].cards.map(c=>path.basename(c.imageURL)),["FUEL-01.png","FUEL-02.png","FUEL-03.png","FUEL-04.png","FUEL-05.png"]);
-assert.equal(entries.find(e=>e.key==="modular-fuel-rev01-MODULAR-FUEL").position,41);
+assert.equal(entries.find(e=>e.key==="modular-fuel-rev01-MODULAR-FUEL").position,68);
 
 assert.deepEqual(data.batches[35].posts[0].cards.map(c=>path.basename(c.imageURL)),["FUEL-01.png","FUEL-02.png","FUEL-03.png","FUEL-04.png","FUEL-05.png"]);
-assert.equal(entries.find(e=>e.key==="fuel-service-002-rev01-FUEL-SERVICE-002").position,42);
+assert.equal(entries.find(e=>e.key==="fuel-service-002-rev01-FUEL-SERVICE-002").position,69);

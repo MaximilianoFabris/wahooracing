@@ -14,24 +14,16 @@
       "category": "brand"
     },
     {
-      "key": "h1-spotlights-rev01-SPOTLIGHT-02",
-      "category": "engineering"
-    },
-    {
       "key": "relaunch-rev03-P02",
       "category": "lifestyle"
     },
     {
-      "key": "h1-spotlights-rev01-SPOTLIGHT-04",
-      "category": "engineering"
+      "key": "blue-studio-rev01-BLUE-01",
+      "category": "product"
     },
     {
       "key": "relaunch-rev03-P03",
       "category": "people"
-    },
-    {
-      "key": "h1-spotlights-rev01-SPOTLIGHT-01",
-      "category": "product"
     },
     {
       "key": "creative-trial-rev04-C",
@@ -91,10 +83,6 @@
     },
     {
       "key": "engine-concept-rev01-ENGINE-CONCEPT",
-      "category": "product"
-    },
-    {
-      "key": "h1-spotlights-rev01-SPOTLIGHT-03",
       "category": "product"
     },
     {
@@ -163,18 +151,6 @@
     },
     {
       "key": "components-rev01-WHE-03-009",
-      "category": "engineering"
-    },
-    {
-      "key": "h1-spotlights-rev01-SPOTLIGHT-05",
-      "category": "product"
-    },
-    {
-      "key": "modular-fuel-rev01-MODULAR-FUEL",
-      "category": "engineering"
-    },
-    {
-      "key": "fuel-service-002-rev01-FUEL-SERVICE-002",
       "category": "engineering"
     },
     {
@@ -267,14 +243,6 @@
       "category": "engineering"
     },
     {
-      "key": "blue-studio-rev01-BLUE-01",
-      "category": "product"
-    },
-    {
-      "key": "h1-spotlights-rev01-SPOTLIGHT-06",
-      "category": "engineering"
-    },
-    {
       "key": "h102-water-management-rev01-H102-WATER",
       "category": "engineering"
     },
@@ -283,11 +251,43 @@
       "category": "community"
     },
     {
+      "key": "h1-spotlights-rev01-SPOTLIGHT-02",
+      "category": "engineering"
+    },
+    {
+      "key": "h1-spotlights-rev01-SPOTLIGHT-04",
+      "category": "engineering"
+    },
+    {
+      "key": "h1-spotlights-rev01-SPOTLIGHT-01",
+      "category": "product"
+    },
+    {
+      "key": "h1-spotlights-rev01-SPOTLIGHT-03",
+      "category": "product"
+    },
+    {
+      "key": "h1-spotlights-rev01-SPOTLIGHT-05",
+      "category": "product"
+    },
+    {
+      "key": "h1-spotlights-rev01-SPOTLIGHT-06",
+      "category": "engineering"
+    },
+    {
       "key": "h1-progress-rev01-H1-EVOLUTION",
       "category": "engineering"
     },
     {
       "key": "h0-dynamics-recap-rev01-H0-DYNAMIC-RECAP",
+      "category": "engineering"
+    },
+    {
+      "key": "modular-fuel-rev01-MODULAR-FUEL",
+      "category": "engineering"
+    },
+    {
+      "key": "fuel-service-002-rev01-FUEL-SERVICE-002",
       "category": "engineering"
     }
   ]
