@@ -1,3 +1,4 @@
+import {reviewVideosPage} from './review-videos.mjs';
 import {boardViewer} from './board-viewer.mjs';
 import {socialCards} from './social-cards.mjs';
 import {reviewHub} from './review-hub.mjs';
@@ -163,6 +164,8 @@ await write('/','Engineering at the edge of water',rev01Home({site,updates,secti
 await write('/systems/','Engineering',pageIntro('ENGINEERING','One board.<br>Connected engineering.','Explore each system and the development records that connect it to the whole board.')+intelligenceEntry()+`<div class="wrap engineering-roadmap-link"><a class="text-link" href="/roadmap/">Road map →</a></div><section class="wrap systems-index">${site.systems.map((s,i)=>`<a href="/systems/${s.slug}/"><div class="system-symbol">${systemIcon(i)}<span class="number">${String(i+1).padStart(2,'0')}</span></div><div><h2>${s.name}</h2><p>${s.summary}</p><small>${s.kind==='register'?'Shared register · scoped source coverage':updates.some(u=>u.systems.includes(s.slug))?'Development records available':'System overview · detailed records to follow'}</small></div>${arrow}</a>`).join('')}</section>`);
 await write('/simulator/','Simulator',simulatorPage());
 const reviewPages=JSON.parse(await readFile(path.join(root,'content/review-pages.json'),'utf8'));
+reviewPages.videos=JSON.parse(await readFile(path.join(root,'content/review-videos.json'),'utf8')).videos;
+await write('/preview/videos/','Videos',reviewVideosPage(reviewPages.videos));
 await write('/preview/board-3d/','Interactive board',boardViewer());
 for(const route of ['/preview/','/preview/simulator-v2/'])await write(route,'Review pages',reviewHub(reviewPages));
 await write('/preview/social-cards/','Social cards',socialCards((data=>({...data,batches:data.batches.filter(b=>b.id!=='g031-rev01'||review||g031Patch.status==='published')}))(JSON.parse(await readFile(path.join(root,'content/social-cards.json'),'utf8'))),JSON.parse(await readFile(path.join(root,'content/social-publication-plan.json'),'utf8'))));

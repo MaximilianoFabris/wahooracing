@@ -1,0 +1,25 @@
+{
+  "assets": [
+    {
+      "url": "/preview/videos/simulator-film.mp4",
+      "bytes": 9181051,
+      "sha256": "ab42c6d6899e25ab1a69cd8d0e3059863199920410990b27eafe8bdce3ee6f33"
+    },
+    {
+      "url": "/preview/videos/simulator-film.png",
+      "bytes": 399855,
+      "sha256": "d1ef2d49939fb5119ceada0cf6723e8737d5f863cc34792b402a0459196c5b14"
+    },
+    {
+      "url": "/preview/videos/hull-assembly-film.mp4",
+      "bytes": 22279406,
+      "sha256": "1c8d560f4bc5a5003f6a6b0190f5d4f58060a5197d5c925c4195f89ea24d194b"
+    },
+    {
+      "url": "/preview/videos/hull-assembly-film.png",
+      "bytes": 604482,
+      "sha256": "70b9fa5472f7cc01aefeb48707e8d4f7aff47f9a50cb861bf4c5751c7b2b4f63"
+    }
+  ],
+  "scope": "Only two finished MP4s and two finished posters. No raw geometry or private production sources."
+}

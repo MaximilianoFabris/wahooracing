@@ -11,3 +11,10 @@ for(const route of ['preview','preview/simulator-v2']){const html=fs.readFileSyn
 assert(fs.readFileSync('dist/index.html','utf8').includes('href="/preview/" aria-label="Review pages"'));
 assert(!reviewHub({pages:[{publication:'draft'}]}).includes('data-review-page'));
 console.log('PASS: public review routes, manifest, no login, exact allowlisted projection, privacy scan, 24 datasets / 4,912 samples.');
+
+const videoCatalog=JSON.parse(fs.readFileSync('content/review-videos.json'));assert.equal(videoCatalog.videos.length,2);
+const hubHTML=fs.readFileSync('dist/preview/index.html','utf8');assert(hubHTML.includes('id="videos"'));assert.equal((hubHTML.match(/<video /g)||[]).length,2);
+for(const v of videoCatalog.videos){assert(hubHTML.includes(v.url));assert(hubHTML.includes(v.poster));assert(hubHTML.includes('download>Download MP4'));}
+const videoReceipt=JSON.parse(fs.readFileSync('docs/review-videos-asset-receipt.json'));assert.equal(videoReceipt.assets.length,4);
+for(const asset of videoReceipt.assets){for(const base of ['public','dist']){const bytes=fs.readFileSync(base+asset.url);assert.equal(bytes.length,asset.bytes);assert(bytes.length<25*1024*1024);assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),asset.sha256);}}
+console.log('PASS: two public films and two posters match approved exports; playback markup, downloads, captions and hosting size limit.');

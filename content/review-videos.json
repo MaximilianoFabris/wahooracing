@@ -1,0 +1,26 @@
+{
+  "videos": [
+    {
+      "id": "simulator-film",
+      "title": "Engine laboratory",
+      "url": "/preview/videos/simulator-film.mp4",
+      "poster": "/preview/videos/simulator-film.png",
+      "publication": "published",
+      "seconds": 10,
+      "description": "Go inside the simulator: moving mechanism, saved thermodynamic results and acoustic traces.",
+      "scope": "Real browser walkthrough \u00b7 saved synthetic data \u00b7 physical validation pending.",
+      "transcript": "0\u20133 seconds: mechanism and pose control. 3\u20135.4: thermodynamics and sample inspection. 5.4\u20137.5: acoustic traces and snapshots. 7.5\u201310: mechanism and an invitation to explore wahooracing.com."
+    },
+    {
+      "id": "hull-assembly-film",
+      "title": "Beyond the surface",
+      "url": "/preview/videos/hull-assembly-film.mp4",
+      "poster": "/preview/videos/hull-assembly-film.png",
+      "publication": "published",
+      "seconds": 20,
+      "description": "A glossy carbon hull becomes transparent as the modeled systems arrive at their recorded digital positions.",
+      "scope": "Preliminary H1 packaging study \u00b7 includes provisional envelopes and a reference tank. Editorial arrival paths are not verified installation paths; no physical validation is claimed.",
+      "transcript": "The hull rotates gently and transitions from carbon finish to ghost mode. Internal structure, intake and jetpump, engine, exhaust, reference fuel tank, battery, ECU, external air inlet and bilge studies arrive in sequence. Labels identify the systems. The film closes with the assembled digital study and an invitation to follow the build."
+    }
+  ]
+}
