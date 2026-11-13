@@ -1,7 +1,7 @@
 {
   "schema": "wahoo.activity-public/1",
-  "generatedAt": "2026-11-13T01:02:04.046678Z",
-  "historySyncedAt": "2026-11-13T01:02:01.032642Z",
+  "generatedAt": "2026-11-13T02:02:02.993043Z",
+  "historySyncedAt": "2026-11-13T02:02:00.239000Z",
   "totalEvents": 50193,
   "coverage": {
     "label": "Recovered activity, with known history gaps",
