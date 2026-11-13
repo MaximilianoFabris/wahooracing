@@ -288,6 +288,14 @@
     {
       "key": "fuel-service-002-rev01-FUEL-SERVICE-002",
       "category": "engineering"
+    },
+    {
+      "key": "microtexture-rev01-MICROTEXTURE",
+      "category": "engineering"
+    },
+    {
+      "key": "microtexture-rev01-MATERIAL",
+      "category": "engineering"
     }
   ]
 }

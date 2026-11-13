@@ -48,6 +48,7 @@ allUpdates.unshift(JSON.parse(await readFile(path.join(root,'content/water-will-
 allUpdates.unshift(JSON.parse(await readFile(path.join(root,'content/making-room-for-the-systems-inside.json'),'utf8')));
 allUpdates.unshift(JSON.parse(await readFile(path.join(root,'content/one-jetboard-different-fuel-capacities.json'),'utf8')));
 allUpdates.unshift(JSON.parse(await readFile(path.join(root,'content/a-way-out-for-the-fuel-module.json'),'utf8')));
+allUpdates.unshift(JSON.parse(await readFile(path.join(root,'content/could-texture-change-the-flow.json'),'utf8')));
 const g031Patch=JSON.parse(await readFile(path.join(root,'content/g031-article-update.json'),'utf8'));
 if(review||g031Patch.status==='published'){
  const target=allUpdates.find(u=>u.slug===g031Patch.slug);

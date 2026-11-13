@@ -3036,6 +3036,71 @@
           "reviewStatus": "OWNER_REVIEW"
         }
       ]
+    },
+    {
+      "id": "microtexture-rev01",
+      "title": "Surface texture · an idea to explore",
+      "revision": "Rev01 · literature-informed research concept",
+      "posts": [
+        {
+          "id": "MICROTEXTURE",
+          "title": "Could texture change the flow?",
+          "format": "Carousel · 5 cards",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/microtexture-rev01/TEXTURE-01.png",
+              "alt": "Could texture change the flow? Actual H0 reference hull underside with two illustrative blue research patches; cosmetic carbon finish. No CFD, texture test or selected patch boundary is represented."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/microtexture-rev01/TEXTURE-02.png",
+              "alt": "A golf ball offers a clue. New AI-generated glossy dimpled carbon sphere. Text: Separation can change. A hull needs its own evidence. Concept material illustration, not a manufactured sample."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/microtexture-rev01/TEXTURE-03.png",
+              "alt": "Water. Air. A different question. Actual H0 side contour with friction, lift and intake-flow labels. No flow field, motion result or quantitative benefit is shown."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/microtexture-rev01/TEXTURE-04.png",
+              "alt": "Selective. Not everywhere. Source-derived H0 underside outline with possible research patches and an aft/intake-approach caution band. Smooth-first proposal; no selected intake location or validated wetted boundary."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/microtexture-rev01/TEXTURE-05.png",
+              "alt": "The benefit must be proven. Three new AI-generated carbon material illustrations: smooth, dimpled and ribleted. Follow the build. No Wahoo performance result or assumed winner."
+            }
+          ],
+          "caption": "Why do golf balls have dimples—and could that inspire a question for a jetboard?\n\nSurface texture can influence flow. But a planing hull operates in very different conditions, and a promising laboratory result cannot simply be transferred to Wahoo.\n\nOur proposed exploration would compare selected textured patches against a smooth reference, considering resistance, lift and intake-flow quality together. The intake approach would initially remain smooth under this cautious research proposal.\n\nNo Wahoo performance benefit has been established. This is a research question, not a tested or selected hull feature. The images combine unchanged reference hull geometry, schematic research zones and AI-generated material concepts.\n\nFollow the build. Follow the evidence.\nwahooracing.com",
+          "hashtags": [
+            "#WahooRacing",
+            "#HullDesign",
+            "#Hydrodynamics",
+            "#SurfaceEngineering",
+            "#BehindTheBuild"
+          ],
+          "revision": "Rev01 · research idea · 13 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "MATERIAL",
+          "title": "Small details. A big question.",
+          "format": "Single image",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/microtexture-rev01/TEXTURE-MATERIAL.png",
+              "alt": "Small details. A big question. AI-generated glossy dimpled carbon sphere. Could surface texture change hull resistance? Research concept, not a physical sample or Wahoo result."
+            }
+          ],
+          "caption": "Could a different surface change the way a jetboard moves through water?\n\nWe are opening a research question about dimples and controlled microtextures—and whether selected hull areas might merit investigation.\n\nThis is an AI-generated material-concept illustration, not a physical sample or selected Wahoo construction. No drag reduction has been demonstrated for Wahoo.\n\nSmall details. Careful questions. Evidence first.\nwahooracing.com",
+          "hashtags": [
+            "#WahooRacing",
+            "#HullDesign",
+            "#Hydrodynamics",
+            "#SurfaceEngineering",
+            "#BehindTheBuild"
+          ],
+          "revision": "Rev01 · research idea · 13 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        }
+      ]
     }
   ]
 }

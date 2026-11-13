@@ -1,0 +1,68 @@
+{
+  "status": "FINAL_ART_FROZEN",
+  "article": "/journal/could-texture-change-the-flow/",
+  "gallery": "/preview/social-cards/#microtexture-rev01-MICROTEXTURE",
+  "newPositions": [
+    71,
+    72
+  ],
+  "previousPositionsUnchanged": true,
+  "scope": "Literature-informed research concept, not an engineering result. No CFD/CAD changes or Instagram posting.",
+  "assets": [
+    {
+      "url": "/assets/engineering/microtexture-nov13/hero.png",
+      "bytes": 925705,
+      "sha256": "c3cb4a990b7fb0302db0a6ea413689e413d181f5d3336faf87ebda5e1334a158"
+    },
+    {
+      "url": "/assets/engineering/microtexture-nov13/separation.png",
+      "bytes": 33187,
+      "sha256": "4c5be05a023687263c1f19958f71f452f83ca26b06b1a6550f574f689721b83b"
+    },
+    {
+      "url": "/assets/engineering/microtexture-nov13/sphere.png",
+      "bytes": 1823579,
+      "sha256": "f3290d82b5ee26079336f664a1202aea5e8f74993c731c2b1d59eb5b38679cf1"
+    },
+    {
+      "url": "/assets/engineering/microtexture-nov13/surfaces.png",
+      "bytes": 2022089,
+      "sha256": "e528cf18140f910cf373694982fee7c37316a975163613bc53296f12d38d3939"
+    },
+    {
+      "url": "/assets/engineering/microtexture-nov13/zones.png",
+      "bytes": 37571,
+      "sha256": "e0f81bbc53034a2b46f1678be1f62f442bba20fd25bb222d456508d2a2ffc2fe"
+    },
+    {
+      "url": "/preview/social-cards/images/microtexture-rev01/TEXTURE-01.png",
+      "bytes": 424011,
+      "sha256": "2f84c6d4e41aa753205194888b9f9fb0f67ba8cbe503d0a94479b8fff3823b2b"
+    },
+    {
+      "url": "/preview/social-cards/images/microtexture-rev01/TEXTURE-02.png",
+      "bytes": 1127947,
+      "sha256": "a634a9d84e8cc8021d4613fb5be42be9b4c70024f9c817d616f28cccc15cff37"
+    },
+    {
+      "url": "/preview/social-cards/images/microtexture-rev01/TEXTURE-03.png",
+      "bytes": 72641,
+      "sha256": "9f4c52636292b94072788c21a4db92fc01a1331f6568cd9ebdd60bb92489b6bd"
+    },
+    {
+      "url": "/preview/social-cards/images/microtexture-rev01/TEXTURE-04.png",
+      "bytes": 75073,
+      "sha256": "f52190cb450e217299a2bbb20240b7774b5c2e62c70ca3c80005561e463ef799"
+    },
+    {
+      "url": "/preview/social-cards/images/microtexture-rev01/TEXTURE-05.png",
+      "bytes": 1014291,
+      "sha256": "15641c64163ff44bdcc8ee371828ac3a4fbd2fcc73b8ac74313cd4b9e6c242fb"
+    },
+    {
+      "url": "/preview/social-cards/images/microtexture-rev01/TEXTURE-MATERIAL.png",
+      "bytes": 1142786,
+      "sha256": "c09b69e52a2cf3d22f446bad482a5cf8ebfc38505821a5398afb95f0f161a870"
+    }
+  ]
+}

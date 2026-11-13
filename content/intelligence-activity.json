@@ -2,6 +2,18 @@
   "schema_version": 1,
   "records": [
     {
+      "id": "surface-microtexture-research-question",
+      "publication": "published",
+      "date": "2026-11-13",
+      "agents": [
+        "grace"
+      ],
+      "status": "planned",
+      "title": "Surface microtextures: a research question to explore",
+      "summary": "A literature-informed concept asks whether selected hull patches merit future investigation. No textured Wahoo hull, drag benefit or simulation campaign is qualified. A smooth-first intake approach remains a cautious proposal.",
+      "evidence": "Editorial research concept, not a completed engineering study or physical test."
+    },
+    {
       "id": "fuel002-derived-opening",
       "publication": "published",
       "date": "2026-11-12",

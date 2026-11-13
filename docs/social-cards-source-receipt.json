@@ -1441,6 +1441,42 @@
       "source": "Social_Media/Instagram/Fuel_Service_002_Rev01_20261112/exports/FUEL-05.png",
       "bytes": 131020,
       "sha256": "0aefc97a85b9e9881322587d465ad236f2388d9c5f7cab1f24596a8f233377b6"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/microtexture-rev01/TEXTURE-01.png",
+      "source": "Social_Media/Instagram/Microtexture_Rev01_20261113/exports/TEXTURE-01.png",
+      "bytes": 424011,
+      "sha256": "2f84c6d4e41aa753205194888b9f9fb0f67ba8cbe503d0a94479b8fff3823b2b"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/microtexture-rev01/TEXTURE-02.png",
+      "source": "Social_Media/Instagram/Microtexture_Rev01_20261113/exports/TEXTURE-02.png",
+      "bytes": 1127947,
+      "sha256": "a634a9d84e8cc8021d4613fb5be42be9b4c70024f9c817d616f28cccc15cff37"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/microtexture-rev01/TEXTURE-03.png",
+      "source": "Social_Media/Instagram/Microtexture_Rev01_20261113/exports/TEXTURE-03.png",
+      "bytes": 72641,
+      "sha256": "9f4c52636292b94072788c21a4db92fc01a1331f6568cd9ebdd60bb92489b6bd"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/microtexture-rev01/TEXTURE-04.png",
+      "source": "Social_Media/Instagram/Microtexture_Rev01_20261113/exports/TEXTURE-04.png",
+      "bytes": 75073,
+      "sha256": "f52190cb450e217299a2bbb20240b7774b5c2e62c70ca3c80005561e463ef799"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/microtexture-rev01/TEXTURE-05.png",
+      "source": "Social_Media/Instagram/Microtexture_Rev01_20261113/exports/TEXTURE-05.png",
+      "bytes": 1014291,
+      "sha256": "15641c64163ff44bdcc8ee371828ac3a4fbd2fcc73b8ac74313cd4b9e6c242fb"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/microtexture-rev01/TEXTURE-MATERIAL.png",
+      "source": "Social_Media/Instagram/Microtexture_Rev01_20261113/exports/TEXTURE-MATERIAL.png",
+      "bytes": 1142786,
+      "sha256": "c09b69e52a2cf3d22f446bad482a5cf8ebfc38505821a5398afb95f0f161a870"
     }
   ],
   "sources": [
@@ -1623,9 +1659,14 @@
       "batch": "fuel-service-002-rev01",
       "source": "Wahoo_Intelligence/communications/control/20261112-Fuel002/SOCIAL_SOURCE.json",
       "sha256": "79bad4445bd945b26c5fdb4e568fd3f06ce6f1be454a06dd3d44e43825a57809"
+    },
+    {
+      "batch": "microtexture-rev01",
+      "source": "Social_Media/Instagram/Microtexture_Rev01_20261113/copy/POSTS.json",
+      "sha256": "28c7952fe79ad3a6c2ebd2753f4aae5ab880b91dd40bca81d231b5ca6bbe9f86"
     }
   ],
-  "projectionSha256": "7a467ad850216b50446cc818c40931a3da935cb2027e3d7d29dd82e5052d6c89",
+  "projectionSha256": "01c50b9b13fbe6fe2578f818ace4210a257289fc791645d785001eea4ecb1eaf",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",
@@ -1748,5 +1789,5 @@
       "sha256": "33082187fe43fd587b112d348e047534ebbfe9eaf45576ae029d8d00b2b63e58"
     }
   ],
-  "updatedDate": "2026-11-12"
+  "updatedDate": "2026-11-13"
 }

@@ -1,0 +1,82 @@
+{
+  "slug": "could-texture-change-the-flow",
+  "title": "Could texture change the flow?",
+  "date": "2026-11-13",
+  "dateLabel": "13 November 2026 · an idea to explore",
+  "revision": "SURFACE MICROTEXTURE / RESEARCH QUESTION",
+  "type": "Research concept",
+  "evidence": "Literature-informed exploration · no Wahoo texture performance validated",
+  "status": "published",
+  "systems": [
+    "hull-hydrodynamics",
+    "jet-pump",
+    "manufacturing"
+  ],
+  "summary": "Could selected surface textures influence water flow? A new research question for Wahoo, with the smooth hull as its reference.",
+  "hero": "engineering/microtexture-nov13/hero.png",
+  "heroAlt": "The actual H0 reference hull viewed from below with two illustrative blue research-patch outlines. No textured hull was tested or selected.",
+  "heroCaption": "A question at the surface. Actual H0 reference geometry with illustrative research patches and a cosmetic carbon finish. The outlines are not CFD contours, verified wetted regions or selected manufacturing boundaries.",
+  "sections": [
+    {
+      "title": "Looking beyond the shape",
+      "text": "Developing a jetboard means asking questions at different scales. Some concern the overall hull. Others involve internal packaging, propulsion or control. This question starts at the surface: could a carefully designed texture change how water interacts with the Wahoo hull?</p><p>Golf-ball-inspired dimples and fine directional grooves offer intriguing possibilities. For Wahoo, however, they remain an idea to explore. No drag reduction has been demonstrated, no textured hull has been selected, and this article does not announce a completed texture study."
+    },
+    {
+      "title": "What a golf ball can teach us",
+      "text": "A thin layer of fluid forms next to a moving surface: the boundary layer. Its behaviour influences friction and the way flow separates from an object.</p><p>Under suitable conditions, golf-ball dimples promote transition to a turbulent boundary layer, delaying separation and reducing pressure drag. Roughness is not universally beneficial: the outcome depends on the object and flow conditions. <a href=\"https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/drag-of-a-sphere/\" rel=\"noopener noreferrer\">NASA explains the sphere-flow mechanism</a>.</p><p>The useful lesson is that surface details can change the surrounding flow. It is an inspiration for a question, not a prediction for a jetboard.",
+      "figure": {
+        "image": "engineering/microtexture-nov13/separation.png",
+        "alt": "Qualitative paired sphere-flow diagrams illustrating different separation behaviour. No measured wake, flow field or drag scale is represented.",
+        "caption": "Explanatory schematic only. A familiar aerodynamic mechanism does not establish a benefit on a planing hull."
+      }
+    },
+    {
+      "title": "Promising research, mixed evidence",
+      "text": "Researchers have investigated dimpled surfaces in water-flow experiments, including controlled turbulent-channel studies. Some configurations have shown reduced resistance under their particular experimental conditions. <a href=\"https://doi.org/10.1016/j.oceaneng.2024.118198\" rel=\"noopener noreferrer\">A 2024 experimental study</a> provides one example.</p><p>The broader literature contains conflicting findings. <a href=\"https://arxiv.org/abs/2207.04446\" rel=\"noopener noreferrer\">A review of dimpled surfaces</a> highlights the difficulty of establishing a reliable overall benefit: reduced skin friction must outweigh any additional pressure resistance introduced by the texture.</p><p>Fine directional grooves, or riblets, are a separate candidate. Geometry and operating conditions matter here too. <a href=\"https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/from-dragreducing-riblets-to-dragincreasing-ridges/195D587910776C5BD196B020D20C2FAB\" rel=\"noopener noreferrer\">Experimental research on riblets and ridges</a> shows that related structures can move from reducing drag to increasing it. None of these findings supplies a transferable Wahoo performance figure.",
+      "figure": {
+        "image": "engineering/microtexture-nov13/surfaces.png",
+        "alt": "Three AI-generated carbon material specimens illustrating smooth, shallow-dimpled and ribleted finishes. These are conceptual illustrations, not manufactured samples.",
+        "caption": "Three visual possibilities, no assumed winner. AI-generated material illustrations; surface dimensions and manufacturing construction are unselected."
+      }
+    },
+    {
+      "title": "Why a jetboard changes the question",
+      "text": "A planing hull operates at the boundary between water and air. Its wetted area changes with speed, loading and attitude. A surface treatment therefore needs to be considered alongside skin friction, pressure distribution, lift, aeration and the water reaching the propulsion intake.</p><p>Our engineering question is whether a local surface treatment could help the complete system. A friction-only improvement would not settle that question if the treatment adversely changed lift or intake-flow quality. These are considerations for future assessment, not observed effects of a textured Wahoo hull."
+    },
+    {
+      "title": "Selective patches, careful comparisons",
+      "text": "The starting idea is selective investigation. Possible future comparisons could examine small patches in forward, middle or aft regions against an unchanged smooth reference. These are areas to investigate, not confirmed beneficial locations. Their relevance would depend on the actual wetted surface and local flow.</p><p>Texture size, spacing, depth and orientation would all require justification. The visible carbon weave beneath a coating is also different from a deliberately textured outer surface. A convincing carbon render alone tells us nothing about hydrodynamic performance. The specimen imagery here explains an appearance concept; it is not a laminate or coating specification.",
+      "figure": {
+        "image": "engineering/microtexture-nov13/zones.png",
+        "alt": "Source-derived H0 underside outline with illustrative mid-body patches and an aft caution region. No actual intake opening, wetted boundary or selected exclusion dimension is depicted.",
+        "caption": "Research-planning diagram. Patch locations are illustrative. The aft caution band does not locate an installed intake or establish an exclusion distance."
+      }
+    },
+    {
+      "title": "The intake deserves extra caution",
+      "text": "The jet-pump intake is a sensitive part of the proposed investigation. Our conservative starting proposal is to keep the intake approach and entry region smooth while the wider surface question is assessed.</p><p>This is a smooth-first research proposal, not a proven exclusion boundary or released manufacturing decision. Any later investigation would need to consider intake-flow quality alongside hull resistance. No intake geometry is changed by this communication package."
+    },
+    {
+      "title": "A future research stream",
+      "text": "A proposed research stream, Wahoo Surface Microtexture Optimization, would begin with literature review and a clear comparison question. Later work could consider controlled surface samples, suitable numerical methods and physical measurements.</p><p>A numerical approach would first need to demonstrate that it can represent the relevant texture effects. Existing smooth-hull CFD cannot establish those effects by itself. Manufacturing feasibility, coating durability, contamination and maintenance would also matter before a texture became a practical choice.</p><p>This is a proposed direction, not an approved simulation campaign or a claim that optimization has occurred.",
+      "figure": {
+        "image": "engineering/microtexture-nov13/sphere.png",
+        "alt": "AI-generated glossy dimpled carbon sphere used as a material-concept illustration, not a physical test sample.",
+        "caption": "A material question made visible. AI-generated concept specimen, not evidence of a manufactured or tested Wahoo surface."
+      }
+    },
+    {
+      "title": "The benefit must be proven",
+      "text": "Surface microtextures are an opportunity to ask a better engineering question. The objective would be to establish whether a carefully chosen treatment benefits the complete system under relevant conditions.</p><p>The smooth reference remains essential. The textured alternative must earn its place through evidence.</p><p><strong>Research concept only: no Wahoo drag reduction, stability, lift improvement or physical performance is established.</strong></p><p>Explore the existing development record: <a href=\"/journal/h0-first-100-milliseconds/\">the H0 dynamic response</a> and <a href=\"/journal/making-room-for-the-systems-inside/\">integrated hull architecture</a>."
+    }
+  ],
+  "sources": [
+    "NASA / Drag of a Sphere · https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/drag-of-a-sphere/",
+    "Ilter et al. / experimental dimpled-plate study, Ocean Engineering (2024) · https://doi.org/10.1016/j.oceaneng.2024.118198",
+    "Gattere, Chiarini and Quadrio / Dimples for skin-friction drag reduction: status and perspectives (2022) · https://arxiv.org/abs/2207.04446",
+    "From drag-reducing riblets to drag-increasing ridges / Journal of Fluid Mechanics (2022) · https://www.cambridge.org/core/journals/journal-of-fluid-mechanics/article/from-dragreducing-riblets-to-dragincreasing-ridges/195D587910776C5BD196B020D20C2FAB",
+    "Owner-requested literature-informed research concept · 13 November 2026",
+    "Real H0 presentation mesh and source-derived plan/side outlines; geometry unchanged. Research patches are illustrative."
+  ],
+  "changes": "New research-question article. No CFD was launched, no engineering source geometry was modified, and no Wahoo texture-performance result is claimed."
+}

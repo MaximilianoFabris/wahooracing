@@ -4,6 +4,7 @@ const escape=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&
 const labels={'completed':'Completed','in-progress':'In progress','planned':'Planned'};
 const agentName=id=>agents.find(agent=>agent.id===id)?.name??id;
 const related={
+ 'surface-microtexture-research-question':[['could-texture-change-the-flow','Explore the surface research question']],
  'fuel002-derived-opening':[['a-way-out-for-the-fuel-module','Read the fuel-service follow-up']],
  'fuel002-continuous-body-path':[['a-way-out-for-the-fuel-module','Read the fuel-service follow-up']],
  'fuel002-real-coupling-gap':[['a-way-out-for-the-fuel-module','Read the fuel-service follow-up']],
