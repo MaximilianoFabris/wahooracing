@@ -19,7 +19,17 @@
       "url": "/preview/videos/hull-assembly-film.png",
       "bytes": 604482,
       "sha256": "70b9fa5472f7cc01aefeb48707e8d4f7aff47f9a50cb861bf4c5751c7b2b4f63"
+    },
+    {
+      "url": "/preview/videos/cfd-pressure-film.mp4",
+      "bytes": 5808203,
+      "sha256": "6a6b68f2ebd92319d3c8d03f01dd320795b2584fefe284443fb358319cb0b1b6"
+    },
+    {
+      "url": "/preview/videos/cfd-pressure-film.png",
+      "bytes": 222503,
+      "sha256": "605549306aff7dba74ab8d9dd2d72f3f3c3c82306577b88195a39621d850aaac"
     }
   ],
-  "scope": "Only two finished MP4s and two finished posters. No raw geometry or private production sources."
+  "scope": "Only finished public films and their posters. No raw geometry or private production sources."
 }
