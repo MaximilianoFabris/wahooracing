@@ -1,0 +1,38 @@
+{
+  "scope": "Expand existing material post at position 72 from one card to five. Original cover exact; no new slot. Owner explicitly requested Journal visual reuse.",
+  "publicAssets": [
+    {
+      "url": "/preview/social-cards/images/microtexture-rev01/TEXTURE-MATERIAL.png",
+      "sha256": "c09b69e52a2cf3d22f446bad482a5cf8ebfc38505821a5398afb95f0f161a870",
+      "bytes": 1142786
+    },
+    {
+      "url": "/preview/social-cards/images/microtexture-material-rev02/MATERIAL-02.png",
+      "sha256": "c608b1bb3ac17b8eab9def70562fda4259e690f0503abb427faf3304f8d336b4",
+      "bytes": 928386
+    },
+    {
+      "url": "/preview/social-cards/images/microtexture-material-rev02/MATERIAL-03.png",
+      "sha256": "2177b2def73b1a5e4c8b1a8dd380bceff5b7b933087d68861d5fe457567612b3",
+      "bytes": 414038
+    },
+    {
+      "url": "/preview/social-cards/images/microtexture-material-rev02/MATERIAL-04.png",
+      "sha256": "aa04ff50ead9c22666a3b84256e92c4fd4fc3d561f6ad4f8c069f931f9c349d3",
+      "bytes": 126491
+    },
+    {
+      "url": "/preview/social-cards/images/microtexture-material-rev02/MATERIAL-05.png",
+      "sha256": "aec51dfec75029dca6683cc78ea68a5b909ff272229a3fc6caa035a1dcc1dbee",
+      "bytes": 94356
+    }
+  ],
+  "originalCoverSha256": "c09b69e52a2cf3d22f446bad482a5cf8ebfc38505821a5398afb95f0f161a870",
+  "orderSha256": "6cdd52a54acb0a16799f3ce7d520581ee02779d1a5fe6737dfcb797716485ff1",
+  "journalSha256": "88149d9122150433bda63e8fcf665900c7ab99d917b9c117dcf0982e63913155",
+  "milestoneFeedSha256": "10d594c16431e6d1c457b3046d406325790e226d21656801ce7ea25cbac52f37",
+  "allOtherPostsUnchanged": true,
+  "journalDecision": "NO CHANGE: existing article already supplies the requested imagery and accurate research scope.",
+  "activityDecision": "NO NEW MILESTONE: presentation revision only; detailed action history collected separately.",
+  "nextEditorialStory": "Lifestyle, append only. No Instagram posting/scheduling."
+}

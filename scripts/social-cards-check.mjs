@@ -53,7 +53,7 @@ const orderLock=JSON.parse(fs.readFileSync('docs/social-publication-order-lock.j
 assert.deepEqual(plan.entries.slice(0,orderLock.lockedKeys.length).map(e=>e.key),orderLock.lockedKeys,'Existing publication order is locked; append new posts only');
 for(const id of plan.retiredBatches){assert(!html.includes(`id="${id}"`));assert(!html.includes(`data-social-collection="${id}"`));}
 assert(html.includes('data-social-collection-filter')&&html.includes('data-social-category-filter'));
-assert.equal(entries.reduce((n,e)=>n+e.post.cards.length,0),g031Visible?201:198);
+assert.equal(entries.reduce((n,e)=>n+e.post.cards.length,0),g031Visible?205:202);
 assert(html.includes(markup));assert(html.includes('noindex, nofollow, noarchive'));assert(html.includes('class="site-header'));
 assert(!/[CW]:[\\/]|file:\/\/|Wahoo_Intelligence|Social_Media|source-manifest|source-provenance|"evidence"|"visual_approach"|"rider_meaning"/i.test(html));
 assert(!/[CW]:[\\/]|file:\/\/|Wahoo_Intelligence|Social_Media|source-manifest|source-provenance/i.test(raw.toString()));
@@ -81,7 +81,7 @@ for(const batch of projected.batches){
     }
   }
 }
-assert.equal(count,g031Visible?246:243);assert.equal(receipt.files.length,246);
+assert.equal(count,g031Visible?250:247);assert.equal(receipt.files.length,250);
 function walk(folder){return fs.readdirSync(folder,{withFileTypes:true}).flatMap(f=>f.isDirectory()?walk(path.join(folder,f.name)):[path.join(folder,f.name)]);}
 const retained=receipt.retainedFiles||[];
 for(const record of retained){assert(!urls.has(record.imageURL));assert(/^\/preview\/social-cards\/images\/[a-z0-9-]+\/[A-Z0-9-]+\.png$/.test(record.imageURL));for(const base of ['public','dist']){const raw=fs.readFileSync(base+record.imageURL);assert.equal(raw.length,record.bytes);assert.equal(hash(raw),record.sha256,'Historical image URL changed');}}
@@ -105,6 +105,8 @@ assert.equal(entries.find(e=>e.key==="modular-fuel-rev01-MODULAR-FUEL").position
 assert.deepEqual(data.batches[35].posts[0].cards.map(c=>path.basename(c.imageURL)),["FUEL-01.png","FUEL-02.png","FUEL-03.png","FUEL-04.png","FUEL-05.png"]);
 assert.equal(entries.find(e=>e.key==="fuel-service-002-rev01-FUEL-SERVICE-002").position,70);
 
-assert.deepEqual(data.batches[36].posts.map(p=>p.cards.length),[5,1]);
+assert.deepEqual(data.batches[36].posts.map(p=>p.cards.length),[5,5]);
 assert.equal(entries.find(e=>e.key==="microtexture-rev01-MICROTEXTURE").position,71);
 assert.equal(entries.find(e=>e.key==="microtexture-rev01-MATERIAL").position,72);
+
+assert.equal(data.batches[36].posts[1].cards[0].imageURL,"/preview/social-cards/images/microtexture-rev01/TEXTURE-MATERIAL.png");

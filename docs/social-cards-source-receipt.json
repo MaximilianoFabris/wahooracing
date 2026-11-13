@@ -1477,6 +1477,30 @@
       "source": "Social_Media/Instagram/Microtexture_Rev01_20261113/exports/TEXTURE-MATERIAL.png",
       "bytes": 1142786,
       "sha256": "c09b69e52a2cf3d22f446bad482a5cf8ebfc38505821a5398afb95f0f161a870"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/microtexture-material-rev02/MATERIAL-02.png",
+      "source": "Social_Media/Instagram/Microtexture_Material_Rev02_20261113/exports/MATERIAL-02.png",
+      "bytes": 928386,
+      "sha256": "c608b1bb3ac17b8eab9def70562fda4259e690f0503abb427faf3304f8d336b4"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/microtexture-material-rev02/MATERIAL-03.png",
+      "source": "Social_Media/Instagram/Microtexture_Material_Rev02_20261113/exports/MATERIAL-03.png",
+      "bytes": 414038,
+      "sha256": "2177b2def73b1a5e4c8b1a8dd380bceff5b7b933087d68861d5fe457567612b3"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/microtexture-material-rev02/MATERIAL-04.png",
+      "source": "Social_Media/Instagram/Microtexture_Material_Rev02_20261113/exports/MATERIAL-04.png",
+      "bytes": 126491,
+      "sha256": "aa04ff50ead9c22666a3b84256e92c4fd4fc3d561f6ad4f8c069f931f9c349d3"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/microtexture-material-rev02/MATERIAL-05.png",
+      "source": "Social_Media/Instagram/Microtexture_Material_Rev02_20261113/exports/MATERIAL-05.png",
+      "bytes": 94356,
+      "sha256": "aec51dfec75029dca6683cc78ea68a5b909ff272229a3fc6caa035a1dcc1dbee"
     }
   ],
   "sources": [
@@ -1662,11 +1686,11 @@
     },
     {
       "batch": "microtexture-rev01",
-      "source": "Social_Media/Instagram/Microtexture_Rev01_20261113/copy/POSTS.json",
-      "sha256": "28c7952fe79ad3a6c2ebd2753f4aae5ab880b91dd40bca81d231b5ca6bbe9f86"
+      "source": "Social_Media/Instagram/Microtexture_Material_Rev02_20261113/copy/POSTS.json",
+      "sha256": "86461243ada0ba5588084d59c7e6f39e1446fff2cb8e983bb2e4449b01325ed3"
     }
   ],
-  "projectionSha256": "01c50b9b13fbe6fe2578f818ace4210a257289fc791645d785001eea4ecb1eaf",
+  "projectionSha256": "a5cca44317829aeffa440b62af2a7b8bd8115fdb7763fc1aa6918500cc2391aa",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",

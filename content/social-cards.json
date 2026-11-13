@@ -3082,14 +3082,30 @@
         {
           "id": "MATERIAL",
           "title": "Small details. A big question.",
-          "format": "Single image",
+          "format": "Carousel · 5 cards",
           "cards": [
             {
               "imageURL": "/preview/social-cards/images/microtexture-rev01/TEXTURE-MATERIAL.png",
               "alt": "Small details. A big question. AI-generated glossy dimpled carbon sphere. Could surface texture change hull resistance? Research concept, not a physical sample or Wahoo result."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/microtexture-material-rev02/MATERIAL-02.png",
+              "alt": "Three surfaces. One question. The Journal’s AI-generated smooth, shallow-dimpled and ribleted carbon concept specimens. No physical samples, selected construction or performance ranking."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/microtexture-material-rev02/MATERIAL-03.png",
+              "alt": "The surface. The whole hull. The Journal’s actual H0 underside reference render with illustrative blue research patches. No changed master geometry, CFD contour or selected texture location."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/microtexture-material-rev02/MATERIAL-04.png",
+              "alt": "Inspiration isn't proof. The Journal’s qualitative smooth/dimpled sphere separation schematic. Dimples can delay separation on a sphere; this is not a CFD field or a prediction for Wahoo."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/microtexture-material-rev02/MATERIAL-05.png",
+              "alt": "Keep the intake in mind. The Journal’s source-derived H0 outline and illustrative research patches, with the aft/intake approach described as a smooth-first proposal. No installed intake location, exclusion distance or established benefit."
             }
           ],
-          "caption": "Could a different surface change the way a jetboard moves through water?\n\nWe are opening a research question about dimples and controlled microtextures—and whether selected hull areas might merit investigation.\n\nThis is an AI-generated material-concept illustration, not a physical sample or selected Wahoo construction. No drag reduction has been demonstrated for Wahoo.\n\nSmall details. Careful questions. Evidence first.\nwahooracing.com",
+          "caption": "Small details. A big question.\n\nCould a different surface change how water interacts with a jetboard? Swipe through the material concepts, the actual H0 reference hull, the golf-ball inspiration and the intake region that deserves extra caution.\n\nSmooth, dimpled and ribleted surfaces are possibilities to investigate—not an assumed ranking. A planing hull needs its own evidence, and a smooth-first intake approach remains a cautious research proposal.\n\nNo Wahoo drag reduction has been demonstrated. The material specimens are AI-generated concepts; hull patches and flow diagrams are illustrative. No textured Wahoo hull was tested or selected.\n\nExplore the research question at wahooracing.com. Follow the build.",
           "hashtags": [
             "#WahooRacing",
             "#HullDesign",
@@ -3097,7 +3113,7 @@
             "#SurfaceEngineering",
             "#BehindTheBuild"
           ],
-          "revision": "Rev01 · research idea · 13 November 2026",
+          "revision": "Rev02 · Journal visual carousel · 13 November 2026",
           "reviewStatus": "OWNER_REVIEW"
         }
       ]
