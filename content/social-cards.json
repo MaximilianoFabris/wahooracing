@@ -3117,6 +3117,87 @@
           "reviewStatus": "OWNER_REVIEW"
         }
       ]
+    },
+    {
+      "id": "lifestyle-riding-rev01",
+      "title": "Out on the water · lifestyle",
+      "revision": "Two riding-inspiration carousels · Rev01",
+      "posts": [
+        {
+          "id": "LIFE-ENERGY",
+          "title": "Less scroll. More salt.",
+          "format": "Carousel · 5 cards",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/lifestyle-riding-rev01/ENERGY-01.png",
+              "alt": "Less scroll. More salt. Owner-supplied riding photograph with a rider carving across blue water and a tilted city shoreline. Mako overlay removed and mood retouched. Existing equipment, not a Wahoo prototype."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/lifestyle-riding-rev01/ENERGY-02.png",
+              "alt": "Feel every turn. Owner-supplied photograph of a rider partly hidden by a large arc of white spray over cool blue water. Mako overlay removed. Riding inspiration on existing equipment, not a Wahoo prototype."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/lifestyle-riding-rev01/ENERGY-03.png",
+              "alt": "The point is to feel it. Minimal pale card with large black and Wahoo-blue typography, the original Wahoo mark and the line Less noise. More presence. Wahoo remains in development."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/lifestyle-riding-rev01/ENERGY-04.png",
+              "alt": "Leave it all behind. Close owner-supplied riding photograph with a rider and bright spray against a deeper blue sea. Mood retouched and Mako overlay removed; this is not a Wahoo prototype."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/lifestyle-riding-rev01/ENERGY-05.png",
+              "alt": "See you on the water. Near-black typographic invitation with blue WATER, the original Wahoo symbol, Follow the next chapter and wahooracing.com. Wahoo is in development."
+            }
+          ],
+          "caption": "Less scroll. More salt.\n\nSome days need a different kind of reset: open water, a turn that takes your full attention, and a moment that belongs entirely to you.\n\nThat feeling is part of what drives Wahoo’s development. Follow the next chapter.\n\nRiding photography supplied by Max and retouched for mood. The equipment shown is not a Wahoo prototype; our board is still in development.\n\nwahooracing.com",
+          "hashtags": [
+            "#WahooRacing",
+            "#JetboardLife",
+            "#OnTheWater",
+            "#OceanLifestyle",
+            "#FollowTheBuild"
+          ],
+          "revision": "Rev01 · owner-supplied riding imagery · 13 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        },
+        {
+          "id": "LIFE-LIGHT",
+          "title": "Stay for the last light.",
+          "format": "Carousel · 5 cards",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/lifestyle-riding-rev01/LIGHT-01.png",
+              "alt": "Stay for the last light. Owner-supplied photograph beneath a concrete bridge at sunset, with a helmeted rider on the right and gold reflected on the water. Mako overlay removed; existing equipment, not a Wahoo prototype."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/lifestyle-riding-rev01/LIGHT-02.png",
+              "alt": "No clock. Just horizon. Large black and Wahoo-blue typography on a pale background. Some time belongs to you. Original Wahoo wordmark; Wahoo is in development."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/lifestyle-riding-rev01/LIGHT-03.png",
+              "alt": "Take the long way. Owner-supplied aerial riding photograph with curved white wake across blue-green water. Mako overlay removed and mood retouched. Existing equipment, not a Wahoo prototype."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/lifestyle-riding-rev01/LIGHT-04.png",
+              "alt": "Some things start with a feeling. White and blue type on near-black, with The feeling comes first. The next chapter is being built. Wahoo is in development."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/lifestyle-riding-rev01/LIGHT-05.png",
+              "alt": "Make time for water. Owner-supplied photograph of a rider leaning through a turn with bright spray, blue sea and a distant shoreline. Mako overlay removed; not a Wahoo prototype. Follow the next chapter and wahooracing.com."
+            }
+          ],
+          "caption": "Stay for the last light.\n\nNot every great moment needs a finish line. Sometimes it is a long turn, a quiet horizon, and making time for the water.\n\nWe’re building the next Wahoo chapter around that love of riding. Come along.\n\nRiding photography supplied by Max and retouched for mood. These images feature existing equipment, not the Wahoo board now in development.\n\nwahooracing.com",
+          "hashtags": [
+            "#WahooRacing",
+            "#WaterLife",
+            "#GoldenHour",
+            "#JetboardLife",
+            "#MakeTimeForWater"
+          ],
+          "revision": "Rev01 · owner-supplied riding imagery · 13 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        }
+      ]
     }
   ]
 }

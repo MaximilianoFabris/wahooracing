@@ -1501,6 +1501,66 @@
       "source": "Social_Media/Instagram/Microtexture_Material_Rev02_20261113/exports/MATERIAL-05.png",
       "bytes": 94356,
       "sha256": "aec51dfec75029dca6683cc78ea68a5b909ff272229a3fc6caa035a1dcc1dbee"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/lifestyle-riding-rev01/ENERGY-01.png",
+      "source": "Social_Media/Instagram/Lifestyle_Riding_Rev01_20261113/exports/ENERGY-01.png",
+      "bytes": 2463811,
+      "sha256": "f7de979b4aa0631b459da383936e6fc9b737030e2bc1d519d9584d0c5532c47c"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/lifestyle-riding-rev01/ENERGY-02.png",
+      "source": "Social_Media/Instagram/Lifestyle_Riding_Rev01_20261113/exports/ENERGY-02.png",
+      "bytes": 2530862,
+      "sha256": "67dc9ee5bd386fb04fe1697f2f38031c62e58f2cb93f04fda93024511f43502c"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/lifestyle-riding-rev01/ENERGY-03.png",
+      "source": "Social_Media/Instagram/Lifestyle_Riding_Rev01_20261113/exports/ENERGY-03.png",
+      "bytes": 43030,
+      "sha256": "82c2674a2b50b113f3b279b4d2ff08be65b1b2e8b5d72bfa5e7ad4de2187d3ea"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/lifestyle-riding-rev01/ENERGY-04.png",
+      "source": "Social_Media/Instagram/Lifestyle_Riding_Rev01_20261113/exports/ENERGY-04.png",
+      "bytes": 2394165,
+      "sha256": "958713b81ad71d07efdd8b14d96a394d7789f27a9f021a7501b5604cdad37306"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/lifestyle-riding-rev01/ENERGY-05.png",
+      "source": "Social_Media/Instagram/Lifestyle_Riding_Rev01_20261113/exports/ENERGY-05.png",
+      "bytes": 56844,
+      "sha256": "e189823a67bd14a757c7dc9d336b476c2f5771c2f74f7c57bf53fcfe883806a8"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/lifestyle-riding-rev01/LIGHT-01.png",
+      "source": "Social_Media/Instagram/Lifestyle_Riding_Rev01_20261113/exports/LIGHT-01.png",
+      "bytes": 2020633,
+      "sha256": "e0d41cd3404c1840666d51d316381b5a072629b33367db66282c9a663aad2864"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/lifestyle-riding-rev01/LIGHT-02.png",
+      "source": "Social_Media/Instagram/Lifestyle_Riding_Rev01_20261113/exports/LIGHT-02.png",
+      "bytes": 49966,
+      "sha256": "e4e57c49ff467e933526ddba259b18878b92f53f24f15c9bf8014ae0661c4d5e"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/lifestyle-riding-rev01/LIGHT-03.png",
+      "source": "Social_Media/Instagram/Lifestyle_Riding_Rev01_20261113/exports/LIGHT-03.png",
+      "bytes": 2532187,
+      "sha256": "c6df44437f2c87361063c8a282dd68a0ade316ded33c1330991c53f09fdc1396"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/lifestyle-riding-rev01/LIGHT-04.png",
+      "source": "Social_Media/Instagram/Lifestyle_Riding_Rev01_20261113/exports/LIGHT-04.png",
+      "bytes": 57555,
+      "sha256": "83f35b281b812ac989fbd14ac0da32d3e20998fd6217d9d4b3d6d8032849c726"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/lifestyle-riding-rev01/LIGHT-05.png",
+      "source": "Social_Media/Instagram/Lifestyle_Riding_Rev01_20261113/exports/LIGHT-05.png",
+      "bytes": 1917181,
+      "sha256": "d50b57770fef80c390e8f474a93d2c82119b876c76379e707d9b95d47266ae0b"
     }
   ],
   "sources": [
@@ -1688,9 +1748,14 @@
       "batch": "microtexture-rev01",
       "source": "Social_Media/Instagram/Microtexture_Material_Rev02_20261113/copy/POSTS.json",
       "sha256": "86461243ada0ba5588084d59c7e6f39e1446fff2cb8e983bb2e4449b01325ed3"
+    },
+    {
+      "batch": "lifestyle-riding-rev01",
+      "source": "Social_Media/Instagram/Lifestyle_Riding_Rev01_20261113/copy/POSTS.json",
+      "sha256": "9740f54f11fa3646ca13aa9fdbc43da8ebe7e4b39fe009ec8db8b6005c7b5af5"
     }
   ],
-  "projectionSha256": "a5cca44317829aeffa440b62af2a7b8bd8115fdb7763fc1aa6918500cc2391aa",
+  "projectionSha256": "2e9c3525850c7672005a76437de489ebd3ea4277f81f4996e563c64f970bb905",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",

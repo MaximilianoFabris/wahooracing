@@ -1,0 +1,67 @@
+{
+  "scope": "Two new five-card lifestyle carousels from owner-supplied riding photos, with Mako overlays removed and mood retouched. Existing equipment must not be represented as a Wahoo prototype.",
+  "newPositions": [
+    73,
+    74
+  ],
+  "prior72EntriesUnchanged": true,
+  "prior37BatchesUnchanged": true,
+  "publicAssets": [
+    {
+      "url": "/preview/social-cards/images/lifestyle-riding-rev01/ENERGY-01.png",
+      "bytes": 2463811,
+      "sha256": "f7de979b4aa0631b459da383936e6fc9b737030e2bc1d519d9584d0c5532c47c"
+    },
+    {
+      "url": "/preview/social-cards/images/lifestyle-riding-rev01/ENERGY-02.png",
+      "bytes": 2530862,
+      "sha256": "67dc9ee5bd386fb04fe1697f2f38031c62e58f2cb93f04fda93024511f43502c"
+    },
+    {
+      "url": "/preview/social-cards/images/lifestyle-riding-rev01/ENERGY-03.png",
+      "bytes": 43030,
+      "sha256": "82c2674a2b50b113f3b279b4d2ff08be65b1b2e8b5d72bfa5e7ad4de2187d3ea"
+    },
+    {
+      "url": "/preview/social-cards/images/lifestyle-riding-rev01/ENERGY-04.png",
+      "bytes": 2394165,
+      "sha256": "958713b81ad71d07efdd8b14d96a394d7789f27a9f021a7501b5604cdad37306"
+    },
+    {
+      "url": "/preview/social-cards/images/lifestyle-riding-rev01/ENERGY-05.png",
+      "bytes": 56844,
+      "sha256": "e189823a67bd14a757c7dc9d336b476c2f5771c2f74f7c57bf53fcfe883806a8"
+    },
+    {
+      "url": "/preview/social-cards/images/lifestyle-riding-rev01/LIGHT-01.png",
+      "bytes": 2020633,
+      "sha256": "e0d41cd3404c1840666d51d316381b5a072629b33367db66282c9a663aad2864"
+    },
+    {
+      "url": "/preview/social-cards/images/lifestyle-riding-rev01/LIGHT-02.png",
+      "bytes": 49966,
+      "sha256": "e4e57c49ff467e933526ddba259b18878b92f53f24f15c9bf8014ae0661c4d5e"
+    },
+    {
+      "url": "/preview/social-cards/images/lifestyle-riding-rev01/LIGHT-03.png",
+      "bytes": 2532187,
+      "sha256": "c6df44437f2c87361063c8a282dd68a0ade316ded33c1330991c53f09fdc1396"
+    },
+    {
+      "url": "/preview/social-cards/images/lifestyle-riding-rev01/LIGHT-04.png",
+      "bytes": 57555,
+      "sha256": "83f35b281b812ac989fbd14ac0da32d3e20998fd6217d9d4b3d6d8032849c726"
+    },
+    {
+      "url": "/preview/social-cards/images/lifestyle-riding-rev01/LIGHT-05.png",
+      "bytes": 1917181,
+      "sha256": "d50b57770fef80c390e8f474a93d2c82119b876c76379e707d9b95d47266ae0b"
+    }
+  ],
+  "journalDecision": "NO CHANGE: lifestyle communication, no new engineering evidence supplied.",
+  "activityMilestoneDecision": "NO CHANGE: no engineering milestone; detailed production actions collected through the existing ledger.",
+  "journalSha256": "88149d9122150433bda63e8fcf665900c7ab99d917b9c117dcf0982e63913155",
+  "activityMilestoneSha256": "10d594c16431e6d1c457b3046d406325790e226d21656801ce7ea25cbac52f37",
+  "instagram": "Not posted or scheduled. Website review gallery only.",
+  "photoDates": "Unknown; no location, date, equipment specification or performance claim introduced."
+}

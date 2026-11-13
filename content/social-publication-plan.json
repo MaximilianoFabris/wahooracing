@@ -296,6 +296,14 @@
     {
       "key": "microtexture-rev01-MATERIAL",
       "category": "engineering"
+    },
+    {
+      "key": "lifestyle-riding-rev01-LIFE-ENERGY",
+      "category": "lifestyle"
+    },
+    {
+      "key": "lifestyle-riding-rev01-LIFE-LIGHT",
+      "category": "lifestyle"
     }
   ]
 }
