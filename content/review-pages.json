@@ -25,6 +25,17 @@
       "image": "/preview/social-cards/images/relaunch-rev03/P02-01.png"
     },
     {
+      "id": "videos",
+      "title": "Videos",
+      "url": "/preview/videos/",
+      "description": "Browse the video collection. Open a thumbnail to watch a film, download the MP4 and copy its caption with hashtags.",
+      "publication": "published",
+      "version": "Video gallery \u00b7 Rev02",
+      "evidence": "Digital development films",
+      "scope": "Concept and numerical studies \u00b7 not physical product validation",
+      "visual": "videos"
+    },
+    {
       "id": "board-3d",
       "title": "The board \u00b7 in 3D",
       "url": "/preview/board-3d/",
