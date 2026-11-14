@@ -8,9 +8,9 @@
       "publication": "published",
       "seconds": 10,
       "description": "Go inside the simulator: moving mechanism, saved thermodynamic results and acoustic traces.",
-      "scope": "Real browser walkthrough \u00b7 saved synthetic data \u00b7 physical validation pending.",
-      "transcript": "0\u20133 seconds: mechanism and pose control. 3\u20135.4: thermodynamics and sample inspection. 5.4\u20137.5: acoustic traces and snapshots. 7.5\u201310: mechanism and an invitation to explore wahooracing.com.",
-      "postText": "Go inside the engineering.\n\nExplore the moving mechanism, inspect saved results and follow the questions shaping Wahoo\u2019s engine development.\n\nTry the simulator at wahooracing.com.\n\nThis walkthrough shows saved synthetic engineering results\u2014not physical engine testing or a performance prediction.\n\n#WahooRacing #WahooIntelligence #EngineDevelopment #EngineeringSimulation #TwoStroke #Jetboard #MechanicalEngineering #ComputationalEngineering #BehindTheBuild #FollowTheBuild"
+      "scope": "Real browser walkthrough · saved synthetic data · physical validation pending.",
+      "transcript": "0–3 seconds: mechanism and pose control. 3–5.4: thermodynamics and sample inspection. 5.4–7.5: acoustic traces and snapshots. 7.5–10: mechanism and an invitation to explore wahooracing.com.",
+      "postText": "Go inside the engineering.\n\nExplore the moving mechanism, inspect saved results and follow the questions shaping Wahoo’s engine development.\n\nTry the simulator at wahooracing.com.\n\nThis walkthrough shows saved synthetic engineering results—not physical engine testing or a performance prediction.\n\n#WahooRacing #WahooIntelligence #EngineDevelopment #EngineeringSimulation #TwoStroke #Jetboard #MechanicalEngineering #ComputationalEngineering #BehindTheBuild #FollowTheBuild"
     },
     {
       "id": "hull-assembly-film",
@@ -20,7 +20,7 @@
       "publication": "published",
       "seconds": 20,
       "description": "A glossy carbon hull becomes transparent as the modeled systems arrive at their recorded digital positions.",
-      "scope": "Preliminary H1 packaging study \u00b7 includes provisional envelopes and a reference tank. Editorial arrival paths are not verified installation paths; no physical validation is claimed.",
+      "scope": "Preliminary H1 packaging study · includes provisional envelopes and a reference tank. Editorial arrival paths are not verified installation paths; no physical validation is claimed.",
       "transcript": "The hull rotates gently and transitions from carbon finish to ghost mode. Internal structure, intake and jetpump, engine, exhaust, reference fuel tank, battery, ECU, external air inlet and bilge studies arrive in sequence. Labels identify the systems. The film closes with the assembled digital study and an invitation to follow the build.",
       "postText": "Beyond the surface.\n\nOne board. Every system.\n\nWatch the hull turn transparent as the engine, jetpump, exhaust, fuel, electronics, air inlet and internal systems come together. This is how we explore the board as a connected engineering project.\n\nFollow the build at wahooracing.com.\n\nBased on our H1-04 digital packaging study. Components include provisional envelopes and interface studies; the tank is a packaging reference. The animated arrival paths are an editorial reveal, not a verified installation procedure. No physical prototype or final packaging validation is claimed.\n\n#WahooRacing #WahooIntelligence #Jetboard #ProductDevelopment #MechanicalEngineering #MarineEngineering #DigitalDesign #EngineDevelopment #BehindTheBuild #FollowTheBuild"
     },
@@ -32,9 +32,21 @@
       "publication": "published",
       "seconds": 15,
       "description": "The water pushes back. The hull responds. Follow the evidence: true-scale side motion, actual underside pressure and moving graph markers.",
-      "scope": "Accepted H0 numerical study at imposed 30 km/h. The film focuses on 50\u2013150 ms, at 120\u00d7 slow motion followed by a 3-second end hold. Pressure snapshots are held at their saved times. No physical validation or stable-trim claim.",
-      "transcript": "A light-background film pairs the real H0 hull side view with native underside pressure. The headlines move from THE WATER PUSHES BACK to THE HULL RESPONDS and FOLLOW THE EVIDENCE. Pitch, heave and current-CG pitching-moment graphs retain accepted samples and process-restart pulses. The pressure legend stays fixed from \u221215 to +6 kPa, relative to 0 Pa; pressure is not drag. The five saved fields are 50, 75, 100, 125 and 150 ms, with a separate saved-field clock. The film ends at 150 ms and wahooracing.com.",
-      "postText": "The water pushes back. The hull responds.\n\nA hundred milliseconds of our digital hull study, slowed down so you can follow the motion, the pressure field and the engineering evidence together.\n\nThe side view shows true-scale hull motion. The underside colours represent actual saved pressure\u2014not drag. The graphs track pitch, vertical position and pitching moment.\n\nThis film focuses on 50\u2013150 ms of the accepted H0 numerical study at imposed 30 km/h. Pressure snapshots are shown only at their saved times, with no invented intermediate fields. Numerical results are not physical testing, and stable trim has not been demonstrated.\n\nExplore the development at wahooracing.com.\n\n#WahooRacing #WahooIntelligence #CFD #Hydrodynamics #Jetboard #MarineEngineering #ComputationalEngineering #ProductDevelopment #EngineeringSimulation #BehindTheBuild #FollowTheBuild"
+      "scope": "Accepted H0 numerical study at imposed 30 km/h. The film focuses on 50–150 ms, at 120× slow motion followed by a 3-second end hold. Pressure snapshots are held at their saved times. No physical validation or stable-trim claim.",
+      "transcript": "A light-background film pairs the real H0 hull side view with native underside pressure. The headlines move from THE WATER PUSHES BACK to THE HULL RESPONDS and FOLLOW THE EVIDENCE. Pitch, heave and current-CG pitching-moment graphs retain accepted samples and process-restart pulses. The pressure legend stays fixed from −15 to +6 kPa, relative to 0 Pa; pressure is not drag. The five saved fields are 50, 75, 100, 125 and 150 ms, with a separate saved-field clock. The film ends at 150 ms and wahooracing.com.",
+      "postText": "The water pushes back. The hull responds.\n\nA hundred milliseconds of our digital hull study, slowed down so you can follow the motion, the pressure field and the engineering evidence together.\n\nThe side view shows true-scale hull motion. The underside colours represent actual saved pressure—not drag. The graphs track pitch, vertical position and pitching moment.\n\nThis film focuses on 50–150 ms of the accepted H0 numerical study at imposed 30 km/h. Pressure snapshots are shown only at their saved times, with no invented intermediate fields. Numerical results are not physical testing, and stable trim has not been demonstrated.\n\nExplore the development at wahooracing.com.\n\n#WahooRacing #WahooIntelligence #CFD #Hydrodynamics #Jetboard #MarineEngineering #ComputationalEngineering #ProductDevelopment #EngineeringSimulation #BehindTheBuild #FollowTheBuild"
+    },
+    {
+      "id": "question-to-jetboard-film",
+      "title": "From a question to a jetboard",
+      "url": "/preview/videos/question-to-jetboard-film.mp4",
+      "poster": "/preview/videos/question-to-jetboard-film.png",
+      "publication": "published",
+      "seconds": 15,
+      "description": "Ask. Explore. Test. Connect. A cinematic introduction to the ambition behind Wahoo Racing and Wahoo Intelligence.",
+      "scope": "Development in progress. Separate synthetic engineering studies, preliminary digital packaging and concept renders—not physical testing or a finished production board.",
+      "transcript": "0–2.4 seconds: WHAT IF, with a reference hull reveal. 2.4–5: EXPLORE, using the accepted 41-design aggregate screening study. 5–7.7: TEST THE IDEA, with an excerpt of accepted H0 numerical motion and pressure. 7.7–10.8: CONNECT, as the preliminary H1 systems appear. 10.8–15: the carbon-finish concept hull, YOU OWN IT, FOLLOW THE BUILD and wahooracing.com. These are separate development studies, not a demonstrated physical product sequence.",
+      "postText": "What if we could build a jetboard differently?\n\nAsk better questions. Explore the options. Test ideas through simulation. Connect the systems.\n\nThat is the ambition behind Wahoo Racing and Wahoo Intelligence. Follow the development—from the first question to the details that make a board.\n\nYOU OWN IT.\n\nExplore the build at wahooracing.com.\n\nDevelopment in progress. This film combines separate synthetic engineering studies, preliminary digital packaging and concept renders. It does not show physical testing or a finished production board.\n\n#WahooRacing #WahooIntelligence #Jetboard #GenerativeDesign #ProductDevelopment #EngineeringDesign #MarineEngineering #CFD #MechanicalEngineering #BehindTheBuild #FollowTheBuild"
     }
   ]
 }

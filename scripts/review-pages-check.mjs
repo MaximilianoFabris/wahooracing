@@ -12,10 +12,10 @@ assert(fs.readFileSync('dist/index.html','utf8').includes('href="/preview/" aria
 assert(!reviewHub({pages:[{publication:'draft'}]}).includes('data-review-page'));
 console.log('PASS: public review routes, manifest, no login, exact allowlisted projection, privacy scan, 24 datasets / 4,912 samples.');
 
-const videoCatalog=JSON.parse(fs.readFileSync('content/review-videos.json'));assert.equal(videoCatalog.videos.length,3);
+const videoCatalog=JSON.parse(fs.readFileSync('content/review-videos.json'));assert.equal(videoCatalog.videos.length,4);
 const hubHTML=fs.readFileSync('dist/preview/index.html','utf8');assert(hubHTML.includes('data-review-page="videos"'));assert.equal((hubHTML.match(/<video /g)||[]).length,0);
-const videoHTML=fs.readFileSync('dist/preview/videos/index.html','utf8');assert(videoHTML.includes('/social-cards.css'));assert.equal((videoHTML.match(/data-video-open=/g)||[]).length,3);assert.equal((videoHTML.match(/<video /g)||[]).length,3);
+const videoHTML=fs.readFileSync('dist/preview/videos/index.html','utf8');assert(videoHTML.includes('/social-cards.css'));assert.equal((videoHTML.match(/data-video-open=/g)||[]).length,4);assert.equal((videoHTML.match(/<video /g)||[]).length,4);
 for(const v of videoCatalog.videos){assert(videoHTML.includes(v.url));assert(videoHTML.includes(v.poster));assert(videoHTML.includes('download>Download MP4'));assert(videoHTML.includes('Copy caption + hashtags'));}
-const videoReceipt=JSON.parse(fs.readFileSync('docs/review-videos-asset-receipt.json'));assert.equal(videoReceipt.assets.length,6);
+const videoReceipt=JSON.parse(fs.readFileSync('docs/review-videos-asset-receipt.json'));assert.equal(videoReceipt.assets.length,8);
 for(const asset of videoReceipt.assets){for(const base of ['public','dist']){const bytes=fs.readFileSync(base+asset.url);assert.equal(bytes.length,asset.bytes);assert(bytes.length<25*1024*1024);assert.equal(crypto.createHash('sha256').update(bytes).digest('hex'),asset.sha256);}}
-console.log('PASS: three public films and three posters match approved exports; playback markup, downloads, captions and hosting size limit.');
+console.log('PASS: four public films and four posters match approved exports; playback markup, downloads, captions and hosting size limit.');
