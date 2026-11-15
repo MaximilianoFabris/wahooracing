@@ -1,0 +1,98 @@
+{
+  "type": "Engineering study",
+  "systems": [
+    "engine",
+    "exhaust"
+  ],
+  "slug": "first-wahoo-specific-engine-simulation",
+  "title": "First Wahoo-Specific Engine Simulation Completed",
+  "summary": "From reference benchmarking to our own exploratory engine model—and the first step toward comparing Wahoo design alternatives.",
+  "date": "2026-11-15",
+  "dateLabel": "15 Nov 2026 · A35 exploratory milestone",
+  "publicationSequence": 2,
+  "revision": "A35 / FIRST WAHOO-SPECIFIC RUN",
+  "evidence": "Exploratory numerical observation · not physically validated",
+  "status": "published",
+  "thumbnail": "engineering/wahoo-first-run/hero.png",
+  "thumbnailAlt": "First Wahoo-specific engine simulation. Actual A35 pressure history; exploratory model, not physically validated.",
+  "hero": "engineering/wahoo-first-run/hero.png",
+  "heroAlt": "Actual Wahoo35A pressure ratio over a full crank revolution at 10000 RPM; editorial composition, not physical testing.",
+  "heroCaption": "Actual Wahoo35A single-point output · 10,000 RPM · A35, 15 November 2026. Exploratory and uncalibrated.",
+  "sections": [
+    {
+      "title": "This time, the model is Wahoo’s",
+      "text": "For the first time, a Wahoo-specific engine model has completed a calculation in EngMod2T, a specialist commercial two-stroke engine simulator. It is a meaningful change in what we can investigate. We have moved beyond commissioning the software and running the supplied RS125 reference: we now have numerical outputs from a model representing Wahoo’s own developing engine configuration."
+    },
+    {
+      "title": "One point, clearly defined",
+      "text": "The exploratory calculation ran at 10,000 RPM and returned an average power of 6.831 kW and torque of 6.523 N·m. The solver completed normally and reported 12 seconds of calculation time. These figures describe this particular digital scenario. They are not measured performance, a final engine rating, a complete power curve or a selected operating speed.",
+      "figure": {
+        "image": "engineering/wahoo-first-run/cycle-power.svg",
+        "alt": "Actual logged cycle-power records. Blue: vendor P-av; white: individual-cycle power, at the native rounded precision. A small late change in this run does not demonstrate repeatability or full-state convergence.",
+        "caption": "Actual logged cycle-power records. Blue: vendor P-av; neutral: individual-cycle power, at the native rounded precision. A small late change in this run does not demonstrate repeatability or full-state convergence."
+      }
+    },
+    {
+      "title": "From dimensions to a working simulation model",
+      "text": "Wahoo-specific dimensions, the accepted port representation and core engine assumptions are now assembled inside the commercial solver. This does not mean that a complete CAD assembly has been automatically converted into a fully qualified engine model. Some representations are deliberately approximate: the chamber is volume-equivalent, and the port model is an area-equivalent representation rather than verified physical duct geometry. Intake, exhaust, combustion, scavenging, thermal behaviour and losses still include provisional or inherited assumptions."
+    },
+    {
+      "title": "Looking beyond a single power number",
+      "text": "The useful output is much richer than one result. We can examine how cylinder pressure changes through a revolution, inspect the calculated gas-temperature history and study signed Mach-number channels in the gas-exchange system. These histories give us questions to test as the model improves. They do not, by themselves, prove that the real engine will reproduce the simulated behaviour.",
+      "figure": {
+        "image": "engineering/wahoo-first-run/pressure.svg",
+        "alt": "Actual Wahoo35A cylinder pressure from 0 to 360 crank degrees. The vertical axis is absolute pressure divided by atmospheric pressure, a dimensionless ratio—not bar. No smoothing or fabricated peaks.",
+        "caption": "Actual Wahoo35A cylinder pressure from 0 to 360 crank degrees. The vertical axis is absolute pressure divided by atmospheric pressure, a dimensionless ratio—not bar. No smoothing or fabricated peaks."
+      }
+    },
+    {
+      "title": "A traceable engineering workflow",
+      "text": "The earlier A34 work strengthened the RS125 reference workflow through repeat calculations, a diagnostic RPM sweep and native-data extraction. A35 adds the first Wahoo-specific point. Execution, input identity and numerical transcription were independently checked, and the native results can be examined in our Python analysis workflow. That independent correspondence check verifies what was calculated; it does not establish physical predictive accuracy. The RS125 sweep must not be read as a Wahoo performance curve.",
+      "figure": {
+        "image": "engineering/wahoo-first-run/gas-dynamics.svg",
+        "alt": "Source-derived Wahoo gas-exchange channels: intake-port, transfer and exhaust-port Mach number. Signed, dimensionless values are retained. This is not a mass-flow plot.",
+        "caption": "Source-derived Wahoo gas-exchange channels: intake-port, transfer and exhaust-port Mach number. Signed, dimensionless values are retained. This is not a mass-flow plot."
+      }
+    },
+    {
+      "title": "What remains open",
+      "text": "This is an uncalibrated exploratory model, with one operating point and one cycle-count setting. Wahoo-specific repeatability, sensitivity to additional calculated cycles and full-state convergence remain unestablished. A first-cycle exhaust-temperature diagnostic remains in the native record and has not been declared harmless. The operating RPM is also open: simulation evidence, mechanical and thermal limits, and eventual pump matching must inform that decision. Gas-temperature outputs do not validate metal temperatures, cooling, injection or ECU behaviour.",
+      "figure": {
+        "image": "engineering/wahoo-first-run/temperature.svg",
+        "alt": "Actual simulated cylinder-gas temperature, TCyl(1), in degrees Celsius. This is a gas-model channel, not a measured component temperature or a cooling qualification.",
+        "caption": "Actual simulated cylinder-gas temperature, TCyl(1), in degrees Celsius. This is a gas-model channel, not a measured component temperature or a cooling qualification."
+      }
+    },
+    {
+      "title": "A baseline worth improving",
+      "text": "The next proposed step is to test the same-input Wahoo baseline more carefully, including cycle-count sensitivity and repeatability, before interpreting differences between design alternatives. Controlled port and exhaust comparisons can then help separate the effect of a design change from the behaviour of the numerical model. Prepared alternatives are not completed experiments, and further execution requires its own engineering authorization. The ambition is clear: build a defensible way to compare Wahoo designs before committing to prototypes. This first run gives that work a real starting point."
+    }
+  ],
+  "sources": [
+    "A35 engineering report and CHATGPT_HANDOFF, Rev01, 15 November 2026",
+    "A35 Wahoo_Run01 native-data extraction and summary",
+    "Isaac A35 final acceptance and Wahoo actual-result correspondence review",
+    "A34 engineering handoff and final acceptance: earlier reference-engine workflow only"
+  ],
+  "changes": "Owner-approved publication, 16 November 2026. Accepted exploratory numerical observation. Not physically validated Wahoo engine performance. No final power, torque, RPM optimum or engine optimisation is claimed.",
+  "downloadsTitle": "High-resolution engineering graphics",
+  "downloadsIntro": "Original Wahoo presentation exports, derived from the accepted exploratory A35 output. The source model and native numerical files remain private.",
+  "downloads": [
+    {
+      "file": "engineering/wahoo-first-run/pressure.png",
+      "label": "Cylinder pressure · PNG"
+    },
+    {
+      "file": "engineering/wahoo-first-run/temperature.png",
+      "label": "Cylinder gas temperature · PNG"
+    },
+    {
+      "file": "engineering/wahoo-first-run/gas-dynamics.png",
+      "label": "Signed gas-dynamics channels · PNG"
+    },
+    {
+      "file": "engineering/wahoo-first-run/cycle-power.png",
+      "label": "Logged cycle power · PNG"
+    }
+  ]
+}

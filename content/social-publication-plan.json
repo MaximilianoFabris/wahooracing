@@ -308,6 +308,10 @@
     {
       "key": "g033-commercial-simulation-rev01-COMMERCIAL-ENGINE",
       "category": "engineering"
+    },
+    {
+      "key": "wahoo-first-engine-run-rev01-WAHOO-FIRST-RUN",
+      "category": "engineering"
     }
   ]
 }

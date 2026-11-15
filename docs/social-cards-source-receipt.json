@@ -1591,6 +1591,36 @@
       "source": "Social_Media/Instagram/Commercial_Engine_Simulation_Rev01_20261115/exports/ENGINE-05.png",
       "bytes": 166708,
       "sha256": "87acaa40a6eca6d8cd2b2422e79bb1106e59074da27ed3e617bc6c4cf191f306"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/wahoo-first-engine-run-rev01/WAHOO-01.png",
+      "source": "Social_Media/Instagram/First_Wahoo_Engine_Run_Rev01_20261115/exports/WAHOO-01.png",
+      "bytes": 410437,
+      "sha256": "d232457e9ce444a0feee0520cb5f9d9c46a9c11baabc31e34f8c40c7d6095331"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/wahoo-first-engine-run-rev01/WAHOO-02.png",
+      "source": "Social_Media/Instagram/First_Wahoo_Engine_Run_Rev01_20261115/exports/WAHOO-02.png",
+      "bytes": 86096,
+      "sha256": "3dab970d5e802b853ef09036e0acb266ecd5cc590ab948d1d03716d787c8f210"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/wahoo-first-engine-run-rev01/WAHOO-03.png",
+      "source": "Social_Media/Instagram/First_Wahoo_Engine_Run_Rev01_20261115/exports/WAHOO-03.png",
+      "bytes": 96439,
+      "sha256": "923925c020f3903d4faa6def1c6553f3f24a30689a36be824aa07f6c9110914c"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/wahoo-first-engine-run-rev01/WAHOO-04.png",
+      "source": "Social_Media/Instagram/First_Wahoo_Engine_Run_Rev01_20261115/exports/WAHOO-04.png",
+      "bytes": 77316,
+      "sha256": "0dc2d3085cb68b027247b9f298325b907c283255d47390ba78e06d0e918660af"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/wahoo-first-engine-run-rev01/WAHOO-05.png",
+      "source": "Social_Media/Instagram/First_Wahoo_Engine_Run_Rev01_20261115/exports/WAHOO-05.png",
+      "bytes": 87599,
+      "sha256": "f325fe63f65cc03465c22b87a8c0a5c91e44e86e0cc7b50d258cf251970f6298"
     }
   ],
   "sources": [
@@ -1788,9 +1818,14 @@
       "batch": "g033-commercial-simulation-rev01",
       "source": "Social_Media/Instagram/Commercial_Engine_Simulation_Rev01_20261115/copy/posts.json",
       "sha256": "b2f395b0fd29a87d4c390eddac21d9723f94814030b5a7179d3637418517d885"
+    },
+    {
+      "batch": "wahoo-first-engine-run-rev01",
+      "source": "Social_Media/Instagram/First_Wahoo_Engine_Run_Rev01_20261115/copy/posts.json",
+      "sha256": "b16c3d034e1d73fe933cdc38027284e4eb678ca5aa047c8f3ef1ea32aeea030a"
     }
   ],
-  "projectionSha256": "fd34d5f2466c7adae8343c650a5f9e2c422e3608e8a9dabea7e97612d5f8a2bc",
+  "projectionSha256": "ebec815e4e3749f43e769acd12bfa96842b15c1b6a8c2598b4e08dd1ccc78623",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",
@@ -1913,5 +1948,5 @@
       "sha256": "33082187fe43fd587b112d348e047534ebbfe9eaf45576ae029d8d00b2b63e58"
     }
   ],
-  "updatedDate": "2026-11-15"
+  "updatedDate": "2026-11-16"
 }

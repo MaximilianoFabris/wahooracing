@@ -3247,6 +3247,50 @@
         }
       ],
       "revision": "Rev01"
+    },
+    {
+      "id": "wahoo-first-engine-run-rev01",
+      "title": "First Wahoo-specific engine simulation",
+      "revision": "Rev01",
+      "posts": [
+        {
+          "id": "WAHOO-FIRST-RUN",
+          "title": "This time, it’s Wahoo.",
+          "format": "Carousel · 5 cards",
+          "caption": "This time, it’s Wahoo.\n\nOur first Wahoo-specific engine simulation has completed in EngMod2T, a professional two-stroke engine simulator.\n\nAt one exploratory operating point—10,000 RPM—the model returned 6.831 kW average power and 6.523 N·m torque. The vendor reported a 12-second calculation.\n\nThe milestone is the capability: Wahoo-specific geometry and core assumptions are now inside a commercial solver, with actual numerical outputs we can examine through our own engineering tools.\n\nThese are uncalibrated simulation outputs, not physical test results or a validated Wahoo engine rating. The model still contains provisional assumptions. Operating RPM remains open, and neither final power nor optimisation has been established.\n\nNext: stabilise the baseline, check repeatability and begin controlled comparisons of Wahoo design options.\n\nFollow the build. wahooracing.com",
+          "hashtags": [
+            "#WahooRacing",
+            "#EngineDevelopment",
+            "#EngineSimulation",
+            "#TwoStroke",
+            "#BehindTheBuild"
+          ],
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/wahoo-first-engine-run-rev01/WAHOO-01.png",
+              "alt": "This time, it’s Wahoo. First Wahoo-specific engine simulation. Actual complete cylinder pressure-to-atmospheric-pressure ratio trace, 0–360 crank degrees, at 10,000 RPM. Exploratory model, not physically validated."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/wahoo-first-engine-run-rev01/WAHOO-02.png",
+              "alt": "One exploratory Wahoo operating point: 10,000 RPM, 6.831 kW average model power and 6.523 N·m model torque. Vendor-reported calculation time 12 seconds. Not a final engine rating."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/wahoo-first-engine-run-rev01/WAHOO-03.png",
+              "alt": "A model we can question. Actual Wahoo cylinder gas-temperature and signed exhaust-port Mach histories over 0–360 crank degrees. Gas temperature is not metal temperature; Mach is dimensionless. Exploratory simulation, not physically validated."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/wahoo-first-engine-run-rev01/WAHOO-04.png",
+              "alt": "First does not equal final. A real Wahoo-specific commercial-solver run, with provisional assumptions, no physical performance validation and operating RPM still open."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/wahoo-first-engine-run-rev01/WAHOO-05.png",
+              "alt": "Better questions. Better engineering. Future steps: stabilise the baseline, compare controlled Wahoo design alternatives, refine assumptions with evidence. These steps are planned, not executed. Follow the build."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

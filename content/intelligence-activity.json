@@ -2,6 +2,21 @@
   "schema_version": 1,
   "records": [
     {
+      "id": "a35-first-wahoo-specific-engine-run",
+      "publication": "published",
+      "date": "2026-11-15",
+      "agents": [
+        "leo",
+        "ada",
+        "marie",
+        "isaac"
+      ],
+      "status": "completed",
+      "title": "First Wahoo-Specific Engine Simulation Completed",
+      "summary": "Wahoo completed its first Wahoo-specific EngMod2T calculation at 10,000 RPM. The exploratory model returned 6.831 kW average power and 6.523 N·m torque, with a vendor-reported 12-second calculation. Provisional assumptions, baseline qualification and the operating RPM remain open; this is not physically validated engine performance.",
+      "evidence": "A35 first Wahoo-specific run. Execution and data correspondence independently checked; provisional model, no physical performance validation."
+    },
+    {
       "id": "a33-first-commercial-reference-run",
       "publication": "published",
       "date": "2026-11-15",
