@@ -304,6 +304,10 @@
     {
       "key": "lifestyle-riding-rev01-LIFE-LIGHT",
       "category": "lifestyle"
+    },
+    {
+      "key": "g033-commercial-simulation-rev01-COMMERCIAL-ENGINE",
+      "category": "engineering"
     }
   ]
 }

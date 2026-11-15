@@ -28,7 +28,8 @@ for(const file of pages){
     const target=sections.find(([prefix])=>href.startsWith(prefix));
     const g030Link=(['/systems/engine/','/roadmap/','/intelligence/', '/journal/engineering-supplier-supported-details/','/journal/designing-cnc-cylinder-cooling/','/journal/toward-generative-engine-design/','/journal/inside-wahoo-digital-engine-assembly/','/journal/designing-details-crankcase/'].includes(route)&&['/journal/engineering-supplier-supported-details/','/journal/designing-cnc-cylinder-cooling/','/journal/toward-generative-engine-design/','/systems/engine/bill-of-materials/','/roadmap/#engine-mechanical','/intelligence/work/'].includes(href));
     const g029Link=(['/systems/engine/','/systems/engine/bill-of-materials/','/roadmap/','/journal/inside-wahoo-digital-engine-assembly/','/journal/designing-details-crankcase/'].includes(route)&&['/journal/from-simulation-to-3d-cylinder/','/journal/inside-wahoo-digital-engine-assembly/','/journal/designing-details-crankcase/','/systems/engine/bill-of-materials/','/roadmap/#engine-mechanical','/intelligence/work/'].includes(href));
-    if(!g030Link&&!g029Link&&target&&target[0]!==section[0]&&!(section[0]==='/systems/'&&/^\/journal\/[^/]+\/\?from=/.test(href))&&!(route==='/systems/'&&href==='/roadmap/'))throw Error(`Cross-section link: ${route} → ${href}`);
+    const g033Link=['/systems/engine/','/simulator/','/intelligence/','/roadmap/'].includes(route)&&href==='/journal/our-first-engine-simulation/';
+    if(!g033Link&&!g030Link&&!g029Link&&target&&target[0]!==section[0]&&!(section[0]==='/systems/'&&/^\/journal\/[^/]+\/\?from=/.test(href))&&!(route==='/systems/'&&href==='/roadmap/'))throw Error(`Cross-section link: ${route} → ${href}`);
   }
   for(const [href] of headerNavigation)if(!html.split('</header>')[0].includes(`href="${href}"`))throw Error('Missing global navigation: '+route);
   if(!html.includes('Home · choose a section'))throw Error('Missing Home exit: '+route);

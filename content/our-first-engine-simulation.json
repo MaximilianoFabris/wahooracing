@@ -1,0 +1,120 @@
+{
+  "slug": "our-first-engine-simulation",
+  "title": "Our First Engine Simulation: Wahoo Intelligence Meets EngMod2T",
+  "summary": "From parametric cylinder design to professional performance simulation: our first EngMod2T reference run opens the next chapter in Wahoo’s digital engine development.",
+  "date": "2026-11-15",
+  "dateLabel": "15 Nov 2026 · A33 single-point retrospective",
+  "publicationSequence": 1,
+  "revision": "G033 / A33 REFERENCE WORKFLOW",
+  "type": "Engineering study",
+  "evidence": "Reference execution and transcription checked · physics unqualified",
+  "status": "published",
+  "systems": [
+    "engine",
+    "exhaust"
+  ],
+  "thumbnail": "engineering/g033-commercial-simulation/hero.svg",
+  "thumbnailAlt": "Actual RS125 cylinder absolute-pressure-to-atmospheric-pressure ratio plotted against crank angle at 12,500 rpm.",
+  "hero": "engineering/g033-commercial-simulation/hero.svg",
+  "heroAlt": "Actual RS125 cylinder absolute-pressure-to-atmospheric-pressure ratio plotted against crank angle at 12,500 rpm.",
+  "heroCaption": "Actual RS125 reference-cylinder pressure history · 12,500 rpm · A33, 15 November 2026.",
+  "sections": [
+    {
+      "title": "From a cylinder we can change to a model we can question",
+      "text": "Wahoo’s engine development already has an independent numerical foundation: motion calculations, synthetic state and flow studies, and a parametric cylinder that connects design choices to editable geometry. That foundation makes a new question possible. When we change a port or an exhaust, how might the engine respond? On 15 November 2026, our first licensed EngMod2T reference calculation brought a professional performance-simulation tool into that development story. This is the A33 single-point milestone, recorded at its own review cutoff. It connects the work of constructing an engine digitally with the ambition to investigate how it could perform."
+    },
+    {
+      "title": "Enter EngMod2T",
+      "text": "EngMod2T is a specialist two-stroke engine simulator. Its developer describes a complete-cycle calculation covering the combustion process and gas dynamics through pipes, ducts, ports and connected volumes. For Wahoo, that makes it relevant to questions about port timing, exhaust pressure waves and the thermodynamic cycle. Its outputs include crank-angle histories and speed-based performance results, so the investigation can move between the events inside a cycle and the power or torque associated with an operating point. The attraction is a deeper view of how connected engine choices interact."
+    },
+    {
+      "title": "Start with a reference we can preserve",
+      "text": "The first step was a supplied RS125 reference model. Starting there gives the workflow a recognizable baseline before introducing Wahoo-specific assumptions. The isolated copy retained its 54 mm bore, 54.5 mm stroke and 105 mm connecting rod, with all 16 original inputs unchanged. Wahoo’s nominal 102 mm rod was not substituted. The owner selected 12,500 rpm for this individual calculation. Keeping the reference intact gives later comparisons a clear starting point: what changed, why it changed, and which result belongs to which model.",
+      "figure": {
+        "image": "engineering/g033-commercial-simulation/reference-point.svg",
+        "alt": "One RS125 reference operating point at 12,500 rpm.",
+        "caption": "One supplied RS125 model, one operating point."
+      }
+    },
+    {
+      "title": "The first result comes through",
+      "text": "The native log reported averaged power of 27.267 kW and torque of 20.830 N·m at 12,500 rpm, rounded here for readability. These are outputs of the supplied RS125 model. The run reached normal completion, with the vendor reporting ten seconds of calculation; the complete supervised session also included interface handling and waiting. Independent arithmetic confirmed the full-precision power–torque relationship at the selected speed. Beyond the headline values, the completed-cycle power records let us inspect how the reported result developed during the calculation.",
+      "figure": {
+        "image": "engineering/g033-commercial-simulation/cycle-power.svg",
+        "alt": "Actual completed-cycle power plotted against cycle number.",
+        "caption": "Actual cycle-power history from the completed reference calculation."
+      }
+    },
+    {
+      "title": "Watch the cycle unfold",
+      "text": "A two-stroke engine compresses an extraordinary sequence into every revolution. Pressure and temperature rise and fall as the cylinder exchanges gases with its surroundings; exhaust waves become part of the interaction. The saved crank-angle histories let us examine those calculated events directly. Cylinder and gas-exchange pressure traces use absolute pressure divided by atmospheric pressure, a dimensionless ratio rather than bar. Temperature channels use degrees Celsius, while exhaust Mach describes flow speed relative to the local speed of sound. Each trace offers another way into the same simulated cycle.",
+      "figure": {
+        "image": "engineering/g033-commercial-simulation/cylinder-pressure.svg",
+        "alt": "Cylinder absolute-pressure-to-atmospheric-pressure ratio against crank angle.",
+        "caption": "Dimensionless absolute/atmospheric pressure ratio; not bar or gauge pressure."
+      }
+    },
+    {
+      "title": "A different view of the same calculation",
+      "text": "The pressure–volume relationship puts two changing quantities together, making the cycle visible from another angle. Here, the native volume unit remains unverified, so the figure retains native units and cannot support dimensional work integration. That is a useful example of how engineering graphics are built: preserve the actual samples, retain their definitions, and make the available interpretation clear. The sampled temperature history and the log’s separate last-cycle maximum likewise remain distinct reported channels. Reading the outputs closely helps define better questions for the next experiment.",
+      "figure": {
+        "image": "engineering/g033-commercial-simulation/pressure-volume.svg",
+        "alt": "Native cylinder pressure-volume relationship with unresolved volume units.",
+        "caption": "Native volume units unverified; dimensional work integration unsupported."
+      }
+    },
+    {
+      "title": "Wahoo Intelligence connects the work",
+      "text": "The workflow joined several complementary tasks. Supervised execution protected the reference inputs and preserved native results. Ada’s read-only extraction turned actual output tables into inspectable data and transparent scientific figures. Isaac independently checked execution evidence, transcription and dimensional consistency. This gives the team a shared record that connects a calculation to its inputs, outputs and interpretation. The generative ambition is to extend that connection: propose constrained design variations, evaluate them consistently, compare the tradeoffs and use the findings to guide the next design decision.",
+      "figure": {
+        "image": "engineering/g033-commercial-simulation/workflow.svg",
+        "alt": "Supervised execution, preserved outputs, read-only extraction and independent review.",
+        "caption": "The demonstrated evidence workflow, from reference run to reviewed record."
+      }
+    },
+    {
+      "title": "The qualification still to earn",
+      "text": "One completed reference point does not establish Wahoo performance, numerical convergence, repeatability or physical accuracy. The log contains “Error with TexAvCenterP No: 1 Cycle: 1”, whose significance remains unresolved, alongside scavenging-model corrections. The final six listed power values span about 1.2% of their mean (1.20346% peak-to-peak). That is an observed spread, not a passing tolerance. Independent review verified the workflow and output consistency; it did not independently solve the proprietary physics. These questions remain part of the evidence before relying on predictions.",
+      "figure": {
+        "image": "engineering/g033-commercial-simulation/cylinder-temperature.svg",
+        "alt": "Actual sampled TCyl(1) cylinder-temperature history against crank angle.",
+        "caption": "TCyl(1) temperature in degrees Celsius; distinct from the separate logged maximum."
+      }
+    },
+    {
+      "title": "From a first run to a design conversation",
+      "text": "At the A33 cutoff, the next reference sweep was prepared only: nine points from 10,000 to 14,000 rpm in 500 rpm steps. The intended progression starts with understanding warnings and checking repeatability, then examining the reference across speed. A Wahoo-specific model would follow, supporting controlled port and exhaust comparisons before broader generative comparisons. Propulsion integration adds another essential question: how does the engine’s operating behaviour meet the waterjet’s load? A fully automated loop and physically validated engine remain future work. This first run gives that ambition a practical beginning: a professional solver, an inspectable result and a clearer path from design choices to engineering decisions."
+    }
+  ],
+  "sources": [
+    "A33 accepted reference-execution report and final handoff · 15 November 2026.",
+    "Ada’s actual Run01 interpretation and extracted-value summary · 15 November 2026.",
+    "Independent review of execution, preservation and transcription · 15 November 2026.",
+    "Vannik Developments · EngMod2T introduction and output descriptions, reviewed 15 November 2026."
+  ],
+  "changes": "New retrospective account of the A33 single-point milestone, connecting the existing numerical and parametric-design foundation to the first commercial reference workflow. Owner-approved publication, 15 November 2026.",
+  "galleryTitle": "Gas exchange and exhaust diagnostics",
+  "gallery": [
+    {
+      "image": "engineering/g033-commercial-simulation/gas-exchange.svg",
+      "caption": "Gas-exchange pressure: dimensionless absolute/atmospheric ratio."
+    },
+    {
+      "image": "engineering/g033-commercial-simulation/exhaust-mach.svg",
+      "caption": "Dimensionless exhaust Mach history against crank angle."
+    }
+  ],
+  "references": [
+    {
+      "id": "Vannik",
+      "title": "EngMod2T: simulator scope",
+      "url": "https://vannik.co.za/EngMod2T.htm"
+    },
+    {
+      "id": "Vannik",
+      "title": "EngMod2T: output types",
+      "url": "https://vannik.co.za/EngMod2T%20-%20Outputs.htm"
+    }
+  ],
+  "referencesIntro": "Official EngMod2T product and output descriptions reviewed 15 November 2026. Vendor documentation does not establish Wahoo integration, numerical qualification or physical validation."
+}

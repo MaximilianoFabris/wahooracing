@@ -1561,6 +1561,36 @@
       "source": "Social_Media/Instagram/Lifestyle_Riding_Rev01_20261113/exports/LIGHT-05.png",
       "bytes": 1917181,
       "sha256": "d50b57770fef80c390e8f474a93d2c82119b876c76379e707d9b95d47266ae0b"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g033-commercial-simulation-rev01/ENGINE-01.png",
+      "source": "Social_Media/Instagram/Commercial_Engine_Simulation_Rev01_20261115/exports/ENGINE-01.png",
+      "bytes": 93861,
+      "sha256": "e477844ebaf656510176e94bc4076bfa460e7826eb6118adaac25a4cbb012760"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g033-commercial-simulation-rev01/ENGINE-02.png",
+      "source": "Social_Media/Instagram/Commercial_Engine_Simulation_Rev01_20261115/exports/ENGINE-02.png",
+      "bytes": 92867,
+      "sha256": "611be88c8ed956b9ef02890f78e98cba1276b1fc4053f51c8fca4419ccfecf48"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g033-commercial-simulation-rev01/ENGINE-03.png",
+      "source": "Social_Media/Instagram/Commercial_Engine_Simulation_Rev01_20261115/exports/ENGINE-03.png",
+      "bytes": 92270,
+      "sha256": "058cd3ae544a0aaa8b1e9491430132fc38dd9f905c73e949812c4407c42e1b4a"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g033-commercial-simulation-rev01/ENGINE-04.png",
+      "source": "Social_Media/Instagram/Commercial_Engine_Simulation_Rev01_20261115/exports/ENGINE-04.png",
+      "bytes": 108706,
+      "sha256": "72ddc82179b1ba5586012874b533b13f3fc4d949f58717171d455f445233d251"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/g033-commercial-simulation-rev01/ENGINE-05.png",
+      "source": "Social_Media/Instagram/Commercial_Engine_Simulation_Rev01_20261115/exports/ENGINE-05.png",
+      "bytes": 166708,
+      "sha256": "87acaa40a6eca6d8cd2b2422e79bb1106e59074da27ed3e617bc6c4cf191f306"
     }
   ],
   "sources": [
@@ -1753,9 +1783,14 @@
       "batch": "lifestyle-riding-rev01",
       "source": "Social_Media/Instagram/Lifestyle_Riding_Rev01_20261113/copy/POSTS.json",
       "sha256": "9740f54f11fa3646ca13aa9fdbc43da8ebe7e4b39fe009ec8db8b6005c7b5af5"
+    },
+    {
+      "batch": "g033-commercial-simulation-rev01",
+      "source": "Social_Media/Instagram/Commercial_Engine_Simulation_Rev01_20261115/copy/posts.json",
+      "sha256": "b2f395b0fd29a87d4c390eddac21d9723f94814030b5a7179d3637418517d885"
     }
   ],
-  "projectionSha256": "2e9c3525850c7672005a76437de489ebd3ea4277f81f4996e563c64f970bb905",
+  "projectionSha256": "fd34d5f2466c7adae8343c650a5f9e2c422e3608e8a9dabea7e97612d5f8a2bc",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",
@@ -1878,5 +1913,5 @@
       "sha256": "33082187fe43fd587b112d348e047534ebbfe9eaf45576ae029d8d00b2b63e58"
     }
   ],
-  "updatedDate": "2026-11-13"
+  "updatedDate": "2026-11-15"
 }

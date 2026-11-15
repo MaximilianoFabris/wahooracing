@@ -3198,6 +3198,55 @@
           "reviewStatus": "OWNER_REVIEW"
         }
       ]
+    },
+    {
+      "id": "g033-commercial-simulation-rev01",
+      "title": "First commercial engine simulation",
+      "posts": [
+        {
+          "id": "COMMERCIAL-ENGINE",
+          "title": "Our first commercial engine simulation.",
+          "format": "Carousel · 5 cards",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/g033-commercial-simulation-rev01/ENGINE-01.png",
+              "alt": "Our first engine simulation. Wahoo Intelligence × EngMod2T. Actual RS125 cylinder absolute-pressure/atmospheric-pressure ratio over 0–360 crank degrees at 12,500 RPM. Reference run, not Wahoo performance."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/g033-commercial-simulation-rev01/ENGINE-02.png",
+              "alt": "The numbers are in. RS125 reference simulation: 27.267 kW, 20.830 N·m at 12,500 RPM. One preliminary calculated operating point, explicitly not Wahoo engine performance."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/g033-commercial-simulation-rev01/ENGINE-03.png",
+              "alt": "Beyond horsepower. Two actual full-interval RS125 histories: Pcyl(1) absolute-to-atmospheric pressure ratio and TCyl(1) temperature in degrees Celsius, both over 0–360 crank degrees. Pressure, temperature and gas dynamics."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/g033-commercial-simulation-rev01/ENGINE-04.png",
+              "alt": "Engineering, connected. Workflow diagram: parametric design is a planned model connection; the executed RS125 commercial-solver calculation connects by a solid path to Python extraction and independent analysis. Full automated optimization remains a future goal."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/g033-commercial-simulation-rev01/ENGINE-05.png",
+              "alt": "Next: generative engine design. Three original schematic cylinder alternatives A, B and C illustrate a future objective, not accepted Wahoo CAD, vendor sample geometry or optimized designs. Generate, simulate, compare, refine. Follow the build. Original Wahoo mark."
+            }
+          ],
+          "caption": "Our first commercial engine simulation.\n\nWahoo Intelligence has completed a calculation in EngMod2T, a specialist two-stroke engine simulator. The first run used the manufacturer’s RS125 reference model to establish our workflow before attempting Wahoo-specific performance predictions.\n\nAt one operating point—12,500 RPM—the reference calculation reported 27.267 kW and 20.830 N·m. These are RS125 simulation results, NOT Wahoo engine performance figures or physical test results.\n\nThe milestone goes beyond those numbers. We can now extract native pressure, temperature and gas-dynamics histories into Python, preserve their sources and examine them through our own engineering tools. Execution and data correspondence were independently checked.\n\nThis remains a preliminary vendor-reference simulation. Numerical diagnostics, convergence, repeatability and physical accuracy remain unqualified. The A33 milestone did not execute an RPM sweep or an automated optimization loop.\n\nOur ambition: generate design alternatives, simulate them, compare the evidence and refine the engine before manufacturing prototypes.\n\nFollow the build. wahooracing.com",
+          "hashtags": [
+            "#WahooRacing",
+            "#WahooIntelligence",
+            "#EngineSimulation",
+            "#TwoStroke",
+            "#Jetboard",
+            "#MechanicalEngineering",
+            "#MotorsportEngineering",
+            "#EngineDevelopment",
+            "#GenerativeDesign",
+            "#BehindTheBuild"
+          ],
+          "revision": "Rev01 · A33 reference milestone · 15 November 2026",
+          "reviewStatus": "OWNER_REVIEW"
+        }
+      ],
+      "revision": "Rev01"
     }
   ]
 }

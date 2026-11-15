@@ -2,6 +2,20 @@
   "schema_version": 1,
   "records": [
     {
+      "id": "a33-first-commercial-reference-run",
+      "publication": "published",
+      "date": "2026-11-15",
+      "agents": [
+        "leo",
+        "ada",
+        "isaac"
+      ],
+      "status": "completed",
+      "title": "First Commercial Two-Stroke Engine Simulation",
+      "summary": "Wahoo Intelligence completed its first EngMod2T calculation using a protected RS125 reference model at 12,500 RPM. The commercial solver generated power, torque and cycle-level gas-dynamics data, which were independently checked and extracted into our Python analysis workflow. Numerical repeatability and Wahoo-specific performance modeling remain the next development steps at the A33 milestone cutoff.",
+      "evidence": "A33 single-point retrospective. First-cycle temperature diagnostic unresolved; nine-point sweep prepared only at this milestone’s cutoff."
+    },
+    {
       "id": "surface-microtexture-research-question",
       "publication": "published",
       "date": "2026-11-13",
