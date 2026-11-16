@@ -1,0 +1,173 @@
+{
+  "slug": "h0-h1a-comparison",
+  "title": "H0 vs. H1 — Can a Millimeter Change Performance?",
+  "summary": "How Wahoo Racing is using computational fluid dynamics to explore the relationship between hull geometry, hydrodynamic forces and performance.",
+  "date": "2026-11-16",
+  "dateLabel": "16 November 2026 · completed fixed-body milestone",
+  "revision": "H0 / H1-A C01 · REV01",
+  "type": "Engineering study",
+  "evidence": "Qualified numerical comparison · dynamic response not started · no physical validation",
+  "status": "published",
+  "systems": [
+    "hull-hydrodynamics"
+  ],
+  "hero": "engineering/h0-h1a-comparison/hero.png",
+  "heroAlt": "Actual Wahoo hull geometry introducing the H0 and H1-A CFD comparison; numerical development, not a physical test.",
+  "heroCaption": "A controlled geometry question. H1-A fixed-body CFD complete; dynamic comparison not started at this milestone.",
+  "sections": [
+    {
+      "title": "A — From H0 to H1",
+      "text": "A hull can look almost unchanged and still ask a different question of the water. Wahoo’s first H1-A/C01 fixed-body CFD study has now completed one second of simulated flow at 30 km/h. It gives us a first numerical comparison with H0, our preserved original hull.<br><br>The question grew from H0’s earlier dynamic studies. They revealed strong early bow-up loading and continuing pitch response. By 150 milliseconds, an opposing moment was slowing the rotation, but the hull was still rising and turning upward. That history helped identify controlled design questions around aft support and hull curvature. It did not establish stable trim.<br><br>We are now moving from observing one shape to comparing alternatives. The achievement is a completed experiment with useful evidence, while the performance verdict remains open.",
+      "figure": {
+        "image": "engineering/h0-h1a-comparison/figure01.svg",
+        "alt": "Actual H0 and H1-A hull comparison at consistent scale.",
+        "caption": "Native-geometry comparison; the aft-bottom change is subtle at true scale."
+      }
+    },
+    {
+      "title": "B — Small changes, big questions",
+      "text": "H1-A/C01 is a native smooth Rhino alternative developed with Python-controlled design tools. Its aft-bottom change reaches approximately 1.3 mm at the evaluated surface. That is the surface displacement, rather than the larger movement specified at a design control point.<br><br>A small change makes a focused experiment possible: keep the original reference and ask what changes when this particular region is adjusted. Actual geometry views use consistent scales. A difference map can reveal the detail through colour; any magnified displacement illustration must state its magnification.<br><br>Precision in describing the shape does not guarantee precision in predicting its effect. The numerical surface projection and the initial flow mapping carry their own qualifications. Those matter when interpreting a difference this small.",
+      "figure": {
+        "image": "engineering/h0-h1a-comparison/figure02.svg",
+        "alt": "C01 evaluated surface displacement map in millimetres.",
+        "caption": "Approximately 1.3 mm maximum evaluated surface displacement. Colour shows difference; actual shape is not exaggerated."
+      }
+    },
+    {
+      "title": "C — Into the simulation",
+      "text": "Computational fluid dynamics divides the space around the digital hull into cells and calculates how the flow evolves. Summing pressure and viscous contributions across the hull gives forces and turning moments.<br><br>For this stage, the body stays at an imposed pose while the water moves past at 30 km/h. H1-A reached the exact 1.000-second endpoint on 16 November, with a complete checkpoint verified across four calculation ranks. Completion means the planned numerical stage finished; it does not mean the flow became steady.<br><br>The comparison uses the accepted H0 reference and matched physical times. Fixed-body support loads describe this constrained experiment. They cannot by themselves tell us the running attitude, resistance or handling of a freely responding board.",
+      "figure": {
+        "image": "engineering/h0-h1a-comparison/figure03.svg",
+        "alt": "Actual H1-A evaluated native surface tessellation, including hidden edges; not a CFD volume mesh or pressure field.",
+        "caption": "Source-derived H1-A surface tessellation. Geometry fallback because no qualified matched H1-A pressure image is available; this is not the CFD volume mesh."
+      }
+    },
+    {
+      "title": "D — What the first numbers show",
+      "text": "Over the matched late window, H1-A has higher mean drag, vertical force and bow-up pitching moment. The approximate increases are 3.3 N, 21.6 N and 6.2 N·m respectively: about 1.9%, 9.9% and 1.5%.<br><br>More upward force is not automatically a better result. Where the force acts, its turning effect and the resulting motion all matter. Likewise, a small mean drag difference in this record is not a qualified design penalty.<br><br>The table reports averages and temporal variation on the same basis. RMS describes how much each signal fluctuates around its mean; it is neither a confidence interval nor a CFD error bar. The instantaneous endpoint is a separate observation: H1-A drag there is 227.82 N, rather than its 176.43 N late-window mean.",
+      "figure": {
+        "image": "engineering/h0-h1a-comparison/figure04.svg",
+        "alt": "Late-window H0 and H1-A mean drag comparison, with units and temporal RMS labelled separately.",
+        "caption": "Drag: H0 173.14 N; H1-A 176.43 N. Approximately +1.9% in this window; no statistical significance established."
+      },
+      "table": {
+        "caption": "Matched late window 0.7899333353–1.000 s. RMS about the mean describes temporal variation.",
+        "headers": [
+          "Quantity",
+          "H0 mean",
+          "H1-A mean",
+          "H0 RMS",
+          "H1-A RMS"
+        ],
+        "rows": [
+          [
+            "Drag (N)",
+            "173.14",
+            "176.43",
+            "39.86",
+            "25.72"
+          ],
+          [
+            "Vertical force (N)",
+            "217.28",
+            "238.85",
+            "152.39",
+            "97.12"
+          ],
+          [
+            "Bow-up moment (N·m)",
+            "407.37",
+            "413.53",
+            "110.60",
+            "71.46"
+          ]
+        ]
+      }
+    },
+    {
+      "title": "E — Why more testing is needed",
+      "text": "The flow remains strongly unsteady. Changing the comparison window changes the load differences, sometimes reversing their signs. A single endpoint or one selected average therefore cannot rank these hulls.<br><br>There are also unresolved numerical qualifications. A common geometry-to-mesh projection residual reaches approximately 2.51 mm, and mapping the starting flow to H1-A changed the represented water inventory by approximately 1.02 litres. These are interpretation limits, not measured performance effects or an error bound that can simply be subtracted from a force result.<br><br>H0 already showed why motion matters: once the hull moves, its attitude changes the flow and the loads change again. Smaller fluctuations in one H1-A fixed window do not establish damping or stability. No reliable H1-A performance advantage has yet been demonstrated.<br><br>The genuine H0 waveform below illustrates resolved fluctuations. The H1-A comparison is shown as accepted per-window means and RMS because its original samples are not available in the accessible publication copies. No invented oscillations stand in for missing data."
+    },
+    {
+      "title": "F — What comes next",
+      "text": "At this 16 November milestone, H1-A dynamic CFD has not started. The proposed next experiment examines the first 50 milliseconds after release, conditional on the existing engineering readiness checks. It would investigate early pitching impulse, accumulated angular momentum, pitch response, vertical movement, drag, support and pressure redistribution, alongside numerical uncertainty.<br><br>That response would be a new piece of evidence, not an automatic verdict. The broader direction includes further H1 alternatives, Intake C development and eventually generative optimization. Prepared geometry and workflow tools are foundations for those questions; they are not completed intake CFD or an automated optimization result.<br><br>This is the beginning of performance-driven hull development: make a controlled change, compare what the calculation actually says, and use the unresolved questions to guide the next experiment."
+    }
+  ],
+  "galleryTitle": "Geometry, loads and the next engineering question",
+  "gallery": [
+    {
+      "image": "engineering/h0-h1a-comparison/figure05.svg",
+      "alt": "Late-window vertical forces for H0 and H1-A.",
+      "caption": "Vertical force: 217.28 versus 238.85 N. Approximately +9.9%; greater support is not automatically improved performance."
+    },
+    {
+      "image": "engineering/h0-h1a-comparison/figure06.svg",
+      "alt": "Late-window bow-up moments for H0 and H1-A about the unchanged reference centre of gravity.",
+      "caption": "Bow-up moment: 407.37 versus 413.53 N·m. Approximately +1.5%; fixed-body load, not a stable-trim result."
+    },
+    {
+      "image": "engineering/h0-h1a-comparison/figure07.svg",
+      "alt": "Actual saved H0 fixed-body vertical-force samples above three H1-A-minus-H0 matched window-mean contrasts.",
+      "caption": "Upper: genuine H0 baseline samples, unsmoothed. Lower: accepted H1-A/H0 vertical-force window means. No H1-A waveform is reconstructed from averages or RMS."
+    },
+    {
+      "image": "engineering/h0-h1a-comparison/figure08.svg",
+      "alt": "Native Rhino geometry to controlled variation, CFD, comparison and future refinement.",
+      "caption": "Development workflow illustration. Future optimization is planned, not a completed automated optimizer."
+    },
+    {
+      "image": "engineering/h0-h1a-comparison/figure09.svg",
+      "alt": "Late-window mean and RMS table for both hulls.",
+      "caption": "Matched interval 0.7899333353–1.000 s. Means and RMS use time weighting. RMS about the mean describes temporal variation, not confidence or numerical error."
+    }
+  ],
+  "sources": [
+    "Accepted H0/H1-A fixed-endpoint review · 16 November 2026",
+    "Native H1-A surface qualification · approximately 1.3 mm evaluated maximum",
+    "Accepted H0 dynamic record · 9 November endpoint, reviewed 10 November 2026"
+  ],
+  "thumbnail": "engineering/h0-h1a-comparison/hero.png",
+  "thumbnailAlt": "Actual Wahoo hull geometry introducing the H0 and H1-A CFD comparison; numerical development, not a physical test.",
+  "publicationSequence": 3,
+  "changes": "Owner-approved website publication, 16 November 2026. Mean contrasts and temporal RMS are not CFD uncertainty or a qualified performance advantage.",
+  "downloadsTitle": "High-resolution engineering graphics",
+  "downloadsIntro": "Source-derived presentation exports. Native CAD, raw CFD histories and private review records remain private.",
+  "downloads": [
+    {
+      "file": "engineering/h0-h1a-comparison/figure01.png",
+      "label": "Common-scale native geometry · PNG"
+    },
+    {
+      "file": "engineering/h0-h1a-comparison/figure02.png",
+      "label": "Actual displacement map · PNG"
+    },
+    {
+      "file": "engineering/h0-h1a-comparison/figure03.png",
+      "label": "Evaluated surface tessellation · PNG"
+    },
+    {
+      "file": "engineering/h0-h1a-comparison/figure04.png",
+      "label": "Matched mean drag · PNG"
+    },
+    {
+      "file": "engineering/h0-h1a-comparison/figure05.png",
+      "label": "Matched mean vertical force · PNG"
+    },
+    {
+      "file": "engineering/h0-h1a-comparison/figure06.png",
+      "label": "Matched mean bow-up moment · PNG"
+    },
+    {
+      "file": "engineering/h0-h1a-comparison/figure07.png",
+      "label": "Unsteady evidence and window sensitivity · PNG"
+    },
+    {
+      "file": "engineering/h0-h1a-comparison/figure08.png",
+      "label": "Development workflow · PNG"
+    },
+    {
+      "file": "engineering/h0-h1a-comparison/figure09.png",
+      "label": "Mean-load and RMS summary · PNG"
+    }
+  ]
+}

@@ -3291,6 +3291,50 @@
           ]
         }
       ]
+    },
+    {
+      "id": "h0-h1a-comparison-rev01",
+      "title": "H0 vs. H1-A — the first controlled comparison",
+      "revision": "Rev01",
+      "posts": [
+        {
+          "id": "H0-H1A-COMPARISON",
+          "title": "Can one millimeter change performance?",
+          "format": "Carousel · 5 cards",
+          "caption": "Can one millimeter change performance?\n\nH0 is Wahoo’s original hull. H1-A/C01 is our first controlled comparison: an aft-bottom change reaching approximately 1.3 mm at the evaluated surface.\n\nH1-A has completed one second of fixed-body CFD at 30 km/h. Its late-window mean drag, vertical force and bow-up moment are all higher than H0’s. That is an observation of this experiment—not a proven benefit or disadvantage.\n\nThe loads keep fluctuating, and the comparison changes with the time window. Numerical mapping and model uncertainty also matter. A precise-looking number is not automatically a precise performance prediction.\n\nAt this 16 November milestone, H1-A’s dynamic test has not started. The proposed next step, subject to engineering readiness checks, is to let the hull respond for its first 50 milliseconds and study how motion and water loads interact.\n\nControlled changes. Real numerical evidence. Better questions for the next design.",
+          "hashtags": [
+            "#WahooRacing",
+            "#HullDesign",
+            "#CFD",
+            "#MarineEngineering",
+            "#Jetboard"
+          ],
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/h0-h1a-comparison-rev01/COMPARE-01.png",
+              "alt": "Can one millimeter change performance? New render of actual native H1-A underside, with an approximately 1.3 mm evaluated aft-bottom change. Geometry at true shape; illustrative finish. Fixed-body CFD, no advantage proven."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/h0-h1a-comparison-rev01/COMPARE-02.png",
+              "alt": "H0 versus H1-A/C01 native evaluated surfaces with identical camera and scale. The actual aft-bottom geometry change is not exaggerated. Design study, not a physical product test."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/h0-h1a-comparison-rev01/COMPARE-03.png",
+              "alt": "Matched late-window means at 30 km/h: H0/H1-A drag 173.14/176.43 N, vertical force 217.28/238.85 N, bow-up moment 407.37/413.53 N·m. Source-derived mean differences +1.9%, +9.9%, +1.5%; zero-based comparison bars. No design advantage established."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/h0-h1a-comparison-rev01/COMPARE-04.png",
+              "alt": "Small change, complex response. Upper graph: genuine H0 fixed-body vertical force samples over the late window. Lower: three accepted H1-A-minus-H0 vertical-force window means, −3.2, −44.0 and +21.6 N. No H1 waveform is invented; window sensitivity is material."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/h0-h1a-comparison-rev01/COMPARE-05.png",
+              "alt": "Next: let the hull move. Actual H1-A evaluated surface wireframe, not a CFD volume mesh. First 50 ms dynamic response is planned, conditional on engineering readiness; not started at the fixed milestone."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

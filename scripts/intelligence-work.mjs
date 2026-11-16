@@ -4,6 +4,16 @@ const escape=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&
 const labels={'completed':'Completed','in-progress':'In progress','planned':'Planned'};
 const agentName=id=>agents.find(agent=>agent.id===id)?.name??id;
 const related={
+ 'h1a-native-surface-development':[['h0-h1a-comparison','Read the controlled hull comparison']],
+ 'h1a-c01-first-comparison-selection':[['h0-h1a-comparison','Read the controlled hull comparison']],
+ 'h1a-comparison-preparation':[['h0-h1a-comparison','Read the controlled hull comparison']],
+ 'h1a-future-hulls-intake-c-scope':[['h0-h1a-comparison','Read the controlled hull comparison']],
+ 'h1a-fixed-one-second-complete':[['h0-h1a-comparison','Read the controlled hull comparison']],
+ 'h1a-four-rank-endpoint-verified':[['h0-h1a-comparison','Read the controlled hull comparison']],
+ 'h1a-fixed-load-comparison':[['h0-h1a-comparison','Read the controlled hull comparison']],
+ 'h1a-comparison-qualification':[['h0-h1a-comparison','Read the controlled hull comparison']],
+ 'h1a-first-dynamic-release-preparation':[['h0-h1a-comparison','Read the controlled hull comparison']],
+
  'a35-first-wahoo-specific-engine-run':[['first-wahoo-specific-engine-simulation','Read the first Wahoo-specific engine calculation']],
  'a33-first-commercial-reference-run':[['our-first-engine-simulation','Read the first commercial reference calculation']],
  'surface-microtexture-research-question':[['could-texture-change-the-flow','Explore the surface research question']],

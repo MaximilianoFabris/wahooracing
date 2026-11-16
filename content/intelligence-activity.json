@@ -960,6 +960,130 @@
       "title": "A private working dashboard",
       "summary": "A local private dashboard presents responsibilities, progress and owner decisions. Hosted chat and background services are not connected.",
       "evidence": "Implemented locally"
+    },
+    {
+      "id": "h1a-native-surface-development",
+      "publication": "published",
+      "date": "2026-11-11",
+      "agents": [
+        "ada"
+      ],
+      "status": "completed",
+      "title": "Native H1 alternatives establish a controlled geometry foundation",
+      "summary": "Native smooth editable H1 alternatives and a design matrix provide a basis for controlled comparison. Geometry preparation does not establish hydrodynamic benefit.",
+      "evidence": "Source-backed numerical development record; no physical performance validation."
+    },
+    {
+      "id": "h1a-c01-first-comparison-selection",
+      "publication": "published",
+      "date": "2026-11-12",
+      "agents": [
+        "leo",
+        "ada",
+        "archimedes",
+        "isaac"
+      ],
+      "status": "completed",
+      "title": "H1-A/C01 selected for the first hull comparison",
+      "summary": "The first closed-intake comparison uses the native H1-A alternative. Its aft-bottom evaluated surface change reaches approximately 1.3 mm; H0 remains the reference.",
+      "evidence": "Source-backed numerical development record; no physical performance validation."
+    },
+    {
+      "id": "h1a-comparison-preparation",
+      "publication": "published",
+      "date": "2026-11-12",
+      "agents": [
+        "leo",
+        "archimedes",
+        "ada",
+        "isaac"
+      ],
+      "status": "completed",
+      "title": "H1-A comparison preparation records the geometry and method questions",
+      "summary": "A frozen preparation package defines source geometry, the matched reference and qualification requirements. Preparation did not itself admit a solver run.",
+      "evidence": "Source-backed numerical development record; no physical performance validation."
+    },
+    {
+      "id": "h1a-future-hulls-intake-c-scope",
+      "publication": "published",
+      "date": "2026-11-12",
+      "agents": [
+        "leo",
+        "ada",
+        "archimedes",
+        "isaac"
+      ],
+      "status": "planned",
+      "title": "Future hull and Intake C studies retain their own evidence gates",
+      "summary": "Native hull alternatives and editable Intake C geometry support future study planning. No Intake C CFD or generative optimization result is established.",
+      "evidence": "Source-backed numerical development record; no physical performance validation."
+    },
+    {
+      "id": "h1a-fixed-one-second-complete",
+      "publication": "published",
+      "date": "2026-11-16",
+      "agents": [
+        "leo",
+        "archimedes"
+      ],
+      "status": "completed",
+      "title": "H1-A fixed-body conditioning completes one simulated second",
+      "summary": "The first H1-A/C01 fixed-body CFD stage reached exact physical 1.000 s at 30 km/h and completed normally. Dynamic comparison had not started at this milestone.",
+      "evidence": "Source-backed numerical development record; no physical performance validation."
+    },
+    {
+      "id": "h1a-four-rank-endpoint-verified",
+      "publication": "published",
+      "date": "2026-11-16",
+      "agents": [
+        "leo",
+        "isaac"
+      ],
+      "status": "completed",
+      "title": "Four-rank endpoint and recovery checkpoints verified",
+      "summary": "The saved endpoint and recovery state have synchronized complete finite physical records across four calculation ranks. Checkpoint completeness is separate from motion-release readiness.",
+      "evidence": "Source-backed numerical development record; no physical performance validation."
+    },
+    {
+      "id": "h1a-fixed-load-comparison",
+      "publication": "published",
+      "date": "2026-11-16",
+      "agents": [
+        "archimedes",
+        "isaac",
+        "leo"
+      ],
+      "status": "completed",
+      "title": "Matched fixed-body loads become a first descriptive comparison",
+      "summary": "H1-A late-window mean drag, vertical force and bow-up moment exceed H0 by approximately 3.3 N, 21.6 N and 6.2 N·m. These phase-sensitive fixed-body loads do not rank hull performance.",
+      "evidence": "Source-backed numerical development record; no physical performance validation."
+    },
+    {
+      "id": "h1a-comparison-qualification",
+      "publication": "published",
+      "date": "2026-11-16",
+      "agents": [
+        "isaac",
+        "archimedes"
+      ],
+      "status": "completed",
+      "title": "Independent review retains uncertainty in the first comparison",
+      "summary": "Strong unsteadiness, comparison-window sensitivity and retained mapping qualifications prevent a reliable performance ranking. Temporal RMS is not a confidence interval or CFD error estimate.",
+      "evidence": "Source-backed numerical development record; no physical performance validation."
+    },
+    {
+      "id": "h1a-first-dynamic-release-preparation",
+      "publication": "published",
+      "date": "2026-11-16",
+      "agents": [
+        "leo",
+        "archimedes",
+        "isaac"
+      ],
+      "status": "planned",
+      "title": "First H1-A dynamic-response experiment remains conditional",
+      "summary": "The next proposed experiment follows the first 50 ms after release. Moving-state preparation and phase-specific readiness checks remain outstanding; no H1-A dynamic run had started at the recorded milestone.",
+      "evidence": "Source-backed numerical development record; no physical performance validation."
     }
   ]
 }

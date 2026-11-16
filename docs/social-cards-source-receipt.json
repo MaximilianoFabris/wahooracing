@@ -1621,6 +1621,36 @@
       "source": "Social_Media/Instagram/First_Wahoo_Engine_Run_Rev01_20261115/exports/WAHOO-05.png",
       "bytes": 87599,
       "sha256": "f325fe63f65cc03465c22b87a8c0a5c91e44e86e0cc7b50d258cf251970f6298"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/h0-h1a-comparison-rev01/COMPARE-01.png",
+      "source": "Social_Media/Instagram/H0_H1A_Comparison_Rev01_20261116/exports/COMPARE-01.png",
+      "bytes": 460458,
+      "sha256": "1c3877466033739c98ca3656d58f5132e7bba4c23476bb3815577d0d9513d3a1"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/h0-h1a-comparison-rev01/COMPARE-02.png",
+      "source": "Social_Media/Instagram/H0_H1A_Comparison_Rev01_20261116/exports/COMPARE-02.png",
+      "bytes": 556847,
+      "sha256": "bb0b6b17276c4f3f2726f8f99bda8b2683b1689437e7f2bc714e91c41039499d"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/h0-h1a-comparison-rev01/COMPARE-03.png",
+      "source": "Social_Media/Instagram/H0_H1A_Comparison_Rev01_20261116/exports/COMPARE-03.png",
+      "bytes": 87940,
+      "sha256": "e3f8024d3cd3f0e02859a9e316ff478a0f9e87bd6f0f23ef942fbb97b9aa398e"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/h0-h1a-comparison-rev01/COMPARE-04.png",
+      "source": "Social_Media/Instagram/H0_H1A_Comparison_Rev01_20261116/exports/COMPARE-04.png",
+      "bytes": 106587,
+      "sha256": "9744b6d3984a46daea2dad2bd969cf4190a9d8ff822e9e79d35ab52b7111970d"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/h0-h1a-comparison-rev01/COMPARE-05.png",
+      "source": "Social_Media/Instagram/H0_H1A_Comparison_Rev01_20261116/exports/COMPARE-05.png",
+      "bytes": 246554,
+      "sha256": "fdfab71f78b6430efc217c4b3661fb90c996fad43461df916de1a9da2fa057a6"
     }
   ],
   "sources": [
@@ -1823,9 +1853,14 @@
       "batch": "wahoo-first-engine-run-rev01",
       "source": "Social_Media/Instagram/First_Wahoo_Engine_Run_Rev01_20261115/copy/posts.json",
       "sha256": "b16c3d034e1d73fe933cdc38027284e4eb678ca5aa047c8f3ef1ea32aeea030a"
+    },
+    {
+      "batch": "h0-h1a-comparison-rev01",
+      "source": "Social_Media/Instagram/H0_H1A_Comparison_Rev01_20261116/copy/posts.json",
+      "sha256": "d094c27db92dc3c7f0ae1e6adc3bc53c114f4cccf9f274b25b0eb4ef502d3645"
     }
   ],
-  "projectionSha256": "ebec815e4e3749f43e769acd12bfa96842b15c1b6a8c2598b4e08dd1ccc78623",
+  "projectionSha256": "3a0fcea11bd3994cf77b83dc25dbce96a826b3d73b0808b24ea931a7f5ebcca2",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",
