@@ -328,6 +328,10 @@
     {
       "key": "engine-assembly-render-rev01-ENGINE-ASSEMBLY",
       "category": "engineering"
+    },
+    {
+      "key": "full-propulsion-concept-rev01-FULL-PROPULSION",
+      "category": "engineering"
     }
   ]
 }
