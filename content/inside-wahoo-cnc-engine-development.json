@@ -1,0 +1,115 @@
+{
+  "title": "Inside Wahoo: Engineering an Engine for CNC Manufacturing",
+  "summary": "A checked digital transfer-passage study brings CNC access, stock, assembly and sealing into focus. Manufacturing and physical performance remain unqualified.",
+  "sections": [
+    {
+      "title": "From geometry to manufacture",
+      "text": "An engine passage can look convincing on a screen while leaving a practical question unanswered: how would a cutter reach its inside surface? Wahoo's latest engine development tackles that question alongside another: how do we know the digital passage represents the intended geometry accurately? The result is a more explicit manufacturing concept, with checked geometry and a clearer account of what still needs engineering."
+    },
+    {
+      "title": "A passage and its surrounding material",
+      "text": "The focus is the transfer route between the crankcase and cylinder. In the engine concept, this passage carries fresh charge toward the cylinder. Its shape matters, but so do the surrounding material, joints and access needed to make and inspect it. The current work advances that digital definition. It does not establish engine performance or readiness to manufacture.",
+      "figure": {
+        "image": "engineering/a43-cnc-engine/passages.png",
+        "alt": "Actual A42 transfer-passage context.",
+        "caption": "Source-derived Wahoo passage geometry. Geometry checks do not establish gas-flow performance."
+      }
+    },
+    {
+      "title": "Checking the digital representation",
+      "text": "The first step was to improve how the curved passage was represented. In Assignment 42, the team corrected the numerical mesh without changing the underlying physical map or source apertures. Independent checks compared sections through the saved model with a separately calculated reference. That distinction matters: a more accurate digital representation is useful evidence, even when no physical design change has been made."
+    },
+    {
+      "title": "Preserving the engine context",
+      "text": "Assignment 43 then asked what material could surround the route and how that material might be machined. The protected study contains 1,098 valid native objects. It retains all 1,044 objects from the preceding context assembly, including the 473 original engine-reference objects. Those numbers describe model contents, including construction geometry and alternatives; they are not a count of installed engine parts."
+    },
+    {
+      "title": "Two manufacturing concepts",
+      "text": "Two approaches were developed. Option A surrounds each passage with a continuous shell. Option B divides it into a pocket host and a separate cover on each side. The alternatives are mutually exclusive. They are not extra layers installed together. The pocket-and-cover approach is the preferred development route because opening the cover exposes the cavity for cutter-access and inspection studies. Full access has not yet been demonstrated.",
+      "figure": {
+        "image": "engineering/a43-cnc-engine/cover-study.png",
+        "alt": "Actual A43 pocket hosts and covers graphically separated.",
+        "caption": "Graphical separation only: installation and removal are not demonstrated by this illustration."
+      }
+    },
+    {
+      "title": "A cover has to move",
+      "text": "A removable cover also has to move as one rigid object. In A43, the locating directions vary along the curved interface, so they may constrain removal. An exploded drawing can explain which pieces belong together; it cannot prove that they slide apart. A demonstrated installation and removal path remains a condition of this concept's acceptance as a serviceable assembly."
+    },
+    {
+      "title": "The stock envelope",
+      "text": "The study also makes the stock question visible. The complete reference arrangement reaches approximately 50 mm from the bore axis, compared with an inherited 47 mm radius envelope. That is a 3 mm radial difference. Looking only at the smaller pocket host would miss the cover's contribution. A separate thickness-propagation check increased the provisional cover allocation from 5 to 6 mm, taking the outer radius to approximately 51 mm. Neither thickness is a verified safe value, and neither arrangement establishes a fit within the existing stock."
+    },
+    {
+      "title": "Engineering the seal",
+      "text": "Sealing is another unfinished interface. The model includes sealing-land references, stepped registration and clamp axes. These show intended functions, but they do not specify a complete gas-tight joint. Screw sizes, engagement, preload, dowel fits, seal material and grooves remain open. The pressure boundary must continue through the neck, window and liner interfaces. Material choice, temperature, loads and distortion also need evidence before manufacturing release.",
+      "figure": {
+        "image": "engineering/a43-cnc-engine/section.png",
+        "alt": "Actual saved A43 section at engine Y55mm.",
+        "caption": "Source-derived section. Seal, fastening and locating allocations remain provisional; no qualified seals or fasteners are implied."
+      }
+    },
+    {
+      "title": "Understanding the outlet",
+      "text": "The outlet investigation illustrates why apparently similar area measurements must stay separate. A curved aperture, its projection and a section normal to the passage describe different geometry. Across two sides and two entry variants, A43 reviewed 64 cuts. Sixty were complete normal sections and passed the independent geometric checks. Four met artificial numerical end caps and therefore cannot qualify complete physical sections. A searched minimum-area candidate remains a candidate within the examined domain; it is not a proven global or effective flow throat."
+    },
+    {
+      "title": "A BOM that preserves unknowns",
+      "text": "The component record has progressed with the geometry. Living BOM Revision 04 contains 196 canonical component definitions, including four new handed pocket-host and cover definitions. Their installed quantities, materials, masses and costs remain unknown. A study occurrence identifies something in the model; it does not authorize procurement. The alternative shells and construction references are excluded from installed hardware totals."
+    },
+    {
+      "title": "The next evidence",
+      "text": "The next work is concrete: resolve stock and liner continuity, prove cover movement, close the sealing scheme, and demonstrate tool, holder and fixture access. Existing limitations remain visible, including incomplete moving-part and cooling-clearance qualification and a known head-to-crown conflict. A43 ran no commercial engine solver. A42's earlier isolated calculation remains a model-descriptor sensitivity, not a test of this new host. The achievement is a more inspectable engineering proposal, with specific evidence still required before it becomes a manufacturable engine component.",
+      "figure": {
+        "image": "engineering/a43-cnc-engine/next-steps.png",
+        "alt": "Preferred A43 pocket hosts and covers for further integration study.",
+        "caption": "A43 digital construction study. A44 is tracked separately; no future result is claimed here."
+      }
+    }
+  ],
+  "sources": [
+    "A42 accepted engineering handoff and independent final review, 17 November 2026.",
+    "A43 engineering handoff, Henry manufacturing assessment and Isaac final independent review, 17 November 2026.",
+    "A43 adopted development Living BOM Rev04_20261117."
+  ],
+  "type": "Engineering study",
+  "systems": [
+    "engine"
+  ],
+  "slug": "inside-wahoo-cnc-engine-development",
+  "date": "2026-11-17",
+  "dateLabel": "17 Nov 2026 · A42/A43 digital milestone",
+  "revision": "A42 / A43 · REV01",
+  "evidence": "Verified digital geometry · provisional construction · not physically validated",
+  "status": "published",
+  "thumbnail": "engineering/a43-cnc-engine/hero.png",
+  "thumbnailAlt": "Actual partial A43 transfer-host development geometry. Not a complete or manufactured engine.",
+  "hero": "engineering/a43-cnc-engine/hero.png",
+  "heroAlt": "Two actual A43 pocket-host and cover modules at saved coordinates, source-derived illustrative lighting. Partial editable faceted CAD.",
+  "heroCaption": "Actual saved Wahoo CAD geometry · partial transfer-host modules · illustrative lighting, not a material specification. Manufacturing remains IN DEVELOPMENT.",
+  "changes": "Owner-approved website release, 17 November 2026. A42/A43 milestone only. A44 is a separate follow-up; no A44 completion, manufacturing qualification or physical validation is claimed.",
+  "downloadsTitle": "Source-derived engineering illustrations",
+  "downloadsIntro": "High-resolution presentation exports from the accepted digital study. Native CAD, detailed source records and engineering reviews remain private.",
+  "downloads": [
+    {
+      "file": "engineering/a43-cnc-engine/hero.png",
+      "label": "Host study · PNG"
+    },
+    {
+      "file": "engineering/a43-cnc-engine/passages.png",
+      "label": "Transfer passage context · PNG"
+    },
+    {
+      "file": "engineering/a43-cnc-engine/cover-study.png",
+      "label": "Pocket and cover study · PNG"
+    },
+    {
+      "file": "engineering/a43-cnc-engine/section.png",
+      "label": "Interface section · PNG"
+    },
+    {
+      "file": "engineering/a43-cnc-engine/next-steps.png",
+      "label": "Further integration study · PNG"
+    }
+  ]
+}

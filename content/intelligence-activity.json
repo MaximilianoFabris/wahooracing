@@ -1084,6 +1084,22 @@
       "title": "First H1-A dynamic-response experiment remains conditional",
       "summary": "The next proposed experiment follows the first 50 ms after release. Moving-state preparation and phase-specific readiness checks remain outstanding; no H1-A dynamic run had started at the recorded milestone.",
       "evidence": "Source-backed numerical development record; no physical performance validation."
+    },
+    {
+      "id": "a43-cnc-transfer-host-development",
+      "publication": "published",
+      "date": "2026-11-17",
+      "agents": [
+        "leo",
+        "ada",
+        "nikola",
+        "henry",
+        "isaac"
+      ],
+      "status": "completed",
+      "title": "Transfer geometry advances into a CNC construction study",
+      "summary": "A42/A43 progressed from checked transfer-passage geometry to two provisional material-host alternatives. The protected editable assembly retains its source context; sixty complete normal sections passed independent geometric checks. The pocket-and-cover approach is conditionally preferred for access studies. Stock compatibility, rigid cover motion, sealing and manufacturing qualification remain open.",
+      "evidence": "Digital CAD and geometric verification; not physical validation"
     }
   ]
 }

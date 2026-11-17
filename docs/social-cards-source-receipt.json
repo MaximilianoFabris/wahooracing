@@ -1651,6 +1651,36 @@
       "source": "Social_Media/Instagram/H0_H1A_Comparison_Rev01_20261116/exports/COMPARE-05.png",
       "bytes": 246554,
       "sha256": "fdfab71f78b6430efc217c4b3661fb90c996fad43461df916de1a9da2fa057a6"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/a43-cnc-engine-rev01/A43-01.png",
+      "source": "Social_Media/Instagram/A43_CNC_Engine_Rev01_20261117/exports/A43-01.png",
+      "bytes": 332106,
+      "sha256": "1e97c1c5c6a238a11b3dddaae025676a3176eea77596e6f97cb62de6294fe166"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/a43-cnc-engine-rev01/A43-02.png",
+      "source": "Social_Media/Instagram/A43_CNC_Engine_Rev01_20261117/exports/A43-02.png",
+      "bytes": 98246,
+      "sha256": "6a47baf1b8965c2c0708a2361f821559ff66bc110e9ffd517b949beddf2119dc"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/a43-cnc-engine-rev01/A43-03.png",
+      "source": "Social_Media/Instagram/A43_CNC_Engine_Rev01_20261117/exports/A43-03.png",
+      "bytes": 343721,
+      "sha256": "57551a7de46466bdb561e21afdef1d91a885d0886b6b607886cf0767b75d8c4f"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/a43-cnc-engine-rev01/A43-04.png",
+      "source": "Social_Media/Instagram/A43_CNC_Engine_Rev01_20261117/exports/A43-04.png",
+      "bytes": 80824,
+      "sha256": "c80eae693a5749fe865a387449b13c284e8985fb02c5b2cdbb87e36389c30f97"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/a43-cnc-engine-rev01/A43-05.png",
+      "source": "Social_Media/Instagram/A43_CNC_Engine_Rev01_20261117/exports/A43-05.png",
+      "bytes": 209006,
+      "sha256": "c0e2868d49f31f07f11f3e9a22482913bae5fbf59da615676e8f1d87846bd5c3"
     }
   ],
   "sources": [
@@ -1858,9 +1888,14 @@
       "batch": "h0-h1a-comparison-rev01",
       "source": "Social_Media/Instagram/H0_H1A_Comparison_Rev01_20261116/copy/posts.json",
       "sha256": "d094c27db92dc3c7f0ae1e6adc3bc53c114f4cccf9f274b25b0eb4ef502d3645"
+    },
+    {
+      "batch": "a43-cnc-engine-rev01",
+      "source": "Wahoo_Intelligence/communications/control/20261117-A43-Release/APPROVED_POST.json",
+      "sha256": "52a570b7c62139a5f081e1ba012b15ed7888f33c658b580f0031727cc36a439e"
     }
   ],
-  "projectionSha256": "3a0fcea11bd3994cf77b83dc25dbce96a826b3d73b0808b24ea931a7f5ebcca2",
+  "projectionSha256": "e63e21b33464bc738fb67df73be137ec6499b60b2d2068ae034884b0226e5ef8",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",
@@ -1983,5 +2018,5 @@
       "sha256": "33082187fe43fd587b112d348e047534ebbfe9eaf45576ae029d8d00b2b63e58"
     }
   ],
-  "updatedDate": "2026-11-16"
+  "updatedDate": "2026-11-17"
 }

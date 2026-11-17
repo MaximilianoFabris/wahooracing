@@ -4,6 +4,7 @@ const escape=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&
 const labels={'completed':'Completed','in-progress':'In progress','planned':'Planned'};
 const agentName=id=>agents.find(agent=>agent.id===id)?.name??id;
 const related={
+ 'a43-cnc-transfer-host-development':[['inside-wahoo-cnc-engine-development','Read the CNC construction study']],
  'h1a-native-surface-development':[['h0-h1a-comparison','Read the controlled hull comparison']],
  'h1a-c01-first-comparison-selection':[['h0-h1a-comparison','Read the controlled hull comparison']],
  'h1a-comparison-preparation':[['h0-h1a-comparison','Read the controlled hull comparison']],

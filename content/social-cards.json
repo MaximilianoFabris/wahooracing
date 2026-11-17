@@ -3335,6 +3335,50 @@
           ]
         }
       ]
+    },
+    {
+      "id": "a43-cnc-engine-rev01",
+      "title": "A42/A43 · Designing for CNC manufacture",
+      "revision": "Rev01",
+      "posts": [
+        {
+          "id": "A43-CNC-ENGINE",
+          "title": "Designed to be built.",
+          "format": "Carousel · 5 cards",
+          "caption": "How do you machine the inside of a curved engine passage?\n\nOur latest digital study develops two alternatives. A pocket host with a separate cover is the preferred route for further CNC-access and inspection work. The complete arrangement still needs a proven cover movement, continuous sealing, suitable stock and verified tool access.\n\nSixty complete normal sections passed independent geometric checks. That supports the model's definition; it does not establish engine performance or manufacturing readiness.\n\nThis is engineering in development, with the open questions made visible.",
+          "hashtags": [
+            "#WahooRacing",
+            "#EngineDevelopment",
+            "#CNCMachining",
+            "#EngineeringDesign",
+            "#DesignForManufacture"
+          ],
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/a43-cnc-engine-rev01/A43-01.png",
+              "alt": "Dark graphite card headed Designed to be built. Development CAD / CNC study. Two actual A43 transfer-passage host and cover modules appear as silver faceted geometry with blue covers at their saved coordinates. This is partial CAD, not a complete engine or manufacturing-validated design. Supporting line: Turning internal passages into a material study."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/a43-cnc-engine-rev01/A43-02.png",
+              "alt": "Inside the engine. Two blue wireframe transfer-passage and preliminary open-neck drawings, derived from actual A42 source geometry, on graphite. The route comes first. Actual transfer-passage geometry guides the host. These open-neck passage drawings provide context, not a sealed or complete engine."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/a43-cnc-engine-rev01/A43-03.png",
+              "alt": "The CNC challenge. Silver A43 pocket-host modules and blue candidate removable covers are graphically separated to reveal the interface. Could a removable cover create access? A candidate architecture. Assembly still unresolved. The graphical displacement does not show a verified removal path."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/a43-cnc-engine-rev01/A43-04.png",
+              "alt": "Every detail matters. On a pale background, two actual saved Y55 millimetre section outlines show host geometry in graphite and cover geometry in blue. The interface is part of the design. Sealing and register allocations are provisional. No seal design is released."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/a43-cnc-engine-rev01/A43-05.png",
+              "alt": "Engineering in progress. A smaller silver and blue rendering shows the preferred A43 pocket-host and cover modules at their saved coordinates. A next-step list reads Assembly, Stock, Sealing, with Questions to resolve before machining. A step towards a buildable engine. Partial editable modules. No physical validation yet; the complete engine is not modelled."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
