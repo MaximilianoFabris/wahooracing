@@ -3423,6 +3423,34 @@
           ]
         }
       ]
+    },
+    {
+      "id": "engine-assembly-render-rev01",
+      "title": "The combined engine-core CAD",
+      "revision": "Rev01",
+      "posts": [
+        {
+          "id": "ENGINE-ASSEMBLY",
+          "title": "The engine, coming together.",
+          "format": "Single image",
+          "caption": "The engine is coming together.\n\nOur current engine-core CAD, brought into one view: the conditional lower crankcase, upper cylinder and cooling references, partial piston, nominal wrist-pin and bearing envelopes, and the crank-and-rod proxies.\n\nGhosted shells reveal the internal relationships. The blue transfer routes show gas-space geometry, not finished metal ducts. Metallic finishes and colours are for visualization only.\n\nThis is digital development—not a manufactured or physically validated engine. Actual CS2018 fit, upper closure, sealing, operating clearances and manufacturing remain under qualification. Accessories and interfaces outside the accepted core assembly are not presented as installed.\n\nFollow the build at wahooracing.com.",
+          "hashtags": [
+            "#WahooRacing",
+            "#EngineDevelopment",
+            "#CAD",
+            "#MechanicalDesign",
+            "#BehindTheBuild"
+          ],
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/engine-assembly-render-rev01/ASSEMBLY-01.png",
+              "alt": "The engine, coming together. A source-derived three-dimensional rendering combines21 selected objects from the A45 engine-core study, including the preserved ported-cylinder reference, at their saved positions. Illustrative blue metallic cooling cover, silver partial piston, bronze rod envelopes, dark steel crank-web proxies and a silver lower case; front shell and upper reference are ghosted to reveal internals. Seven labels identify cooling cover, upper cylinder, piston and pin, transfer gas-space routes, rod and bearing envelopes, crank-web proxies and conditional lower crankcase. No manufactured hardware or validated fit is implied. Metallic finishes are illustrative; provisional CAD, not physically validated."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

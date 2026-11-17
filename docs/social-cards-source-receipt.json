@@ -1711,6 +1711,12 @@
       "source": "Social_Media/Instagram/A45_Crankcase_Motion_Rev01_20261117/exports/A45-05.png",
       "bytes": 112657,
       "sha256": "1b0205d4c0f1d61043231cd5a343e089864fca791fc29b20b8d00ca2049f2d91"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/engine-assembly-render-rev01/ASSEMBLY-01.png",
+      "source": "Social_Media/Instagram/Engine_Assembly_Render_Rev01_20261117/exports/ASSEMBLY-01.png",
+      "bytes": 350709,
+      "sha256": "4517a1b90eabc574edd7c8aacf2564530e071a3d400502c164fb5e26aff499f9"
     }
   ],
   "sources": [
@@ -1928,9 +1934,14 @@
       "batch": "a45-crankcase-rev01",
       "source": "Wahoo_Intelligence/communications/control/20261117-A45/APPROVED_POST.json",
       "sha256": "a575976c8763540ed22a870d615550c0ce46ea37b806a40cbb8258b8e6e3a283"
+    },
+    {
+      "batch": "engine-assembly-render-rev01",
+      "source": "Wahoo_Intelligence/communications/control/20261117-Engine-Assembly/APPROVED_POST.json",
+      "sha256": "7ae6d78e2be46d874f71b9692cd2a14effc3bcf1ce36915502a260cfe7a081f2"
     }
   ],
-  "projectionSha256": "be227cbd301fee1b87e939f2e59bee094bdb5b389c5057e39331bc9882d74133",
+  "projectionSha256": "666aab01a46c0e79adf69954e2962a97aa0dd2188f7157d5f7e78f4bbe00caa7",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",

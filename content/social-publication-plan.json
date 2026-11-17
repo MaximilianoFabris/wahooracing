@@ -324,6 +324,10 @@
     {
       "key": "a45-crankcase-rev01-A45-CRANKCASE",
       "category": "engineering"
+    },
+    {
+      "key": "engine-assembly-render-rev01-ENGINE-ASSEMBLY",
+      "category": "engineering"
     }
   ]
 }

@@ -1,0 +1,11 @@
+The engine is coming together.
+
+Our current engine-core CAD, brought into one view: the conditional lower crankcase, upper cylinder and cooling references, partial piston, nominal wrist-pin and bearing envelopes, and the crank-and-rod proxies.
+
+Ghosted shells reveal the internal relationships. The blue transfer routes show gas-space geometry, not finished metal ducts. Metallic finishes and colours are for visualization only.
+
+This is digital development—not a manufactured or physically validated engine. Actual CS2018 fit, upper closure, sealing, operating clearances and manufacturing remain under qualification. Accessories and interfaces outside the accepted core assembly are not presented as installed.
+
+Follow the build at wahooracing.com.
+
+#WahooRacing #EngineDevelopment #CAD #MechanicalDesign #BehindTheBuild
