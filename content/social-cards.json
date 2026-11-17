@@ -3379,6 +3379,50 @@
           ]
         }
       ]
+    },
+    {
+      "id": "a45-crankcase-rev01",
+      "title": "A45 · Crankcase boundary and rotating assembly",
+      "revision": "Rev01",
+      "posts": [
+        {
+          "id": "A45-CRANKCASE",
+          "title": "Every millimeter matters.",
+          "format": "Carousel · 5 cards",
+          "caption": "The crankcase has to make room for an engine that moves.\n\nA45 traced a genuine conflict in our saved CAD back to material inside the crank chamber. With the original crankshaft axis and rod-motion plane checked, a conditional revision replaces the intrusive annular carrier with two integral case-and-crown halves.\n\nFull-revolution checks give positive conservative bounds for the declared moving-part proxies against this lower case.\n\nThis advances the digital architecture. Actual CS2018 fit, the upper closure, seals, bearing interfaces, hot running and manufacturing remain unqualified. No performance claim follows.\n\nRead the engineering story: Inside Wahoo: Designing the Crankcase Around the Engine.",
+          "hashtags": [
+            "#WahooRacing",
+            "#EngineDesign",
+            "#Crankcase",
+            "#Engineering",
+            "#CNC"
+          ],
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/a45-crankcase-rev01/A45-01.png",
+              "alt": "Every millimeter matters. On graphite, an enlarged actual X20 mm section shows the blue candidate crankcase around the orange native rotating web proxy. A crankcase shaped around the space motion needs. Actual CAD section with conditional rotating proxies; actual crankshaft clearance is unqualified."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/a45-crankcase-rev01/A45-02.png",
+              "alt": "Designing around motion. Actual X0 mm median rod and transfer section, with blue case geometry, orange moving source surfaces and gray upper reference. Shaft axis X points into the page; rod motion lies in the YZ plane. The illustrated pose is 67 degrees; the controlling conditional rod bound occurs at 68 degrees."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/a45-crankcase-rev01/A45-03.png",
+              "alt": "From interference to clearance. A pale before-and-after comparison shows the preserved A44 Y40 mm material section with orange web-proxy overlap and two witness points, beside the revised blue A45 X20 mm section surrounding the orange web proxy. Complementary source views from different section planes are explicitly identified. Current CAD envelopes only; actual CS2018 remains unqualified."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/a45-crankcase-rev01/A45-04.png",
+              "alt": "Design. Check. Improve. A large blue 2.89 mm is labelled conditional web proxy lower bound against this lower case only. An enlarged actual X20 mm section crop shows the R55 orange web proxy inside blue case boundaries. The bound includes faceting; actual CS2018 and hot-running clearance remain unknown."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/a45-crankcase-rev01/A45-05.png",
+              "alt": "Built through engineering. An actual X0 upper-joint section detail shows orange moving source geometry, blue candidate case and gray upper reference. Next to resolve: crankshaft interfaces, case closure and shaft seals. Each check sharpens the next question. Conditional CAD architecture, not manufacture-ready."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

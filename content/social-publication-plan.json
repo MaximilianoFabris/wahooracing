@@ -320,6 +320,10 @@
     {
       "key": "a43-cnc-engine-rev01-A43-CNC-ENGINE",
       "category": "engineering"
+    },
+    {
+      "key": "a45-crankcase-rev01-A45-CRANKCASE",
+      "category": "engineering"
     }
   ]
 }

@@ -1100,6 +1100,21 @@
       "title": "Transfer geometry advances into a CNC construction study",
       "summary": "A42/A43 progressed from checked transfer-passage geometry to two provisional material-host alternatives. The protected editable assembly retains its source context; sixty complete normal sections passed independent geometric checks. The pocket-and-cover approach is conditionally preferred for access studies. Stock compatibility, rigid cover motion, sealing and manufacturing qualification remain open.",
       "evidence": "Digital CAD and geometric verification; not physical validation"
+    },
+    {
+      "id": "a45-crankcase-rotating-reconciliation",
+      "publication": "published",
+      "date": "2026-11-17",
+      "agents": [
+        "leo",
+        "ada",
+        "nikola",
+        "isaac"
+      ],
+      "status": "completed",
+      "title": "Conditional crankcase and rotating-assembly study checked",
+      "summary": "A45 corrected the rod-motion interpretation and checked a revised case-and-crown architecture against declared moving-part proxies. Actual CS2018 fit, pressure closure, operating clearances and manufacture remain unqualified.",
+      "evidence": "A45 accepted handoff and final independent review, 17 November 2026."
     }
   ]
 }

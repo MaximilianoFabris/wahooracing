@@ -1681,6 +1681,36 @@
       "source": "Social_Media/Instagram/A43_CNC_Engine_Rev01_20261117/exports/A43-05.png",
       "bytes": 209006,
       "sha256": "c0e2868d49f31f07f11f3e9a22482913bae5fbf59da615676e8f1d87846bd5c3"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/a45-crankcase-rev01/A45-01.png",
+      "source": "Social_Media/Instagram/A45_Crankcase_Motion_Rev01_20261117/exports/A45-01.png",
+      "bytes": 127932,
+      "sha256": "9560e598340ff54142d3e296da8f4daba01a6f32a1c0e2fbd37d5a557b3c467e"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/a45-crankcase-rev01/A45-02.png",
+      "source": "Social_Media/Instagram/A45_Crankcase_Motion_Rev01_20261117/exports/A45-02.png",
+      "bytes": 124258,
+      "sha256": "36234db734fd17103562df51e812c382f1f30fb3c841cda6fab3cf7a27f510c3"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/a45-crankcase-rev01/A45-03.png",
+      "source": "Social_Media/Instagram/A45_Crankcase_Motion_Rev01_20261117/exports/A45-03.png",
+      "bytes": 157267,
+      "sha256": "df2b3744848ffb4debc7141fdc0cfc9a7f6c69081c516232cdc62902ff83d712"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/a45-crankcase-rev01/A45-04.png",
+      "source": "Social_Media/Instagram/A45_Crankcase_Motion_Rev01_20261117/exports/A45-04.png",
+      "bytes": 139465,
+      "sha256": "ac5321f6126c704f7a0d717fb23a19abdffe5cb8e3f6ce42b59b28d368b45787"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/a45-crankcase-rev01/A45-05.png",
+      "source": "Social_Media/Instagram/A45_Crankcase_Motion_Rev01_20261117/exports/A45-05.png",
+      "bytes": 112657,
+      "sha256": "1b0205d4c0f1d61043231cd5a343e089864fca791fc29b20b8d00ca2049f2d91"
     }
   ],
   "sources": [
@@ -1893,9 +1923,14 @@
       "batch": "a43-cnc-engine-rev01",
       "source": "Wahoo_Intelligence/communications/control/20261117-A43-Release/APPROVED_POST.json",
       "sha256": "52a570b7c62139a5f081e1ba012b15ed7888f33c658b580f0031727cc36a439e"
+    },
+    {
+      "batch": "a45-crankcase-rev01",
+      "source": "Wahoo_Intelligence/communications/control/20261117-A45/APPROVED_POST.json",
+      "sha256": "a575976c8763540ed22a870d615550c0ce46ea37b806a40cbb8258b8e6e3a283"
     }
   ],
-  "projectionSha256": "e63e21b33464bc738fb67df73be137ec6499b60b2d2068ae034884b0226e5ef8",
+  "projectionSha256": "be227cbd301fee1b87e939f2e59bee094bdb5b389c5057e39331bc9882d74133",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",

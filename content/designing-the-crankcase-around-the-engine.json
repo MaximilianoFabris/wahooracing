@@ -1,0 +1,108 @@
+{
+  "title": "Inside Wahoo: Designing the Crankcase Around the Engine",
+  "summary": "A real conflict in saved CAD led to a conditional case-and-crown revision, checked around the original moving-part proxies. Physical crankshaft fit, pressure closure and manufacture remain unqualified.",
+  "sections": [
+    {
+      "title": "Following the interference",
+      "text": "The crankcase has to make room for an engine that moves. Wahoo’s latest digital study began with a conflict between an earlier transfer-passage carrier and the saved crank-web proxies. Assignment 45 traces that conflict back to its geometry, corrects an earlier interpretation of the connecting rod’s motion, and develops a different material boundary around the crank chamber. The result is an accepted conditional architecture with explicit limits on what it proves."
+    },
+    {
+      "title": "Why reducing the outside would not work",
+      "text": "In A44, the annular carrier placed material inside the architectural crank chamber. Specific points in that material also lay inside the saved R55 crank-web proxies. This was a genuine conflict in the digital study. Reducing the carrier’s outside radius around the cylinder would leave those inner points in place. The finding does not establish interference with the actual CS2018 crankshaft: its full web profile, thickness, spacing and installed axial stack remain unknown.",
+      "figure": {
+        "image": "engineering/a45-crankcase/interference.png",
+        "alt": "The saved A44 construction intersects a declared crank-web proxy.",
+        "caption": "Genuine conflict in the source digital model. This does not establish interference with actual CS2018 hardware."
+      }
+    },
+    {
+      "title": "Recovering the moving geometry",
+      "text": "The crankshaft runs along the model’s X axis; the cylinder lies along Y. The crank and rod move in the YZ plane. Measuring a radius around the cylinder therefore answers a different question from measuring it around the crankshaft. Independent checks recovered the original motion frame across 360 unique phases and the closing position. An earlier rod-clearance interpretation using the XY plane remains withdrawn. Neither the shaft nor the cylinder was relocated. The supporting illustrations use actual saved-geometry cuts at the median rod plane and the right crank-web plane. Unsupported caps and tapered surfaces are omitted and recorded. Separate native studies retain mutually exclusive motion poses and actual outward translations of the case halves. Those translations demonstrate the tested rigid fixtures and separation of the two halves within that scope. They do not prove extraction past every bearing, shoulder, retainer, coupling or installed surrounding component.",
+      "figure": {
+        "image": "engineering/a45-crankcase/motion.png",
+        "alt": "Actual A45 median section and declared rotating context.",
+        "caption": "Crankshaft X-axis; rod motion in YZ. The source figure illustrates 67°; controlling sampled rod-body state is 68°."
+      }
+    },
+    {
+      "title": "Changing the boundary",
+      "text": "The A45 candidate replaces the intrusive annular construction with two integral case-and-crown halves, retaining the original axial split at X0. A matching pocket is opened in the working case so the new crown shares its material boundary. It is not simply an insert overlapping uncut stock. The original case and earlier carrier remain preserved as historical references. Accepted piston geometry, port apertures and the shaft and cylinder axes remain unchanged. The transfer gas mouths stay open at the tested sections. Preserving that passage context does not turn the lower chamber construction into a certified sealed volume or a new effective flow length. Existing simulator inputs remain authoritative. The integrated assembly also preserves the historical native objects; its object count includes references and alternatives, rather than identifying installed hardware quantities.",
+      "figure": {
+        "image": "engineering/a45-crankcase/revised-case.png",
+        "alt": "Actual revised lower-case boundary at the right crank-web section.",
+        "caption": "Blue: revised case material. Orange: moving geometry or declared proxies. Gray: retained reference context. The material boundary is distinct from gas space."
+      }
+    },
+    {
+      "title": "Checking a conditional clearance",
+      "text": "Independent review checked connected, closed mesh boundaries, the common split interface and selected open gas sections. These checks establish specific digital properties. They do not establish an assembled pressure-tight engine or a globally qualified flow route. The candidate remains an architectural mesh, rather than production surface geometry. Its smallest crank-axis radius is 57.890 mm: inward faceting places it approximately 0.110 mm inside the nominal 58 mm surface. That measured boundary governs the reported margins. Using the declared moving-part proxies and conservative allowances between sampled positions, the study reports full-revolution lower bounds against the new lower case and crown: 2.89 mm for the web proxy, 4.73 mm for the rod body and 11.64 mm for the big end. These are conditional geometric exclusions. They are not required running clearances, actual CS2018 fit or complete-engine clearance approval. The illustrated rod pose is 67 degrees; the controlling sampled rod-body state is 68 degrees.",
+      "figure": {
+        "image": "engineering/a45-crankcase/clearance.png",
+        "alt": "A45 conditional lower-case clearance investigation against source proxies.",
+        "caption": "Conservative full-revolution lower bounds: approximately 2.89 mm web, 4.73 mm rod body and 11.64 mm big end, for declared CAD proxies only. Not actual hardware fit or required hot running clearances."
+      }
+    },
+    {
+      "title": "The interfaces still to engineer",
+      "text": "The pressure boundary is the set of walls and joints that must keep the gas inside the crankcase. Closing it requires more than two matching digital halves. The upper liner and base joint, axial end walls, shaft seals, split-joint sealing and fastening remain unfinished. Bearing interfaces, lower cooling, material strength, thermal distortion, tolerances and full cutter and fixture access also need evidence. The inherited 0.6 mm head-to-crown conflict remains open. Living BOM Revision 04 stays at 196 component definitions, with no adopted new quantities, masses or costs. No new commercial engine or CFD calculation supports this geometry study, and no performance validation follows from it.",
+      "figure": {
+        "image": "engineering/a45-crankcase/next-interfaces.png",
+        "alt": "Actual upper-interface context retained for further engineering.",
+        "caption": "Upper closure, liner termination, axial sealing and bearing interfaces remain under development. A46 is a future follow-up, not a completed result in this article."
+      }
+    },
+    {
+      "title": "The next decision",
+      "text": "A46 is the recommended future assignment: qualify the controlling CS2018 dimensions and integrate the upper-module and axial pressure boundaries. It is not a completed part of A45. The useful advance here is a traceable explanation of the old conflict and a checked conditional alternative, giving the next engineering work a clearer starting point while physical fit, hot operation and manufacturing release remain open."
+    }
+  ],
+  "sources": [
+    "A45 accepted engineering handoff and interference-mechanism report, 17 November 2026.",
+    "A45 final independent engineering review and qualification matrix, 17 November 2026.",
+    "A45 native engine-section evidence and figure provenance, 17 November 2026."
+  ],
+  "type": "Engineering study",
+  "systems": [
+    "engine"
+  ],
+  "slug": "designing-the-crankcase-around-the-engine",
+  "date": "2026-11-17",
+  "dateLabel": "17 Nov 2026 · A45 conditional digital milestone",
+  "revision": "A45 · REV01",
+  "evidence": "Conditional CAD-proxy clearance · actual hardware fit unqualified",
+  "status": "published",
+  "thumbnail": "engineering/a45-crankcase/hero.png",
+  "thumbnailAlt": "Actual A45 crankcase sections around declared moving-part proxies. Not a verified actual CS2018 fit.",
+  "hero": "engineering/a45-crankcase/hero.png",
+  "heroAlt": "Actual saved A45 X0 median and X20 crank-web sections. Blue revised case; orange moving geometry or proxies; gray upper references.",
+  "heroCaption": "Source-derived A45 sections · X0 median rod/transfer plane and X20 right-web plane · illustrated 67° pose, not the controlling 68° rod-body state. Conditional geometry, not physical validation.",
+  "changes": "Owner directly authorized website deployment after technical preparation and review, 17 November 2026. A45 scoped digital milestone only; no actual CS2018 clearance, manufacturing qualification or new engine-performance result. A46 is not presented as completed.",
+  "downloadsTitle": "Explore the engineering drawings",
+  "downloadsIntro": "High-resolution Wahoo presentation graphics derived from saved CAD sections. Native engineering files and private verification records are not distributed.",
+  "downloads": [
+    {
+      "file": "engineering/a45-crankcase/hero.png",
+      "label": "Hero · PNG"
+    },
+    {
+      "file": "engineering/a45-crankcase/interference.png",
+      "label": "Interference · PNG"
+    },
+    {
+      "file": "engineering/a45-crankcase/motion.png",
+      "label": "Motion · PNG"
+    },
+    {
+      "file": "engineering/a45-crankcase/revised-case.png",
+      "label": "Revised case · PNG"
+    },
+    {
+      "file": "engineering/a45-crankcase/clearance.png",
+      "label": "Clearance · PNG"
+    },
+    {
+      "file": "engineering/a45-crankcase/next-interfaces.png",
+      "label": "Next interfaces · PNG"
+    }
+  ]
+}
