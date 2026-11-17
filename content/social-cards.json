@@ -3454,14 +3454,14 @@
     },
     {
       "id": "full-propulsion-concept-rev01",
-      "title": "The complete propulsion concept",
-      "revision": "Rev01",
+      "title": "The horizontal engine and propulsion concept",
+      "revision": "Rev02",
       "posts": [
         {
           "id": "FULL-PROPULSION",
-          "title": "More than an engine.",
+          "title": "Inside the complete system.",
           "format": "Carousel",
-          "caption": "Engine. Fuel. Control. Thrust.\n\nThis is the bigger picture we are developing towards: an engine surrounded by its exhaust, fuel system, electronic injection, ECU, battery, starting system and jetpump.\n\nSwipe from the complete concept into the flywheel and starter gearing, then through fuel and electronic control, and inside a sectioned jetpump with its impeller and guide vanes exposed.\n\nThis is a marketing concept combining preliminary engine CAD with representative components. The external casings, gears, pump internals, accessories, connections, packaging and finishes are illustrative—not selected hardware or verified assembly fit. It is not a manufactured or physically tested product.\n\nThe ambition is to make every interface work as one system. Follow the development at wahooracing.com.",
+          "caption": "The engine is only part of the picture.\n\nThis propulsion concept brings the horizontal engine core together with air intake, fuel delivery, ignition, electrical control, starting, exhaust and a sectioned jetpump.\n\nSwipe inside the opened engine to see the crankshaft proxies, connecting rod, piston and wrist pin. Then follow the air and fuel components, starter gearing and driveline to the representative pump internals.\n\nThe illustration combines preliminary CAD, historical reference envelopes and representative parts. The head, throttle and reed-cage references do not establish final hardware selection. The crankshaft, rod and piston remain partial or provisional; accessories, gears, connections, packaging and pump internals are illustrative. Oil supply routing remains unresolved. Display sections reveal relationships; this is not a built or physically tested product, verified assembly fit or a performance result.\n\nOne system, taking shape. Follow the development at wahooracing.com.",
           "hashtags": [
             "#WahooRacing",
             "#Jetboard",
@@ -3469,28 +3469,28 @@
             "#ProductDesign",
             "#BehindTheBuild"
           ],
-          "revision": "Rev01",
+          "revision": "Rev02",
           "reviewStatus": "OWNER_REVIEW",
           "cards": [
             {
-              "imageURL": "/preview/social-cards/images/full-propulsion-concept-rev01/SYSTEM-01.png",
-              "alt": "More than an engine. Complete conceptual Wahoo propulsion package with tagged engine, fuel tank, battery pack, ECU, straight exhaust and jetpump. Actual preliminary engine-core CAD is combined with representative metallic casings and accessories on display rails. This is a concept layout, not a built or validated assembly."
+              "imageURL": "/preview/social-cards/images/full-propulsion-concept-rev01/SYSTEM-01-REV02.png",
+              "alt": "More than an engine. A dark studio view of the conceptual propulsion system with its cylinder horizontal, an opened engine core, fuel tank, air intake, electronic control and power modules, exhaust and sectioned jetpump. These groups are tagged. Preliminary CAD is combined with representative parts; this is not a built or validated assembly. Cooling concept hoses and the driveline coupling are also tagged."
             },
             {
-              "imageURL": "/preview/social-cards/images/full-propulsion-concept-rev01/SYSTEM-02.png",
-              "alt": "The first engagement. Large close view of an illustrative bronze flywheel ring gear meshing with a smaller starter pinion beside a blue and dark-metal starter motor. Labels identify flywheel, ring gear, motor and pinion. The gears are owner-requested visual placeholders, not a selected or verified gear design."
+              "imageURL": "/preview/social-cards/images/full-propulsion-concept-rev01/SYSTEM-02-REV02.png",
+              "alt": "The core, revealed. Large opened horizontal engine on a pale background. Tags name conditional crankcase CAD, crankshaft web and pin proxies, connecting-rod proxy envelope, provisional piston, nominal wrist pin envelope, preliminary cylinder body, and a head reference envelope with concept face. Near surfaces are removed for display so the internal relationships can be seen; the model is preliminary and includes proxy geometry."
             },
             {
-              "imageURL": "/preview/social-cards/images/full-propulsion-concept-rev01/SYSTEM-03.png",
-              "alt": "Fuel. Power. Control. On a pale field, a metallic fuel-tank concept, pump and filter, electronic-injector placeholder, blue ECU and battery pack surround the engine. All five component groups are tagged. Component selection, routes and packaging remain illustrative."
+              "imageURL": "/preview/social-cards/images/full-propulsion-concept-rev01/SYSTEM-03-REV02.png",
+              "alt": "Feed. Fire. Control. A pale composition around the horizontal engine tags the air filter, throttle reference envelope, reed-cage reference envelope, representative injector, fuel tank, pump and filter, ECU, ignition and battery with power connections. Finishes and accessory routes are illustrative; reference envelopes are not final selected hardware."
             },
             {
-              "imageURL": "/preview/social-cards/images/full-propulsion-concept-rev01/SYSTEM-04.png",
-              "alt": "A look inside. A display section removes the near half of a representative jetpump housing to expose its blue impeller, shaft, silver guide vanes and outlet nozzle. Labels identify the internal components. Impeller, stator and housing geometry are conceptual placeholders, not actual CFD or verified pump design."
+              "imageURL": "/preview/social-cards/images/full-propulsion-concept-rev01/SYSTEM-04-REV02.png",
+              "alt": "From start to propulsion. Two separate close views show the fixed-reference starter motor and flywheel envelopes with illustrative ring gear and pinion, beside a sectioned representative jetpump. Labels identify the exposed motor barrel, starter pinion, flywheel and ring gear, drive shaft, impeller, guide vanes and outlet nozzle. The coupling is tagged on card1. Gears and pump internals are conceptual; no selected transmission, hydraulic performance or verified hardware fit is claimed."
             },
             {
-              "imageURL": "/preview/social-cards/images/full-propulsion-concept-rev01/SYSTEM-05.png",
-              "alt": "One system, taking shape. A new rear three-quarter view shows the complete conceptual propulsion assembly with exhaust above the driveline and the sectioned jetpump, alongside fuel and control modules. Tagged engine and starter, exhaust, fuel system and jetpump. Follow the build. Preliminary CAD plus concepts, not a built product."
+              "imageURL": "/preview/social-cards/images/full-propulsion-concept-rev01/SYSTEM-05-REV02.png",
+              "alt": "One system. Taking shape. A different elevated view shows the horizontal engine with starting, fuel and air, control and ignition, exhaust and sectioned jetpump. Tags identify each group and an oil-supply placeholder whose routing remains unresolved. Follow the build. A system concept, not a built or validated product."
             }
           ]
         }

@@ -1719,34 +1719,34 @@
       "sha256": "4517a1b90eabc574edd7c8aacf2564530e071a3d400502c164fb5e26aff499f9"
     },
     {
-      "imageURL": "/preview/social-cards/images/full-propulsion-concept-rev01/SYSTEM-01.png",
-      "source": "Social_Media/Instagram/Full_Propulsion_Concept_Rev01_20261117/exports/SYSTEM-01.png",
-      "bytes": 382129,
-      "sha256": "d0c387f34be1ff0a8c1fa552dcf8599ebd37a4ad97d85bc486d8570a6864c4cd"
+      "imageURL": "/preview/social-cards/images/full-propulsion-concept-rev01/SYSTEM-01-REV02.png",
+      "source": "Social_Media/Instagram/Full_Propulsion_Concept_Rev02_20261117/exports/SYSTEM-01.png",
+      "bytes": 378185,
+      "sha256": "cf2a85a1936d5616fdd885abbb8a88918c7b7cfa51443e68ace9e86f7fd10eb1"
     },
     {
-      "imageURL": "/preview/social-cards/images/full-propulsion-concept-rev01/SYSTEM-02.png",
-      "source": "Social_Media/Instagram/Full_Propulsion_Concept_Rev01_20261117/exports/SYSTEM-02.png",
-      "bytes": 592258,
-      "sha256": "ff3a8ef7d0ae1ee4bfbb30ba22b85128fb29db37f9b43ea1aef8bf71cbb9eda5"
+      "imageURL": "/preview/social-cards/images/full-propulsion-concept-rev01/SYSTEM-02-REV02.png",
+      "source": "Social_Media/Instagram/Full_Propulsion_Concept_Rev02_20261117/exports/SYSTEM-02.png",
+      "bytes": 427528,
+      "sha256": "c78227b56f716a0f8c14b82f2f22bd61f0fb3e561f79f3694e6533481099135b"
     },
     {
-      "imageURL": "/preview/social-cards/images/full-propulsion-concept-rev01/SYSTEM-03.png",
-      "source": "Social_Media/Instagram/Full_Propulsion_Concept_Rev01_20261117/exports/SYSTEM-03.png",
-      "bytes": 393783,
-      "sha256": "5e1624d40838ffe7546f305ceae358b5eb991c44375baddaa2bacda05ef7331e"
+      "imageURL": "/preview/social-cards/images/full-propulsion-concept-rev01/SYSTEM-03-REV02.png",
+      "source": "Social_Media/Instagram/Full_Propulsion_Concept_Rev02_20261117/exports/SYSTEM-03.png",
+      "bytes": 273789,
+      "sha256": "dc8cbc28c1d4d1581f9f91b27306882aabb646361898d2f9387b371ac9970f88"
     },
     {
-      "imageURL": "/preview/social-cards/images/full-propulsion-concept-rev01/SYSTEM-04.png",
-      "source": "Social_Media/Instagram/Full_Propulsion_Concept_Rev01_20261117/exports/SYSTEM-04.png",
-      "bytes": 407729,
-      "sha256": "ab3d1bf8f3a5b9adbe3d92ff2cc0cb7f049ae98f20e9869a6c485ac823805da9"
+      "imageURL": "/preview/social-cards/images/full-propulsion-concept-rev01/SYSTEM-04-REV02.png",
+      "source": "Social_Media/Instagram/Full_Propulsion_Concept_Rev02_20261117/exports/SYSTEM-04.png",
+      "bytes": 403051,
+      "sha256": "18a25e89fa9680604ab8dbf111b9eae76c9dd0e8fcba2d3ac65132dbe7250333"
     },
     {
-      "imageURL": "/preview/social-cards/images/full-propulsion-concept-rev01/SYSTEM-05.png",
-      "source": "Social_Media/Instagram/Full_Propulsion_Concept_Rev01_20261117/exports/SYSTEM-05.png",
-      "bytes": 360251,
-      "sha256": "74c988ab636a665eb1d21c135298ca68a281b11b8747b78f0dd3b91c87d64c3d"
+      "imageURL": "/preview/social-cards/images/full-propulsion-concept-rev01/SYSTEM-05-REV02.png",
+      "source": "Social_Media/Instagram/Full_Propulsion_Concept_Rev02_20261117/exports/SYSTEM-05.png",
+      "bytes": 385098,
+      "sha256": "046dfdeee4a9ac80d77d043a8b350f8f41b5a47bb7245b00a1de9e0c2663887f"
     }
   ],
   "sources": [
@@ -1972,11 +1972,11 @@
     },
     {
       "batch": "full-propulsion-concept-rev01",
-      "source": "Wahoo_Intelligence/communications/control/20261117-Full-Propulsion/APPROVED_POST.json",
-      "sha256": "d1cc20f9a54f61cd5f90274e3b56b131970341bd3ef9bd7db319f6b945311662"
+      "source": "Wahoo_Intelligence/communications/control/20261117-Full-Propulsion-Rev02/APPROVED_POST.json",
+      "sha256": "29823ad2d23d4d4f99069c1215898ffa801bc5f60e189bf83df4b9938195fd69"
     }
   ],
-  "projectionSha256": "107c6aa658c881715fc14ee460e750830dcee83d981139b600a92dac8747515d",
+  "projectionSha256": "b29aa450baef382a8fb3221669141ac0f776e6c8404d17816dcc2650da52f3b6",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",
@@ -2097,6 +2097,41 @@
       "source": "Social_Media/Instagram/Blue_Studio_Rev02_20261103/exports/BLUE-05.png",
       "bytes": 1285016,
       "sha256": "33082187fe43fd587b112d348e047534ebbfe9eaf45576ae029d8d00b2b63e58"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/full-propulsion-concept-rev01/SYSTEM-01.png",
+      "source": "Social_Media/Instagram/Full_Propulsion_Concept_Rev01_20261117/exports/SYSTEM-01.png",
+      "bytes": 382129,
+      "sha256": "d0c387f34be1ff0a8c1fa552dcf8599ebd37a4ad97d85bc486d8570a6864c4cd",
+      "status": "SupersededRev01retained; ownercorrectedhorizontalframeandcomponentvisibility"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/full-propulsion-concept-rev01/SYSTEM-02.png",
+      "source": "Social_Media/Instagram/Full_Propulsion_Concept_Rev01_20261117/exports/SYSTEM-02.png",
+      "bytes": 592258,
+      "sha256": "ff3a8ef7d0ae1ee4bfbb30ba22b85128fb29db37f9b43ea1aef8bf71cbb9eda5",
+      "status": "SupersededRev01retained; ownercorrectedhorizontalframeandcomponentvisibility"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/full-propulsion-concept-rev01/SYSTEM-03.png",
+      "source": "Social_Media/Instagram/Full_Propulsion_Concept_Rev01_20261117/exports/SYSTEM-03.png",
+      "bytes": 393783,
+      "sha256": "5e1624d40838ffe7546f305ceae358b5eb991c44375baddaa2bacda05ef7331e",
+      "status": "SupersededRev01retained; ownercorrectedhorizontalframeandcomponentvisibility"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/full-propulsion-concept-rev01/SYSTEM-04.png",
+      "source": "Social_Media/Instagram/Full_Propulsion_Concept_Rev01_20261117/exports/SYSTEM-04.png",
+      "bytes": 407729,
+      "sha256": "ab3d1bf8f3a5b9adbe3d92ff2cc0cb7f049ae98f20e9869a6c485ac823805da9",
+      "status": "SupersededRev01retained; ownercorrectedhorizontalframeandcomponentvisibility"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/full-propulsion-concept-rev01/SYSTEM-05.png",
+      "source": "Social_Media/Instagram/Full_Propulsion_Concept_Rev01_20261117/exports/SYSTEM-05.png",
+      "bytes": 360251,
+      "sha256": "74c988ab636a665eb1d21c135298ca68a281b11b8747b78f0dd3b91c87d64c3d",
+      "status": "SupersededRev01retained; ownercorrectedhorizontalframeandcomponentvisibility"
     }
   ],
   "updatedDate": "2026-11-17"
