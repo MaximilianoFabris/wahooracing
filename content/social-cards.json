@@ -3495,6 +3495,55 @@
           ]
         }
       ]
+    },
+    {
+      "id": "leo-generative-world-rev01",
+      "title": "Leo / the generative-engine ambition",
+      "revision": "Rev01",
+      "posts": [
+        {
+          "id": "LEO-GENERATIVE-WORLD",
+          "title": "Inside Leo's digital workshop",
+          "format": "Carousel",
+          "caption": "Every future day on the water starts somewhere.\n\nFor Wahoo, part of that journey is building the digital workshop behind our generative-engine ambition: connecting geometry, simulation and engineering judgement so we can explore alternatives and learn from them.\n\nMeet Leo, our AI Chief Engineer, imagined here inside that virtual world.\n\nThese scenes are AI-generated concept art, not actual CAD, software screenshots, optimized engine designs or physical testing. The complete generative workflow is still in development.\n\nOne question becomes another possibility. Follow the build at wahooracing.com.",
+          "hashtags": [
+            "#WahooRacing",
+            "#WahooIntelligence",
+            "#BehindTheBuild",
+            "#GenerativeDesign",
+            "#EngineDevelopment",
+            "#Jetboard",
+            "#DesignCulture",
+            "#DigitalCraft",
+            "#AIConceptArt",
+            "#EngineeringJourney"
+          ],
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/leo-generative-world-rev01/LEO-01.png",
+              "alt": "Every engine starts with a question. Leo, the established graphite-and-blue fictional Wahoo AI character, considers a small horizontal engine-inspired hologram at an ocean-facing virtual atelier. Original Wahoo branding. AI-generated concept art, not actual CAD, a software interface or physical engineering work."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/leo-generative-world-rev01/LEO-02.png",
+              "alt": "First, build the digital workshop. An intimate new scene shows Leo's hands arranging translucent horizontal engine-inspired forms above a dark coastal worktable. Geometry, simulation and engineering judgement are the theme. The depicted parts and workshop are AI-generated artistic metaphors, not Wahoo engineering geometry or an assembled physical engine."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/leo-generative-world-rev01/LEO-03.png",
+              "alt": "One idea. Many possibilities. In a bright silver-white coastal gallery, Leo explores four different abstract virtual mechanical forms on glass displays. The alternatives are conceptual imagery for a future generative-design workflow, not actual generated, evaluated or optimized Wahoo engine candidates."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/leo-generative-world-rev01/LEO-04.png",
+              "alt": "Design. Simulate. Question. Repeat. Close portrait of Leo's opaque black visor and blue seams, with a subtle abstract branching reflection as his hand rests on glass. The loop is explicitly described as something Wahoo is building towards. This is AI character concept art, not an actual result or software screenshot."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/leo-generative-world-rev01/LEO-05.png",
+              "alt": "The next chapter starts here. Seen from behind, Leo looks from an imagined virtual atelier toward a silver-blue ocean. Follow the build at wahooracing.com. AI-generated brand-world scene; no real rider, physical prototype or completed product is depicted."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -1747,6 +1747,36 @@
       "source": "Social_Media/Instagram/Full_Propulsion_Concept_Rev02_20261117/exports/SYSTEM-05.png",
       "bytes": 385098,
       "sha256": "046dfdeee4a9ac80d77d043a8b350f8f41b5a47bb7245b00a1de9e0c2663887f"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/leo-generative-world-rev01/LEO-01.png",
+      "source": "Social_Media/Instagram/Leo_Generative_World_Rev01_20261117/exports/LEO-01.png",
+      "bytes": 1700356,
+      "sha256": "868fa1031ac7ab997db1bf8f9d0ae8611bc24f2f116839f876b967328c72f3ee"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/leo-generative-world-rev01/LEO-02.png",
+      "source": "Social_Media/Instagram/Leo_Generative_World_Rev01_20261117/exports/LEO-02.png",
+      "bytes": 1699787,
+      "sha256": "26dac6824d7fe21ab4a57c56934deefbe9785f19358f967a92428b6a6b77ac99"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/leo-generative-world-rev01/LEO-03.png",
+      "source": "Social_Media/Instagram/Leo_Generative_World_Rev01_20261117/exports/LEO-03.png",
+      "bytes": 1399067,
+      "sha256": "a1445c11f31ffcc8a2c5b683298f51e3d392b65cbf676c170c2f2ef9d2d20f44"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/leo-generative-world-rev01/LEO-04.png",
+      "source": "Social_Media/Instagram/Leo_Generative_World_Rev01_20261117/exports/LEO-04.png",
+      "bytes": 1682463,
+      "sha256": "6e74be9b2f78bdfff4e3304ae4557b95bfc6be23ddb77d78093a87b690aca2e5"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/leo-generative-world-rev01/LEO-05.png",
+      "source": "Social_Media/Instagram/Leo_Generative_World_Rev01_20261117/exports/LEO-05.png",
+      "bytes": 1556637,
+      "sha256": "ce24fb4aea38e07ddbe2613af27886dda5ae542527420bce0ed3f32f9b1824cb"
     }
   ],
   "sources": [
@@ -1974,9 +2004,14 @@
       "batch": "full-propulsion-concept-rev01",
       "source": "Wahoo_Intelligence/communications/control/20261117-Full-Propulsion-Rev02/APPROVED_POST.json",
       "sha256": "29823ad2d23d4d4f99069c1215898ffa801bc5f60e189bf83df4b9938195fd69"
+    },
+    {
+      "batch": "leo-generative-world-rev01",
+      "source": "Wahoo_Intelligence/communications/control/20261117-Leo-Generative-World/APPROVED_POST.json",
+      "sha256": "7a9bac3fb48c9daef2724b05ffd7711cac703b2e112bdc1841f07e7b0189f805"
     }
   ],
-  "projectionSha256": "b29aa450baef382a8fb3221669141ac0f776e6c8404d17816dcc2650da52f3b6",
+  "projectionSha256": "4362c0e9bfbc8e71bfe7c5bb7b5d9514a87aec0f7757b2da704c17f57ae261bd",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",

@@ -332,6 +332,10 @@
     {
       "key": "full-propulsion-concept-rev01-FULL-PROPULSION",
       "category": "engineering"
+    },
+    {
+      "key": "leo-generative-world-rev01-LEO-GENERATIVE-WORLD",
+      "category": "lifestyle"
     }
   ]
 }
