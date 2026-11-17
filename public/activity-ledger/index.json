@@ -1,7 +1,7 @@
 {
   "schema": "wahoo.activity-public/1",
-  "generatedAt": "2026-11-17T02:02:03.759787Z",
-  "historySyncedAt": "2026-11-17T02:02:00.526678Z",
+  "generatedAt": "2026-11-17T03:02:05.001647Z",
+  "historySyncedAt": "2026-11-17T03:02:00.586485Z",
   "totalEvents": 58235,
   "coverage": {
     "label": "Recovered activity, with known history gaps",
@@ -12,7 +12,7 @@
       "Unknown dates and unrecorded roles remain explicitly unknown. Dates from chat turns are labelled as turn start.",
       "Available local histories are collected automatically. Missing or cloud-only history is not automatically retrieved."
     ],
-    "localSessions": 504,
+    "localSessions": 505,
     "cloudRecovery": "Limited accessible conversation window; older history may be unavailable."
   },
   "agents": [
