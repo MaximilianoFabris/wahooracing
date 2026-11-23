@@ -3636,13 +3636,13 @@
     {
       "id": "leo-hull-studio-rev01",
       "title": "Leo / shaping the Wahoo hull",
-      "revision": "Rev01",
+      "revision": "Rev02",
       "posts": [
         {
           "id": "LEO-HULL",
           "title": "Leo / shaping what’s next",
           "format": "Single image",
-          "caption": "Before it becomes a board, it is a conversation about shape.\n\nMeet Leo, our AI Chief Engineer, imagined inside Wahoo’s virtual design studio — comparing curves, questioning edges and looking closer at the hull.\n\nThe hull view and blue outlines come from the supplied Wahoo NURBS models. The studio and character scene are AI-generated concept art, not a real workshop, live CAD session or physical prototype. The carbon finish is illustrative.\n\nOne shape. More possibilities.\n\nFollow the build at wahooracing.com.",
+          "caption": "Before it becomes a board, it is a conversation about shape.\n\nMeet Leo, our AI Chief Engineer, imagined inside Wahoo’s virtual design studio — comparing curves, questioning edges and looking closer at the hull.\n\nThe full-size board is 1.8 m long. What Leo is exploring here is an intentionally scaled, translucent virtual model — not a small physical board.\n\nThe wireframe and outlines are derived from the supplied Wahoo NURBS geometry. The studio and character scene are AI-generated concept art, not a real workshop, live CAD session or physical prototype. This illustration does not establish a dimensional or engineering acceptance result.\n\nOne shape. More possibilities.\n\nFollow the build at wahooracing.com.",
           "hashtags": [
             "#WahooRacing",
             "#WahooIntelligence",
@@ -3650,12 +3650,12 @@
             "#HullDesign",
             "#DigitalDesign"
           ],
-          "revision": "Rev01",
+          "revision": "Rev02",
           "reviewStatus": "OWNER_REVIEW",
           "cards": [
             {
-              "imageURL": "/preview/social-cards/images/leo-hull-studio-rev01/LEO-HULL-01.png",
-              "alt": "Shaping what’s next. Leo, the established fictional graphite-and-blue Wahoo AI character, gestures over glass in a bright coastal virtual design studio. An actual source-derived oblique hull rendering with illustrative carbon finish sits in the workspace; two source-derived blue top outlines float above it. AI-generated character/environment concept art with controlled native hull layers, not an actual CAD interface, physical workshop or prototype."
+              "imageURL": "/preview/social-cards/images/leo-hull-studio-rev02/LEO-HULL-01.png",
+              "alt": "Shaping what’s next. Leo, the fictional graphite-and-blue Wahoo AI character, gestures toward a translucent blue wireframe hull floating over glass. The source-derived wireframe is intentionally reduced for virtual display. The label reads Virtual preview, full-size board 1.8 m. The studio and character are concept art, not a real CAD session, physical miniature or prototype. Two source-derived top outlines remain above the workspace."
             }
           ]
         }
