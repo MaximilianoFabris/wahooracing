@@ -18,6 +18,7 @@ export function activityLedgerBody(milestoneHTML=''){
  <label>Recorded outcome<select name="status"><option value="">All outcomes</option><option value="completed">Completed</option><option value="failed">Failed</option><option value="requested">Requested only</option><option value="observed">Observed</option><option value="unknown">Unknown</option></select></label>
  <label>From date<input type="date" name="from"></label><label>To date<input type="date" name="to"></label>
  <button type="reset">Clear filters</button></fieldset></form>
+ <div class="al-refresh-controls"><button class="wi-work-more" type="button" data-al-refresh disabled>Refresh actions</button><span data-al-refresh-result role="status" aria-live="polite">Checks for published updates while this page is open.</span></div>
  <p class="al-results" data-al-results role="status" aria-live="polite" aria-atomic="true">Loading the latest available actions…</p>
  <button class="wi-work-more" type="button" data-al-retry hidden>Retry loading</button>
  <p class="al-time-note">Times are shown in UTC. Day-only records have no inferred time. Open an action for its topic and evidence.</p>

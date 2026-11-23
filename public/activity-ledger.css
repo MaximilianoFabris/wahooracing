@@ -7,3 +7,5 @@
 @media(max-width:900px){.al-filters fieldset{grid-template-columns:repeat(2,minmax(0,1fr))}.al-action>summary{grid-template-columns:125px minmax(0,1fr);gap:16px 24px}.al-outcome{grid-column:2}.al-detail{margin-left:149px;margin-right:0}}
 @media(max-width:600px){.al-counts{gap:15px}.al-counts dd{font-size:32px}.al-counts dt{font-size:10px;line-height:1.6}.al-filters fieldset{gap:16px}.al-search{grid-column:1/-1}.al-action>summary{grid-template-columns:1fr;gap:10px;padding-block:22px}.al-outcome{grid-column:auto;margin-left:22px}.al-action-name{font-size:21px}.al-detail{margin:0 0 24px 22px}.al-detail dl{grid-template-columns:1fr;gap:2px}.al-detail dd{margin-bottom:10px}.al-milestones>summary{font-size:27px}}
 @media(prefers-reduced-motion:reduce){.al-page *,.al-milestones *{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+
+.al-refresh-controls{display:flex;align-items:center;gap:18px;flex-wrap:wrap;margin:24px 0 12px}.al-refresh-controls .wi-work-more{margin:0;flex:none}.al-refresh-controls [data-al-refresh-result]{font-size:13px;line-height:1.6;color:var(--muted);flex:1 1 220px}
