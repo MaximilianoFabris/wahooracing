@@ -1837,6 +1837,12 @@
       "source": "Social_Media/Instagram/Hull_Fairing_Story_Rev01_20261123/exports/FAIRING-05.png",
       "bytes": 447595,
       "sha256": "f3f1cd65d2c9662ca47554555b71bda1ef9a7510e65ab15fce2589bc48ebd927"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/leo-hull-studio-rev01/LEO-HULL-01.png",
+      "source": "Social_Media/Instagram/Leo_Hull_Studio_Rev01_20261123/exports/LEO-HULL-01.png",
+      "bytes": 1518254,
+      "sha256": "3920c6372b6167df3ae9b50321e081485c8cb4c493e2914657a22920014b8520"
     }
   ],
   "sources": [
@@ -2079,9 +2085,14 @@
       "batch": "hull-fairing-rev01",
       "source": "Social_Media/Instagram/Hull_Fairing_Story_Rev01_20261123/copy/POST.json",
       "sha256": "f0e2d3b0d815dacfb9dd6dcee384420ef071f9c4d8a76e825c0000186c4a92b2"
+    },
+    {
+      "batch": "leo-hull-studio-rev01",
+      "source": "Social_Media/Instagram/Leo_Hull_Studio_Rev01_20261123/copy/POST.json",
+      "sha256": "59e733d6287da2425a3ebc9bc5d5be4405cc28207d750a608d0f435b573a31fc"
     }
   ],
-  "projectionSha256": "50f243c21c77479de5dd37e68256e3675fc6a6abcc4565ffba88c82e86bd8ef6",
+  "projectionSha256": "08664b99a11216f77360a57d96a9a0d3d8eef241ac615f9c8336b930fe84de11",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",

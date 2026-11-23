@@ -344,6 +344,10 @@
     {
       "key": "hull-fairing-rev01-HULL-FAIRING",
       "category": "engineering"
+    },
+    {
+      "key": "leo-hull-studio-rev01-LEO-HULL",
+      "category": "people"
     }
   ]
 }
