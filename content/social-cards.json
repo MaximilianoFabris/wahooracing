@@ -3588,6 +3588,50 @@
           ]
         }
       ]
+    },
+    {
+      "id": "hull-fairing-rev01",
+      "title": "Hull / curves, reflections and carbon",
+      "revision": "Rev01",
+      "posts": [
+        {
+          "id": "HULL-FAIRING",
+          "title": "Seeing the hull differently",
+          "format": "Carousel",
+          "caption": "A hull deserves more than one look.\n\nFrom above, the silhouette tells one story. Sections reveal how the form changes along its length. Reflection stripes expose changes that a shaded view can hide.\n\nThis is the visual work behind Wahoo’s surface development with Max and Claude: comparing the two supplied hull versions, inspecting their curves and asking better questions about the details.\n\nThe carbon views use the actual NURBS geometry, with an illustrative finish. Both top views share the same display scale and longitudinal alignment. The overlaid edges are top-projected outlines, not waterlines.\n\nThe original section and zebra graphics are qualitative study material. Their coordinates are retained as supplied; graph units were not documented. They do not establish a tolerance or continuity pass, improved performance, or manufacturing readiness.\n\nDifferent views. A more informed design conversation.\n\nFollow the build at wahooracing.com.",
+          "hashtags": [
+            "#WahooRacing",
+            "#HullDesign",
+            "#SurfaceDesign",
+            "#Jetboard",
+            "#BehindTheBuild"
+          ],
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/hull-fairing-rev01/FAIRING-01.png",
+              "alt": "The shape of progress. Actual final Hull 1 and Hull 2 NURBS versions appear side by side in orthographic deck views on white. Dark glossy carbon is an illustrative material; blue lines trace their true rendered silhouettes. Both half-models are mirrored for presentation and share one camera, physical scale and longitudinal alignment."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/hull-fairing-rev01/FAIRING-02.png",
+              "alt": "Read the curves. The supplied cross-section graphic is enlarged on white. Its coloured curve pixels are retained, with larger source-coordinate ticks 140 to 165 horizontally and 155 to 175 vertically. Each colour identifies a different section. Units were not documented; this is a qualitative supplied process graphic, not an accuracy or fairing acceptance result."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/hull-fairing-rev01/FAIRING-03.png",
+              "alt": "Let the reflections talk. An enlarged crop of the actual supplied revised-hull zebra-style underside view shows black and pale coloured reflection bands across the surface. The reflection study is qualitative and cannot certify G1 continuity or surface fairness. The geometry and stripes are not regenerated."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/hull-fairing-rev01/FAIRING-04.png",
+              "alt": "Look at the edge. A graphite card compares the registered top-projected outlines of Hull 1 in dashed light grey and Hull 2 in blue, over a faint carbon rendering. Shared centreline, shared scale and source longitudinal alignment are maintained. No shape difference is magnified independently; these are not waterlines or wetted-area contours."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/hull-fairing-rev01/FAIRING-05.png",
+              "alt": "Beauty is in the details. A new native-geometry oblique deck rendering of revised Hull 2 uses a dark mirrored 45-degree carbon-weave presentation and glossy clear coat against white. Follow the development at wahooracing.com. This is a digital finish study, not a physical board, released laminate specification or manufacturing result."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

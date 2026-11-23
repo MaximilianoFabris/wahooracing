@@ -1,5 +1,5 @@
 {
-  "baselineCommit": "ea6da8d",
+  "baselineCommit": "e83e0023b0a3ec89ea0195aa112810c0c304cd93",
   "policy": "Existing publication positions are fixed. Append new posts only. Recommend future content balance without inserting or moving existing posts. Owner must explicitly authorize any reorder. Owner authorized unique numbering on 12 November: former shared alternative at Post38 is now Post39, subsequent labels advance by one without changing entry order.",
   "lockedKeys": [
     "relaunch-rev03-P01",
@@ -71,6 +71,19 @@
     "h1-progress-rev01-H1-EVOLUTION",
     "h0-dynamics-recap-rev01-H0-DYNAMIC-RECAP",
     "modular-fuel-rev01-MODULAR-FUEL",
-    "fuel-service-002-rev01-FUEL-SERVICE-002"
+    "fuel-service-002-rev01-FUEL-SERVICE-002",
+    "microtexture-rev01-MICROTEXTURE",
+    "microtexture-rev01-MATERIAL",
+    "lifestyle-riding-rev01-LIFE-ENERGY",
+    "lifestyle-riding-rev01-LIFE-LIGHT",
+    "g033-commercial-simulation-rev01-COMMERCIAL-ENGINE",
+    "wahoo-first-engine-run-rev01-WAHOO-FIRST-RUN",
+    "h0-h1a-comparison-rev01-H0-H1A-COMPARISON",
+    "a43-cnc-engine-rev01-A43-CNC-ENGINE",
+    "a45-crankcase-rev01-A45-CRANKCASE",
+    "engine-assembly-render-rev01-ENGINE-ASSEMBLY",
+    "full-propulsion-concept-rev01-FULL-PROPULSION",
+    "leo-generative-world-rev01-LEO-GENERATIVE-WORLD",
+    "hull-nurbs-rev01-HULL-NURBS"
   ]
 }

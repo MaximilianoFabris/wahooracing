@@ -1807,6 +1807,36 @@
       "source": "Social_Media/Instagram/Hull_NURBS_Rev01_20261123/exports/NURBS-05.png",
       "bytes": 239131,
       "sha256": "86db66d03bf5515bfb52105d62541d39b749f9f59360b9f997f4c86190f6aad8"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/hull-fairing-rev01/FAIRING-01.png",
+      "source": "Social_Media/Instagram/Hull_Fairing_Story_Rev01_20261123/exports/FAIRING-01.png",
+      "bytes": 787405,
+      "sha256": "4da5107ec4f2cea61becdbddec03743ce6094f4f0a98ce4ccefa7352d8393d0b"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/hull-fairing-rev01/FAIRING-02.png",
+      "source": "Social_Media/Instagram/Hull_Fairing_Story_Rev01_20261123/exports/FAIRING-02.png",
+      "bytes": 233831,
+      "sha256": "281545498a64ef2b0dd221ae8fcbd246cbbc9dca1d9205a78d621efa1818bd93"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/hull-fairing-rev01/FAIRING-03.png",
+      "source": "Social_Media/Instagram/Hull_Fairing_Story_Rev01_20261123/exports/FAIRING-03.png",
+      "bytes": 364979,
+      "sha256": "157e36b04c6e62e5d211c0f4333f598435610d3784ec6672f0cea6a017378f65"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/hull-fairing-rev01/FAIRING-04.png",
+      "source": "Social_Media/Instagram/Hull_Fairing_Story_Rev01_20261123/exports/FAIRING-04.png",
+      "bytes": 282031,
+      "sha256": "905a1212520263c46abe5528c3bc7ea1b3182bb19a36c6cc14bbcc429734b6e7"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/hull-fairing-rev01/FAIRING-05.png",
+      "source": "Social_Media/Instagram/Hull_Fairing_Story_Rev01_20261123/exports/FAIRING-05.png",
+      "bytes": 447595,
+      "sha256": "f3f1cd65d2c9662ca47554555b71bda1ef9a7510e65ab15fce2589bc48ebd927"
     }
   ],
   "sources": [
@@ -2044,9 +2074,14 @@
       "batch": "hull-nurbs-rev01",
       "source": "Social_Media/Instagram/Hull_NURBS_Rev01_20261123/copy/POST.json",
       "sha256": "7c968316242f302e052eacc5b9df9b62ca885ba359c9837ac8057221556f565d"
+    },
+    {
+      "batch": "hull-fairing-rev01",
+      "source": "Social_Media/Instagram/Hull_Fairing_Story_Rev01_20261123/copy/POST.json",
+      "sha256": "f0e2d3b0d815dacfb9dd6dcee384420ef071f9c4d8a76e825c0000186c4a92b2"
     }
   ],
-  "projectionSha256": "f83ee97cecf1da044e5dff5c69aff8a26a9f672cbdc1ff9c618482db54c65395",
+  "projectionSha256": "50f243c21c77479de5dd37e68256e3675fc6a6abcc4565ffba88c82e86bd8ef6",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",
