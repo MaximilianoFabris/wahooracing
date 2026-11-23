@@ -1,0 +1,63 @@
+{
+  "slug": "hull-from-sculpt-to-surfaces",
+  "title": "From Sculpted Shape to Editable Surfaces",
+  "date": "2026-11-23",
+  "dateLabel": "23 November 2026 · Digital hull development",
+  "revision": "HULL SURFACE CONVERSION / SOURCE REVIEW REV01",
+  "type": "Geometry development",
+  "evidence": "Native-model inventory checked · fitting results source-reported",
+  "status": "published",
+  "systems": [
+    "hull-hydrodynamics",
+    "manufacturing"
+  ],
+  "summary": "Two sculpted hull versions become a smaller set of editable NURBS surfaces. A closer look at the design lines, the difficult stern and the checks still needed before tooling.",
+  "hero": "engineering/hull-nurbs/hero.png",
+  "heroAlt": "Source-derived view of the revised hull surface model, showing the board shape and its coloured surface regions. Colours identify panels, not manufactured parts.",
+  "heroCaption": "Mirrored presentation of the supplied revised NURBS half-model, sampled for rendering. Surface colours explain the layout, not materials or simulation results. The original SubD is retained in the file.",
+  "sections": [
+    {
+      "title": "A shape you can sculpt. A surface you can work with.",
+      "text": "A hull begins with an idea of how a board should look and feel. In Rhino, Max developed that idea as a SubD: a smooth shape controlled by a relatively simple network of points and edges. It is a useful way to explore flowing forms without drawing every surface boundary first.</p><p>The next challenge is to describe that shape in a form that supports more deliberate surface editing and future tooling discussions. This conversion work, developed with Claude and custom Python surface-fitting scripts, tackles that transition. The aim is to carry the design forward while keeping its original sculpted reference available."
+    },
+    {
+      "title": "Give the shape a readable structure",
+      "text": "NURBS are mathematical surfaces shaped by control points and curves. They are widely used in engineering CAD because individual panels and their boundaries can be inspected and edited directly. Changing representation does not, by itself, make a hull ready to manufacture.</p><p>The conversion brief called for fewer, larger panels. Its organising lines were already in the design: the spray rail, chine, deck edge and keel-pad edge. Following those lines gives the surface layout a purpose. Smooth regions can flow into one another, while intended creases retain their definition.</p><p>A simple panel count is only part of that story. Each boundary creates another relationship to manage, while each large panel must still describe the shape adequately. The useful balance is a layout that a designer can understand and inspect, with enough local control to handle detail without turning every small feature into a separate patch.</p><p>According to the supplied account, the workflow sampled the SubD, identified those boundaries and fitted the long panels along the board. Extra control was placed where the changing curvature needed it.",
+      "figure": {
+        "image": "engineering/hull-nurbs/panels.png",
+        "alt": "Native revised-hull surface regions shown in contrasting colours, making the long panel layout and boundaries visible.",
+        "caption": "A layout built around the design lines. Coloured regions identify separate NURBS surfaces; they do not divide the hull into proposed physical components."
+      }
+    },
+    {
+      "title": "Two versions, counted carefully",
+      "text": "The supplied files contain two distinct versions, called Hull 1 and Hull 2 in the conversion brief. A separate read-only inventory found 26 NURBS surface objects in the Hull 1 half-model and 24 in the revised Hull 2 half-model. Both files also retain their original SubD.</p><p>For Hull 2, the named regions comprise five main-body panels, five aft panels, two nose surfaces and twelve stern surfaces. Those are counts for one half, not a count for the whole mirrored board."
+    },
+    {
+      "title": "The stern asks harder questions",
+      "text": "Long panels describe much of the board, but the stern brings several features together in a small space. The transom, keel lip, fin and pod need a more local approach. The supplied workflow describes dividing these areas into smaller regions, then fitting their borders with a restrained number of control points.</p><p>That is where fidelity and fairness can pull in different directions. A surface can follow local detail closely yet develop unwanted ripples. The brief reports deliberate local compromises, which deserve to remain visible in the story rather than disappear behind a single accuracy headline.",
+      "figure": {
+        "image": "engineering/hull-nurbs/stern.png",
+        "alt": "Close view of the supplied revised hull stern, revealing separate surface regions around the transom, fin and pod.",
+        "caption": "The stern needs more local surface regions than the long body. This mirrored, sampled presentation shows their arrangement, including visible local irregularities. It does not assess fit or continuity."
+      }
+    },
+    {
+      "title": "A target is different from a verified result",
+      "text": "The original accuracy target was 0.5 mm. The brief reports main-body and nose deviations up to 0.6 mm, mostly below 0.1 mm. It reports the stern within 0.5 mm except for two small pod-top areas reaching about 2 mm, retained to avoid ripple. Those exceptions exceed the original target. These fitting results have not been independently reproduced in this review.</p><p>The brief also describes seam and reflection checks. G1 means neighbouring surfaces share a tangent plane along their join; it does not mean their curvature is identical. Zebra stripes simulate reflected bands, helping a designer see breaks or waviness. They are a useful visual inspection tool, not a certificate that every seam meets its intended condition."
+    },
+    {
+      "title": "A useful step toward tooling development",
+      "text": "A readable surface layout gives the next engineering conversation something concrete to inspect. Tooling development still needs its own checks: joined geometry, release directions, structure and manufacturing requirements. Neither physical performance nor a hydrodynamic benefit is demonstrated by this conversion package.</p><p>This is a surface-model milestone: Max's sculpted shape translated with Claude into editable regions, with the original retained and the remaining questions stated."
+    }
+  ],
+  "sources": [
+    "Owner-supplied hull-conversion brief, reviewed 23 November 2026. Original conversion dates unknown.",
+    "Supplied Hull 1 and Hull 2 native-model files: independent read-only inventory found 26 and 24 NurbsSurface objects respectively, plus retained SubD objects. Inventory is not a geometric acceptance audit.",
+    "Supplied conversion account credits Max's Rhino modelling and collaboration with Claude using custom Python surface-fitting scripts. This credit does not imply endorsement by Anthropic.",
+    "Fitting deviations and seam-check methods are source-reported; numerical acceptance tables and executable fitting scripts were not supplied with this package."
+  ],
+  "changes": "New conversion story, distinct from earlier analytical hull representations. Native geometry retained; no tooling release or performance result claimed.",
+  "thumbnail": "engineering/hull-nurbs/hero.png",
+  "thumbnailAlt": "Source-derived view of the revised hull surface model, showing the board shape and its coloured surface regions. Colours identify panels, not manufactured parts."
+}

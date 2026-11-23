@@ -2,6 +2,19 @@
   "schema_version": 1,
   "records": [
     {
+      "id": "hull-nurbs-source-review-preparation",
+      "publication": "published",
+      "date": "2026-11-23",
+      "agents": [
+        "leo",
+        "isaac"
+      ],
+      "status": "completed",
+      "title": "Hull surface-conversion sources reviewed for a new story",
+      "summary": "Prepared a Journal and visual-story draft from Max's supplied account of hull modelling with Claude. Read-only inventory found 26 and 24 NURBS surface objects in the two supplied half-models, with original SubD objects retained. This date records source review and story preparation; original conversion dates are unknown.",
+      "evidence": "Native-model object inventory and supplied conversion brief. Numerical fitting results remain source-reported; no tooling release or hydrodynamic benefit established. Claude's conversion contribution is separate from the named agents' present source review and editorial preparation."
+    },
+    {
       "id": "a35-first-wahoo-specific-engine-run",
       "publication": "published",
       "date": "2026-11-15",

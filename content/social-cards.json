@@ -3544,6 +3544,50 @@
           ]
         }
       ]
+    },
+    {
+      "id": "hull-nurbs-rev01",
+      "title": "Hull / from sculpt to surfaces",
+      "revision": "Rev01",
+      "posts": [
+        {
+          "id": "HULL-NURBS",
+          "title": "From sculpt to surfaces",
+          "format": "Carousel",
+          "caption": "A hull you can sculpt. Surfaces you can work with.\n\nMax shaped the Wahoo hull in Rhino. Working with Claude and custom Python surface-fitting scripts, that sculpted reference became a more deliberate layout of editable NURBS surfaces.\n\nThe revised model contains 24 surfaces per half. Long panels follow the design lines; smaller regions handle the more intricate stern. Both original sculpted models remain preserved.\n\nThe interesting part is the judgement between matching a shape and keeping a surface fair. The supplied study reports local fit exceptions, including two pod-top areas beyond the original tolerance target. Those results still need an independent geometric audit.\n\nThis is digital surface development, not a manufacturing release or proof of performance. Next comes checking the geometry and requirements that future tooling will need.\n\nFollow the development at wahooracing.com.",
+          "hashtags": [
+            "#WahooRacing",
+            "#Jetboard",
+            "#HullDesign",
+            "#NURBS",
+            "#ProductDevelopment"
+          ],
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/hull-nurbs-rev01/NURBS-01.png",
+              "alt": "From sculpt to surfaces. The revised Wahoo hull appears diagonally on a pale background, rendered from its actual NURBS surfaces. Digital surface study, not manufactured hardware; the source half is mirrored for presentation."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/hull-nurbs-rev01/NURBS-02.png",
+              "alt": "24 NURBS surfaces per half. A large blue 24 sits above a native underside view of revised Hull 2 on graphite. The count refers to the supplied half-model; the board is shown mirrored for presentation. Colours identify surface regions, not pressure or materials."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/hull-nurbs-rev01/NURBS-03.png",
+              "alt": "Follow the design lines. An enlarged native Hull 1 stern view shows surface boundaries in a light composition. Long panels and deliberate boundaries are the message. Display colours distinguish regions; the view does not certify seam quality."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/hull-nurbs-rev01/NURBS-04.png",
+              "alt": "Fairness takes judgement. A large native Hull 2 stern detail on graphite accompanies the statement that closer fit can introduce surface ripples and local fit exceptions remain for review. This is a geometry illustration, not a deviation map."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/hull-nurbs-rev01/NURBS-05.png",
+              "alt": "One step closer. More to check. Native deck views identify Hull 1 and Hull 2 on a pale background. Follow the development at wahooracing.com. Surface development, not a tooling release; both are mirrored presentation views."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

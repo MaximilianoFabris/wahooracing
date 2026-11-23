@@ -336,6 +336,10 @@
     {
       "key": "leo-generative-world-rev01-LEO-GENERATIVE-WORLD",
       "category": "lifestyle"
+    },
+    {
+      "key": "hull-nurbs-rev01-HULL-NURBS",
+      "category": "engineering"
     }
   ]
 }

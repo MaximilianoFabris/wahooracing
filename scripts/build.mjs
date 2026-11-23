@@ -48,6 +48,7 @@ allUpdates.unshift(JSON.parse(await readFile(path.join(root,'content/first-wahoo
 allUpdates.unshift(JSON.parse(await readFile(path.join(root,'content/h0-h1a-comparison.json'),'utf8')));
 allUpdates.unshift(JSON.parse(await readFile(path.join(root,'content/inside-wahoo-cnc-engine-development.json'),'utf8')));
 allUpdates.unshift(JSON.parse(await readFile(path.join(root,'content/designing-the-crankcase-around-the-engine.json'),'utf8')));
+allUpdates.unshift(JSON.parse(await readFile(path.join(root,'content/hull-from-sculpt-to-surfaces.json'),'utf8')));
 // G031 is an additive draft update; ordinary publication retains the accepted October article.
 allUpdates.unshift(JSON.parse(await readFile(path.join(root,'content/hull-startup-state-correction.json'),'utf8')));
 allUpdates.unshift(JSON.parse(await readFile(path.join(root,'content/intake-placement-study.json'),'utf8')));

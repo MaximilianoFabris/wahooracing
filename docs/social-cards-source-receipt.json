@@ -1777,6 +1777,36 @@
       "source": "Social_Media/Instagram/Leo_Generative_World_Rev01_20261117/exports/LEO-05.png",
       "bytes": 1556637,
       "sha256": "ce24fb4aea38e07ddbe2613af27886dda5ae542527420bce0ed3f32f9b1824cb"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/hull-nurbs-rev01/NURBS-01.png",
+      "source": "Social_Media/Instagram/Hull_NURBS_Rev01_20261123/exports/NURBS-01.png",
+      "bytes": 224422,
+      "sha256": "85c5d27a5809e6c6606c2c135ca74655b07ccefda580e088a4893954281e6cc7"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/hull-nurbs-rev01/NURBS-02.png",
+      "source": "Social_Media/Instagram/Hull_NURBS_Rev01_20261123/exports/NURBS-02.png",
+      "bytes": 156747,
+      "sha256": "017d424606eff24969be240f76ffbe52a39cf5a627253cb26da41f49ad9a1b7f"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/hull-nurbs-rev01/NURBS-03.png",
+      "source": "Social_Media/Instagram/Hull_NURBS_Rev01_20261123/exports/NURBS-03.png",
+      "bytes": 278011,
+      "sha256": "ef7d9d92cc147135379e3f37843a93298c4a5a8ad7cf81386e01cf61bd118f9a"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/hull-nurbs-rev01/NURBS-04.png",
+      "source": "Social_Media/Instagram/Hull_NURBS_Rev01_20261123/exports/NURBS-04.png",
+      "bytes": 336928,
+      "sha256": "921e5e68a93761aa3e86dd3108f31d36903d65e4219e6dbac91455219fef2225"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/hull-nurbs-rev01/NURBS-05.png",
+      "source": "Social_Media/Instagram/Hull_NURBS_Rev01_20261123/exports/NURBS-05.png",
+      "bytes": 239131,
+      "sha256": "86db66d03bf5515bfb52105d62541d39b749f9f59360b9f997f4c86190f6aad8"
     }
   ],
   "sources": [
@@ -2009,9 +2039,14 @@
       "batch": "leo-generative-world-rev01",
       "source": "Wahoo_Intelligence/communications/control/20261117-Leo-Generative-World/APPROVED_POST.json",
       "sha256": "7a9bac3fb48c9daef2724b05ffd7711cac703b2e112bdc1841f07e7b0189f805"
+    },
+    {
+      "batch": "hull-nurbs-rev01",
+      "source": "Social_Media/Instagram/Hull_NURBS_Rev01_20261123/copy/POST.json",
+      "sha256": "7c968316242f302e052eacc5b9df9b62ca885ba359c9837ac8057221556f565d"
     }
   ],
-  "projectionSha256": "4362c0e9bfbc8e71bfe7c5bb7b5d9514a87aec0f7757b2da704c17f57ae261bd",
+  "projectionSha256": "d0647a0b5d3d7965cae40e2ba1703f93a9a370c1319c3cd3887625d32f152891",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",
@@ -2169,5 +2204,5 @@
       "status": "SupersededRev01retained; ownercorrectedhorizontalframeandcomponentvisibility"
     }
   ],
-  "updatedDate": "2026-11-17"
+  "updatedDate": "2026-11-23"
 }
