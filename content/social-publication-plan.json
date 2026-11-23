@@ -348,6 +348,10 @@
     {
       "key": "leo-hull-studio-rev01-LEO-HULL",
       "category": "people"
+    },
+    {
+      "key": "leo-volumetric-hull-rev01-LEO-VOLUME",
+      "category": "people"
     }
   ]
 }

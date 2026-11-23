@@ -3660,6 +3660,34 @@
           ]
         }
       ]
+    },
+    {
+      "id": "leo-volumetric-hull-rev01",
+      "title": "Leo / volumetric hull exploration",
+      "revision": "Rev01",
+      "posts": [
+        {
+          "id": "LEO-VOLUME",
+          "title": "Leo / the next dimension",
+          "format": "Single image",
+          "caption": "The next dimension of a design conversation.\n\nLeo, our fictional AI Chief Engineer, imagined exploring the Wahoo hull as a volume of light: translucent surfaces, clear edges and a closer look at the form.\n\nThe hull is rendered from the supplied Wahoo geometry. This tabletop projection is intentionally reduced; the full-size design reference is 1.8 m.\n\nThe studio and character scene are AI-generated concept art. The holographic materials and interface cues are illustrative — not a live CAD session, an implemented mixed-reality tool or a physical prototype. No new engineering result is claimed.\n\nFollow the build at wahooracing.com.",
+          "hashtags": [
+            "#WahooRacing",
+            "#WahooIntelligence",
+            "#BehindTheBuild",
+            "#HullDesign",
+            "#DigitalDesign"
+          ],
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/leo-volumetric-hull-rev01/LEO-VOLUME-01.png",
+              "alt": "The next dimension. In a dark graphite virtual atelier, Leo, the fictional Wahoo AI character, leans over a glowing blue hull volume between his hands. The actual source-derived hull has translucent surfaces, visible depth, bright patch edges and sparse UV lines. The label states 1.8 m design and scaled virtual preview. Studio and character are AI concept art; the presentation is not a physical miniature, live CAD interface, working mixed-reality tool or engineering acceptance result."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

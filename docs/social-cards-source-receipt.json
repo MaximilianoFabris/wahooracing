@@ -1843,6 +1843,12 @@
       "source": "Social_Media/Instagram/Leo_Hull_Studio_Rev02_20261124/exports/LEO-HULL-01.png",
       "bytes": 1591681,
       "sha256": "7fa28cada05e58a515342446bff1627fca9b045283903cca1220d46aadc72934"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/leo-volumetric-hull-rev01/LEO-VOLUME-01.png",
+      "source": "Social_Media/Instagram/Leo_Volumetric_Hull_Rev01_20261124/exports/LEO-VOLUME-01.png",
+      "bytes": 1358243,
+      "sha256": "835d0940c0de3ae4e2d79d1f8883665cdcef119f4add1e9bd882938a00b57a75"
     }
   ],
   "sources": [
@@ -2090,9 +2096,14 @@
       "batch": "leo-hull-studio-rev01",
       "source": "Social_Media/Instagram/Leo_Hull_Studio_Rev02_20261124/copy/POST.json",
       "sha256": "f83da47dce697a08eea0fc4db66eecd20519742c8811d415d70fead9193bc705"
+    },
+    {
+      "batch": "leo-volumetric-hull-rev01",
+      "source": "Social_Media/Instagram/Leo_Volumetric_Hull_Rev01_20261124/copy/POST.json",
+      "sha256": "ea0ca150603b74dfa15df53d48238bf3fdc48946cdd8f2db51a771f87feec277"
     }
   ],
-  "projectionSha256": "e0e2343045b285673543191f3e828253a9c8f38aefa3127f90b53f09949ffaab",
+  "projectionSha256": "b11a8cd59771b56df07a43edecf63df90069462b18d35f06272eb8489607a987",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",
