@@ -1,0 +1,82 @@
+{
+  "slug": "when-engineering-starts-learning",
+  "title": "When engineering starts learning",
+  "summary": "A48–A49: an adaptive engineering prototype meets four unseen tests.",
+  "date": "2026-11-25",
+  "dateLabel": "Published 25 Nov 2026 · source milestones 17 Nov 2026",
+  "status": "published",
+  "revision": "ENGINEERING INTELLIGENCE / A48–A49",
+  "type": "Engineering study",
+  "evidence": "Source-backed numerical scope; physical engine performance unvalidated",
+  "systems": [
+    "engine"
+  ],
+  "hero": "engineering/a47-a56/heroes/journal01-wide.png",
+  "heroAlt": "Actual 1024 A48 coordinate definitions, each axis normalized to its observed min/max for editorial sculpture; no performance field.",
+  "heroCaption": "Actual 1024 A48 coordinate definitions, each axis normalized to its observed min/max for editorial sculpture; no performance field.",
+  "sections": [
+    {
+      "title": "A useful question before a bigger search",
+      "text": "A model can rank thousands of configurations without knowing whether its predictions deserve trust. Wahoo’s A48 and A49 work approached that problem in two stages: first build a traceable loop between candidate generation and actual calculations; then challenge the prediction method with results it had not seen. The work used an existing commercial engine model at one controlled comparison point, 10,000 RPM. That speed was an experimental reference, not a chosen operating target. Every power value in this story is a modeled net-engine output. None is a measured engine rating or power delivered to a waterjet. The useful result is a better tested way to learn from calculations, with a clear boundary around what was demonstrated.",
+      "figure": {
+        "image": "engineering/a47-a56/graphs/dark/01-exploration.svg",
+        "alt": "2D projection of three-factor space; third factor is transfer length. Physical status unknown.",
+        "caption": "2D projection of three-factor space; third factor is transfer length. Physical status unknown."
+      }
+    },
+    {
+      "title": "From eight observations to 1,024 possibilities",
+      "text": "A48 began with eight source-linked observations from the completed A47 factorial comparison, including a separately authorized completion of its missing P1 case. Three exploratory coordinates defined the search: exhaust duration from 180 to 184 degrees, selected pipe lengths scaled from 1.000 to 1.020, and a reduced transfer descriptor from 43.603 to 70 millimetres. The prototype generated 1,024 distinct configurations across that bounded space. These were candidate definitions, not 1,024 commercial calculations and not 1,024 manufacturable engines. Their numerical consistency did not resolve the physical meaning of every descriptor, actual discharge behaviour or mechanical packaging. Keeping that distinction visible made the search useful without giving its size more engineering authority than it had earned.",
+      "figure": {
+        "image": "engineering/a47-a56/diagrams/learning-dark.svg",
+        "alt": "Explanatory numerical-model schematic. Synthetic or conceptual scope; not physical Wahoo hardware validation.",
+        "caption": "Explanatory numerical-model schematic. Synthetic or conceptual scope; not physical Wahoo hardware validation."
+      }
+    },
+    {
+      "title": "Closing the loop with actual results",
+      "text": "Two new configurations were selected and evaluated sequentially through supervised commercial software. The first returned 7.244607 kW and the second 7.243052 kW. Native input files, result identities and numerical completion evidence were checked before those values entered the model. The first result updated the fitted state before the second selection; the second result then updated it again. This was a working connection between candidate generation, an external evaluator and a revised model. It was also a supervised graphical and native-file workflow, not an unattended commercial solver API. The software could reject missing, mismatched or invented result records. That matters because a learning loop only has engineering meaning when the observations entering it are genuine and attached to the right configuration.",
+      "figure": {
+        "image": "engineering/a47-a56/graphs/dark/02-accuracy.svg",
+        "alt": "Four-point frozen benchmark. 48.22% MAE / 44.51% RMSE reduction; no domain-wide accuracy claim.",
+        "caption": "Four-point frozen benchmark. 48.22% MAE / 44.51% RMSE reduction; no domain-wide accuracy claim."
+      }
+    },
+    {
+      "title": "An honest limit to adaptation",
+      "text": "Updating a model is different from proving that the update chose a better design. In this prototype, the selection rule strongly favoured information and coverage. A clearly labelled counterfactual changed an assumed result but selected the same next point. The evidence therefore supports adaptive result handling and model updating, without demonstrating a power-seeking selection advantage. Neither new interior calculation exceeded the strongest actually evaluated historical point, P3, at approximately 7.586743 kW, or 10.17 mechanical horsepower by unit conversion. Predictions for unevaluated candidates remained hypotheses. This distinction shaped the next question: before expanding the search, could a modest change to the prediction model better anticipate results inside the tested space?",
+      "figure": {
+        "image": "engineering/a47-a56/graphs/dark/03-holdouts.svg",
+        "alt": "Actual commercial-model observations versus frozen predictions; not physical measurements.",
+        "caption": "Actual commercial-model observations versus frozen predictions; not physical measurements."
+      }
+    },
+    {
+      "title": "Four frozen tests of a curved response",
+      "text": "A49 compared the additive baseline A with model B, which added one constrained curvature term. Both used the same ten accepted observations. The coefficients, four new interior configurations and their predictions were frozen before any new result was collected. Four supervised commercial calculations then supplied the test values; no held-out result entered a refit or changed the remaining cases. B had a smaller absolute error at every point. Its mean absolute power error fell from 0.018457 to 0.009557 kW, a 48.22 percent reduction; root-mean-square error fell from 0.018981 to 0.010533 kW. The comparison met the prospectively registered improvement rules. Small training-label perturbations retained that verdict, but those tests were sensitivity checks, not physical uncertainty estimates or confidence intervals.",
+      "figure": {
+        "image": "engineering/a47-a56/diagrams/exploration-dark.svg",
+        "alt": "Explanatory numerical-model schematic. Synthetic or conceptual scope; not physical Wahoo hardware validation.",
+        "caption": "Explanatory numerical-model schematic. Synthetic or conceptual scope; not physical Wahoo hardware validation."
+      }
+    },
+    {
+      "title": "A local preference, with the history intact",
+      "text": "The accepted conclusion was a provisional preference for B in the demonstrated local comparison context, with A retained as a transparent baseline. Both models still underpredicted all four new observations. Four information-selected points did not validate the entire design space, and those points had now participated in model selection. Torque at fixed RPM followed the same power relationship; it was not an independent second confirmation. The fourth commercial case also retained a resource-accounting exception: its calculation completed, but final receipt creation failed, and independent review accepted explicit bounds rather than inventing exact missing measurements. A49 strengthened predictive discipline, not physical engine validation. Its next recommendation was to establish original mass-and-energy physics that Wahoo could inspect and test independently, one justified component at a time.",
+      "figure": {
+        "image": "engineering/a47-a56/diagrams/roadmap-dark.svg",
+        "alt": "Explanatory numerical-model schematic. Synthetic or conceptual scope; not physical Wahoo hardware validation.",
+        "caption": "Explanatory numerical-model schematic. Synthetic or conceptual scope; not physical Wahoo hardware validation."
+      }
+    }
+  ],
+  "publicationSequence": 4,
+  "thumbnail": "engineering/a47-a56/heroes/journal01-16x9.png",
+  "thumbnailAlt": "Actual 1024 A48 coordinate definitions, each axis normalized to its observed min/max for editorial sculpture; no performance field.",
+  "sources": [
+    "A47–A56 accepted engineering handoffs and independent reviews, source milestones 17–24 November 2026.",
+    "Independent source-correspondence review of 16 plotted numerical series; no physical engine-performance validation.",
+    "Original Wahoo charts from saved numerical outputs. Historical A45 geometry and conceptual illustrations are explicitly identified."
+  ],
+  "changes": "Owner authorized website release of the reviewed campaign on25November2026. Existing journal history retained. A55/A56 partial acceptance and integrated HOLD remain explicit."
+}

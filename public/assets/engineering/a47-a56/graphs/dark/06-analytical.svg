@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-label="Checking the numerical state against analytical references">
+<style>text{font-family:Barlow,Arial,sans-serif;fill:#eff5fa}.tick{font-size:21px;fill:#a8b5c1}.axis{font-size:24px}.legend{font-size:22px}.note{font-size:20px;fill:#a8b5c1}</style>
+<defs><clipPath id="plot"><rect x="170" y="185" width="1150" height="465"/></clipPath></defs>
+<text x="170" y="66" font-size="34" font-weight="600">Checking the numerical state against analytical references</text>
+<text x="170" y="145" class="tick">SOURCE-DERIVED DATA | LOGARITHMIC VERTICAL SCALE</text>
+<line x1="170" y1="650.00" x2="1320" y2="650.00" stroke="#a8b5c1" stroke-opacity=".18"/>
+<text x="155" y="657.00" text-anchor="end" class="tick">10^-18</text>
+<line x1="170" y1="603.50" x2="1320" y2="603.50" stroke="#a8b5c1" stroke-opacity=".18"/>
+<text x="155" y="610.50" text-anchor="end" class="tick">10^-17</text>
+<line x1="170" y1="557.00" x2="1320" y2="557.00" stroke="#a8b5c1" stroke-opacity=".18"/>
+<text x="155" y="564.00" text-anchor="end" class="tick">10^-16</text>
+<line x1="170" y1="510.50" x2="1320" y2="510.50" stroke="#a8b5c1" stroke-opacity=".18"/>
+<text x="155" y="517.50" text-anchor="end" class="tick">10^-15</text>
+<line x1="170" y1="464.00" x2="1320" y2="464.00" stroke="#a8b5c1" stroke-opacity=".18"/>
+<text x="155" y="471.00" text-anchor="end" class="tick">10^-14</text>
+<line x1="170" y1="417.50" x2="1320" y2="417.50" stroke="#a8b5c1" stroke-opacity=".18"/>
+<text x="155" y="424.50" text-anchor="end" class="tick">10^-13</text>
+<line x1="170" y1="371.00" x2="1320" y2="371.00" stroke="#a8b5c1" stroke-opacity=".18"/>
+<text x="155" y="378.00" text-anchor="end" class="tick">10^-12</text>
+<line x1="170" y1="324.50" x2="1320" y2="324.50" stroke="#a8b5c1" stroke-opacity=".18"/>
+<text x="155" y="331.50" text-anchor="end" class="tick">10^-11</text>
+<line x1="170" y1="278.00" x2="1320" y2="278.00" stroke="#a8b5c1" stroke-opacity=".18"/>
+<text x="155" y="285.00" text-anchor="end" class="tick">10^-10</text>
+<line x1="170" y1="231.50" x2="1320" y2="231.50" stroke="#a8b5c1" stroke-opacity=".18"/>
+<text x="155" y="238.50" text-anchor="end" class="tick">10^-9</text>
+<line x1="170" y1="185.00" x2="1320" y2="185.00" stroke="#a8b5c1" stroke-opacity=".18"/>
+<text x="155" y="192.00" text-anchor="end" class="tick">10^-8</text>
+<text x="217.48" y="687" text-anchor="middle" class="tick">F01</text>
+<text x="313.39" y="687" text-anchor="middle" class="tick">F02</text>
+<text x="409.30" y="687" text-anchor="middle" class="tick">F03</text>
+<text x="505.22" y="687" text-anchor="middle" class="tick">F04</text>
+<text x="601.13" y="687" text-anchor="middle" class="tick">F05</text>
+<text x="697.04" y="687" text-anchor="middle" class="tick">F06</text>
+<text x="792.96" y="687" text-anchor="middle" class="tick">F07</text>
+<text x="888.87" y="687" text-anchor="middle" class="tick">F08</text>
+<text x="984.78" y="687" text-anchor="middle" class="tick">F08</text>
+<text x="1080.70" y="687" text-anchor="middle" class="tick">F08</text>
+<text x="1176.61" y="687" text-anchor="middle" class="tick">F09</text>
+<text x="1272.52" y="687" text-anchor="middle" class="tick">F10</text>
+<path d="M170,185V650H1320" fill="none" stroke="#a8b5c1" stroke-opacity=".6"/>
+<g clip-path="url(#plot)">
+<circle cx="217.477" cy="539.108" r="4.33" fill="#74beff" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="313.390" cy="214.088" r="4.33" fill="#74beff" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="409.304" cy="246.751" r="4.33" fill="#74beff" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="505.217" cy="478.265" r="4.33" fill="#74beff" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="601.130" cy="474.928" r="4.33" fill="#74beff" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="697.043" cy="650.000" r="4.33" fill="#74beff" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="792.957" cy="216.256" r="4.33" fill="#74beff" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="888.870" cy="483.709" r="4.33" fill="#74beff" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="984.783" cy="469.659" r="4.33" fill="#74beff" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="1080.696" cy="476.083" r="4.33" fill="#74beff" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="1176.610" cy="525.935" r="4.33" fill="#74beff" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="1272.523" cy="231.961" r="4.33" fill="#74beff" stroke="none" stroke-width="2" opacity="1"/>
+</g>
+<text x="745.0" y="735" text-anchor="middle" class="axis">Fixture with a saved analytical state-error summary</text>
+<text transform="translate(43,417.5) rotate(-90)" text-anchor="middle" class="axis">Worst scaled state error (dimensionless)</text>
+<text x="170" y="841" class="note">Only fixtures with saved analytical state-error summaries are shown. Display floor 1e-18; not engine validation.</text>
+</svg>

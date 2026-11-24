@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-label="A controlled exhaust configuration comparison">
+<style>text{font-family:Barlow,Arial,sans-serif;fill:#eff5fa}.tick{font-size:21px;fill:#a8b5c1}.axis{font-size:24px}.legend{font-size:22px}.note{font-size:20px;fill:#a8b5c1}</style>
+<defs><clipPath id="plot"><rect x="170" y="185" width="1150" height="465"/></clipPath></defs>
+<text x="170" y="66" font-size="34" font-weight="600">A controlled exhaust configuration comparison</text>
+<text x="170" y="145" class="tick">SOURCE-DERIVED DATA | LINEAR SCALE</text>
+<line x1="170" y1="650.00" x2="1320" y2="650.00" stroke="#a8b5c1" stroke-opacity=".18"/>
+<text x="155" y="657.00" text-anchor="end" class="tick">0</text>
+<line x1="170" y1="540.59" x2="1320" y2="540.59" stroke="#a8b5c1" stroke-opacity=".18"/>
+<text x="155" y="547.59" text-anchor="end" class="tick">2</text>
+<line x1="170" y1="431.18" x2="1320" y2="431.18" stroke="#a8b5c1" stroke-opacity=".18"/>
+<text x="155" y="438.18" text-anchor="end" class="tick">4</text>
+<line x1="170" y1="321.76" x2="1320" y2="321.76" stroke="#a8b5c1" stroke-opacity=".18"/>
+<text x="155" y="328.76" text-anchor="end" class="tick">6</text>
+<line x1="170" y1="212.35" x2="1320" y2="212.35" stroke="#a8b5c1" stroke-opacity=".18"/>
+<text x="155" y="219.35" text-anchor="end" class="tick">8</text>
+<text x="381.19" y="687" text-anchor="middle" class="tick">P3 / pipe 1.02</text>
+<text x="1108.81" y="687" text-anchor="middle" class="tick">R04 / pipe 1.01</text>
+<path d="M170,185V650H1320" fill="none" stroke="#a8b5c1" stroke-opacity=".6"/>
+<g clip-path="url(#plot)">
+<rect x="217.48" y="234.96" width="327.43" height="415.04" fill="#74beff"/>
+<text x="381.19" y="221.96" text-anchor="middle" font-size="21">7.58674</text>
+<rect x="945.09" y="239.03" width="327.43" height="410.97" fill="#a8b5c1"/>
+<text x="1108.81" y="226.03" text-anchor="middle" font-size="21">7.51232</text>
+</g>
+<text x="745.0" y="735" text-anchor="middle" class="axis">10,000 RPM operating point</text>
+<text transform="translate(43,417.5) rotate(-90)" text-anchor="middle" class="axis">Modeled power (kW)</text>
+<text x="170" y="841" class="note">Distinct commercial configurations. R04: 7.51232 kW; P3: 7.58674 kW. No physical improvement or power ceiling</text>
+<text x="170" y="867" class="note">inferred.</text>
+</svg>

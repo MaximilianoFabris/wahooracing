@@ -1,5 +1,5 @@
 {
-  "baselineCommit": "deeba444799506cc6368f9068861f0e156b0bc2b",
+  "baselineCommit": "a39a893694db764667dac993092c48e1403ae756",
   "policy": "Existing publication positions are fixed. Append new posts only. Recommend future content balance without inserting or moving existing posts. Owner must explicitly authorize any reorder. Owner authorized unique numbering on 12 November: former shared alternative at Post38 is now Post39, subsequent labels advance by one without changing entry order.",
   "lockedKeys": [
     "relaunch-rev03-P01",
@@ -86,6 +86,7 @@
     "leo-generative-world-rev01-LEO-GENERATIVE-WORLD",
     "hull-nurbs-rev01-HULL-NURBS",
     "hull-fairing-rev01-HULL-FAIRING",
-    "leo-hull-studio-rev01-LEO-HULL"
+    "leo-hull-studio-rev01-LEO-HULL",
+    "leo-volumetric-hull-rev01-LEO-VOLUME"
   ]
 }

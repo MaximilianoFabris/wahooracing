@@ -1,0 +1,82 @@
+{
+  "slug": "from-simulation-to-engine-discovery",
+  "title": "From simulation to engine discovery",
+  "summary": "Reproducible reference points, repeated-cycle tests and the integrated gate that remains open.",
+  "date": "2026-11-25",
+  "dateLabel": "Published 25 Nov 2026 · source milestones 24 Nov 2026",
+  "status": "published",
+  "revision": "ENGINEERING INTELLIGENCE / A54 REV02–A56",
+  "type": "Engineering study",
+  "evidence": "Source-backed numerical scope; physical engine performance unvalidated",
+  "systems": [
+    "engine"
+  ],
+  "hero": "engineering/a47-a56/heroes/journal04-wide.png",
+  "heroAlt": "Source-derived 3D bars proportional to three actual P3-family scalar kW outputs. Axis-labeled graph is authoritative quantitative view.",
+  "heroCaption": "Source-derived 3D bars proportional to three actual P3-family scalar kW outputs. Axis-labeled graph is authoritative quantitative view.",
+  "sections": [
+    {
+      "title": "Repeating a revolution changes the question",
+      "text": "A model can complete one revolution while carrying a different mass, temperature or gas mixture into the next. That distinction became central on 24 November, when A54 Revision 02, A55 and A56 developed separate strands of the simulator program. One strand checked that supervised commercial reference calculations could be reproduced. The other asked whether Wahoo's own coupled numerical model could reach a repeatable cycle. This article was authored on 25 November and stops at A56's accepted record. Its central outcome is partial acceptance: the resolved reference comparison passed, while the integrated periodic-cycle gate remained on HOLD and the performance gate was not released. Understanding that boundary is essential to interpreting the attractive traces and growing software capability.",
+      "figure": {
+        "image": "engineering/a47-a56/graphs/dark/12-power.svg",
+        "alt": "Pipe scale 1.02 throughout. Discrete commercial-model outputs only; no fitted curve, extrapolation or optimum claim.",
+        "caption": "Pipe scale 1.02 throughout. Discrete commercial-model outputs only; no fitted curve, extrapolation or optimum claim."
+      }
+    },
+    {
+      "title": "Reproducing a reference, preserving the failed attempt",
+      "text": "A54 Revision 01's commercial setup abort remained in the record. A separately authorized Revision 02 completed a supervised reproduction of the stored P3 reference and matched its modeled net power exactly. That demonstrated one successful live branch of the repaired execution guard and source-controlled process. It did not qualify unattended commercial batches or validate an engine on a dynamometer. A55's proposed EX182 comparison also aborted during setup, leaving no numerical result. A separate pipe-scale comparison, R04, completed and produced approximately 0.981 percent less modeled power than P3. That is sensitivity within the declared model and frozen input context. Private draft charts can explain the comparison, but public commercial disclosure remains pending an owner decision. Vendor interfaces, proprietary output displays and engineering source details are not automatically cleared material.",
+      "figure": {
+        "image": "engineering/a47-a56/graphs/dark/13-torque.svg",
+        "alt": "Pipe scale 1.02 throughout. Discrete commercial-model outputs only; no fitted curve, extrapolation or optimum claim.",
+        "caption": "Pipe scale 1.02 throughout. Discrete commercial-model outputs only; no fitted curve, extrapolation or optimum claim."
+      }
+    },
+    {
+      "title": "Periodicity needs more than similar pictures",
+      "text": "A55 introduced explicit cycle comparisons. The checks covered stored states and cycle-integrated exchanges, with acceptance requiring three successive complete passes. A controlled filling fixture became periodic after nine cycles. More complex combinations did not inherit that success automatically. The integrated moving-volume, port, three-flow and heat pair remained nonconverged, and its coarse work reference failed a quality check. The correct conclusion was partial acceptance: useful periodicity machinery and narrow test classes had passed, while the combined scope stayed on HOLD. A56 revisited that precise reference issue using a resolved four-cycle pair. Its reference-quality checks passed, closing the earlier low-flow comparison problem. Both trajectories still remained nonconverged. Passing an independent reference check and reaching a periodic physical state are different achievements, and each has its own evidence.",
+      "figure": {
+        "image": "engineering/a47-a56/graphs/dark/14-exhaust.svg",
+        "alt": "Distinct commercial configurations. R04: 7.51232 kW; P3: 7.58674 kW. No physical improvement or power ceiling inferred.",
+        "caption": "Distinct commercial configurations. R04: 7.51232 kW; P3: 7.58674 kW. No physical improvement or power ceiling inferred."
+      }
+    },
+    {
+      "title": "The larger-flow test exposed an independent disagreement",
+      "text": "A56 then ran a synthetic larger-conductance fixture for 48 cycles. It remained NONCONVERGED. At the endpoint, crankcase and cylinder residual-origin checks were roughly 144 and 38 times their limits; a net external-mass integral check was roughly 30 times its limit. The finer run was correctly skipped. More seriously, independent reconstruction of the first twelve cycles failed mass and energy checks, with discrepancies approximately 131 and 129 times the applicable limits. The remaining 36 cycles were not independently audited. Small production-ledger balances could not resolve that disagreement. A separate diagnosis of tiny summation-metadata differences did not explain the material reconstruction failure, whose cause remained unknown. The visible disposition must therefore remain G1 accepted, G2 HOLD, G3 not released. More cycles alone would not establish that the numerical accounting was trustworthy.",
+      "figure": {
+        "image": "engineering/a47-a56/graphs/dark/16-periodicity.svg",
+        "alt": "48 saved cycles; no extrapolation. First 12 independent mass/energy audits fail; remaining 36 unaudited. G2 HOLD.",
+        "caption": "48 saved cycles; no extrapolation. First 12 independent mass/energy audits fail; remaining 36 unaudited. G2 HOLD."
+      }
+    },
+    {
+      "title": "Three speed observations remain three points",
+      "text": "Separately authorized commercial calculations added 9,500 and 10,500 RPM observations to the existing 10,000 RPM P3-family reference. Their modeled net powers were approximately 7.441, 7.003 and, for the middle reference, 7.587 kilowatts. The 10,000 RPM observation had the highest power of those three; the 9,500 RPM observation had higher torque. These are sparse model observations, without a continuous measured power curve or an established optimum operating speed. R04 used a different pipe scale and belongs in a distinct comparison. A chart should therefore show three discrete speed-family points and identify the pipe perturbation separately, without smoothing or extrapolation. Native temperature annotations also required correction to degrees Celsius in the accepted comparison set. Correct labels matter as much as a visually convincing curve when different evidence streams are brought together.",
+      "figure": {
+        "image": "engineering/a47-a56/diagrams/evidence-dark.svg",
+        "alt": "Explanatory numerical-model schematic. Synthetic or conceptual scope; not physical Wahoo hardware validation.",
+        "caption": "Explanatory numerical-model schematic. Synthetic or conceptual scope; not physical Wahoo hardware validation."
+      }
+    },
+    {
+      "title": "The next gate is a diagnosis",
+      "text": "The retained 10,000 generative candidates remained unchanged and unscored. None was admitted for physical-performance or general continuous-surrogate scoring under the current mapping rules. Their existence shows a defined exploration space, without establishing simulated designs, a Pareto frontier or a design optimum. A57 was recommended as a diagnostic sequence: preserve the failed higher-flow evidence, explain the independent reconstruction discrepancy, and then pursue bounded complete-cycle closure. It is future work within this campaign account, not an accomplished result. The documented December 12 program target does not guarantee future software access or a validated delivery date. The practical gain from A56 is a sharper boundary between component verification, repeatable commercial references and an integrated model that still needs to satisfy its independent checks before performance claims can follow.",
+      "figure": {
+        "image": "engineering/a47-a56/diagrams/roadmap-dark.svg",
+        "alt": "Explanatory numerical-model schematic. Synthetic or conceptual scope; not physical Wahoo hardware validation.",
+        "caption": "Explanatory numerical-model schematic. Synthetic or conceptual scope; not physical Wahoo hardware validation."
+      }
+    }
+  ],
+  "publicationSequence": 1,
+  "thumbnail": "engineering/a47-a56/heroes/journal04-16x9.png",
+  "thumbnailAlt": "Source-derived 3D bars proportional to three actual P3-family scalar kW outputs. Axis-labeled graph is authoritative quantitative view.",
+  "sources": [
+    "A47–A56 accepted engineering handoffs and independent reviews, source milestones 17–24 November 2026.",
+    "Independent source-correspondence review of 16 plotted numerical series; no physical engine-performance validation.",
+    "Original Wahoo charts from saved numerical outputs. Historical A45 geometry and conceptual illustrations are explicitly identified."
+  ],
+  "changes": "Owner authorized website release of the reviewed campaign on25November2026. Existing journal history retained. A55/A56 partial acceptance and integrated HOLD remain explicit."
+}

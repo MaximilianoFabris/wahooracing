@@ -58,6 +58,7 @@ allUpdates.unshift(JSON.parse(await readFile(path.join(root,'content/making-room
 allUpdates.unshift(JSON.parse(await readFile(path.join(root,'content/one-jetboard-different-fuel-capacities.json'),'utf8')));
 allUpdates.unshift(JSON.parse(await readFile(path.join(root,'content/a-way-out-for-the-fuel-module.json'),'utf8')));
 allUpdates.unshift(JSON.parse(await readFile(path.join(root,'content/could-texture-change-the-flow.json'),'utf8')));
+for(const slug of ["when-engineering-starts-learning", "building-our-own-physics", "inside-a-digital-two-stroke-engine", "from-simulation-to-engine-discovery"])allUpdates.unshift(JSON.parse(await readFile(path.join(root,'content',slug+'.json'),'utf8')));
 const g031Patch=JSON.parse(await readFile(path.join(root,'content/g031-article-update.json'),'utf8'));
 if(review||g031Patch.status==='published'){
  const target=allUpdates.find(u=>u.slug===g031Patch.slug);
@@ -118,6 +119,8 @@ async function dayDrawings(dir){
   const nativeMotionDrawing=file.includes(path.sep+'simulator-native-oct22'+path.sep)||file.includes(path.sep+'journal-thumbnails-oct22'+path.sep);
   if(!/<text[ >]/.test(svg)&&!nativeMotionDrawing)continue;
   const dest=path.join(out,'assets/day',path.relative(path.join(out,'assets'),file));
+  if(file.includes(path.sep+'a47-a56'+path.sep)&&(file.includes(path.sep+'graphs'+path.sep+'dark'+path.sep)||file.endsWith('-dark.svg'))){const light=file.replace(path.sep+'graphs'+path.sep+'dark'+path.sep,path.sep+'graphs'+path.sep+'light'+path.sep).replace(/-dark\.svg$/,'-light.svg');await mkdir(path.dirname(dest),{recursive:true});await writeFile(dest,await readFile(light,'utf8'));dayDrawingPaths.push('/assets/'+path.relative(path.join(out,'assets'),file).split(path.sep).join('/'));continue;}
+
   await mkdir(path.dirname(dest),{recursive:true});
   const g001DayEdge=file.includes(path.sep+'g001-oct25'+path.sep)?'.trace-edge{opacity:.5}':'';
   const hullComparison=file.includes(path.sep+'h0-h1a-comparison'+path.sep);

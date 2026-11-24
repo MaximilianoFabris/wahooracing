@@ -1,0 +1,82 @@
+{
+  "slug": "inside-a-digital-two-stroke-engine",
+  "title": "Inside a digital two-stroke engine",
+  "summary": "From controlled port openings to two moving gas volumes and a traceable heat input.",
+  "date": "2026-11-25",
+  "dateLabel": "Published 25 Nov 2026 · source milestones 17–24 Nov 2026",
+  "status": "published",
+  "revision": "ENGINEERING INTELLIGENCE / A52–A54 REV01",
+  "type": "Engineering study",
+  "evidence": "Source-backed numerical scope; physical engine performance unvalidated",
+  "systems": [
+    "engine"
+  ],
+  "hero": "engineering/a47-a56/heroes/journal03-wide.png",
+  "heroAlt": "New camera on historical A45 source-bound partial CAD assembly, with proxies/ghosted references. Not current complete engine geometry or evidence of A52-A54 hardware.",
+  "heroCaption": "New camera on historical A45 source-bound partial CAD assembly, with proxies/ghosted references. Not current complete engine geometry or evidence of A52-A54 hardware.",
+  "sections": [
+    {
+      "title": "The next question was about interaction",
+      "text": "A useful engine model must follow gas as it moves between spaces whose volumes and openings change. Earlier work had established separate thermodynamic storage and compressible restriction flow. The next question was whether those pieces could interact consistently: a moving piston exposes a port, pressure selects the flow direction, and every parcel carries mass and energy into or out of a finite volume. A52, A53 and A54 Revision 01 developed that chain in controlled synthetic conditions. A52 reached its revised acceptance on 23 November; A53 and A54 followed on 24 November. This account was prepared on 25 November. These milestones establish tested numerical components. Actual engine geometry, discharge behavior and thermal conditions still require evidence before the model can predict the physical machine.",
+      "figure": {
+        "image": "engineering/a47-a56/diagrams/piston-poses-dark.svg",
+        "alt": "Source-derived A52 synthetic positions at 0,90 and180 degrees, showing0,30.96 and54.50mm piston travel. Simplified outlines and exaggerated window widths; not actual Wahoo port hardware.",
+        "caption": "Source-derived A52 synthetic positions at 0,90 and180 degrees, showing0,30.96 and54.50mm piston travel. Simplified outlines and exaggerated window widths; not actual Wahoo port hardware."
+      }
+    },
+    {
+      "title": "A faster route through a narrow bottleneck",
+      "text": "Near equal pressure, an ordinary time integrator can spend many tiny steps resolving almost no net transfer. A52 examined this specific difficulty. In its retained primary fixture, audited median elapsed time fell from about 26.08 seconds to 0.371 seconds, a 70.35-fold improvement. That benchmark includes independent flow verification and applies to that controlled equality problem. It does not describe full-engine simulation speed. A different fixture, C02, initially prevented acceptance because of a slowdown whose cause remained unknown. A prospective owner amendment set two limits on its median penalty. One confirmation block passed at 3.56 percent and 9.29 milliseconds; two individual pairs still exceeded 50 milliseconds. The historical holds remain visible. The result supports a bounded route forward without turning an unresolved observation into a diagnosed software correction.",
+      "figure": {
+        "image": "engineering/a47-a56/graphs/dark/09-ports.svg",
+        "alt": "Saved synthetic geometry fixture. Sample nodes connected without smoothing; not Wahoo hardware port dimensions.",
+        "caption": "Saved synthetic geometry fixture. Sample nodes connected without smoothing; not Wahoo hardware port dimensions."
+      }
+    },
+    {
+      "title": "Openings became geometry",
+      "text": "A52 then connected piston motion to exposed port area. The tested shapes included rectangles, trapezoids and curved or rounded boundaries. The important distinction is between the developed geometric opening and the effective restriction after a separate discharge coefficient is applied. A precise geometric area cannot establish how a real port will flow. Testing also exposed a tiny negative-area defect near a curved cap. Its failed trajectory was preserved, the arithmetic was stabilized, and affected cases were requalified. The accepted selection combines unchanged earlier trajectories with results from the repaired geometry. A complete synthetic revolution was demonstrated, but its beginning and ending states differed and its net work represented input. Neither a full turn nor a clean pressure plot establishes a working periodic engine.",
+      "figure": {
+        "image": "engineering/a47-a56/graphs/dark/10-two-volumes.svg",
+        "alt": "Actual selected synthetic one-revolution history. Nonperiodic, unheated; no engine-performance inference.",
+        "caption": "Actual selected synthetic one-revolution history. Nonperiodic, unheated; no engine-performance inference."
+      }
+    },
+    {
+      "title": "Two finite volumes shared one transfer",
+      "text": "A53 added a finite crankcase alongside the finite cylinder. Intake connected the crankcase to a reservoir, transfer connected the two moving spaces, and exhaust connected the cylinder to another reservoir. Internal transfer was evaluated once and applied equally and oppositely to both volumes. That makes a crucial accounting question explicit: energy leaving one space must enter the other, while external exchanges appear in the combined balance. The crankcase volume law remained synthetic, and the inflow-only intake fixture was a simple pressure diode, without real reed dynamics. Across 27 selected coupled trajectories, independently reconstructed normalized mass and energy residual maxima were approximately 1.60 trillionths and 6.90 trillionths. Those are numerical balance checks on declared scales. They are not estimates of hardware accuracy, manufacturing tolerance or predictive uncertainty.",
+      "figure": {
+        "image": "engineering/a47-a56/graphs/dark/11-conservation.svg",
+        "alt": "Maxima across 27 selected C-K levels, within 33 total selected configurations. Not an integrated A56 acceptance.",
+        "caption": "Maxima across 27 selected C-K levels, within 33 total selected configurations. Not an integrated A56 acceptance."
+      }
+    },
+    {
+      "title": "A small exchange exposed a real weakness",
+      "text": "The most demanding full-cycle fixture initially failed a strict refinement check on a very small intake exchange. Increasing plot smoothness would not resolve that discrepancy. The team retained the failed levels and used one fixed corrective block with tighter integration tolerances and unchanged physical inputs and acceptance criteria. That block passed. A53 ultimately selected 33 trajectory configurations; 36 distinct configurations had actually been executed because three superseded levels remain in the history. The fine accepted revolution still had no combustion and no periodic state. Its cylinder and crankcase required net work input. The cylinder also received gas through reverse exhaust flow, so gross crankcase-to-cylinder transport could not honestly be described as trapped fresh charge. These distinctions determine which later questions the model is equipped to answer.",
+      "figure": {
+        "image": "engineering/a47-a56/graphs/dark/15-origins.svg",
+        "alt": "Saved synthetic A54 L fixture. Passive origins, not chemical combustion, fuel use or validated scavenging.",
+        "caption": "Saved synthetic A54 L fixture. Passive origins, not chemical combustion, fuel use or validated scavenging."
+      }
+    },
+    {
+      "title": "Heat and origin labels came next",
+      "text": "A54 Revision 01 introduced prescribed cylinder heat and passive fresh/residual origin inventories. Heat enters the energy balance once. Origin labels travel with the gas under the declared perfect-mixing assumption and shared gas properties; they do not burn, consume fuel or become chemical species. Twenty-two main trajectories, two replays and a separate A53 comparison served different verification purposes. The accepted result was a synthetic heat-and-inventory capability, without chemical combustion or validated scavenging. Its commercial attempt aborted during setup and produced no completed commercial result. A separate later revision addressed that branch. By this point the owned numerical components could follow moving volumes, openings, signed flow, heat and gas origins together. The next unresolved question was whether repeated cycles would settle consistently enough to support a meaningful integrated result.",
+      "figure": {
+        "image": "engineering/a47-a56/graphs/dark/08-efficiency.svg",
+        "alt": "Specific constant-reservoir benchmark only. Not a whole-simulator speed claim; C02 amendment reviewed separately.",
+        "caption": "Specific constant-reservoir benchmark only. Not a whole-simulator speed claim; C02 amendment reviewed separately."
+      }
+    }
+  ],
+  "publicationSequence": 2,
+  "thumbnail": "engineering/a47-a56/heroes/journal03-16x9.png",
+  "thumbnailAlt": "New camera on historical A45 source-bound partial CAD assembly, with proxies/ghosted references. Not current complete engine geometry or evidence of A52-A54 hardware.",
+  "sources": [
+    "A47–A56 accepted engineering handoffs and independent reviews, source milestones 17–24 November 2026.",
+    "Independent source-correspondence review of 16 plotted numerical series; no physical engine-performance validation.",
+    "Original Wahoo charts from saved numerical outputs. Historical A45 geometry and conceptual illustrations are explicitly identified."
+  ],
+  "changes": "Owner authorized website release of the reviewed campaign on25November2026. Existing journal history retained. A55/A56 partial acceptance and integrated HOLD remain explicit."
+}

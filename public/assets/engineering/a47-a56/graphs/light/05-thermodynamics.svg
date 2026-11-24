@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-label="Temperature evolves with the cylinder volume">
+<style>text{font-family:Barlow,Arial,sans-serif;fill:#172431}.tick{font-size:21px;fill:#657585}.axis{font-size:24px}.legend{font-size:22px}.note{font-size:20px;fill:#657585}</style>
+<defs><clipPath id="plot"><rect x="170" y="185" width="1150" height="465"/></clipPath></defs>
+<text x="170" y="66" font-size="34" font-weight="600">Temperature evolves with the cylinder volume</text>
+<text x="170" y="145" class="tick">SOURCE-DERIVED DATA | LINEAR SCALE</text>
+<line x1="170" y1="567.09" x2="1320" y2="567.09" stroke="#657585" stroke-opacity=".18"/>
+<text x="155" y="574.09" text-anchor="end" class="tick">400</text>
+<line x1="170" y1="448.49" x2="1320" y2="448.49" stroke="#657585" stroke-opacity=".18"/>
+<text x="155" y="455.49" text-anchor="end" class="tick">600</text>
+<line x1="170" y1="329.88" x2="1320" y2="329.88" stroke="#657585" stroke-opacity=".18"/>
+<text x="155" y="336.88" text-anchor="end" class="tick">800</text>
+<line x1="170" y1="211.27" x2="1320" y2="211.27" stroke="#657585" stroke-opacity=".18"/>
+<text x="155" y="218.27" text-anchor="end" class="tick">1,000</text>
+<text x="334.70" y="687" text-anchor="middle" class="tick">200</text>
+<text x="627.77" y="687" text-anchor="middle" class="tick">250</text>
+<text x="920.84" y="687" text-anchor="middle" class="tick">300</text>
+<text x="1213.91" y="687" text-anchor="middle" class="tick">350</text>
+<path d="M170,185V650H1320" fill="none" stroke="#657585" stroke-opacity=".6"/>
+<g clip-path="url(#plot)">
+<polyline points="217.477,614.534 232.130,614.509 246.784,614.434 261.437,614.309 276.091,614.134 290.744,613.908 305.398,613.631 320.051,613.301 334.704,612.918 349.358,612.480 364.011,611.987 378.665,611.437 393.318,610.829 407.971,610.160 422.625,609.429 437.278,608.634 451.932,607.772 466.585,606.842 481.239,605.839 495.892,604.761 510.545,603.605 525.199,602.368 539.852,601.046 554.506,599.634 569.159,598.128 583.812,596.524 598.466,594.816 613.119,592.998 627.773,591.066 642.426,589.013 657.080,586.831 671.733,584.513 686.386,582.051 701.040,579.437 715.693,576.661 730.347,573.713 745.000,570.582 759.653,567.256 774.307,563.721 788.960,559.965 803.614,555.972 818.267,551.724 832.920,547.204 847.574,542.392 862.227,537.266 876.881,531.804 891.534,525.978 906.188,519.762 920.841,513.124 935.494,506.032 950.148,498.450 964.801,490.339 979.455,481.658 994.108,472.363 1008.761,462.408 1023.415,451.748 1038.068,440.334 1052.722,428.124 1067.375,415.078 1082.029,401.170 1096.682,386.391 1111.335,370.757 1125.989,354.329 1140.642,337.223 1155.296,319.632 1169.949,301.851 1184.602,284.298 1199.256,267.522 1213.909,252.201 1228.563,239.106 1243.216,229.023 1257.870,222.649 1272.523,220.466" fill="none" stroke="#286caa" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<text x="745.0" y="735" text-anchor="middle" class="axis">Crank angle (deg)</text>
+<text transform="translate(43,417.5) rotate(-90)" text-anchor="middle" class="axis">Gas temperature (K)</text>
+<text x="170" y="841" class="note">Recorded F02 compression fixture. Spatially uniform gas state; no resolved flow or physical validation.</text>
+</svg>

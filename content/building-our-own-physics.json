@@ -1,0 +1,82 @@
+{
+  "slug": "building-our-own-physics",
+  "title": "Building our own physics",
+  "summary": "A50–A51: from cylinder energy to pressure-driven gas transfer.",
+  "date": "2026-11-25",
+  "dateLabel": "Published 25 Nov 2026 · source milestones 17 Nov 2026",
+  "status": "published",
+  "revision": "ENGINEERING INTELLIGENCE / A50–A51",
+  "type": "Engineering study",
+  "evidence": "Source-backed numerical scope; physical engine performance unvalidated",
+  "systems": [
+    "engine"
+  ],
+  "hero": "engineering/a47-a56/heroes/journal02-wide.png",
+  "heroAlt": "Conceptual spatially uniform control volume. Not an engine CAD model, mesh, CFD field or physical prototype.",
+  "heroCaption": "Conceptual spatially uniform control volume. Not an engine CAD model, mesh, CFD field or physical prototype.",
+  "sections": [
+    {
+      "title": "A component before an engine",
+      "text": "After testing how a small model learned from commercial calculations, Wahoo turned to a different question: could it build an original physical component whose equations and numerical behaviour could be checked directly? A50 began with a single gas-filled cylinder. A51 added one pressure-driven restriction. Both were deliberately smaller than a complete engine model. Their accepted results concern synthetic ideal-gas experiments, not measured Wahoo performance. This narrow starting point made it possible to compare calculations with analytical references, expose numerical weaknesses and define what the next component would need to solve. The milestone was ownership of inspectable, tested physics software, with its limits recorded alongside its capabilities.",
+      "figure": {
+        "image": "engineering/a47-a56/diagrams/cylinder-dark.svg",
+        "alt": "Explanatory numerical-model schematic. Synthetic or conceptual scope; not physical Wahoo hardware validation.",
+        "caption": "Explanatory numerical-model schematic. Synthetic or conceptual scope; not physical Wahoo hardware validation."
+      }
+    },
+    {
+      "title": "Accounting for what enters and leaves",
+      "text": "The A50 kernel tracks gas mass and internal energy as a cylinder changes volume. Heat can enter; expanding gas can do work; prescribed inflow and outflow can carry mass and energy. Pressure and temperature follow the declared ideal-gas relationships. These terms must remain consistent: an apparently plausible pressure curve is insufficient if the underlying energy balance is wrong. The implementation used original Python code and adaptive fourth-order integration. It reused accepted nominal slider-crank geometry: a 54 mm bore, 54.5 mm stroke and 102 mm connecting rod. The analytical fixtures supplied their own synthetic clearance and operating conditions. In particular, an 8 cc test clearance was not an accepted physical Wahoo chamber specification.",
+      "figure": {
+        "image": "engineering/a47-a56/graphs/dark/04-pv.svg",
+        "alt": "Actual saved numerical states, joined in source order. Synthetic ideal gas; no combustion or engine-power result.",
+        "caption": "Actual saved numerical states, joined in source order. Synthetic ideal gas; no combustion or engine-power result."
+      }
+    },
+    {
+      "title": "Testing against something independent",
+      "text": "A50 was checked on twelve analytical fixture instances covering closed gas, moving volume, prescribed heat and transport, with ten kernel unit tests and explicit expected-failure outputs. Independent references compared the saved states and accumulated work, heat and enthalpy. The largest scaled state error in the checked fixtures was approximately 2.37 billionths, below the frozen target. A smooth-forcing refinement test showed the expected fourth-order pattern as resolution increased. Those are results for the stated tests, not a universal accuracy guarantee. A separate coarse plotting-grid energy calculation failed its accuracy target and remained recorded. The accepted conservation evidence came from analytical comparisons, rather than treating agreement between bookkeeping counters as proof that the physics was correct.",
+      "figure": {
+        "image": "engineering/a47-a56/graphs/dark/06-analytical.svg",
+        "alt": "Only fixtures with saved analytical state-error summaries are shown. Display floor 1e-18; not engine validation.",
+        "caption": "Only fixtures with saved analytical state-error summaries are shown. Display floor 1e-18; not engine validation."
+      }
+    },
+    {
+      "title": "Letting pressure drive the flow",
+      "text": "A51 replaced a prescribed transfer rate with a calculated one through a fixed restriction. Higher pressure determines the donor side, including which temperature supplies the transported enthalpy. Flow can reverse. At equal pressures, pressure-driven transfer is exactly zero even if temperatures differ. A geometric area and an explicit discharge coefficient remain separate inputs. The formulation covers subcritical flow and the sonic plateau reached when lower downstream pressure can no longer increase the idealized flow rate. This choking condition is not a resolved jet or a complete Mach-number field. The reservoirs approximate stagnation conditions because bulk velocity is neglected. Coupled tests then connected that restriction to A50 storage, so mass and energy changed together rather than through an externally imposed schedule.",
+      "figure": {
+        "image": "engineering/a47-a56/graphs/dark/07-flow.svg",
+        "alt": "Actual saved probes only; no smooth fit. Upstream 200 kPa, 350 K; area 1e-5 m^2; Cd 0.73; ideal gas.",
+        "caption": "Actual saved probes only; no smooth fit. Upstream 200 kPa, 350 K; area 1e-5 m^2; Cd 0.73; ideal gas."
+      }
+    },
+    {
+      "title": "The failures made the boundary clearer",
+      "text": "Independent review found an extreme-input overflow defect after the initial standalone tests had passed. Its wrong finite result and source were preserved; corrected arithmetic then passed the retained robustness checks. A reversal test exposed a separate weakness in the independent quadrature diagnostic, repaired through event-aware integration without changing the production physics or acceptance threshold. Near pressure equalization, three tested tolerance settings failed strict wrong-way transport limits despite calm saved pressure curves. Exactly one prospectively frozen tighter setting passed. It required 70,384 accepted steps and 17 rejected attempts for only 0.02 seconds of synthetic evolution, taking about 28.47 seconds of wall time. The passing reverse-enthalpy result had an 8.86 percent margin. Acceptance therefore demonstrated a bounded, tolerance-specific result while revealing a serious efficiency problem.",
+      "figure": {
+        "image": "engineering/a47-a56/diagrams/flow-dark.svg",
+        "alt": "Explanatory numerical-model schematic. Synthetic or conceptual scope; not physical Wahoo hardware validation.",
+        "caption": "Explanatory numerical-model schematic. Synthetic or conceptual scope; not physical Wahoo hardware validation."
+      }
+    },
+    {
+      "title": "What the accepted gates actually mean",
+      "text": "Independent review accepted all four A50 gates and all four A51 gates within their declared synthetic scopes. A51 demonstrated standalone restriction behaviour and coupling cases including discharge, filling, continuous reversal, a finite pair and moving slider volume. It did not qualify efficient general equalization or a complete engine cycle. Actual piston-controlled ports, real reed dynamics, calibrated discharge coefficients, scavenging, combustion, thermal behaviour, exhaust waves and shaft power still required further work. No horsepower ranking or manufacturing release followed. The next recommendation was to handle equalization and donor switching efficiently before adding changing port areas. That sequence matters: expanding a model is useful only when each new layer inherits a foundation whose mathematical checks, retained failures and physical assumptions can still be understood. The work establishes a starting point for that development, with physical engine validity explicitly still on hold.",
+      "figure": {
+        "image": "engineering/a47-a56/diagrams/roadmap-dark.svg",
+        "alt": "Explanatory numerical-model schematic. Synthetic or conceptual scope; not physical Wahoo hardware validation.",
+        "caption": "Explanatory numerical-model schematic. Synthetic or conceptual scope; not physical Wahoo hardware validation."
+      }
+    }
+  ],
+  "publicationSequence": 3,
+  "thumbnail": "engineering/a47-a56/heroes/journal02-16x9.png",
+  "thumbnailAlt": "Conceptual spatially uniform control volume. Not an engine CAD model, mesh, CFD field or physical prototype.",
+  "sources": [
+    "A47–A56 accepted engineering handoffs and independent reviews, source milestones 17–24 November 2026.",
+    "Independent source-correspondence review of 16 plotted numerical series; no physical engine-performance validation.",
+    "Original Wahoo charts from saved numerical outputs. Historical A45 geometry and conceptual illustrations are explicitly identified."
+  ],
+  "changes": "Owner authorized website release of the reviewed campaign on25November2026. Existing journal history retained. A55/A56 partial acceptance and integrated HOLD remain explicit."
+}

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-label="Conservation checks across selected synthetic trajectories">
+<style>text{font-family:Barlow,Arial,sans-serif;fill:#eff5fa}.tick{font-size:21px;fill:#a8b5c1}.axis{font-size:24px}.legend{font-size:22px}.note{font-size:20px;fill:#a8b5c1}</style>
+<defs><clipPath id="plot"><rect x="170" y="185" width="1150" height="465"/></clipPath></defs>
+<text x="170" y="66" font-size="34" font-weight="600">Conservation checks across selected synthetic trajectories</text>
+<text x="170" y="145" class="tick">SOURCE-DERIVED DATA | LOGARITHMIC VERTICAL SCALE</text>
+<line x1="170" y1="650.00" x2="1320" y2="650.00" stroke="#a8b5c1" stroke-opacity=".18"/>
+<text x="155" y="657.00" text-anchor="end" class="tick">10^-13</text>
+<line x1="170" y1="495.00" x2="1320" y2="495.00" stroke="#a8b5c1" stroke-opacity=".18"/>
+<text x="155" y="502.00" text-anchor="end" class="tick">10^-12</text>
+<line x1="170" y1="340.00" x2="1320" y2="340.00" stroke="#a8b5c1" stroke-opacity=".18"/>
+<text x="155" y="347.00" text-anchor="end" class="tick">10^-11</text>
+<line x1="170" y1="185.00" x2="1320" y2="185.00" stroke="#a8b5c1" stroke-opacity=".18"/>
+<text x="155" y="192.00" text-anchor="end" class="tick">10^-10</text>
+<text x="217.48" y="687" text-anchor="middle" class="tick">Mass balance</text>
+<text x="1272.52" y="687" text-anchor="middle" class="tick">Energy balance</text>
+<path d="M170,185V650H1320" fill="none" stroke="#a8b5c1" stroke-opacity=".6"/>
+<g clip-path="url(#plot)">
+<circle cx="217.477" cy="463.363" r="6.12" fill="#74beff" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="1272.523" cy="364.940" r="6.12" fill="#a8b5c1" stroke="none" stroke-width="2" opacity="1"/>
+</g>
+<text x="745.0" y="735" text-anchor="middle" class="axis"></text>
+<text transform="translate(43,417.5) rotate(-90)" text-anchor="middle" class="axis">Maximum normalized residual (dimensionless)</text>
+<text x="170" y="841" class="note">Maxima across 27 selected C-K levels, within 33 total selected configurations. Not an integrated A56 acceptance.</text>
+</svg>

@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-label="Four new cases. Four smaller power errors.">
+<style>text{font-family:Barlow,Arial,sans-serif;fill:#eff5fa}.tick{font-size:21px;fill:#a8b5c1}.axis{font-size:24px}.legend{font-size:22px}.note{font-size:20px;fill:#a8b5c1}</style>
+<defs><clipPath id="plot"><rect x="170" y="185" width="1150" height="465"/></clipPath></defs>
+<text x="170" y="66" font-size="34" font-weight="600">Four new cases. Four smaller power errors.</text>
+<text x="170" y="145" class="tick">SOURCE-DERIVED DATA | LINEAR SCALE</text>
+<line x1="170" y1="650.00" x2="1320" y2="650.00" stroke="#a8b5c1" stroke-opacity=".18"/>
+<text x="155" y="657.00" text-anchor="end" class="tick">0</text>
+<line x1="170" y1="477.69" x2="1320" y2="477.69" stroke="#a8b5c1" stroke-opacity=".18"/>
+<text x="155" y="484.69" text-anchor="end" class="tick">0.01</text>
+<line x1="170" y1="305.38" x2="1320" y2="305.38" stroke="#a8b5c1" stroke-opacity=".18"/>
+<text x="155" y="312.38" text-anchor="end" class="tick">0.02</text>
+<text x="305.40" y="687" text-anchor="middle" class="tick">H1</text>
+<text x="598.47" y="687" text-anchor="middle" class="tick">H2</text>
+<text x="891.53" y="687" text-anchor="middle" class="tick">H3</text>
+<text x="1184.60" y="687" text-anchor="middle" class="tick">H4</text>
+<path d="M170,185V650H1320" fill="none" stroke="#a8b5c1" stroke-opacity=".6"/>
+<g clip-path="url(#plot)">
+<rect x="217.48" y="297.04" width="82.06" height="352.96" fill="#a8b5c1"/>
+<text x="258.51" y="284.04" text-anchor="middle" font-size="21">0.0204841</text>
+<rect x="510.55" y="404.48" width="82.06" height="245.52" fill="#a8b5c1"/>
+<text x="551.57" y="391.48" text-anchor="middle" font-size="21">0.0142488</text>
+<rect x="803.61" y="223.39" width="82.06" height="426.61" fill="#a8b5c1"/>
+<text x="844.64" y="210.39" text-anchor="middle" font-size="21">0.0247578</text>
+<rect x="1096.68" y="402.94" width="82.06" height="247.06" fill="#a8b5c1"/>
+<text x="1137.71" y="389.94" text-anchor="middle" font-size="21">0.0143379</text>
+<rect x="311.26" y="458.56" width="82.06" height="191.44" fill="#74beff"/>
+<text x="352.29" y="445.56" text-anchor="middle" font-size="21">0.0111101</text>
+<rect x="604.33" y="554.10" width="82.06" height="95.90" fill="#74beff"/>
+<text x="645.36" y="541.10" text-anchor="middle" font-size="21">0.00556547</text>
+<rect x="897.40" y="372.23" width="82.06" height="277.77" fill="#74beff"/>
+<text x="938.43" y="359.23" text-anchor="middle" font-size="21">0.01612</text>
+<rect x="1190.46" y="556.38" width="82.06" height="93.62" fill="#74beff"/>
+<text x="1231.49" y="543.38" text-anchor="middle" font-size="21">0.00543297</text>
+</g>
+<text x="745.0" y="735" text-anchor="middle" class="axis">Held-out configuration</text>
+<text transform="translate(43,417.5) rotate(-90)" text-anchor="middle" class="axis">Absolute power prediction error (kW)</text>
+<line x1="170" y1="771" x2="195" y2="771" stroke="#a8b5c1" stroke-width="4"/><text x="206" y="778" class="legend">A / additive</text>
+<line x1="358" y1="771" x2="383" y2="771" stroke="#74beff" stroke-width="4"/><text x="394" y="778" class="legend">B / curvature</text>
+<text x="170" y="841" class="note">Actual commercial-model observations versus frozen predictions; not physical measurements.</text>
+</svg>

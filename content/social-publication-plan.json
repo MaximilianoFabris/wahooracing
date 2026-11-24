@@ -352,6 +352,54 @@
     {
       "key": "leo-volumetric-hull-rev01-LEO-VOLUME",
       "category": "people"
+    },
+    {
+      "key": "generative-learning-rev01-J01",
+      "category": "engineering"
+    },
+    {
+      "key": "independent-physics-rev01-J02",
+      "category": "engineering"
+    },
+    {
+      "key": "digital-two-stroke-rev01-J03",
+      "category": "engineering"
+    },
+    {
+      "key": "engine-discovery-rev01-J04",
+      "category": "engineering"
+    },
+    {
+      "key": "engineering-notes-a47-a56-rev01-S-A48",
+      "category": "engineering"
+    },
+    {
+      "key": "engineering-notes-a47-a56-rev01-S-A49",
+      "category": "engineering"
+    },
+    {
+      "key": "engineering-notes-a47-a56-rev01-S-A50",
+      "category": "engineering"
+    },
+    {
+      "key": "engineering-notes-a47-a56-rev01-S-A51",
+      "category": "engineering"
+    },
+    {
+      "key": "engineering-notes-a47-a56-rev01-S-A52",
+      "category": "engineering"
+    },
+    {
+      "key": "engineering-notes-a47-a56-rev01-S-A53",
+      "category": "engineering"
+    },
+    {
+      "key": "engineering-notes-a47-a56-rev01-S-A54",
+      "category": "engineering"
+    },
+    {
+      "key": "engineering-notes-a47-a56-rev01-S-A56",
+      "category": "engineering"
     }
   ]
 }

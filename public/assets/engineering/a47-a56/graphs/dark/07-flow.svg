@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-label="From subcritical flow to choking">
+<style>text{font-family:Barlow,Arial,sans-serif;fill:#eff5fa}.tick{font-size:21px;fill:#a8b5c1}.axis{font-size:24px}.legend{font-size:22px}.note{font-size:20px;fill:#a8b5c1}</style>
+<defs><clipPath id="plot"><rect x="170" y="185" width="1150" height="465"/></clipPath></defs>
+<text x="170" y="66" font-size="34" font-weight="600">From subcritical flow to choking</text>
+<text x="170" y="145" class="tick">SOURCE-DERIVED DATA | LINEAR SCALE</text>
+<line x1="170" y1="650.00" x2="1320" y2="650.00" stroke="#a8b5c1" stroke-opacity=".18"/>
+<text x="155" y="657.00" text-anchor="end" class="tick">0</text>
+<line x1="170" y1="514.75" x2="1320" y2="514.75" stroke="#a8b5c1" stroke-opacity=".18"/>
+<text x="155" y="521.75" text-anchor="end" class="tick">1</text>
+<line x1="170" y1="379.51" x2="1320" y2="379.51" stroke="#a8b5c1" stroke-opacity=".18"/>
+<text x="155" y="386.51" text-anchor="end" class="tick">2</text>
+<line x1="170" y1="244.26" x2="1320" y2="244.26" stroke="#a8b5c1" stroke-opacity=".18"/>
+<text x="155" y="251.26" text-anchor="end" class="tick">3</text>
+<text x="170.00" y="687" text-anchor="middle" class="tick">0</text>
+<text x="449.13" y="687" text-anchor="middle" class="tick">0.25</text>
+<text x="728.25" y="687" text-anchor="middle" class="tick">0.5</text>
+<text x="1007.38" y="687" text-anchor="middle" class="tick">0.75</text>
+<text x="1286.50" y="687" text-anchor="middle" class="tick">1</text>
+<path d="M170,185V650H1320" fill="none" stroke="#a8b5c1" stroke-opacity=".6"/>
+<g clip-path="url(#plot)">
+<circle cx="170.000" cy="223.394" r="4.33" fill="#74beff" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="170.000" cy="223.394" r="4.33" fill="#74beff" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="181.165" cy="223.394" r="4.33" fill="#74beff" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="393.301" cy="223.394" r="4.33" fill="#74beff" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="504.951" cy="223.394" r="4.33" fill="#74beff" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="728.252" cy="223.394" r="4.33" fill="#74beff" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="759.770" cy="223.394" r="4.33" fill="#74beff" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="759.829" cy="223.394" r="4.33" fill="#74beff" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="759.829" cy="223.394" r="4.33" fill="#74beff" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="759.829" cy="223.394" r="4.33" fill="#74beff" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="759.829" cy="223.394" r="4.33" fill="#74beff" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="759.830" cy="223.394" r="4.33" fill="#74beff" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="759.888" cy="223.394" r="4.33" fill="#74beff" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="784.078" cy="223.837" r="4.33" fill="#74beff" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="830.145" cy="227.142" r="4.33" fill="#74beff" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="951.553" cy="252.312" r="4.33" fill="#74beff" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="1045.344" cy="290.965" r="4.33" fill="#74beff" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="1174.854" cy="386.721" r="4.33" fill="#74beff" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="1218.922" cy="440.373" r="4.33" fill="#74beff" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="1275.340" cy="562.364" r="4.33" fill="#74beff" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="1278.724" cy="576.723" r="4.33" fill="#74beff" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="1286.393" cy="641.190" r="4.33" fill="#74beff" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="1286.505" cy="649.912" r="4.33" fill="#74beff" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="1286.505" cy="649.999" r="4.33" fill="#74beff" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="1286.505" cy="650.000" r="4.33" fill="#74beff" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="1286.505" cy="650.000" r="4.33" fill="#74beff" stroke="none" stroke-width="2" opacity="1"/>
+<line x1="759.83" y1="185" x2="759.83" y2="650" stroke="#a8b5c1" stroke-dasharray="8 7" stroke-width="2"/>
+</g>
+<text x="745.0" y="735" text-anchor="middle" class="axis">Downstream / upstream pressure</text>
+<text transform="translate(43,417.5) rotate(-90)" text-anchor="middle" class="axis">Mass flow (g/s)</text>
+<line x1="170" y1="771" x2="195" y2="771" stroke="#74beff" stroke-width="4"/><text x="206" y="778" class="legend">Saved fixed-restriction probes</text>
+<line x1="556" y1="771" x2="581" y2="771" stroke="#a8b5c1" stroke-width="4"/><text x="592" y="778" class="legend">Critical pressure ratio (gamma = 1.4)</text>
+<text x="170" y="841" class="note">Actual saved probes only; no smooth fit. Upstream 200 kPa, 350 K; area 1e-5 m^2; Cd 0.73; ideal gas.</text>
+</svg>

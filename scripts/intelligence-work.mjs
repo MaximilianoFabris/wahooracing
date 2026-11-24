@@ -4,6 +4,19 @@ const escape=value=>String(value??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&
 const labels={'completed':'Completed','in-progress':'In progress','planned':'Planned'};
 const agentName=id=>agents.find(agent=>agent.id===id)?.name??id;
 const related={
+ 'a47-a56-a52-initial-17nov':[['inside-a-digital-two-stroke-engine','Read the engineering chapter']],
+ 'a47-a56-leo-01':[['when-engineering-starts-learning','Read the engineering chapter']],
+ 'a47-a56-leo-02':[['when-engineering-starts-learning','Read the engineering chapter']],
+ 'a47-a56-leo-03':[['when-engineering-starts-learning','Read the engineering chapter']],
+ 'a47-a56-leo-04':[['when-engineering-starts-learning','Read the engineering chapter']],
+ 'a47-a56-leo-05':[['building-our-own-physics','Read the engineering chapter']],
+ 'a47-a56-leo-06':[['building-our-own-physics','Read the engineering chapter']],
+ 'a47-a56-leo-08':[['inside-a-digital-two-stroke-engine','Read the engineering chapter']],
+ 'a47-a56-leo-09':[['inside-a-digital-two-stroke-engine','Read the engineering chapter']],
+ 'a47-a56-leo-10':[['inside-a-digital-two-stroke-engine','Read the engineering chapter']],
+ 'a47-a56-leo-11':[['from-simulation-to-engine-discovery','Read the engineering chapter']],
+ 'a47-a56-leo-12':[['from-simulation-to-engine-discovery','Read the engineering chapter']],
+ 'a47-a56-leo-13':[['from-simulation-to-engine-discovery','Read the engineering chapter']],
  'a45-crankcase-rotating-reconciliation':[['designing-the-crankcase-around-the-engine','Read the crankcase engineering story']],
  'a43-cnc-transfer-host-development':[['inside-wahoo-cnc-engine-development','Read the CNC construction study']],
  'h1a-native-surface-development':[['h0-h1a-comparison','Read the controlled hull comparison']],

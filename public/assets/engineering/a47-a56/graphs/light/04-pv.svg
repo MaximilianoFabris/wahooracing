@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-label="Inside a closed-cylinder compression test">
+<style>text{font-family:Barlow,Arial,sans-serif;fill:#172431}.tick{font-size:21px;fill:#657585}.axis{font-size:24px}.legend{font-size:22px}.note{font-size:20px;fill:#657585}</style>
+<defs><clipPath id="plot"><rect x="170" y="185" width="1150" height="465"/></clipPath></defs>
+<text x="170" y="66" font-size="34" font-weight="600">Inside a closed-cylinder compression test</text>
+<text x="170" y="145" class="tick">SOURCE-DERIVED DATA | LINEAR SCALE</text>
+<line x1="170" y1="622.40" x2="1320" y2="622.40" stroke="#657585" stroke-opacity=".18"/>
+<text x="155" y="629.40" text-anchor="end" class="tick">0</text>
+<line x1="170" y1="491.25" x2="1320" y2="491.25" stroke="#657585" stroke-opacity=".18"/>
+<text x="155" y="498.25" text-anchor="end" class="tick">20</text>
+<line x1="170" y1="360.10" x2="1320" y2="360.10" stroke="#657585" stroke-opacity=".18"/>
+<text x="155" y="367.10" text-anchor="end" class="tick">40</text>
+<line x1="170" y1="228.94" x2="1320" y2="228.94" stroke="#657585" stroke-opacity=".18"/>
+<text x="155" y="235.94" text-anchor="end" class="tick">60</text>
+<text x="572.49" y="687" text-anchor="middle" class="tick">50</text>
+<text x="995.13" y="687" text-anchor="middle" class="tick">100</text>
+<path d="M170,185V650H1320" fill="none" stroke="#657585" stroke-opacity=".6"/>
+<g clip-path="url(#plot)">
+<polyline points="1272.523,614.534 1272.155,614.530 1271.051,614.519 1269.211,614.501 1266.635,614.476 1263.322,614.443 1259.274,614.402 1254.490,614.353 1248.970,614.297 1242.714,614.232 1235.724,614.158 1228.000,614.075 1219.544,613.983 1210.357,613.881 1200.442,613.768 1189.801,613.644 1178.439,613.508 1166.359,613.360 1153.568,613.198 1140.072,613.022 1125.878,612.830 1110.997,612.622 1095.438,612.396 1079.214,612.151 1062.338,611.884 1044.826,611.595 1026.695,611.281 1007.966,610.939 988.659,610.568 968.799,610.165 948.411,609.725 927.524,609.246 906.170,608.723 884.380,608.151 862.191,607.526 839.641,606.841 816.770,606.088 793.621,605.261 770.238,604.350 746.669,603.344 722.963,602.231 699.171,600.997 675.345,599.626 651.540,598.099 627.812,596.393 604.217,594.483 580.813,592.337 557.660,589.921 534.815,587.190 512.338,584.096 490.289,580.578 468.726,576.566 447.708,571.974 427.293,566.704 407.538,560.635 388.498,553.628 370.227,545.514 352.777,536.101 336.199,525.164 320.540,512.450 305.847,497.683 292.163,480.576 279.528,460.858 267.979,438.322 257.551,412.894 248.275,384.737 240.178,354.385 233.285,322.881 227.617,291.877 223.191,263.615 220.020,240.710 218.113,225.701 217.477,220.466" fill="none" stroke="#286caa" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
+</g>
+<text x="745.0" y="735" text-anchor="middle" class="axis">Cylinder volume (cm^3)</text>
+<text transform="translate(43,417.5) rotate(-90)" text-anchor="middle" class="axis">Absolute pressure (bar)</text>
+<text x="170" y="841" class="note">Actual saved numerical states, joined in source order. Synthetic ideal gas; no combustion or engine-power result.</text>
+</svg>

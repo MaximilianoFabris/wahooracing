@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-label="Better predictions on four unseen configurations">
+<style>text{font-family:Barlow,Arial,sans-serif;fill:#172431}.tick{font-size:21px;fill:#657585}.axis{font-size:24px}.legend{font-size:22px}.note{font-size:20px;fill:#657585}</style>
+<defs><clipPath id="plot"><rect x="170" y="185" width="1150" height="465"/></clipPath></defs>
+<text x="170" y="66" font-size="34" font-weight="600">Better predictions on four unseen configurations</text>
+<text x="170" y="145" class="tick">SOURCE-DERIVED DATA | LINEAR SCALE</text>
+<line x1="170" y1="650.00" x2="1320" y2="650.00" stroke="#657585" stroke-opacity=".18"/>
+<text x="155" y="657.00" text-anchor="end" class="tick">0</text>
+<line x1="170" y1="548.91" x2="1320" y2="548.91" stroke="#657585" stroke-opacity=".18"/>
+<text x="155" y="555.91" text-anchor="end" class="tick">0.005</text>
+<line x1="170" y1="447.83" x2="1320" y2="447.83" stroke="#657585" stroke-opacity=".18"/>
+<text x="155" y="454.83" text-anchor="end" class="tick">0.01</text>
+<line x1="170" y1="346.74" x2="1320" y2="346.74" stroke="#657585" stroke-opacity=".18"/>
+<text x="155" y="353.74" text-anchor="end" class="tick">0.015</text>
+<line x1="170" y1="245.65" x2="1320" y2="245.65" stroke="#657585" stroke-opacity=".18"/>
+<text x="155" y="252.65" text-anchor="end" class="tick">0.02</text>
+<text x="423.34" y="687" text-anchor="middle" class="tick">Mean absolute error</text>
+<text x="1066.66" y="687" text-anchor="middle" class="tick">Root mean square error</text>
+<path d="M170,185V650H1320" fill="none" stroke="#657585" stroke-opacity=".6"/>
+<g clip-path="url(#plot)">
+<rect x="217.48" y="276.85" width="193.00" height="373.15" fill="#657585"/>
+<text x="313.98" y="263.85" text-anchor="middle" font-size="21">0.0184571</text>
+<rect x="860.80" y="266.25" width="193.00" height="383.75" fill="#657585"/>
+<text x="957.30" y="253.25" text-anchor="middle" font-size="21">0.0189812</text>
+<rect x="436.21" y="456.78" width="193.00" height="193.22" fill="#286caa"/>
+<text x="532.70" y="443.78" text-anchor="middle" font-size="21">0.00955713</text>
+<rect x="1079.53" y="437.05" width="193.00" height="212.95" fill="#286caa"/>
+<text x="1176.02" y="424.05" text-anchor="middle" font-size="21">0.0105331</text>
+</g>
+<text x="745.0" y="735" text-anchor="middle" class="axis"></text>
+<text transform="translate(43,417.5) rotate(-90)" text-anchor="middle" class="axis">Power prediction error (kW)</text>
+<line x1="170" y1="771" x2="195" y2="771" stroke="#657585" stroke-width="4"/><text x="206" y="778" class="legend">A / additive</text>
+<line x1="358" y1="771" x2="383" y2="771" stroke="#286caa" stroke-width="4"/><text x="394" y="778" class="legend">B / curvature</text>
+<text x="170" y="841" class="note">Four-point frozen benchmark. 48.22% MAE / 44.51% RMSE reduction; no domain-wide accuracy claim.</text>
+</svg>

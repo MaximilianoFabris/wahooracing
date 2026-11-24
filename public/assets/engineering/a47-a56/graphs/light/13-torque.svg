@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900" role="img" aria-label="Three P3-family modeled torque observations">
+<style>text{font-family:Barlow,Arial,sans-serif;fill:#172431}.tick{font-size:21px;fill:#657585}.axis{font-size:24px}.legend{font-size:22px}.note{font-size:20px;fill:#657585}</style>
+<defs><clipPath id="plot"><rect x="170" y="185" width="1150" height="465"/></clipPath></defs>
+<text x="170" y="66" font-size="34" font-weight="600">Three P3-family modeled torque observations</text>
+<text x="170" y="145" class="tick">SOURCE-DERIVED DATA | LINEAR SCALE</text>
+<line x1="170" y1="650.00" x2="1320" y2="650.00" stroke="#657585" stroke-opacity=".18"/>
+<text x="155" y="657.00" text-anchor="end" class="tick">0</text>
+<line x1="170" y1="527.30" x2="1320" y2="527.30" stroke="#657585" stroke-opacity=".18"/>
+<text x="155" y="534.30" text-anchor="end" class="tick">2</text>
+<line x1="170" y1="404.61" x2="1320" y2="404.61" stroke="#657585" stroke-opacity=".18"/>
+<text x="155" y="411.61" text-anchor="end" class="tick">4</text>
+<line x1="170" y1="281.91" x2="1320" y2="281.91" stroke="#657585" stroke-opacity=".18"/>
+<text x="155" y="288.91" text-anchor="end" class="tick">6</text>
+<text x="302.69" y="687" text-anchor="middle" class="tick">9,500</text>
+<text x="745.00" y="687" text-anchor="middle" class="tick">10,000</text>
+<text x="1187.31" y="687" text-anchor="middle" class="tick">10,500</text>
+<path d="M170,185V650H1320" fill="none" stroke="#657585" stroke-opacity=".6"/>
+<g clip-path="url(#plot)">
+<circle cx="302.692" cy="191.131" r="5.95" fill="#286caa" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="745.000" cy="205.546" r="5.95" fill="#286caa" stroke="none" stroke-width="2" opacity="1"/>
+<circle cx="1187.308" cy="259.258" r="5.95" fill="#286caa" stroke="none" stroke-width="2" opacity="1"/>
+</g>
+<text x="745.0" y="735" text-anchor="middle" class="axis">Engine speed (RPM)</text>
+<text transform="translate(43,417.5) rotate(-90)" text-anchor="middle" class="axis">Torque (N m)</text>
+<text x="170" y="841" class="note">Pipe scale 1.02 throughout. Discrete commercial-model outputs only; no fitted curve, extrapolation or optimum</text>
+<text x="170" y="867" class="note">claim.</text>
+</svg>

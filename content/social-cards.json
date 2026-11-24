@@ -3688,6 +3688,373 @@
           ]
         }
       ]
+    },
+    {
+      "id": "generative-learning-rev01",
+      "title": "When engineering starts learning",
+      "revision": "Rev01",
+      "posts": [
+        {
+          "id": "J01",
+          "title": "When engineering starts learning",
+          "format": "Carousel",
+          "caption": "What if a design workflow could learn from each new calculation? Wahoo generated 1,024 conditional engine configurations, connected two new commercial evaluations to an adaptive workflow, then tested frozen predictions on four unseen cases. The curvature-aware model reduced mean absolute power error by 48.22% in that small benchmark. That is local numerical progress, not an optimized or physically validated engine. Follow the engineering journey.",
+          "hashtags": [
+            "#WahooRacing",
+            "#WahooIntelligence",
+            "#EngineDevelopment",
+            "#EngineeringSimulation",
+            "#BehindTheBuild"
+          ],
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/generative-learning-rev01/J01-01.png",
+              "alt": "WHAT IF AN ENGINE COULD HELP DESIGN ITS SUCCESSOR? An engineering workflow, learning one observation at a time. Illustrative A48 GENERATED COORDINATES / EDITORIAL DATA SCULPTURE"
+            },
+            {
+              "imageURL": "/preview/social-cards/images/generative-learning-rev01/J01-02.png",
+              "alt": "1,024 IDEAS. TWO NEW CALCULATIONS. Generated definitions are not solver evaluations. Actual source-derived chart."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/generative-learning-rev01/J01-03.png",
+              "alt": "GENERATE. EVALUATE. LEARN. The adaptive workflow is demonstrated. A selection advantage is not. Conceptual explanatory diagram; no physical validation claim."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/generative-learning-rev01/J01-04.png",
+              "alt": "PREDICTIONS HAVE TO EARN TRUST. 48.22% less mean absolute power error on four unseen tests. Actual source-derived chart."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/generative-learning-rev01/J01-05.png",
+              "alt": "FOUR NEW CASES. FOUR SMALLER ERRORS. Curvature model B outperformed additive A in this local benchmark. Actual source-derived chart."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/generative-learning-rev01/J01-06.png",
+              "alt": "LEARNING IS A STEP. NOT A FINISH LINE. Next: broader qualified comparisons. Follow the build. Conceptual explanatory diagram; no physical validation claim."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "independent-physics-rev01",
+      "title": "Building our own physics",
+      "revision": "Rev01",
+      "posts": [
+        {
+          "id": "J02",
+          "title": "Building our own physics",
+          "format": "Carousel",
+          "caption": "We are building physics we can inspect. Our independent cylinder kernel evolves a simplified gas state; the next component calculates pressure-driven exchange through a fixed restriction, including choking and reverse flow. Analytical comparisons and independent numerical checks qualify these specific components. They do not establish real Wahoo horsepower or a complete engine simulator. Follow the build, one verified capability at a time.",
+          "hashtags": [
+            "#WahooRacing",
+            "#WahooIntelligence",
+            "#EngineDevelopment",
+            "#EngineeringSimulation",
+            "#BehindTheBuild"
+          ],
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/independent-physics-rev01/J02-01.png",
+              "alt": "WE ARE BUILDING OUR OWN PHYSICS ENGINE. Our first independent components. Not a complete engine simulator. Illustrative CONCEPTUAL UNIFORM CONTROL VOLUME / NOT WAHOO HARDWARE"
+            },
+            {
+              "imageURL": "/preview/social-cards/images/independent-physics-rev01/J02-02.png",
+              "alt": "FROM PREDICTION TO PHYSICS. A uniform gas state, evolved by conservation equations. Conceptual explanatory diagram; no physical validation claim."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/independent-physics-rev01/J02-03.png",
+              "alt": "PRESSURE HAS A HISTORY. Actual numerical compression test. Synthetic ideal gas. Actual source-derived chart."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/independent-physics-rev01/J02-04.png",
+              "alt": "BUILT. CHECKED. INDEPENDENTLY REVIEWED. 12 analytical cases. 10 kernel tests. Fourth-order on a smooth fixture. Actual source-derived chart."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/independent-physics-rev01/J02-05.png",
+              "alt": "WHEN FLOW CHOKES. Accepted fixed-restriction probes; no fictional flow field. Actual source-derived chart."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/independent-physics-rev01/J02-06.png",
+              "alt": "ONE CAPABILITY AT A TIME. A50 storage + A51 flow. Full engine performance remains unvalidated. Conceptual explanatory diagram; no physical validation claim."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "digital-two-stroke-rev01",
+      "title": "Inside a digital two-stroke engine",
+      "revision": "Rev01",
+      "posts": [
+        {
+          "id": "J03",
+          "title": "Inside a digital two-stroke engine",
+          "format": "Carousel",
+          "caption": "A digital two-stroke model needs more than a cylinder equation. Piston-controlled openings, a finite crankcase, cylinder exchange, prescribed heat and passive gas-origin labels now connect in our synthetic engineering studies. Accepted checks cover defined numerical fixtures—not real combustion, resolved scavenging or physical engine performance. Even the 70.35× speedup belongs to one equilibrium benchmark. We are building the foundations carefully. Follow the next step.",
+          "hashtags": [
+            "#WahooRacing",
+            "#WahooIntelligence",
+            "#EngineDevelopment",
+            "#EngineeringSimulation",
+            "#BehindTheBuild"
+          ],
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/digital-two-stroke-rev01/J03-01.png",
+              "alt": "INSIDE THE ENGINE WE ARE TEACHING SOFTWARE TO UNDERSTAND. Synthetic physics connected to geometric opening. Illustrative HISTORICAL A45 PARTIAL CAD REFERENCE / PROXIES RETAINED"
+            },
+            {
+              "imageURL": "/preview/social-cards/images/digital-two-stroke-rev01/J03-02.png",
+              "alt": "THE PISTON OPENS THE PATH. Three source-derived positions. Synthetic fixture; simplified outlines. Conceptual explanatory diagram; no physical validation claim."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/digital-two-stroke-rev01/J03-03.png",
+              "alt": "TWO VOLUMES. ONE CALCULATION. Finite crankcase + cylinder, linked by transfer flow. Conceptual explanatory diagram; no physical validation claim."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/digital-two-stroke-rev01/J03-04.png",
+              "alt": "PRESSURES RESPOND TOGETHER. One selected unheated, nonperiodic numerical revolution. Actual source-derived chart."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/digital-two-stroke-rev01/J03-05.png",
+              "alt": "FASTER, IN ONE PRECISE TEST. 70.35× on the retained equilibrium fixture only. Actual source-derived chart."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/digital-two-stroke-rev01/J03-06.png",
+              "alt": "HEAT IN. ORIGINS TRACKED. Prescribed heat and passive labels. No combustion chemistry. Actual source-derived chart."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/digital-two-stroke-rev01/J03-07.png",
+              "alt": "MORE CONNECTED. STILL IN DEVELOPMENT. A50–A54 form a numerical architecture, not a validated physical engine. Conceptual explanatory diagram; no physical validation claim."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "engine-discovery-rev01",
+      "title": "From simulation to engine discovery",
+      "revision": "Rev01",
+      "posts": [
+        {
+          "id": "J04",
+          "title": "From simulation to engine discovery",
+          "format": "Carousel",
+          "caption": "A bigger search begins with knowing what a result means. Three P3-family commercial-model observations and a separate shorter-pipe comparison help us ask better questions; they are not dyno measurements or an optimum power curve. Our 10,000 later-generated candidates remain unscored. A56 passed its work-reference gate, while integrated periodic qualification remains on HOLD after an independent audit found unresolved discrepancies. Resolving those gaps comes before claiming engine discovery. Follow Wahoo’s engineering development.",
+          "hashtags": [
+            "#WahooRacing",
+            "#WahooIntelligence",
+            "#EngineDevelopment",
+            "#EngineeringSimulation",
+            "#BehindTheBuild"
+          ],
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/engine-discovery-rev01/J04-01.png",
+              "alt": "THREE OBSERVATIONS. A BIGGER AMBITION. 10,000 later definitions remain unscored. Qualification comes first. Illustrative P3-FAMILY MODELED OBSERVATIONS / NOT DYNO RESULTS"
+            },
+            {
+              "imageURL": "/preview/social-cards/images/engine-discovery-rev01/J04-02.png",
+              "alt": "THREE POINTS. NOT A POWER CEILING. Separate P3-family observations. No fitted curve or optimum claim. Actual source-derived chart."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/engine-discovery-rev01/J04-03.png",
+              "alt": "TORQUE TELLS ITS OWN STORY. Actual modeled observations at 9,500 / 10,000 / 10,500 RPM. Actual source-derived chart."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/engine-discovery-rev01/J04-04.png",
+              "alt": "CHANGE ONE CONFIGURATION. COMPARE. P3 and R04 differ in pipe scale; shown separately at 10,000 RPM. Actual source-derived chart."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/engine-discovery-rev01/J04-05.png",
+              "alt": "A PASSED GATE IS NOT THE WHOLE ENGINE. A56: Gate 1 accepted. Gate 2 HOLD. Gate 3 not released. Conceptual explanatory diagram; no physical validation claim."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/engine-discovery-rev01/J04-06.png",
+              "alt": "SIMULATED IS NOT PHYSICALLY VALIDATED. Commercial outputs, independent physics and physical tests are distinct. Conceptual explanatory diagram; no physical validation claim."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/engine-discovery-rev01/J04-07.png",
+              "alt": "THE AMBITION IS BIGGER THAN THE BASELINE. Next: resolve qualification gaps before broader discovery. A57 is proposed. Conceptual explanatory diagram; no physical validation claim."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "engineering-notes-a47-a56-rev01",
+      "title": "Engineering notes / A47–A56",
+      "revision": "Rev01",
+      "posts": [
+        {
+          "id": "S-A48",
+          "title": "A WORKFLOW THAT LEARNS",
+          "format": "Single image",
+          "caption": "A WORKFLOW THAT LEARNS. Two new evaluations connected to the adaptive prototype. Conceptual explanatory diagram, not physical engine evidence. Follow the Wahoo engineering journey. Digital development only; physical engine performance is not validated.",
+          "hashtags": [
+            "#WahooRacing",
+            "#WahooIntelligence",
+            "#EngineDevelopment",
+            "#BehindTheBuild"
+          ],
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/engineering-notes-a47-a56-rev01/S-A48.png",
+              "alt": "A WORKFLOW THAT LEARNS. Two new evaluations connected to the adaptive prototype. Conceptual explanatory diagram, not physical engine evidence."
+            }
+          ]
+        },
+        {
+          "id": "S-A49",
+          "title": "BETTER, WHERE WE TESTED",
+          "format": "Single image",
+          "caption": "BETTER, WHERE WE TESTED. Four unseen configurations. Every power error smaller. Conceptual explanatory diagram, not physical engine evidence. Follow the Wahoo engineering journey. Digital development only; physical engine performance is not validated.",
+          "hashtags": [
+            "#WahooRacing",
+            "#WahooIntelligence",
+            "#EngineDevelopment",
+            "#BehindTheBuild"
+          ],
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/engineering-notes-a47-a56-rev01/S-A49.png",
+              "alt": "BETTER, WHERE WE TESTED. Four unseen configurations. Every power error smaller. Conceptual explanatory diagram, not physical engine evidence."
+            }
+          ]
+        },
+        {
+          "id": "S-A50",
+          "title": "OWNING THE EQUATIONS",
+          "format": "Single image",
+          "caption": "OWNING THE EQUATIONS. A verified synthetic cylinder kernel, in Wahoo-owned code. Conceptual explanatory diagram, not physical engine evidence. Follow the Wahoo engineering journey. Digital development only; physical engine performance is not validated.",
+          "hashtags": [
+            "#WahooRacing",
+            "#WahooIntelligence",
+            "#EngineDevelopment",
+            "#BehindTheBuild"
+          ],
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/engineering-notes-a47-a56-rev01/S-A50.png",
+              "alt": "OWNING THE EQUATIONS. A verified synthetic cylinder kernel, in Wahoo-owned code. Conceptual explanatory diagram, not physical engine evidence."
+            }
+          ]
+        },
+        {
+          "id": "S-A51",
+          "title": "FOLLOW THE PRESSURE",
+          "format": "Single image",
+          "caption": "FOLLOW THE PRESSURE. Signed restriction flow and donor enthalpy. Synthetic scope. Conceptual explanatory diagram, not physical engine evidence. Follow the Wahoo engineering journey. Digital development only; physical engine performance is not validated.",
+          "hashtags": [
+            "#WahooRacing",
+            "#WahooIntelligence",
+            "#EngineDevelopment",
+            "#BehindTheBuild"
+          ],
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/engineering-notes-a47-a56-rev01/S-A51.png",
+              "alt": "FOLLOW THE PRESSURE. Signed restriction flow and donor enthalpy. Synthetic scope. Conceptual explanatory diagram, not physical engine evidence."
+            }
+          ]
+        },
+        {
+          "id": "S-A52",
+          "title": "GEOMETRY BECOMES A SIGNAL",
+          "format": "Single image",
+          "caption": "GEOMETRY BECOMES A SIGNAL. Piston-controlled port areas in the numerical model. Conceptual explanatory diagram, not physical engine evidence. Follow the Wahoo engineering journey. Digital development only; physical engine performance is not validated.",
+          "hashtags": [
+            "#WahooRacing",
+            "#WahooIntelligence",
+            "#EngineDevelopment",
+            "#BehindTheBuild"
+          ],
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/engineering-notes-a47-a56-rev01/S-A52.png",
+              "alt": "GEOMETRY BECOMES A SIGNAL. Piston-controlled port areas in the numerical model. Conceptual explanatory diagram, not physical engine evidence."
+            }
+          ]
+        },
+        {
+          "id": "S-A53",
+          "title": "NOT ONE VOLUME",
+          "format": "Single image",
+          "caption": "NOT ONE VOLUME. TWO. Crankcase and cylinder evolve together. Conceptual explanatory diagram, not physical engine evidence. Follow the Wahoo engineering journey. Digital development only; physical engine performance is not validated.",
+          "hashtags": [
+            "#WahooRacing",
+            "#WahooIntelligence",
+            "#EngineDevelopment",
+            "#BehindTheBuild"
+          ],
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/engineering-notes-a47-a56-rev01/S-A53.png",
+              "alt": "NOT ONE VOLUME. TWO. Crankcase and cylinder evolve together. Conceptual explanatory diagram, not physical engine evidence."
+            }
+          ]
+        },
+        {
+          "id": "S-A54",
+          "title": "TRACK THE ENERGY",
+          "format": "Single image",
+          "caption": "TRACK THE ENERGY. TRACK THE ORIGIN. Prescribed heat and passive labels, not combustion chemistry. Conceptual explanatory diagram, not physical engine evidence. Follow the Wahoo engineering journey. Digital development only; physical engine performance is not validated.",
+          "hashtags": [
+            "#WahooRacing",
+            "#WahooIntelligence",
+            "#EngineDevelopment",
+            "#BehindTheBuild"
+          ],
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/engineering-notes-a47-a56-rev01/S-A54.png",
+              "alt": "TRACK THE ENERGY. TRACK THE ORIGIN. Prescribed heat and passive labels, not combustion chemistry. Conceptual explanatory diagram, not physical engine evidence."
+            }
+          ]
+        },
+        {
+          "id": "S-A56",
+          "title": "THE HOLD IS PART OF THE STORY",
+          "format": "Single image",
+          "caption": "THE HOLD IS PART OF THE STORY. A56 integrated periodic qualification is not accepted. Conceptual explanatory diagram, not physical engine evidence. Follow the Wahoo engineering journey. Digital development only; physical engine performance is not validated.",
+          "hashtags": [
+            "#WahooRacing",
+            "#WahooIntelligence",
+            "#EngineDevelopment",
+            "#BehindTheBuild"
+          ],
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/engineering-notes-a47-a56-rev01/S-A56.png",
+              "alt": "THE HOLD IS PART OF THE STORY. A56 integrated periodic qualification is not accepted. Conceptual explanatory diagram, not physical engine evidence."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

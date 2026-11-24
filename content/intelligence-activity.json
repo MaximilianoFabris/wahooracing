@@ -1128,6 +1128,188 @@
       "title": "Conditional crankcase and rotating-assembly study checked",
       "summary": "A45 corrected the rod-motion interpretation and checked a revised case-and-crown architecture against declared moving-part proxies. Actual CS2018 fit, pressure closure, operating clearances and manufacture remain unqualified.",
       "evidence": "A45 accepted handoff and final independent review, 17 November 2026."
+    },
+    {
+      "id": "a47-a56-a52-initial-17nov",
+      "publication": "published",
+      "date": "2026-11-17",
+      "agents": [
+        "leo",
+        "ada",
+        "isaac"
+      ],
+      "status": "in-progress",
+      "title": "A52 original equilibrium investigation — historical HOLD",
+      "summary": "A52 original equality benchmark work; primary fixture speedup retained, overall G1 not accepted because C02 slowdown remained unexplained. Original work date differs from23November hold closeout/recovery/Rev03 acceptance; no retrospective full acceptance.",
+      "evidence": "Accepted source record; historical hold. Numerical/digital scope only; not physical engine validation."
+    },
+    {
+      "id": "a47-a56-leo-01",
+      "publication": "published",
+      "date": "2026-11-17",
+      "agents": [
+        "leo",
+        "ada",
+        "isaac"
+      ],
+      "status": "in-progress",
+      "title": "A47 initial configuration campaign",
+      "summary": "Original A47 completed three new calculations; P1 setup failed and evidence budget was exceeded. Do not retroactively claim complete campaign or resource compliance.",
+      "evidence": "Accepted source record; accepted partial. Numerical/digital scope only; not physical engine validation."
+    },
+    {
+      "id": "a47-a56-leo-02",
+      "publication": "published",
+      "date": "2026-11-17",
+      "agents": [
+        "leo",
+        "ada",
+        "isaac"
+      ],
+      "status": "completed",
+      "title": "A47 separate P1 completion",
+      "summary": "Separate P1 completed at PowerAVN 7.44171669956112 kW; all eight factorial cells then available. Original failure preserved; modeled output only; short timing/pipe interaction 0.00018291450860 kW is nearly additive.",
+      "evidence": "Accepted source record; accepted scoped. Numerical/digital scope only; not physical engine validation."
+    },
+    {
+      "id": "a47-a56-leo-03",
+      "publication": "published",
+      "date": "2026-11-17",
+      "agents": [
+        "leo",
+        "ada",
+        "isaac"
+      ],
+      "status": "completed",
+      "title": "A48 adaptive engineering prototype",
+      "summary": "A48 generated 1024 unique conditional candidates and completed two new supervised commercial evaluations. Adaptive ingestion/model updating proved; selection coverage-led; no demonstrated power improvement, autonomous API or 1024 simulations.",
+      "evidence": "Accepted source record; accepted software prototype. Numerical/digital scope only; not physical engine validation."
+    },
+    {
+      "id": "a47-a56-leo-04",
+      "publication": "published",
+      "date": "2026-11-17",
+      "agents": [
+        "leo",
+        "ada",
+        "isaac"
+      ],
+      "status": "completed",
+      "title": "A49 four-point predictive comparison",
+      "summary": "A49 B improved four heldout prediction errors; MAE fell 48.22 percent. Commercial-model benchmark only; no physical validation/global interpolation/confidence interval. H4 resource finalization is accepted by bounds with exact final values unknown.",
+      "evidence": "Accepted source record; provisional local model preference. Numerical/digital scope only; not physical engine validation."
+    },
+    {
+      "id": "a47-a56-leo-05",
+      "publication": "published",
+      "date": "2026-11-17",
+      "agents": [
+        "leo",
+        "ada",
+        "isaac"
+      ],
+      "status": "completed",
+      "title": "A50 independent cylinder kernel",
+      "summary": "A50 four gates accepted for original synthetic single-zone thermodynamic kernel. Analytical fixtures, not real engine output. Coarse endpoint trapezoid remains failed diagnostic; guard mock-only at this stage.",
+      "evidence": "Accepted source record; accepted synthetic. Numerical/digital scope only; not physical engine validation."
+    },
+    {
+      "id": "a47-a56-leo-06",
+      "publication": "published",
+      "date": "2026-11-17",
+      "agents": [
+        "leo",
+        "ada",
+        "isaac"
+      ],
+      "status": "completed",
+      "title": "A51 fixed-restriction gas flow",
+      "summary": "A51 four gates accepted for fixed-area explicit-Cd compressible restriction coupled to A50. Tighter equilibrium point is tolerance-specific and expensive; earlier overflow/quadrature/mixing failures retained; no calibrated Cd, ports, combustion or horsepower.",
+      "evidence": "Accepted source record; accepted synthetic physical hold. Numerical/digital scope only; not physical engine validation."
+    },
+    {
+      "id": "a47-a56-leo-08",
+      "publication": "published",
+      "date": "2026-11-23",
+      "agents": [
+        "leo",
+        "ada",
+        "isaac"
+      ],
+      "status": "completed",
+      "title": "A52 equilibrium and port geometry",
+      "summary": "A52 original HOLD remains history; Rev03 owner-amended exact-C02 median criterion passed; port coupling accepted in finite synthetic scope. Root cause UNKNOWN; cannot claim all criteria unchanged throughout. Negative curved-cap defect and remedy retained; no engine periodicity or work-output claim.",
+      "evidence": "Accepted source record; accepted scoped after amendment. Numerical/digital scope only; not physical engine validation."
+    },
+    {
+      "id": "a47-a56-leo-09",
+      "publication": "published",
+      "date": "2026-11-24",
+      "agents": [
+        "leo",
+        "ada",
+        "isaac"
+      ],
+      "status": "completed",
+      "title": "A53 coupled finite gas volumes",
+      "summary": "A53 integrates finite crankcase and cylinder with intake/transfer/exhaust in Wahoo Python. Synthetic inverse-slider cavity and explicit Cd; real crankcase/reed dynamics/calibration unknown; full revolution not periodicity.",
+      "evidence": "Accepted source record; accepted synthetic. Numerical/digital scope only; not physical engine validation."
+    },
+    {
+      "id": "a47-a56-leo-10",
+      "publication": "published",
+      "date": "2026-11-24",
+      "agents": [
+        "leo",
+        "ada",
+        "isaac"
+      ],
+      "status": "completed",
+      "title": "A54 heat, origins and supervised P3 run",
+      "summary": "A54 adds prescribed heat and passive origin labels; separate supervised shakedown reproduced P3. Heat is prescribed, labels not chemistry/scavenging. Original setup abort retained; no unrestricted unattended guard qualification.",
+      "evidence": "Accepted source record; accepted synthetic and one commercial instance. Numerical/digital scope only; not physical engine validation."
+    },
+    {
+      "id": "a47-a56-leo-11",
+      "publication": "published",
+      "date": "2026-11-24",
+      "agents": [
+        "leo",
+        "ada",
+        "isaac"
+      ],
+      "status": "in-progress",
+      "title": "A55 repeated-cycle investigation",
+      "summary": "A55 accepts tested simple periodic classes; expanded integrated Gate3 remains HOLD. R04 modeled power 7.51231996905462 kW. R03 setup abort gives no numeric result; R04 is -0.9809584 percent versus P3 at one point; 10000 candidates remain unscored.",
+      "evidence": "Accepted source record; partial acceptance. Numerical/digital scope only; not physical engine validation."
+    },
+    {
+      "id": "a47-a56-leo-12",
+      "publication": "published",
+      "date": "2026-11-24",
+      "agents": [
+        "leo",
+        "ada",
+        "isaac"
+      ],
+      "status": "in-progress",
+      "title": "A56 integrated qualification HOLD",
+      "summary": "A56 G1 accepted, G2 HOLD, G3 not released. 48-cycle synthetic trajectory nonconverged and independent first12-cycle reconstruction failed materially. Remaining36 cycles not independently audited; conditional fine case skipped. Own ledger balance is insufficient; no periodic powered engine or performance claim.",
+      "evidence": "Accepted source record; partial acceptance hold. Numerical/digital scope only; not physical engine validation."
+    },
+    {
+      "id": "a47-a56-leo-13",
+      "publication": "published",
+      "date": "2026-11-24",
+      "agents": [
+        "leo",
+        "ada",
+        "isaac"
+      ],
+      "status": "completed",
+      "title": "A56 sparse commercial-model observations",
+      "summary": "A56 approved commercial 9500/10500 RPM points completed at 7.441156738269/7.003380218091 kW. 10000 highest among three P3-family observations only; not power curve, optimum RPM, mechanical qualification or physical output.",
+      "evidence": "Accepted source record; accepted exploratory model results. Numerical/digital scope only; not physical engine validation."
     }
   ]
 }
