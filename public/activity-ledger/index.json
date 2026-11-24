@@ -1,8 +1,8 @@
 {
   "schema": "wahoo.activity-public/1",
-  "generatedAt": "2026-11-24T14:47:01.965858Z",
-  "historySyncedAt": "2026-11-24T14:46:59.614643Z",
-  "totalEvents": 67278,
+  "generatedAt": "2026-11-24T14:55:27.079740Z",
+  "historySyncedAt": "2026-11-24T14:55:24.773987Z",
+  "totalEvents": 67306,
   "coverage": {
     "label": "Recovered activity, with known history gaps",
     "limitations": [
@@ -12,7 +12,7 @@
       "Unknown dates and unrecorded roles remain explicitly unknown. Dates from chat turns are labelled as turn start.",
       "Available local histories are collected automatically. Missing or cloud-only history is not automatically retrieved."
     ],
-    "localSessions": 196,
+    "localSessions": 198,
     "cloudRecovery": "Limited accessible conversation window; older history may be unavailable."
   },
   "agents": [
@@ -102,9 +102,9 @@
   "months": [
     {
       "id": "2026-11",
-      "count": 41952,
+      "count": 41980,
       "url": "/activity-ledger/2026-11.json",
-      "sha256": "a208e17fd5bcb925a4655853d74dc4163a222ef3f1153e321afed6ead9d91bad"
+      "sha256": "7323c22178017e3ea8cae3d955731e4c892980381698b13a829d2d5f974b2e36"
     },
     {
       "id": "2026-10",
@@ -121,8 +121,8 @@
   ],
   "automaticSync": {
     "enabled": true,
-    "intervalMinutes": 15,
-    "idleHeartbeatMinutes": 60,
+    "intervalMinutes": 120,
+    "idleHeartbeatMinutes": 120,
     "availability": "Runs while this Windows computer is awake and the owner is signed in. Network access is required for website publication."
   }
 }
