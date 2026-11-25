@@ -4132,45 +4132,42 @@
     {
       "id": "digital-water-heroes-rev01",
       "title": "Virtual water — board and hand-control heroes",
-      "revision": "Rev01",
+      "revision": "Rev02",
       "posts": [
         {
           "id": "HULL-HEROES",
-          "title": "Shaping what’s next",
+          "title": "The next wave takes shape",
           "format": "5-card carousel",
-          "revision": "Rev01",
+          "revision": "Rev02",
           "reviewStatus": "OWNER_REVIEW",
-          "caption": "Every line begins as a decision.\n\nWe’re shaping Wahoo in 3D: the hull, the rider-contact details, the surfaces and the control hardware, brought together in one evolving design.\n\nThese images use our current digital model in imagined water-and-light environments. They are concept renders, not photographs of a finished board or a physical water test.\n\nFollow the details. Follow the build.\nwahooracing.com",
+          "caption": "Before the first wave, there are thousands of design decisions.\n\nA full view of the shape. A closer look at the details.\n\nWahoo’s digital board is coming together: the sculpted hull, carbon finish studies, rider-contact surfaces and control hardware.\n\nShown in imagined water-and-light environments. These are concept renders of a developing design, not photographs of a finished board or a physical water test.\n\nFollow the build at wahooracing.com",
           "hashtags": [
             "#WahooRacing",
             "#Jetboard",
             "#ProductDesign",
             "#DigitalDesign",
-            "#CarbonFiber",
-            "#DesignDevelopment",
-            "#BehindTheBuild",
-            "#MarineDesign"
+            "#BehindTheBuild"
           ],
           "cards": [
             {
-              "imageURL": "/preview/social-cards/images/digital-water-heroes-rev01/HULL-01.png",
-              "alt": "Light editorial hero showing the actual Hull01 digital model above a pale water studio. The water setting is conceptual."
+              "imageURL": "/preview/social-cards/images/board-heroes-rev02/HULL-01.png",
+              "alt": "The next wave takes shape. Exact native Wahoo board, horizontal with bow right, composited over an AI-created pale blue water splash. Concept marketing scene, not a physical water test. Slide 1 of 5."
             },
             {
-              "imageURL": "/preview/social-cards/images/digital-water-heroes-rev01/HULL-02.png",
-              "alt": "Typography-led light card: Not just a shape. A system. Four design areas: hull, rider contact, control and surfaces."
+              "imageURL": "/preview/social-cards/images/board-heroes-rev02/HULL-02.png",
+              "alt": "The details are the design. Actual accepted camera 14 close-up of the corrected circular-grip foot pad, sewn Wahoo tag and carbon deck. Appearance remains a digital material study. Slide 2 of 5."
             },
             {
-              "imageURL": "/preview/social-cards/images/digital-water-heroes-rev01/HULL-03.png",
-              "alt": "Actual CAD-derived close-up of the corrected foot pad: circular grip, stitched Wahoo tag and carbon finish. Material appearance remains provisional."
+              "imageURL": "/preview/social-cards/images/board-heroes-rev02/HULL-03.png",
+              "alt": "First, imagine. Then, refine. A developing design, explored in a virtual world. Light typography card. Slide 3 of 5."
             },
             {
-              "imageURL": "/preview/social-cards/images/digital-water-heroes-rev01/HULL-04.png",
-              "alt": "Second hull hero: the genuine digital board staged over dark water with illustrative blue virtual rings. Not a physical water test or CFD visualization."
+              "imageURL": "/preview/social-cards/images/board-heroes-rev02/HULL-04.png",
+              "alt": "Imagined in 3D. Exact native reverse three-quarter camera, board oriented bow-up, beside a dramatic AI-created electric-blue water curl. Water is illustrative, not simulation or physical testing. Slide 4 of 5."
             },
             {
-              "imageURL": "/preview/social-cards/images/digital-water-heroes-rev01/HULL-05.png",
-              "alt": "Light closing typographic poster inviting viewers to follow Wahoo development at wahooracing.com."
+              "imageURL": "/preview/social-cards/images/board-heroes-rev02/HULL-05.png",
+              "alt": "From every angle. Native low rear camera 16 showing the Wahoo side wordmark, sculpted stern, outlet, matte fins and deck details. Follow the build at wahooracing.com. Digital design study. Slide 5 of 5."
             }
           ]
         },

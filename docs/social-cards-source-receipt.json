@@ -2103,36 +2103,6 @@
       "sha256": "eebd735cc6ccd0fdce82f6d47248bbdc0dff9413c123d3528249c5cc689da883"
     },
     {
-      "imageURL": "/preview/social-cards/images/digital-water-heroes-rev01/HULL-01.png",
-      "source": "Social_Media/Instagram/Digital_Water_Heroes_Rev01_20261125/exports/HULL-01.png",
-      "bytes": 634154,
-      "sha256": "9a92a1ffbf82ae284209426b8792664648f48214d577f65606bcf0e0eca7eac2"
-    },
-    {
-      "imageURL": "/preview/social-cards/images/digital-water-heroes-rev01/HULL-02.png",
-      "source": "Social_Media/Instagram/Digital_Water_Heroes_Rev01_20261125/exports/HULL-02.png",
-      "bytes": 96573,
-      "sha256": "8b576194d7478dd360ccc52111eea112d7d01526631d93bb320252b5a6888576"
-    },
-    {
-      "imageURL": "/preview/social-cards/images/digital-water-heroes-rev01/HULL-03.png",
-      "source": "Social_Media/Instagram/Digital_Water_Heroes_Rev01_20261125/exports/HULL-03.png",
-      "bytes": 1402004,
-      "sha256": "03cd8e9bbb0bf36d1c6ee1d5bf17ef35feb9356dc1464291c44be9c3cb5f6806"
-    },
-    {
-      "imageURL": "/preview/social-cards/images/digital-water-heroes-rev01/HULL-04.png",
-      "source": "Social_Media/Instagram/Digital_Water_Heroes_Rev01_20261125/exports/HULL-04.png",
-      "bytes": 712518,
-      "sha256": "8bb5cebedcd5f9eafdb3430e7c2baca034c914053db0724e8080b88b253cf3d0"
-    },
-    {
-      "imageURL": "/preview/social-cards/images/digital-water-heroes-rev01/HULL-05.png",
-      "source": "Social_Media/Instagram/Digital_Water_Heroes_Rev01_20261125/exports/HULL-05.png",
-      "bytes": 83359,
-      "sha256": "1290d30c178622c8ffec69ec2c66fa13161e06b4bf04f8adfdc7af1e530ab0ef"
-    },
-    {
       "imageURL": "/preview/social-cards/images/digital-water-heroes-rev01/CONTROL-01.png",
       "source": "Social_Media/Instagram/Digital_Water_Heroes_Rev01_20261125/exports/CONTROL-01.png",
       "bytes": 450504,
@@ -2161,6 +2131,36 @@
       "source": "Social_Media/Instagram/Digital_Water_Heroes_Rev01_20261125/exports/CONTROL-05.png",
       "bytes": 80538,
       "sha256": "b3e91c9ff593968b85b5f30033b07b4f0569167f067e3e6976f52adcc6044444"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/board-heroes-rev02/HULL-01.png",
+      "source": "Social_Media/Instagram/Board_Heroes_Rev02_20261125/exports/HULL-01.png",
+      "bytes": 1626315,
+      "sha256": "652ec69816d09f5be53fd9f2aeb4bc513b5a86e404e696331b18d0499d499b55"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/board-heroes-rev02/HULL-02.png",
+      "source": "Social_Media/Instagram/Board_Heroes_Rev02_20261125/exports/HULL-02.png",
+      "bytes": 975901,
+      "sha256": "acfc8a7b6068f2c984c280330ac69eea10569275bb259a265ddef414cff87c1c"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/board-heroes-rev02/HULL-03.png",
+      "source": "Social_Media/Instagram/Board_Heroes_Rev02_20261125/exports/HULL-03.png",
+      "bytes": 61792,
+      "sha256": "9a16193a2bbef8bd3549bfa9b8c5ac05eaf240ff471a3fed56378c9218b38d6f"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/board-heroes-rev02/HULL-04.png",
+      "source": "Social_Media/Instagram/Board_Heroes_Rev02_20261125/exports/HULL-04.png",
+      "bytes": 1651696,
+      "sha256": "67f9d313ebe9bd662f000a07c7cc6d0331e53803fd5886fab952202bdcb66a5c"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/board-heroes-rev02/HULL-05.png",
+      "source": "Social_Media/Instagram/Board_Heroes_Rev02_20261125/exports/HULL-05.png",
+      "bytes": 434001,
+      "sha256": "1a17f51cccbaafa2c6dd9acf53364a4647bca508b184fbb39fd019667e147c7e"
     }
   ],
   "sources": [
@@ -2446,11 +2446,11 @@
     },
     {
       "batch": "digital-water-heroes-rev01",
-      "source": "Social_Media/Instagram/Digital_Water_Heroes_Rev01_20261125/copy/CAMPAIGNS.json",
-      "sha256": "28eb413db34a6e671195cf7f703243e5930bc79002d7d56421daf7c2c4c023f2"
+      "source": "Social_Media/Instagram/Board_Heroes_Rev02_20261125/copy/CAMPAIGNS.json",
+      "sha256": "46cdfb31021b692eb5d3b7c00cbe8d11e7e5face689bfb3ca98f8dcb49506dd2"
     }
   ],
-  "projectionSha256": "27644bcb9cf8d119576f06bf86038c8ccbd474c7628f26bc3af0aff69a2f4cb3",
+  "projectionSha256": "985b137365164cf99060f1eaaa7a70057406261f2b619e2d304e481cd1edd388",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",
@@ -2709,6 +2709,36 @@
       "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/release/social-revision-03/J02-01.png",
       "bytes": 687752,
       "sha256": "fa2bf61952c09710671bb994b5901778b2a18c9804636e31743e3bb11db4270b"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/digital-water-heroes-rev01/HULL-01.png",
+      "source": "Social_Media/Instagram/Digital_Water_Heroes_Rev01_20261125/exports/HULL-01.png",
+      "bytes": 634154,
+      "sha256": "9a92a1ffbf82ae284209426b8792664648f48214d577f65606bcf0e0eca7eac2"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/digital-water-heroes-rev01/HULL-02.png",
+      "source": "Social_Media/Instagram/Digital_Water_Heroes_Rev01_20261125/exports/HULL-02.png",
+      "bytes": 96573,
+      "sha256": "8b576194d7478dd360ccc52111eea112d7d01526631d93bb320252b5a6888576"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/digital-water-heroes-rev01/HULL-03.png",
+      "source": "Social_Media/Instagram/Digital_Water_Heroes_Rev01_20261125/exports/HULL-03.png",
+      "bytes": 1402004,
+      "sha256": "03cd8e9bbb0bf36d1c6ee1d5bf17ef35feb9356dc1464291c44be9c3cb5f6806"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/digital-water-heroes-rev01/HULL-04.png",
+      "source": "Social_Media/Instagram/Digital_Water_Heroes_Rev01_20261125/exports/HULL-04.png",
+      "bytes": 712518,
+      "sha256": "8bb5cebedcd5f9eafdb3430e7c2baca034c914053db0724e8080b88b253cf3d0"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/digital-water-heroes-rev01/HULL-05.png",
+      "source": "Social_Media/Instagram/Digital_Water_Heroes_Rev01_20261125/exports/HULL-05.png",
+      "bytes": 83359,
+      "sha256": "1290d30c178622c8ffec69ec2c66fa13161e06b4bf04f8adfdc7af1e530ab0ef"
     }
   ],
   "updatedDate": "2026-11-25"
