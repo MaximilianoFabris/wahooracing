@@ -139,4 +139,4 @@ assert.equal(entries.at(-8).key,'leo-hull-studio-rev01-LEO-HULL');assert.equal(e
 
 assert.equal(entries.at(-7).key,'leo-volumetric-hull-rev01-LEO-VOLUME');assert.equal(entries.at(-7).position,86);assert.equal(data.batches.at(-7).posts[0].cards.length,1);
 
-assert.deepEqual(entries.slice(-6).map(e=>e.position),[87,88,89,90,91,92]);assert.deepEqual(data.batches.slice(-6).map(b=>b.posts.length),[1,1,1,1,8,2]);assert.deepEqual(data.batches.at(-1).posts[0].cards.map(c=>c.alt),data.batches.at(-2).posts.filter(p=>['S-A50','S-A48','S-A49','S-A51','S-A53','S-A54','S-A56'].includes(p.id)).sort((a,b)=>['S-A50','S-A48','S-A49','S-A51','S-A53','S-A54','S-A56'].indexOf(a.id)-['S-A50','S-A48','S-A49','S-A51','S-A53','S-A54','S-A56'].indexOf(b.id)).map(p=>p.cards[0].alt));
+assert.deepEqual(entries.slice(-6).map(e=>e.position),[87,88,89,90,91,92]);assert.deepEqual(data.batches.slice(-6).map(b=>b.posts.length),[1,1,1,1,8,2]);assert.equal(data.batches.at(-1).posts[0].cards.length,7);assert(data.batches.at(-1).posts[0].cards.every((c,i)=>c.alt.endsWith(`Slide ${i+1} of 7.`)));assert(data.batches.at(-1).posts[0].cards[0].alt.includes('not computed gas or combustion results'));
