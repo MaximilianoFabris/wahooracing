@@ -95,8 +95,10 @@
     "engineering-capabilities-rev02-CAPABILITIES",
     "engineering-capabilities-rev02-S-A52",
     "digital-water-heroes-rev01-HULL-HEROES",
-    "digital-water-heroes-rev01-HAND-CONTROL-HEROES"
+    "digital-water-heroes-rev01-HAND-CONTROL-HEROES",
+    "light-product-views-rev01-THREE-VIEWS",
+    "light-product-views-rev01-HERO-ANGLE"
   ],
   "ownerException20261125": "Owner requested old 91,92,93,94,96,97,98 combined, old93 first; combined now91, old95 now92. Positions1–90 unchanged. Gallery displays newest first; numbering remains ascending publication order.",
-  "latestAppend": "25 November2026: two owner-requested product hero carousels append as93/94. Positions1–92 and newest-first presentation preserved."
+  "latestAppend": "25November2026: owner reference-led light standalone product cards append95/96. Posts1–94 unchanged; newest-first presentation preserved."
 }

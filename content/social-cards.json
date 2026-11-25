@@ -4212,6 +4212,55 @@
           ]
         }
       ]
+    },
+    {
+      "id": "light-product-views-rev01",
+      "title": "Light studio — three exterior views and reference-angle hero",
+      "revision": "Rev01",
+      "posts": [
+        {
+          "id": "THREE-VIEWS",
+          "title": "Every side of Wahoo",
+          "format": "Single card",
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "caption": "One shape. Three perspectives.\n\nThe deck, underside and profile of Wahoo’s current digital board, shown at the same scale. Each view reveals another part of the form we’re developing.\n\nThe hand-control assembly is omitted here to keep the exterior views clear. These are CAD-derived design renders; materials and hardware qualification remain in development.\n\nFollow the build at wahooracing.com",
+          "hashtags": [
+            "#WahooRacing",
+            "#Jetboard",
+            "#IndustrialDesign",
+            "#ProductDevelopment",
+            "#DigitalDesign"
+          ],
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/light-product-views-rev01/VIEWS-01.png",
+              "alt": "Every side. Three authentic Wahoo digital board views: deck, underside and side profile, bows pointing up, at a common orthographic scale on a light studio background. Hand-control assembly omitted for exterior clarity. Design in development."
+            }
+          ]
+        },
+        {
+          "id": "HERO-ANGLE",
+          "title": "Design in focus",
+          "format": "Single card",
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "caption": "A new perspective on the Wahoo form.\n\nThe sculpted hull, carbon finish study, rider-contact details and hand-control concept, brought together in our current digital model.\n\nA studio render of a developing design. Physical testing and final hardware qualification remain ahead.\n\nFollow the build at wahooracing.com",
+          "hashtags": [
+            "#WahooRacing",
+            "#Jetboard",
+            "#ProductDesign",
+            "#CarbonFiber",
+            "#BehindTheBuild"
+          ],
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/light-product-views-rev01/HERO-01.png",
+              "alt": "Design. In focus. Actual Wahoo digital board and controller in a lower three-quarter view, stern left and bow right, inspired by the owner’s preferred product-reference angle. Glossy carbon, corrected footpads and native branding on a pale studio background. Design study."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

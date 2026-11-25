@@ -2161,6 +2161,18 @@
       "source": "Social_Media/Instagram/Board_Heroes_Rev02_20261125/exports/HULL-05.png",
       "bytes": 434001,
       "sha256": "1a17f51cccbaafa2c6dd9acf53364a4647bca508b184fbb39fd019667e147c7e"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/light-product-views-rev01/VIEWS-01.png",
+      "source": "Social_Media/Instagram/Light_Product_Views_Rev01_20261125/exports/VIEWS-01.png",
+      "bytes": 1314286,
+      "sha256": "00ee5cf63dbfdce15f639409675c81126ecf40c085a7d3d194507a15f1ccc290"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/light-product-views-rev01/HERO-01.png",
+      "source": "Social_Media/Instagram/Light_Product_Views_Rev01_20261125/exports/HERO-01.png",
+      "bytes": 1021132,
+      "sha256": "31bf279658bfd9d9d2354d73bdb95b257671a3702b63d0c4827a0a3fbf6fa8e4"
     }
   ],
   "sources": [
@@ -2448,9 +2460,14 @@
       "batch": "digital-water-heroes-rev01",
       "source": "Social_Media/Instagram/Board_Heroes_Rev02_20261125/copy/CAMPAIGNS.json",
       "sha256": "46cdfb31021b692eb5d3b7c00cbe8d11e7e5face689bfb3ca98f8dcb49506dd2"
+    },
+    {
+      "batch": "light-product-views-rev01",
+      "source": "Social_Media/Instagram/Light_Product_Views_Rev01_20261125/copy/CAMPAIGNS.json",
+      "sha256": "3f0aae5fd2eaceb4c38446e8eb6f251e0df01385b4d60770a8577ac66c31c23b"
     }
   ],
-  "projectionSha256": "985b137365164cf99060f1eaaa7a70057406261f2b619e2d304e481cd1edd388",
+  "projectionSha256": "144eae87fafadf436a871eafa462f59584c86e91b9a9b790b71fa36d987f552a",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",
