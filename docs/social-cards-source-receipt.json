@@ -1887,12 +1887,6 @@
       "sha256": "17a2e02733e0df00e6d5d9f27fc6f7861a5f980fa22fefc4e78ef9e3e3f6845a"
     },
     {
-      "imageURL": "/preview/social-cards/images/independent-physics-rev01/J02-01.png",
-      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/social/exports/J02-01.png",
-      "bytes": 432780,
-      "sha256": "c3a4b0a48f4d9773922c49c3fbf33456a92ec400ff1710c9eaf1942f6856a425"
-    },
-    {
       "imageURL": "/preview/social-cards/images/independent-physics-rev01/J02-02.png",
       "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/social/exports/J02-02.png",
       "bytes": 57765,
@@ -2053,6 +2047,60 @@
       "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/social/exports/S-A56.png",
       "bytes": 78092,
       "sha256": "0a5be2f6c23490a3693f895d7604fc498728b13142f7fd092a0c528f8dc948a0"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/independent-physics-rev02/J02-01.png",
+      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/release/social-revision-02/J02-01.png",
+      "bytes": 73638,
+      "sha256": "eebd735cc6ccd0fdce82f6d47248bbdc0dff9413c123d3528249c5cc689da883"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/engineering-capabilities-rev02/CAPABILITIES-01.png",
+      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/release/social-revision-02/CAPABILITIES-01.png",
+      "bytes": 54297,
+      "sha256": "3524d1a901a18d59d02c699b6aa7655302bc72e1ad664dc93a098946c43c01ea"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/engineering-capabilities-rev02/CAPABILITIES-02.png",
+      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/release/social-revision-02/CAPABILITIES-02.png",
+      "bytes": 73769,
+      "sha256": "95dd90676d8ea72a42d366a9b3f4ac0a5922f5943f45f5e445133b9b6f475e0d"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/engineering-capabilities-rev02/CAPABILITIES-03.png",
+      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/release/social-revision-02/CAPABILITIES-03.png",
+      "bytes": 60855,
+      "sha256": "cb4deb4d661fc51316f8ce0b7a8b771cc100e9ee066015cdd8907742cc47a6f5"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/engineering-capabilities-rev02/CAPABILITIES-04.png",
+      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/release/social-revision-02/CAPABILITIES-04.png",
+      "bytes": 64962,
+      "sha256": "e4d0465c00527d6f2caa9087de730e37c064318d4defb20b016ad3ebaa5a4ba9"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/engineering-capabilities-rev02/CAPABILITIES-05.png",
+      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/release/social-revision-02/CAPABILITIES-05.png",
+      "bytes": 66169,
+      "sha256": "80638f7a8b957a6262156de12ce37f4717243e1b8d6272de916458dc733bbda8"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/engineering-capabilities-rev02/CAPABILITIES-06.png",
+      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/release/social-revision-02/CAPABILITIES-06.png",
+      "bytes": 64543,
+      "sha256": "c638b25b63587d1766c83d365559a6c70ab557ea70a715eda0e55d7e093548d7"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/engineering-capabilities-rev02/CAPABILITIES-07.png",
+      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/release/social-revision-02/CAPABILITIES-07.png",
+      "bytes": 78092,
+      "sha256": "0a5be2f6c23490a3693f895d7604fc498728b13142f7fd092a0c528f8dc948a0"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/engineering-capabilities-rev02/S-A52.png",
+      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/release/social-revision-02/S-A52.png",
+      "bytes": 63259,
+      "sha256": "303a86ec8c1c7feb1d73a4647be5a0326052a096b83ee59891381706580e7389"
     }
   ],
   "sources": [
@@ -2312,11 +2360,6 @@
       "sha256": "baafd09292842cc3c55b80365dbbff8a8614dbded7d0c34ed279344610e60d83"
     },
     {
-      "batch": "independent-physics-rev01",
-      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/release/independent-physics-rev01.json",
-      "sha256": "e1f358ef1d847d06d8c827635b290cb4d8b59f03020b77db4508dca1a48e9617"
-    },
-    {
       "batch": "digital-two-stroke-rev01",
       "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/release/digital-two-stroke-rev01.json",
       "sha256": "733576ff234b674e6301dd138f20006afda1be29847f88a1f22dd477360d5768"
@@ -2330,9 +2373,19 @@
       "batch": "engineering-notes-a47-a56-rev01",
       "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/release/engineering-notes-a47-a56-rev01.json",
       "sha256": "2179e544d5eed3d34c4ff77b635bb2cd807317646e19876e679a91b386f3782b"
+    },
+    {
+      "batch": "engineering-capabilities-rev02",
+      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/release/social-revision-02/combined-source.json",
+      "sha256": "d88729c55dbf4b2e8f2dca5984786bdbdcbaf1182c91bebcddadb7eeaa52a4e5"
+    },
+    {
+      "batch": "independent-physics-rev01",
+      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/release/social-revision-02/physics-source.json",
+      "sha256": "3d6fb475f93549ffe7e4b4b986351519cd56e6d0743245589949878aa1b8e0e5"
     }
   ],
-  "projectionSha256": "d8395077f394c6b6407b49ce121afd386655f05af60e195e1804044891c38247",
+  "projectionSha256": "8a845b5706e9de804c8b404683a876529c119ff69fabb0408bc6e21e305b1590",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",
@@ -2495,6 +2548,12 @@
       "bytes": 1518254,
       "sha256": "3920c6372b6167df3ae9b50321e081485c8cb4c493e2914657a22920014b8520",
       "status": "Superseded Rev01 retained; owner requested scaled virtual hull instead of a physical-looking miniature."
+    },
+    {
+      "imageURL": "/preview/social-cards/images/independent-physics-rev01/J02-01.png",
+      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/social/exports/J02-01.png",
+      "bytes": 432780,
+      "sha256": "c3a4b0a48f4d9773922c49c3fbf33456a92ec400ff1710c9eaf1942f6856a425"
     }
   ],
   "updatedDate": "2026-11-25"

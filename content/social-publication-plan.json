@@ -6,7 +6,8 @@
     "color-impact-rev01",
     "color-reference-rev01",
     "color-testing-rev01",
-    "follow-build-rev01"
+    "follow-build-rev01",
+    "engineering-notes-a47-a56-rev01"
   ],
   "entries": [
     {
@@ -370,35 +371,11 @@
       "category": "engineering"
     },
     {
-      "key": "engineering-notes-a47-a56-rev01-S-A48",
+      "key": "engineering-capabilities-rev02-CAPABILITIES",
       "category": "engineering"
     },
     {
-      "key": "engineering-notes-a47-a56-rev01-S-A49",
-      "category": "engineering"
-    },
-    {
-      "key": "engineering-notes-a47-a56-rev01-S-A50",
-      "category": "engineering"
-    },
-    {
-      "key": "engineering-notes-a47-a56-rev01-S-A51",
-      "category": "engineering"
-    },
-    {
-      "key": "engineering-notes-a47-a56-rev01-S-A52",
-      "category": "engineering"
-    },
-    {
-      "key": "engineering-notes-a47-a56-rev01-S-A53",
-      "category": "engineering"
-    },
-    {
-      "key": "engineering-notes-a47-a56-rev01-S-A54",
-      "category": "engineering"
-    },
-    {
-      "key": "engineering-notes-a47-a56-rev01-S-A56",
+      "key": "engineering-capabilities-rev02-S-A52",
       "category": "engineering"
     }
   ]

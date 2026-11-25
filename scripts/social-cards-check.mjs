@@ -5,10 +5,10 @@ const sourceFilename=card=>{const name=typeof card==='string'?card:card?.file??c
 const raw=fs.readFileSync('content/social-cards.json'),data=JSON.parse(raw),receipt=JSON.parse(fs.readFileSync('docs/social-cards-source-receipt.json'));
 assert.equal(hash(raw),receipt.projectionSha256,'Reviewed public projection changed');
 const keys=(object,expected)=>assert.deepEqual(Object.keys(object).sort(),expected.sort());
-keys(data,['batches']);assert.equal(data.batches.length,55);
-assert.deepEqual(data.batches.map(b=>b.id),["hull-first-step-rev01", "engine-concept-rev01", "water-lifestyle-rev01", "blue-studio-rev01", "neon-red-deck-rev01", "cinematic-mixed-rev01", "color-impact-rev01", "color-reference-rev01", "color-testing-rev01", "components-rev01", "h0-development-rev01", "g031-rev01", "g030-rev01", "g029-rev01", "g028-rev01", "g026-rev01", "g025-rev01", "g001c1-rev01", "assignment18-rev01", "horizon-stories-rev01", "engineering-stories-rev01", "relaunch-rev03", "creative-trial-rev04", "h0-100ms-rev01", "h0-150ms-rev01", "pressure-fields-rev01", "intake-integration-rev01", "h1-architecture-rev01", "h102-water-management-rev01", "follow-build-rev01", "follow-build-rev02", "h1-progress-rev01", "h1-spotlights-rev01", "h0-dynamics-recap-rev01", "modular-fuel-rev01", "fuel-service-002-rev01", "microtexture-rev01", "lifestyle-riding-rev01", "g033-commercial-simulation-rev01", "wahoo-first-engine-run-rev01", "h0-h1a-comparison-rev01", "a43-cnc-engine-rev01", "a45-crankcase-rev01", "engine-assembly-render-rev01", "full-propulsion-concept-rev01", "leo-generative-world-rev01", "hull-nurbs-rev01", "hull-fairing-rev01", "leo-hull-studio-rev01", "leo-volumetric-hull-rev01","generative-learning-rev01","independent-physics-rev01","digital-two-stroke-rev01","engine-discovery-rev01","engineering-notes-a47-a56-rev01"]);
-assert.deepEqual(data.batches.map(b=>b.posts.length),[1, 1, 1, 8, 8, 8, 8, 8, 10, 11, 1, 1, 2, 3, 1, 1, 1, 1, 1, 5, 3, 8, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 6, 1, 1, 1, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1,1,1,1,8]);
-assert.equal(data.batches.reduce((n,b)=>n+b.posts.length,0),141);
+keys(data,['batches']);assert.equal(data.batches.length,56);
+assert.deepEqual(data.batches.map(b=>b.id),["hull-first-step-rev01", "engine-concept-rev01", "water-lifestyle-rev01", "blue-studio-rev01", "neon-red-deck-rev01", "cinematic-mixed-rev01", "color-impact-rev01", "color-reference-rev01", "color-testing-rev01", "components-rev01", "h0-development-rev01", "g031-rev01", "g030-rev01", "g029-rev01", "g028-rev01", "g026-rev01", "g025-rev01", "g001c1-rev01", "assignment18-rev01", "horizon-stories-rev01", "engineering-stories-rev01", "relaunch-rev03", "creative-trial-rev04", "h0-100ms-rev01", "h0-150ms-rev01", "pressure-fields-rev01", "intake-integration-rev01", "h1-architecture-rev01", "h102-water-management-rev01", "follow-build-rev01", "follow-build-rev02", "h1-progress-rev01", "h1-spotlights-rev01", "h0-dynamics-recap-rev01", "modular-fuel-rev01", "fuel-service-002-rev01", "microtexture-rev01", "lifestyle-riding-rev01", "g033-commercial-simulation-rev01", "wahoo-first-engine-run-rev01", "h0-h1a-comparison-rev01", "a43-cnc-engine-rev01", "a45-crankcase-rev01", "engine-assembly-render-rev01", "full-propulsion-concept-rev01", "leo-generative-world-rev01", "hull-nurbs-rev01", "hull-fairing-rev01", "leo-hull-studio-rev01", "leo-volumetric-hull-rev01","generative-learning-rev01","independent-physics-rev01","digital-two-stroke-rev01","engine-discovery-rev01","engineering-notes-a47-a56-rev01","engineering-capabilities-rev02"]);
+assert.deepEqual(data.batches.map(b=>b.posts.length),[1, 1, 1, 8, 8, 8, 8, 8, 10, 11, 1, 1, 2, 3, 1, 1, 1, 1, 1, 5, 3, 8, 3, 1, 1, 1, 1, 1, 1, 1, 1, 1, 6, 1, 1, 1, 2, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,1,1,1,1,8,2]);
+assert.equal(data.batches.reduce((n,b)=>n+b.posts.length,0),143);
 assert.deepEqual(data.batches[23].posts[0].cards.map(c=>path.basename(c.imageURL)),['H0-100MS-01.png','H0-100MS-02.png','H0-100MS-03.png','H0-100MS-04.png','H0-100MS-05.png']);
 assert.deepEqual(data.batches[10].posts.map(p=>p.id),['H0-DEVELOPMENT-20261101']);
 assert.deepEqual(data.batches[10].posts[0].cards.map(c=>path.basename(c.imageURL)),['H0-01.png','H0-02.png','H0-03.png','H0-04.png','H0-05.png']);
@@ -35,20 +35,20 @@ assert.deepEqual(data.batches[0].posts[0].cards.map(c=>path.basename(c.imageURL)
 const html=fs.readFileSync('dist/preview/social-cards/index.html','utf8');
 const plan=JSON.parse(fs.readFileSync('content/social-publication-plan.json'));
 keys(plan,['schema','retiredBatches','entries']);
-assert.deepEqual(plan.retiredBatches,['neon-red-deck-rev01','cinematic-mixed-rev01','color-impact-rev01','color-reference-rev01','color-testing-rev01','follow-build-rev01']);
+assert.deepEqual(plan.retiredBatches,['neon-red-deck-rev01','cinematic-mixed-rev01','color-impact-rev01','color-reference-rev01','color-testing-rev01','follow-build-rev01','engineering-notes-a47-a56-rev01']);
 for(const row of plan.entries)keys(row,row.alternateOf?['key','category','alternateOf']:['key','category']);
 const allPostKeys=new Set(data.batches.flatMap(b=>b.posts.map(p=>b.id+'-'+p.id)));
 assert(plan.entries.every(e=>allPostKeys.has(e.key)),'Unknown publication plan key');
 assert.equal(new Set(plan.entries.map(e=>e.key)).size,plan.entries.length,'Duplicate publication plan key');
 const g031Visible=html.includes('id="g031-rev01"');const projected=g031Visible?data:{...data,batches:data.batches.filter(b=>b.id!=='g031-rev01')};const entries=publicationEntries(projected,plan),activeKeys=new Set(entries.map(e=>e.key)),markup=socialCards(projected,plan);
-assert.equal(entries.length,g031Visible?98:97);assert.equal(entries.filter(e=>!e.alternateOf).length,g031Visible?98:97);
+assert.equal(entries.length,g031Visible?92:91);assert.equal(entries.filter(e=>!e.alternateOf).length,g031Visible?92:91);
 assert.deepEqual(data.batches[25].posts[0].cards.map(c=>path.basename(c.imageURL)),['PRESSURE-01.png','PRESSURE-02.png','PRESSURE-03.png']);assert.deepEqual(data.batches[26].posts[0].cards.map(c=>path.basename(c.imageURL)),['INTAKE-01.png','INTAKE-02.png','INTAKE-03.png','INTAKE-04.png','INTAKE-05.png']);
 assert.deepEqual(data.batches[24].posts[0].cards.map(c=>path.basename(c.imageURL)),['H0-150-01.png','H0-150-02.png','H0-150-03.png','H0-150-04.png','H0-150-05.png']);
 assert.equal(entries.filter(e=>e.alternateOf).length,0);
 assert.deepEqual(entries.map(e=>e.position),Array.from({length:entries.length},(_,i)=>i+1),'Every post must have a unique consecutive number');
 assert.equal(entries.find(e=>e.key==='components-rev01-WHE-EXH-001-PIPE').position,38);
 assert.equal(entries.find(e=>e.key==='components-rev01-PIPE-ALT-SELECTED-SECTION').position,39);
-assert.deepEqual([...html.matchAll(/data-social-open="([^"]+)"/g)].map(m=>m[1]),entries.map(e=>e.key),'Grid must follow approved publishing order');
+assert.deepEqual([...html.matchAll(/data-social-open="([^"]+)"/g)].map(m=>m[1]),[...entries].reverse().map(e=>e.key),'Grid must follow approved publishing order');
 const orderLock=JSON.parse(fs.readFileSync('docs/social-publication-order-lock.json'));
 assert.deepEqual(plan.entries.slice(0,orderLock.lockedKeys.length).map(e=>e.key),orderLock.lockedKeys,'Existing publication order is locked; append new posts only');
 for(const id of plan.retiredBatches){assert(!html.includes(`id="${id}"`));assert(!html.includes(`data-social-collection="${id}"`));}
@@ -66,7 +66,7 @@ for(const batch of projected.batches){
   if(fs.existsSync(sourceFile)){const sourceRaw=fs.readFileSync(sourceFile);assert.equal(hash(sourceRaw),source.sha256);const parsed=JSON.parse(sourceRaw);originals=Array.isArray(parsed)?parsed:parsed.posts;if(!originals&&parsed.caption&&parsed.cards){assert.equal(batch.posts.length,1);originals=[{...parsed,id:batch.posts[0].id}];}}
   for(const post of batch.posts){
     const active=activeKeys.has(batch.id+'-'+post.id);
-    keys(post,['id','title','format','cards','caption','hashtags','revision','reviewStatus']);assert.equal(post.reviewStatus,'OWNER_REVIEW');assert(post.caption.length>0);assert([1,3,5].includes(post.cards.length)||(batch.id==='follow-build-rev02'&&post.id==='FOLLOW-BUILD'&&post.cards.length===8)||(batch.id.startsWith('generative-learning')&&post.cards.length===6)||(batch.id.startsWith('independent-physics')&&post.cards.length===6)||(batch.id.startsWith('digital-two-stroke')&&post.cards.length===7)||(batch.id.startsWith('engine-discovery')&&post.cards.length===7),'Standard formats or owner-requested campaign length');
+    keys(post,['id','title','format','cards','caption','hashtags','revision','reviewStatus']);assert.equal(post.reviewStatus,'OWNER_REVIEW');assert(post.caption.length>0);assert([1,3,5].includes(post.cards.length)||(batch.id==='follow-build-rev02'&&post.id==='FOLLOW-BUILD'&&post.cards.length===8)||(batch.id.startsWith('generative-learning')&&post.cards.length===6)||(batch.id.startsWith('independent-physics')&&post.cards.length===6)||(batch.id.startsWith('digital-two-stroke')&&post.cards.length===7)||(batch.id.startsWith('engine-discovery')&&post.cards.length===7)||(batch.id==='engineering-capabilities-rev02'&&post.cards.length===7),'Standard formats or owner-requested campaign length');
     if(active)assert(html.includes(`<div class="social-post-text" data-social-text>${esc(postText(post))}</div>`),'Visible text and clipboard text must be identical');
     else assert(!html.includes(`data-social-open="${batch.id}-${post.id}"`),'Retired design must not appear in gallery');
     const original=originals?.find(p=>p.id===post.id);
@@ -81,7 +81,7 @@ for(const batch of projected.batches){
     }
   }
 }
-assert.equal(count,g031Visible?342:339);assert.equal(receipt.files.length,342);
+assert.equal(count,g031Visible?350:347);assert.equal(receipt.files.length,350);
 function walk(folder){return fs.readdirSync(folder,{withFileTypes:true}).flatMap(f=>f.isDirectory()?walk(path.join(folder,f.name)):[path.join(folder,f.name)]);}
 const retained=receipt.retainedFiles||[];
 for(const record of retained){assert(!urls.has(record.imageURL));assert(/^\/preview\/social-cards\/images\/[a-z0-9-]+\/[A-Z0-9-]+\.png$/.test(record.imageURL));for(const base of ['public','dist']){const raw=fs.readFileSync(base+record.imageURL);assert.equal(raw.length,record.bytes);assert.equal(hash(raw),record.sha256,'Historical image URL changed');}}
@@ -115,28 +115,28 @@ assert.deepEqual(data.batches[37].posts.map(p=>p.cards.length),[5,5]);
 assert.equal(entries.find(e=>e.key==="lifestyle-riding-rev01-LIFE-ENERGY").position,73);
 assert.equal(entries.find(e=>e.key==="lifestyle-riding-rev01-LIFE-LIGHT").position,74);
 
-assert.equal(entries.at(-24).key,'g033-commercial-simulation-rev01-COMMERCIAL-ENGINE');assert.equal(entries.at(-24).position,75);assert.equal(data.batches.at(-13).posts[0].cards.length,5);
+assert.equal(entries.at(-18).key,'g033-commercial-simulation-rev01-COMMERCIAL-ENGINE');assert.equal(entries.at(-18).position,75);assert.equal(data.batches.at(-14).posts[0].cards.length,5);
 
-assert.equal(entries.at(-23).key,'wahoo-first-engine-run-rev01-WAHOO-FIRST-RUN');assert.equal(entries.at(-23).position,76);
+assert.equal(entries.at(-17).key,'wahoo-first-engine-run-rev01-WAHOO-FIRST-RUN');assert.equal(entries.at(-17).position,76);
 
-assert.equal(entries.at(-22).key,'h0-h1a-comparison-rev01-H0-H1A-COMPARISON');assert.equal(entries.at(-22).position,77);
+assert.equal(entries.at(-16).key,'h0-h1a-comparison-rev01-H0-H1A-COMPARISON');assert.equal(entries.at(-16).position,77);
 
-assert.equal(entries.at(-21).key,'a43-cnc-engine-rev01-A43-CNC-ENGINE');assert.equal(entries.at(-21).position,78);
+assert.equal(entries.at(-15).key,'a43-cnc-engine-rev01-A43-CNC-ENGINE');assert.equal(entries.at(-15).position,78);
 
-assert.equal(entries.at(-20).key,'a45-crankcase-rev01-A45-CRANKCASE');assert.equal(entries.at(-20).position,79);
+assert.equal(entries.at(-14).key,'a45-crankcase-rev01-A45-CRANKCASE');assert.equal(entries.at(-14).position,79);
 
-assert.equal(entries.at(-19).key,'engine-assembly-render-rev01-ENGINE-ASSEMBLY');assert.equal(entries.at(-19).position,80);assert.equal(data.batches.at(-12).posts[0].cards.length,1);
+assert.equal(entries.at(-13).key,'engine-assembly-render-rev01-ENGINE-ASSEMBLY');assert.equal(entries.at(-13).position,80);assert.equal(data.batches.at(-13).posts[0].cards.length,1);
 
-assert.equal(entries.at(-18).key,'full-propulsion-concept-rev01-FULL-PROPULSION');assert.equal(entries.at(-18).position,81);assert.equal(data.batches.at(-11).posts[0].cards.length,5);
+assert.equal(entries.at(-12).key,'full-propulsion-concept-rev01-FULL-PROPULSION');assert.equal(entries.at(-12).position,81);assert.equal(data.batches.at(-12).posts[0].cards.length,5);
 
-assert.equal(entries.at(-17).key,'leo-generative-world-rev01-LEO-GENERATIVE-WORLD');assert.equal(entries.at(-17).position,82);assert.equal(data.batches.at(-10).posts[0].cards.length,5);
+assert.equal(entries.at(-11).key,'leo-generative-world-rev01-LEO-GENERATIVE-WORLD');assert.equal(entries.at(-11).position,82);assert.equal(data.batches.at(-11).posts[0].cards.length,5);
 
-assert.equal(entries.at(-16).key,'hull-nurbs-rev01-HULL-NURBS');assert.equal(entries.at(-16).position,83);assert.equal(data.batches.at(-9).posts[0].cards.length,5);
+assert.equal(entries.at(-10).key,'hull-nurbs-rev01-HULL-NURBS');assert.equal(entries.at(-10).position,83);assert.equal(data.batches.at(-10).posts[0].cards.length,5);
 
-assert.equal(entries.at(-15).key,'hull-fairing-rev01-HULL-FAIRING');assert.equal(entries.at(-15).position,84);assert.equal(data.batches.at(-8).posts[0].cards.length,5);
+assert.equal(entries.at(-9).key,'hull-fairing-rev01-HULL-FAIRING');assert.equal(entries.at(-9).position,84);assert.equal(data.batches.at(-9).posts[0].cards.length,5);
 
-assert.equal(entries.at(-14).key,'leo-hull-studio-rev01-LEO-HULL');assert.equal(entries.at(-14).position,85);assert.equal(data.batches.at(-7).posts[0].cards.length,1);
+assert.equal(entries.at(-8).key,'leo-hull-studio-rev01-LEO-HULL');assert.equal(entries.at(-8).position,85);assert.equal(data.batches.at(-8).posts[0].cards.length,1);
 
-assert.equal(entries.at(-13).key,'leo-volumetric-hull-rev01-LEO-VOLUME');assert.equal(entries.at(-13).position,86);assert.equal(data.batches.at(-6).posts[0].cards.length,1);
+assert.equal(entries.at(-7).key,'leo-volumetric-hull-rev01-LEO-VOLUME');assert.equal(entries.at(-7).position,86);assert.equal(data.batches.at(-7).posts[0].cards.length,1);
 
-assert.deepEqual(entries.slice(-12).map(e=>e.position),Array.from({length:12},(_,i)=>87+i));assert.deepEqual(data.batches.slice(-5).map(b=>b.posts.length),[1,1,1,1,8]);
+assert.deepEqual(entries.slice(-6).map(e=>e.position),[87,88,89,90,91,92]);assert.deepEqual(data.batches.slice(-6).map(b=>b.posts.length),[1,1,1,1,8,2]);assert.deepEqual(data.batches.at(-1).posts[0].cards.map(c=>c.alt),data.batches.at(-2).posts.filter(p=>['S-A50','S-A48','S-A49','S-A51','S-A53','S-A54','S-A56'].includes(p.id)).sort((a,b)=>['S-A50','S-A48','S-A49','S-A51','S-A53','S-A54','S-A56'].indexOf(a.id)-['S-A50','S-A48','S-A49','S-A51','S-A53','S-A54','S-A56'].indexOf(b.id)).map(p=>p.cards[0].alt));
