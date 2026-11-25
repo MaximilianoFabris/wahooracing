@@ -4128,6 +4128,93 @@
           ]
         }
       ]
+    },
+    {
+      "id": "digital-water-heroes-rev01",
+      "title": "Virtual water — board and hand-control heroes",
+      "revision": "Rev01",
+      "posts": [
+        {
+          "id": "HULL-HEROES",
+          "title": "Shaping what’s next",
+          "format": "5-card carousel",
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "caption": "Every line begins as a decision.\n\nWe’re shaping Wahoo in 3D: the hull, the rider-contact details, the surfaces and the control hardware, brought together in one evolving design.\n\nThese images use our current digital model in imagined water-and-light environments. They are concept renders, not photographs of a finished board or a physical water test.\n\nFollow the details. Follow the build.\nwahooracing.com",
+          "hashtags": [
+            "#WahooRacing",
+            "#Jetboard",
+            "#ProductDesign",
+            "#DigitalDesign",
+            "#CarbonFiber",
+            "#DesignDevelopment",
+            "#BehindTheBuild",
+            "#MarineDesign"
+          ],
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/digital-water-heroes-rev01/HULL-01.png",
+              "alt": "Light editorial hero showing the actual Hull01 digital model above a pale water studio. The water setting is conceptual."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/digital-water-heroes-rev01/HULL-02.png",
+              "alt": "Typography-led light card: Not just a shape. A system. Four design areas: hull, rider contact, control and surfaces."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/digital-water-heroes-rev01/HULL-03.png",
+              "alt": "Actual CAD-derived close-up of the corrected foot pad: circular grip, stitched Wahoo tag and carbon finish. Material appearance remains provisional."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/digital-water-heroes-rev01/HULL-04.png",
+              "alt": "Second hull hero: the genuine digital board staged over dark water with illustrative blue virtual rings. Not a physical water test or CFD visualization."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/digital-water-heroes-rev01/HULL-05.png",
+              "alt": "Light closing typographic poster inviting viewers to follow Wahoo development at wahooracing.com."
+            }
+          ]
+        },
+        {
+          "id": "HAND-CONTROL-HEROES",
+          "title": "Rider connection",
+          "format": "5-card carousel",
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "caption": "The connection starts before the ride.\n\nA closer look at Wahoo’s hand-control concept: its form, grip surfaces and details, explored through our actual 3D model.\n\nVirtual scenes. A developing design. Materials, functions and ergonomics remain provisional; these images are not evidence of tested hardware.\n\nFollow the next chapter at wahooracing.com",
+          "hashtags": [
+            "#WahooRacing",
+            "#Jetboard",
+            "#IndustrialDesign",
+            "#ProductDevelopment",
+            "#DigitalPrototype",
+            "#DesignDetails",
+            "#MarineDesign",
+            "#BehindTheBuild"
+          ],
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/digital-water-heroes-rev01/CONTROL-01.png",
+              "alt": "Dark hand-control hero using the native model, suspended above a conceptual water-and-blue-light stage."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/digital-water-heroes-rev01/CONTROL-02.png",
+              "alt": "Light typography card: Design starts with the rider. You. Form, contact and control are design themes, not validated ergonomic claims."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/digital-water-heroes-rev01/CONTROL-03.png",
+              "alt": "Enlarged source-model hand control with callouts projected from the native named button, grip-pad and shut-off-pin geometry."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/digital-water-heroes-rev01/CONTROL-04.png",
+              "alt": "Second hand-control hero from the opposite side, rendered from actual geometry over a pale water studio. Concept imagery only."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/digital-water-heroes-rev01/CONTROL-05.png",
+              "alt": "Dark closing poster inviting viewers to follow the next chapter of Wahoo design development at wahooracing.com."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -2101,6 +2101,66 @@
       "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/release/social-revision-02/J02-01.png",
       "bytes": 73638,
       "sha256": "eebd735cc6ccd0fdce82f6d47248bbdc0dff9413c123d3528249c5cc689da883"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/digital-water-heroes-rev01/HULL-01.png",
+      "source": "Social_Media/Instagram/Digital_Water_Heroes_Rev01_20261125/exports/HULL-01.png",
+      "bytes": 634154,
+      "sha256": "9a92a1ffbf82ae284209426b8792664648f48214d577f65606bcf0e0eca7eac2"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/digital-water-heroes-rev01/HULL-02.png",
+      "source": "Social_Media/Instagram/Digital_Water_Heroes_Rev01_20261125/exports/HULL-02.png",
+      "bytes": 96573,
+      "sha256": "8b576194d7478dd360ccc52111eea112d7d01526631d93bb320252b5a6888576"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/digital-water-heroes-rev01/HULL-03.png",
+      "source": "Social_Media/Instagram/Digital_Water_Heroes_Rev01_20261125/exports/HULL-03.png",
+      "bytes": 1402004,
+      "sha256": "03cd8e9bbb0bf36d1c6ee1d5bf17ef35feb9356dc1464291c44be9c3cb5f6806"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/digital-water-heroes-rev01/HULL-04.png",
+      "source": "Social_Media/Instagram/Digital_Water_Heroes_Rev01_20261125/exports/HULL-04.png",
+      "bytes": 712518,
+      "sha256": "8bb5cebedcd5f9eafdb3430e7c2baca034c914053db0724e8080b88b253cf3d0"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/digital-water-heroes-rev01/HULL-05.png",
+      "source": "Social_Media/Instagram/Digital_Water_Heroes_Rev01_20261125/exports/HULL-05.png",
+      "bytes": 83359,
+      "sha256": "1290d30c178622c8ffec69ec2c66fa13161e06b4bf04f8adfdc7af1e530ab0ef"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/digital-water-heroes-rev01/CONTROL-01.png",
+      "source": "Social_Media/Instagram/Digital_Water_Heroes_Rev01_20261125/exports/CONTROL-01.png",
+      "bytes": 450504,
+      "sha256": "56e1db476b0387d32fdd59678e060d8c9758ca0689769590d748ba066486e7a8"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/digital-water-heroes-rev01/CONTROL-02.png",
+      "source": "Social_Media/Instagram/Digital_Water_Heroes_Rev01_20261125/exports/CONTROL-02.png",
+      "bytes": 59364,
+      "sha256": "81b47306b4894dbdc00a4d7e0a2a7454ff6c6cf7831e01b144fe8e18228ea330"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/digital-water-heroes-rev01/CONTROL-03.png",
+      "source": "Social_Media/Instagram/Digital_Water_Heroes_Rev01_20261125/exports/CONTROL-03.png",
+      "bytes": 464941,
+      "sha256": "a9b2eae8fb49a21c33a6fac927e1c99d83dd8ad340e5fa202dd77e6a5ad4639e"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/digital-water-heroes-rev01/CONTROL-04.png",
+      "source": "Social_Media/Instagram/Digital_Water_Heroes_Rev01_20261125/exports/CONTROL-04.png",
+      "bytes": 445326,
+      "sha256": "7cf57d27d237177438bdc576fe6e2478035e70a43a6f70e2e53cc92a92b314f0"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/digital-water-heroes-rev01/CONTROL-05.png",
+      "source": "Social_Media/Instagram/Digital_Water_Heroes_Rev01_20261125/exports/CONTROL-05.png",
+      "bytes": 80538,
+      "sha256": "b3e91c9ff593968b85b5f30033b07b4f0569167f067e3e6976f52adcc6044444"
     }
   ],
   "sources": [
@@ -2383,9 +2443,14 @@
       "batch": "independent-physics-rev01",
       "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/release/social-revision-02/physics-source.json",
       "sha256": "3d6fb475f93549ffe7e4b4b986351519cd56e6d0743245589949878aa1b8e0e5"
+    },
+    {
+      "batch": "digital-water-heroes-rev01",
+      "source": "Social_Media/Instagram/Digital_Water_Heroes_Rev01_20261125/copy/CAMPAIGNS.json",
+      "sha256": "28eb413db34a6e671195cf7f703243e5930bc79002d7d56421daf7c2c4c023f2"
     }
   ],
-  "projectionSha256": "aa265268a94988e5b91dbe5bbe77fb5c0387565101beae7b91b97cc3eeb51ed7",
+  "projectionSha256": "27644bcb9cf8d119576f06bf86038c8ccbd474c7628f26bc3af0aff69a2f4cb3",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",
