@@ -3788,7 +3788,7 @@
     {
       "id": "digital-two-stroke-rev01",
       "title": "Inside a digital two-stroke engine",
-      "revision": "Rev01",
+      "revision": "Rev02",
       "posts": [
         {
           "id": "J03",
@@ -3802,35 +3802,35 @@
             "#EngineeringSimulation",
             "#BehindTheBuild"
           ],
-          "revision": "Rev01",
+          "revision": "Rev02",
           "reviewStatus": "OWNER_REVIEW",
           "cards": [
             {
-              "imageURL": "/preview/social-cards/images/digital-two-stroke-rev01/J03-01.png",
+              "imageURL": "/preview/social-cards/images/digital-two-stroke-rev02/J03-01.png",
               "alt": "INSIDE THE ENGINE WE ARE TEACHING SOFTWARE TO UNDERSTAND. Synthetic physics connected to geometric opening. Illustrative HISTORICAL A45 PARTIAL CAD REFERENCE / PROXIES RETAINED"
             },
             {
-              "imageURL": "/preview/social-cards/images/digital-two-stroke-rev01/J03-02.png",
+              "imageURL": "/preview/social-cards/images/digital-two-stroke-rev02/J03-02.png",
               "alt": "THE PISTON OPENS THE PATH. Three source-derived positions. Synthetic fixture; simplified outlines. Conceptual explanatory diagram; no physical validation claim."
             },
             {
-              "imageURL": "/preview/social-cards/images/digital-two-stroke-rev01/J03-03.png",
+              "imageURL": "/preview/social-cards/images/digital-two-stroke-rev02/J03-03.png",
               "alt": "TWO VOLUMES. ONE CALCULATION. Finite crankcase + cylinder, linked by transfer flow. Conceptual explanatory diagram; no physical validation claim."
             },
             {
-              "imageURL": "/preview/social-cards/images/digital-two-stroke-rev01/J03-04.png",
+              "imageURL": "/preview/social-cards/images/digital-two-stroke-rev02/J03-04.png",
               "alt": "PRESSURES RESPOND TOGETHER. One selected unheated, nonperiodic numerical revolution. Actual source-derived chart."
             },
             {
-              "imageURL": "/preview/social-cards/images/digital-two-stroke-rev01/J03-05.png",
+              "imageURL": "/preview/social-cards/images/digital-two-stroke-rev02/J03-05.png",
               "alt": "FASTER, IN ONE PRECISE TEST. 70.35× on the retained equilibrium fixture only. Actual source-derived chart."
             },
             {
-              "imageURL": "/preview/social-cards/images/digital-two-stroke-rev01/J03-06.png",
+              "imageURL": "/preview/social-cards/images/digital-two-stroke-rev02/J03-06.png",
               "alt": "HEAT IN. ORIGINS TRACKED. Prescribed heat and passive labels. No combustion chemistry. Actual source-derived chart."
             },
             {
-              "imageURL": "/preview/social-cards/images/digital-two-stroke-rev01/J03-07.png",
+              "imageURL": "/preview/social-cards/images/digital-two-stroke-rev02/J03-07.png",
               "alt": "MORE CONNECTED. STILL IN DEVELOPMENT. A50–A54 form a numerical architecture, not a validated physical engine. Conceptual explanatory diagram; no physical validation claim."
             }
           ]
@@ -3840,7 +3840,7 @@
     {
       "id": "engine-discovery-rev01",
       "title": "From simulation to engine discovery",
-      "revision": "Rev01",
+      "revision": "Rev02",
       "posts": [
         {
           "id": "J04",
@@ -3854,35 +3854,35 @@
             "#EngineeringSimulation",
             "#BehindTheBuild"
           ],
-          "revision": "Rev01",
+          "revision": "Rev02",
           "reviewStatus": "OWNER_REVIEW",
           "cards": [
             {
-              "imageURL": "/preview/social-cards/images/engine-discovery-rev01/J04-01.png",
+              "imageURL": "/preview/social-cards/images/engine-discovery-rev02/J04-01.png",
               "alt": "THREE OBSERVATIONS. A BIGGER AMBITION. 10,000 later definitions remain unscored. Qualification comes first. Illustrative P3-FAMILY MODELED OBSERVATIONS / NOT DYNO RESULTS"
             },
             {
-              "imageURL": "/preview/social-cards/images/engine-discovery-rev01/J04-02.png",
+              "imageURL": "/preview/social-cards/images/engine-discovery-rev02/J04-02.png",
               "alt": "THREE POINTS. NOT A POWER CEILING. Separate P3-family observations. No fitted curve or optimum claim. Actual source-derived chart."
             },
             {
-              "imageURL": "/preview/social-cards/images/engine-discovery-rev01/J04-03.png",
+              "imageURL": "/preview/social-cards/images/engine-discovery-rev02/J04-03.png",
               "alt": "TORQUE TELLS ITS OWN STORY. Actual modeled observations at 9,500 / 10,000 / 10,500 RPM. Actual source-derived chart."
             },
             {
-              "imageURL": "/preview/social-cards/images/engine-discovery-rev01/J04-04.png",
+              "imageURL": "/preview/social-cards/images/engine-discovery-rev02/J04-04.png",
               "alt": "CHANGE ONE CONFIGURATION. COMPARE. P3 and R04 differ in pipe scale; shown separately at 10,000 RPM. Actual source-derived chart."
             },
             {
-              "imageURL": "/preview/social-cards/images/engine-discovery-rev01/J04-05.png",
+              "imageURL": "/preview/social-cards/images/engine-discovery-rev02/J04-05.png",
               "alt": "A PASSED GATE IS NOT THE WHOLE ENGINE. A56: Gate 1 accepted. Gate 2 HOLD. Gate 3 not released. Conceptual explanatory diagram; no physical validation claim."
             },
             {
-              "imageURL": "/preview/social-cards/images/engine-discovery-rev01/J04-06.png",
+              "imageURL": "/preview/social-cards/images/engine-discovery-rev02/J04-06.png",
               "alt": "SIMULATED IS NOT PHYSICALLY VALIDATED. Commercial outputs, independent physics and physical tests are distinct. Conceptual explanatory diagram; no physical validation claim."
             },
             {
-              "imageURL": "/preview/social-cards/images/engine-discovery-rev01/J04-07.png",
+              "imageURL": "/preview/social-cards/images/engine-discovery-rev02/J04-07.png",
               "alt": "THE AMBITION IS BIGGER THAN THE BASELINE. Next: resolve qualification gaps before broader discovery. A57 is proposed. Conceptual explanatory diagram; no physical validation claim."
             }
           ]
@@ -4132,13 +4132,13 @@
     {
       "id": "digital-water-heroes-rev01",
       "title": "Virtual water — board and hand-control heroes",
-      "revision": "Rev02",
+      "revision": "Rev03",
       "posts": [
         {
           "id": "HULL-HEROES",
           "title": "The next wave takes shape",
           "format": "5-card carousel",
-          "revision": "Rev02",
+          "revision": "Rev03",
           "reviewStatus": "OWNER_REVIEW",
           "caption": "Before the first wave, there are thousands of design decisions.\n\nA full view of the shape. A closer look at the details.\n\nWahoo’s digital board is coming together: the sculpted hull, carbon finish studies, rider-contact surfaces and control hardware.\n\nShown in imagined water-and-light environments. These are concept renders of a developing design, not photographs of a finished board or a physical water test.\n\nFollow the build at wahooracing.com",
           "hashtags": [
@@ -4162,8 +4162,8 @@
               "alt": "First, imagine. Then, refine. A developing design, explored in a virtual world. Light typography card. Slide 3 of 5."
             },
             {
-              "imageURL": "/preview/social-cards/images/board-heroes-rev02/HULL-04.png",
-              "alt": "Imagined in 3D. Exact native reverse three-quarter camera, board oriented bow-up, beside a dramatic AI-created electric-blue water curl. Water is illustrative, not simulation or physical testing. Slide 4 of 5."
+              "imageURL": "/preview/social-cards/images/board-heroes-rev03/HULL-04.png",
+              "alt": "Imagined in 3D. Native Wahoo board in a diagonal three-quarter view with bow lower-left and stern upper-right, matching the owner reference, beside an electric-blue illustrated water curl. Concept marketing scene, not a physical water test or computed flow. Slide 4 of 5."
             },
             {
               "imageURL": "/preview/social-cards/images/board-heroes-rev02/HULL-05.png",

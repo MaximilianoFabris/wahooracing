@@ -1917,90 +1917,6 @@
       "sha256": "5f90a70be61e16b544d1995d3c60fefcc0b3de5ee24e572ce866185b1a50607e"
     },
     {
-      "imageURL": "/preview/social-cards/images/digital-two-stroke-rev01/J03-01.png",
-      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/social/exports/J03-01.png",
-      "bytes": 409948,
-      "sha256": "91675d23e2926d32b5210de09a4759077d721ec69aa4285f09ddc1e21c78e3d2"
-    },
-    {
-      "imageURL": "/preview/social-cards/images/digital-two-stroke-rev01/J03-02.png",
-      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/social/exports/J03-02.png",
-      "bytes": 61824,
-      "sha256": "c8c517582b994d93b85f975f1ffd8fbbd3d3fe67703eab263b99e83c79c48e66"
-    },
-    {
-      "imageURL": "/preview/social-cards/images/digital-two-stroke-rev01/J03-03.png",
-      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/social/exports/J03-03.png",
-      "bytes": 76362,
-      "sha256": "b6a255fbc61835cf6cff49106c00c845f016713a516f7b3567e86d0aa4c93b00"
-    },
-    {
-      "imageURL": "/preview/social-cards/images/digital-two-stroke-rev01/J03-04.png",
-      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/social/exports/J03-04.png",
-      "bytes": 72966,
-      "sha256": "c37aad83ee35c608bf08f935e9c3f7f424512e2bd38517dbc83a66320daa286d"
-    },
-    {
-      "imageURL": "/preview/social-cards/images/digital-two-stroke-rev01/J03-05.png",
-      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/social/exports/J03-05.png",
-      "bytes": 63823,
-      "sha256": "8166542cf1870d295e67493f7038560e6bb460d19d1c8cbbc038956617bac1ef"
-    },
-    {
-      "imageURL": "/preview/social-cards/images/digital-two-stroke-rev01/J03-06.png",
-      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/social/exports/J03-06.png",
-      "bytes": 66234,
-      "sha256": "270b845d7f5ef683494a26e9a2df1b8a0b0bdff2d18ac712b67d51a0c8d5e7fb"
-    },
-    {
-      "imageURL": "/preview/social-cards/images/digital-two-stroke-rev01/J03-07.png",
-      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/social/exports/J03-07.png",
-      "bytes": 88036,
-      "sha256": "bdd20379735b48ffa6fb4885f69805d0513b3a46122b544caf24551ee79a0f98"
-    },
-    {
-      "imageURL": "/preview/social-cards/images/engine-discovery-rev01/J04-01.png",
-      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/social/exports/J04-01.png",
-      "bytes": 361621,
-      "sha256": "f9bde5b663b46f7a79d9bbb7f4532e2b50e70eed8522b8e1a29d2b2e7e48e583"
-    },
-    {
-      "imageURL": "/preview/social-cards/images/engine-discovery-rev01/J04-02.png",
-      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/social/exports/J04-02.png",
-      "bytes": 58438,
-      "sha256": "389af39f7b23cce693b698a5871e6ec27611f819009f234bcb59cebb37954c5c"
-    },
-    {
-      "imageURL": "/preview/social-cards/images/engine-discovery-rev01/J04-03.png",
-      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/social/exports/J04-03.png",
-      "bytes": 54967,
-      "sha256": "c0d5810fdf28990589fb2a5f3754fe83e0beb8cfe25f4c8fdd6660dcaa95973b"
-    },
-    {
-      "imageURL": "/preview/social-cards/images/engine-discovery-rev01/J04-04.png",
-      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/social/exports/J04-04.png",
-      "bytes": 66297,
-      "sha256": "36ab5fd67c96ffc971f5ec32832ff594d5b8887f76befc5e6c1953bfe2bf071d"
-    },
-    {
-      "imageURL": "/preview/social-cards/images/engine-discovery-rev01/J04-05.png",
-      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/social/exports/J04-05.png",
-      "bytes": 85280,
-      "sha256": "bac0e64e0f180d13cd01bd3b1d79218d5c0d04dbf4f77330f1924e4f310beccd"
-    },
-    {
-      "imageURL": "/preview/social-cards/images/engine-discovery-rev01/J04-06.png",
-      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/social/exports/J04-06.png",
-      "bytes": 86895,
-      "sha256": "45bf323a1ea7a24743a9076f6f4210ef0dc9f5e51819716b19ec115d9ca34242"
-    },
-    {
-      "imageURL": "/preview/social-cards/images/engine-discovery-rev01/J04-07.png",
-      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/social/exports/J04-07.png",
-      "bytes": 91887,
-      "sha256": "0d2aac75397b9da20f41155e2aa0eb7ee13bced27643bf11428f97f3ddc64b6d"
-    },
-    {
       "imageURL": "/preview/social-cards/images/engineering-notes-a47-a56-rev01/S-A48.png",
       "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/social/exports/S-A48.png",
       "bytes": 73769,
@@ -2151,12 +2067,6 @@
       "sha256": "9a16193a2bbef8bd3549bfa9b8c5ac05eaf240ff471a3fed56378c9218b38d6f"
     },
     {
-      "imageURL": "/preview/social-cards/images/board-heroes-rev02/HULL-04.png",
-      "source": "Social_Media/Instagram/Board_Heroes_Rev02_20261125/exports/HULL-04.png",
-      "bytes": 1651696,
-      "sha256": "67f9d313ebe9bd662f000a07c7cc6d0331e53803fd5886fab952202bdcb66a5c"
-    },
-    {
       "imageURL": "/preview/social-cards/images/board-heroes-rev02/HULL-05.png",
       "source": "Social_Media/Instagram/Board_Heroes_Rev02_20261125/exports/HULL-05.png",
       "bytes": 434001,
@@ -2221,6 +2131,96 @@
       "source": "Social_Media/Instagram/Sticker_Showcase_Rev01_20261125/exports/STICKERS-08.png",
       "bytes": 538622,
       "sha256": "f3a8fea46a98b6deae3010cb1d9446cd1d75164d858b01ad6a95570ad888554b"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/digital-two-stroke-rev02/J03-01.png",
+      "source": "Social_Media/Instagram/Social_Corrections_Rev01_20261125/exports/J03-01.png",
+      "bytes": 409846,
+      "sha256": "bbfca409836bad81bdc63a4a89811a1f9db869694561b89dae17f5a4cb3bba6c"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/digital-two-stroke-rev02/J03-02.png",
+      "source": "Social_Media/Instagram/Social_Corrections_Rev01_20261125/exports/J03-02.png",
+      "bytes": 61604,
+      "sha256": "ef34d7a7579381163f54c771be6098c8df5fa2fbb62703370ce434dc327b98bb"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/digital-two-stroke-rev02/J03-03.png",
+      "source": "Social_Media/Instagram/Social_Corrections_Rev01_20261125/exports/J03-03.png",
+      "bytes": 76167,
+      "sha256": "ea4fb41ddcbd6c7357886366757a7659d10d92b4341e3f2fc82c8d79ea7b51c7"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/digital-two-stroke-rev02/J03-04.png",
+      "source": "Social_Media/Instagram/Social_Corrections_Rev01_20261125/exports/J03-04.png",
+      "bytes": 72492,
+      "sha256": "0db16daaa3b5607b0b7a7ac434fb491a22353099c27cfceed1a59854363dd158"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/digital-two-stroke-rev02/J03-05.png",
+      "source": "Social_Media/Instagram/Social_Corrections_Rev01_20261125/exports/J03-05.png",
+      "bytes": 63388,
+      "sha256": "88964b58927b2f195387058d9b7cca27981e43bf29d408f0faa08979e54cb907"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/digital-two-stroke-rev02/J03-06.png",
+      "source": "Social_Media/Instagram/Social_Corrections_Rev01_20261125/exports/J03-06.png",
+      "bytes": 65746,
+      "sha256": "3e3f635e02d75acfb816fdf11712ae227b82164792a9982f7d8cecdc7048e964"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/digital-two-stroke-rev02/J03-07.png",
+      "source": "Social_Media/Instagram/Social_Corrections_Rev01_20261125/exports/J03-07.png",
+      "bytes": 87759,
+      "sha256": "c0e241bcde19bb75aa711775501f7903ec28dd92e912b826b8199f1d70e1cb93"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/engine-discovery-rev02/J04-01.png",
+      "source": "Social_Media/Instagram/Social_Corrections_Rev01_20261125/exports/J04-01.png",
+      "bytes": 361290,
+      "sha256": "06435e86705a52ec4ecf597cb69be4465e15e5510f52977142de7f609ba2e0f9"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/engine-discovery-rev02/J04-02.png",
+      "source": "Social_Media/Instagram/Social_Corrections_Rev01_20261125/exports/J04-02.png",
+      "bytes": 58335,
+      "sha256": "8d3a026294a128b8ead2c64490e08210917c1a3d31553eccd3d21caf6cb7da76"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/engine-discovery-rev02/J04-03.png",
+      "source": "Social_Media/Instagram/Social_Corrections_Rev01_20261125/exports/J04-03.png",
+      "bytes": 54522,
+      "sha256": "789044117cb591e8a46dd962c9d5a3ca14c1cf0c5c2759e1c86a9b9a1f303c66"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/engine-discovery-rev02/J04-04.png",
+      "source": "Social_Media/Instagram/Social_Corrections_Rev01_20261125/exports/J04-04.png",
+      "bytes": 65969,
+      "sha256": "0f219f03b712aea69c2dd013307895f3fbb279d6473267d0a5b3ed343ee1c2ef"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/engine-discovery-rev02/J04-05.png",
+      "source": "Social_Media/Instagram/Social_Corrections_Rev01_20261125/exports/J04-05.png",
+      "bytes": 84574,
+      "sha256": "f037d77f675595c569defc3cc84645fd631950df03a8de8c79b87c088864c009"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/engine-discovery-rev02/J04-06.png",
+      "source": "Social_Media/Instagram/Social_Corrections_Rev01_20261125/exports/J04-06.png",
+      "bytes": 86665,
+      "sha256": "c861e259603e93fe751a7c2901c83852bd28eef160eb23580fc13c778b91a351"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/engine-discovery-rev02/J04-07.png",
+      "source": "Social_Media/Instagram/Social_Corrections_Rev01_20261125/exports/J04-07.png",
+      "bytes": 91452,
+      "sha256": "82bb1696e25aaa66631acbdad829223f07fd0a7f4865f34e7b092395f4a8824d"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/board-heroes-rev03/HULL-04.png",
+      "source": "Social_Media/Instagram/Social_Corrections_Rev01_20261125/exports/HULL-04.png",
+      "bytes": 1653417,
+      "sha256": "bd11f8ab5100f7eb9f6d3142751e87ddf21c7874cda86b8c0436827ec3cf2f0e"
     }
   ],
   "sources": [
@@ -2481,13 +2481,13 @@
     },
     {
       "batch": "digital-two-stroke-rev01",
-      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/release/digital-two-stroke-rev01.json",
-      "sha256": "733576ff234b674e6301dd138f20006afda1be29847f88a1f22dd477360d5768"
+      "source": "Social_Media/Instagram/Social_Corrections_Rev01_20261125/copy/digital-two-stroke-rev01.json",
+      "sha256": "8afb2d8223a6c564823988b37ccabf31155edce7e0abb28b9c6544bc30355e16"
     },
     {
       "batch": "engine-discovery-rev01",
-      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/release/engine-discovery-rev01.json",
-      "sha256": "f678dcff70b27ef755eb3e00a9d2669d0d7f849fd641a94b040ab15fb41d81b7"
+      "source": "Social_Media/Instagram/Social_Corrections_Rev01_20261125/copy/engine-discovery-rev01.json",
+      "sha256": "1ff4225a24af2f9448f614ca54280c0411662a6ba77d286ff99abafb4d4a91be"
     },
     {
       "batch": "engineering-notes-a47-a56-rev01",
@@ -2506,8 +2506,8 @@
     },
     {
       "batch": "digital-water-heroes-rev01",
-      "source": "Social_Media/Instagram/Board_Heroes_Rev02_20261125/copy/CAMPAIGNS.json",
-      "sha256": "46cdfb31021b692eb5d3b7c00cbe8d11e7e5face689bfb3ca98f8dcb49506dd2"
+      "source": "Social_Media/Instagram/Social_Corrections_Rev01_20261125/copy/digital-water-heroes-rev01.json",
+      "sha256": "7c1a0bcd2debae63e13434f75d061c9c368ed028423e1c9ac03dde7db9569c2a"
     },
     {
       "batch": "light-product-views-rev01",
@@ -2520,7 +2520,7 @@
       "sha256": "3a56f7618e6b3212871967a1d58312e15cd5b020ef2f8a363701cd385ad57f2c"
     }
   ],
-  "projectionSha256": "02278b2a6adc34378375f8fc89c4348d5b757085aa25613d46ac21b6bf7e2a0b",
+  "projectionSha256": "a5a5281f5cd00b86ec63a2ae0fda04326e5be48b6ba28ff24d2e1a06ad7cdebb",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",
@@ -2809,6 +2809,96 @@
       "source": "Social_Media/Instagram/Digital_Water_Heroes_Rev01_20261125/exports/HULL-05.png",
       "bytes": 83359,
       "sha256": "1290d30c178622c8ffec69ec2c66fa13161e06b4bf04f8adfdc7af1e530ab0ef"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/digital-two-stroke-rev01/J03-01.png",
+      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/social/exports/J03-01.png",
+      "bytes": 409948,
+      "sha256": "91675d23e2926d32b5210de09a4759077d721ec69aa4285f09ddc1e21c78e3d2"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/digital-two-stroke-rev01/J03-02.png",
+      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/social/exports/J03-02.png",
+      "bytes": 61824,
+      "sha256": "c8c517582b994d93b85f975f1ffd8fbbd3d3fe67703eab263b99e83c79c48e66"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/digital-two-stroke-rev01/J03-03.png",
+      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/social/exports/J03-03.png",
+      "bytes": 76362,
+      "sha256": "b6a255fbc61835cf6cff49106c00c845f016713a516f7b3567e86d0aa4c93b00"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/digital-two-stroke-rev01/J03-04.png",
+      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/social/exports/J03-04.png",
+      "bytes": 72966,
+      "sha256": "c37aad83ee35c608bf08f935e9c3f7f424512e2bd38517dbc83a66320daa286d"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/digital-two-stroke-rev01/J03-05.png",
+      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/social/exports/J03-05.png",
+      "bytes": 63823,
+      "sha256": "8166542cf1870d295e67493f7038560e6bb460d19d1c8cbbc038956617bac1ef"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/digital-two-stroke-rev01/J03-06.png",
+      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/social/exports/J03-06.png",
+      "bytes": 66234,
+      "sha256": "270b845d7f5ef683494a26e9a2df1b8a0b0bdff2d18ac712b67d51a0c8d5e7fb"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/digital-two-stroke-rev01/J03-07.png",
+      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/social/exports/J03-07.png",
+      "bytes": 88036,
+      "sha256": "bdd20379735b48ffa6fb4885f69805d0513b3a46122b544caf24551ee79a0f98"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/engine-discovery-rev01/J04-01.png",
+      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/social/exports/J04-01.png",
+      "bytes": 361621,
+      "sha256": "f9bde5b663b46f7a79d9bbb7f4532e2b50e70eed8522b8e1a29d2b2e7e48e583"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/engine-discovery-rev01/J04-02.png",
+      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/social/exports/J04-02.png",
+      "bytes": 58438,
+      "sha256": "389af39f7b23cce693b698a5871e6ec27611f819009f234bcb59cebb37954c5c"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/engine-discovery-rev01/J04-03.png",
+      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/social/exports/J04-03.png",
+      "bytes": 54967,
+      "sha256": "c0d5810fdf28990589fb2a5f3754fe83e0beb8cfe25f4c8fdd6660dcaa95973b"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/engine-discovery-rev01/J04-04.png",
+      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/social/exports/J04-04.png",
+      "bytes": 66297,
+      "sha256": "36ab5fd67c96ffc971f5ec32832ff594d5b8887f76befc5e6c1953bfe2bf071d"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/engine-discovery-rev01/J04-05.png",
+      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/social/exports/J04-05.png",
+      "bytes": 85280,
+      "sha256": "bac0e64e0f180d13cd01bd3b1d79218d5c0d04dbf4f77330f1924e4f310beccd"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/engine-discovery-rev01/J04-06.png",
+      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/social/exports/J04-06.png",
+      "bytes": 86895,
+      "sha256": "45bf323a1ea7a24743a9076f6f4210ef0dc9f5e51819716b19ec115d9ca34242"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/engine-discovery-rev01/J04-07.png",
+      "source": "Wahoo_Intelligence/communications/A47_A56_Campaign_Rev01_20261125/social/exports/J04-07.png",
+      "bytes": 91887,
+      "sha256": "0d2aac75397b9da20f41155e2aa0eb7ee13bced27643bf11428f97f3ddc64b6d"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/board-heroes-rev02/HULL-04.png",
+      "source": "Social_Media/Instagram/Board_Heroes_Rev02_20261125/exports/HULL-04.png",
+      "bytes": 1651696,
+      "sha256": "67f9d313ebe9bd662f000a07c7cc6d0331e53803fd5886fab952202bdcb66a5c"
     }
   ],
   "updatedDate": "2026-11-25"
