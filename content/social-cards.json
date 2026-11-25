@@ -4261,6 +4261,62 @@
           ]
         }
       ]
+    },
+    {
+      "id": "sticker-directions-rev01",
+      "title": "One Wahoo — sixteen sticker directions",
+      "revision": "Rev01",
+      "posts": [
+        {
+          "id": "SIXTEEN-DIRECTIONS",
+          "title": "One Wahoo. Sixteen sticker directions.",
+          "format": "8-card carousel",
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "caption": "Same Wahoo. Sixteen ways to express it.\n\nWe’re exploring the graphic identity of our developing board—from bold colour and flowing patterns to sharper blue-and-white lines that follow its shape.\n\nSwipe through all sixteen sticker concepts. Each design has its name below it.\n\nWhich direction would you choose? Tell us the name.\n\nDigital design studies. Final graphics and materials are still under development.\n\nFollow the build at wahooracing.com",
+          "hashtags": [
+            "#WahooRacing",
+            "#Jetboard",
+            "#LiveryDesign",
+            "#ProductDesign",
+            "#DesignDevelopment"
+          ],
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/sticker-directions-rev01/STICKERS-01.png",
+              "alt": "16 WAYS TO BE WAHOO. Two bow-up Wahoo top-view sticker concepts on white, named beneath each image. Left Ion: cobalt and amber angular panels. Right Coral Current: teal ribbons and coral contours. Digital design studies, not manufactured graphics. Slide 1 of 8."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/sticker-directions-rev01/STICKERS-02.png",
+              "alt": "HARD EDGES. BOLD COLOUR. Two bow-up Wahoo top-view sticker concepts on white, named beneath each image. Left Prism: violet facets with acid-yellow cuts. Right Signal: red blocks with cyan accents. Digital design studies, not manufactured graphics. Slide 2 of 8."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/sticker-directions-rev01/STICKERS-03.png",
+              "alt": "LOUD OR UNDERSTATED? Two bow-up Wahoo top-view sticker concepts on white, named beneath each image. Left Velocity: blue racing slashes and orange halftones. Right Aureate: navy panels and fine gold linework. Digital design studies, not manufactured graphics. Slide 3 of 8."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/sticker-directions-rev01/STICKERS-04.png",
+              "alt": "PATTERNS. PERSONALITY. Two bow-up Wahoo top-view sticker concepts on white, named beneath each image. Left Canopy: green geometric branches with warm coral lines. Right Pulse: magenta and lime optical bands. Digital design studies, not manufactured graphics. Slide 4 of 8."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/sticker-directions-rev01/STICKERS-05.png",
+              "alt": "COLOUR OR A CLEANER LINE? Two bow-up Wahoo top-view sticker concepts on white, named beneath each image. Left Sunline: ultramarine panels and yellow dots. Right Glacier: pearl-white and blue sweeping graphic. Digital design studies, not manufactured graphics. Slide 5 of 8."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/sticker-directions-rev01/STICKERS-06.png",
+              "alt": "SHARPER BY DESIGN. Two bow-up Wahoo top-view sticker concepts on white, named beneath each image. Left Razor: Wahoo-blue rail blades with white cuts. Right Apex: white chevrons and stepped rail lines. Digital design studies, not manufactured graphics. Slide 6 of 8."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/sticker-directions-rev01/STICKERS-07.png",
+              "alt": "FOLLOW THE FORM. Two bow-up Wahoo top-view sticker concepts on white, named beneath each image. Left Switchback: white switchback with a thin blue edge. Right Railcut: blue rail panels with sharp white inserts. Digital design studies, not manufactured graphics. Slide 7 of 8."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/sticker-directions-rev01/STICKERS-08.png",
+              "alt": "WHICH ONE IS YOURS? Two bow-up Wahoo top-view sticker concepts on white, named beneath each image. Left Fracture: asymmetric white shards and small blue keys. Right Spear: one large blue spear and stepped white border. Digital design studies, not manufactured graphics. Slide 8 of 8."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

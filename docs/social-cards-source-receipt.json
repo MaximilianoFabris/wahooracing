@@ -2173,6 +2173,54 @@
       "source": "Social_Media/Instagram/Light_Product_Views_Rev01_20261125/exports/HERO-01.png",
       "bytes": 1021132,
       "sha256": "31bf279658bfd9d9d2354d73bdb95b257671a3702b63d0c4827a0a3fbf6fa8e4"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/sticker-directions-rev01/STICKERS-01.png",
+      "source": "Social_Media/Instagram/Sticker_Showcase_Rev01_20261125/exports/STICKERS-01.png",
+      "bytes": 652245,
+      "sha256": "aa260276f9dcb709994bdbefe15ad53006ead8fa52fb668ae5c2c8bae307cdde"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/sticker-directions-rev01/STICKERS-02.png",
+      "source": "Social_Media/Instagram/Sticker_Showcase_Rev01_20261125/exports/STICKERS-02.png",
+      "bytes": 629915,
+      "sha256": "98ef415d79548eedb2ecea80323f0e988e0d3aea79c735a5ac488956efb836a3"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/sticker-directions-rev01/STICKERS-03.png",
+      "source": "Social_Media/Instagram/Sticker_Showcase_Rev01_20261125/exports/STICKERS-03.png",
+      "bytes": 681190,
+      "sha256": "02b0a104a14cd1d587d89a30e40cae7555cdd6b15087d59c1f736d2dabdeb556"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/sticker-directions-rev01/STICKERS-04.png",
+      "source": "Social_Media/Instagram/Sticker_Showcase_Rev01_20261125/exports/STICKERS-04.png",
+      "bytes": 676475,
+      "sha256": "62db287055007645a5a5c404bab1df8edac87670949a4c46913cf8dad447b119"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/sticker-directions-rev01/STICKERS-05.png",
+      "source": "Social_Media/Instagram/Sticker_Showcase_Rev01_20261125/exports/STICKERS-05.png",
+      "bytes": 646782,
+      "sha256": "96d22379ef054ddd588431ff186b983ae88326d91f6d72c607bdcc9d621a3b6c"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/sticker-directions-rev01/STICKERS-06.png",
+      "source": "Social_Media/Instagram/Sticker_Showcase_Rev01_20261125/exports/STICKERS-06.png",
+      "bytes": 551869,
+      "sha256": "493ee68f5d5a3295e8aba1ffd6528b887341f7100ec6e4f1cc3291e4ea750cec"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/sticker-directions-rev01/STICKERS-07.png",
+      "source": "Social_Media/Instagram/Sticker_Showcase_Rev01_20261125/exports/STICKERS-07.png",
+      "bytes": 548462,
+      "sha256": "a9c7072c41025fa4efd7764e68a9c85d5448625e74d7b426f9eb6011f3162fe2"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/sticker-directions-rev01/STICKERS-08.png",
+      "source": "Social_Media/Instagram/Sticker_Showcase_Rev01_20261125/exports/STICKERS-08.png",
+      "bytes": 538622,
+      "sha256": "f3a8fea46a98b6deae3010cb1d9446cd1d75164d858b01ad6a95570ad888554b"
     }
   ],
   "sources": [
@@ -2465,9 +2513,14 @@
       "batch": "light-product-views-rev01",
       "source": "Social_Media/Instagram/Light_Product_Views_Rev01_20261125/copy/CAMPAIGNS.json",
       "sha256": "3f0aae5fd2eaceb4c38446e8eb6f251e0df01385b4d60770a8577ac66c31c23b"
+    },
+    {
+      "batch": "sticker-directions-rev01",
+      "source": "Social_Media/Instagram/Sticker_Showcase_Rev01_20261125/copy/CAMPAIGNS.json",
+      "sha256": "3a56f7618e6b3212871967a1d58312e15cd5b020ef2f8a363701cd385ad57f2c"
     }
   ],
-  "projectionSha256": "144eae87fafadf436a871eafa462f59584c86e91b9a9b790b71fa36d987f552a",
+  "projectionSha256": "02278b2a6adc34378375f8fc89c4348d5b757085aa25613d46ac21b6bf7e2a0b",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",
