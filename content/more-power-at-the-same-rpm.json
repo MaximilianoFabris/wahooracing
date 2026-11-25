@@ -1,0 +1,72 @@
+{
+  "slug": "more-power-at-the-same-rpm",
+  "title": "Finding more power at the same RPM",
+  "summary": "Matched-speed engine studies show an 11.9% increase in modeled net power. What changed, how we checked it, and why physical proof remains ahead.",
+  "date": "2026-11-25",
+  "dateLabel": "25 Nov 2026 · accepted exploratory commercial-model comparisons",
+  "status": "published",
+  "revision": "ENGINE DEVELOPMENT / A57 COMMERCIAL STUDIES",
+  "type": "Engineering study",
+  "evidence": "Exploratory commercial simulation · not dyno validated",
+  "systems": [
+    "engine",
+    "exhaust"
+  ],
+  "publicationSequence": 2,
+  "hero": "engineering/engine-hp-progress/hero-wide.png",
+  "heroAlt": "Editorial numerical composition: 11.39 mechanical hp at 10,000 RPM, 11.9% above the matched-speed baseline. Exploratory commercial simulation, not dyno validated.",
+  "heroCaption": "Modeled net engine output, P3 versus E05 at the same 10,000 RPM. Mechanical horsepower units; not a measured engine rating.",
+  "thumbnail": "engineering/engine-hp-progress/hero-16x9.png",
+  "thumbnailAlt": "11.39 mechanical hp in the commercial model, 11.9% above the matched-speed baseline; not dyno validated.",
+  "sections": [
+    {
+      "title": "A stronger result at the same speed",
+      "text": "A useful engine-development result needs a fair comparison. Raising RPM, changing the model and changing a configuration can each alter the number on the screen. Our latest accepted commercial-model studies isolate a clearer question: how do two port configurations compare at the same engine speed? At 10,000 RPM, the retained P3 baseline produced 10.17 mechanical horsepower of modeled net output. The E05 configuration produced 11.39 hp, an 11.9% increase calculated from the original unrounded results. The observations date from 17 and 25 November 2026. This is progress in investigating the digital engine. It is not a dynamometer result or a claim that a physical Wahoo engine has delivered this power.",
+      "figure": {
+        "image": "engineering/engine-hp-progress/power-10000-dark.svg",
+        "alt": "Zero-based comparison at 10,000 RPM: baseline 10.17 and revised 11.39 mechanical hp.",
+        "caption": "Two accepted exploratory commercial-model observations. Percent change uses unrounded kW values; displayed hp values are rounded to two decimals."
+      }
+    },
+    {
+      "title": "What changed—and what that comparison means",
+      "text": "The revised study changes the exhaust and transfer port-opening settings together. The compared engine, intake, pipe and prescribed combustion and thermal inputs remain fixed within the retained model context. That makes the matched-speed comparison informative, while leaving important interpretation limits. Moving a port opening affects timing, exposed area, blowdown and trapped compression together. We therefore describe a configuration advantage inside the model, rather than claiming that one isolated physical mechanism has been proven. The result does not release a cylinder for manufacture or establish that the same gain will survive physical hardware, calibration, structural and thermal checks. The exact engineering geometry and commercial input files remain private."
+    },
+    {
+      "title": "Four configurations reveal more than a single winner",
+      "text": "We also examined the two changes separately. At the same 10,000 RPM, the accepted exhaust study returned 10.32 mechanical hp, the transfer study 11.09 hp, and the combined study 11.39 hp, against the 10.17 hp baseline. These are parallel configuration comparisons, not four successive engine upgrades. The separate studies help us investigate how the changes interact. The combined configuration gives the largest output among these four admitted observations, but four observations do not establish a global optimum or a generally predictive design rule. The accepted exhaust result comes from its admitted recovery revision; an earlier diagnostic run remains excluded from this public comparison.",
+      "figure": {
+        "image": "engineering/engine-hp-progress/four-configurations-dark.svg",
+        "alt": "Four parallel accepted configurations, all at 10,000 RPM: baseline 10.17, exhaust study 10.32, transfer study 11.09, combined study 11.39 mechanical hp.",
+        "caption": "Alternative configurations at one engine speed. Values are modeled net power, not additive or sequential gains; no uncertainty interval or global optimum is inferred."
+      }
+    },
+    {
+      "title": "A separate check at 10,500 RPM",
+      "text": "A second matched-speed comparison asks whether the revised configuration retains an advantage at another observed operating point. At 10,500 RPM, the P3-family baseline produced 9.39 mechanical hp. The latest accepted E08 observation returned 10.86 hp, 15.7% higher than that baseline at the same speed. This is a separate pair. E08 does not exceed the 11.39 hp observed at 10,000 RPM, and the larger percentage does not mean that the two gains can be added. We have discrete observations rather than a qualified continuous power curve. They do not establish peak output, optimum operating RPM, a safe speed limit or durability.",
+      "figure": {
+        "image": "engineering/engine-hp-progress/power-10500-dark.svg",
+        "alt": "Separate zero-based comparison at 10,500 RPM: baseline 9.39 and revised 10.86 mechanical hp, a 15.7% increase.",
+        "caption": "A separate matched-speed comparison. Do not connect these values to the 10,000 RPM pair as a measured curve or extrapolate to untested speeds."
+      }
+    },
+    {
+      "title": "What independent review establishes",
+      "text": "Leo reviewed the engineering interpretation, and Isaac independently checked accepted records, original scalar outputs, frozen inputs and horsepower arithmetic. Mechanical horsepower means 745.69987158227022 watts per hp; it differs from metric horsepower, often written PS. The conversion changes the reporting unit, not the confidence in the model. The source reports modeled net engine power after modeled engine-level losses. It is not raw cylinder work, calibrated measured shaft power or power delivered to a jet pump. The admitted scalar and rolling-cycle checks support these bounded numerical observations. Full-state periodicity, local exhaust-flow and native mass-and-work conservation qualification remain open, and a recorded startup temperature diagnostic has not been declared harmless."
+    },
+    {
+      "title": "Commercial results and our own physics remain separate",
+      "text": "These horsepower observations come from the commercial two-stroke model. Wahoo’s independent Python physics platform is a separate development program with its own accepted synthetic scope and unresolved integrated qualification. It has not independently reproduced these commercial power observations. We will not present progress in one evidence stream as validation of the other. Our earlier Journal account, From simulation to engine discovery, deliberately stops at A56. This follow-up adds the subsequently accepted commercial studies without rewriting that history or implying that every objective of A57, or the independent integrated-cycle gate, is complete."
+    },
+    {
+      "title": "For the ride ahead",
+      "text": "The value of these studies is better-directed engineering: a source-backed reason to investigate particular configurations, a clearer view of their interactions and a more disciplined way to decide what to test next. Physical engine power, reliability, thermal behaviour and jet-pump matching still need to be demonstrated. We have not established board speed, thrust or a production power rating. More power in the model is an encouraging development result. Physical proof remains ahead, and that distinction will stay visible as Wahoo moves from numerical exploration toward hardware."
+    }
+  ],
+  "sources": [
+    "Accepted P3 baseline and A57 E05–E08 exploratory commercial-model records, 17–25 November 2026.",
+    "Leo engineering interpretation and Isaac independent original-source numerical review, 25 November 2026.",
+    "Original Wahoo editorial charts from rounded aggregate outputs; no proprietary model, vendor plot, source file or unapproved geometry is redistributed."
+  ],
+  "changes": "New dated follow-up using accepted aggregate commercial-model observations. Earlier A47–A56 Journal chronology and claims remain unchanged. Website preparation/release follows the standing owner communication instruction; Instagram posting is not authorized."
+}

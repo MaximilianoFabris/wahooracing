@@ -4317,6 +4317,50 @@
           ]
         }
       ]
+    },
+    {
+      "id": "engine-hp-progress-rev01",
+      "title": "More power. Same RPM.",
+      "revision": "Rev01",
+      "posts": [
+        {
+          "id": "ENGINE-HP-PROGRESS",
+          "title": "More power. Same RPM.",
+          "format": "5-card carousel",
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "caption": "More power. Same RPM.\n\nOur digital engine studies moved from 10.17 to 11.39 mechanical horsepower at the same 10,000 RPM—an 11.9% gain in modeled net power.\n\nWe compared four configurations to understand how exhaust and transfer changes work together. At a separate 10,500 RPM comparison, the revised configuration retained a 15.7% advantage over its matched-speed baseline.\n\nThese are accepted exploratory commercial-simulation results, not measured engine horsepower. They do not establish peak power, reliability or performance delivered to a waterjet. Full-state periodicity, local exhaust-flow and native conservation qualification remain open. Our independent Python physics work is a separate development program; it has not reproduced these power results.\n\nBetter questions. Stronger evidence. Physical proof still ahead.\n\nRead the engineering story at wahooracing.com/journal/more-power-at-the-same-rpm/",
+          "hashtags": [
+            "#WahooRacing",
+            "#EngineDevelopment",
+            "#TwoStroke",
+            "#EngineeringSimulation",
+            "#BehindTheBuild"
+          ],
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/engine-hp-progress-rev01/HP-01.png",
+              "alt": "More power. Same RPM. Modeled net engine power rose 11.9%, from 10.17 to 11.39 mechanical hp at 10,000 RPM, P3 baseline versus E05 revised configuration. Model observations 17–25 November 2026. Exploratory commercial simulation, not dyno validated. Slide 1 of 5."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/engine-hp-progress-rev01/HP-02.png",
+              "alt": "Same speed. A fairer comparison. Zero-based bars from 0 to 12 mechanical hp show P3 baseline 10.17 hp on 17 November and E05 revised 11.39 hp on 25 November, both at 10,000 RPM. Two port-opening settings changed together. Exploratory simulation, not dyno validated. Slide 2 of 5."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/engine-hp-progress-rev01/HP-03.png",
+              "alt": "Four configurations. A clearer decision. Parallel accepted studies at 10,000 RPM: baseline P3 10.17, exhaust study E06 Rev06 10.32, transfer study E07 Rev07 11.09 and combined E05 11.39 mechanical hp. Alternative configurations, not sequential or additive gains. Exploratory simulation, not dyno validated. Slide 3 of 5."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/engine-hp-progress-rev01/HP-04.png",
+              "alt": "At a second matched speed of 10,500 RPM, baseline P3 R02 modeled 9.39 mechanical hp and revised E08 modeled 10.86 hp, a 15.7% increase. A separate comparison, not an increase beyond the 11.39 hp at 10,000 RPM or evidence of peak power. Exploratory simulation, not dyno validated. Slide 4 of 5."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/engine-hp-progress-rev01/HP-05.png",
+              "alt": "For the ride ahead. Digital progress. Physical proof ahead. Hardware power, reliability and pump matching remain to be demonstrated. Follow the engineering journey at wahooracing.com. Exploratory simulation, not dyno validated. Slide 5 of 5."
+            }
+          ]
+        }
+      ]
     }
   ]
 }

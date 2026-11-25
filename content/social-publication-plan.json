@@ -397,6 +397,10 @@
     {
       "key": "sticker-directions-rev01-SIXTEEN-DIRECTIONS",
       "category": "product"
+    },
+    {
+      "key": "engine-hp-progress-rev01-ENGINE-HP-PROGRESS",
+      "category": "engineering"
     }
   ]
 }

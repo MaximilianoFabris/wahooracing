@@ -2221,6 +2221,36 @@
       "source": "Social_Media/Instagram/Social_Corrections_Rev01_20261125/exports/HULL-04.png",
       "bytes": 1653417,
       "sha256": "bd11f8ab5100f7eb9f6d3142751e87ddf21c7874cda86b8c0436827ec3cf2f0e"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/engine-hp-progress-rev01/HP-01.png",
+      "source": "Social_Media/Instagram/Engine_HP_Progress_Rev01_20261125/exports/HP-01.png",
+      "bytes": 98219,
+      "sha256": "9a657647afe15b388c4c9baec4ab125ed483e2f1aab41ca3c2acfed54b3b5c9e"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/engine-hp-progress-rev01/HP-02.png",
+      "source": "Social_Media/Instagram/Engine_HP_Progress_Rev01_20261125/exports/HP-02.png",
+      "bytes": 72634,
+      "sha256": "4262f2c3cba67e5e9a8f59419e27a8f1c683ed6bcc6063e469fdd795660c8792"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/engine-hp-progress-rev01/HP-03.png",
+      "source": "Social_Media/Instagram/Engine_HP_Progress_Rev01_20261125/exports/HP-03.png",
+      "bytes": 97376,
+      "sha256": "4f6a2518b8fc1d65f2f8961b234e75f48fc3c996daf013c02b261d97abc79421"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/engine-hp-progress-rev01/HP-04.png",
+      "source": "Social_Media/Instagram/Engine_HP_Progress_Rev01_20261125/exports/HP-04.png",
+      "bytes": 103789,
+      "sha256": "9b247daf3eae86cba9af83360d29d889073f57ab2462ab3be605ccea04f1a066"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/engine-hp-progress-rev01/HP-05.png",
+      "source": "Social_Media/Instagram/Engine_HP_Progress_Rev01_20261125/exports/HP-05.png",
+      "bytes": 95786,
+      "sha256": "20ebf864ef15ed478bbeda935e63d60315264d8d8a5d96a77c798f0499e75bc1"
     }
   ],
   "sources": [
@@ -2518,9 +2548,14 @@
       "batch": "sticker-directions-rev01",
       "source": "Social_Media/Instagram/Sticker_Showcase_Rev01_20261125/copy/CAMPAIGNS.json",
       "sha256": "3a56f7618e6b3212871967a1d58312e15cd5b020ef2f8a363701cd385ad57f2c"
+    },
+    {
+      "batch": "engine-hp-progress-rev01",
+      "source": "Social_Media/Instagram/Engine_HP_Progress_Rev01_20261125/copy/CAMPAIGNS.json",
+      "sha256": "a83c46129fa167e9edb66b83ff7e291969ac7689246a44f01d5edd471b09d0de"
     }
   ],
-  "projectionSha256": "a5a5281f5cd00b86ec63a2ae0fda04326e5be48b6ba28ff24d2e1a06ad7cdebb",
+  "projectionSha256": "98506b7ec11a3dde8b47fbde06549f21a2656dc1aa317a5b08a43a542aa6bbd8",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",
