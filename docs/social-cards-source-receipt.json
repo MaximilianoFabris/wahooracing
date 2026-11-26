@@ -2251,6 +2251,24 @@
       "source": "Social_Media/Instagram/Engine_HP_Progress_Rev01_20261125/exports/HP-05.png",
       "bytes": 95786,
       "sha256": "20ebf864ef15ed478bbeda935e63d60315264d8d8a5d96a77c798f0499e75bc1"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/exhaust-wave-story-rev01/PULSE-01.png",
+      "source": "Social_Media/Instagram/Exhaust_Wave_Story_Rev01_20261126/exports/PULSE-01.png",
+      "bytes": 131231,
+      "sha256": "9785d56eea6a513adee25eff3a1864a62b146e756e76eb4b0a5f62e06caa19e0"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/exhaust-wave-story-rev01/PULSE-02.png",
+      "source": "Social_Media/Instagram/Exhaust_Wave_Story_Rev01_20261126/exports/PULSE-02.png",
+      "bytes": 163980,
+      "sha256": "eeb56f9ec74a7bc913dfd067d5d20451cd024e141f0fcd656f6e79d433f0a850"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/exhaust-wave-story-rev01/PULSE-03.png",
+      "source": "Social_Media/Instagram/Exhaust_Wave_Story_Rev01_20261126/exports/PULSE-03.png",
+      "bytes": 98024,
+      "sha256": "ac7f4534100d00b8d5b96f998bdf125219a6286e2e277965225911833336a53b"
     }
   ],
   "sources": [
@@ -2553,9 +2571,14 @@
       "batch": "engine-hp-progress-rev01",
       "source": "Social_Media/Instagram/Engine_HP_Progress_Rev01_20261125/copy/CAMPAIGNS.json",
       "sha256": "a83c46129fa167e9edb66b83ff7e291969ac7689246a44f01d5edd471b09d0de"
+    },
+    {
+      "batch": "exhaust-wave-story-rev01",
+      "source": "Social_Media/Instagram/Exhaust_Wave_Story_Rev01_20261126/copy/CAMPAIGNS.json",
+      "sha256": "66b7df1720d8b3fa7be88951d968a1e9b83695de39c3f4ebe77120a4dfa5e23c"
     }
   ],
-  "projectionSha256": "98506b7ec11a3dde8b47fbde06549f21a2656dc1aa317a5b08a43a542aa6bbd8",
+  "projectionSha256": "42214ccc29c175f8608f689b3b8cdf3fc6e1797f23499bda9bfe319a58e5b490",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",

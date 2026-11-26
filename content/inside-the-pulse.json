@@ -1,0 +1,57 @@
+{
+  "slug": "inside-the-pulse",
+  "title": "Inside the pulse: exploring exhaust waves",
+  "summary": "Why pressure disturbances matter in an exhaust—and what an illustrative wave study can and cannot tell us about an engine.",
+  "date": "2026-11-26",
+  "dateLabel": "26 Nov 2026 · educational development note",
+  "status": "published",
+  "revision": "CANDIDATE WAVE STUDY / EDUCATIONAL NOTE",
+  "type": "Development note",
+  "evidence": "Prescribed-pulse illustration · no cylinder model or performance prediction",
+  "systems": [
+    "engine",
+    "exhaust"
+  ],
+  "hero": "engineering/exhaust-wave-story/hero-wide.png",
+  "heroAlt": "Generic unscaled expansion-chamber concept with blue qualitative pressure-front lines; not actual Wahoo geometry or a computed field.",
+  "heroCaption": "Concept schematic, unscaled. Qualitative pressure fronts introduce the question; they are not simulation results or a hardware drawing.",
+  "thumbnail": "engineering/exhaust-wave-story/hero-16x9.png",
+  "thumbnailAlt": "Blue pressure-front concept within a generic unscaled exhaust passage.",
+  "sections": [
+    {
+      "title": "An exhaust carries more than moving gas",
+      "text": "The engine-development story is also a story about pressure. An exhaust carries gas, while pressure disturbances travel through that gas. Those are related phenomena, but they are not the same thing. A changing passage can transmit and reflect disturbances, making exhaust shape an important modelling question. Understanding those interactions requires more than drawing a return arrow and expecting extra horsepower. We need to establish what produced the pulse, how it travelled and how it interacted with the cylinder. This short development note introduces that question without treating an illustration as a validated engine result.",
+      "figure": {
+        "image": "engineering/exhaust-wave-story/wave-concept-dark.svg",
+        "alt": "Generic unscaled duct concept with qualitative blue pressure fronts. No computed field or exact hardware dimensions.",
+        "caption": "Educational schematic only. Transmission and reflection are questions for a coupled model; no measured timing or performance benefit is claimed."
+      }
+    },
+    {
+      "title": "The figure that started the conversation",
+      "text": "A candidate standalone one-dimensional gas-dynamics study, contributed through Claude Code, produced an illustrative space-and-time pressure plot. Its source script and original figure are available to the engineering team. The script supplies a prescribed pulse at the inlet of an illustrative varying-area duct. It does not calculate the cylinder that would generate a real engine’s exhaust pulse. The study therefore offers a way to discuss pressure-wave behaviour, rather than an engine performance prediction. The public diagrams here use a generic unscaled passage, not the detailed native-input profile or a reconstructed numerical field."
+    },
+    {
+      "title": "Reading pressure without inventing a result",
+      "text": "In the original candidate illustration, red denotes pressure above ambient and blue denotes pressure below ambient. Blue does not mean negative absolute pressure, fresh-charge transfer or demonstrated scavenging. The plotted quantity is a dimensionless absolute pressure ratio, and the original heatmap clips its displayed colour range. Saturated colours cannot establish exact peaks. The saved numerical samples and full field were not present in the reviewed package, so the exact plotted values and run-specific convergence and conservation cannot be independently audited from retained data. We have preserved the original privately and have not rerun the candidate to fill those gaps."
+    },
+    {
+      "title": "A clock is not a coupled firing cycle",
+      "text": "The nominal RPM in the source converts elapsed time into an angle coordinate. It is not an observed engine speed or a finding about the best RPM. Likewise, the labelled inlet closure is a prescribed boundary switch, not a predicted piston-controlled closing event. Source review also found that a separate exhaust passage was omitted from the illustrated domain. Its distance origin must therefore be described as the illustrated pipe inlet, rather than the cylinder port. These distinctions are why we review labels and boundary assumptions before turning a technical image into a public engineering claim."
+    },
+    {
+      "title": "What remains to be demonstrated",
+      "text": "The contribution remains candidate work and has not been independently admitted as an engine model. Contributor test records are not independent numerical acceptance. Numerical verification, consistent cylinder coupling, thermal and loss treatment, repeated-cycle behaviour and physical evidence remain necessary before using such a model for engine-performance decisions. This is a development direction, not a completed qualification milestone. We can explain the engineering question now while keeping the outstanding work visible."
+    },
+    {
+      "title": "Separate from the horsepower story",
+      "text": "Our published horsepower observations come from a separate commercial-model evidence stream. This candidate pressure-wave illustration does not explain or validate those gains, establish useful return-wave timing, or prove a particular pipe improves engine output. Keeping those evidence streams distinct lets us tell a more useful development story: investigating a stronger engine and building the tools needed to understand it, with each claim tied to the evidence it actually has."
+    }
+  ],
+  "sources": [
+    "Original candidate contribution, source script and retained illustrative figure reviewed by Leo and Isaac on 26 November 2026; source and native engineering inputs remain private.",
+    "Leo engineering interpretation and Isaac educational claims and label review. This communication review is not numerical admission.",
+    "General background: NASA Glenn, Speed of Sound, https://www.grc.nasa.gov/www/BGH/sound.html (small pressure-disturbance propagation; not a validation source for this candidate)."
+  ],
+  "changes": "New educational development note; earlier Journal history and admitted performance claims remain unchanged. Public diagrams are original generic unscaled schematics. No original source, native geometry or raw candidate data is redistributed."
+}

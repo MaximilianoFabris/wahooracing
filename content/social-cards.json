@@ -4361,6 +4361,42 @@
           ]
         }
       ]
+    },
+    {
+      "id": "exhaust-wave-story-rev01",
+      "title": "Inside the pulse.",
+      "revision": "Rev01",
+      "posts": [
+        {
+          "id": "INSIDE-THE-PULSE",
+          "title": "Inside the pulse.",
+          "format": "3-card carousel",
+          "revision": "Rev01",
+          "reviewStatus": "OWNER_REVIEW",
+          "caption": "Inside the pulse.\n\nAn exhaust carries pressure disturbances as well as gas. A changing passage can transmit and reflect those disturbances—the question our developing wave-model work is exploring.\n\nThe three cards use a generic, unscaled schematic with qualitative arrows. They are not a computed pressure field, actual Wahoo pipe geometry or a performance prediction.\n\nA separate candidate one-dimensional study supplied the starting point: one prescribed inlet pulse, with no cylinder model. It has not been independently admitted as an engine model. Independent numerical review, cylinder coupling and physical evidence remain ahead. This work does not explain or validate the horsepower gains reported in our commercial-model studies.\n\nUnderstanding first. Performance proof next.\n\nRead the development note: wahooracing.com/journal/inside-the-pulse/",
+          "hashtags": [
+            "#WahooRacing",
+            "#WahooIntelligence",
+            "#EngineDevelopment",
+            "#TwoStroke",
+            "#ExhaustWaves"
+          ],
+          "cards": [
+            {
+              "imageURL": "/preview/social-cards/images/exhaust-wave-story-rev01/PULSE-01.png",
+              "alt": "Inside the pulse. A generic, unscaled exhaust passage with qualitative blue pressure-front lines introduces pressure disturbances in an exhaust. Concept schematic, not a computed field or engine prediction. Slide 1 of 3."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/exhaust-wave-story-rev01/PULSE-02.png",
+              "alt": "Pressure travels. Shape changes the response. The same generic unscaled duct uses qualitative arrows to explain transmission and reflection. Pressure disturbances differ from bulk gas flow; a return wave alone does not prove a power gain. No computed field, measured timing or benefit is claimed. Slide 2 of 3."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/exhaust-wave-story-rev01/PULSE-03.png",
+              "alt": "Understanding first. A candidate one-dimensional wave study uses a prescribed pulse with no cylinder model. Independent numerical review, cylinder coupling and physical evidence remain ahead. This candidate has not been admitted as an engine model. Follow Wahoo development. Slide 3 of 3."
+            }
+          ]
+        }
+      ]
     }
   ]
 }
