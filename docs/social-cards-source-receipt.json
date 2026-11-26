@@ -2253,22 +2253,34 @@
       "sha256": "20ebf864ef15ed478bbeda935e63d60315264d8d8a5d96a77c798f0499e75bc1"
     },
     {
-      "imageURL": "/preview/social-cards/images/exhaust-wave-story-rev01/PULSE-01.png",
-      "source": "Social_Media/Instagram/Exhaust_Wave_Story_Rev01_20261126/exports/PULSE-01.png",
-      "bytes": 131231,
-      "sha256": "9785d56eea6a513adee25eff3a1864a62b146e756e76eb4b0a5f62e06caa19e0"
+      "imageURL": "/preview/social-cards/images/exhaust-wave-story-rev02/PULSE-R02-01.png",
+      "source": "Social_Media/Instagram/Exhaust_Wave_Story_Rev02_20261126/exports/PULSE-R02-01.png",
+      "bytes": 286031,
+      "sha256": "d36ff1501c664fd43e2ff1291641a4f835a1a553035381ab4c45f2d16333d1e1"
     },
     {
-      "imageURL": "/preview/social-cards/images/exhaust-wave-story-rev01/PULSE-02.png",
-      "source": "Social_Media/Instagram/Exhaust_Wave_Story_Rev01_20261126/exports/PULSE-02.png",
-      "bytes": 163980,
-      "sha256": "eeb56f9ec74a7bc913dfd067d5d20451cd024e141f0fcd656f6e79d433f0a850"
+      "imageURL": "/preview/social-cards/images/exhaust-wave-story-rev02/PULSE-R02-02.png",
+      "source": "Social_Media/Instagram/Exhaust_Wave_Story_Rev02_20261126/exports/PULSE-R02-02.png",
+      "bytes": 116430,
+      "sha256": "1011658e2d0b7cdb5360158ab35b7dfec5518c51ffa585023534f30dee5092dc"
     },
     {
-      "imageURL": "/preview/social-cards/images/exhaust-wave-story-rev01/PULSE-03.png",
-      "source": "Social_Media/Instagram/Exhaust_Wave_Story_Rev01_20261126/exports/PULSE-03.png",
-      "bytes": 98024,
-      "sha256": "ac7f4534100d00b8d5b96f998bdf125219a6286e2e277965225911833336a53b"
+      "imageURL": "/preview/social-cards/images/exhaust-wave-story-rev02/PULSE-R02-03.png",
+      "source": "Social_Media/Instagram/Exhaust_Wave_Story_Rev02_20261126/exports/PULSE-R02-03.png",
+      "bytes": 131632,
+      "sha256": "84fd3b3031b58d7ec6abdc0750ea43567c7116e47bc1807ca7487fe2b8b1b5ae"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/exhaust-wave-story-rev02/PULSE-R02-04.png",
+      "source": "Social_Media/Instagram/Exhaust_Wave_Story_Rev02_20261126/exports/PULSE-R02-04.png",
+      "bytes": 163907,
+      "sha256": "97d0459bfce34ecb3854d82cf98186d760d14be7b65317c96137f22a4b0767ae"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/exhaust-wave-story-rev02/PULSE-R02-05.png",
+      "source": "Social_Media/Instagram/Exhaust_Wave_Story_Rev02_20261126/exports/PULSE-R02-05.png",
+      "bytes": 97897,
+      "sha256": "4d1803ce1ffafaffef8cc300f86d1222248cf91a5e4eccaa656de5736450e871"
     }
   ],
   "sources": [
@@ -2574,11 +2586,11 @@
     },
     {
       "batch": "exhaust-wave-story-rev01",
-      "source": "Social_Media/Instagram/Exhaust_Wave_Story_Rev01_20261126/copy/CAMPAIGNS.json",
-      "sha256": "66b7df1720d8b3fa7be88951d968a1e9b83695de39c3f4ebe77120a4dfa5e23c"
+      "source": "Social_Media/Instagram/Exhaust_Wave_Story_Rev02_20261126/copy/CAMPAIGNS.json",
+      "sha256": "439f48baffa99d154b7bf93378e9821fd4edfaf7cc505acc6f51f8befb4ecb65"
     }
   ],
-  "projectionSha256": "42214ccc29c175f8608f689b3b8cdf3fc6e1797f23499bda9bfe319a58e5b490",
+  "projectionSha256": "9b4dde37ed2f024d93b8ae549a9e22bdcfa92511886f5d31fb0ad380316cb489",
   "retainedFiles": [
     {
       "imageURL": "/preview/social-cards/images/relaunch-rev03/P01-04.png",
@@ -2957,7 +2969,25 @@
       "source": "Social_Media/Instagram/Board_Heroes_Rev02_20261125/exports/HULL-04.png",
       "bytes": 1651696,
       "sha256": "67f9d313ebe9bd662f000a07c7cc6d0331e53803fd5886fab952202bdcb66a5c"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/exhaust-wave-story-rev01/PULSE-01.png",
+      "source": "Social_Media/Instagram/Exhaust_Wave_Story_Rev01_20261126/exports/PULSE-01.png",
+      "bytes": 131231,
+      "sha256": "9785d56eea6a513adee25eff3a1864a62b146e756e76eb4b0a5f62e06caa19e0"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/exhaust-wave-story-rev01/PULSE-02.png",
+      "source": "Social_Media/Instagram/Exhaust_Wave_Story_Rev01_20261126/exports/PULSE-02.png",
+      "bytes": 163980,
+      "sha256": "eeb56f9ec74a7bc913dfd067d5d20451cd024e141f0fcd656f6e79d433f0a850"
+    },
+    {
+      "imageURL": "/preview/social-cards/images/exhaust-wave-story-rev01/PULSE-03.png",
+      "source": "Social_Media/Instagram/Exhaust_Wave_Story_Rev01_20261126/exports/PULSE-03.png",
+      "bytes": 98024,
+      "sha256": "ac7f4534100d00b8d5b96f998bdf125219a6286e2e277965225911833336a53b"
     }
   ],
-  "updatedDate": "2026-11-25"
+  "updatedDate": "2026-11-26"
 }

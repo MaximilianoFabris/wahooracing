@@ -53,7 +53,7 @@ const orderLock=JSON.parse(fs.readFileSync('docs/social-publication-order-lock.j
 assert.deepEqual(plan.entries.slice(0,orderLock.lockedKeys.length).map(e=>e.key),orderLock.lockedKeys,'Existing publication order is locked; append new posts only');
 for(const id of plan.retiredBatches){assert(!html.includes(`id="${id}"`));assert(!html.includes(`data-social-collection="${id}"`));}
 assert(html.includes('data-social-collection-filter')&&html.includes('data-social-category-filter'));
-assert.equal(entries.reduce((n,e)=>n+e.post.cards.length,0),g031Visible?325:322);
+assert.equal(entries.reduce((n,e)=>n+e.post.cards.length,0),g031Visible?327:324);
 assert(html.includes(markup));assert(html.includes('noindex, nofollow, noarchive'));assert(html.includes('class="site-header'));
 assert(!/[CW]:[\\/]|file:\/\/|Wahoo_Intelligence|Social_Media|source-manifest|source-provenance|"evidence"|"visual_approach"|"rider_meaning"/i.test(html));
 assert(!/[CW]:[\\/]|file:\/\/|Wahoo_Intelligence|Social_Media|source-manifest|source-provenance/i.test(raw.toString()));
@@ -81,7 +81,7 @@ for(const batch of projected.batches){
     }
   }
 }
-assert.equal(count,g031Visible?378:375);assert.equal(receipt.files.length,378);
+assert.equal(count,g031Visible?380:377);assert.equal(receipt.files.length,380);
 function walk(folder){return fs.readdirSync(folder,{withFileTypes:true}).flatMap(f=>f.isDirectory()?walk(path.join(folder,f.name)):[path.join(folder,f.name)]);}
 const retained=receipt.retainedFiles||[];
 for(const record of retained){assert(!urls.has(record.imageURL));assert(/^\/preview\/social-cards\/images\/[a-z0-9-]+\/[A-Z0-9-]+\.png$/.test(record.imageURL));for(const base of ['public','dist']){const raw=fs.readFileSync(base+record.imageURL);assert.equal(raw.length,record.bytes);assert.equal(hash(raw),record.sha256,'Historical image URL changed');}}
@@ -149,4 +149,4 @@ assert.equal(entries.find(e=>e.key==='sticker-directions-rev01-SIXTEEN-DIRECTION
 
 assert.equal(entries.find(e=>e.key==='engine-hp-progress-rev01-ENGINE-HP-PROGRESS').position,98);assert.equal(data.batches.find(b=>b.id==='engine-hp-progress-rev01').posts[0].cards.length,5);
 
-assert.equal(entries.find(e=>e.key==='exhaust-wave-story-rev01-INSIDE-THE-PULSE').position,99);assert.equal(data.batches.find(b=>b.id==='exhaust-wave-story-rev01').posts[0].cards.length,3);
+assert.equal(entries.find(e=>e.key==='exhaust-wave-story-rev01-INSIDE-THE-PULSE').position,99);assert.equal(data.batches.find(b=>b.id==='exhaust-wave-story-rev01').posts[0].cards.length,5);

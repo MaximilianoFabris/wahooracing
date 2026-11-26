@@ -5,31 +5,36 @@
   "date": "2026-11-26",
   "dateLabel": "26 Nov 2026 · educational development note",
   "status": "published",
-  "revision": "CANDIDATE WAVE STUDY / EDUCATIONAL NOTE",
+  "revision": "CANDIDATE WAVE STUDY / EDUCATIONAL NOTE / VISUAL REV02",
   "type": "Development note",
   "evidence": "Prescribed-pulse illustration · no cylinder model or performance prediction",
   "systems": [
     "engine",
     "exhaust"
   ],
-  "hero": "engineering/exhaust-wave-story/hero-wide.png",
-  "heroAlt": "Generic unscaled expansion-chamber concept with blue qualitative pressure-front lines; not actual Wahoo geometry or a computed field.",
-  "heroCaption": "Concept schematic, unscaled. Qualitative pressure fronts introduce the question; they are not simulation results or a hardware drawing.",
-  "thumbnail": "engineering/exhaust-wave-story/hero-16x9.png",
-  "thumbnailAlt": "Blue pressure-front concept within a generic unscaled exhaust passage.",
+  "hero": "engineering/exhaust-wave-story-rev02/hero-wide.png",
+  "heroAlt": "Original candidate pressure-wave field, corrected inlet-origin labels, prescribed pulse and no cylinder model. Not a performance prediction.",
+  "heroCaption": "Presentation derivative of the original candidate illustration. Pressure colours preserved; surrounding paper removed. Prescribed pulse, no cylinder model or engine performance prediction.",
+  "thumbnail": "engineering/exhaust-wave-story-rev02/hero-16x9.png",
+  "thumbnailAlt": "Original candidate pressure-wave field, corrected inlet-origin labels, prescribed pulse and no cylinder model. Not a performance prediction.",
   "sections": [
     {
       "title": "An exhaust carries more than moving gas",
       "text": "The engine-development story is also a story about pressure. An exhaust carries gas, while pressure disturbances travel through that gas. Those are related phenomena, but they are not the same thing. A changing passage can transmit and reflect disturbances, making exhaust shape an important modelling question. Understanding those interactions requires more than drawing a return arrow and expecting extra horsepower. We need to establish what produced the pulse, how it travelled and how it interacted with the cylinder. This short development note introduces that question without treating an illustration as a validated engine result.",
       "figure": {
-        "image": "engineering/exhaust-wave-story/wave-concept-dark.svg",
+        "image": "engineering/exhaust-wave-story-rev02/wave-concept-dark.svg",
         "alt": "Generic unscaled duct concept with qualitative blue pressure fronts. No computed field or exact hardware dimensions.",
         "caption": "Educational schematic only. Transmission and reflection are questions for a coupled model; no measured timing or performance benefit is claimed."
       }
     },
     {
       "title": "The figure that started the conversation",
-      "text": "A candidate standalone one-dimensional gas-dynamics study, contributed through Claude Code, produced an illustrative space-and-time pressure plot. Its source script and original figure are available to the engineering team. The script supplies a prescribed pulse at the inlet of an illustrative varying-area duct. It does not calculate the cylinder that would generate a real engine’s exhaust pulse. The study therefore offers a way to discuss pressure-wave behaviour, rather than an engine performance prediction. The public diagrams here use a generic unscaled passage, not the detailed native-input profile or a reconstructed numerical field."
+      "text": "A candidate standalone one-dimensional gas-dynamics study, contributed through Claude Code, produced an illustrative space-and-time pressure plot. Its source script and original figure are available to the engineering team. The script supplies a prescribed pulse at the inlet of an illustrative varying-area duct. It does not calculate the cylinder that would generate a real engine’s exhaust pulse. The study therefore offers a way to discuss pressure-wave behaviour, rather than an engine performance prediction. The original illustrative field is reproduced below with corrected inlet-origin and boundary labels. Its colours and plotted proportions are preserved; surrounding paper is transparent, while white tones inside the field remain part of the pressure scale. The later blue mechanical diagram is a separate generic, unscaled concept.",
+      "figure": {
+        "image": "engineering/exhaust-wave-story-rev02/wave-field-dark.svg",
+        "alt": "Inside the pulse. Original candidate pressure-wave field, with paper background removed and its pressure colours preserved. Red is above ambient, blue below ambient; original 0.4–1.6 colour limits clip extremes. Corrected axis refers to illustrated pipe inlet. Angle is a nominal 10,000 RPM time mapping; inlet closure is prescribed. Single illustrative transient, no cylinder or performance prediction. ",
+        "caption": "Original candidate raster field; corrected labels, not regenerated data. Absolute pressure ratio; colours clip at 0.4–1.6. Nominal RPM maps time to angle. No cylinder model, numerical admission or performance prediction."
+      }
     },
     {
       "title": "Reading pressure without inventing a result",
@@ -37,11 +42,21 @@
     },
     {
       "title": "A clock is not a coupled firing cycle",
-      "text": "The nominal RPM in the source converts elapsed time into an angle coordinate. It is not an observed engine speed or a finding about the best RPM. Likewise, the labelled inlet closure is a prescribed boundary switch, not a predicted piston-controlled closing event. Source review also found that a separate exhaust passage was omitted from the illustrated domain. Its distance origin must therefore be described as the illustrated pipe inlet, rather than the cylinder port. These distinctions are why we review labels and boundary assumptions before turning a technical image into a public engineering claim."
+      "text": "The nominal RPM in the source converts elapsed time into an angle coordinate. It is not an observed engine speed or a finding about the best RPM. Likewise, the labelled inlet closure is a prescribed boundary switch, not a predicted piston-controlled closing event. Source review also found that a separate exhaust passage was omitted from the illustrated domain. Its distance origin must therefore be described as the illustrated pipe inlet, rather than the cylinder port. These distinctions are why we review labels and boundary assumptions before turning a technical image into a public engineering claim.",
+      "figure": {
+        "image": "engineering/exhaust-wave-story-rev02/exhaust-section-dark.svg",
+        "alt": "Original decoded axial pipe and tailpipe profile. Radius and distance in mm from illustrated pipe inlet; red line nominally100mm. Separate exhaust passage omitted.",
+        "caption": "Decoded input profile used by the candidate illustration; not manufactured exhaust CAD. Distance starts at illustrated pipe inlet, not the cylinder port. No engineering source files are released."
+      }
     },
     {
       "title": "What remains to be demonstrated",
-      "text": "The contribution remains candidate work and has not been independently admitted as an engine model. Contributor test records are not independent numerical acceptance. Numerical verification, consistent cylinder coupling, thermal and loss treatment, repeated-cycle behaviour and physical evidence remain necessary before using such a model for engine-performance decisions. This is a development direction, not a completed qualification milestone. We can explain the engineering question now while keeping the outstanding work visible."
+      "text": "The contribution remains candidate work and has not been independently admitted as an engine model. Contributor test records are not independent numerical acceptance. Numerical verification, consistent cylinder coupling, thermal and loss treatment, repeated-cycle behaviour and physical evidence remain necessary before using such a model for engine-performance decisions. This is a development direction, not a completed qualification milestone. We can explain the engineering question now while keeping the outstanding work visible.",
+      "figure": {
+        "image": "engineering/exhaust-wave-story-rev02/pressure-trace-dark.svg",
+        "alt": "The section. The signal. Original decoded axial pipe and tailpipe radius profile above the original illustrative pressure trace, each at unchanged proportions. The sample is nominally 100 mm from the illustrated inlet; separate exhaust passage omitted. Pressure is divided by ambient pressure; angle is nominal elapsed-time mapping. The closure line is prescribed. Candidate standalone study, not a power prediction. ",
+        "caption": "Original plotted inlet-side pressure trace, not digitised or recomputed. Nominal angle is an elapsed-time coordinate; dotted closure is imposed. Saved numerical samples remain unavailable for independent audit."
+      }
     },
     {
       "title": "Separate from the horsepower story",
@@ -53,5 +68,5 @@
     "Leo engineering interpretation and Isaac educational claims and label review. This communication review is not numerical admission.",
     "General background: NASA Glenn, Speed of Sound, https://www.grc.nasa.gov/www/BGH/sound.html (small pressure-disturbance propagation; not a validation source for this candidate)."
   ],
-  "changes": "New educational development note; earlier Journal history and admitted performance claims remain unchanged. Public diagrams are original generic unscaled schematics. No original source, native geometry or raw candidate data is redistributed."
+  "changes": "Owner-requested visual Rev02: original wave diagram first, source trace and sections second, then three retained explanatory cards. Corrected labels and explicit candidate limits. Prior artwork is preserved. No simulation rerun, engineering changes or model admission."
 }

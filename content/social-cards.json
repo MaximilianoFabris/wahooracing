@@ -4365,15 +4365,15 @@
     {
       "id": "exhaust-wave-story-rev01",
       "title": "Inside the pulse.",
-      "revision": "Rev01",
+      "revision": "Rev02",
       "posts": [
         {
           "id": "INSIDE-THE-PULSE",
           "title": "Inside the pulse.",
-          "format": "3-card carousel",
-          "revision": "Rev01",
+          "format": "5-card carousel",
+          "revision": "Rev02",
           "reviewStatus": "OWNER_REVIEW",
-          "caption": "Inside the pulse.\n\nAn exhaust carries pressure disturbances as well as gas. A changing passage can transmit and reflect those disturbances—the question our developing wave-model work is exploring.\n\nThe three cards use a generic, unscaled schematic with qualitative arrows. They are not a computed pressure field, actual Wahoo pipe geometry or a performance prediction.\n\nA separate candidate one-dimensional study supplied the starting point: one prescribed inlet pulse, with no cylinder model. It has not been independently admitted as an engine model. Independent numerical review, cylinder coupling and physical evidence remain ahead. This work does not explain or validate the horsepower gains reported in our commercial-model studies.\n\nUnderstanding first. Performance proof next.\n\nRead the development note: wahooracing.com/journal/inside-the-pulse/",
+          "caption": "Inside the pulse.\n\nThe original pressure-wave diagram leads this five-card story. Next: the decoded pipe sections and their illustrative inlet-side pressure trace. Then we unpack the engineering question.\n\nRed shows pressure above ambient; blue shows pressure below ambient. The white tones inside the heatmap are retained because they are part of its colour scale. Only the surrounding paper has been removed.\n\nThis is a candidate standalone study using one prescribed inlet pulse, with no cylinder model. Nominal RPM maps time to angle, and inlet closure is imposed. The distance origin is the illustrated pipe inlet; a separate exhaust passage is omitted. The field colours clip at 0.4–1.6.\n\nThe saved numerical samples/full field were not available for an independent numerical audit. This candidate has not been admitted as an engine model, and these images do not explain or validate the horsepower gains in our separate commercial studies.\n\nUnderstanding first. Performance proof next.\n\nwahooracing.com/journal/inside-the-pulse/",
           "hashtags": [
             "#WahooRacing",
             "#WahooIntelligence",
@@ -4383,16 +4383,24 @@
           ],
           "cards": [
             {
-              "imageURL": "/preview/social-cards/images/exhaust-wave-story-rev01/PULSE-01.png",
-              "alt": "Inside the pulse. A generic, unscaled exhaust passage with qualitative blue pressure-front lines introduces pressure disturbances in an exhaust. Concept schematic, not a computed field or engine prediction. Slide 1 of 3."
+              "imageURL": "/preview/social-cards/images/exhaust-wave-story-rev02/PULSE-R02-01.png",
+              "alt": "Inside the pulse. Original candidate pressure-wave field, with paper background removed and its pressure colours preserved. Red is above ambient, blue below ambient; original 0.4–1.6 colour limits clip extremes. Corrected axis refers to illustrated pipe inlet. Angle is a nominal 10,000 RPM time mapping; inlet closure is prescribed. Single illustrative transient, no cylinder or performance prediction. Slide 1 of 5."
             },
             {
-              "imageURL": "/preview/social-cards/images/exhaust-wave-story-rev01/PULSE-02.png",
-              "alt": "Pressure travels. Shape changes the response. The same generic unscaled duct uses qualitative arrows to explain transmission and reflection. Pressure disturbances differ from bulk gas flow; a return wave alone does not prove a power gain. No computed field, measured timing or benefit is claimed. Slide 2 of 3."
+              "imageURL": "/preview/social-cards/images/exhaust-wave-story-rev02/PULSE-R02-02.png",
+              "alt": "The section. The signal. Original decoded axial pipe and tailpipe radius profile above the original illustrative pressure trace, each at unchanged proportions. The sample is nominally 100 mm from the illustrated inlet; separate exhaust passage omitted. Pressure is divided by ambient pressure; angle is nominal elapsed-time mapping. The closure line is prescribed. Candidate standalone study, not a power prediction. Slide 2 of 5."
             },
             {
-              "imageURL": "/preview/social-cards/images/exhaust-wave-story-rev01/PULSE-03.png",
-              "alt": "Understanding first. A candidate one-dimensional wave study uses a prescribed pulse with no cylinder model. Independent numerical review, cylinder coupling and physical evidence remain ahead. This candidate has not been admitted as an engine model. Follow Wahoo development. Slide 3 of 3."
+              "imageURL": "/preview/social-cards/images/exhaust-wave-story-rev02/PULSE-R02-03.png",
+              "alt": "Inside the pulse. A generic, unscaled exhaust passage with qualitative blue pressure-front lines introduces pressure disturbances in an exhaust. Concept schematic, not a computed field or engine prediction. Slide 3 of 5."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/exhaust-wave-story-rev02/PULSE-R02-04.png",
+              "alt": "Pressure travels. Shape changes the response. The same generic unscaled duct uses qualitative arrows to explain transmission and reflection. Pressure disturbances differ from bulk gas flow; a return wave alone does not prove a power gain. No computed field, measured timing or benefit is claimed. Slide 4 of 5."
+            },
+            {
+              "imageURL": "/preview/social-cards/images/exhaust-wave-story-rev02/PULSE-R02-05.png",
+              "alt": "Understanding first. A candidate one-dimensional wave study uses a prescribed pulse with no cylinder model. Independent numerical review, cylinder coupling and physical evidence remain ahead. This candidate has not been admitted as an engine model. Follow Wahoo development. Slide 5 of 5."
             }
           ]
         }

@@ -123,7 +123,7 @@ async function dayDrawings(dir){
   const dest=path.join(out,'assets/day',path.relative(path.join(out,'assets'),file));
   if(file.includes(path.sep+'a47-a56'+path.sep)&&(file.includes(path.sep+'graphs'+path.sep+'dark'+path.sep)||file.endsWith('-dark.svg'))){const light=file.replace(path.sep+'graphs'+path.sep+'dark'+path.sep,path.sep+'graphs'+path.sep+'light'+path.sep).replace(/-dark\.svg$/,'-light.svg');await mkdir(path.dirname(dest),{recursive:true});await writeFile(dest,await readFile(light,'utf8'));dayDrawingPaths.push('/assets/'+path.relative(path.join(out,'assets'),file).split(path.sep).join('/'));continue;}
 
-  if((file.includes(path.sep+'engine-hp-progress'+path.sep)||file.includes(path.sep+'exhaust-wave-story'+path.sep))&&file.endsWith('-dark.svg')){const light=file.replace(/-dark\.svg$/,'-light.svg');await mkdir(path.dirname(dest),{recursive:true});await writeFile(dest,await readFile(light,'utf8'));dayDrawingPaths.push('/assets/'+path.relative(path.join(out,'assets'),file).split(path.sep).join('/'));continue;}
+  if((file.includes(path.sep+'engine-hp-progress'+path.sep)||(file.includes(path.sep+'exhaust-wave-story'+path.sep)||file.includes(path.sep+'exhaust-wave-story-rev02'+path.sep)))&&file.endsWith('-dark.svg')){const light=file.replace(/-dark\.svg$/,'-light.svg');await mkdir(path.dirname(dest),{recursive:true});await writeFile(dest,await readFile(light,'utf8'));dayDrawingPaths.push('/assets/'+path.relative(path.join(out,'assets'),file).split(path.sep).join('/'));continue;}
   await mkdir(path.dirname(dest),{recursive:true});
   const g001DayEdge=file.includes(path.sep+'g001-oct25'+path.sep)?'.trace-edge{opacity:.5}':'';
   const hullComparison=file.includes(path.sep+'h0-h1a-comparison'+path.sep);
