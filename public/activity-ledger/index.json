@@ -1,8 +1,8 @@
 {
   "schema": "wahoo.activity-public/1",
-  "generatedAt": "2026-11-26T14:55:20.059195Z",
-  "historySyncedAt": "2026-11-26T14:55:17.765971Z",
-  "totalEvents": 76716,
+  "generatedAt": "2026-11-26T16:55:16.343958Z",
+  "historySyncedAt": "2026-11-26T16:55:13.773268Z",
+  "totalEvents": 76720,
   "coverage": {
     "label": "Recovered activity, with known history gaps",
     "limitations": [
@@ -102,9 +102,9 @@
   "months": [
     {
       "id": "2026-11",
-      "count": 51370,
+      "count": 51374,
       "url": "/activity-ledger/2026-11.json",
-      "sha256": "3776a334ebca28e3c75877850fe10135446bed45f4e485d6e4affb4c9d574bae"
+      "sha256": "1832ed687d291db3fde86222f06dc71f898fd102df2e0a7678ca218e8d814617"
     },
     {
       "id": "2026-10",
